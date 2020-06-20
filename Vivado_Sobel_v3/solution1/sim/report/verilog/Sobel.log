@@ -1,0 +1,13 @@
+INFO: [COSIM-47] Using XSIM for RTL simulation.
+INFO: [COSIM-14] Instrumenting C test bench ...
+WARNING: [COSIM-369] AXI_master port 'image_in' has a depth of '640000'. Insufficient depth may result in simulation mismatch or freeze.
+WARNING: [COSIM-369] AXI_master port 'image_out' has a depth of '640000'. Insufficient depth may result in simulation mismatch or freeze.
+   Build using "F:/Vivado/Vivado/2019.2/tps/win64/msys64/mingw64/bin/g++"
+   Compiling test.cpp_pre.cpp.tb.cpp
+   Compiling core.cpp_pre.cpp.tb.cpp
+   Compiling apatb_Sobel.cpp
+   Generating cosim.tv.exe
+INFO: [COSIM-302] Starting C TB testing ... 
+ERROR: [COSIM-360] Aborting co-simulation: C TB simulation failed.
+ERROR: [COSIM-320] C TB testing failed, stop generating test vectors. Please check C TB or re-run cosim.
+ERROR: [COSIM-5] *** C/RTL co-simulation file generation failed. ***

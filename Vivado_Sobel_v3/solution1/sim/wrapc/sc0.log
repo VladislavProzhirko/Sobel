@@ -1,0 +1,5 @@
+   Build using "F:/Vivado/Vivado/2019.2/tps/win64/msys64/mingw64/bin/g++"
+   Compiling test.cpp_pre.cpp.tb.cpp
+   Compiling core.cpp_pre.cpp.tb.cpp
+   Compiling apatb_Sobel.cpp
+   Generating cosim.tv.exe

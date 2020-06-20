@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="core.cpp" path="C:\Users\bladk\AppData\Roaming\Xilinx\Vivado\Vivado_Sobel_v3\core.cpp"/>
+  </source>
+  <testbench>
+    <originFiles name="test.cpp" path="C:\Users\bladk\AppData\Roaming\Xilinx\Vivado\Vivado_Sobel_v3\test.cpp"/>
+  </testbench>
+</autopilotfilemapping:AutoPilotFileMapping>

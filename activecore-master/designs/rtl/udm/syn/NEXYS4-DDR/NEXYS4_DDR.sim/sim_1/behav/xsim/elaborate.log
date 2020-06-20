@@ -1,0 +1,45 @@
+Vivado Simulator 2019.2
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: F:/Vivado/Vivado/2019.2/bin/unwrapped/win64.o/xelab.exe -wto dbe4f722851248e3976cc912f1a3ff99 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_behav xil_defaultlib.tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 20 for port 'adr0_i' [C:/Users/bladk/AppData/Roaming/Xilinx/Vivado/SAPR_SNK/activecore-master/designs/rtl/udm/syn/NEXYS4-DDR/NEXYS4_DDR.v:131]
+WARNING: [VRFC 10-3091] actual bit length 39 differs from formal bit length 20 for port 'adr1_i' [C:/Users/bladk/AppData/Roaming/Xilinx/Vivado/SAPR_SNK/activecore-master/designs/rtl/udm/syn/NEXYS4-DDR/NEXYS4_DDR.v:136]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 8 for port 'image_in_q0' [C:/Users/bladk/AppData/Roaming/Xilinx/Vivado/SAPR_SNK/activecore-master/designs/rtl/udm/syn/NEXYS4-DDR/NEXYS4_DDR.v:232]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 8 for port 'image_out_q0' [C:/Users/bladk/AppData/Roaming/Xilinx/Vivado/SAPR_SNK/activecore-master/designs/rtl/udm/syn/NEXYS4-DDR/NEXYS4_DDR.v:237]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module unisims_ver.IBUF
+Compiling module unisims_ver.MMCME2_ADV(CLKFBOUT_MULT_F=10.0,...
+Compiling module unisims_ver.BUFG
+Compiling module xil_defaultlib.sys_clk_clk_wiz
+Compiling module xil_defaultlib.sys_clk
+Compiling module xil_defaultlib.reset_cntrl
+Compiling module xil_defaultlib.uart_rx(RX_EXTERNAL_OVERRIDE="YE...
+Compiling module xil_defaultlib.uart_tx
+Compiling module xil_defaultlib.udm_controller(BUS_TIMEOUT=100)
+Compiling module xil_defaultlib.udm(BUS_TIMEOUT=100,RX_EXTERNAL_...
+Compiling module xil_defaultlib.ram_dual(mem_init="NO",mem_data=...
+Compiling module xil_defaultlib.Block_proc
+Compiling module xil_defaultlib.AXIM2Mat
+Compiling module xil_defaultlib.Filter2D_k_buf_0_bkb_ram
+Compiling module xil_defaultlib.Filter2D_k_buf_0_bkb(DataWidth=8...
+Compiling module xil_defaultlib.Sobel_mux_32_8_1_1(ID=1,din0_WID...
+Compiling module xil_defaultlib.Filter2D
+Compiling module xil_defaultlib.Mat2AXIM
+Compiling module xil_defaultlib.fifo_w5_d2_A_shiftReg
+Compiling module xil_defaultlib.fifo_w5_d2_A
+Compiling module xil_defaultlib.fifo_w8_d2_A_shiftReg
+Compiling module xil_defaultlib.fifo_w8_d2_A
+Compiling module xil_defaultlib.start_for_Filter2eOg_shiftReg
+Compiling module xil_defaultlib.start_for_Filter2eOg
+Compiling module xil_defaultlib.start_for_Mat2AXIfYi_shiftReg
+Compiling module xil_defaultlib.start_for_Mat2AXIfYi
+Compiling module xil_defaultlib.Sobel
+Compiling module xil_defaultlib.NEXYS4_DDR(SIM="YES")
+Compiling module xil_defaultlib.tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_behav

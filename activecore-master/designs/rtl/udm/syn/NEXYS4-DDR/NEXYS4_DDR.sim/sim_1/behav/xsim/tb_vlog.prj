@@ -1,0 +1,32 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../NEXYS4_DDR.srcs/sources_1/ip/sys_clk" \
+"../../../../NEXYS4_DDR.ip_user_files/ip/sys_clk/sys_clk_clk_wiz.v" \
+"../../../../NEXYS4_DDR.ip_user_files/ip/sys_clk/sys_clk.v" \
+"../../../../../../tb/tb.v" \
+"../../../../NEXYS4_DDR.v" \
+"../../../../../../hdl/udm.v" \
+"../../../../../../hdl/uart_rx.v" \
+"../../../../../../hdl/udm_controller.v" \
+"../../../../../../hdl/uart_tx.v" \
+"../../../../../../../reset_cntrl/reset_cntrl.v" \
+"../../../../../../../ram/ram_dual_memsplit.v" \
+"../../../../../../../ram/ram.v" \
+"../../../../../../../ram/ram_dual.v" \
+"../../../../../../../../../../crc32/crc32/syn/verilog/make_hash.v" \
+"../../../../../../../../../../../Vivado_Sobel_v3/solution1/syn/verilog/fifo_w8_d2_A.v" \
+"../../../../../../../../../../../Vivado_Sobel_v3/solution1/syn/verilog/Mat2AXIM.v" \
+"../../../../../../../../../../../Vivado_Sobel_v3/solution1/syn/verilog/start_for_Filter2eOg.v" \
+"../../../../../../../../../../../Vivado_Sobel_v3/solution1/syn/verilog/AXIM2Mat.v" \
+"../../../../../../../../../../../Vivado_Sobel_v3/solution1/syn/verilog/fifo_w5_d2_A.v" \
+"../../../../../../../../../../../Vivado_Sobel_v3/solution1/syn/verilog/start_for_Mat2AXIfYi.v" \
+"../../../../../../../../../../../Vivado_Sobel_v3/solution1/syn/verilog/Sobel_mux_32_8_1_1.v" \
+"../../../../../../../../../../../Vivado_Sobel_v3/solution1/syn/verilog/Block_proc.v" \
+"../../../../../../../../../../../Vivado_Sobel_v3/solution1/syn/verilog/Filter2D.v" \
+"../../../../../../../../../../../Vivado_Sobel_v3/solution1/syn/verilog/Sobel.v" \
+"../../../../../../../../../../../Vivado_Sobel_v3/solution1/syn/verilog/Filter2D_k_buf_0_bkb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
