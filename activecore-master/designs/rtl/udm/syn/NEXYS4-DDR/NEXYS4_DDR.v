@@ -87,7 +87,10 @@ localparam CSR_LED_ADDR	 	= 32'h00000000;
 localparam CSR_SW_ADDR  	= 32'h00000004;
 localparam TESTMEM_ADDR 	= 32'h80000000;
 localparam TESTMEM_WSIZE	= 1024;
-
+//******************
+localparam TESTMEM_OUT 	= 32'h90000000;
+localparam TESTMEM_WSIZE_out	= 1024;
+//******************
 
 localparam CSR_LEN_ADDR = 32'h00000008;
 localparam CSR_RET_ADDR  	= 32'h0000000C;
@@ -109,9 +112,18 @@ reg [31:0] testmem_udm_addr, testmem_udm_wdata;
 wire [31:0] testmem_udm_rdata;
 
 wire testmem_p1_we;
-wire [6:0] testmem_p1_addr; 
+wire [6:0] testmem_p1_addr;
+
+//**************
+// [6:0] testmem_p2_addr;
+//************** 
+
 wire [31:0] testmem_p1_wdata;
 wire [31:0] testmem_p1_rdata;
+
+//**********
+//wire [31:0] testmem_p2_wdata;
+//********
 
 // testmem's port1 is inactive
 assign testmem_p1_we = 1'b0;
@@ -149,7 +161,7 @@ always @(posedge clk_gen)
     testmem_udm_we <= 1'b0;
     testmem_udm_addr <= 0;
     testmem_udm_wdata <= 0;
-    start <= 0;
+    start <= 1;
     
     csr_resp <= 1'b0;
     testmem_resp_dly <= 1'b0;
@@ -231,11 +243,11 @@ Sobel Sobel_my (
         //.image_in_d0,
         .image_in_q0(testmem_p1_rdata),
         //.image_in_we0,
-        .image_out_address0(testmem_p1_addr),
+        .image_out_address0(testmem_p2_addr),
         //.image_out_ce0,
-        //.image_out_d0,
-        .image_out_q0(testmem_p1_rdata),
-        //.image_out_we0,
+        //.image_out_d0(),
+        .image_out_q0(testmem_p1_wdata),
+        //.image_out_we0(testmem_p1_we),
         .ap_clk(clk_gen),
         .ap_rst(srst),
         .ap_start(start),

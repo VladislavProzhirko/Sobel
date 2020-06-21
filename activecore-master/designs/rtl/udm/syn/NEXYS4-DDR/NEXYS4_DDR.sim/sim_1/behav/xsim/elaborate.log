@@ -4,10 +4,11 @@ Running: F:/Vivado/Vivado/2019.2/bin/unwrapped/win64.o/xelab.exe -wto dbe4f72285
 Using 2 slave threads.
 Starting static elaboration
 Pass Through NonSizing Optimizer
-WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 20 for port 'adr0_i' [C:/Users/bladk/AppData/Roaming/Xilinx/Vivado/SAPR_SNK/activecore-master/designs/rtl/udm/syn/NEXYS4-DDR/NEXYS4_DDR.v:131]
-WARNING: [VRFC 10-3091] actual bit length 39 differs from formal bit length 20 for port 'adr1_i' [C:/Users/bladk/AppData/Roaming/Xilinx/Vivado/SAPR_SNK/activecore-master/designs/rtl/udm/syn/NEXYS4-DDR/NEXYS4_DDR.v:136]
-WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 8 for port 'image_in_q0' [C:/Users/bladk/AppData/Roaming/Xilinx/Vivado/SAPR_SNK/activecore-master/designs/rtl/udm/syn/NEXYS4-DDR/NEXYS4_DDR.v:232]
-WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 8 for port 'image_out_q0' [C:/Users/bladk/AppData/Roaming/Xilinx/Vivado/SAPR_SNK/activecore-master/designs/rtl/udm/syn/NEXYS4-DDR/NEXYS4_DDR.v:237]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 20 for port 'adr0_i' [C:/Users/bladk/AppData/Roaming/Xilinx/Vivado/Sobel/activecore-master/designs/rtl/udm/syn/NEXYS4-DDR/NEXYS4_DDR.v:143]
+WARNING: [VRFC 10-3091] actual bit length 39 differs from formal bit length 20 for port 'adr1_i' [C:/Users/bladk/AppData/Roaming/Xilinx/Vivado/Sobel/activecore-master/designs/rtl/udm/syn/NEXYS4-DDR/NEXYS4_DDR.v:148]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 8 for port 'image_in_q0' [C:/Users/bladk/AppData/Roaming/Xilinx/Vivado/Sobel/activecore-master/designs/rtl/udm/syn/NEXYS4-DDR/NEXYS4_DDR.v:244]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 7 for port 'image_out_address0' [C:/Users/bladk/AppData/Roaming/Xilinx/Vivado/Sobel/activecore-master/designs/rtl/udm/syn/NEXYS4-DDR/NEXYS4_DDR.v:246]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 8 for port 'image_out_q0' [C:/Users/bladk/AppData/Roaming/Xilinx/Vivado/Sobel/activecore-master/designs/rtl/udm/syn/NEXYS4-DDR/NEXYS4_DDR.v:249]
 Completed static elaboration
 Starting simulation data flow analysis
 Completed simulation data flow analysis
@@ -24,11 +25,13 @@ Compiling module xil_defaultlib.udm_controller(BUS_TIMEOUT=100)
 Compiling module xil_defaultlib.udm(BUS_TIMEOUT=100,RX_EXTERNAL_...
 Compiling module xil_defaultlib.ram_dual(mem_init="NO",mem_data=...
 Compiling module xil_defaultlib.Block_proc
+Compiling module xil_defaultlib.Array2Mat
 Compiling module xil_defaultlib.AXIM2Mat
 Compiling module xil_defaultlib.Filter2D_k_buf_0_bkb_ram
 Compiling module xil_defaultlib.Filter2D_k_buf_0_bkb(DataWidth=8...
 Compiling module xil_defaultlib.Sobel_mux_32_8_1_1(ID=1,din0_WID...
 Compiling module xil_defaultlib.Filter2D
+Compiling module xil_defaultlib.Mat2Array
 Compiling module xil_defaultlib.Mat2AXIM
 Compiling module xil_defaultlib.fifo_w5_d2_A_shiftReg
 Compiling module xil_defaultlib.fifo_w5_d2_A

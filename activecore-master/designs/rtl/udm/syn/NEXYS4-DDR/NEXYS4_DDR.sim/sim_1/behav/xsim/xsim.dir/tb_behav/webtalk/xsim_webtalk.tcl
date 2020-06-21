@@ -1,6 +1,6 @@
-webtalk_init -webtalk_dir C:/Users/bladk/AppData/Roaming/Xilinx/Vivado/SAPR_SNK/activecore-master/designs/rtl/udm/syn/NEXYS4-DDR/NEXYS4_DDR.sim/sim_1/behav/xsim/xsim.dir/tb_behav/webtalk/
+webtalk_init -webtalk_dir C:/Users/bladk/AppData/Roaming/Xilinx/Vivado/Sobel/activecore-master/designs/rtl/udm/syn/NEXYS4-DDR/NEXYS4_DDR.sim/sim_1/behav/xsim/xsim.dir/tb_behav/webtalk/
 webtalk_register_client -client project
-webtalk_add_data -client project -key date_generated -value "Sat Jun 20 17:02:14 2020" -context "software_version_and_target_device"
+webtalk_add_data -client project -key date_generated -value "Sun Jun 21 14:51:17 2020" -context "software_version_and_target_device"
 webtalk_add_data -client project -key product_version -value "XSIM v2019.2 (64-bit)" -context "software_version_and_target_device"
 webtalk_add_data -client project -key build_version -value "2708876" -context "software_version_and_target_device"
 webtalk_add_data -client project -key os_platform -value "WIN64" -context "software_version_and_target_device"
@@ -14,7 +14,7 @@ webtalk_add_data -client project -key target_package -value "not_applicable" -co
 webtalk_add_data -client project -key target_speed -value "not_applicable" -context "software_version_and_target_device"
 webtalk_add_data -client project -key random_id -value "a6b7288b-1f87-4812-93d0-b81c61488201" -context "software_version_and_target_device"
 webtalk_add_data -client project -key project_id -value "dbe4f722851248e3976cc912f1a3ff99" -context "software_version_and_target_device"
-webtalk_add_data -client project -key project_iteration -value "96" -context "software_version_and_target_device"
+webtalk_add_data -client project -key project_iteration -value "124" -context "software_version_and_target_device"
 webtalk_add_data -client project -key os_name -value "Windows Server 2016 or Windows 10" -context "user_environment"
 webtalk_add_data -client project -key os_release -value "major release  (build 9200)" -context "user_environment"
 webtalk_add_data -client project -key cpu_name -value "Intel(R) Core(TM) i5-7200U CPU @ 2.50GHz" -context "user_environment"
@@ -23,12 +23,11 @@ webtalk_add_data -client project -key total_processors -value "1" -context "user
 webtalk_add_data -client project -key system_ram -value "8.000 GB" -context "user_environment"
 webtalk_register_client -client xsim
 webtalk_add_data -client xsim -key runall -value "true" -context "xsim\\command_line_options"
-webtalk_add_data -client xsim -key runall -value "true" -context "xsim\\command_line_options"
 webtalk_add_data -client xsim -key Command -value "xsim" -context "xsim\\command_line_options"
 webtalk_add_data -client xsim -key trace_waveform -value "true" -context "xsim\\usage"
 webtalk_add_data -client xsim -key runtime -value "530345 ns" -context "xsim\\usage"
 webtalk_add_data -client xsim -key iteration -value "0" -context "xsim\\usage"
-webtalk_add_data -client xsim -key Simulation_Time -value "27.94_sec" -context "xsim\\usage"
-webtalk_add_data -client xsim -key Simulation_Memory -value "15688_KB" -context "xsim\\usage"
-webtalk_transmit -clientid 2213032135 -regid "211944227_0_0_607" -xml C:/Users/bladk/AppData/Roaming/Xilinx/Vivado/SAPR_SNK/activecore-master/designs/rtl/udm/syn/NEXYS4-DDR/NEXYS4_DDR.sim/sim_1/behav/xsim/xsim.dir/tb_behav/webtalk/usage_statistics_ext_xsim.xml -html C:/Users/bladk/AppData/Roaming/Xilinx/Vivado/SAPR_SNK/activecore-master/designs/rtl/udm/syn/NEXYS4-DDR/NEXYS4_DDR.sim/sim_1/behav/xsim/xsim.dir/tb_behav/webtalk/usage_statistics_ext_xsim.html -wdm C:/Users/bladk/AppData/Roaming/Xilinx/Vivado/SAPR_SNK/activecore-master/designs/rtl/udm/syn/NEXYS4-DDR/NEXYS4_DDR.sim/sim_1/behav/xsim/xsim.dir/tb_behav/webtalk/usage_statistics_ext_xsim.wdm -intro "<H3>XSIM Usage Report</H3><BR>"
+webtalk_add_data -client xsim -key Simulation_Time -value "10.44_sec" -context "xsim\\usage"
+webtalk_add_data -client xsim -key Simulation_Memory -value "15780_KB" -context "xsim\\usage"
+webtalk_transmit -clientid 4061792536 -regid "211944227_0_0_607" -xml C:/Users/bladk/AppData/Roaming/Xilinx/Vivado/Sobel/activecore-master/designs/rtl/udm/syn/NEXYS4-DDR/NEXYS4_DDR.sim/sim_1/behav/xsim/xsim.dir/tb_behav/webtalk/usage_statistics_ext_xsim.xml -html C:/Users/bladk/AppData/Roaming/Xilinx/Vivado/Sobel/activecore-master/designs/rtl/udm/syn/NEXYS4-DDR/NEXYS4_DDR.sim/sim_1/behav/xsim/xsim.dir/tb_behav/webtalk/usage_statistics_ext_xsim.html -wdm C:/Users/bladk/AppData/Roaming/Xilinx/Vivado/Sobel/activecore-master/designs/rtl/udm/syn/NEXYS4-DDR/NEXYS4_DDR.sim/sim_1/behav/xsim/xsim.dir/tb_behav/webtalk/usage_statistics_ext_xsim.wdm -intro "<H3>XSIM Usage Report</H3><BR>"
 webtalk_terminate
