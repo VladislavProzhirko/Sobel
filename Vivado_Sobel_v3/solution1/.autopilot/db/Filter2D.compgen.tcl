@@ -1,6 +1,6 @@
 # This script segment is generated automatically by AutoPilot
 
-set id 13
+set id 9
 set name Sobel_mux_32_8_1_1
 set corename simcore_mux
 set op mux
@@ -80,7 +80,7 @@ puts "@W \[IMPL-101\] Cannot find ::AESL_LIB_VIRTEX::xil_gen_pipemux, check your
 
 
 # Memory (RAM/ROM)  definition:
-set ID 19
+set ID 15
 set hasByteEnable 0
 set MemName Filter2D_k_buf_0_bkb
 set CoreName ap_simcore_mem
@@ -174,7 +174,7 @@ if {${::AESL::PGuard_autoexp_gen}} {
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 20 \
+    id 16 \
     name p_src_rows_V \
     type fifo \
     dir I \
@@ -189,7 +189,7 @@ eval "cg_default_interface_gen_dc { \
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 21 \
+    id 17 \
     name p_src_cols_V \
     type fifo \
     dir I \
@@ -204,7 +204,7 @@ eval "cg_default_interface_gen_dc { \
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 22 \
+    id 18 \
     name p_src_data_stream_V \
     type fifo \
     dir I \
@@ -219,7 +219,7 @@ eval "cg_default_interface_gen_dc { \
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 23 \
+    id 19 \
     name p_dst_data_stream_V \
     type fifo \
     dir O \
@@ -241,7 +241,7 @@ eval "cg_default_interface_gen_dc { \
     sync_rst true \
     corename ap_ctrl \
     op interface \
-    ports { ap_done { O 1 bit } ap_idle { O 1 bit } ap_continue { I 1 bit } } \
+    ports { ap_start { I 1 bit } ap_ready { O 1 bit } ap_done { O 1 bit } ap_idle { O 1 bit } ap_continue { I 1 bit } } \
 } "
 }
 

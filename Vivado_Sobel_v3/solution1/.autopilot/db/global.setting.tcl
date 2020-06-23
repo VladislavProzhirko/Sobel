@@ -42,7 +42,7 @@ set SCTraceOption all
 set TargetInfo xc7a100t:-csg324:-3
 set SourceFiles {sc {} c ../core.cpp}
 set SourceFlags {sc {} c {{}}}
-set DirectiveFile C:/Users/bladk/AppData/Roaming/Xilinx/Vivado/Vivado_Sobel_v3/solution1/solution1.directive
+set DirectiveFile C:/Users/Drus/Desktop/parni/Sobel/Vivado_Sobel_v3/solution1/solution1.directive
 set TBFiles {verilog ../test.cpp bc ../test.cpp vhdl ../test.cpp sc ../test.cpp cas ../test.cpp c {}}
 set SpecLanguage C
 set TVInFiles {bc {} c {} sc {} cas {} vhdl {} verilog {}}

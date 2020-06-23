@@ -14,7 +14,7 @@ config_sdx -target none
 config_export -vivado_optimization_level 2 -vivado_phys_opt place -vivado_report_level 0
 set_clock_uncertainty 12.5%
 #source "./Vivado_Sobel_v3/solution1/directives.tcl"
-csim_design
+csim_design -clean
 csynth_design
 cosim_design -setup
 export_design -rtl verilog -format ip_catalog

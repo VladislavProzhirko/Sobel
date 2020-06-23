@@ -15,13 +15,13 @@ set C_modelName {Mat2AXIM}
 set C_modelType { void 0 }
 set C_modelArgList {
 	{ img_data_stream_V int 8 regular {fifo 0 volatile }  }
-	{ fb int 8 regular {array 100 { 0 } 0 1 }  }
+	{ fb int 32 regular {array 25 { 2 } 1 1 }  }
 }
 set C_modelArgMapList {[ 
 	{ "Name" : "img_data_stream_V", "interface" : "fifo", "bitwidth" : 8, "direction" : "READONLY"} , 
- 	{ "Name" : "fb", "interface" : "memory", "bitwidth" : 8, "direction" : "WRITEONLY"} ]}
+ 	{ "Name" : "fb", "interface" : "memory", "bitwidth" : 32, "direction" : "READWRITE"} ]}
 # RTL Port declarations: 
-set portNum 14
+set portNum 15
 set portList { 
 	{ ap_clk sc_in sc_logic 1 clock -1 } 
 	{ ap_rst sc_in sc_logic 1 reset -1 active_high_sync } 
@@ -33,10 +33,11 @@ set portList {
 	{ img_data_stream_V_dout sc_in sc_lv 8 signal 0 } 
 	{ img_data_stream_V_empty_n sc_in sc_logic 1 signal 0 } 
 	{ img_data_stream_V_read sc_out sc_logic 1 signal 0 } 
-	{ fb_address0 sc_out sc_lv 7 signal 1 } 
+	{ fb_address0 sc_out sc_lv 5 signal 1 } 
 	{ fb_ce0 sc_out sc_logic 1 signal 1 } 
 	{ fb_we0 sc_out sc_logic 1 signal 1 } 
-	{ fb_d0 sc_out sc_lv 8 signal 1 } 
+	{ fb_d0 sc_out sc_lv 32 signal 1 } 
+	{ fb_q0 sc_in sc_lv 32 signal 1 } 
 }
 set NewPortList {[ 
 	{ "name": "ap_clk", "direction": "in", "datatype": "sc_logic", "bitwidth":1, "type": "clock", "bundle":{"name": "ap_clk", "role": "default" }} , 
@@ -49,67 +50,43 @@ set NewPortList {[
  	{ "name": "img_data_stream_V_dout", "direction": "in", "datatype": "sc_lv", "bitwidth":8, "type": "signal", "bundle":{"name": "img_data_stream_V", "role": "dout" }} , 
  	{ "name": "img_data_stream_V_empty_n", "direction": "in", "datatype": "sc_logic", "bitwidth":1, "type": "signal", "bundle":{"name": "img_data_stream_V", "role": "empty_n" }} , 
  	{ "name": "img_data_stream_V_read", "direction": "out", "datatype": "sc_logic", "bitwidth":1, "type": "signal", "bundle":{"name": "img_data_stream_V", "role": "read" }} , 
- 	{ "name": "fb_address0", "direction": "out", "datatype": "sc_lv", "bitwidth":7, "type": "signal", "bundle":{"name": "fb", "role": "address0" }} , 
+ 	{ "name": "fb_address0", "direction": "out", "datatype": "sc_lv", "bitwidth":5, "type": "signal", "bundle":{"name": "fb", "role": "address0" }} , 
  	{ "name": "fb_ce0", "direction": "out", "datatype": "sc_logic", "bitwidth":1, "type": "signal", "bundle":{"name": "fb", "role": "ce0" }} , 
  	{ "name": "fb_we0", "direction": "out", "datatype": "sc_logic", "bitwidth":1, "type": "signal", "bundle":{"name": "fb", "role": "we0" }} , 
- 	{ "name": "fb_d0", "direction": "out", "datatype": "sc_lv", "bitwidth":8, "type": "signal", "bundle":{"name": "fb", "role": "d0" }}  ]}
+ 	{ "name": "fb_d0", "direction": "out", "datatype": "sc_lv", "bitwidth":32, "type": "signal", "bundle":{"name": "fb", "role": "d0" }} , 
+ 	{ "name": "fb_q0", "direction": "in", "datatype": "sc_lv", "bitwidth":32, "type": "signal", "bundle":{"name": "fb", "role": "q0" }}  ]}
 
 set RtlHierarchyInfo {[
-	{"ID" : "0", "Level" : "0", "Path" : "`AUTOTB_DUT_INST", "Parent" : "", "Child" : ["1"],
+	{"ID" : "0", "Level" : "0", "Path" : "`AUTOTB_DUT_INST", "Parent" : "",
 		"CDFG" : "Mat2AXIM",
 		"Protocol" : "ap_ctrl_hs",
 		"ControlExist" : "1", "ap_start" : "1", "ap_ready" : "1", "ap_done" : "1", "ap_continue" : "1", "ap_idle" : "1",
 		"Pipeline" : "None", "UnalignedPipeline" : "0", "RewindPipeline" : "0", "ProcessNetwork" : "0",
 		"II" : "0",
-		"VariableLatency" : "1", "ExactLatency" : "-1", "EstimateLatencyMin" : "132", "EstimateLatencyMax" : "132",
+		"VariableLatency" : "1", "ExactLatency" : "-1", "EstimateLatencyMin" : "231", "EstimateLatencyMax" : "231",
 		"Combinational" : "0",
 		"Datapath" : "0",
 		"ClockEnable" : "0",
 		"HasSubDataflow" : "0",
 		"InDataflowNetwork" : "1",
 		"HasNonBlockingOperation" : "0",
-		"WaitState" : [
-			{"State" : "ap_ST_fsm_state2", "FSM" : "ap_CS_fsm", "SubInstance" : "grp_Mat2Array_fu_38"}],
 		"Port" : [
 			{"Name" : "img_data_stream_V", "Type" : "Fifo", "Direction" : "I", "DependentProc" : "0", "DependentChan" : "0",
-				"SubConnect" : [
-					{"ID" : "1", "SubInstance" : "grp_Mat2Array_fu_38", "Port" : "img_data_stream_V"}]},
-			{"Name" : "fb", "Type" : "Memory", "Direction" : "O",
-				"SubConnect" : [
-					{"ID" : "1", "SubInstance" : "grp_Mat2Array_fu_38", "Port" : "fb"}]}]},
-	{"ID" : "1", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.grp_Mat2Array_fu_38", "Parent" : "0",
-		"CDFG" : "Mat2Array",
-		"Protocol" : "ap_ctrl_hs",
-		"ControlExist" : "1", "ap_start" : "1", "ap_ready" : "1", "ap_done" : "1", "ap_continue" : "0", "ap_idle" : "1",
-		"Pipeline" : "None", "UnalignedPipeline" : "0", "RewindPipeline" : "0", "ProcessNetwork" : "0",
-		"II" : "0",
-		"VariableLatency" : "1", "ExactLatency" : "-1", "EstimateLatencyMin" : "131", "EstimateLatencyMax" : "131",
-		"Combinational" : "0",
-		"Datapath" : "0",
-		"ClockEnable" : "0",
-		"HasSubDataflow" : "0",
-		"InDataflowNetwork" : "0",
-		"HasNonBlockingOperation" : "0",
-		"Port" : [
-			{"Name" : "img_data_stream_V", "Type" : "Fifo", "Direction" : "I",
 				"BlockSignal" : [
 					{"Name" : "img_data_stream_V_blk_n", "Type" : "RtlSignal"}]},
-			{"Name" : "fb", "Type" : "Memory", "Direction" : "O"}]}]}
+			{"Name" : "fb", "Type" : "Memory", "Direction" : "IO"}]}]}
 
 
 set ArgLastReadFirstWriteLatency {
 	Mat2AXIM {
 		img_data_stream_V {Type I LastRead 3 FirstWrite -1}
-		fb {Type O LastRead -1 FirstWrite 3}}
-	Mat2Array {
-		img_data_stream_V {Type I LastRead 3 FirstWrite -1}
-		fb {Type O LastRead -1 FirstWrite 3}}}
+		fb {Type IO LastRead 2 FirstWrite 3}}}
 
 set hasDtUnsupportedChannel 0
 
 set PerformanceInfo {[
-	{"Name" : "Latency", "Min" : "132", "Max" : "132"}
-	, {"Name" : "Interval", "Min" : "132", "Max" : "132"}
+	{"Name" : "Latency", "Min" : "231", "Max" : "231"}
+	, {"Name" : "Interval", "Min" : "231", "Max" : "231"}
 ]}
 
 set PipelineEnableSignalInfo {[
@@ -117,5 +94,5 @@ set PipelineEnableSignalInfo {[
 
 set Spec2ImplPortList { 
 	img_data_stream_V { ap_fifo {  { img_data_stream_V_dout fifo_data 0 8 }  { img_data_stream_V_empty_n fifo_status 0 1 }  { img_data_stream_V_read fifo_update 1 1 } } }
-	fb { ap_memory {  { fb_address0 mem_address 1 7 }  { fb_ce0 mem_ce 1 1 }  { fb_we0 mem_we 1 1 }  { fb_d0 mem_din 1 8 } } }
+	fb { ap_memory {  { fb_address0 mem_address 1 5 }  { fb_ce0 mem_ce 1 1 }  { fb_we0 mem_we 1 1 }  { fb_d0 mem_din 1 32 }  { fb_q0 mem_dout 0 32 } } }
 }

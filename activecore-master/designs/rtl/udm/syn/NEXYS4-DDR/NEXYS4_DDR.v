@@ -6,7 +6,7 @@
  *     License: See LICENSE file for details
  */
 
-
+`timescale 1ns / 1ps
 
 
 module NEXYS4_DDR
@@ -88,16 +88,16 @@ localparam CSR_SW_ADDR  	= 32'h00000004;
 localparam TESTMEM_ADDR 	= 32'h80000000;
 localparam TESTMEM_WSIZE	= 1024;
 //******************
-localparam TESTMEM_OUT 	= 32'h90000000;
-localparam TESTMEM_WSIZE_out	= 1024;
+localparam TESTMEM_ADDR_OUT 	    = 32'h90000000;
+//localparam TESTMEM_WSIZE    = 1024;
 //******************
 
-localparam CSR_LEN_ADDR = 32'h00000008;
-localparam CSR_RET_ADDR  	= 32'h0000000C;
+//localparam CSR_LEN_ADDR = 32'h00000008;
+//localparam CSR_RET_ADDR  	= 32'h0000000C;
 localparam CSR_START_ADDR  	= 32'h00000010;
 
-wire [31:0] ap_ret;
-reg [31:0] LEN;
+//wire [31:0] ap_ret;
+//reg [31:0] LEN;
 reg start;
 wire done;
 wire idle;
@@ -107,13 +107,21 @@ wire ready;
 wire testmem_udm_enb;
 assign testmem_udm_enb = (!(udm_addr < TESTMEM_ADDR) && (udm_addr < (TESTMEM_ADDR + (TESTMEM_WSIZE*4))));
 
+wire testmem_udm_enb_out;
+assign testmem_udm_enb_out = (!(udm_addr < TESTMEM_ADDR_OUT) && (udm_addr < (TESTMEM_ADDR_OUT + (TESTMEM_WSIZE*4))));
+
 reg testmem_udm_we;
 reg [31:0] testmem_udm_addr, testmem_udm_wdata;
 wire [31:0] testmem_udm_rdata;
 
-wire testmem_p1_we;
-wire [6:0] testmem_p1_addr;
+reg testmem_udm_we_out;
+reg [31:0] testmem_udm_addr_out, testmem_udm_wdata_out;
+wire [31:0] testmem_udm_rdata_out;
 
+
+wire testmem_p1_we;
+wire [4:0] testmem_p1_addr;
+wire [4:0] testmem_p1_addr_out;
 //**************
 // [6:0] testmem_p2_addr;
 //************** 
@@ -121,15 +129,22 @@ wire [6:0] testmem_p1_addr;
 wire [31:0] testmem_p1_wdata;
 wire [31:0] testmem_p1_rdata;
 
+wire [31:0] testmem_p1_wdata_out;
+wire [31:0] testmem_p1_rdata_out;
+
 //**********
 //wire [31:0] testmem_p2_wdata;
 //********
 
 // testmem's port1 is inactive
 assign testmem_p1_we = 1'b0;
+assign testmem_p1_we_out = 1'b0;
 //assign testmem_p1_addr = 0;
+assign testmem_p1_addr_out = 0;
 assign testmem_p1_wdata = 0;
+assign testmem_p1_wdata_out = 0;
 
+/////////////////////////IN////////////////////////////
 ram_dual #(
     .mem_init("NO")
     , .mem_data("nodata.hex")
@@ -149,10 +164,37 @@ ram_dual #(
     , .we1_i(testmem_p1_we)
     , .dat1_o(testmem_p1_rdata)
 );
+/////////////////////////IN///////////////////////////////
+
+
+/////////////////////////OUT//////////////////////////////
+ram_dual #(
+    .mem_init("NO")
+    , .mem_data("nodata_out.hex")
+    , .dat_width(32)
+    , .adr_width(20)
+    , .mem_size(TESTMEM_WSIZE)
+) testmem_put (
+    .clk(clk_gen)
+
+    , .dat0_i(testmem_udm_wdata_out)
+    , .adr0_i(testmem_udm_addr_out)
+    , .we0_i(testmem_udm_we_out)
+    , .dat0_o(testmem_udm_rdata_out)
+
+    , .dat1_i(testmem_p1_wdata_out)
+    , .adr1_i({32'h0, testmem_p1_addr_out})
+    , .we1_i(testmem_p1_we_out)
+    , .dat1_o(testmem_p1_rdata_out)
+);
+///////////////////OUT///////////////////////////////////
+
 
 assign udm_ack = udm_req;   // bus always ready to accept request
 reg csr_resp, testmem_resp, testmem_resp_dly;
 reg [31:0] csr_rdata;
+
+reg testmem_resp_out, testmem_resp_dly_out;
 
 // bus request
 always @(posedge clk_gen)
@@ -161,11 +203,19 @@ always @(posedge clk_gen)
     testmem_udm_we <= 1'b0;
     testmem_udm_addr <= 0;
     testmem_udm_wdata <= 0;
-    start <= 1;
+    
+    testmem_udm_we_out <= 1'b0;
+    testmem_udm_addr_out <= 0;
+    testmem_udm_wdata_out <= 0;
+    
+    start <= 0;
     
     csr_resp <= 1'b0;
     testmem_resp_dly <= 1'b0;
     testmem_resp <= testmem_resp_dly;
+    
+    testmem_resp_dly_out <= 1'b0;
+    testmem_resp_out <= testmem_resp_dly_out;
     
     if (udm_req && udm_ack)
         begin
@@ -173,14 +223,28 @@ always @(posedge clk_gen)
         if (udm_we)     // writing
             begin
             if (udm_addr == CSR_LED_ADDR) LED <= udm_wdata;
-            if (udm_addr == CSR_LEN_ADDR) LEN <= udm_wdata;
-            if (udm_addr == CSR_START_ADDR) start <= 1'b1;
+            //if (udm_addr == CSR_LEN_ADDR) LEN <= udm_wdata;
+            if (udm_addr == CSR_START_ADDR) 
+                begin 
+                    start <= 1'b1;
+                    //WAIT(100);
+                    #40;
+                    //wait(1000);
+                end
             if (testmem_udm_enb)
                 begin
                 testmem_udm_we <= 1'b1;
                 testmem_udm_addr <= udm_addr[31:2];     // 4-byte aligned access only
                 testmem_udm_wdata <= udm_wdata;
                 end
+                
+            if (testmem_udm_enb_out)
+                begin
+                testmem_udm_we_out <= 1'b1;
+                testmem_udm_addr_out <= udm_addr[31:2];     // 4-byte aligned access only
+                testmem_udm_wdata_out <= udm_wdata;
+                end
+                
             end
         
         else            // reading
@@ -195,16 +259,23 @@ always @(posedge clk_gen)
                 csr_resp <= 1'b1;
                 csr_rdata <= SW;
                 end
-             if (udm_addr == CSR_RET_ADDR)
+             /*if (udm_addr == CSR_RET_ADDR)
                 begin
                 csr_resp <= 1'b1;
                 csr_rdata <= ap_ret;
-                end    
+                end    */
             if (testmem_udm_enb)
                 begin
                 testmem_udm_we <= 1'b0;
                 testmem_udm_addr <= udm_addr[31:2];     // 4-byte aligned access only
                 testmem_udm_wdata <= udm_wdata;
+                testmem_resp_dly <= 1'b1;
+                end
+            if (testmem_udm_enb_out)
+                begin
+                testmem_udm_we_out <= 1'b0;
+                testmem_udm_addr_out <= udm_addr[31:2];     // 4-byte aligned access only
+                testmem_udm_wdata_out <= udm_wdata;
                 testmem_resp_dly <= 1'b1;
                 end
             end
@@ -219,6 +290,7 @@ always @*
     udm_rdata = 0;
     if (csr_resp) udm_rdata = csr_rdata;
     if (testmem_resp) udm_rdata = testmem_udm_rdata;
+    if (testmem_resp_out) udm_rdata = testmem_udm_rdata_out;
     end
 
 //wire [31:0] adr_array;
@@ -240,14 +312,14 @@ always @*
 Sobel Sobel_my (
         .image_in_address0(testmem_p1_addr),
         //.image_in_ce0,
-        //.image_in_d0,
+        //.image_in_d0(testmem_p1_rdata),
         .image_in_q0(testmem_p1_rdata),
-        //.image_in_we0,
-        .image_out_address0(testmem_p2_addr),
+        //.image_in_we0(testmem_p1_we),
+        .image_out_address0(testmem_p2_addr_out),
         //.image_out_ce0,
-        //.image_out_d0(),
-        .image_out_q0(testmem_p1_wdata),
-        //.image_out_we0(testmem_p1_we),
+        .image_out_d0(testmem_p1_wdata_out),
+        //.image_out_q0(testmem_p1_wdata_out),
+        .image_out_we0(testmem_p1_we_out),
         .ap_clk(clk_gen),
         .ap_rst(srst),
         .ap_start(start),

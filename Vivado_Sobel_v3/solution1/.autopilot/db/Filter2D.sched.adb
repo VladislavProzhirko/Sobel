@@ -472,28 +472,28 @@
 						<type>0</type>
 						<id>17</id>
 						<name>k_buf_0_val_3</name>
-						<fileName>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
-						<fileDirectory>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</fileDirectory>
+						<fileName>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
+						<fileDirectory>C:\Users\Drus\Desktop\parni\Sobel</fileDirectory>
 						<lineNumber>400</lineNumber>
 						<contextFuncName>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item class_id="11" tracking_level="0" version="0">
-								<first>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</first>
+								<first>C:\Users\Drus\Desktop\parni\Sobel</first>
 								<second class_id="12" tracking_level="0" version="0">
 									<count>2</count>
 									<item_version>0</item_version>
 									<item class_id="13" tracking_level="0" version="0">
 										<first class_id="14" tracking_level="0" version="0">
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>Filter2D&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>1305</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>400</second>
@@ -527,28 +527,28 @@
 						<type>0</type>
 						<id>18</id>
 						<name>k_buf_0_val_4</name>
-						<fileName>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
-						<fileDirectory>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</fileDirectory>
+						<fileName>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
+						<fileDirectory>C:\Users\Drus\Desktop\parni\Sobel</fileDirectory>
 						<lineNumber>400</lineNumber>
 						<contextFuncName>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</first>
+								<first>C:\Users\Drus\Desktop\parni\Sobel</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>Filter2D&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>1305</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>400</second>
@@ -582,28 +582,28 @@
 						<type>0</type>
 						<id>19</id>
 						<name>k_buf_0_val_5</name>
-						<fileName>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
-						<fileDirectory>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</fileDirectory>
+						<fileName>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
+						<fileDirectory>C:\Users\Drus\Desktop\parni\Sobel</fileDirectory>
 						<lineNumber>400</lineNumber>
 						<contextFuncName>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</first>
+								<first>C:\Users\Drus\Desktop\parni\Sobel</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>Filter2D&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>1305</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>400</second>
@@ -637,21 +637,21 @@
 						<type>0</type>
 						<id>22</id>
 						<name>p_src_rows_V_read</name>
-						<fileName>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
-						<fileDirectory>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</fileDirectory>
+						<fileName>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
+						<fileDirectory>C:\Users\Drus\Desktop\parni\Sobel</fileDirectory>
 						<lineNumber>1303</lineNumber>
 						<contextFuncName>Filter2D&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</first>
+								<first>C:\Users\Drus\Desktop\parni\Sobel</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>Filter2D&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>1303</second>
@@ -686,21 +686,21 @@
 						<type>0</type>
 						<id>23</id>
 						<name>stop_row</name>
-						<fileName>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
-						<fileDirectory>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</fileDirectory>
+						<fileName>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
+						<fileDirectory>C:\Users\Drus\Desktop\parni\Sobel</fileDirectory>
 						<lineNumber>1303</lineNumber>
 						<contextFuncName>Filter2D&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</first>
+								<first>C:\Users\Drus\Desktop\parni\Sobel</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>Filter2D&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>1303</second>
@@ -734,28 +734,28 @@
 						<type>0</type>
 						<id>24</id>
 						<name>sext_ln243</name>
-						<fileName>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
-						<fileDirectory>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</fileDirectory>
+						<fileName>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
+						<fileDirectory>C:\Users\Drus\Desktop\parni\Sobel</fileDirectory>
 						<lineNumber>502</lineNumber>
 						<contextFuncName>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</first>
+								<first>C:\Users\Drus\Desktop\parni\Sobel</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>Filter2D&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>1305</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>502</second>
@@ -789,21 +789,21 @@
 						<type>0</type>
 						<id>25</id>
 						<name>p_src_cols_V_read</name>
-						<fileName>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
-						<fileDirectory>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</fileDirectory>
+						<fileName>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
+						<fileDirectory>C:\Users\Drus\Desktop\parni\Sobel</fileDirectory>
 						<lineNumber>1304</lineNumber>
 						<contextFuncName>Filter2D&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</first>
+								<first>C:\Users\Drus\Desktop\parni\Sobel</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>Filter2D&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>1304</second>
@@ -838,21 +838,21 @@
 						<type>0</type>
 						<id>26</id>
 						<name>cols</name>
-						<fileName>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
-						<fileDirectory>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</fileDirectory>
+						<fileName>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
+						<fileDirectory>C:\Users\Drus\Desktop\parni\Sobel</fileDirectory>
 						<lineNumber>1304</lineNumber>
 						<contextFuncName>Filter2D&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</first>
+								<first>C:\Users\Drus\Desktop\parni\Sobel</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>Filter2D&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>1304</second>
@@ -886,21 +886,21 @@
 						<type>0</type>
 						<id>27</id>
 						<name>sext_ln1304</name>
-						<fileName>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
-						<fileDirectory>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</fileDirectory>
+						<fileName>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
+						<fileDirectory>C:\Users\Drus\Desktop\parni\Sobel</fileDirectory>
 						<lineNumber>1304</lineNumber>
 						<contextFuncName>Filter2D&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</first>
+								<first>C:\Users\Drus\Desktop\parni\Sobel</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>Filter2D&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>1304</second>
@@ -934,28 +934,28 @@
 						<type>0</type>
 						<id>30</id>
 						<name>add_ln443</name>
-						<fileName>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
-						<fileDirectory>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</fileDirectory>
+						<fileName>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
+						<fileDirectory>C:\Users\Drus\Desktop\parni\Sobel</fileDirectory>
 						<lineNumber>443</lineNumber>
 						<contextFuncName>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</first>
+								<first>C:\Users\Drus\Desktop\parni\Sobel</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>Filter2D&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>1305</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>443</second>
@@ -990,28 +990,28 @@
 						<type>0</type>
 						<id>31</id>
 						<name>sext_ln443</name>
-						<fileName>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
-						<fileDirectory>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</fileDirectory>
+						<fileName>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
+						<fileDirectory>C:\Users\Drus\Desktop\parni\Sobel</fileDirectory>
 						<lineNumber>443</lineNumber>
 						<contextFuncName>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</first>
+								<first>C:\Users\Drus\Desktop\parni\Sobel</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>Filter2D&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>1305</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>443</second>
@@ -1045,28 +1045,28 @@
 						<type>0</type>
 						<id>32</id>
 						<name>add_ln443_1</name>
-						<fileName>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
-						<fileDirectory>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</fileDirectory>
+						<fileName>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
+						<fileDirectory>C:\Users\Drus\Desktop\parni\Sobel</fileDirectory>
 						<lineNumber>443</lineNumber>
 						<contextFuncName>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</first>
+								<first>C:\Users\Drus\Desktop\parni\Sobel</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>Filter2D&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>1305</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>443</second>
@@ -1101,28 +1101,28 @@
 						<type>0</type>
 						<id>33</id>
 						<name>sext_ln443_1</name>
-						<fileName>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
-						<fileDirectory>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</fileDirectory>
+						<fileName>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
+						<fileDirectory>C:\Users\Drus\Desktop\parni\Sobel</fileDirectory>
 						<lineNumber>443</lineNumber>
 						<contextFuncName>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</first>
+								<first>C:\Users\Drus\Desktop\parni\Sobel</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>Filter2D&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>1305</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>443</second>
@@ -1156,28 +1156,28 @@
 						<type>0</type>
 						<id>34</id>
 						<name>trunc_ln506</name>
-						<fileName>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
-						<fileDirectory>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</fileDirectory>
+						<fileName>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
+						<fileDirectory>C:\Users\Drus\Desktop\parni\Sobel</fileDirectory>
 						<lineNumber>506</lineNumber>
 						<contextFuncName>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</first>
+								<first>C:\Users\Drus\Desktop\parni\Sobel</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>Filter2D&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>1305</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>506</second>
@@ -1211,28 +1211,28 @@
 						<type>0</type>
 						<id>35</id>
 						<name>trunc_ln458</name>
-						<fileName>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
-						<fileDirectory>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</fileDirectory>
+						<fileName>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
+						<fileDirectory>C:\Users\Drus\Desktop\parni\Sobel</fileDirectory>
 						<lineNumber>458</lineNumber>
 						<contextFuncName>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</first>
+								<first>C:\Users\Drus\Desktop\parni\Sobel</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>Filter2D&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>1305</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>458</second>
@@ -1266,28 +1266,28 @@
 						<type>0</type>
 						<id>36</id>
 						<name>add_ln507</name>
-						<fileName>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
-						<fileDirectory>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</fileDirectory>
+						<fileName>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
+						<fileDirectory>C:\Users\Drus\Desktop\parni\Sobel</fileDirectory>
 						<lineNumber>507</lineNumber>
 						<contextFuncName>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</first>
+								<first>C:\Users\Drus\Desktop\parni\Sobel</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>Filter2D&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>1305</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>507</second>
@@ -1322,35 +1322,35 @@
 						<type>0</type>
 						<id>37</id>
 						<name>trunc_ln147</name>
-						<fileName>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h</fileName>
-						<fileDirectory>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</fileDirectory>
+						<fileName>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h</fileName>
+						<fileDirectory>C:\Users\Drus\Desktop\parni\Sobel</fileDirectory>
 						<lineNumber>147</lineNumber>
 						<contextFuncName>borderInterpolate</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</first>
+								<first>C:\Users\Drus\Desktop\parni\Sobel</first>
 								<second>
 									<count>3</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h</first>
 											<second>borderInterpolate</second>
 										</first>
 										<second>147</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>Filter2D&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>1305</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>506</second>
@@ -1384,35 +1384,35 @@
 						<type>0</type>
 						<id>38</id>
 						<name>sext_ln</name>
-						<fileName>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h</fileName>
-						<fileDirectory>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</fileDirectory>
+						<fileName>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h</fileName>
+						<fileDirectory>C:\Users\Drus\Desktop\parni\Sobel</fileDirectory>
 						<lineNumber>147</lineNumber>
 						<contextFuncName>borderInterpolate</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</first>
+								<first>C:\Users\Drus\Desktop\parni\Sobel</first>
 								<second>
 									<count>3</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h</first>
 											<second>borderInterpolate</second>
 										</first>
 										<second>147</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>Filter2D&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>1305</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>506</second>
@@ -1448,35 +1448,35 @@
 						<type>0</type>
 						<id>39</id>
 						<name>xor_ln147</name>
-						<fileName>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h</fileName>
-						<fileDirectory>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</fileDirectory>
+						<fileName>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h</fileName>
+						<fileDirectory>C:\Users\Drus\Desktop\parni\Sobel</fileDirectory>
 						<lineNumber>147</lineNumber>
 						<contextFuncName>borderInterpolate</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</first>
+								<first>C:\Users\Drus\Desktop\parni\Sobel</first>
 								<second>
 									<count>3</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h</first>
 											<second>borderInterpolate</second>
 										</first>
 										<second>147</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>Filter2D&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>1305</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>506</second>
@@ -1511,35 +1511,35 @@
 						<type>0</type>
 						<id>40</id>
 						<name>shl_ln147_1</name>
-						<fileName>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h</fileName>
-						<fileDirectory>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</fileDirectory>
+						<fileName>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h</fileName>
+						<fileDirectory>C:\Users\Drus\Desktop\parni\Sobel</fileDirectory>
 						<lineNumber>147</lineNumber>
 						<contextFuncName>borderInterpolate</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</first>
+								<first>C:\Users\Drus\Desktop\parni\Sobel</first>
 								<second>
 									<count>3</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h</first>
 											<second>borderInterpolate</second>
 										</first>
 										<second>147</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>Filter2D&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>1305</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>452</second>
@@ -1575,35 +1575,35 @@
 						<type>0</type>
 						<id>41</id>
 						<name>sext_ln147</name>
-						<fileName>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h</fileName>
-						<fileDirectory>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</fileDirectory>
+						<fileName>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h</fileName>
+						<fileDirectory>C:\Users\Drus\Desktop\parni\Sobel</fileDirectory>
 						<lineNumber>147</lineNumber>
 						<contextFuncName>borderInterpolate</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</first>
+								<first>C:\Users\Drus\Desktop\parni\Sobel</first>
 								<second>
 									<count>3</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h</first>
 											<second>borderInterpolate</second>
 										</first>
 										<second>147</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>Filter2D&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>1305</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>452</second>
@@ -1637,35 +1637,35 @@
 						<type>0</type>
 						<id>42</id>
 						<name>add_ln147</name>
-						<fileName>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h</fileName>
-						<fileDirectory>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</fileDirectory>
+						<fileName>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h</fileName>
+						<fileDirectory>C:\Users\Drus\Desktop\parni\Sobel</fileDirectory>
 						<lineNumber>147</lineNumber>
 						<contextFuncName>borderInterpolate</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</first>
+								<first>C:\Users\Drus\Desktop\parni\Sobel</first>
 								<second>
 									<count>3</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h</first>
 											<second>borderInterpolate</second>
 										</first>
 										<second>147</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>Filter2D&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>1305</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>452</second>
@@ -1700,35 +1700,35 @@
 						<type>0</type>
 						<id>43</id>
 						<name>sext_ln147_1</name>
-						<fileName>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h</fileName>
-						<fileDirectory>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</fileDirectory>
+						<fileName>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h</fileName>
+						<fileDirectory>C:\Users\Drus\Desktop\parni\Sobel</fileDirectory>
 						<lineNumber>147</lineNumber>
 						<contextFuncName>borderInterpolate</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</first>
+								<first>C:\Users\Drus\Desktop\parni\Sobel</first>
 								<second>
 									<count>3</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h</first>
 											<second>borderInterpolate</second>
 										</first>
 										<second>147</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>Filter2D&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>1305</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>452</second>
@@ -1762,28 +1762,28 @@
 						<type>0</type>
 						<id>44</id>
 						<name>add_ln458</name>
-						<fileName>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
-						<fileDirectory>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</fileDirectory>
+						<fileName>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
+						<fileDirectory>C:\Users\Drus\Desktop\parni\Sobel</fileDirectory>
 						<lineNumber>458</lineNumber>
 						<contextFuncName>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</first>
+								<first>C:\Users\Drus\Desktop\parni\Sobel</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>Filter2D&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>1305</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>458</second>
@@ -1818,28 +1818,28 @@
 						<type>0</type>
 						<id>45</id>
 						<name>_ln443</name>
-						<fileName>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
-						<fileDirectory>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</fileDirectory>
+						<fileName>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
+						<fileDirectory>C:\Users\Drus\Desktop\parni\Sobel</fileDirectory>
 						<lineNumber>443</lineNumber>
 						<contextFuncName>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</first>
+								<first>C:\Users\Drus\Desktop\parni\Sobel</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>Filter2D&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>1305</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>443</second>
@@ -1910,28 +1910,28 @@
 						<type>0</type>
 						<id>48</id>
 						<name>icmp_ln443</name>
-						<fileName>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
-						<fileDirectory>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</fileDirectory>
+						<fileName>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
+						<fileDirectory>C:\Users\Drus\Desktop\parni\Sobel</fileDirectory>
 						<lineNumber>443</lineNumber>
 						<contextFuncName>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</first>
+								<first>C:\Users\Drus\Desktop\parni\Sobel</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>Filter2D&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>1305</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>443</second>
@@ -1966,28 +1966,28 @@
 						<type>0</type>
 						<id>50</id>
 						<name>i_V</name>
-						<fileName>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
-						<fileDirectory>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</fileDirectory>
+						<fileName>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
+						<fileDirectory>C:\Users\Drus\Desktop\parni\Sobel</fileDirectory>
 						<lineNumber>443</lineNumber>
 						<contextFuncName>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</first>
+								<first>C:\Users\Drus\Desktop\parni\Sobel</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>Filter2D&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>1305</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>443</second>
@@ -2022,28 +2022,28 @@
 						<type>0</type>
 						<id>51</id>
 						<name>_ln443</name>
-						<fileName>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
-						<fileDirectory>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</fileDirectory>
+						<fileName>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
+						<fileDirectory>C:\Users\Drus\Desktop\parni\Sobel</fileDirectory>
 						<lineNumber>443</lineNumber>
 						<contextFuncName>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</first>
+								<first>C:\Users\Drus\Desktop\parni\Sobel</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>Filter2D&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>1305</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>443</second>
@@ -2079,28 +2079,28 @@
 						<type>0</type>
 						<id>55</id>
 						<name>icmp_ln887</name>
-						<fileName>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
-						<fileDirectory>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</fileDirectory>
+						<fileName>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
+						<fileDirectory>C:\Users\Drus\Desktop\parni\Sobel</fileDirectory>
 						<lineNumber>492</lineNumber>
 						<contextFuncName>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</first>
+								<first>C:\Users\Drus\Desktop\parni\Sobel</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>Filter2D&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>1305</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>492</second>
@@ -2135,28 +2135,28 @@
 						<type>0</type>
 						<id>56</id>
 						<name>xor_ln457</name>
-						<fileName>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
-						<fileDirectory>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</fileDirectory>
+						<fileName>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
+						<fileDirectory>C:\Users\Drus\Desktop\parni\Sobel</fileDirectory>
 						<lineNumber>457</lineNumber>
 						<contextFuncName>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</first>
+								<first>C:\Users\Drus\Desktop\parni\Sobel</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>Filter2D&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>1305</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>457</second>
@@ -2191,28 +2191,28 @@
 						<type>0</type>
 						<id>57</id>
 						<name>tmp</name>
-						<fileName>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
-						<fileDirectory>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</fileDirectory>
+						<fileName>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
+						<fileDirectory>C:\Users\Drus\Desktop\parni\Sobel</fileDirectory>
 						<lineNumber>466</lineNumber>
 						<contextFuncName>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</first>
+								<first>C:\Users\Drus\Desktop\parni\Sobel</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>Filter2D&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>1305</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>466</second>
@@ -2249,28 +2249,28 @@
 						<type>0</type>
 						<id>58</id>
 						<name>icmp_ln899</name>
-						<fileName>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
-						<fileDirectory>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</fileDirectory>
+						<fileName>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
+						<fileDirectory>C:\Users\Drus\Desktop\parni\Sobel</fileDirectory>
 						<lineNumber>466</lineNumber>
 						<contextFuncName>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</first>
+								<first>C:\Users\Drus\Desktop\parni\Sobel</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>Filter2D&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>1305</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>466</second>
@@ -2305,28 +2305,28 @@
 						<type>0</type>
 						<id>59</id>
 						<name>icmp_ln879</name>
-						<fileName>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
-						<fileDirectory>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</fileDirectory>
+						<fileName>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
+						<fileDirectory>C:\Users\Drus\Desktop\parni\Sobel</fileDirectory>
 						<lineNumber>471</lineNumber>
 						<contextFuncName>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</first>
+								<first>C:\Users\Drus\Desktop\parni\Sobel</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>Filter2D&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>1305</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>471</second>
@@ -2361,28 +2361,28 @@
 						<type>0</type>
 						<id>60</id>
 						<name>icmp_ln879_1</name>
-						<fileName>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
-						<fileDirectory>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</fileDirectory>
+						<fileName>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
+						<fileDirectory>C:\Users\Drus\Desktop\parni\Sobel</fileDirectory>
 						<lineNumber>471</lineNumber>
 						<contextFuncName>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</first>
+								<first>C:\Users\Drus\Desktop\parni\Sobel</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>Filter2D&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>1305</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>471</second>
@@ -2417,28 +2417,28 @@
 						<type>0</type>
 						<id>61</id>
 						<name>icmp_ln899_1</name>
-						<fileName>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
-						<fileDirectory>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</fileDirectory>
+						<fileName>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
+						<fileDirectory>C:\Users\Drus\Desktop\parni\Sobel</fileDirectory>
 						<lineNumber>502</lineNumber>
 						<contextFuncName>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</first>
+								<first>C:\Users\Drus\Desktop\parni\Sobel</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>Filter2D&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>1305</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>502</second>
@@ -2473,28 +2473,28 @@
 						<type>0</type>
 						<id>62</id>
 						<name>trunc_ln506_1</name>
-						<fileName>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
-						<fileDirectory>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</fileDirectory>
+						<fileName>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
+						<fileDirectory>C:\Users\Drus\Desktop\parni\Sobel</fileDirectory>
 						<lineNumber>506</lineNumber>
 						<contextFuncName>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</first>
+								<first>C:\Users\Drus\Desktop\parni\Sobel</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>Filter2D&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>1305</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>506</second>
@@ -2528,28 +2528,28 @@
 						<type>0</type>
 						<id>63</id>
 						<name>add_ln506</name>
-						<fileName>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
-						<fileDirectory>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</fileDirectory>
+						<fileName>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
+						<fileDirectory>C:\Users\Drus\Desktop\parni\Sobel</fileDirectory>
 						<lineNumber>506</lineNumber>
 						<contextFuncName>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</first>
+								<first>C:\Users\Drus\Desktop\parni\Sobel</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>Filter2D&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>1305</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>506</second>
@@ -2583,36 +2583,36 @@
 					<Obj>
 						<type>0</type>
 						<id>64</id>
-						<name>tmp_1</name>
-						<fileName>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h</fileName>
-						<fileDirectory>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</fileDirectory>
+						<name>tmp_2</name>
+						<fileName>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h</fileName>
+						<fileDirectory>C:\Users\Drus\Desktop\parni\Sobel</fileDirectory>
 						<lineNumber>118</lineNumber>
 						<contextFuncName>borderInterpolate</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</first>
+								<first>C:\Users\Drus\Desktop\parni\Sobel</first>
 								<second>
 									<count>3</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h</first>
 											<second>borderInterpolate</second>
 										</first>
 										<second>118</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>Filter2D&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>1305</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>506</second>
@@ -2648,35 +2648,35 @@
 						<type>0</type>
 						<id>65</id>
 						<name>xor_ln118_1</name>
-						<fileName>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h</fileName>
-						<fileDirectory>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</fileDirectory>
+						<fileName>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h</fileName>
+						<fileDirectory>C:\Users\Drus\Desktop\parni\Sobel</fileDirectory>
 						<lineNumber>118</lineNumber>
 						<contextFuncName>borderInterpolate</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</first>
+								<first>C:\Users\Drus\Desktop\parni\Sobel</first>
 								<second>
 									<count>3</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h</first>
 											<second>borderInterpolate</second>
 										</first>
 										<second>118</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>Filter2D&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>1305</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>506</second>
@@ -2711,35 +2711,35 @@
 						<type>0</type>
 						<id>66</id>
 						<name>icmp_ln118</name>
-						<fileName>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h</fileName>
-						<fileDirectory>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</fileDirectory>
+						<fileName>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h</fileName>
+						<fileDirectory>C:\Users\Drus\Desktop\parni\Sobel</fileDirectory>
 						<lineNumber>118</lineNumber>
 						<contextFuncName>borderInterpolate</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</first>
+								<first>C:\Users\Drus\Desktop\parni\Sobel</first>
 								<second>
 									<count>3</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h</first>
 											<second>borderInterpolate</second>
 										</first>
 										<second>118</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>Filter2D&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>1305</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>506</second>
@@ -2774,35 +2774,35 @@
 						<type>0</type>
 						<id>67</id>
 						<name>and_ln118</name>
-						<fileName>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h</fileName>
-						<fileDirectory>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</fileDirectory>
+						<fileName>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h</fileName>
+						<fileDirectory>C:\Users\Drus\Desktop\parni\Sobel</fileDirectory>
 						<lineNumber>118</lineNumber>
 						<contextFuncName>borderInterpolate</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</first>
+								<first>C:\Users\Drus\Desktop\parni\Sobel</first>
 								<second>
 									<count>3</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h</first>
 											<second>borderInterpolate</second>
 										</first>
 										<second>118</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>Filter2D&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>1305</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>506</second>
@@ -2836,36 +2836,36 @@
 					<Obj>
 						<type>0</type>
 						<id>68</id>
-						<name>tmp_2</name>
-						<fileName>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h</fileName>
-						<fileDirectory>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</fileDirectory>
+						<name>tmp_9</name>
+						<fileName>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h</fileName>
+						<fileDirectory>C:\Users\Drus\Desktop\parni\Sobel</fileDirectory>
 						<lineNumber>139</lineNumber>
 						<contextFuncName>borderInterpolate</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</first>
+								<first>C:\Users\Drus\Desktop\parni\Sobel</first>
 								<second>
 									<count>3</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h</first>
 											<second>borderInterpolate</second>
 										</first>
 										<second>139</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>Filter2D&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>1305</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>506</second>
@@ -2901,35 +2901,35 @@
 						<type>0</type>
 						<id>69</id>
 						<name>sub_ln142</name>
-						<fileName>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h</fileName>
-						<fileDirectory>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</fileDirectory>
+						<fileName>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h</fileName>
+						<fileDirectory>C:\Users\Drus\Desktop\parni\Sobel</fileDirectory>
 						<lineNumber>142</lineNumber>
 						<contextFuncName>borderInterpolate</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</first>
+								<first>C:\Users\Drus\Desktop\parni\Sobel</first>
 								<second>
 									<count>3</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h</first>
 											<second>borderInterpolate</second>
 										</first>
 										<second>142</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>Filter2D&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>1305</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>506</second>
@@ -2964,35 +2964,35 @@
 						<type>0</type>
 						<id>70</id>
 						<name>select_ln139</name>
-						<fileName>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h</fileName>
-						<fileDirectory>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</fileDirectory>
+						<fileName>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h</fileName>
+						<fileDirectory>C:\Users\Drus\Desktop\parni\Sobel</fileDirectory>
 						<lineNumber>139</lineNumber>
 						<contextFuncName>borderInterpolate</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</first>
+								<first>C:\Users\Drus\Desktop\parni\Sobel</first>
 								<second>
 									<count>3</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h</first>
 											<second>borderInterpolate</second>
 										</first>
 										<second>139</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>Filter2D&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>1305</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>506</second>
@@ -3028,35 +3028,35 @@
 						<type>0</type>
 						<id>71</id>
 						<name>icmp_ln144</name>
-						<fileName>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h</fileName>
-						<fileDirectory>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</fileDirectory>
+						<fileName>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h</fileName>
+						<fileDirectory>C:\Users\Drus\Desktop\parni\Sobel</fileDirectory>
 						<lineNumber>144</lineNumber>
 						<contextFuncName>borderInterpolate</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</first>
+								<first>C:\Users\Drus\Desktop\parni\Sobel</first>
 								<second>
 									<count>3</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h</first>
 											<second>borderInterpolate</second>
 										</first>
 										<second>144</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>Filter2D&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>1305</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>506</second>
@@ -3091,35 +3091,35 @@
 						<type>0</type>
 						<id>72</id>
 						<name>trunc_ln147_1</name>
-						<fileName>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h</fileName>
-						<fileDirectory>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</fileDirectory>
+						<fileName>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h</fileName>
+						<fileDirectory>C:\Users\Drus\Desktop\parni\Sobel</fileDirectory>
 						<lineNumber>147</lineNumber>
 						<contextFuncName>borderInterpolate</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</first>
+								<first>C:\Users\Drus\Desktop\parni\Sobel</first>
 								<second>
 									<count>3</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h</first>
 											<second>borderInterpolate</second>
 										</first>
 										<second>147</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>Filter2D&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>1305</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>506</second>
@@ -3153,28 +3153,28 @@
 						<type>0</type>
 						<id>73</id>
 						<name>add_ln506_1</name>
-						<fileName>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
-						<fileDirectory>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</fileDirectory>
+						<fileName>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
+						<fileDirectory>C:\Users\Drus\Desktop\parni\Sobel</fileDirectory>
 						<lineNumber>506</lineNumber>
 						<contextFuncName>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</first>
+								<first>C:\Users\Drus\Desktop\parni\Sobel</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>Filter2D&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>1305</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>506</second>
@@ -3208,36 +3208,36 @@
 					<Obj>
 						<type>0</type>
 						<id>74</id>
-						<name>tmp_9</name>
-						<fileName>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h</fileName>
-						<fileDirectory>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</fileDirectory>
+						<name>tmp_10</name>
+						<fileName>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h</fileName>
+						<fileDirectory>C:\Users\Drus\Desktop\parni\Sobel</fileDirectory>
 						<lineNumber>118</lineNumber>
 						<contextFuncName>borderInterpolate</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</first>
+								<first>C:\Users\Drus\Desktop\parni\Sobel</first>
 								<second>
 									<count>3</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h</first>
 											<second>borderInterpolate</second>
 										</first>
 										<second>118</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>Filter2D&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>1305</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>506</second>
@@ -3273,35 +3273,35 @@
 						<type>0</type>
 						<id>75</id>
 						<name>xor_ln118_2</name>
-						<fileName>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h</fileName>
-						<fileDirectory>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</fileDirectory>
+						<fileName>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h</fileName>
+						<fileDirectory>C:\Users\Drus\Desktop\parni\Sobel</fileDirectory>
 						<lineNumber>118</lineNumber>
 						<contextFuncName>borderInterpolate</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</first>
+								<first>C:\Users\Drus\Desktop\parni\Sobel</first>
 								<second>
 									<count>3</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h</first>
 											<second>borderInterpolate</second>
 										</first>
 										<second>118</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>Filter2D&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>1305</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>506</second>
@@ -3336,35 +3336,35 @@
 						<type>0</type>
 						<id>76</id>
 						<name>icmp_ln118_1</name>
-						<fileName>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h</fileName>
-						<fileDirectory>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</fileDirectory>
+						<fileName>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h</fileName>
+						<fileDirectory>C:\Users\Drus\Desktop\parni\Sobel</fileDirectory>
 						<lineNumber>118</lineNumber>
 						<contextFuncName>borderInterpolate</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</first>
+								<first>C:\Users\Drus\Desktop\parni\Sobel</first>
 								<second>
 									<count>3</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h</first>
 											<second>borderInterpolate</second>
 										</first>
 										<second>118</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>Filter2D&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>1305</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>506</second>
@@ -3399,35 +3399,35 @@
 						<type>0</type>
 						<id>77</id>
 						<name>and_ln118_1</name>
-						<fileName>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h</fileName>
-						<fileDirectory>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</fileDirectory>
+						<fileName>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h</fileName>
+						<fileDirectory>C:\Users\Drus\Desktop\parni\Sobel</fileDirectory>
 						<lineNumber>118</lineNumber>
 						<contextFuncName>borderInterpolate</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</first>
+								<first>C:\Users\Drus\Desktop\parni\Sobel</first>
 								<second>
 									<count>3</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h</first>
 											<second>borderInterpolate</second>
 										</first>
 										<second>118</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>Filter2D&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>1305</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>506</second>
@@ -3461,36 +3461,36 @@
 					<Obj>
 						<type>0</type>
 						<id>78</id>
-						<name>tmp_10</name>
-						<fileName>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h</fileName>
-						<fileDirectory>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</fileDirectory>
+						<name>tmp_11</name>
+						<fileName>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h</fileName>
+						<fileDirectory>C:\Users\Drus\Desktop\parni\Sobel</fileDirectory>
 						<lineNumber>139</lineNumber>
 						<contextFuncName>borderInterpolate</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</first>
+								<first>C:\Users\Drus\Desktop\parni\Sobel</first>
 								<second>
 									<count>3</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h</first>
 											<second>borderInterpolate</second>
 										</first>
 										<second>139</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>Filter2D&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>1305</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>506</second>
@@ -3526,35 +3526,35 @@
 						<type>0</type>
 						<id>79</id>
 						<name>sub_ln142_1</name>
-						<fileName>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h</fileName>
-						<fileDirectory>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</fileDirectory>
+						<fileName>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h</fileName>
+						<fileDirectory>C:\Users\Drus\Desktop\parni\Sobel</fileDirectory>
 						<lineNumber>142</lineNumber>
 						<contextFuncName>borderInterpolate</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</first>
+								<first>C:\Users\Drus\Desktop\parni\Sobel</first>
 								<second>
 									<count>3</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h</first>
 											<second>borderInterpolate</second>
 										</first>
 										<second>142</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>Filter2D&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>1305</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>506</second>
@@ -3589,35 +3589,35 @@
 						<type>0</type>
 						<id>80</id>
 						<name>select_ln139_1</name>
-						<fileName>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h</fileName>
-						<fileDirectory>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</fileDirectory>
+						<fileName>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h</fileName>
+						<fileDirectory>C:\Users\Drus\Desktop\parni\Sobel</fileDirectory>
 						<lineNumber>139</lineNumber>
 						<contextFuncName>borderInterpolate</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</first>
+								<first>C:\Users\Drus\Desktop\parni\Sobel</first>
 								<second>
 									<count>3</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h</first>
 											<second>borderInterpolate</second>
 										</first>
 										<second>139</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>Filter2D&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>1305</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>506</second>
@@ -3653,35 +3653,35 @@
 						<type>0</type>
 						<id>81</id>
 						<name>icmp_ln144_1</name>
-						<fileName>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h</fileName>
-						<fileDirectory>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</fileDirectory>
+						<fileName>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h</fileName>
+						<fileDirectory>C:\Users\Drus\Desktop\parni\Sobel</fileDirectory>
 						<lineNumber>144</lineNumber>
 						<contextFuncName>borderInterpolate</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</first>
+								<first>C:\Users\Drus\Desktop\parni\Sobel</first>
 								<second>
 									<count>3</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h</first>
 											<second>borderInterpolate</second>
 										</first>
 										<second>144</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>Filter2D&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>1305</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>506</second>
@@ -3716,35 +3716,35 @@
 						<type>0</type>
 						<id>82</id>
 						<name>trunc_ln147_2</name>
-						<fileName>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h</fileName>
-						<fileDirectory>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</fileDirectory>
+						<fileName>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h</fileName>
+						<fileDirectory>C:\Users\Drus\Desktop\parni\Sobel</fileDirectory>
 						<lineNumber>147</lineNumber>
 						<contextFuncName>borderInterpolate</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</first>
+								<first>C:\Users\Drus\Desktop\parni\Sobel</first>
 								<second>
 									<count>3</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h</first>
 											<second>borderInterpolate</second>
 										</first>
 										<second>147</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>Filter2D&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>1305</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>506</second>
@@ -3778,35 +3778,35 @@
 						<type>0</type>
 						<id>83</id>
 						<name>sub_ln144</name>
-						<fileName>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h</fileName>
-						<fileDirectory>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</fileDirectory>
+						<fileName>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h</fileName>
+						<fileDirectory>C:\Users\Drus\Desktop\parni\Sobel</fileDirectory>
 						<lineNumber>144</lineNumber>
 						<contextFuncName>borderInterpolate</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</first>
+								<first>C:\Users\Drus\Desktop\parni\Sobel</first>
 								<second>
 									<count>3</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h</first>
 											<second>borderInterpolate</second>
 										</first>
 										<second>144</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>Filter2D&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>1305</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>506</second>
@@ -3841,35 +3841,35 @@
 						<type>0</type>
 						<id>84</id>
 						<name>select_ln144</name>
-						<fileName>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h</fileName>
-						<fileDirectory>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</fileDirectory>
+						<fileName>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h</fileName>
+						<fileDirectory>C:\Users\Drus\Desktop\parni\Sobel</fileDirectory>
 						<lineNumber>144</lineNumber>
 						<contextFuncName>borderInterpolate</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</first>
+								<first>C:\Users\Drus\Desktop\parni\Sobel</first>
 								<second>
 									<count>3</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h</first>
 											<second>borderInterpolate</second>
 										</first>
 										<second>144</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>Filter2D&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>1305</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>506</second>
@@ -3905,35 +3905,35 @@
 						<type>0</type>
 						<id>85</id>
 						<name>add_ln118</name>
-						<fileName>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h</fileName>
-						<fileDirectory>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</fileDirectory>
+						<fileName>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h</fileName>
+						<fileDirectory>C:\Users\Drus\Desktop\parni\Sobel</fileDirectory>
 						<lineNumber>118</lineNumber>
 						<contextFuncName>borderInterpolate</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</first>
+								<first>C:\Users\Drus\Desktop\parni\Sobel</first>
 								<second>
 									<count>3</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h</first>
 											<second>borderInterpolate</second>
 										</first>
 										<second>118</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>Filter2D&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>1305</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>506</second>
@@ -3968,35 +3968,35 @@
 						<type>0</type>
 						<id>86</id>
 						<name>select_ln118</name>
-						<fileName>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h</fileName>
-						<fileDirectory>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</fileDirectory>
+						<fileName>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h</fileName>
+						<fileDirectory>C:\Users\Drus\Desktop\parni\Sobel</fileDirectory>
 						<lineNumber>118</lineNumber>
 						<contextFuncName>borderInterpolate</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</first>
+								<first>C:\Users\Drus\Desktop\parni\Sobel</first>
 								<second>
 									<count>3</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h</first>
 											<second>borderInterpolate</second>
 										</first>
 										<second>118</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>Filter2D&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>1305</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>506</second>
@@ -4032,42 +4032,42 @@
 						<type>0</type>
 						<id>87</id>
 						<name>sub_ln493</name>
-						<fileName>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_mem.h</fileName>
-						<fileDirectory>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</fileDirectory>
+						<fileName>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_mem.h</fileName>
+						<fileDirectory>C:\Users\Drus\Desktop\parni\Sobel</fileDirectory>
 						<lineNumber>493</lineNumber>
 						<contextFuncName>getval</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</first>
+								<first>C:\Users\Drus\Desktop\parni\Sobel</first>
 								<second>
 									<count>4</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>Filter2D&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>1305</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>507</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_mem.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_mem.h</first>
 											<second>getval</second>
 										</first>
 										<second>493</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_mem.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_mem.h</first>
 											<second>operator()</second>
 										</first>
 										<second>501</second>
@@ -4102,35 +4102,35 @@
 						<type>0</type>
 						<id>88</id>
 						<name>sub_ln144_1</name>
-						<fileName>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h</fileName>
-						<fileDirectory>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</fileDirectory>
+						<fileName>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h</fileName>
+						<fileDirectory>C:\Users\Drus\Desktop\parni\Sobel</fileDirectory>
 						<lineNumber>144</lineNumber>
 						<contextFuncName>borderInterpolate</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</first>
+								<first>C:\Users\Drus\Desktop\parni\Sobel</first>
 								<second>
 									<count>3</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h</first>
 											<second>borderInterpolate</second>
 										</first>
 										<second>144</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>Filter2D&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>1305</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>506</second>
@@ -4165,35 +4165,35 @@
 						<type>0</type>
 						<id>89</id>
 						<name>select_ln144_1</name>
-						<fileName>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h</fileName>
-						<fileDirectory>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</fileDirectory>
+						<fileName>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h</fileName>
+						<fileDirectory>C:\Users\Drus\Desktop\parni\Sobel</fileDirectory>
 						<lineNumber>144</lineNumber>
 						<contextFuncName>borderInterpolate</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</first>
+								<first>C:\Users\Drus\Desktop\parni\Sobel</first>
 								<second>
 									<count>3</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h</first>
 											<second>borderInterpolate</second>
 										</first>
 										<second>144</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>Filter2D&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>1305</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>506</second>
@@ -4229,35 +4229,35 @@
 						<type>0</type>
 						<id>90</id>
 						<name>add_ln118_1</name>
-						<fileName>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h</fileName>
-						<fileDirectory>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</fileDirectory>
+						<fileName>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h</fileName>
+						<fileDirectory>C:\Users\Drus\Desktop\parni\Sobel</fileDirectory>
 						<lineNumber>118</lineNumber>
 						<contextFuncName>borderInterpolate</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</first>
+								<first>C:\Users\Drus\Desktop\parni\Sobel</first>
 								<second>
 									<count>3</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h</first>
 											<second>borderInterpolate</second>
 										</first>
 										<second>118</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>Filter2D&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>1305</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>506</second>
@@ -4292,35 +4292,35 @@
 						<type>0</type>
 						<id>91</id>
 						<name>select_ln118_1</name>
-						<fileName>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h</fileName>
-						<fileDirectory>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</fileDirectory>
+						<fileName>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h</fileName>
+						<fileDirectory>C:\Users\Drus\Desktop\parni\Sobel</fileDirectory>
 						<lineNumber>118</lineNumber>
 						<contextFuncName>borderInterpolate</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</first>
+								<first>C:\Users\Drus\Desktop\parni\Sobel</first>
 								<second>
 									<count>3</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h</first>
 											<second>borderInterpolate</second>
 										</first>
 										<second>118</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>Filter2D&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>1305</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>506</second>
@@ -4356,42 +4356,42 @@
 						<type>0</type>
 						<id>92</id>
 						<name>sub_ln493_2</name>
-						<fileName>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_mem.h</fileName>
-						<fileDirectory>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</fileDirectory>
+						<fileName>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_mem.h</fileName>
+						<fileDirectory>C:\Users\Drus\Desktop\parni\Sobel</fileDirectory>
 						<lineNumber>493</lineNumber>
 						<contextFuncName>getval</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</first>
+								<first>C:\Users\Drus\Desktop\parni\Sobel</first>
 								<second>
 									<count>4</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>Filter2D&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>1305</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>507</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_mem.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_mem.h</first>
 											<second>getval</second>
 										</first>
 										<second>493</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_mem.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_mem.h</first>
 											<second>operator()</second>
 										</first>
 										<second>501</second>
@@ -4426,28 +4426,28 @@
 						<type>0</type>
 						<id>93</id>
 						<name>_ln444</name>
-						<fileName>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
-						<fileDirectory>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</fileDirectory>
+						<fileName>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
+						<fileDirectory>C:\Users\Drus\Desktop\parni\Sobel</fileDirectory>
 						<lineNumber>444</lineNumber>
 						<contextFuncName>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</first>
+								<first>C:\Users\Drus\Desktop\parni\Sobel</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>Filter2D&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>1305</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>444</second>
@@ -4552,28 +4552,28 @@
 						<type>0</type>
 						<id>97</id>
 						<name>icmp_ln444</name>
-						<fileName>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
-						<fileDirectory>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</fileDirectory>
+						<fileName>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
+						<fileDirectory>C:\Users\Drus\Desktop\parni\Sobel</fileDirectory>
 						<lineNumber>444</lineNumber>
 						<contextFuncName>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</first>
+								<first>C:\Users\Drus\Desktop\parni\Sobel</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>Filter2D&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>1305</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>444</second>
@@ -4608,28 +4608,28 @@
 						<type>0</type>
 						<id>99</id>
 						<name>j_V</name>
-						<fileName>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
-						<fileDirectory>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</fileDirectory>
+						<fileName>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
+						<fileDirectory>C:\Users\Drus\Desktop\parni\Sobel</fileDirectory>
 						<lineNumber>444</lineNumber>
 						<contextFuncName>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</first>
+								<first>C:\Users\Drus\Desktop\parni\Sobel</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>Filter2D&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>1305</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>444</second>
@@ -4664,28 +4664,28 @@
 						<type>0</type>
 						<id>100</id>
 						<name>_ln444</name>
-						<fileName>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
-						<fileDirectory>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</fileDirectory>
+						<fileName>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
+						<fileDirectory>C:\Users\Drus\Desktop\parni\Sobel</fileDirectory>
 						<lineNumber>444</lineNumber>
 						<contextFuncName>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</first>
+								<first>C:\Users\Drus\Desktop\parni\Sobel</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>Filter2D&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>1305</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>444</second>
@@ -4721,28 +4721,28 @@
 						<type>0</type>
 						<id>102</id>
 						<name>right_border_buf_0_7</name>
-						<fileName>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
-						<fileDirectory>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</fileDirectory>
+						<fileName>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
+						<fileDirectory>C:\Users\Drus\Desktop\parni\Sobel</fileDirectory>
 						<lineNumber>458</lineNumber>
 						<contextFuncName>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</first>
+								<first>C:\Users\Drus\Desktop\parni\Sobel</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>Filter2D&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>1305</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>458</second>
@@ -4776,28 +4776,28 @@
 						<type>0</type>
 						<id>103</id>
 						<name>right_border_buf_0_8</name>
-						<fileName>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
-						<fileDirectory>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</fileDirectory>
+						<fileName>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
+						<fileDirectory>C:\Users\Drus\Desktop\parni\Sobel</fileDirectory>
 						<lineNumber>458</lineNumber>
 						<contextFuncName>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</first>
+								<first>C:\Users\Drus\Desktop\parni\Sobel</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>Filter2D&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>1305</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>458</second>
@@ -4831,28 +4831,28 @@
 						<type>0</type>
 						<id>104</id>
 						<name>right_border_buf_0_9</name>
-						<fileName>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
-						<fileDirectory>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</fileDirectory>
+						<fileName>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
+						<fileDirectory>C:\Users\Drus\Desktop\parni\Sobel</fileDirectory>
 						<lineNumber>458</lineNumber>
 						<contextFuncName>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</first>
+								<first>C:\Users\Drus\Desktop\parni\Sobel</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>Filter2D&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>1305</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>458</second>
@@ -4886,28 +4886,28 @@
 						<type>0</type>
 						<id>105</id>
 						<name>right_border_buf_0_10</name>
-						<fileName>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
-						<fileDirectory>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</fileDirectory>
+						<fileName>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
+						<fileDirectory>C:\Users\Drus\Desktop\parni\Sobel</fileDirectory>
 						<lineNumber>458</lineNumber>
 						<contextFuncName>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</first>
+								<first>C:\Users\Drus\Desktop\parni\Sobel</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>Filter2D&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>1305</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>458</second>
@@ -4941,28 +4941,28 @@
 						<type>0</type>
 						<id>106</id>
 						<name>right_border_buf_0_11</name>
-						<fileName>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
-						<fileDirectory>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</fileDirectory>
+						<fileName>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
+						<fileDirectory>C:\Users\Drus\Desktop\parni\Sobel</fileDirectory>
 						<lineNumber>458</lineNumber>
 						<contextFuncName>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</first>
+								<first>C:\Users\Drus\Desktop\parni\Sobel</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>Filter2D&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>1305</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>458</second>
@@ -4995,29 +4995,29 @@
 					<Obj>
 						<type>0</type>
 						<id>110</id>
-						<name>tmp_11</name>
-						<fileName>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
-						<fileDirectory>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</fileDirectory>
+						<name>tmp_12</name>
+						<fileName>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
+						<fileDirectory>C:\Users\Drus\Desktop\parni\Sobel</fileDirectory>
 						<lineNumber>512</lineNumber>
 						<contextFuncName>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</first>
+								<first>C:\Users\Drus\Desktop\parni\Sobel</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>Filter2D&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>1305</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>512</second>
@@ -5054,28 +5054,28 @@
 						<type>0</type>
 						<id>111</id>
 						<name>icmp_ln891</name>
-						<fileName>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
-						<fileDirectory>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</fileDirectory>
+						<fileName>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
+						<fileDirectory>C:\Users\Drus\Desktop\parni\Sobel</fileDirectory>
 						<lineNumber>512</lineNumber>
 						<contextFuncName>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</first>
+								<first>C:\Users\Drus\Desktop\parni\Sobel</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>Filter2D&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>1305</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>512</second>
@@ -5110,28 +5110,28 @@
 						<type>0</type>
 						<id>113</id>
 						<name>ImagLoc_x</name>
-						<fileName>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
-						<fileDirectory>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</fileDirectory>
+						<fileName>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
+						<fileDirectory>C:\Users\Drus\Desktop\parni\Sobel</fileDirectory>
 						<lineNumber>451</lineNumber>
 						<contextFuncName>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</first>
+								<first>C:\Users\Drus\Desktop\parni\Sobel</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>Filter2D&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>1305</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>451</second>
@@ -5165,36 +5165,36 @@
 					<Obj>
 						<type>0</type>
 						<id>114</id>
-						<name>tmp_12</name>
-						<fileName>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h</fileName>
-						<fileDirectory>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</fileDirectory>
+						<name>tmp_13</name>
+						<fileName>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h</fileName>
+						<fileDirectory>C:\Users\Drus\Desktop\parni\Sobel</fileDirectory>
 						<lineNumber>118</lineNumber>
 						<contextFuncName>borderInterpolate</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</first>
+								<first>C:\Users\Drus\Desktop\parni\Sobel</first>
 								<second>
 									<count>3</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h</first>
 											<second>borderInterpolate</second>
 										</first>
 										<second>118</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>Filter2D&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>1305</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>452</second>
@@ -5230,35 +5230,35 @@
 						<type>0</type>
 						<id>115</id>
 						<name>xor_ln118_3</name>
-						<fileName>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h</fileName>
-						<fileDirectory>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</fileDirectory>
+						<fileName>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h</fileName>
+						<fileDirectory>C:\Users\Drus\Desktop\parni\Sobel</fileDirectory>
 						<lineNumber>118</lineNumber>
 						<contextFuncName>borderInterpolate</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</first>
+								<first>C:\Users\Drus\Desktop\parni\Sobel</first>
 								<second>
 									<count>3</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h</first>
 											<second>borderInterpolate</second>
 										</first>
 										<second>118</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>Filter2D&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>1305</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>452</second>
@@ -5293,35 +5293,35 @@
 						<type>0</type>
 						<id>116</id>
 						<name>icmp_ln118_2</name>
-						<fileName>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h</fileName>
-						<fileDirectory>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</fileDirectory>
+						<fileName>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h</fileName>
+						<fileDirectory>C:\Users\Drus\Desktop\parni\Sobel</fileDirectory>
 						<lineNumber>118</lineNumber>
 						<contextFuncName>borderInterpolate</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</first>
+								<first>C:\Users\Drus\Desktop\parni\Sobel</first>
 								<second>
 									<count>3</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h</first>
 											<second>borderInterpolate</second>
 										</first>
 										<second>118</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>Filter2D&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>1305</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>452</second>
@@ -5356,35 +5356,35 @@
 						<type>0</type>
 						<id>117</id>
 						<name>and_ln118_2</name>
-						<fileName>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h</fileName>
-						<fileDirectory>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</fileDirectory>
+						<fileName>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h</fileName>
+						<fileDirectory>C:\Users\Drus\Desktop\parni\Sobel</fileDirectory>
 						<lineNumber>118</lineNumber>
 						<contextFuncName>borderInterpolate</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</first>
+								<first>C:\Users\Drus\Desktop\parni\Sobel</first>
 								<second>
 									<count>3</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h</first>
 											<second>borderInterpolate</second>
 										</first>
 										<second>118</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>Filter2D&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>1305</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>452</second>
@@ -5418,36 +5418,36 @@
 					<Obj>
 						<type>0</type>
 						<id>118</id>
-						<name>tmp_13</name>
-						<fileName>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h</fileName>
-						<fileDirectory>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</fileDirectory>
+						<name>tmp_14</name>
+						<fileName>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h</fileName>
+						<fileDirectory>C:\Users\Drus\Desktop\parni\Sobel</fileDirectory>
 						<lineNumber>139</lineNumber>
 						<contextFuncName>borderInterpolate</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</first>
+								<first>C:\Users\Drus\Desktop\parni\Sobel</first>
 								<second>
 									<count>3</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h</first>
 											<second>borderInterpolate</second>
 										</first>
 										<second>139</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>Filter2D&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>1305</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>452</second>
@@ -5483,35 +5483,35 @@
 						<type>0</type>
 						<id>119</id>
 						<name>sub_ln142_2</name>
-						<fileName>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h</fileName>
-						<fileDirectory>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</fileDirectory>
+						<fileName>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h</fileName>
+						<fileDirectory>C:\Users\Drus\Desktop\parni\Sobel</fileDirectory>
 						<lineNumber>142</lineNumber>
 						<contextFuncName>borderInterpolate</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</first>
+								<first>C:\Users\Drus\Desktop\parni\Sobel</first>
 								<second>
 									<count>3</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h</first>
 											<second>borderInterpolate</second>
 										</first>
 										<second>142</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>Filter2D&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>1305</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>452</second>
@@ -5546,35 +5546,35 @@
 						<type>0</type>
 						<id>120</id>
 						<name>select_ln139_2</name>
-						<fileName>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h</fileName>
-						<fileDirectory>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</fileDirectory>
+						<fileName>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h</fileName>
+						<fileDirectory>C:\Users\Drus\Desktop\parni\Sobel</fileDirectory>
 						<lineNumber>139</lineNumber>
 						<contextFuncName>borderInterpolate</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</first>
+								<first>C:\Users\Drus\Desktop\parni\Sobel</first>
 								<second>
 									<count>3</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h</first>
 											<second>borderInterpolate</second>
 										</first>
 										<second>139</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>Filter2D&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>1305</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>452</second>
@@ -5610,35 +5610,35 @@
 						<type>0</type>
 						<id>121</id>
 						<name>icmp_ln144_2</name>
-						<fileName>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h</fileName>
-						<fileDirectory>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</fileDirectory>
+						<fileName>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h</fileName>
+						<fileDirectory>C:\Users\Drus\Desktop\parni\Sobel</fileDirectory>
 						<lineNumber>144</lineNumber>
 						<contextFuncName>borderInterpolate</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</first>
+								<first>C:\Users\Drus\Desktop\parni\Sobel</first>
 								<second>
 									<count>3</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h</first>
 											<second>borderInterpolate</second>
 										</first>
 										<second>144</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>Filter2D&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>1305</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>452</second>
@@ -5673,35 +5673,35 @@
 						<type>0</type>
 						<id>122</id>
 						<name>sub_ln147</name>
-						<fileName>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h</fileName>
-						<fileDirectory>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</fileDirectory>
+						<fileName>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h</fileName>
+						<fileDirectory>C:\Users\Drus\Desktop\parni\Sobel</fileDirectory>
 						<lineNumber>147</lineNumber>
 						<contextFuncName>borderInterpolate</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</first>
+								<first>C:\Users\Drus\Desktop\parni\Sobel</first>
 								<second>
 									<count>3</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h</first>
 											<second>borderInterpolate</second>
 										</first>
 										<second>147</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>Filter2D&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>1305</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>452</second>
@@ -5736,35 +5736,35 @@
 						<type>0</type>
 						<id>123</id>
 						<name>select_ln118_2</name>
-						<fileName>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h</fileName>
-						<fileDirectory>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</fileDirectory>
+						<fileName>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h</fileName>
+						<fileDirectory>C:\Users\Drus\Desktop\parni\Sobel</fileDirectory>
 						<lineNumber>118</lineNumber>
 						<contextFuncName>borderInterpolate</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</first>
+								<first>C:\Users\Drus\Desktop\parni\Sobel</first>
 								<second>
 									<count>3</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h</first>
 											<second>borderInterpolate</second>
 										</first>
 										<second>118</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>Filter2D&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>1305</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>452</second>
@@ -5800,35 +5800,35 @@
 						<type>0</type>
 						<id>124</id>
 						<name>xor_ln118_4</name>
-						<fileName>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h</fileName>
-						<fileDirectory>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</fileDirectory>
+						<fileName>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h</fileName>
+						<fileDirectory>C:\Users\Drus\Desktop\parni\Sobel</fileDirectory>
 						<lineNumber>118</lineNumber>
 						<contextFuncName>borderInterpolate</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</first>
+								<first>C:\Users\Drus\Desktop\parni\Sobel</first>
 								<second>
 									<count>3</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h</first>
 											<second>borderInterpolate</second>
 										</first>
 										<second>118</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>Filter2D&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>1305</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>452</second>
@@ -5863,35 +5863,35 @@
 						<type>0</type>
 						<id>125</id>
 						<name>or_ln118</name>
-						<fileName>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h</fileName>
-						<fileDirectory>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</fileDirectory>
+						<fileName>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h</fileName>
+						<fileDirectory>C:\Users\Drus\Desktop\parni\Sobel</fileDirectory>
 						<lineNumber>118</lineNumber>
 						<contextFuncName>borderInterpolate</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</first>
+								<first>C:\Users\Drus\Desktop\parni\Sobel</first>
 								<second>
 									<count>3</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h</first>
 											<second>borderInterpolate</second>
 										</first>
 										<second>118</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>Filter2D&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>1305</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>452</second>
@@ -5926,35 +5926,35 @@
 						<type>0</type>
 						<id>126</id>
 						<name>and_ln144</name>
-						<fileName>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h</fileName>
-						<fileDirectory>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</fileDirectory>
+						<fileName>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h</fileName>
+						<fileDirectory>C:\Users\Drus\Desktop\parni\Sobel</fileDirectory>
 						<lineNumber>144</lineNumber>
 						<contextFuncName>borderInterpolate</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</first>
+								<first>C:\Users\Drus\Desktop\parni\Sobel</first>
 								<second>
 									<count>3</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h</first>
 											<second>borderInterpolate</second>
 										</first>
 										<second>144</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>Filter2D&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>1305</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>452</second>
@@ -5989,35 +5989,35 @@
 						<type>0</type>
 						<id>127</id>
 						<name>x</name>
-						<fileName>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h</fileName>
-						<fileDirectory>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</fileDirectory>
+						<fileName>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h</fileName>
+						<fileDirectory>C:\Users\Drus\Desktop\parni\Sobel</fileDirectory>
 						<lineNumber>144</lineNumber>
 						<contextFuncName>borderInterpolate</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</first>
+								<first>C:\Users\Drus\Desktop\parni\Sobel</first>
 								<second>
 									<count>3</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h</first>
 											<second>borderInterpolate</second>
 										</first>
 										<second>144</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>Filter2D&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>1305</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>452</second>
@@ -6053,28 +6053,28 @@
 						<type>0</type>
 						<id>128</id>
 						<name>trunc_ln458_1</name>
-						<fileName>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
-						<fileDirectory>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</fileDirectory>
+						<fileName>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
+						<fileDirectory>C:\Users\Drus\Desktop\parni\Sobel</fileDirectory>
 						<lineNumber>458</lineNumber>
 						<contextFuncName>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</first>
+								<first>C:\Users\Drus\Desktop\parni\Sobel</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>Filter2D&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>1305</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>458</second>
@@ -6108,28 +6108,28 @@
 						<type>0</type>
 						<id>129</id>
 						<name>or_ln457</name>
-						<fileName>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
-						<fileDirectory>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</fileDirectory>
+						<fileName>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
+						<fileDirectory>C:\Users\Drus\Desktop\parni\Sobel</fileDirectory>
 						<lineNumber>457</lineNumber>
 						<contextFuncName>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</first>
+								<first>C:\Users\Drus\Desktop\parni\Sobel</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>Filter2D&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>1305</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>457</second>
@@ -6164,42 +6164,42 @@
 						<type>0</type>
 						<id>130</id>
 						<name>zext_ln835</name>
-						<fileName>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_mem.h</fileName>
-						<fileDirectory>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</fileDirectory>
+						<fileName>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_mem.h</fileName>
+						<fileDirectory>C:\Users\Drus\Desktop\parni\Sobel</fileDirectory>
 						<lineNumber>835</lineNumber>
 						<contextFuncName>getval</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</first>
+								<first>C:\Users\Drus\Desktop\parni\Sobel</first>
 								<second>
 									<count>4</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>Filter2D&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>1305</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>460</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_mem.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_mem.h</first>
 											<second>getval</second>
 										</first>
 										<second>835</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_mem.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_mem.h</first>
 											<second>operator()</second>
 										</first>
 										<second>843</second>
@@ -6233,42 +6233,42 @@
 						<type>0</type>
 						<id>131</id>
 						<name>k_buf_0_val_3_addr</name>
-						<fileName>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_mem.h</fileName>
-						<fileDirectory>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</fileDirectory>
+						<fileName>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_mem.h</fileName>
+						<fileDirectory>C:\Users\Drus\Desktop\parni\Sobel</fileDirectory>
 						<lineNumber>835</lineNumber>
 						<contextFuncName>getval</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</first>
+								<first>C:\Users\Drus\Desktop\parni\Sobel</first>
 								<second>
 									<count>4</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>Filter2D&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>1305</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>460</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_mem.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_mem.h</first>
 											<second>getval</second>
 										</first>
 										<second>835</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_mem.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_mem.h</first>
 											<second>operator()</second>
 										</first>
 										<second>843</second>
@@ -6304,28 +6304,28 @@
 						<type>0</type>
 						<id>132</id>
 						<name>k_buf_0_val_3_load</name>
-						<fileName>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
-						<fileDirectory>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</fileDirectory>
+						<fileName>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
+						<fileDirectory>C:\Users\Drus\Desktop\parni\Sobel</fileDirectory>
 						<lineNumber>460</lineNumber>
 						<contextFuncName>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</first>
+								<first>C:\Users\Drus\Desktop\parni\Sobel</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>Filter2D&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>1305</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>460</second>
@@ -6359,42 +6359,42 @@
 						<type>0</type>
 						<id>133</id>
 						<name>sub_ln493_1</name>
-						<fileName>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_mem.h</fileName>
-						<fileDirectory>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</fileDirectory>
+						<fileName>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_mem.h</fileName>
+						<fileDirectory>C:\Users\Drus\Desktop\parni\Sobel</fileDirectory>
 						<lineNumber>493</lineNumber>
 						<contextFuncName>getval</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</first>
+								<first>C:\Users\Drus\Desktop\parni\Sobel</first>
 								<second>
 									<count>4</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>Filter2D&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>1305</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>458</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_mem.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_mem.h</first>
 											<second>getval</second>
 										</first>
 										<second>493</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_mem.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_mem.h</first>
 											<second>operator()</second>
 										</first>
 										<second>501</second>
@@ -6429,28 +6429,28 @@
 						<type>0</type>
 						<id>134</id>
 						<name>tmp_3</name>
-						<fileName>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
-						<fileDirectory>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</fileDirectory>
+						<fileName>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
+						<fileDirectory>C:\Users\Drus\Desktop\parni\Sobel</fileDirectory>
 						<lineNumber>458</lineNumber>
 						<contextFuncName>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</first>
+								<first>C:\Users\Drus\Desktop\parni\Sobel</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>Filter2D&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>1305</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>458</second>
@@ -6488,28 +6488,28 @@
 						<type>0</type>
 						<id>135</id>
 						<name>col_buf_0_val_0_0</name>
-						<fileName>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
-						<fileDirectory>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</fileDirectory>
+						<fileName>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
+						<fileDirectory>C:\Users\Drus\Desktop\parni\Sobel</fileDirectory>
 						<lineNumber>457</lineNumber>
 						<contextFuncName>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</first>
+								<first>C:\Users\Drus\Desktop\parni\Sobel</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>Filter2D&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>1305</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>457</second>
@@ -6545,42 +6545,42 @@
 						<type>0</type>
 						<id>136</id>
 						<name>k_buf_0_val_4_addr</name>
-						<fileName>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_mem.h</fileName>
-						<fileDirectory>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</fileDirectory>
+						<fileName>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_mem.h</fileName>
+						<fileDirectory>C:\Users\Drus\Desktop\parni\Sobel</fileDirectory>
 						<lineNumber>835</lineNumber>
 						<contextFuncName>getval</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</first>
+								<first>C:\Users\Drus\Desktop\parni\Sobel</first>
 								<second>
 									<count>4</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>Filter2D&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>1305</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>460</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_mem.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_mem.h</first>
 											<second>getval</second>
 										</first>
 										<second>835</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_mem.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_mem.h</first>
 											<second>operator()</second>
 										</first>
 										<second>843</second>
@@ -6616,28 +6616,28 @@
 						<type>0</type>
 						<id>137</id>
 						<name>k_buf_0_val_4_load</name>
-						<fileName>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
-						<fileDirectory>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</fileDirectory>
+						<fileName>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
+						<fileDirectory>C:\Users\Drus\Desktop\parni\Sobel</fileDirectory>
 						<lineNumber>460</lineNumber>
 						<contextFuncName>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</first>
+								<first>C:\Users\Drus\Desktop\parni\Sobel</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>Filter2D&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>1305</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>460</second>
@@ -6671,28 +6671,28 @@
 						<type>0</type>
 						<id>138</id>
 						<name>tmp_4</name>
-						<fileName>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
-						<fileDirectory>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</fileDirectory>
+						<fileName>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
+						<fileDirectory>C:\Users\Drus\Desktop\parni\Sobel</fileDirectory>
 						<lineNumber>458</lineNumber>
 						<contextFuncName>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</first>
+								<first>C:\Users\Drus\Desktop\parni\Sobel</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>Filter2D&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>1305</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>458</second>
@@ -6730,28 +6730,28 @@
 						<type>0</type>
 						<id>139</id>
 						<name>col_buf_0_val_1_0</name>
-						<fileName>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
-						<fileDirectory>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</fileDirectory>
+						<fileName>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
+						<fileDirectory>C:\Users\Drus\Desktop\parni\Sobel</fileDirectory>
 						<lineNumber>457</lineNumber>
 						<contextFuncName>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</first>
+								<first>C:\Users\Drus\Desktop\parni\Sobel</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>Filter2D&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>1305</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>457</second>
@@ -6787,42 +6787,42 @@
 						<type>0</type>
 						<id>140</id>
 						<name>k_buf_0_val_5_addr</name>
-						<fileName>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_mem.h</fileName>
-						<fileDirectory>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</fileDirectory>
+						<fileName>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_mem.h</fileName>
+						<fileDirectory>C:\Users\Drus\Desktop\parni\Sobel</fileDirectory>
 						<lineNumber>835</lineNumber>
 						<contextFuncName>getval</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</first>
+								<first>C:\Users\Drus\Desktop\parni\Sobel</first>
 								<second>
 									<count>4</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>Filter2D&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>1305</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>460</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_mem.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_mem.h</first>
 											<second>getval</second>
 										</first>
 										<second>835</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_mem.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_mem.h</first>
 											<second>operator()</second>
 										</first>
 										<second>843</second>
@@ -6858,28 +6858,28 @@
 						<type>0</type>
 						<id>141</id>
 						<name>k_buf_0_val_5_load</name>
-						<fileName>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
-						<fileDirectory>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</fileDirectory>
+						<fileName>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
+						<fileDirectory>C:\Users\Drus\Desktop\parni\Sobel</fileDirectory>
 						<lineNumber>460</lineNumber>
 						<contextFuncName>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</first>
+								<first>C:\Users\Drus\Desktop\parni\Sobel</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>Filter2D&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>1305</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>460</second>
@@ -6913,28 +6913,28 @@
 						<type>0</type>
 						<id>142</id>
 						<name>tmp_5</name>
-						<fileName>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
-						<fileDirectory>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</fileDirectory>
+						<fileName>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
+						<fileDirectory>C:\Users\Drus\Desktop\parni\Sobel</fileDirectory>
 						<lineNumber>458</lineNumber>
 						<contextFuncName>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</first>
+								<first>C:\Users\Drus\Desktop\parni\Sobel</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>Filter2D&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>1305</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>458</second>
@@ -6972,28 +6972,28 @@
 						<type>0</type>
 						<id>143</id>
 						<name>col_buf_0_val_2_0</name>
-						<fileName>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
-						<fileDirectory>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</fileDirectory>
+						<fileName>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
+						<fileDirectory>C:\Users\Drus\Desktop\parni\Sobel</fileDirectory>
 						<lineNumber>457</lineNumber>
 						<contextFuncName>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</first>
+								<first>C:\Users\Drus\Desktop\parni\Sobel</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>Filter2D&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>1305</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>457</second>
@@ -7029,28 +7029,28 @@
 						<type>0</type>
 						<id>144</id>
 						<name>_ln465</name>
-						<fileName>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
-						<fileDirectory>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</fileDirectory>
+						<fileName>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
+						<fileDirectory>C:\Users\Drus\Desktop\parni\Sobel</fileDirectory>
 						<lineNumber>465</lineNumber>
 						<contextFuncName>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</first>
+								<first>C:\Users\Drus\Desktop\parni\Sobel</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>Filter2D&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>1305</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>465</second>
@@ -7086,28 +7086,28 @@
 						<type>0</type>
 						<id>146</id>
 						<name>_ln466</name>
-						<fileName>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
-						<fileDirectory>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</fileDirectory>
+						<fileName>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
+						<fileDirectory>C:\Users\Drus\Desktop\parni\Sobel</fileDirectory>
 						<lineNumber>466</lineNumber>
 						<contextFuncName>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</first>
+								<first>C:\Users\Drus\Desktop\parni\Sobel</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>Filter2D&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>1305</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>466</second>
@@ -7142,29 +7142,29 @@
 					<Obj>
 						<type>0</type>
 						<id>148</id>
-						<name>tmp_18</name>
-						<fileName>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
-						<fileDirectory>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</fileDirectory>
+						<name>tmp_19</name>
+						<fileName>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
+						<fileDirectory>C:\Users\Drus\Desktop\parni\Sobel</fileDirectory>
 						<lineNumber>468</lineNumber>
 						<contextFuncName>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</first>
+								<first>C:\Users\Drus\Desktop\parni\Sobel</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>Filter2D&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>1305</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>468</second>
@@ -7199,28 +7199,28 @@
 						<type>0</type>
 						<id>149</id>
 						<name>_ln471</name>
-						<fileName>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
-						<fileDirectory>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</fileDirectory>
+						<fileName>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
+						<fileDirectory>C:\Users\Drus\Desktop\parni\Sobel</fileDirectory>
 						<lineNumber>471</lineNumber>
 						<contextFuncName>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</first>
+								<first>C:\Users\Drus\Desktop\parni\Sobel</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>Filter2D&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>1305</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>471</second>
@@ -7256,28 +7256,28 @@
 						<type>0</type>
 						<id>151</id>
 						<name>k_buf_0_val_5_addr_write_ln472</name>
-						<fileName>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
-						<fileDirectory>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</fileDirectory>
+						<fileName>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
+						<fileDirectory>C:\Users\Drus\Desktop\parni\Sobel</fileDirectory>
 						<lineNumber>472</lineNumber>
 						<contextFuncName>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</first>
+								<first>C:\Users\Drus\Desktop\parni\Sobel</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>Filter2D&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>1305</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>472</second>
@@ -7296,7 +7296,7 @@
 					<item_version>0</item_version>
 					<item>547</item>
 					<item>548</item>
-					<item>858</item>
+					<item>836</item>
 				</oprand_edges>
 				<opcode>store</opcode>
 				<m_Display>0</m_Display>
@@ -7313,28 +7313,28 @@
 						<type>0</type>
 						<id>152</id>
 						<name>_ln473</name>
-						<fileName>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
-						<fileDirectory>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</fileDirectory>
+						<fileName>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
+						<fileDirectory>C:\Users\Drus\Desktop\parni\Sobel</fileDirectory>
 						<lineNumber>473</lineNumber>
 						<contextFuncName>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</first>
+								<first>C:\Users\Drus\Desktop\parni\Sobel</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>Filter2D&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>1305</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>473</second>
@@ -7368,28 +7368,28 @@
 						<type>0</type>
 						<id>154</id>
 						<name>_ln471</name>
-						<fileName>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
-						<fileDirectory>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</fileDirectory>
+						<fileName>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
+						<fileDirectory>C:\Users\Drus\Desktop\parni\Sobel</fileDirectory>
 						<lineNumber>471</lineNumber>
 						<contextFuncName>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</first>
+								<first>C:\Users\Drus\Desktop\parni\Sobel</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>Filter2D&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>1305</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>471</second>
@@ -7425,28 +7425,28 @@
 						<type>0</type>
 						<id>156</id>
 						<name>k_buf_0_val_4_addr_write_ln472</name>
-						<fileName>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
-						<fileDirectory>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</fileDirectory>
+						<fileName>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
+						<fileDirectory>C:\Users\Drus\Desktop\parni\Sobel</fileDirectory>
 						<lineNumber>472</lineNumber>
 						<contextFuncName>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</first>
+								<first>C:\Users\Drus\Desktop\parni\Sobel</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>Filter2D&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>1305</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>472</second>
@@ -7465,7 +7465,7 @@
 					<item_version>0</item_version>
 					<item>553</item>
 					<item>554</item>
-					<item>859</item>
+					<item>837</item>
 				</oprand_edges>
 				<opcode>store</opcode>
 				<m_Display>0</m_Display>
@@ -7482,28 +7482,28 @@
 						<type>0</type>
 						<id>157</id>
 						<name>_ln473</name>
-						<fileName>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
-						<fileDirectory>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</fileDirectory>
+						<fileName>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
+						<fileDirectory>C:\Users\Drus\Desktop\parni\Sobel</fileDirectory>
 						<lineNumber>473</lineNumber>
 						<contextFuncName>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</first>
+								<first>C:\Users\Drus\Desktop\parni\Sobel</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>Filter2D&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>1305</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>473</second>
@@ -7537,28 +7537,28 @@
 						<type>0</type>
 						<id>159</id>
 						<name>_ln471</name>
-						<fileName>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
-						<fileDirectory>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</fileDirectory>
+						<fileName>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
+						<fileDirectory>C:\Users\Drus\Desktop\parni\Sobel</fileDirectory>
 						<lineNumber>471</lineNumber>
 						<contextFuncName>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</first>
+								<first>C:\Users\Drus\Desktop\parni\Sobel</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>Filter2D&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>1305</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>471</second>
@@ -7594,28 +7594,28 @@
 						<type>0</type>
 						<id>161</id>
 						<name>k_buf_0_val_3_addr_write_ln472</name>
-						<fileName>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
-						<fileDirectory>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</fileDirectory>
+						<fileName>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
+						<fileDirectory>C:\Users\Drus\Desktop\parni\Sobel</fileDirectory>
 						<lineNumber>472</lineNumber>
 						<contextFuncName>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</first>
+								<first>C:\Users\Drus\Desktop\parni\Sobel</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>Filter2D&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>1305</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>472</second>
@@ -7634,7 +7634,7 @@
 					<item_version>0</item_version>
 					<item>559</item>
 					<item>560</item>
-					<item>860</item>
+					<item>838</item>
 				</oprand_edges>
 				<opcode>store</opcode>
 				<m_Display>0</m_Display>
@@ -7651,28 +7651,28 @@
 						<type>0</type>
 						<id>162</id>
 						<name>_ln473</name>
-						<fileName>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
-						<fileDirectory>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</fileDirectory>
+						<fileName>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
+						<fileDirectory>C:\Users\Drus\Desktop\parni\Sobel</fileDirectory>
 						<lineNumber>473</lineNumber>
 						<contextFuncName>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</first>
+								<first>C:\Users\Drus\Desktop\parni\Sobel</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>Filter2D&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>1305</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>473</second>
@@ -7740,28 +7740,28 @@
 						<type>0</type>
 						<id>166</id>
 						<name>_ln475</name>
-						<fileName>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
-						<fileDirectory>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</fileDirectory>
+						<fileName>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
+						<fileDirectory>C:\Users\Drus\Desktop\parni\Sobel</fileDirectory>
 						<lineNumber>475</lineNumber>
 						<contextFuncName>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</first>
+								<first>C:\Users\Drus\Desktop\parni\Sobel</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>Filter2D&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>1305</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>475</second>
@@ -7797,28 +7797,28 @@
 						<type>0</type>
 						<id>168</id>
 						<name>right_border_buf_0_12</name>
-						<fileName>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
-						<fileDirectory>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</fileDirectory>
+						<fileName>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
+						<fileDirectory>C:\Users\Drus\Desktop\parni\Sobel</fileDirectory>
 						<lineNumber>495</lineNumber>
 						<contextFuncName>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</first>
+								<first>C:\Users\Drus\Desktop\parni\Sobel</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>Filter2D&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>1305</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>495</second>
@@ -7852,28 +7852,28 @@
 						<type>0</type>
 						<id>169</id>
 						<name>right_border_buf_0_13</name>
-						<fileName>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
-						<fileDirectory>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</fileDirectory>
+						<fileName>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
+						<fileDirectory>C:\Users\Drus\Desktop\parni\Sobel</fileDirectory>
 						<lineNumber>495</lineNumber>
 						<contextFuncName>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</first>
+								<first>C:\Users\Drus\Desktop\parni\Sobel</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>Filter2D&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>1305</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>495</second>
@@ -7907,28 +7907,28 @@
 						<type>0</type>
 						<id>170</id>
 						<name>k_buf_0_val_5_addr_write_ln489</name>
-						<fileName>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
-						<fileDirectory>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</fileDirectory>
+						<fileName>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
+						<fileDirectory>C:\Users\Drus\Desktop\parni\Sobel</fileDirectory>
 						<lineNumber>489</lineNumber>
 						<contextFuncName>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</first>
+								<first>C:\Users\Drus\Desktop\parni\Sobel</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>Filter2D&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>1305</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>489</second>
@@ -7947,7 +7947,7 @@
 					<item_version>0</item_version>
 					<item>526</item>
 					<item>527</item>
-					<item>857</item>
+					<item>835</item>
 				</oprand_edges>
 				<opcode>store</opcode>
 				<m_Display>0</m_Display>
@@ -7964,28 +7964,28 @@
 						<type>0</type>
 						<id>171</id>
 						<name>k_buf_0_val_4_addr_write_ln489</name>
-						<fileName>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
-						<fileDirectory>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</fileDirectory>
+						<fileName>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
+						<fileDirectory>C:\Users\Drus\Desktop\parni\Sobel</fileDirectory>
 						<lineNumber>489</lineNumber>
 						<contextFuncName>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</first>
+								<first>C:\Users\Drus\Desktop\parni\Sobel</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>Filter2D&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>1305</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>489</second>
@@ -8004,7 +8004,7 @@
 					<item_version>0</item_version>
 					<item>528</item>
 					<item>529</item>
-					<item>856</item>
+					<item>834</item>
 				</oprand_edges>
 				<opcode>store</opcode>
 				<m_Display>0</m_Display>
@@ -8020,29 +8020,29 @@
 					<Obj>
 						<type>0</type>
 						<id>172</id>
-						<name>tmp_15</name>
-						<fileName>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
-						<fileDirectory>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</fileDirectory>
+						<name>tmp_16</name>
+						<fileName>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
+						<fileDirectory>C:\Users\Drus\Desktop\parni\Sobel</fileDirectory>
 						<lineNumber>493</lineNumber>
 						<contextFuncName>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</first>
+								<first>C:\Users\Drus\Desktop\parni\Sobel</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>Filter2D&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>1305</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>493</second>
@@ -8077,28 +8077,28 @@
 						<type>0</type>
 						<id>173</id>
 						<name>k_buf_0_val_3_addr_write_ln493</name>
-						<fileName>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
-						<fileDirectory>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</fileDirectory>
+						<fileName>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
+						<fileDirectory>C:\Users\Drus\Desktop\parni\Sobel</fileDirectory>
 						<lineNumber>493</lineNumber>
 						<contextFuncName>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</first>
+								<first>C:\Users\Drus\Desktop\parni\Sobel</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>Filter2D&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>1305</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>493</second>
@@ -8117,7 +8117,7 @@
 					<item_version>0</item_version>
 					<item>532</item>
 					<item>533</item>
-					<item>855</item>
+					<item>833</item>
 				</oprand_edges>
 				<opcode>store</opcode>
 				<m_Display>0</m_Display>
@@ -8134,28 +8134,28 @@
 						<type>0</type>
 						<id>174</id>
 						<name>right_border_buf_0_5_write_ln495</name>
-						<fileName>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
-						<fileDirectory>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</fileDirectory>
+						<fileName>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
+						<fileDirectory>C:\Users\Drus\Desktop\parni\Sobel</fileDirectory>
 						<lineNumber>495</lineNumber>
 						<contextFuncName>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</first>
+								<first>C:\Users\Drus\Desktop\parni\Sobel</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>Filter2D&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>1305</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>495</second>
@@ -8174,7 +8174,7 @@
 					<item_version>0</item_version>
 					<item>534</item>
 					<item>535</item>
-					<item>865</item>
+					<item>843</item>
 				</oprand_edges>
 				<opcode>store</opcode>
 				<m_Display>0</m_Display>
@@ -8191,28 +8191,28 @@
 						<type>0</type>
 						<id>175</id>
 						<name>right_border_buf_0_4_write_ln495</name>
-						<fileName>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
-						<fileDirectory>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</fileDirectory>
+						<fileName>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
+						<fileDirectory>C:\Users\Drus\Desktop\parni\Sobel</fileDirectory>
 						<lineNumber>495</lineNumber>
 						<contextFuncName>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</first>
+								<first>C:\Users\Drus\Desktop\parni\Sobel</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>Filter2D&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>1305</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>495</second>
@@ -8231,7 +8231,7 @@
 					<item_version>0</item_version>
 					<item>536</item>
 					<item>537</item>
-					<item>870</item>
+					<item>848</item>
 				</oprand_edges>
 				<opcode>store</opcode>
 				<m_Display>0</m_Display>
@@ -8248,28 +8248,28 @@
 						<type>0</type>
 						<id>176</id>
 						<name>right_border_buf_0_3_write_ln495</name>
-						<fileName>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
-						<fileDirectory>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</fileDirectory>
+						<fileName>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
+						<fileDirectory>C:\Users\Drus\Desktop\parni\Sobel</fileDirectory>
 						<lineNumber>495</lineNumber>
 						<contextFuncName>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</first>
+								<first>C:\Users\Drus\Desktop\parni\Sobel</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>Filter2D&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>1305</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>495</second>
@@ -8288,8 +8288,8 @@
 					<item_version>0</item_version>
 					<item>538</item>
 					<item>539</item>
-					<item>861</item>
-					<item>869</item>
+					<item>839</item>
+					<item>847</item>
 				</oprand_edges>
 				<opcode>store</opcode>
 				<m_Display>0</m_Display>
@@ -8306,28 +8306,28 @@
 						<type>0</type>
 						<id>177</id>
 						<name>right_border_buf_0_2_write_ln495</name>
-						<fileName>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
-						<fileDirectory>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</fileDirectory>
+						<fileName>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
+						<fileDirectory>C:\Users\Drus\Desktop\parni\Sobel</fileDirectory>
 						<lineNumber>495</lineNumber>
 						<contextFuncName>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</first>
+								<first>C:\Users\Drus\Desktop\parni\Sobel</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>Filter2D&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>1305</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>495</second>
@@ -8346,7 +8346,7 @@
 					<item_version>0</item_version>
 					<item>540</item>
 					<item>541</item>
-					<item>868</item>
+					<item>846</item>
 				</oprand_edges>
 				<opcode>store</opcode>
 				<m_Display>0</m_Display>
@@ -8363,28 +8363,28 @@
 						<type>0</type>
 						<id>178</id>
 						<name>right_border_buf_0_1_write_ln495</name>
-						<fileName>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
-						<fileDirectory>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</fileDirectory>
+						<fileName>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
+						<fileDirectory>C:\Users\Drus\Desktop\parni\Sobel</fileDirectory>
 						<lineNumber>495</lineNumber>
 						<contextFuncName>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</first>
+								<first>C:\Users\Drus\Desktop\parni\Sobel</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>Filter2D&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>1305</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>495</second>
@@ -8403,7 +8403,7 @@
 					<item_version>0</item_version>
 					<item>542</item>
 					<item>543</item>
-					<item>867</item>
+					<item>845</item>
 				</oprand_edges>
 				<opcode>store</opcode>
 				<m_Display>0</m_Display>
@@ -8420,28 +8420,28 @@
 						<type>0</type>
 						<id>179</id>
 						<name>right_border_buf_0_s_write_ln495</name>
-						<fileName>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
-						<fileDirectory>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</fileDirectory>
+						<fileName>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
+						<fileDirectory>C:\Users\Drus\Desktop\parni\Sobel</fileDirectory>
 						<lineNumber>495</lineNumber>
 						<contextFuncName>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</first>
+								<first>C:\Users\Drus\Desktop\parni\Sobel</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>Filter2D&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>1305</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>495</second>
@@ -8460,8 +8460,8 @@
 					<item_version>0</item_version>
 					<item>544</item>
 					<item>545</item>
-					<item>862</item>
-					<item>866</item>
+					<item>840</item>
+					<item>844</item>
 				</oprand_edges>
 				<opcode>store</opcode>
 				<m_Display>0</m_Display>
@@ -8478,28 +8478,28 @@
 						<type>0</type>
 						<id>180</id>
 						<name>_ln495</name>
-						<fileName>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
-						<fileDirectory>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</fileDirectory>
+						<fileName>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
+						<fileDirectory>C:\Users\Drus\Desktop\parni\Sobel</fileDirectory>
 						<lineNumber>495</lineNumber>
 						<contextFuncName>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</first>
+								<first>C:\Users\Drus\Desktop\parni\Sobel</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>Filter2D&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>1305</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>495</second>
@@ -8533,28 +8533,28 @@
 						<type>0</type>
 						<id>182</id>
 						<name>tmp_6</name>
-						<fileName>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
-						<fileDirectory>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</fileDirectory>
+						<fileName>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
+						<fileDirectory>C:\Users\Drus\Desktop\parni\Sobel</fileDirectory>
 						<lineNumber>507</lineNumber>
 						<contextFuncName>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</first>
+								<first>C:\Users\Drus\Desktop\parni\Sobel</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>Filter2D&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>1305</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>507</second>
@@ -8592,28 +8592,28 @@
 						<type>0</type>
 						<id>183</id>
 						<name>src_kernel_win_0_va_4</name>
-						<fileName>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
-						<fileDirectory>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</fileDirectory>
+						<fileName>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
+						<fileDirectory>C:\Users\Drus\Desktop\parni\Sobel</fileDirectory>
 						<lineNumber>502</lineNumber>
 						<contextFuncName>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</first>
+								<first>C:\Users\Drus\Desktop\parni\Sobel</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>Filter2D&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>1305</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>502</second>
@@ -8649,28 +8649,28 @@
 						<type>0</type>
 						<id>184</id>
 						<name>tmp_7</name>
-						<fileName>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
-						<fileDirectory>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</fileDirectory>
+						<fileName>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
+						<fileDirectory>C:\Users\Drus\Desktop\parni\Sobel</fileDirectory>
 						<lineNumber>507</lineNumber>
 						<contextFuncName>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</first>
+								<first>C:\Users\Drus\Desktop\parni\Sobel</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>Filter2D&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>1305</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>507</second>
@@ -8708,28 +8708,28 @@
 						<type>0</type>
 						<id>185</id>
 						<name>src_kernel_win_0_va_5</name>
-						<fileName>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
-						<fileDirectory>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</fileDirectory>
+						<fileName>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
+						<fileDirectory>C:\Users\Drus\Desktop\parni\Sobel</fileDirectory>
 						<lineNumber>502</lineNumber>
 						<contextFuncName>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</first>
+								<first>C:\Users\Drus\Desktop\parni\Sobel</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>Filter2D&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>1305</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>502</second>
@@ -8765,28 +8765,28 @@
 						<type>0</type>
 						<id>186</id>
 						<name>and_ln512</name>
-						<fileName>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
-						<fileDirectory>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</fileDirectory>
+						<fileName>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
+						<fileDirectory>C:\Users\Drus\Desktop\parni\Sobel</fileDirectory>
 						<lineNumber>512</lineNumber>
 						<contextFuncName>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</first>
+								<first>C:\Users\Drus\Desktop\parni\Sobel</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>Filter2D&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>1305</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>512</second>
@@ -8821,28 +8821,28 @@
 						<type>0</type>
 						<id>187</id>
 						<name>_ln512</name>
-						<fileName>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
-						<fileDirectory>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</fileDirectory>
+						<fileName>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
+						<fileDirectory>C:\Users\Drus\Desktop\parni\Sobel</fileDirectory>
 						<lineNumber>512</lineNumber>
 						<contextFuncName>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</first>
+								<first>C:\Users\Drus\Desktop\parni\Sobel</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>Filter2D&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>1305</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>512</second>
@@ -8878,42 +8878,42 @@
 						<type>0</type>
 						<id>189</id>
 						<name>src_kernel_win_0_va_6</name>
-						<fileName>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
-						<fileDirectory>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</fileDirectory>
+						<fileName>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
+						<fileDirectory>C:\Users\Drus\Desktop\parni\Sobel</fileDirectory>
 						<lineNumber>290</lineNumber>
 						<contextFuncName>apply&amp;lt;unsigned char, ap_fixed&amp;lt;20, 20, 5, 3, 0&amp;gt;, char, 3, 3&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</first>
+								<first>C:\Users\Drus\Desktop\parni\Sobel</first>
 								<second>
 									<count>4</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>Filter2D&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>1305</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>apply&amp;lt;unsigned char, ap_fixed&amp;lt;20, 20, 5, 3, 0&amp;gt;, char, 3, 3&amp;gt;</second>
 										</first>
 										<second>290</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>apply&amp;lt;unsigned char, unsigned char, char, 3, 3&amp;gt;</second>
 										</first>
 										<second>303</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>514</second>
@@ -8947,49 +8947,49 @@
 						<type>0</type>
 						<id>190</id>
 						<name>src_kernel_win_0_va_7</name>
-						<fileName>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_types.h</fileName>
-						<fileDirectory>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</fileDirectory>
+						<fileName>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_types.h</fileName>
+						<fileDirectory>C:\Users\Drus\Desktop\parni\Sobel</fileDirectory>
 						<lineNumber>409</lineNumber>
 						<contextFuncName>operator()&amp;lt;20, 20, 5, 3&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</first>
+								<first>C:\Users\Drus\Desktop\parni\Sobel</first>
 								<second>
 									<count>5</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>Filter2D&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>1305</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>apply&amp;lt;unsigned char, unsigned char, char, 3, 3&amp;gt;</second>
 										</first>
 										<second>304</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>514</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_types.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_types.h</first>
 											<second>operator()&amp;lt;20, 20, 5, 3&amp;gt;</second>
 										</first>
 										<second>409</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_types.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_types.h</first>
 											<second>sr_cast&amp;lt;unsigned char, ap_fixed&amp;lt;20, 20, 5, 3, 0&amp;gt; &amp;gt;</second>
 										</first>
 										<second>500</second>
@@ -9023,42 +9023,42 @@
 						<type>0</type>
 						<id>191</id>
 						<name>src_kernel_win_0_va_8</name>
-						<fileName>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
-						<fileDirectory>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</fileDirectory>
+						<fileName>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
+						<fileDirectory>C:\Users\Drus\Desktop\parni\Sobel</fileDirectory>
 						<lineNumber>289</lineNumber>
 						<contextFuncName>apply&amp;lt;unsigned char, ap_fixed&amp;lt;20, 20, 5, 3, 0&amp;gt;, char, 3, 3&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</first>
+								<first>C:\Users\Drus\Desktop\parni\Sobel</first>
 								<second>
 									<count>4</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>Filter2D&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>1305</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>apply&amp;lt;unsigned char, ap_fixed&amp;lt;20, 20, 5, 3, 0&amp;gt;, char, 3, 3&amp;gt;</second>
 										</first>
 										<second>289</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>apply&amp;lt;unsigned char, unsigned char, char, 3, 3&amp;gt;</second>
 										</first>
 										<second>303</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>514</second>
@@ -9092,42 +9092,42 @@
 						<type>0</type>
 						<id>192</id>
 						<name>src_kernel_win_0_va_9</name>
-						<fileName>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
-						<fileDirectory>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</fileDirectory>
+						<fileName>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
+						<fileDirectory>C:\Users\Drus\Desktop\parni\Sobel</fileDirectory>
 						<lineNumber>290</lineNumber>
 						<contextFuncName>apply&amp;lt;unsigned char, ap_fixed&amp;lt;20, 20, 5, 3, 0&amp;gt;, char, 3, 3&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</first>
+								<first>C:\Users\Drus\Desktop\parni\Sobel</first>
 								<second>
 									<count>4</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>Filter2D&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>1305</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>apply&amp;lt;unsigned char, ap_fixed&amp;lt;20, 20, 5, 3, 0&amp;gt;, char, 3, 3&amp;gt;</second>
 										</first>
 										<second>290</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>apply&amp;lt;unsigned char, unsigned char, char, 3, 3&amp;gt;</second>
 										</first>
 										<second>303</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>514</second>
@@ -9161,42 +9161,42 @@
 						<type>0</type>
 						<id>193</id>
 						<name>zext_ln1118</name>
-						<fileName>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
-						<fileDirectory>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</fileDirectory>
+						<fileName>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
+						<fileDirectory>C:\Users\Drus\Desktop\parni\Sobel</fileDirectory>
 						<lineNumber>289</lineNumber>
 						<contextFuncName>apply&amp;lt;unsigned char, ap_fixed&amp;lt;20, 20, 5, 3, 0&amp;gt;, char, 3, 3&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</first>
+								<first>C:\Users\Drus\Desktop\parni\Sobel</first>
 								<second>
 									<count>4</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>Filter2D&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>1305</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>apply&amp;lt;unsigned char, ap_fixed&amp;lt;20, 20, 5, 3, 0&amp;gt;, char, 3, 3&amp;gt;</second>
 										</first>
 										<second>289</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>apply&amp;lt;unsigned char, unsigned char, char, 3, 3&amp;gt;</second>
 										</first>
 										<second>303</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>514</second>
@@ -9230,42 +9230,42 @@
 						<type>0</type>
 						<id>194</id>
 						<name>shl_ln</name>
-						<fileName>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
-						<fileDirectory>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</fileDirectory>
+						<fileName>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
+						<fileDirectory>C:\Users\Drus\Desktop\parni\Sobel</fileDirectory>
 						<lineNumber>289</lineNumber>
 						<contextFuncName>apply&amp;lt;unsigned char, ap_fixed&amp;lt;20, 20, 5, 3, 0&amp;gt;, char, 3, 3&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</first>
+								<first>C:\Users\Drus\Desktop\parni\Sobel</first>
 								<second>
 									<count>4</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>Filter2D&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>1305</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>apply&amp;lt;unsigned char, ap_fixed&amp;lt;20, 20, 5, 3, 0&amp;gt;, char, 3, 3&amp;gt;</second>
 										</first>
 										<second>289</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>apply&amp;lt;unsigned char, unsigned char, char, 3, 3&amp;gt;</second>
 										</first>
 										<second>303</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>514</second>
@@ -9301,42 +9301,42 @@
 						<type>0</type>
 						<id>195</id>
 						<name>zext_ln1118_1</name>
-						<fileName>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
-						<fileDirectory>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</fileDirectory>
+						<fileName>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
+						<fileDirectory>C:\Users\Drus\Desktop\parni\Sobel</fileDirectory>
 						<lineNumber>289</lineNumber>
 						<contextFuncName>apply&amp;lt;unsigned char, ap_fixed&amp;lt;20, 20, 5, 3, 0&amp;gt;, char, 3, 3&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</first>
+								<first>C:\Users\Drus\Desktop\parni\Sobel</first>
 								<second>
 									<count>4</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>Filter2D&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>1305</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>apply&amp;lt;unsigned char, ap_fixed&amp;lt;20, 20, 5, 3, 0&amp;gt;, char, 3, 3&amp;gt;</second>
 										</first>
 										<second>289</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>apply&amp;lt;unsigned char, unsigned char, char, 3, 3&amp;gt;</second>
 										</first>
 										<second>303</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>514</second>
@@ -9370,42 +9370,42 @@
 						<type>0</type>
 						<id>196</id>
 						<name>shl_ln1118</name>
-						<fileName>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
-						<fileDirectory>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</fileDirectory>
+						<fileName>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
+						<fileDirectory>C:\Users\Drus\Desktop\parni\Sobel</fileDirectory>
 						<lineNumber>289</lineNumber>
 						<contextFuncName>apply&amp;lt;unsigned char, ap_fixed&amp;lt;20, 20, 5, 3, 0&amp;gt;, char, 3, 3&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</first>
+								<first>C:\Users\Drus\Desktop\parni\Sobel</first>
 								<second>
 									<count>4</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>Filter2D&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>1305</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>apply&amp;lt;unsigned char, ap_fixed&amp;lt;20, 20, 5, 3, 0&amp;gt;, char, 3, 3&amp;gt;</second>
 										</first>
 										<second>289</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>apply&amp;lt;unsigned char, unsigned char, char, 3, 3&amp;gt;</second>
 										</first>
 										<second>303</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>514</second>
@@ -9440,42 +9440,42 @@
 						<type>0</type>
 						<id>197</id>
 						<name>sub_ln703</name>
-						<fileName>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
-						<fileDirectory>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</fileDirectory>
+						<fileName>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
+						<fileDirectory>C:\Users\Drus\Desktop\parni\Sobel</fileDirectory>
 						<lineNumber>290</lineNumber>
 						<contextFuncName>apply&amp;lt;unsigned char, ap_fixed&amp;lt;20, 20, 5, 3, 0&amp;gt;, char, 3, 3&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</first>
+								<first>C:\Users\Drus\Desktop\parni\Sobel</first>
 								<second>
 									<count>4</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>Filter2D&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>1305</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>apply&amp;lt;unsigned char, ap_fixed&amp;lt;20, 20, 5, 3, 0&amp;gt;, char, 3, 3&amp;gt;</second>
 										</first>
 										<second>290</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>apply&amp;lt;unsigned char, unsigned char, char, 3, 3&amp;gt;</second>
 										</first>
 										<second>303</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>514</second>
@@ -9510,42 +9510,42 @@
 						<type>0</type>
 						<id>198</id>
 						<name>zext_ln703</name>
-						<fileName>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
-						<fileDirectory>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</fileDirectory>
+						<fileName>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
+						<fileDirectory>C:\Users\Drus\Desktop\parni\Sobel</fileDirectory>
 						<lineNumber>290</lineNumber>
 						<contextFuncName>apply&amp;lt;unsigned char, ap_fixed&amp;lt;20, 20, 5, 3, 0&amp;gt;, char, 3, 3&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</first>
+								<first>C:\Users\Drus\Desktop\parni\Sobel</first>
 								<second>
 									<count>4</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>Filter2D&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>1305</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>apply&amp;lt;unsigned char, ap_fixed&amp;lt;20, 20, 5, 3, 0&amp;gt;, char, 3, 3&amp;gt;</second>
 										</first>
 										<second>290</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>apply&amp;lt;unsigned char, unsigned char, char, 3, 3&amp;gt;</second>
 										</first>
 										<second>303</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>514</second>
@@ -9579,42 +9579,42 @@
 						<type>0</type>
 						<id>199</id>
 						<name>sub_ln703_1</name>
-						<fileName>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
-						<fileDirectory>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</fileDirectory>
+						<fileName>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
+						<fileDirectory>C:\Users\Drus\Desktop\parni\Sobel</fileDirectory>
 						<lineNumber>290</lineNumber>
 						<contextFuncName>apply&amp;lt;unsigned char, ap_fixed&amp;lt;20, 20, 5, 3, 0&amp;gt;, char, 3, 3&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</first>
+								<first>C:\Users\Drus\Desktop\parni\Sobel</first>
 								<second>
 									<count>4</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>Filter2D&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>1305</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>apply&amp;lt;unsigned char, ap_fixed&amp;lt;20, 20, 5, 3, 0&amp;gt;, char, 3, 3&amp;gt;</second>
 										</first>
 										<second>290</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>apply&amp;lt;unsigned char, unsigned char, char, 3, 3&amp;gt;</second>
 										</first>
 										<second>303</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>514</second>
@@ -9649,42 +9649,42 @@
 						<type>0</type>
 						<id>200</id>
 						<name>add_ln703</name>
-						<fileName>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
-						<fileDirectory>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</fileDirectory>
+						<fileName>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
+						<fileDirectory>C:\Users\Drus\Desktop\parni\Sobel</fileDirectory>
 						<lineNumber>290</lineNumber>
 						<contextFuncName>apply&amp;lt;unsigned char, ap_fixed&amp;lt;20, 20, 5, 3, 0&amp;gt;, char, 3, 3&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</first>
+								<first>C:\Users\Drus\Desktop\parni\Sobel</first>
 								<second>
 									<count>4</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>Filter2D&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>1305</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>apply&amp;lt;unsigned char, ap_fixed&amp;lt;20, 20, 5, 3, 0&amp;gt;, char, 3, 3&amp;gt;</second>
 										</first>
 										<second>290</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>apply&amp;lt;unsigned char, unsigned char, char, 3, 3&amp;gt;</second>
 										</first>
 										<second>303</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>514</second>
@@ -9719,42 +9719,42 @@
 						<type>0</type>
 						<id>201</id>
 						<name>zext_ln703_3</name>
-						<fileName>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
-						<fileDirectory>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</fileDirectory>
+						<fileName>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
+						<fileDirectory>C:\Users\Drus\Desktop\parni\Sobel</fileDirectory>
 						<lineNumber>290</lineNumber>
 						<contextFuncName>apply&amp;lt;unsigned char, ap_fixed&amp;lt;20, 20, 5, 3, 0&amp;gt;, char, 3, 3&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</first>
+								<first>C:\Users\Drus\Desktop\parni\Sobel</first>
 								<second>
 									<count>4</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>Filter2D&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>1305</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>apply&amp;lt;unsigned char, ap_fixed&amp;lt;20, 20, 5, 3, 0&amp;gt;, char, 3, 3&amp;gt;</second>
 										</first>
 										<second>290</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>apply&amp;lt;unsigned char, unsigned char, char, 3, 3&amp;gt;</second>
 										</first>
 										<second>303</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>514</second>
@@ -9788,42 +9788,42 @@
 						<type>0</type>
 						<id>202</id>
 						<name>add_ln703_1</name>
-						<fileName>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
-						<fileDirectory>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</fileDirectory>
+						<fileName>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
+						<fileDirectory>C:\Users\Drus\Desktop\parni\Sobel</fileDirectory>
 						<lineNumber>290</lineNumber>
 						<contextFuncName>apply&amp;lt;unsigned char, ap_fixed&amp;lt;20, 20, 5, 3, 0&amp;gt;, char, 3, 3&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</first>
+								<first>C:\Users\Drus\Desktop\parni\Sobel</first>
 								<second>
 									<count>4</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>Filter2D&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>1305</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>apply&amp;lt;unsigned char, ap_fixed&amp;lt;20, 20, 5, 3, 0&amp;gt;, char, 3, 3&amp;gt;</second>
 										</first>
 										<second>290</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>apply&amp;lt;unsigned char, unsigned char, char, 3, 3&amp;gt;</second>
 										</first>
 										<second>303</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>514</second>
@@ -9858,42 +9858,42 @@
 						<type>0</type>
 						<id>203</id>
 						<name>zext_ln703_1</name>
-						<fileName>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
-						<fileDirectory>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</fileDirectory>
+						<fileName>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
+						<fileDirectory>C:\Users\Drus\Desktop\parni\Sobel</fileDirectory>
 						<lineNumber>290</lineNumber>
 						<contextFuncName>apply&amp;lt;unsigned char, ap_fixed&amp;lt;20, 20, 5, 3, 0&amp;gt;, char, 3, 3&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</first>
+								<first>C:\Users\Drus\Desktop\parni\Sobel</first>
 								<second>
 									<count>4</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>Filter2D&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>1305</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>apply&amp;lt;unsigned char, ap_fixed&amp;lt;20, 20, 5, 3, 0&amp;gt;, char, 3, 3&amp;gt;</second>
 										</first>
 										<second>290</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>apply&amp;lt;unsigned char, unsigned char, char, 3, 3&amp;gt;</second>
 										</first>
 										<second>303</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>514</second>
@@ -9927,42 +9927,42 @@
 						<type>0</type>
 						<id>204</id>
 						<name>zext_ln703_2</name>
-						<fileName>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
-						<fileDirectory>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</fileDirectory>
+						<fileName>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
+						<fileDirectory>C:\Users\Drus\Desktop\parni\Sobel</fileDirectory>
 						<lineNumber>290</lineNumber>
 						<contextFuncName>apply&amp;lt;unsigned char, ap_fixed&amp;lt;20, 20, 5, 3, 0&amp;gt;, char, 3, 3&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</first>
+								<first>C:\Users\Drus\Desktop\parni\Sobel</first>
 								<second>
 									<count>4</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>Filter2D&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>1305</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>apply&amp;lt;unsigned char, ap_fixed&amp;lt;20, 20, 5, 3, 0&amp;gt;, char, 3, 3&amp;gt;</second>
 										</first>
 										<second>290</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>apply&amp;lt;unsigned char, unsigned char, char, 3, 3&amp;gt;</second>
 										</first>
 										<second>303</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>514</second>
@@ -9996,42 +9996,42 @@
 						<type>0</type>
 						<id>205</id>
 						<name>sub_ln703_2</name>
-						<fileName>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
-						<fileDirectory>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</fileDirectory>
+						<fileName>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
+						<fileDirectory>C:\Users\Drus\Desktop\parni\Sobel</fileDirectory>
 						<lineNumber>290</lineNumber>
 						<contextFuncName>apply&amp;lt;unsigned char, ap_fixed&amp;lt;20, 20, 5, 3, 0&amp;gt;, char, 3, 3&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</first>
+								<first>C:\Users\Drus\Desktop\parni\Sobel</first>
 								<second>
 									<count>4</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>Filter2D&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>1305</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>apply&amp;lt;unsigned char, ap_fixed&amp;lt;20, 20, 5, 3, 0&amp;gt;, char, 3, 3&amp;gt;</second>
 										</first>
 										<second>290</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>apply&amp;lt;unsigned char, unsigned char, char, 3, 3&amp;gt;</second>
 										</first>
 										<second>303</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>514</second>
@@ -10066,42 +10066,42 @@
 						<type>0</type>
 						<id>206</id>
 						<name>sub_ln703_3</name>
-						<fileName>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
-						<fileDirectory>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</fileDirectory>
+						<fileName>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
+						<fileDirectory>C:\Users\Drus\Desktop\parni\Sobel</fileDirectory>
 						<lineNumber>290</lineNumber>
 						<contextFuncName>apply&amp;lt;unsigned char, ap_fixed&amp;lt;20, 20, 5, 3, 0&amp;gt;, char, 3, 3&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</first>
+								<first>C:\Users\Drus\Desktop\parni\Sobel</first>
 								<second>
 									<count>4</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>Filter2D&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>1305</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>apply&amp;lt;unsigned char, ap_fixed&amp;lt;20, 20, 5, 3, 0&amp;gt;, char, 3, 3&amp;gt;</second>
 										</first>
 										<second>290</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>apply&amp;lt;unsigned char, unsigned char, char, 3, 3&amp;gt;</second>
 										</first>
 										<second>303</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>514</second>
@@ -10136,42 +10136,42 @@
 						<type>0</type>
 						<id>207</id>
 						<name>shl_ln1118_1</name>
-						<fileName>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
-						<fileDirectory>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</fileDirectory>
+						<fileName>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
+						<fileDirectory>C:\Users\Drus\Desktop\parni\Sobel</fileDirectory>
 						<lineNumber>289</lineNumber>
 						<contextFuncName>apply&amp;lt;unsigned char, ap_fixed&amp;lt;20, 20, 5, 3, 0&amp;gt;, char, 3, 3&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</first>
+								<first>C:\Users\Drus\Desktop\parni\Sobel</first>
 								<second>
 									<count>4</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>Filter2D&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>1305</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>apply&amp;lt;unsigned char, ap_fixed&amp;lt;20, 20, 5, 3, 0&amp;gt;, char, 3, 3&amp;gt;</second>
 										</first>
 										<second>289</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>apply&amp;lt;unsigned char, unsigned char, char, 3, 3&amp;gt;</second>
 										</first>
 										<second>303</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>514</second>
@@ -10207,42 +10207,42 @@
 						<type>0</type>
 						<id>208</id>
 						<name>zext_ln703_4</name>
-						<fileName>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
-						<fileDirectory>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</fileDirectory>
+						<fileName>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
+						<fileDirectory>C:\Users\Drus\Desktop\parni\Sobel</fileDirectory>
 						<lineNumber>290</lineNumber>
 						<contextFuncName>apply&amp;lt;unsigned char, ap_fixed&amp;lt;20, 20, 5, 3, 0&amp;gt;, char, 3, 3&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</first>
+								<first>C:\Users\Drus\Desktop\parni\Sobel</first>
 								<second>
 									<count>4</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>Filter2D&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>1305</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>apply&amp;lt;unsigned char, ap_fixed&amp;lt;20, 20, 5, 3, 0&amp;gt;, char, 3, 3&amp;gt;</second>
 										</first>
 										<second>290</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>apply&amp;lt;unsigned char, unsigned char, char, 3, 3&amp;gt;</second>
 										</first>
 										<second>303</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>514</second>
@@ -10276,42 +10276,42 @@
 						<type>0</type>
 						<id>209</id>
 						<name>shl_ln703</name>
-						<fileName>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
-						<fileDirectory>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</fileDirectory>
+						<fileName>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
+						<fileDirectory>C:\Users\Drus\Desktop\parni\Sobel</fileDirectory>
 						<lineNumber>290</lineNumber>
 						<contextFuncName>apply&amp;lt;unsigned char, ap_fixed&amp;lt;20, 20, 5, 3, 0&amp;gt;, char, 3, 3&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</first>
+								<first>C:\Users\Drus\Desktop\parni\Sobel</first>
 								<second>
 									<count>4</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>Filter2D&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>1305</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>apply&amp;lt;unsigned char, ap_fixed&amp;lt;20, 20, 5, 3, 0&amp;gt;, char, 3, 3&amp;gt;</second>
 										</first>
 										<second>290</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>apply&amp;lt;unsigned char, unsigned char, char, 3, 3&amp;gt;</second>
 										</first>
 										<second>303</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>514</second>
@@ -10346,42 +10346,42 @@
 						<type>0</type>
 						<id>210</id>
 						<name>zext_ln703_5</name>
-						<fileName>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
-						<fileDirectory>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</fileDirectory>
+						<fileName>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
+						<fileDirectory>C:\Users\Drus\Desktop\parni\Sobel</fileDirectory>
 						<lineNumber>290</lineNumber>
 						<contextFuncName>apply&amp;lt;unsigned char, ap_fixed&amp;lt;20, 20, 5, 3, 0&amp;gt;, char, 3, 3&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</first>
+								<first>C:\Users\Drus\Desktop\parni\Sobel</first>
 								<second>
 									<count>4</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>Filter2D&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>1305</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>apply&amp;lt;unsigned char, ap_fixed&amp;lt;20, 20, 5, 3, 0&amp;gt;, char, 3, 3&amp;gt;</second>
 										</first>
 										<second>290</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>apply&amp;lt;unsigned char, unsigned char, char, 3, 3&amp;gt;</second>
 										</first>
 										<second>303</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>514</second>
@@ -10415,42 +10415,42 @@
 						<type>0</type>
 						<id>211</id>
 						<name>add_ln703_2</name>
-						<fileName>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
-						<fileDirectory>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</fileDirectory>
+						<fileName>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
+						<fileDirectory>C:\Users\Drus\Desktop\parni\Sobel</fileDirectory>
 						<lineNumber>290</lineNumber>
 						<contextFuncName>apply&amp;lt;unsigned char, ap_fixed&amp;lt;20, 20, 5, 3, 0&amp;gt;, char, 3, 3&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</first>
+								<first>C:\Users\Drus\Desktop\parni\Sobel</first>
 								<second>
 									<count>4</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>Filter2D&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>1305</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>apply&amp;lt;unsigned char, ap_fixed&amp;lt;20, 20, 5, 3, 0&amp;gt;, char, 3, 3&amp;gt;</second>
 										</first>
 										<second>290</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>apply&amp;lt;unsigned char, unsigned char, char, 3, 3&amp;gt;</second>
 										</first>
 										<second>303</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>514</second>
@@ -10485,42 +10485,42 @@
 						<type>0</type>
 						<id>212</id>
 						<name>zext_ln703_6</name>
-						<fileName>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
-						<fileDirectory>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</fileDirectory>
+						<fileName>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
+						<fileDirectory>C:\Users\Drus\Desktop\parni\Sobel</fileDirectory>
 						<lineNumber>290</lineNumber>
 						<contextFuncName>apply&amp;lt;unsigned char, ap_fixed&amp;lt;20, 20, 5, 3, 0&amp;gt;, char, 3, 3&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</first>
+								<first>C:\Users\Drus\Desktop\parni\Sobel</first>
 								<second>
 									<count>4</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>Filter2D&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>1305</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>apply&amp;lt;unsigned char, ap_fixed&amp;lt;20, 20, 5, 3, 0&amp;gt;, char, 3, 3&amp;gt;</second>
 										</first>
 										<second>290</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>apply&amp;lt;unsigned char, unsigned char, char, 3, 3&amp;gt;</second>
 										</first>
 										<second>303</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>514</second>
@@ -10554,42 +10554,42 @@
 						<type>0</type>
 						<id>213</id>
 						<name>p_Val2_s</name>
-						<fileName>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
-						<fileDirectory>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</fileDirectory>
+						<fileName>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
+						<fileDirectory>C:\Users\Drus\Desktop\parni\Sobel</fileDirectory>
 						<lineNumber>290</lineNumber>
 						<contextFuncName>apply&amp;lt;unsigned char, ap_fixed&amp;lt;20, 20, 5, 3, 0&amp;gt;, char, 3, 3&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</first>
+								<first>C:\Users\Drus\Desktop\parni\Sobel</first>
 								<second>
 									<count>4</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>Filter2D&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>1305</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>apply&amp;lt;unsigned char, ap_fixed&amp;lt;20, 20, 5, 3, 0&amp;gt;, char, 3, 3&amp;gt;</second>
 										</first>
 										<second>290</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>apply&amp;lt;unsigned char, unsigned char, char, 3, 3&amp;gt;</second>
 										</first>
 										<second>303</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>514</second>
@@ -10624,49 +10624,49 @@
 						<type>0</type>
 						<id>214</id>
 						<name>p_Result_s</name>
-						<fileName>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_types.h</fileName>
-						<fileDirectory>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</fileDirectory>
+						<fileName>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_types.h</fileName>
+						<fileDirectory>C:\Users\Drus\Desktop\parni\Sobel</fileDirectory>
 						<lineNumber>409</lineNumber>
 						<contextFuncName>operator()&amp;lt;20, 20, 5, 3&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</first>
+								<first>C:\Users\Drus\Desktop\parni\Sobel</first>
 								<second>
 									<count>5</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>Filter2D&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>1305</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>apply&amp;lt;unsigned char, unsigned char, char, 3, 3&amp;gt;</second>
 										</first>
 										<second>304</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>514</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_types.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_types.h</first>
 											<second>operator()&amp;lt;20, 20, 5, 3&amp;gt;</second>
 										</first>
 										<second>409</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_types.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_types.h</first>
 											<second>sr_cast&amp;lt;unsigned char, ap_fixed&amp;lt;20, 20, 5, 3, 0&amp;gt; &amp;gt;</second>
 										</first>
 										<second>500</second>
@@ -10702,49 +10702,49 @@
 						<type>0</type>
 						<id>215</id>
 						<name>add_ln703_4</name>
-						<fileName>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_types.h</fileName>
-						<fileDirectory>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</fileDirectory>
+						<fileName>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_types.h</fileName>
+						<fileDirectory>C:\Users\Drus\Desktop\parni\Sobel</fileDirectory>
 						<lineNumber>409</lineNumber>
 						<contextFuncName>operator()&amp;lt;20, 20, 5, 3&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</first>
+								<first>C:\Users\Drus\Desktop\parni\Sobel</first>
 								<second>
 									<count>5</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>Filter2D&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>1305</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>apply&amp;lt;unsigned char, unsigned char, char, 3, 3&amp;gt;</second>
 										</first>
 										<second>304</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>514</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_types.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_types.h</first>
 											<second>operator()&amp;lt;20, 20, 5, 3&amp;gt;</second>
 										</first>
 										<second>409</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_types.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_types.h</first>
 											<second>sr_cast&amp;lt;unsigned char, ap_fixed&amp;lt;20, 20, 5, 3, 0&amp;gt; &amp;gt;</second>
 										</first>
 										<second>500</second>
@@ -10779,49 +10779,49 @@
 						<type>0</type>
 						<id>216</id>
 						<name>add_ln703_5</name>
-						<fileName>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_types.h</fileName>
-						<fileDirectory>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</fileDirectory>
+						<fileName>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_types.h</fileName>
+						<fileDirectory>C:\Users\Drus\Desktop\parni\Sobel</fileDirectory>
 						<lineNumber>409</lineNumber>
 						<contextFuncName>operator()&amp;lt;20, 20, 5, 3&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</first>
+								<first>C:\Users\Drus\Desktop\parni\Sobel</first>
 								<second>
 									<count>5</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>Filter2D&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>1305</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>apply&amp;lt;unsigned char, unsigned char, char, 3, 3&amp;gt;</second>
 										</first>
 										<second>304</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>514</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_types.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_types.h</first>
 											<second>operator()&amp;lt;20, 20, 5, 3&amp;gt;</second>
 										</first>
 										<second>409</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_types.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_types.h</first>
 											<second>sr_cast&amp;lt;unsigned char, ap_fixed&amp;lt;20, 20, 5, 3, 0&amp;gt; &amp;gt;</second>
 										</first>
 										<second>500</second>
@@ -10856,49 +10856,49 @@
 						<type>0</type>
 						<id>217</id>
 						<name>p_Val2_1</name>
-						<fileName>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_types.h</fileName>
-						<fileDirectory>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</fileDirectory>
+						<fileName>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_types.h</fileName>
+						<fileDirectory>C:\Users\Drus\Desktop\parni\Sobel</fileDirectory>
 						<lineNumber>409</lineNumber>
 						<contextFuncName>operator()&amp;lt;20, 20, 5, 3&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</first>
+								<first>C:\Users\Drus\Desktop\parni\Sobel</first>
 								<second>
 									<count>5</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>Filter2D&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>1305</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>apply&amp;lt;unsigned char, unsigned char, char, 3, 3&amp;gt;</second>
 										</first>
 										<second>304</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>514</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_types.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_types.h</first>
 											<second>operator()&amp;lt;20, 20, 5, 3&amp;gt;</second>
 										</first>
 										<second>409</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_types.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_types.h</first>
 											<second>sr_cast&amp;lt;unsigned char, ap_fixed&amp;lt;20, 20, 5, 3, 0&amp;gt; &amp;gt;</second>
 										</first>
 										<second>500</second>
@@ -10933,49 +10933,49 @@
 						<type>0</type>
 						<id>218</id>
 						<name>tmp_8</name>
-						<fileName>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_types.h</fileName>
-						<fileDirectory>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</fileDirectory>
+						<fileName>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_types.h</fileName>
+						<fileDirectory>C:\Users\Drus\Desktop\parni\Sobel</fileDirectory>
 						<lineNumber>409</lineNumber>
 						<contextFuncName>operator()&amp;lt;20, 20, 5, 3&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</first>
+								<first>C:\Users\Drus\Desktop\parni\Sobel</first>
 								<second>
 									<count>5</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>Filter2D&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>1305</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>apply&amp;lt;unsigned char, unsigned char, char, 3, 3&amp;gt;</second>
 										</first>
 										<second>304</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>514</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_types.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_types.h</first>
 											<second>operator()&amp;lt;20, 20, 5, 3&amp;gt;</second>
 										</first>
 										<second>409</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_types.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_types.h</first>
 											<second>sr_cast&amp;lt;unsigned char, ap_fixed&amp;lt;20, 20, 5, 3, 0&amp;gt; &amp;gt;</second>
 										</first>
 										<second>500</second>
@@ -11012,49 +11012,49 @@
 						<type>0</type>
 						<id>219</id>
 						<name>xor_ln785</name>
-						<fileName>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_types.h</fileName>
-						<fileDirectory>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</fileDirectory>
+						<fileName>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_types.h</fileName>
+						<fileDirectory>C:\Users\Drus\Desktop\parni\Sobel</fileDirectory>
 						<lineNumber>409</lineNumber>
 						<contextFuncName>operator()&amp;lt;20, 20, 5, 3&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</first>
+								<first>C:\Users\Drus\Desktop\parni\Sobel</first>
 								<second>
 									<count>5</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>Filter2D&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>1305</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>apply&amp;lt;unsigned char, unsigned char, char, 3, 3&amp;gt;</second>
 										</first>
 										<second>304</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>514</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_types.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_types.h</first>
 											<second>operator()&amp;lt;20, 20, 5, 3&amp;gt;</second>
 										</first>
 										<second>409</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_types.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_types.h</first>
 											<second>sr_cast&amp;lt;unsigned char, ap_fixed&amp;lt;20, 20, 5, 3, 0&amp;gt; &amp;gt;</second>
 										</first>
 										<second>500</second>
@@ -11089,49 +11089,49 @@
 						<type>0</type>
 						<id>220</id>
 						<name>icmp_ln785</name>
-						<fileName>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_types.h</fileName>
-						<fileDirectory>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</fileDirectory>
+						<fileName>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_types.h</fileName>
+						<fileDirectory>C:\Users\Drus\Desktop\parni\Sobel</fileDirectory>
 						<lineNumber>409</lineNumber>
 						<contextFuncName>operator()&amp;lt;20, 20, 5, 3&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</first>
+								<first>C:\Users\Drus\Desktop\parni\Sobel</first>
 								<second>
 									<count>5</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>Filter2D&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>1305</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>apply&amp;lt;unsigned char, unsigned char, char, 3, 3&amp;gt;</second>
 										</first>
 										<second>304</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>514</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_types.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_types.h</first>
 											<second>operator()&amp;lt;20, 20, 5, 3&amp;gt;</second>
 										</first>
 										<second>409</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_types.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_types.h</first>
 											<second>sr_cast&amp;lt;unsigned char, ap_fixed&amp;lt;20, 20, 5, 3, 0&amp;gt; &amp;gt;</second>
 										</first>
 										<second>500</second>
@@ -11166,49 +11166,49 @@
 						<type>0</type>
 						<id>221</id>
 						<name>overflow</name>
-						<fileName>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_types.h</fileName>
-						<fileDirectory>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</fileDirectory>
+						<fileName>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_types.h</fileName>
+						<fileDirectory>C:\Users\Drus\Desktop\parni\Sobel</fileDirectory>
 						<lineNumber>409</lineNumber>
 						<contextFuncName>operator()&amp;lt;20, 20, 5, 3&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</first>
+								<first>C:\Users\Drus\Desktop\parni\Sobel</first>
 								<second>
 									<count>5</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>Filter2D&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>1305</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>apply&amp;lt;unsigned char, unsigned char, char, 3, 3&amp;gt;</second>
 										</first>
 										<second>304</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>514</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_types.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_types.h</first>
 											<second>operator()&amp;lt;20, 20, 5, 3&amp;gt;</second>
 										</first>
 										<second>409</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_types.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_types.h</first>
 											<second>sr_cast&amp;lt;unsigned char, ap_fixed&amp;lt;20, 20, 5, 3, 0&amp;gt; &amp;gt;</second>
 										</first>
 										<second>500</second>
@@ -11243,49 +11243,49 @@
 						<type>0</type>
 						<id>222</id>
 						<name>select_ln340</name>
-						<fileName>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_types.h</fileName>
-						<fileDirectory>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</fileDirectory>
+						<fileName>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_types.h</fileName>
+						<fileDirectory>C:\Users\Drus\Desktop\parni\Sobel</fileDirectory>
 						<lineNumber>409</lineNumber>
 						<contextFuncName>operator()&amp;lt;20, 20, 5, 3&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</first>
+								<first>C:\Users\Drus\Desktop\parni\Sobel</first>
 								<second>
 									<count>5</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>Filter2D&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>1305</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>apply&amp;lt;unsigned char, unsigned char, char, 3, 3&amp;gt;</second>
 										</first>
 										<second>304</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>514</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_types.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_types.h</first>
 											<second>operator()&amp;lt;20, 20, 5, 3&amp;gt;</second>
 										</first>
 										<second>409</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_types.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_types.h</first>
 											<second>sr_cast&amp;lt;unsigned char, ap_fixed&amp;lt;20, 20, 5, 3, 0&amp;gt; &amp;gt;</second>
 										</first>
 										<second>500</second>
@@ -11321,49 +11321,49 @@
 						<type>0</type>
 						<id>223</id>
 						<name>or_ln340</name>
-						<fileName>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_types.h</fileName>
-						<fileDirectory>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</fileDirectory>
+						<fileName>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_types.h</fileName>
+						<fileDirectory>C:\Users\Drus\Desktop\parni\Sobel</fileDirectory>
 						<lineNumber>409</lineNumber>
 						<contextFuncName>operator()&amp;lt;20, 20, 5, 3&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</first>
+								<first>C:\Users\Drus\Desktop\parni\Sobel</first>
 								<second>
 									<count>5</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>Filter2D&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>1305</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>apply&amp;lt;unsigned char, unsigned char, char, 3, 3&amp;gt;</second>
 										</first>
 										<second>304</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>514</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_types.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_types.h</first>
 											<second>operator()&amp;lt;20, 20, 5, 3&amp;gt;</second>
 										</first>
 										<second>409</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_types.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_types.h</first>
 											<second>sr_cast&amp;lt;unsigned char, ap_fixed&amp;lt;20, 20, 5, 3, 0&amp;gt; &amp;gt;</second>
 										</first>
 										<second>500</second>
@@ -11398,49 +11398,49 @@
 						<type>0</type>
 						<id>224</id>
 						<name>p_Val2_3</name>
-						<fileName>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_types.h</fileName>
-						<fileDirectory>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</fileDirectory>
+						<fileName>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_types.h</fileName>
+						<fileDirectory>C:\Users\Drus\Desktop\parni\Sobel</fileDirectory>
 						<lineNumber>409</lineNumber>
 						<contextFuncName>operator()&amp;lt;20, 20, 5, 3&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</first>
+								<first>C:\Users\Drus\Desktop\parni\Sobel</first>
 								<second>
 									<count>5</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>Filter2D&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>1305</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>apply&amp;lt;unsigned char, unsigned char, char, 3, 3&amp;gt;</second>
 										</first>
 										<second>304</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>514</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_types.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_types.h</first>
 											<second>operator()&amp;lt;20, 20, 5, 3&amp;gt;</second>
 										</first>
 										<second>409</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_types.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_types.h</first>
 											<second>sr_cast&amp;lt;unsigned char, ap_fixed&amp;lt;20, 20, 5, 3, 0&amp;gt; &amp;gt;</second>
 										</first>
 										<second>500</second>
@@ -11476,28 +11476,28 @@
 						<type>0</type>
 						<id>225</id>
 						<name>p_dst_data_stream_V_write_ln515</name>
-						<fileName>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
-						<fileDirectory>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</fileDirectory>
+						<fileName>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
+						<fileDirectory>C:\Users\Drus\Desktop\parni\Sobel</fileDirectory>
 						<lineNumber>515</lineNumber>
 						<contextFuncName>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</first>
+								<first>C:\Users\Drus\Desktop\parni\Sobel</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>Filter2D&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>1305</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>515</second>
@@ -11533,28 +11533,28 @@
 						<type>0</type>
 						<id>226</id>
 						<name>_ln516</name>
-						<fileName>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
-						<fileDirectory>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</fileDirectory>
+						<fileName>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
+						<fileDirectory>C:\Users\Drus\Desktop\parni\Sobel</fileDirectory>
 						<lineNumber>516</lineNumber>
 						<contextFuncName>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</first>
+								<first>C:\Users\Drus\Desktop\parni\Sobel</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>Filter2D&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>1305</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>516</second>
@@ -11588,28 +11588,28 @@
 						<type>0</type>
 						<id>228</id>
 						<name>src_kernel_win_0_va_10</name>
-						<fileName>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
-						<fileDirectory>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</fileDirectory>
+						<fileName>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
+						<fileDirectory>C:\Users\Drus\Desktop\parni\Sobel</fileDirectory>
 						<lineNumber>444</lineNumber>
 						<contextFuncName>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</first>
+								<first>C:\Users\Drus\Desktop\parni\Sobel</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>Filter2D&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>1305</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>444</second>
@@ -11643,28 +11643,28 @@
 						<type>0</type>
 						<id>229</id>
 						<name>src_kernel_win_0_va_11</name>
-						<fileName>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
-						<fileDirectory>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</fileDirectory>
+						<fileName>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
+						<fileDirectory>C:\Users\Drus\Desktop\parni\Sobel</fileDirectory>
 						<lineNumber>444</lineNumber>
 						<contextFuncName>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</first>
+								<first>C:\Users\Drus\Desktop\parni\Sobel</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>Filter2D&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>1305</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>444</second>
@@ -11698,28 +11698,28 @@
 						<type>0</type>
 						<id>231</id>
 						<name>src_kernel_win_0_va_3_write_ln444</name>
-						<fileName>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
-						<fileDirectory>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</fileDirectory>
+						<fileName>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
+						<fileDirectory>C:\Users\Drus\Desktop\parni\Sobel</fileDirectory>
 						<lineNumber>444</lineNumber>
 						<contextFuncName>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</first>
+								<first>C:\Users\Drus\Desktop\parni\Sobel</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>Filter2D&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>1305</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>444</second>
@@ -11738,7 +11738,7 @@
 					<item_version>0</item_version>
 					<item>666</item>
 					<item>667</item>
-					<item>874</item>
+					<item>852</item>
 				</oprand_edges>
 				<opcode>store</opcode>
 				<m_Display>0</m_Display>
@@ -11755,28 +11755,28 @@
 						<type>0</type>
 						<id>232</id>
 						<name>src_kernel_win_0_va_2_write_ln444</name>
-						<fileName>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
-						<fileDirectory>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</fileDirectory>
+						<fileName>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
+						<fileDirectory>C:\Users\Drus\Desktop\parni\Sobel</fileDirectory>
 						<lineNumber>444</lineNumber>
 						<contextFuncName>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</first>
+								<first>C:\Users\Drus\Desktop\parni\Sobel</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>Filter2D&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>1305</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>444</second>
@@ -11795,8 +11795,8 @@
 					<item_version>0</item_version>
 					<item>668</item>
 					<item>669</item>
-					<item>863</item>
-					<item>873</item>
+					<item>841</item>
+					<item>851</item>
 				</oprand_edges>
 				<opcode>store</opcode>
 				<m_Display>0</m_Display>
@@ -11813,28 +11813,28 @@
 						<type>0</type>
 						<id>233</id>
 						<name>src_kernel_win_0_va_1_write_ln444</name>
-						<fileName>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
-						<fileDirectory>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</fileDirectory>
+						<fileName>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
+						<fileDirectory>C:\Users\Drus\Desktop\parni\Sobel</fileDirectory>
 						<lineNumber>444</lineNumber>
 						<contextFuncName>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</first>
+								<first>C:\Users\Drus\Desktop\parni\Sobel</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>Filter2D&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>1305</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>444</second>
@@ -11853,7 +11853,7 @@
 					<item_version>0</item_version>
 					<item>670</item>
 					<item>671</item>
-					<item>872</item>
+					<item>850</item>
 				</oprand_edges>
 				<opcode>store</opcode>
 				<m_Display>0</m_Display>
@@ -11870,28 +11870,28 @@
 						<type>0</type>
 						<id>234</id>
 						<name>src_kernel_win_0_va_write_ln444</name>
-						<fileName>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
-						<fileDirectory>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</fileDirectory>
+						<fileName>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
+						<fileDirectory>C:\Users\Drus\Desktop\parni\Sobel</fileDirectory>
 						<lineNumber>444</lineNumber>
 						<contextFuncName>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</first>
+								<first>C:\Users\Drus\Desktop\parni\Sobel</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>Filter2D&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>1305</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>444</second>
@@ -11910,8 +11910,8 @@
 					<item_version>0</item_version>
 					<item>672</item>
 					<item>673</item>
-					<item>864</item>
-					<item>871</item>
+					<item>842</item>
+					<item>849</item>
 				</oprand_edges>
 				<opcode>store</opcode>
 				<m_Display>0</m_Display>
@@ -11928,28 +11928,28 @@
 						<type>0</type>
 						<id>235</id>
 						<name>_ln444</name>
-						<fileName>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
-						<fileDirectory>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</fileDirectory>
+						<fileName>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
+						<fileDirectory>C:\Users\Drus\Desktop\parni\Sobel</fileDirectory>
 						<lineNumber>444</lineNumber>
 						<contextFuncName>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</first>
+								<first>C:\Users\Drus\Desktop\parni\Sobel</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>Filter2D&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>1305</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>444</second>
@@ -11983,28 +11983,28 @@
 						<type>0</type>
 						<id>238</id>
 						<name>_ln443</name>
-						<fileName>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
-						<fileDirectory>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</fileDirectory>
+						<fileName>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</fileName>
+						<fileDirectory>C:\Users\Drus\Desktop\parni\Sobel</fileDirectory>
 						<lineNumber>443</lineNumber>
 						<contextFuncName>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</first>
+								<first>C:\Users\Drus\Desktop\parni\Sobel</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>Filter2D&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>1305</second>
 									</item>
 									<item>
 										<first>
-											<first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
+											<first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h</first>
 											<second>filter&amp;lt;0, 0, char, int, 10, 10, 3, 3&amp;gt;</second>
 										</first>
 										<second>443</second>
@@ -15880,336 +15880,336 @@
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_625">
-				<id>827</id>
+				<id>805</id>
 				<edge_type>2</edge_type>
 				<source_obj>46</source_obj>
 				<sink_obj>52</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_626">
-				<id>828</id>
+				<id>806</id>
 				<edge_type>2</edge_type>
 				<source_obj>52</source_obj>
 				<sink_obj>241</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_627">
-				<id>829</id>
+				<id>807</id>
 				<edge_type>2</edge_type>
 				<source_obj>52</source_obj>
 				<sink_obj>94</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_628">
-				<id>830</id>
+				<id>808</id>
 				<edge_type>2</edge_type>
 				<source_obj>94</source_obj>
 				<sink_obj>101</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_629">
-				<id>831</id>
+				<id>809</id>
 				<edge_type>2</edge_type>
 				<source_obj>101</source_obj>
 				<sink_obj>239</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_630">
-				<id>832</id>
+				<id>810</id>
 				<edge_type>2</edge_type>
 				<source_obj>101</source_obj>
 				<sink_obj>145</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_631">
-				<id>833</id>
+				<id>811</id>
 				<edge_type>2</edge_type>
 				<source_obj>145</source_obj>
 				<sink_obj>147</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_632">
-				<id>834</id>
+				<id>812</id>
 				<edge_type>2</edge_type>
 				<source_obj>145</source_obj>
 				<sink_obj>188</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_633">
-				<id>835</id>
+				<id>813</id>
 				<edge_type>2</edge_type>
 				<source_obj>147</source_obj>
 				<sink_obj>167</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_634">
-				<id>836</id>
+				<id>814</id>
 				<edge_type>2</edge_type>
 				<source_obj>147</source_obj>
 				<sink_obj>150</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_635">
-				<id>837</id>
+				<id>815</id>
 				<edge_type>2</edge_type>
 				<source_obj>150</source_obj>
 				<sink_obj>153</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_636">
-				<id>838</id>
+				<id>816</id>
 				<edge_type>2</edge_type>
 				<source_obj>150</source_obj>
 				<sink_obj>155</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_637">
-				<id>839</id>
+				<id>817</id>
 				<edge_type>2</edge_type>
 				<source_obj>153</source_obj>
 				<sink_obj>155</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_638">
-				<id>840</id>
+				<id>818</id>
 				<edge_type>2</edge_type>
 				<source_obj>155</source_obj>
 				<sink_obj>158</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_639">
-				<id>841</id>
+				<id>819</id>
 				<edge_type>2</edge_type>
 				<source_obj>155</source_obj>
 				<sink_obj>160</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_640">
-				<id>842</id>
+				<id>820</id>
 				<edge_type>2</edge_type>
 				<source_obj>158</source_obj>
 				<sink_obj>160</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_641">
-				<id>843</id>
+				<id>821</id>
 				<edge_type>2</edge_type>
 				<source_obj>160</source_obj>
 				<sink_obj>163</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_642">
-				<id>844</id>
+				<id>822</id>
 				<edge_type>2</edge_type>
 				<source_obj>160</source_obj>
 				<sink_obj>165</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_643">
-				<id>845</id>
+				<id>823</id>
 				<edge_type>2</edge_type>
 				<source_obj>163</source_obj>
 				<sink_obj>165</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_644">
-				<id>846</id>
+				<id>824</id>
 				<edge_type>2</edge_type>
 				<source_obj>165</source_obj>
 				<sink_obj>188</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_645">
-				<id>847</id>
+				<id>825</id>
 				<edge_type>2</edge_type>
 				<source_obj>167</source_obj>
 				<sink_obj>181</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_646">
-				<id>848</id>
+				<id>826</id>
 				<edge_type>2</edge_type>
 				<source_obj>167</source_obj>
 				<sink_obj>188</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_647">
-				<id>849</id>
+				<id>827</id>
 				<edge_type>2</edge_type>
 				<source_obj>181</source_obj>
 				<sink_obj>188</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_648">
-				<id>850</id>
+				<id>828</id>
 				<edge_type>2</edge_type>
 				<source_obj>188</source_obj>
 				<sink_obj>227</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_649">
-				<id>851</id>
+				<id>829</id>
 				<edge_type>2</edge_type>
 				<source_obj>188</source_obj>
 				<sink_obj>236</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_650">
-				<id>852</id>
+				<id>830</id>
 				<edge_type>2</edge_type>
 				<source_obj>227</source_obj>
 				<sink_obj>236</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_651">
-				<id>853</id>
+				<id>831</id>
 				<edge_type>2</edge_type>
 				<source_obj>236</source_obj>
 				<sink_obj>101</sink_obj>
 				<is_back_edge>1</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_652">
-				<id>854</id>
+				<id>832</id>
 				<edge_type>2</edge_type>
 				<source_obj>239</source_obj>
 				<sink_obj>52</sink_obj>
 				<is_back_edge>1</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_653">
-				<id>855</id>
+				<id>833</id>
 				<edge_type>4</edge_type>
 				<source_obj>132</source_obj>
 				<sink_obj>173</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_654">
-				<id>856</id>
+				<id>834</id>
 				<edge_type>4</edge_type>
 				<source_obj>137</source_obj>
 				<sink_obj>171</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_655">
-				<id>857</id>
+				<id>835</id>
 				<edge_type>4</edge_type>
 				<source_obj>141</source_obj>
 				<sink_obj>170</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_656">
-				<id>858</id>
+				<id>836</id>
 				<edge_type>4</edge_type>
 				<source_obj>141</source_obj>
 				<sink_obj>151</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_657">
-				<id>859</id>
+				<id>837</id>
 				<edge_type>4</edge_type>
 				<source_obj>137</source_obj>
 				<sink_obj>156</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_658">
-				<id>860</id>
+				<id>838</id>
 				<edge_type>4</edge_type>
 				<source_obj>132</source_obj>
 				<sink_obj>161</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_659">
-				<id>861</id>
+				<id>839</id>
 				<edge_type>4</edge_type>
 				<source_obj>169</source_obj>
 				<sink_obj>176</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_660">
-				<id>862</id>
+				<id>840</id>
 				<edge_type>4</edge_type>
 				<source_obj>168</source_obj>
 				<sink_obj>179</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_661">
-				<id>863</id>
+				<id>841</id>
 				<edge_type>4</edge_type>
 				<source_obj>229</source_obj>
 				<sink_obj>232</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_662">
-				<id>864</id>
+				<id>842</id>
 				<edge_type>4</edge_type>
 				<source_obj>228</source_obj>
 				<sink_obj>234</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_663">
-				<id>865</id>
+				<id>843</id>
 				<edge_type>4</edge_type>
 				<source_obj>96</source_obj>
 				<sink_obj>174</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_664">
-				<id>866</id>
+				<id>844</id>
 				<edge_type>4</edge_type>
 				<source_obj>102</source_obj>
 				<sink_obj>179</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_665">
-				<id>867</id>
+				<id>845</id>
 				<edge_type>4</edge_type>
 				<source_obj>103</source_obj>
 				<sink_obj>178</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_666">
-				<id>868</id>
+				<id>846</id>
 				<edge_type>4</edge_type>
 				<source_obj>104</source_obj>
 				<sink_obj>177</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_667">
-				<id>869</id>
+				<id>847</id>
 				<edge_type>4</edge_type>
 				<source_obj>105</source_obj>
 				<sink_obj>176</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_668">
-				<id>870</id>
+				<id>848</id>
 				<edge_type>4</edge_type>
 				<source_obj>106</source_obj>
 				<sink_obj>175</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_669">
-				<id>871</id>
+				<id>849</id>
 				<edge_type>4</edge_type>
 				<source_obj>189</source_obj>
 				<sink_obj>234</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_670">
-				<id>872</id>
+				<id>850</id>
 				<edge_type>4</edge_type>
 				<source_obj>190</source_obj>
 				<sink_obj>233</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_671">
-				<id>873</id>
+				<id>851</id>
 				<edge_type>4</edge_type>
 				<source_obj>191</source_obj>
 				<sink_obj>232</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_672">
-				<id>874</id>
+				<id>852</id>
 				<edge_type>4</edge_type>
 				<source_obj>192</source_obj>
 				<sink_obj>231</sink_obj>

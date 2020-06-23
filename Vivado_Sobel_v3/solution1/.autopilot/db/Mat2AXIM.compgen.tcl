@@ -11,14 +11,14 @@ if {${::AESL::PGuard_autoexp_gen}} {
 if {${::AESL::PGuard_autoexp_gen}} {
 if {[info proc ::AESL_LIB_XILADAPTER::xil_bram_gen] == "::AESL_LIB_XILADAPTER::xil_bram_gen"} {
 eval "::AESL_LIB_XILADAPTER::xil_bram_gen { \
-    id 27 \
+    id 21 \
     name fb \
     reset_level 1 \
     sync_rst true \
-    dir O \
+    dir IO \
     corename fb \
     op interface \
-    ports { fb_address0 { O 7 vector } fb_ce0 { O 1 bit } fb_we0 { O 1 bit } fb_d0 { O 8 vector } } \
+    ports { fb_address0 { O 5 vector } fb_ce0 { O 1 bit } fb_we0 { O 1 bit } fb_d0 { O 32 vector } fb_q0 { I 32 vector } } \
 } "
 } else {
 puts "@W \[IMPL-110\] Cannot find bus interface model in the library. Ignored generation of bus interface for 'fb'"
@@ -29,7 +29,7 @@ puts "@W \[IMPL-110\] Cannot find bus interface model in the library. Ignored ge
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 26 \
+    id 20 \
     name img_data_stream_V \
     type fifo \
     dir I \

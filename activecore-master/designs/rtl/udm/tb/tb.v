@@ -271,109 +271,135 @@ begin
 	UART_CFG(`DIVIDER_115200, 2'b00);
 	WAIT(100);
 	
-	udm_wr_single(32'h80000000, 8'hff);
-	udm_wr_single(32'h80000004, 8'hd8);
-	udm_wr_single(32'h80000008, 8'hff);
-	udm_wr_single(32'h8000000c, 8'he1);
-	udm_wr_single(32'h80000010, 8'h00);
-	udm_wr_single(32'h80000014, 8'h16);
-	udm_wr_single(32'h80000018, 8'h45);
-	udm_wr_single(32'h8000001c, 8'h78);
-	udm_wr_single(32'h80000020, 8'h69);
-	udm_wr_single(32'h80000024, 8'h66);
-	udm_wr_single(32'h80000028, 8'h00);
-	udm_wr_single(32'h8000002c, 8'h00);
-	udm_wr_single(32'h80000030, 8'h4d);
-	udm_wr_single(32'h80000034, 8'h4d);
-	udm_wr_single(32'h80000038, 8'h00);
-	udm_wr_single(32'h8000003c, 8'h2a);
-	udm_wr_single(32'h80000040, 8'h00);
-	udm_wr_single(32'h80000044, 8'h00);
-	udm_wr_single(32'h80000048, 8'h00);
-	udm_wr_single(32'h8000004c, 8'h08);
-	udm_wr_single(32'h80000050, 8'h00);
-	udm_wr_single(32'h80000054, 8'h00);
-	udm_wr_single(32'h80000058, 8'h00);
-	udm_wr_single(32'h8000005c, 8'h00);
-	udm_wr_single(32'h80000060, 8'h00);
-	udm_wr_single(32'h80000064, 8'h00);
-	udm_wr_single(32'h80000068, 8'h00);
-	udm_wr_single(32'h8000006c, 8'h00);
-	udm_wr_single(32'h80000070, 8'hff);
-	udm_wr_single(32'h80000074, 8'hdb);
-	udm_wr_single(32'h80000078, 8'h00);
-	udm_wr_single(32'h8000007c, 8'h84);
-	udm_wr_single(32'h80000080, 8'h00);
-	udm_wr_single(32'h80000084, 8'h03);
-	udm_wr_single(32'h80000088, 8'h02);
-	udm_wr_single(32'h8000008c, 8'h02);
-	udm_wr_single(32'h80000090, 8'h08);
-	udm_wr_single(32'h80000094, 8'h08);
-	udm_wr_single(32'h80000098, 8'h08);
-	udm_wr_single(32'h8000009c, 8'h08);
-	udm_wr_single(32'h800000a0, 8'h08);
-	udm_wr_single(32'h800000a4, 8'h08);
-	udm_wr_single(32'h800000a8, 8'h08);
-	udm_wr_single(32'h800000ac, 8'h08);
-	udm_wr_single(32'h800000b0, 8'h08);
-	udm_wr_single(32'h800000b4, 8'h08);
-	udm_wr_single(32'h800000b8, 8'h08);
-	udm_wr_single(32'h800000bc, 8'h08);
-	udm_wr_single(32'h800000c0, 8'h08);
-	udm_wr_single(32'h800000c4, 8'h08);
-	udm_wr_single(32'h800000c8, 8'h08);
-	udm_wr_single(32'h800000cc, 8'h08);
-	udm_wr_single(32'h800000d0, 8'h08);
-	udm_wr_single(32'h800000d4, 8'h08);
-	udm_wr_single(32'h800000d8, 8'h08);
-	udm_wr_single(32'h800000dc, 8'h08);
-	udm_wr_single(32'h800000e0, 8'h08);
-	udm_wr_single(32'h800000e4, 8'h08);
-	udm_wr_single(32'h800000e8, 8'h08);
-	udm_wr_single(32'h800000ec, 8'h08);
-	udm_wr_single(32'h800000f0, 8'h08);
-	udm_wr_single(32'h800000f4, 8'h08);
-	udm_wr_single(32'h800000f8, 8'h08);
-	udm_wr_single(32'h800000fc, 8'h08);
-	udm_wr_single(32'h80000100, 8'h08);
-	udm_wr_single(32'h80000104, 8'h08);
-	udm_wr_single(32'h80000108, 8'h08);
-	udm_wr_single(32'h8000010c, 8'h08);
-	udm_wr_single(32'h80000110, 8'h08);
-	udm_wr_single(32'h80000114, 8'h08);
-	udm_wr_single(32'h80000118, 8'h08);
-	udm_wr_single(32'h8000011c, 8'h08);
-	udm_wr_single(32'h80000120, 8'h08);
-	udm_wr_single(32'h80000124, 8'h08);
-	udm_wr_single(32'h80000128, 8'h08);
-	udm_wr_single(32'h8000012c, 8'h08);
-	udm_wr_single(32'h80000130, 8'h08);
-	udm_wr_single(32'h80000134, 8'h08);
-	udm_wr_single(32'h80000138, 8'h08);
-	udm_wr_single(32'h8000013c, 8'h0a);
-	udm_wr_single(32'h80000140, 8'h08);
-	udm_wr_single(32'h80000144, 8'h08);
-	udm_wr_single(32'h80000148, 8'h08);
-	udm_wr_single(32'h8000014c, 8'h08);
-	udm_wr_single(32'h80000150, 8'h0a);
-	udm_wr_single(32'h80000154, 8'h0a);
-	udm_wr_single(32'h80000158, 8'h0a);
-	udm_wr_single(32'h8000015c, 8'h08);
-	udm_wr_single(32'h80000160, 8'h08);
-	udm_wr_single(32'h80000164, 8'h0b);
-	udm_wr_single(32'h80000168, 8'h0d);
-	udm_wr_single(32'h8000016c, 8'h0a);
-	udm_wr_single(32'h80000170, 8'h08);
-	udm_wr_single(32'h80000174, 8'h0d);
-	udm_wr_single(32'h80000178, 8'h08);
-	udm_wr_single(32'h8000017c, 8'h08);
-	udm_wr_single(32'h80000180, 8'h0a);
-	udm_wr_single(32'h80000184, 8'h08);
-	udm_wr_single(32'h80000188, 8'h01);
-	udm_wr_single(32'h8000018c, 8'h03);
-	udm_wr_single(32'h80000190, 8'h04);
-	udm_wr_single(32'h80000194, 8'h04);
-	udm_wr_single(32'h80000198, 8'h06);
+	
+	udm_wr_single(32'h80000000, {8'he1,8'hff,8'hd8,8'hff});    //1
+	udm_wr_single(32'h80000004, {8'h78,8'h45,8'h16,8'h00});    //2
+	udm_wr_single(32'h80000008,	{8'h69,8'h66,8'h00,8'h00});    //3
+	udm_wr_single(32'h8000000C,	{8'h4d,8'h4d,8'h00,8'h2a});    //4
+	udm_wr_single(32'h80000010,	{8'h00,8'h00,8'h00,8'h08});    //5
+	udm_wr_single(32'h80000014,	{8'h00,8'h00,8'h00,8'h00});    //6
+	udm_wr_single(32'h80000018,	{8'h00,8'h00,8'h00,8'h00});    //7
+	udm_wr_single(32'h8000001C,	{8'hff,8'hdb,8'h00,8'h84});    //8
+	udm_wr_single(32'h80000020,	{8'h00,8'h03,8'h02,8'h02});    //9
+	udm_wr_single(32'h80000024,	{8'h08,8'h08,8'h08,8'h08});    //10
+	udm_wr_single(32'h80000028,	{8'h08,8'h08,8'h08,8'h08});    //11
+	udm_wr_single(32'h8000002C,	{8'h08,8'h08,8'h08,8'h08});    //12
+	udm_wr_single(32'h80000030,	{8'h08,8'h08,8'h08,8'h08});    //13
+	udm_wr_single(32'h80000034,	{8'h08,8'h08,8'h08,8'h08});    //14
+	udm_wr_single(32'h80000038,	{8'h08,8'h08,8'h08,8'h08});    //15
+	udm_wr_single(32'h8000003C,	{8'h08,8'h08,8'h08,8'h08});    //16
+	udm_wr_single(32'h80000040,	{8'h08,8'h08,8'h08,8'h08});    //17
+	udm_wr_single(32'h80000044,	{8'h08,8'h08,8'h08,8'h08});    //18
+	udm_wr_single(32'h80000048,	{8'h08,8'h08,8'h08,8'h08});    //19
+	udm_wr_single(32'h8000004C,	{8'h08,8'h08,8'h08,8'h0a});    //20
+	udm_wr_single(32'h80000050,	{8'h08,8'h08,8'h08,8'h08});    //21
+	udm_wr_single(32'h80000054,	{8'h0a,8'h0a,8'h0a,8'h08});    //22
+	udm_wr_single(32'h80000058,	{8'h08,8'h0b,8'h08,8'h08});    //23
+	udm_wr_single(32'h8000005C,	{8'h08,8'h0d,8'h0d,8'h08});    //24
+	udm_wr_single(32'h80000060,	{8'h0a,8'h08,8'h01,8'h03});    //25
+	/*
+	udm_wr_single(32'h80000000, 8'hff);    1
+	udm_wr_single(32'h80000004, 8'hd8);    1
+	udm_wr_single(32'h80000008, 8'hff);    1
+	udm_wr_single(32'h8000000c, 8'he1);    1
+	udm_wr_single(32'h80000010, 8'h00);    2
+	udm_wr_single(32'h80000014, 8'h16);    2
+	udm_wr_single(32'h80000018, 8'h45);    2
+	udm_wr_single(32'h8000001c, 8'h78);    2
+	udm_wr_single(32'h80000020, 8'h69);    3
+	udm_wr_single(32'h80000024, 8'h66);    3
+	udm_wr_single(32'h80000028, 8'h00);    3
+	udm_wr_single(32'h8000002c, 8'h00);    3
+	udm_wr_single(32'h80000030, 8'h4d);    4
+	udm_wr_single(32'h80000034, 8'h4d);    4
+	udm_wr_single(32'h80000038, 8'h00);    4
+	udm_wr_single(32'h8000003c, 8'h2a);    4///
+	udm_wr_single(32'h80000040, 8'h00);    5
+	udm_wr_single(32'h80000044, 8'h00);    5
+	udm_wr_single(32'h80000048, 8'h00);    5
+	udm_wr_single(32'h8000004c, 8'h08);    5///
+	udm_wr_single(32'h80000050, 8'h00);    6
+	udm_wr_single(32'h80000054, 8'h00);    6
+	udm_wr_single(32'h80000058, 8'h00);    6
+	udm_wr_single(32'h8000005c, 8'h00);    6///
+	udm_wr_single(32'h80000060, 8'h00);    7
+	udm_wr_single(32'h80000064, 8'h00);    7
+	udm_wr_single(32'h80000068, 8'h00);    7
+	udm_wr_single(32'h8000006c, 8'h00);    7///
+	udm_wr_single(32'h80000070, 8'hff);    8
+	udm_wr_single(32'h80000074, 8'hdb);    8
+	udm_wr_single(32'h80000078, 8'h00);    8
+	udm_wr_single(32'h8000007c, 8'h84);    8///
+	udm_wr_single(32'h80000080, 8'h00);    9
+	udm_wr_single(32'h80000084, 8'h03);    9
+	udm_wr_single(32'h80000088, 8'h02);    9
+	udm_wr_single(32'h8000008c, 8'h02);    9///
+	udm_wr_single(32'h80000090, 8'h08);    10
+	udm_wr_single(32'h80000094, 8'h08);    10
+	udm_wr_single(32'h80000098, 8'h08);    10
+	udm_wr_single(32'h8000009c, 8'h08);    10
+	udm_wr_single(32'h800000a0, 8'h08);    11
+	udm_wr_single(32'h800000a4, 8'h08);    11
+	udm_wr_single(32'h800000a8, 8'h08);    11
+	udm_wr_single(32'h800000ac, 8'h08);    11
+	udm_wr_single(32'h800000b0, 8'h08);    12
+	udm_wr_single(32'h800000b4, 8'h08);    12
+	udm_wr_single(32'h800000b8, 8'h08);    12
+	udm_wr_single(32'h800000bc, 8'h08);    12
+	udm_wr_single(32'h800000c0, 8'h08);    13
+	udm_wr_single(32'h800000c4, 8'h08);    13
+	udm_wr_single(32'h800000c8, 8'h08);    13
+	udm_wr_single(32'h800000cc, 8'h08);    13
+	udm_wr_single(32'h800000d0, 8'h08);    14
+	udm_wr_single(32'h800000d4, 8'h08);    14
+	udm_wr_single(32'h800000d8, 8'h08);    14
+	udm_wr_single(32'h800000dc, 8'h08);    14
+	udm_wr_single(32'h800000e0, 8'h08);    15
+	udm_wr_single(32'h800000e4, 8'h08);    15
+	udm_wr_single(32'h800000e8, 8'h08);    15
+	udm_wr_single(32'h800000ec, 8'h08);    15
+	udm_wr_single(32'h800000f0, 8'h08);    16
+	udm_wr_single(32'h800000f4, 8'h08);    16
+	udm_wr_single(32'h800000f8, 8'h08);    16
+	udm_wr_single(32'h800000fc, 8'h08);    16
+	udm_wr_single(32'h80000100, 8'h08);    17
+	udm_wr_single(32'h80000104, 8'h08);    17
+	udm_wr_single(32'h80000108, 8'h08);    17
+	udm_wr_single(32'h8000010c, 8'h08);    17
+	udm_wr_single(32'h80000110, 8'h08);    18
+	udm_wr_single(32'h80000114, 8'h08);    18
+	udm_wr_single(32'h80000118, 8'h08);    18
+	udm_wr_single(32'h8000011c, 8'h08);    18
+	udm_wr_single(32'h80000120, 8'h08);    19
+	udm_wr_single(32'h80000124, 8'h08);    19
+	udm_wr_single(32'h80000128, 8'h08);    19
+	udm_wr_single(32'h8000012c, 8'h08);    19
+	udm_wr_single(32'h80000130, 8'h08);    20
+	udm_wr_single(32'h80000134, 8'h08);    20
+	udm_wr_single(32'h80000138, 8'h08);    20
+	udm_wr_single(32'h8000013c, 8'h0a);    20///////////
+	udm_wr_single(32'h80000140, 8'h08);    21
+	udm_wr_single(32'h80000144, 8'h08);    21
+	udm_wr_single(32'h80000148, 8'h08);    21
+	udm_wr_single(32'h8000014c, 8'h08);    21///
+	udm_wr_single(32'h80000150, 8'h0a);    22
+	udm_wr_single(32'h80000154, 8'h0a);    22
+	udm_wr_single(32'h80000158, 8'h0a);    22
+	udm_wr_single(32'h8000015c, 8'h08);    22
+	udm_wr_single(32'h80000160, 8'h08);    23
+	udm_wr_single(32'h80000164, 8'h0b);    23
+	udm_wr_single(32'h80000168, 8'h0d);    23
+	udm_wr_single(32'h8000016c, 8'h0a);    23//////
+	udm_wr_single(32'h80000170, 8'h08);    24
+	udm_wr_single(32'h80000174, 8'h0d);    24
+	udm_wr_single(32'h80000178, 8'h08);    24
+	udm_wr_single(32'h8000017c, 8'h08);    24////
+	udm_wr_single(32'h80000180, 8'h0a);    25
+	udm_wr_single(32'h80000184, 8'h08);    25
+	udm_wr_single(32'h80000188, 8'h01);    25
+	udm_wr_single(32'h8000018c, 8'h03);    25   
+	*/ 
+	//udm_wr_single(32'h70000000, 8'hDA);
 	
 	//udm_wr_single(32'h00000010, 1'b1);
 	//udm_rd_single(32'h0000000c);
@@ -472,9 +498,15 @@ begin
 	//len
 	//udm_wr_single(32'h00000008, 32'h20);
 	//start
+	
+	
+	udm_wr_single(32'h90000000, 8'hDA);
+	
 	udm_wr_single(32'h00000010, 1'b1);
+	
+	
 	//read ret
-	udm_rd_single(32'h0000000C);
+	//udm_rd_single(32'h0000000C);
 	
 	
 	WAIT(50000);

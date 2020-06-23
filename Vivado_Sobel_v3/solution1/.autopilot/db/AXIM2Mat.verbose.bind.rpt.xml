@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vivado HLS Report for 'AXIM2Mat'" level="0">
-<item name = "Date">Sat Jun 20 16:50:14 2020
+<item name = "Date">Tue Jun 23 00:54:43 2020
 </item>
 <item name = "Version">2019.2 (Build 2704478 on Wed Nov 06 22:10:23 MST 2019)</item>
 <item name = "Project">Vivado_Sobel_v3</item>
@@ -15,7 +15,7 @@
 <section name = "" level="1">
 <item name = "Summary"><table name="" hasTotal="0">
 <keys size="4">Clock, Target, Estimated, Uncertainty</keys>
-<column name="ap_clk">10.00 ns, 6.140 ns, 1.25 ns</column>
+<column name="ap_clk">10.00 ns, 7.366 ns, 1.25 ns</column>
 </table>
 </item>
 </section>
@@ -24,18 +24,19 @@
 <section name = "" level="1">
 <item name = "Summary"><table name="" hasTotal="0">
 <keys size="8">, min, max, min, max, min, max, Type</keys>
-<column name="">2, 132, 20.000 ns, 1.320 us, 2, 132, none</column>
+<column name="">1, 141, 10.000 ns, 1.410 us, 1, 141, none</column>
 </table>
 </item>
 <item name = "Detail">
 <section name = "" level="1">
 <item name = "Instance"><table name="" hasTotal="0">
 <keys size="9">Instance, Module, min, max, min, max, min, max, Type</keys>
-<column name="grp_Array2Mat_fu_120">Array2Mat, 1, 131, 10.000 ns, 1.310 us, 1, 131, none</column>
 </table>
 </item>
 <item name = "Loop"><table name="" hasTotal="0">
 <keys size="8">Loop Name, min, max, Latency, achieved, target, Count, Pipelined</keys>
+<column name="- loop_pixel">0, 140, 3 ~ 14, -, -, 0 ~ 10, no</column>
+<column name=" + loop_pixel.1">0, 11, 3, 1, 1, 0 ~ 10, yes</column>
 </table>
 </item>
 </section>

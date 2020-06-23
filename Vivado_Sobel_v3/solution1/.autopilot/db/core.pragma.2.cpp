@@ -11,8 +11,8 @@
 
 
 
-# 1 "F:/Vivado/Vivado/2019.2/common/technology/autopilot\\etc/autopilot_ssdm_op.h" 1
-# 157 "F:/Vivado/Vivado/2019.2/common/technology/autopilot\\etc/autopilot_ssdm_op.h"
+# 1 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot\\etc/autopilot_ssdm_op.h" 1
+# 157 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot\\etc/autopilot_ssdm_op.h"
 extern "C" {
 
 
@@ -151,18 +151,18 @@ extern "C" {
 # 9 "<command line>" 2
 # 1 "<built-in>" 2
 # 1 "Vivado_Sobel_v3/core.cpp" 2
-# 1 "F:/Vivado/Vivado/2019.2/common/technology/autopilot\\hls_video.h" 1
-# 48 "F:/Vivado/Vivado/2019.2/common/technology/autopilot\\hls_video.h"
-# 1 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_axi_io.h" 1
-# 39 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_axi_io.h"
-# 1 "F:/Vivado/Vivado/2019.2/common/technology/autopilot\\ap_axi_sdata.h" 1
-# 86 "F:/Vivado/Vivado/2019.2/common/technology/autopilot\\ap_axi_sdata.h"
-# 1 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/ap_int.h" 1
-# 54 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/ap_int.h"
-# 1 "F:/Vivado/Vivado/2019.2/common/technology/autopilot\\ap_common.h" 1
-# 57 "F:/Vivado/Vivado/2019.2/common/technology/autopilot\\ap_common.h"
-# 1 "F:/Vivado/Vivado/2019.2/common/technology/autopilot\\ap_decl.h" 1
-# 100 "F:/Vivado/Vivado/2019.2/common/technology/autopilot\\ap_decl.h"
+# 1 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot\\hls_video.h" 1
+# 48 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot\\hls_video.h"
+# 1 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_axi_io.h" 1
+# 39 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_axi_io.h"
+# 1 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot\\ap_axi_sdata.h" 1
+# 86 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot\\ap_axi_sdata.h"
+# 1 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/ap_int.h" 1
+# 54 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/ap_int.h"
+# 1 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot\\ap_common.h" 1
+# 57 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot\\ap_common.h"
+# 1 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot\\ap_decl.h" 1
+# 100 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot\\ap_decl.h"
 enum ap_q_mode {
   AP_RND,
   AP_RND_ZERO,
@@ -172,7 +172,7 @@ enum ap_q_mode {
   AP_TRN,
   AP_TRN_ZERO,
 };
-# 122 "F:/Vivado/Vivado/2019.2/common/technology/autopilot\\ap_decl.h"
+# 122 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot\\ap_decl.h"
 enum ap_o_mode {
   AP_SAT,
   AP_SAT_ZERO,
@@ -180,7 +180,7 @@ enum ap_o_mode {
   AP_WRAP,
   AP_WRAP_SM,
 };
-# 179 "F:/Vivado/Vivado/2019.2/common/technology/autopilot\\ap_decl.h"
+# 179 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot\\ap_decl.h"
 template <int _AP_W, bool _AP_S>
 struct ap_int_base;
 
@@ -221,7 +221,7 @@ struct af_bit_ref;
 
 
 enum BaseMode { AP_BIN = 2, AP_OCT = 8, AP_DEC = 10, AP_HEX = 16 };
-# 233 "F:/Vivado/Vivado/2019.2/common/technology/autopilot\\ap_decl.h"
+# 233 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot\\ap_decl.h"
 typedef signed long long ap_slong;
 typedef unsigned long long ap_ulong;
 
@@ -233,8 +233,8 @@ enum {
   _AP_SIZE_long = sizeof(long) * 8,
   _AP_SIZE_ap_slong = sizeof(ap_slong) * 8
 };
-# 58 "F:/Vivado/Vivado/2019.2/common/technology/autopilot\\ap_common.h" 2
-# 157 "F:/Vivado/Vivado/2019.2/common/technology/autopilot\\ap_common.h"
+# 58 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot\\ap_common.h" 2
+# 157 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot\\ap_common.h"
 enum { CHAR_IS_SIGNED = (char)-1 < 0 };
 
 
@@ -285,11 +285,11 @@ struct remove_const<_Tp const> {
   typedef _Tp type;
 };
 }
-# 220 "F:/Vivado/Vivado/2019.2/common/technology/autopilot\\ap_common.h"
+# 220 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot\\ap_common.h"
 template <int _AP_N, bool _AP_S>
 struct ssdm_int;
-# 238 "F:/Vivado/Vivado/2019.2/common/technology/autopilot\\ap_common.h"
-# 1 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/etc/autopilot_dt.def" 1
+# 238 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot\\ap_common.h"
+# 1 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/etc/autopilot_dt.def" 1
 
 
 template <> struct ssdm_int<1 + 1024 * 0, true> { int V __attribute__((bitwidth(1 + 1024 * 0))); inline __attribute__((always_inline)) ssdm_int<1 + 1024 * 0, true>(){}; }; template <> struct ssdm_int<1 + 1024 * 0, false> { unsigned int V __attribute__((bitwidth(1 + 1024 * 0))); inline __attribute__((always_inline)) ssdm_int<1 + 1024 * 0, false>(){}; };
@@ -1328,13 +1328,13 @@ template <> struct ssdm_int<1021 + 1024 * 0, true> { int V __attribute__((bitwid
 template <> struct ssdm_int<1022 + 1024 * 0, true> { int V __attribute__((bitwidth(1022 + 1024 * 0))); inline __attribute__((always_inline)) ssdm_int<1022 + 1024 * 0, true>(){}; }; template <> struct ssdm_int<1022 + 1024 * 0, false> { unsigned int V __attribute__((bitwidth(1022 + 1024 * 0))); inline __attribute__((always_inline)) ssdm_int<1022 + 1024 * 0, false>(){}; };
 template <> struct ssdm_int<1023 + 1024 * 0, true> { int V __attribute__((bitwidth(1023 + 1024 * 0))); inline __attribute__((always_inline)) ssdm_int<1023 + 1024 * 0, true>(){}; }; template <> struct ssdm_int<1023 + 1024 * 0, false> { unsigned int V __attribute__((bitwidth(1023 + 1024 * 0))); inline __attribute__((always_inline)) ssdm_int<1023 + 1024 * 0, false>(){}; };
 template <> struct ssdm_int<1024 + 1024 * 0, true> { int V __attribute__((bitwidth(1024 + 1024 * 0))); inline __attribute__((always_inline)) ssdm_int<1024 + 1024 * 0, true>(){}; }; template <> struct ssdm_int<1024 + 1024 * 0, false> { unsigned int V __attribute__((bitwidth(1024 + 1024 * 0))); inline __attribute__((always_inline)) ssdm_int<1024 + 1024 * 0, false>(){}; };
-# 239 "F:/Vivado/Vivado/2019.2/common/technology/autopilot\\ap_common.h" 2
-# 562 "F:/Vivado/Vivado/2019.2/common/technology/autopilot\\ap_common.h"
-# 1 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/etc/autopilot_ssdm_bits.h" 1
-# 563 "F:/Vivado/Vivado/2019.2/common/technology/autopilot\\ap_common.h" 2
+# 239 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot\\ap_common.h" 2
+# 562 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot\\ap_common.h"
+# 1 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/etc/autopilot_ssdm_bits.h" 1
+# 563 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot\\ap_common.h" 2
 
 extern "C" void _ssdm_string2bits(...);
-# 574 "F:/Vivado/Vivado/2019.2/common/technology/autopilot\\ap_common.h"
+# 574 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot\\ap_common.h"
 static inline unsigned char guess_radix(const char* s) {
   unsigned char rd = 10;
   const char* p = s;
@@ -1362,7 +1362,7 @@ static inline unsigned char guess_radix(const char* s) {
 
 
 typedef __fp16 half;
-# 691 "F:/Vivado/Vivado/2019.2/common/technology/autopilot\\ap_common.h"
+# 691 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot\\ap_common.h"
 inline __attribute__((always_inline)) ap_ulong doubleToRawBits(double pf) {
   union {
     ap_ulong __L;
@@ -1430,9 +1430,9 @@ inline __attribute__((always_inline)) half rawBitsToHalf(unsigned short pi) {
 
 
 }
-# 55 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/ap_int.h" 2
-# 1 "F:/Vivado/Vivado/2019.2/common/technology/autopilot\\ap_int_base.h" 1
-# 80 "F:/Vivado/Vivado/2019.2/common/technology/autopilot\\ap_int_base.h"
+# 55 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/ap_int.h" 2
+# 1 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot\\ap_int_base.h" 1
+# 80 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot\\ap_int_base.h"
 template <int _AP_N, bool _AP_S>
 struct retval;
 
@@ -1576,7 +1576,7 @@ struct ap_int_base : public ssdm_int<_AP_W, _AP_S> {
   inline __attribute__((always_inline)) ap_int_base(const volatile ap_int_base<_AP_W2, _AP_S2>& op) {
     Base::V = op.V;
   }
-# 237 "F:/Vivado/Vivado/2019.2/common/technology/autopilot\\ap_int_base.h"
+# 237 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot\\ap_int_base.h"
   inline __attribute__((always_inline)) ap_int_base(const bool op) { Base::V = op; }
   inline __attribute__((always_inline)) ap_int_base(const char op) { Base::V = op; }
   inline __attribute__((always_inline)) ap_int_base(const signed char op) { Base::V = op; }
@@ -1719,7 +1719,7 @@ struct ap_int_base : public ssdm_int<_AP_W, _AP_S> {
         tmp = ref.get();
     Base::V = tmp.V;
   }
-# 391 "F:/Vivado/Vivado/2019.2/common/technology/autopilot\\ap_int_base.h"
+# 391 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot\\ap_int_base.h"
   inline __attribute__((always_inline)) ap_int_base(const char* s) {
     typeof(Base::V) t;
     _ssdm_string2bits((void*)(&t), (const char*)(s), 10, _AP_W, _AP_S,
@@ -1803,7 +1803,7 @@ struct ap_int_base : public ssdm_int<_AP_W, _AP_S> {
     Base::V = op2.V;
     return *this;
   }
-# 482 "F:/Vivado/Vivado/2019.2/common/technology/autopilot\\ap_int_base.h"
+# 482 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot\\ap_int_base.h"
   inline __attribute__((always_inline)) ap_int_base& operator=(bool op) { Base::V = op; return *this; }
   inline __attribute__((always_inline)) ap_int_base& operator=(char op) { Base::V = op; return *this; }
   inline __attribute__((always_inline)) ap_int_base& operator=(signed char op) { Base::V = op; return *this; }
@@ -1885,7 +1885,7 @@ struct ap_int_base : public ssdm_int<_AP_W, _AP_S> {
   inline __attribute__((always_inline)) ap_ulong to_uint64() const { return (ap_ulong)(Base::V); }
   inline __attribute__((always_inline)) float to_float() const { return (float)(Base::V); }
   inline __attribute__((always_inline)) double to_double() const { return (double)(Base::V); }
-# 586 "F:/Vivado/Vivado/2019.2/common/technology/autopilot\\ap_int_base.h"
+# 586 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot\\ap_int_base.h"
   inline __attribute__((always_inline)) int length() const volatile { return _AP_W; }
 
 
@@ -1988,13 +1988,13 @@ struct ap_int_base : public ssdm_int<_AP_W, _AP_S> {
 
 
   inline __attribute__((always_inline)) void b_not() { Base::V = ~Base::V; }
-# 699 "F:/Vivado/Vivado/2019.2/common/technology/autopilot\\ap_int_base.h"
+# 699 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot\\ap_int_base.h"
   template <int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) ap_int_base& operator *=(const ap_int_base<_AP_W2, _AP_S2>& op2) { Base::V *= op2.V; return *this; }
   template <int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) ap_int_base& operator +=(const ap_int_base<_AP_W2, _AP_S2>& op2) { Base::V += op2.V; return *this; }
   template <int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) ap_int_base& operator -=(const ap_int_base<_AP_W2, _AP_S2>& op2) { Base::V -= op2.V; return *this; }
   template <int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) ap_int_base& operator /=(const ap_int_base<_AP_W2, _AP_S2>& op2) { Base::V /= op2.V; return *this; }
   template <int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) ap_int_base& operator %=(const ap_int_base<_AP_W2, _AP_S2>& op2) { Base::V %= op2.V; return *this; }
-# 717 "F:/Vivado/Vivado/2019.2/common/technology/autopilot\\ap_int_base.h"
+# 717 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot\\ap_int_base.h"
   template <int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) ap_int_base& operator &=(const ap_int_base<_AP_W2, _AP_S2>& op2) { (static_cast<void>(0)); Base::V &= op2.V; return *this; }
   template <int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) ap_int_base& operator |=(const ap_int_base<_AP_W2, _AP_S2>& op2) { (static_cast<void>(0)); Base::V |= op2.V; return *this; }
   template <int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) ap_int_base& operator ^=(const ap_int_base<_AP_W2, _AP_S2>& op2) { (static_cast<void>(0)); Base::V ^= op2.V; return *this; }
@@ -2089,7 +2089,7 @@ struct ap_int_base : public ssdm_int<_AP_W, _AP_S> {
     r.V = Base::V >> op2.to_uint();
     return r;
   }
-# 828 "F:/Vivado/Vivado/2019.2/common/technology/autopilot\\ap_int_base.h"
+# 828 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot\\ap_int_base.h"
   template <int _AP_W2>
   inline __attribute__((always_inline)) ap_int_base& operator<<=(const ap_int_base<_AP_W2, true>& op2) {
     bool isNeg = ({ typeof(op2.V) __Val2__ = op2.V; bool __Result__ = __builtin_bit_select((void*)(&__Val2__), _AP_W2 - 1); __Result__; });
@@ -2123,7 +2123,7 @@ struct ap_int_base : public ssdm_int<_AP_W, _AP_S> {
     Base::V >>= op2.to_uint();
     return *this;
   }
-# 877 "F:/Vivado/Vivado/2019.2/common/technology/autopilot\\ap_int_base.h"
+# 877 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot\\ap_int_base.h"
   template <int _AP_W2, bool _AP_S2>
   inline __attribute__((always_inline)) bool operator==(const ap_int_base<_AP_W2, _AP_S2>& op2) const {
     return Base::V == op2.V;
@@ -2216,7 +2216,7 @@ struct ap_int_base : public ssdm_int<_AP_W, _AP_S> {
     int Lo = LoIdx.to_int();
     return this->range(Hi, Lo);
   }
-# 986 "F:/Vivado/Vivado/2019.2/common/technology/autopilot\\ap_int_base.h"
+# 986 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot\\ap_int_base.h"
   inline __attribute__((always_inline)) ap_bit_ref<_AP_W, _AP_S> operator[](int index) {
                                                                        ;
                                                                  ;
@@ -2272,7 +2272,7 @@ struct ap_int_base : public ssdm_int<_AP_W, _AP_S> {
   inline __attribute__((always_inline)) bool bit(const ap_int_base<_AP_W2, _AP_S2>& index) const {
     return bit(index.to_int());
   }
-# 1053 "F:/Vivado/Vivado/2019.2/common/technology/autopilot\\ap_int_base.h"
+# 1053 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot\\ap_int_base.h"
   inline __attribute__((always_inline)) int countLeadingZeros() {
 
     if (_AP_W <= 32) {
@@ -2501,30 +2501,30 @@ struct ap_int_base : public ssdm_int<_AP_W, _AP_S> {
   inline __attribute__((always_inline)) bool xnor_reduce() const {
     return !(({ typeof(Base::V) __what2__ = Base::V; __builtin_bit_xor_reduce((void*)(&__what2__)); }));
   }
-# 1293 "F:/Vivado/Vivado/2019.2/common/technology/autopilot\\ap_int_base.h"
+# 1293 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot\\ap_int_base.h"
   inline __attribute__((always_inline)) char* to_string(signed char rd = 2, bool sign = _AP_S) const {
     return 0;
   }
 
 };
-# 1352 "F:/Vivado/Vivado/2019.2/common/technology/autopilot\\ap_int_base.h"
+# 1352 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot\\ap_int_base.h"
 template <int _AP_W, bool _AP_S, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<_AP_W2, _AP_S2>::mult operator *(const ap_int_base<_AP_W, _AP_S>& op, const ap_int_base<_AP_W2, _AP_S2>& op2) { typename ap_int_base<_AP_W, _AP_S>::template RType< _AP_W2, _AP_S2>:: mult_base lhs(op); typename ap_int_base<_AP_W, _AP_S>::template RType< _AP_W2, _AP_S2>:: mult_base rhs(op2); typename ap_int_base<_AP_W, _AP_S>::template RType< _AP_W2, _AP_S2>:: mult_base ret; ret.V = lhs.V * rhs.V; return ret; }
 template <int _AP_W, bool _AP_S, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<_AP_W2, _AP_S2>::plus operator +(const ap_int_base<_AP_W, _AP_S>& op, const ap_int_base<_AP_W2, _AP_S2>& op2) { typename ap_int_base<_AP_W, _AP_S>::template RType< _AP_W2, _AP_S2>:: plus_base lhs(op); typename ap_int_base<_AP_W, _AP_S>::template RType< _AP_W2, _AP_S2>:: plus_base rhs(op2); typename ap_int_base<_AP_W, _AP_S>::template RType< _AP_W2, _AP_S2>:: plus_base ret; ret.V = lhs.V + rhs.V; return ret; }
 template <int _AP_W, bool _AP_S, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<_AP_W2, _AP_S2>::minus operator -(const ap_int_base<_AP_W, _AP_S>& op, const ap_int_base<_AP_W2, _AP_S2>& op2) { typename ap_int_base<_AP_W, _AP_S>::template RType< _AP_W2, _AP_S2>:: minus_base lhs(op); typename ap_int_base<_AP_W, _AP_S>::template RType< _AP_W2, _AP_S2>:: minus_base rhs(op2); typename ap_int_base<_AP_W, _AP_S>::template RType< _AP_W2, _AP_S2>:: minus_base ret; ret.V = lhs.V - rhs.V; return ret; }
 template <int _AP_W, bool _AP_S, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<_AP_W2, _AP_S2>::logic operator &(const ap_int_base<_AP_W, _AP_S>& op, const ap_int_base<_AP_W2, _AP_S2>& op2) { typename ap_int_base<_AP_W, _AP_S>::template RType< _AP_W2, _AP_S2>:: logic_base lhs(op); typename ap_int_base<_AP_W, _AP_S>::template RType< _AP_W2, _AP_S2>:: logic_base rhs(op2); typename ap_int_base<_AP_W, _AP_S>::template RType< _AP_W2, _AP_S2>:: logic_base ret; ret.V = lhs.V & rhs.V; return ret; }
 template <int _AP_W, bool _AP_S, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<_AP_W2, _AP_S2>::logic operator |(const ap_int_base<_AP_W, _AP_S>& op, const ap_int_base<_AP_W2, _AP_S2>& op2) { typename ap_int_base<_AP_W, _AP_S>::template RType< _AP_W2, _AP_S2>:: logic_base lhs(op); typename ap_int_base<_AP_W, _AP_S>::template RType< _AP_W2, _AP_S2>:: logic_base rhs(op2); typename ap_int_base<_AP_W, _AP_S>::template RType< _AP_W2, _AP_S2>:: logic_base ret; ret.V = lhs.V | rhs.V; return ret; }
 template <int _AP_W, bool _AP_S, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<_AP_W2, _AP_S2>::logic operator ^(const ap_int_base<_AP_W, _AP_S>& op, const ap_int_base<_AP_W2, _AP_S2>& op2) { typename ap_int_base<_AP_W, _AP_S>::template RType< _AP_W2, _AP_S2>:: logic_base lhs(op); typename ap_int_base<_AP_W, _AP_S>::template RType< _AP_W2, _AP_S2>:: logic_base rhs(op2); typename ap_int_base<_AP_W, _AP_S>::template RType< _AP_W2, _AP_S2>:: logic_base ret; ret.V = lhs.V ^ rhs.V; return ret; }
-# 1371 "F:/Vivado/Vivado/2019.2/common/technology/autopilot\\ap_int_base.h"
+# 1371 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot\\ap_int_base.h"
 template <int _AP_W, bool _AP_S, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<_AP_W2, _AP_S2>::div operator /(const ap_int_base<_AP_W, _AP_S>& op, const ap_int_base<_AP_W2, _AP_S2>& op2) { typename ap_int_base<_AP_W, _AP_S>::template RType< _AP_W2, _AP_S2>:: div_base ret; ret.V = op.V / op2.V; return ret; }
 template <int _AP_W, bool _AP_S, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<_AP_W2, _AP_S2>::mod operator %(const ap_int_base<_AP_W, _AP_S>& op, const ap_int_base<_AP_W2, _AP_S2>& op2) { typename ap_int_base<_AP_W, _AP_S>::template RType< _AP_W2, _AP_S2>:: mod_base ret; ret.V = op.V % op2.V; return ret; }
-# 1399 "F:/Vivado/Vivado/2019.2/common/technology/autopilot\\ap_int_base.h"
+# 1399 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot\\ap_int_base.h"
 template <typename PTR_TYPE, int _AP_W, bool _AP_S> inline __attribute__((always_inline)) PTR_TYPE* operator +(PTR_TYPE* i_op, const ap_int_base<_AP_W, _AP_S>& op) { ap_slong op2 = op.to_int64(); return i_op + op2; } template <typename PTR_TYPE, int _AP_W, bool _AP_S> inline __attribute__((always_inline)) PTR_TYPE* operator +(const ap_int_base<_AP_W, _AP_S>& op, PTR_TYPE* i_op) { ap_slong op2 = op.to_int64(); return op2 + i_op; }
 template <typename PTR_TYPE, int _AP_W, bool _AP_S> inline __attribute__((always_inline)) PTR_TYPE* operator -(PTR_TYPE* i_op, const ap_int_base<_AP_W, _AP_S>& op) { ap_slong op2 = op.to_int64(); return i_op - op2; } template <typename PTR_TYPE, int _AP_W, bool _AP_S> inline __attribute__((always_inline)) PTR_TYPE* operator -(const ap_int_base<_AP_W, _AP_S>& op, PTR_TYPE* i_op) { ap_slong op2 = op.to_int64(); return op2 - i_op; }
-# 1427 "F:/Vivado/Vivado/2019.2/common/technology/autopilot\\ap_int_base.h"
+# 1427 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot\\ap_int_base.h"
 template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) half operator *(half i_op, const ap_int_base<_AP_W, _AP_S>& op) { typename ap_int_base<_AP_W, _AP_S>::RetType op2 = op; return i_op * op2; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) half operator *(const ap_int_base<_AP_W, _AP_S>& op, half i_op) { typename ap_int_base<_AP_W, _AP_S>::RetType op2 = op; return op2 * i_op; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) half operator /(half i_op, const ap_int_base<_AP_W, _AP_S>& op) { typename ap_int_base<_AP_W, _AP_S>::RetType op2 = op; return i_op / op2; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) half operator /(const ap_int_base<_AP_W, _AP_S>& op, half i_op) { typename ap_int_base<_AP_W, _AP_S>::RetType op2 = op; return op2 / i_op; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) half operator +(half i_op, const ap_int_base<_AP_W, _AP_S>& op) { typename ap_int_base<_AP_W, _AP_S>::RetType op2 = op; return i_op + op2; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) half operator +(const ap_int_base<_AP_W, _AP_S>& op, half i_op) { typename ap_int_base<_AP_W, _AP_S>::RetType op2 = op; return op2 + i_op; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) half operator -(half i_op, const ap_int_base<_AP_W, _AP_S>& op) { typename ap_int_base<_AP_W, _AP_S>::RetType op2 = op; return i_op - op2; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) half operator -(const ap_int_base<_AP_W, _AP_S>& op, half i_op) { typename ap_int_base<_AP_W, _AP_S>::RetType op2 = op; return op2 - i_op; }
 template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) float operator *(float i_op, const ap_int_base<_AP_W, _AP_S>& op) { typename ap_int_base<_AP_W, _AP_S>::RetType op2 = op; return i_op * op2; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) float operator *(const ap_int_base<_AP_W, _AP_S>& op, float i_op) { typename ap_int_base<_AP_W, _AP_S>::RetType op2 = op; return op2 * i_op; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) float operator /(float i_op, const ap_int_base<_AP_W, _AP_S>& op) { typename ap_int_base<_AP_W, _AP_S>::RetType op2 = op; return i_op / op2; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) float operator /(const ap_int_base<_AP_W, _AP_S>& op, float i_op) { typename ap_int_base<_AP_W, _AP_S>::RetType op2 = op; return op2 / i_op; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) float operator +(float i_op, const ap_int_base<_AP_W, _AP_S>& op) { typename ap_int_base<_AP_W, _AP_S>::RetType op2 = op; return i_op + op2; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) float operator +(const ap_int_base<_AP_W, _AP_S>& op, float i_op) { typename ap_int_base<_AP_W, _AP_S>::RetType op2 = op; return op2 + i_op; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) float operator -(float i_op, const ap_int_base<_AP_W, _AP_S>& op) { typename ap_int_base<_AP_W, _AP_S>::RetType op2 = op; return i_op - op2; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) float operator -(const ap_int_base<_AP_W, _AP_S>& op, float i_op) { typename ap_int_base<_AP_W, _AP_S>::RetType op2 = op; return op2 - i_op; }
 template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) double operator *(double i_op, const ap_int_base<_AP_W, _AP_S>& op) { typename ap_int_base<_AP_W, _AP_S>::RetType op2 = op; return i_op * op2; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) double operator *(const ap_int_base<_AP_W, _AP_S>& op, double i_op) { typename ap_int_base<_AP_W, _AP_S>::RetType op2 = op; return op2 * i_op; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) double operator /(double i_op, const ap_int_base<_AP_W, _AP_S>& op) { typename ap_int_base<_AP_W, _AP_S>::RetType op2 = op; return i_op / op2; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) double operator /(const ap_int_base<_AP_W, _AP_S>& op, double i_op) { typename ap_int_base<_AP_W, _AP_S>::RetType op2 = op; return op2 / i_op; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) double operator +(double i_op, const ap_int_base<_AP_W, _AP_S>& op) { typename ap_int_base<_AP_W, _AP_S>::RetType op2 = op; return i_op + op2; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) double operator +(const ap_int_base<_AP_W, _AP_S>& op, double i_op) { typename ap_int_base<_AP_W, _AP_S>::RetType op2 = op; return op2 + i_op; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) double operator -(double i_op, const ap_int_base<_AP_W, _AP_S>& op) { typename ap_int_base<_AP_W, _AP_S>::RetType op2 = op; return i_op - op2; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) double operator -(const ap_int_base<_AP_W, _AP_S>& op, double i_op) { typename ap_int_base<_AP_W, _AP_S>::RetType op2 = op; return op2 - i_op; }
-# 1461 "F:/Vivado/Vivado/2019.2/common/technology/autopilot\\ap_int_base.h"
+# 1461 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot\\ap_int_base.h"
 template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<1, false>::mult operator *(bool i_op, const ap_int_base<_AP_W, _AP_S>& op) { return ap_int_base<1, false>(i_op) *(op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<1, false>::mult operator *(const ap_int_base<_AP_W, _AP_S>& op, bool i_op) { return op * ap_int_base<1, false>(i_op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<1, false>::plus operator +(bool i_op, const ap_int_base<_AP_W, _AP_S>& op) { return ap_int_base<1, false>(i_op) +(op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<1, false>::plus operator +(const ap_int_base<_AP_W, _AP_S>& op, bool i_op) { return op + ap_int_base<1, false>(i_op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<1, false>::minus operator -(bool i_op, const ap_int_base<_AP_W, _AP_S>& op) { return ap_int_base<1, false>(i_op) -(op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<1, false>::minus operator -(const ap_int_base<_AP_W, _AP_S>& op, bool i_op) { return op - ap_int_base<1, false>(i_op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<1, false>::div operator /(bool i_op, const ap_int_base<_AP_W, _AP_S>& op) { return ap_int_base<1, false>(i_op) /(op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<1, false>::div operator /(const ap_int_base<_AP_W, _AP_S>& op, bool i_op) { return op / ap_int_base<1, false>(i_op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<1, false>::mod operator %(bool i_op, const ap_int_base<_AP_W, _AP_S>& op) { return ap_int_base<1, false>(i_op) %(op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<1, false>::mod operator %(const ap_int_base<_AP_W, _AP_S>& op, bool i_op) { return op % ap_int_base<1, false>(i_op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<1, false>::logic operator &(bool i_op, const ap_int_base<_AP_W, _AP_S>& op) { return ap_int_base<1, false>(i_op) &(op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<1, false>::logic operator &(const ap_int_base<_AP_W, _AP_S>& op, bool i_op) { return op & ap_int_base<1, false>(i_op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<1, false>::logic operator |(bool i_op, const ap_int_base<_AP_W, _AP_S>& op) { return ap_int_base<1, false>(i_op) |(op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<1, false>::logic operator |(const ap_int_base<_AP_W, _AP_S>& op, bool i_op) { return op | ap_int_base<1, false>(i_op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<1, false>::logic operator ^(bool i_op, const ap_int_base<_AP_W, _AP_S>& op) { return ap_int_base<1, false>(i_op) ^(op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<1, false>::logic operator ^(const ap_int_base<_AP_W, _AP_S>& op, bool i_op) { return op ^ ap_int_base<1, false>(i_op); }
 template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<8, CHAR_IS_SIGNED>::mult operator *(char i_op, const ap_int_base<_AP_W, _AP_S>& op) { return ap_int_base<8, CHAR_IS_SIGNED>(i_op) *(op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<8, CHAR_IS_SIGNED>::mult operator *(const ap_int_base<_AP_W, _AP_S>& op, char i_op) { return op * ap_int_base<8, CHAR_IS_SIGNED>(i_op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<8, CHAR_IS_SIGNED>::plus operator +(char i_op, const ap_int_base<_AP_W, _AP_S>& op) { return ap_int_base<8, CHAR_IS_SIGNED>(i_op) +(op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<8, CHAR_IS_SIGNED>::plus operator +(const ap_int_base<_AP_W, _AP_S>& op, char i_op) { return op + ap_int_base<8, CHAR_IS_SIGNED>(i_op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<8, CHAR_IS_SIGNED>::minus operator -(char i_op, const ap_int_base<_AP_W, _AP_S>& op) { return ap_int_base<8, CHAR_IS_SIGNED>(i_op) -(op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<8, CHAR_IS_SIGNED>::minus operator -(const ap_int_base<_AP_W, _AP_S>& op, char i_op) { return op - ap_int_base<8, CHAR_IS_SIGNED>(i_op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<8, CHAR_IS_SIGNED>::div operator /(char i_op, const ap_int_base<_AP_W, _AP_S>& op) { return ap_int_base<8, CHAR_IS_SIGNED>(i_op) /(op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<8, CHAR_IS_SIGNED>::div operator /(const ap_int_base<_AP_W, _AP_S>& op, char i_op) { return op / ap_int_base<8, CHAR_IS_SIGNED>(i_op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<8, CHAR_IS_SIGNED>::mod operator %(char i_op, const ap_int_base<_AP_W, _AP_S>& op) { return ap_int_base<8, CHAR_IS_SIGNED>(i_op) %(op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<8, CHAR_IS_SIGNED>::mod operator %(const ap_int_base<_AP_W, _AP_S>& op, char i_op) { return op % ap_int_base<8, CHAR_IS_SIGNED>(i_op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<8, CHAR_IS_SIGNED>::logic operator &(char i_op, const ap_int_base<_AP_W, _AP_S>& op) { return ap_int_base<8, CHAR_IS_SIGNED>(i_op) &(op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<8, CHAR_IS_SIGNED>::logic operator &(const ap_int_base<_AP_W, _AP_S>& op, char i_op) { return op & ap_int_base<8, CHAR_IS_SIGNED>(i_op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<8, CHAR_IS_SIGNED>::logic operator |(char i_op, const ap_int_base<_AP_W, _AP_S>& op) { return ap_int_base<8, CHAR_IS_SIGNED>(i_op) |(op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<8, CHAR_IS_SIGNED>::logic operator |(const ap_int_base<_AP_W, _AP_S>& op, char i_op) { return op | ap_int_base<8, CHAR_IS_SIGNED>(i_op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<8, CHAR_IS_SIGNED>::logic operator ^(char i_op, const ap_int_base<_AP_W, _AP_S>& op) { return ap_int_base<8, CHAR_IS_SIGNED>(i_op) ^(op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<8, CHAR_IS_SIGNED>::logic operator ^(const ap_int_base<_AP_W, _AP_S>& op, char i_op) { return op ^ ap_int_base<8, CHAR_IS_SIGNED>(i_op); }
 template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<8, true>::mult operator *(signed char i_op, const ap_int_base<_AP_W, _AP_S>& op) { return ap_int_base<8, true>(i_op) *(op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<8, true>::mult operator *(const ap_int_base<_AP_W, _AP_S>& op, signed char i_op) { return op * ap_int_base<8, true>(i_op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<8, true>::plus operator +(signed char i_op, const ap_int_base<_AP_W, _AP_S>& op) { return ap_int_base<8, true>(i_op) +(op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<8, true>::plus operator +(const ap_int_base<_AP_W, _AP_S>& op, signed char i_op) { return op + ap_int_base<8, true>(i_op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<8, true>::minus operator -(signed char i_op, const ap_int_base<_AP_W, _AP_S>& op) { return ap_int_base<8, true>(i_op) -(op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<8, true>::minus operator -(const ap_int_base<_AP_W, _AP_S>& op, signed char i_op) { return op - ap_int_base<8, true>(i_op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<8, true>::div operator /(signed char i_op, const ap_int_base<_AP_W, _AP_S>& op) { return ap_int_base<8, true>(i_op) /(op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<8, true>::div operator /(const ap_int_base<_AP_W, _AP_S>& op, signed char i_op) { return op / ap_int_base<8, true>(i_op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<8, true>::mod operator %(signed char i_op, const ap_int_base<_AP_W, _AP_S>& op) { return ap_int_base<8, true>(i_op) %(op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<8, true>::mod operator %(const ap_int_base<_AP_W, _AP_S>& op, signed char i_op) { return op % ap_int_base<8, true>(i_op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<8, true>::logic operator &(signed char i_op, const ap_int_base<_AP_W, _AP_S>& op) { return ap_int_base<8, true>(i_op) &(op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<8, true>::logic operator &(const ap_int_base<_AP_W, _AP_S>& op, signed char i_op) { return op & ap_int_base<8, true>(i_op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<8, true>::logic operator |(signed char i_op, const ap_int_base<_AP_W, _AP_S>& op) { return ap_int_base<8, true>(i_op) |(op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<8, true>::logic operator |(const ap_int_base<_AP_W, _AP_S>& op, signed char i_op) { return op | ap_int_base<8, true>(i_op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<8, true>::logic operator ^(signed char i_op, const ap_int_base<_AP_W, _AP_S>& op) { return ap_int_base<8, true>(i_op) ^(op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<8, true>::logic operator ^(const ap_int_base<_AP_W, _AP_S>& op, signed char i_op) { return op ^ ap_int_base<8, true>(i_op); }
@@ -2537,21 +2537,21 @@ template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename 
 template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<_AP_SIZE_long, false>::mult operator *(unsigned long i_op, const ap_int_base<_AP_W, _AP_S>& op) { return ap_int_base<_AP_SIZE_long, false>(i_op) *(op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<_AP_SIZE_long, false>::mult operator *(const ap_int_base<_AP_W, _AP_S>& op, unsigned long i_op) { return op * ap_int_base<_AP_SIZE_long, false>(i_op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<_AP_SIZE_long, false>::plus operator +(unsigned long i_op, const ap_int_base<_AP_W, _AP_S>& op) { return ap_int_base<_AP_SIZE_long, false>(i_op) +(op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<_AP_SIZE_long, false>::plus operator +(const ap_int_base<_AP_W, _AP_S>& op, unsigned long i_op) { return op + ap_int_base<_AP_SIZE_long, false>(i_op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<_AP_SIZE_long, false>::minus operator -(unsigned long i_op, const ap_int_base<_AP_W, _AP_S>& op) { return ap_int_base<_AP_SIZE_long, false>(i_op) -(op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<_AP_SIZE_long, false>::minus operator -(const ap_int_base<_AP_W, _AP_S>& op, unsigned long i_op) { return op - ap_int_base<_AP_SIZE_long, false>(i_op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<_AP_SIZE_long, false>::div operator /(unsigned long i_op, const ap_int_base<_AP_W, _AP_S>& op) { return ap_int_base<_AP_SIZE_long, false>(i_op) /(op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<_AP_SIZE_long, false>::div operator /(const ap_int_base<_AP_W, _AP_S>& op, unsigned long i_op) { return op / ap_int_base<_AP_SIZE_long, false>(i_op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<_AP_SIZE_long, false>::mod operator %(unsigned long i_op, const ap_int_base<_AP_W, _AP_S>& op) { return ap_int_base<_AP_SIZE_long, false>(i_op) %(op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<_AP_SIZE_long, false>::mod operator %(const ap_int_base<_AP_W, _AP_S>& op, unsigned long i_op) { return op % ap_int_base<_AP_SIZE_long, false>(i_op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<_AP_SIZE_long, false>::logic operator &(unsigned long i_op, const ap_int_base<_AP_W, _AP_S>& op) { return ap_int_base<_AP_SIZE_long, false>(i_op) &(op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<_AP_SIZE_long, false>::logic operator &(const ap_int_base<_AP_W, _AP_S>& op, unsigned long i_op) { return op & ap_int_base<_AP_SIZE_long, false>(i_op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<_AP_SIZE_long, false>::logic operator |(unsigned long i_op, const ap_int_base<_AP_W, _AP_S>& op) { return ap_int_base<_AP_SIZE_long, false>(i_op) |(op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<_AP_SIZE_long, false>::logic operator |(const ap_int_base<_AP_W, _AP_S>& op, unsigned long i_op) { return op | ap_int_base<_AP_SIZE_long, false>(i_op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<_AP_SIZE_long, false>::logic operator ^(unsigned long i_op, const ap_int_base<_AP_W, _AP_S>& op) { return ap_int_base<_AP_SIZE_long, false>(i_op) ^(op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<_AP_SIZE_long, false>::logic operator ^(const ap_int_base<_AP_W, _AP_S>& op, unsigned long i_op) { return op ^ ap_int_base<_AP_SIZE_long, false>(i_op); }
 template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<_AP_SIZE_ap_slong, true>::mult operator *(ap_slong i_op, const ap_int_base<_AP_W, _AP_S>& op) { return ap_int_base<_AP_SIZE_ap_slong, true>(i_op) *(op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<_AP_SIZE_ap_slong, true>::mult operator *(const ap_int_base<_AP_W, _AP_S>& op, ap_slong i_op) { return op * ap_int_base<_AP_SIZE_ap_slong, true>(i_op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<_AP_SIZE_ap_slong, true>::plus operator +(ap_slong i_op, const ap_int_base<_AP_W, _AP_S>& op) { return ap_int_base<_AP_SIZE_ap_slong, true>(i_op) +(op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<_AP_SIZE_ap_slong, true>::plus operator +(const ap_int_base<_AP_W, _AP_S>& op, ap_slong i_op) { return op + ap_int_base<_AP_SIZE_ap_slong, true>(i_op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<_AP_SIZE_ap_slong, true>::minus operator -(ap_slong i_op, const ap_int_base<_AP_W, _AP_S>& op) { return ap_int_base<_AP_SIZE_ap_slong, true>(i_op) -(op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<_AP_SIZE_ap_slong, true>::minus operator -(const ap_int_base<_AP_W, _AP_S>& op, ap_slong i_op) { return op - ap_int_base<_AP_SIZE_ap_slong, true>(i_op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<_AP_SIZE_ap_slong, true>::div operator /(ap_slong i_op, const ap_int_base<_AP_W, _AP_S>& op) { return ap_int_base<_AP_SIZE_ap_slong, true>(i_op) /(op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<_AP_SIZE_ap_slong, true>::div operator /(const ap_int_base<_AP_W, _AP_S>& op, ap_slong i_op) { return op / ap_int_base<_AP_SIZE_ap_slong, true>(i_op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<_AP_SIZE_ap_slong, true>::mod operator %(ap_slong i_op, const ap_int_base<_AP_W, _AP_S>& op) { return ap_int_base<_AP_SIZE_ap_slong, true>(i_op) %(op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<_AP_SIZE_ap_slong, true>::mod operator %(const ap_int_base<_AP_W, _AP_S>& op, ap_slong i_op) { return op % ap_int_base<_AP_SIZE_ap_slong, true>(i_op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<_AP_SIZE_ap_slong, true>::logic operator &(ap_slong i_op, const ap_int_base<_AP_W, _AP_S>& op) { return ap_int_base<_AP_SIZE_ap_slong, true>(i_op) &(op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<_AP_SIZE_ap_slong, true>::logic operator &(const ap_int_base<_AP_W, _AP_S>& op, ap_slong i_op) { return op & ap_int_base<_AP_SIZE_ap_slong, true>(i_op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<_AP_SIZE_ap_slong, true>::logic operator |(ap_slong i_op, const ap_int_base<_AP_W, _AP_S>& op) { return ap_int_base<_AP_SIZE_ap_slong, true>(i_op) |(op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<_AP_SIZE_ap_slong, true>::logic operator |(const ap_int_base<_AP_W, _AP_S>& op, ap_slong i_op) { return op | ap_int_base<_AP_SIZE_ap_slong, true>(i_op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<_AP_SIZE_ap_slong, true>::logic operator ^(ap_slong i_op, const ap_int_base<_AP_W, _AP_S>& op) { return ap_int_base<_AP_SIZE_ap_slong, true>(i_op) ^(op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<_AP_SIZE_ap_slong, true>::logic operator ^(const ap_int_base<_AP_W, _AP_S>& op, ap_slong i_op) { return op ^ ap_int_base<_AP_SIZE_ap_slong, true>(i_op); }
 template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<_AP_SIZE_ap_slong, false>::mult operator *(ap_ulong i_op, const ap_int_base<_AP_W, _AP_S>& op) { return ap_int_base<_AP_SIZE_ap_slong, false>(i_op) *(op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<_AP_SIZE_ap_slong, false>::mult operator *(const ap_int_base<_AP_W, _AP_S>& op, ap_ulong i_op) { return op * ap_int_base<_AP_SIZE_ap_slong, false>(i_op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<_AP_SIZE_ap_slong, false>::plus operator +(ap_ulong i_op, const ap_int_base<_AP_W, _AP_S>& op) { return ap_int_base<_AP_SIZE_ap_slong, false>(i_op) +(op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<_AP_SIZE_ap_slong, false>::plus operator +(const ap_int_base<_AP_W, _AP_S>& op, ap_ulong i_op) { return op + ap_int_base<_AP_SIZE_ap_slong, false>(i_op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<_AP_SIZE_ap_slong, false>::minus operator -(ap_ulong i_op, const ap_int_base<_AP_W, _AP_S>& op) { return ap_int_base<_AP_SIZE_ap_slong, false>(i_op) -(op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<_AP_SIZE_ap_slong, false>::minus operator -(const ap_int_base<_AP_W, _AP_S>& op, ap_ulong i_op) { return op - ap_int_base<_AP_SIZE_ap_slong, false>(i_op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<_AP_SIZE_ap_slong, false>::div operator /(ap_ulong i_op, const ap_int_base<_AP_W, _AP_S>& op) { return ap_int_base<_AP_SIZE_ap_slong, false>(i_op) /(op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<_AP_SIZE_ap_slong, false>::div operator /(const ap_int_base<_AP_W, _AP_S>& op, ap_ulong i_op) { return op / ap_int_base<_AP_SIZE_ap_slong, false>(i_op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<_AP_SIZE_ap_slong, false>::mod operator %(ap_ulong i_op, const ap_int_base<_AP_W, _AP_S>& op) { return ap_int_base<_AP_SIZE_ap_slong, false>(i_op) %(op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<_AP_SIZE_ap_slong, false>::mod operator %(const ap_int_base<_AP_W, _AP_S>& op, ap_ulong i_op) { return op % ap_int_base<_AP_SIZE_ap_slong, false>(i_op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<_AP_SIZE_ap_slong, false>::logic operator &(ap_ulong i_op, const ap_int_base<_AP_W, _AP_S>& op) { return ap_int_base<_AP_SIZE_ap_slong, false>(i_op) &(op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<_AP_SIZE_ap_slong, false>::logic operator &(const ap_int_base<_AP_W, _AP_S>& op, ap_ulong i_op) { return op & ap_int_base<_AP_SIZE_ap_slong, false>(i_op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<_AP_SIZE_ap_slong, false>::logic operator |(ap_ulong i_op, const ap_int_base<_AP_W, _AP_S>& op) { return ap_int_base<_AP_SIZE_ap_slong, false>(i_op) |(op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<_AP_SIZE_ap_slong, false>::logic operator |(const ap_int_base<_AP_W, _AP_S>& op, ap_ulong i_op) { return op | ap_int_base<_AP_SIZE_ap_slong, false>(i_op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<_AP_SIZE_ap_slong, false>::logic operator ^(ap_ulong i_op, const ap_int_base<_AP_W, _AP_S>& op) { return ap_int_base<_AP_SIZE_ap_slong, false>(i_op) ^(op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<_AP_SIZE_ap_slong, false>::logic operator ^(const ap_int_base<_AP_W, _AP_S>& op, ap_ulong i_op) { return op ^ ap_int_base<_AP_SIZE_ap_slong, false>(i_op); }
-# 1500 "F:/Vivado/Vivado/2019.2/common/technology/autopilot\\ap_int_base.h"
+# 1500 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot\\ap_int_base.h"
 template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<_AP_W,_AP_S>::arg1 operator<<( const ap_int_base<_AP_W, _AP_S>& op, char op2) { ap_int_base<_AP_W, _AP_S> r; if (CHAR_IS_SIGNED) r.V = op2 >= 0 ? (op.V << op2) : (op.V >> (-op2)); else r.V = op.V << op2; return r; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<_AP_W,_AP_S>::arg1 operator>>( const ap_int_base<_AP_W, _AP_S>& op, char op2) { ap_int_base<_AP_W, _AP_S> r; if (CHAR_IS_SIGNED) r.V = op2 >= 0 ? (op.V >> op2) : (op.V << (-op2)); else r.V = op.V >> op2; return r; }
 template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<_AP_W,_AP_S>::arg1 operator<<( const ap_int_base<_AP_W, _AP_S>& op, signed char op2) { ap_int_base<_AP_W, _AP_S> r; if (true) r.V = op2 >= 0 ? (op.V << op2) : (op.V >> (-op2)); else r.V = op.V << op2; return r; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<_AP_W,_AP_S>::arg1 operator>>( const ap_int_base<_AP_W, _AP_S>& op, signed char op2) { ap_int_base<_AP_W, _AP_S> r; if (true) r.V = op2 >= 0 ? (op.V >> op2) : (op.V << (-op2)); else r.V = op.V >> op2; return r; }
 template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<_AP_W,_AP_S>::arg1 operator<<( const ap_int_base<_AP_W, _AP_S>& op, short op2) { ap_int_base<_AP_W, _AP_S> r; if (true) r.V = op2 >= 0 ? (op.V << op2) : (op.V >> (-op2)); else r.V = op.V << op2; return r; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<_AP_W,_AP_S>::arg1 operator>>( const ap_int_base<_AP_W, _AP_S>& op, short op2) { ap_int_base<_AP_W, _AP_S> r; if (true) r.V = op2 >= 0 ? (op.V >> op2) : (op.V << (-op2)); else r.V = op.V >> op2; return r; }
 template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<_AP_W,_AP_S>::arg1 operator<<( const ap_int_base<_AP_W, _AP_S>& op, int op2) { ap_int_base<_AP_W, _AP_S> r; if (true) r.V = op2 >= 0 ? (op.V << op2) : (op.V >> (-op2)); else r.V = op.V << op2; return r; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<_AP_W,_AP_S>::arg1 operator>>( const ap_int_base<_AP_W, _AP_S>& op, int op2) { ap_int_base<_AP_W, _AP_S> r; if (true) r.V = op2 >= 0 ? (op.V >> op2) : (op.V << (-op2)); else r.V = op.V >> op2; return r; }
 template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<_AP_W,_AP_S>::arg1 operator<<( const ap_int_base<_AP_W, _AP_S>& op, long op2) { ap_int_base<_AP_W, _AP_S> r; if (true) r.V = op2 >= 0 ? (op.V << op2) : (op.V >> (-op2)); else r.V = op.V << op2; return r; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<_AP_W,_AP_S>::arg1 operator>>( const ap_int_base<_AP_W, _AP_S>& op, long op2) { ap_int_base<_AP_W, _AP_S> r; if (true) r.V = op2 >= 0 ? (op.V >> op2) : (op.V << (-op2)); else r.V = op.V >> op2; return r; }
 template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<_AP_W,_AP_S>::arg1 operator<<( const ap_int_base<_AP_W, _AP_S>& op, ap_slong op2) { ap_int_base<_AP_W, _AP_S> r; if (true) r.V = op2 >= 0 ? (op.V << op2) : (op.V >> (-op2)); else r.V = op.V << op2; return r; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<_AP_W,_AP_S>::arg1 operator>>( const ap_int_base<_AP_W, _AP_S>& op, ap_slong op2) { ap_int_base<_AP_W, _AP_S> r; if (true) r.V = op2 >= 0 ? (op.V >> op2) : (op.V << (-op2)); else r.V = op.V >> op2; return r; }
-# 1524 "F:/Vivado/Vivado/2019.2/common/technology/autopilot\\ap_int_base.h"
+# 1524 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot\\ap_int_base.h"
 template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<_AP_W,_AP_S>::arg1 operator<<( const ap_int_base<_AP_W, _AP_S>& op, bool op2) { ap_int_base<_AP_W, _AP_S> r; r.V = op.V << op2; return r; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<_AP_W,_AP_S>::arg1 operator>>( const ap_int_base<_AP_W, _AP_S>& op, bool op2) { ap_int_base<_AP_W, _AP_S> r; r.V = op.V >> op2; return r; }
 template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<_AP_W,_AP_S>::arg1 operator<<( const ap_int_base<_AP_W, _AP_S>& op, unsigned char op2) { ap_int_base<_AP_W, _AP_S> r; r.V = op.V << op2; return r; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<_AP_W,_AP_S>::arg1 operator>>( const ap_int_base<_AP_W, _AP_S>& op, unsigned char op2) { ap_int_base<_AP_W, _AP_S> r; r.V = op.V >> op2; return r; }
 template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<_AP_W,_AP_S>::arg1 operator<<( const ap_int_base<_AP_W, _AP_S>& op, unsigned short op2) { ap_int_base<_AP_W, _AP_S> r; r.V = op.V << op2; return r; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<_AP_W,_AP_S>::arg1 operator>>( const ap_int_base<_AP_W, _AP_S>& op, unsigned short op2) { ap_int_base<_AP_W, _AP_S> r; r.V = op.V >> op2; return r; }
 template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<_AP_W,_AP_S>::arg1 operator<<( const ap_int_base<_AP_W, _AP_S>& op, unsigned int op2) { ap_int_base<_AP_W, _AP_S> r; r.V = op.V << op2; return r; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<_AP_W,_AP_S>::arg1 operator>>( const ap_int_base<_AP_W, _AP_S>& op, unsigned int op2) { ap_int_base<_AP_W, _AP_S> r; r.V = op.V >> op2; return r; }
 template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<_AP_W,_AP_S>::arg1 operator<<( const ap_int_base<_AP_W, _AP_S>& op, unsigned long op2) { ap_int_base<_AP_W, _AP_S> r; r.V = op.V << op2; return r; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<_AP_W,_AP_S>::arg1 operator>>( const ap_int_base<_AP_W, _AP_S>& op, unsigned long op2) { ap_int_base<_AP_W, _AP_S> r; r.V = op.V >> op2; return r; }
 template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<_AP_W,_AP_S>::arg1 operator<<( const ap_int_base<_AP_W, _AP_S>& op, ap_ulong op2) { ap_int_base<_AP_W, _AP_S> r; r.V = op.V << op2; return r; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, _AP_S>::template RType<_AP_W,_AP_S>::arg1 operator>>( const ap_int_base<_AP_W, _AP_S>& op, ap_ulong op2) { ap_int_base<_AP_W, _AP_S> r; r.V = op.V >> op2; return r; }
-# 1555 "F:/Vivado/Vivado/2019.2/common/technology/autopilot\\ap_int_base.h"
+# 1555 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot\\ap_int_base.h"
 template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) ap_int_base<_AP_W, _AP_S>& operator +=( ap_int_base<_AP_W, _AP_S>& op, bool op2) { return op += ap_int_base<1, false>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) ap_int_base<_AP_W, _AP_S>& operator -=( ap_int_base<_AP_W, _AP_S>& op, bool op2) { return op -= ap_int_base<1, false>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) ap_int_base<_AP_W, _AP_S>& operator *=( ap_int_base<_AP_W, _AP_S>& op, bool op2) { return op *= ap_int_base<1, false>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) ap_int_base<_AP_W, _AP_S>& operator /=( ap_int_base<_AP_W, _AP_S>& op, bool op2) { return op /= ap_int_base<1, false>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) ap_int_base<_AP_W, _AP_S>& operator %=( ap_int_base<_AP_W, _AP_S>& op, bool op2) { return op %= ap_int_base<1, false>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) ap_int_base<_AP_W, _AP_S>& operator &=( ap_int_base<_AP_W, _AP_S>& op, bool op2) { return op &= ap_int_base<1, false>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) ap_int_base<_AP_W, _AP_S>& operator |=( ap_int_base<_AP_W, _AP_S>& op, bool op2) { return op |= ap_int_base<1, false>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) ap_int_base<_AP_W, _AP_S>& operator ^=( ap_int_base<_AP_W, _AP_S>& op, bool op2) { return op ^= ap_int_base<1, false>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) ap_int_base<_AP_W, _AP_S>& operator >>=( ap_int_base<_AP_W, _AP_S>& op, bool op2) { return op >>= ap_int_base<1, false>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) ap_int_base<_AP_W, _AP_S>& operator <<=( ap_int_base<_AP_W, _AP_S>& op, bool op2) { return op <<= ap_int_base<1, false>(op2); }
 template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) ap_int_base<_AP_W, _AP_S>& operator +=( ap_int_base<_AP_W, _AP_S>& op, char op2) { return op += ap_int_base<8, CHAR_IS_SIGNED>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) ap_int_base<_AP_W, _AP_S>& operator -=( ap_int_base<_AP_W, _AP_S>& op, char op2) { return op -= ap_int_base<8, CHAR_IS_SIGNED>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) ap_int_base<_AP_W, _AP_S>& operator *=( ap_int_base<_AP_W, _AP_S>& op, char op2) { return op *= ap_int_base<8, CHAR_IS_SIGNED>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) ap_int_base<_AP_W, _AP_S>& operator /=( ap_int_base<_AP_W, _AP_S>& op, char op2) { return op /= ap_int_base<8, CHAR_IS_SIGNED>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) ap_int_base<_AP_W, _AP_S>& operator %=( ap_int_base<_AP_W, _AP_S>& op, char op2) { return op %= ap_int_base<8, CHAR_IS_SIGNED>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) ap_int_base<_AP_W, _AP_S>& operator &=( ap_int_base<_AP_W, _AP_S>& op, char op2) { return op &= ap_int_base<8, CHAR_IS_SIGNED>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) ap_int_base<_AP_W, _AP_S>& operator |=( ap_int_base<_AP_W, _AP_S>& op, char op2) { return op |= ap_int_base<8, CHAR_IS_SIGNED>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) ap_int_base<_AP_W, _AP_S>& operator ^=( ap_int_base<_AP_W, _AP_S>& op, char op2) { return op ^= ap_int_base<8, CHAR_IS_SIGNED>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) ap_int_base<_AP_W, _AP_S>& operator >>=( ap_int_base<_AP_W, _AP_S>& op, char op2) { return op >>= ap_int_base<8, CHAR_IS_SIGNED>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) ap_int_base<_AP_W, _AP_S>& operator <<=( ap_int_base<_AP_W, _AP_S>& op, char op2) { return op <<= ap_int_base<8, CHAR_IS_SIGNED>(op2); }
 template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) ap_int_base<_AP_W, _AP_S>& operator +=( ap_int_base<_AP_W, _AP_S>& op, signed char op2) { return op += ap_int_base<8, true>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) ap_int_base<_AP_W, _AP_S>& operator -=( ap_int_base<_AP_W, _AP_S>& op, signed char op2) { return op -= ap_int_base<8, true>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) ap_int_base<_AP_W, _AP_S>& operator *=( ap_int_base<_AP_W, _AP_S>& op, signed char op2) { return op *= ap_int_base<8, true>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) ap_int_base<_AP_W, _AP_S>& operator /=( ap_int_base<_AP_W, _AP_S>& op, signed char op2) { return op /= ap_int_base<8, true>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) ap_int_base<_AP_W, _AP_S>& operator %=( ap_int_base<_AP_W, _AP_S>& op, signed char op2) { return op %= ap_int_base<8, true>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) ap_int_base<_AP_W, _AP_S>& operator &=( ap_int_base<_AP_W, _AP_S>& op, signed char op2) { return op &= ap_int_base<8, true>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) ap_int_base<_AP_W, _AP_S>& operator |=( ap_int_base<_AP_W, _AP_S>& op, signed char op2) { return op |= ap_int_base<8, true>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) ap_int_base<_AP_W, _AP_S>& operator ^=( ap_int_base<_AP_W, _AP_S>& op, signed char op2) { return op ^= ap_int_base<8, true>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) ap_int_base<_AP_W, _AP_S>& operator >>=( ap_int_base<_AP_W, _AP_S>& op, signed char op2) { return op >>= ap_int_base<8, true>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) ap_int_base<_AP_W, _AP_S>& operator <<=( ap_int_base<_AP_W, _AP_S>& op, signed char op2) { return op <<= ap_int_base<8, true>(op2); }
@@ -2564,7 +2564,7 @@ template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) ap_int_ba
 template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) ap_int_base<_AP_W, _AP_S>& operator +=( ap_int_base<_AP_W, _AP_S>& op, unsigned long op2) { return op += ap_int_base<_AP_SIZE_long, false>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) ap_int_base<_AP_W, _AP_S>& operator -=( ap_int_base<_AP_W, _AP_S>& op, unsigned long op2) { return op -= ap_int_base<_AP_SIZE_long, false>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) ap_int_base<_AP_W, _AP_S>& operator *=( ap_int_base<_AP_W, _AP_S>& op, unsigned long op2) { return op *= ap_int_base<_AP_SIZE_long, false>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) ap_int_base<_AP_W, _AP_S>& operator /=( ap_int_base<_AP_W, _AP_S>& op, unsigned long op2) { return op /= ap_int_base<_AP_SIZE_long, false>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) ap_int_base<_AP_W, _AP_S>& operator %=( ap_int_base<_AP_W, _AP_S>& op, unsigned long op2) { return op %= ap_int_base<_AP_SIZE_long, false>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) ap_int_base<_AP_W, _AP_S>& operator &=( ap_int_base<_AP_W, _AP_S>& op, unsigned long op2) { return op &= ap_int_base<_AP_SIZE_long, false>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) ap_int_base<_AP_W, _AP_S>& operator |=( ap_int_base<_AP_W, _AP_S>& op, unsigned long op2) { return op |= ap_int_base<_AP_SIZE_long, false>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) ap_int_base<_AP_W, _AP_S>& operator ^=( ap_int_base<_AP_W, _AP_S>& op, unsigned long op2) { return op ^= ap_int_base<_AP_SIZE_long, false>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) ap_int_base<_AP_W, _AP_S>& operator >>=( ap_int_base<_AP_W, _AP_S>& op, unsigned long op2) { return op >>= ap_int_base<_AP_SIZE_long, false>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) ap_int_base<_AP_W, _AP_S>& operator <<=( ap_int_base<_AP_W, _AP_S>& op, unsigned long op2) { return op <<= ap_int_base<_AP_SIZE_long, false>(op2); }
 template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) ap_int_base<_AP_W, _AP_S>& operator +=( ap_int_base<_AP_W, _AP_S>& op, ap_slong op2) { return op += ap_int_base<_AP_SIZE_ap_slong, true>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) ap_int_base<_AP_W, _AP_S>& operator -=( ap_int_base<_AP_W, _AP_S>& op, ap_slong op2) { return op -= ap_int_base<_AP_SIZE_ap_slong, true>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) ap_int_base<_AP_W, _AP_S>& operator *=( ap_int_base<_AP_W, _AP_S>& op, ap_slong op2) { return op *= ap_int_base<_AP_SIZE_ap_slong, true>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) ap_int_base<_AP_W, _AP_S>& operator /=( ap_int_base<_AP_W, _AP_S>& op, ap_slong op2) { return op /= ap_int_base<_AP_SIZE_ap_slong, true>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) ap_int_base<_AP_W, _AP_S>& operator %=( ap_int_base<_AP_W, _AP_S>& op, ap_slong op2) { return op %= ap_int_base<_AP_SIZE_ap_slong, true>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) ap_int_base<_AP_W, _AP_S>& operator &=( ap_int_base<_AP_W, _AP_S>& op, ap_slong op2) { return op &= ap_int_base<_AP_SIZE_ap_slong, true>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) ap_int_base<_AP_W, _AP_S>& operator |=( ap_int_base<_AP_W, _AP_S>& op, ap_slong op2) { return op |= ap_int_base<_AP_SIZE_ap_slong, true>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) ap_int_base<_AP_W, _AP_S>& operator ^=( ap_int_base<_AP_W, _AP_S>& op, ap_slong op2) { return op ^= ap_int_base<_AP_SIZE_ap_slong, true>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) ap_int_base<_AP_W, _AP_S>& operator >>=( ap_int_base<_AP_W, _AP_S>& op, ap_slong op2) { return op >>= ap_int_base<_AP_SIZE_ap_slong, true>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) ap_int_base<_AP_W, _AP_S>& operator <<=( ap_int_base<_AP_W, _AP_S>& op, ap_slong op2) { return op <<= ap_int_base<_AP_SIZE_ap_slong, true>(op2); }
 template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) ap_int_base<_AP_W, _AP_S>& operator +=( ap_int_base<_AP_W, _AP_S>& op, ap_ulong op2) { return op += ap_int_base<_AP_SIZE_ap_slong, false>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) ap_int_base<_AP_W, _AP_S>& operator -=( ap_int_base<_AP_W, _AP_S>& op, ap_ulong op2) { return op -= ap_int_base<_AP_SIZE_ap_slong, false>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) ap_int_base<_AP_W, _AP_S>& operator *=( ap_int_base<_AP_W, _AP_S>& op, ap_ulong op2) { return op *= ap_int_base<_AP_SIZE_ap_slong, false>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) ap_int_base<_AP_W, _AP_S>& operator /=( ap_int_base<_AP_W, _AP_S>& op, ap_ulong op2) { return op /= ap_int_base<_AP_SIZE_ap_slong, false>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) ap_int_base<_AP_W, _AP_S>& operator %=( ap_int_base<_AP_W, _AP_S>& op, ap_ulong op2) { return op %= ap_int_base<_AP_SIZE_ap_slong, false>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) ap_int_base<_AP_W, _AP_S>& operator &=( ap_int_base<_AP_W, _AP_S>& op, ap_ulong op2) { return op &= ap_int_base<_AP_SIZE_ap_slong, false>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) ap_int_base<_AP_W, _AP_S>& operator |=( ap_int_base<_AP_W, _AP_S>& op, ap_ulong op2) { return op |= ap_int_base<_AP_SIZE_ap_slong, false>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) ap_int_base<_AP_W, _AP_S>& operator ^=( ap_int_base<_AP_W, _AP_S>& op, ap_ulong op2) { return op ^= ap_int_base<_AP_SIZE_ap_slong, false>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) ap_int_base<_AP_W, _AP_S>& operator >>=( ap_int_base<_AP_W, _AP_S>& op, ap_ulong op2) { return op >>= ap_int_base<_AP_SIZE_ap_slong, false>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) ap_int_base<_AP_W, _AP_S>& operator <<=( ap_int_base<_AP_W, _AP_S>& op, ap_ulong op2) { return op <<= ap_int_base<_AP_SIZE_ap_slong, false>(op2); }
-# 1592 "F:/Vivado/Vivado/2019.2/common/technology/autopilot\\ap_int_base.h"
+# 1592 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot\\ap_int_base.h"
 template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator >(bool i_op, const ap_int_base<_AP_W, _AP_S>& op) { return ap_int_base<1, false>(i_op) > op; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator >(const ap_int_base<_AP_W, _AP_S>& op, bool op2) { return op > ap_int_base<1, false>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator <(bool i_op, const ap_int_base<_AP_W, _AP_S>& op) { return ap_int_base<1, false>(i_op) < op; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator <(const ap_int_base<_AP_W, _AP_S>& op, bool op2) { return op < ap_int_base<1, false>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator >=(bool i_op, const ap_int_base<_AP_W, _AP_S>& op) { return ap_int_base<1, false>(i_op) >= op; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator >=(const ap_int_base<_AP_W, _AP_S>& op, bool op2) { return op >= ap_int_base<1, false>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator <=(bool i_op, const ap_int_base<_AP_W, _AP_S>& op) { return ap_int_base<1, false>(i_op) <= op; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator <=(const ap_int_base<_AP_W, _AP_S>& op, bool op2) { return op <= ap_int_base<1, false>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator ==(bool i_op, const ap_int_base<_AP_W, _AP_S>& op) { return ap_int_base<1, false>(i_op) == op; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator ==(const ap_int_base<_AP_W, _AP_S>& op, bool op2) { return op == ap_int_base<1, false>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator !=(bool i_op, const ap_int_base<_AP_W, _AP_S>& op) { return ap_int_base<1, false>(i_op) != op; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator !=(const ap_int_base<_AP_W, _AP_S>& op, bool op2) { return op != ap_int_base<1, false>(op2); }
 template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator >(char i_op, const ap_int_base<_AP_W, _AP_S>& op) { return ap_int_base<8, CHAR_IS_SIGNED>(i_op) > op; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator >(const ap_int_base<_AP_W, _AP_S>& op, char op2) { return op > ap_int_base<8, CHAR_IS_SIGNED>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator <(char i_op, const ap_int_base<_AP_W, _AP_S>& op) { return ap_int_base<8, CHAR_IS_SIGNED>(i_op) < op; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator <(const ap_int_base<_AP_W, _AP_S>& op, char op2) { return op < ap_int_base<8, CHAR_IS_SIGNED>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator >=(char i_op, const ap_int_base<_AP_W, _AP_S>& op) { return ap_int_base<8, CHAR_IS_SIGNED>(i_op) >= op; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator >=(const ap_int_base<_AP_W, _AP_S>& op, char op2) { return op >= ap_int_base<8, CHAR_IS_SIGNED>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator <=(char i_op, const ap_int_base<_AP_W, _AP_S>& op) { return ap_int_base<8, CHAR_IS_SIGNED>(i_op) <= op; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator <=(const ap_int_base<_AP_W, _AP_S>& op, char op2) { return op <= ap_int_base<8, CHAR_IS_SIGNED>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator ==(char i_op, const ap_int_base<_AP_W, _AP_S>& op) { return ap_int_base<8, CHAR_IS_SIGNED>(i_op) == op; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator ==(const ap_int_base<_AP_W, _AP_S>& op, char op2) { return op == ap_int_base<8, CHAR_IS_SIGNED>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator !=(char i_op, const ap_int_base<_AP_W, _AP_S>& op) { return ap_int_base<8, CHAR_IS_SIGNED>(i_op) != op; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator !=(const ap_int_base<_AP_W, _AP_S>& op, char op2) { return op != ap_int_base<8, CHAR_IS_SIGNED>(op2); }
 template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator >(signed char i_op, const ap_int_base<_AP_W, _AP_S>& op) { return ap_int_base<8, true>(i_op) > op; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator >(const ap_int_base<_AP_W, _AP_S>& op, signed char op2) { return op > ap_int_base<8, true>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator <(signed char i_op, const ap_int_base<_AP_W, _AP_S>& op) { return ap_int_base<8, true>(i_op) < op; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator <(const ap_int_base<_AP_W, _AP_S>& op, signed char op2) { return op < ap_int_base<8, true>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator >=(signed char i_op, const ap_int_base<_AP_W, _AP_S>& op) { return ap_int_base<8, true>(i_op) >= op; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator >=(const ap_int_base<_AP_W, _AP_S>& op, signed char op2) { return op >= ap_int_base<8, true>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator <=(signed char i_op, const ap_int_base<_AP_W, _AP_S>& op) { return ap_int_base<8, true>(i_op) <= op; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator <=(const ap_int_base<_AP_W, _AP_S>& op, signed char op2) { return op <= ap_int_base<8, true>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator ==(signed char i_op, const ap_int_base<_AP_W, _AP_S>& op) { return ap_int_base<8, true>(i_op) == op; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator ==(const ap_int_base<_AP_W, _AP_S>& op, signed char op2) { return op == ap_int_base<8, true>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator !=(signed char i_op, const ap_int_base<_AP_W, _AP_S>& op) { return ap_int_base<8, true>(i_op) != op; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator !=(const ap_int_base<_AP_W, _AP_S>& op, signed char op2) { return op != ap_int_base<8, true>(op2); }
@@ -2577,14 +2577,14 @@ template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool oper
 template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator >(unsigned long i_op, const ap_int_base<_AP_W, _AP_S>& op) { return ap_int_base<_AP_SIZE_long, false>(i_op) > op; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator >(const ap_int_base<_AP_W, _AP_S>& op, unsigned long op2) { return op > ap_int_base<_AP_SIZE_long, false>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator <(unsigned long i_op, const ap_int_base<_AP_W, _AP_S>& op) { return ap_int_base<_AP_SIZE_long, false>(i_op) < op; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator <(const ap_int_base<_AP_W, _AP_S>& op, unsigned long op2) { return op < ap_int_base<_AP_SIZE_long, false>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator >=(unsigned long i_op, const ap_int_base<_AP_W, _AP_S>& op) { return ap_int_base<_AP_SIZE_long, false>(i_op) >= op; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator >=(const ap_int_base<_AP_W, _AP_S>& op, unsigned long op2) { return op >= ap_int_base<_AP_SIZE_long, false>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator <=(unsigned long i_op, const ap_int_base<_AP_W, _AP_S>& op) { return ap_int_base<_AP_SIZE_long, false>(i_op) <= op; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator <=(const ap_int_base<_AP_W, _AP_S>& op, unsigned long op2) { return op <= ap_int_base<_AP_SIZE_long, false>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator ==(unsigned long i_op, const ap_int_base<_AP_W, _AP_S>& op) { return ap_int_base<_AP_SIZE_long, false>(i_op) == op; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator ==(const ap_int_base<_AP_W, _AP_S>& op, unsigned long op2) { return op == ap_int_base<_AP_SIZE_long, false>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator !=(unsigned long i_op, const ap_int_base<_AP_W, _AP_S>& op) { return ap_int_base<_AP_SIZE_long, false>(i_op) != op; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator !=(const ap_int_base<_AP_W, _AP_S>& op, unsigned long op2) { return op != ap_int_base<_AP_SIZE_long, false>(op2); }
 template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator >(ap_slong i_op, const ap_int_base<_AP_W, _AP_S>& op) { return ap_int_base<_AP_SIZE_ap_slong, true>(i_op) > op; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator >(const ap_int_base<_AP_W, _AP_S>& op, ap_slong op2) { return op > ap_int_base<_AP_SIZE_ap_slong, true>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator <(ap_slong i_op, const ap_int_base<_AP_W, _AP_S>& op) { return ap_int_base<_AP_SIZE_ap_slong, true>(i_op) < op; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator <(const ap_int_base<_AP_W, _AP_S>& op, ap_slong op2) { return op < ap_int_base<_AP_SIZE_ap_slong, true>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator >=(ap_slong i_op, const ap_int_base<_AP_W, _AP_S>& op) { return ap_int_base<_AP_SIZE_ap_slong, true>(i_op) >= op; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator >=(const ap_int_base<_AP_W, _AP_S>& op, ap_slong op2) { return op >= ap_int_base<_AP_SIZE_ap_slong, true>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator <=(ap_slong i_op, const ap_int_base<_AP_W, _AP_S>& op) { return ap_int_base<_AP_SIZE_ap_slong, true>(i_op) <= op; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator <=(const ap_int_base<_AP_W, _AP_S>& op, ap_slong op2) { return op <= ap_int_base<_AP_SIZE_ap_slong, true>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator ==(ap_slong i_op, const ap_int_base<_AP_W, _AP_S>& op) { return ap_int_base<_AP_SIZE_ap_slong, true>(i_op) == op; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator ==(const ap_int_base<_AP_W, _AP_S>& op, ap_slong op2) { return op == ap_int_base<_AP_SIZE_ap_slong, true>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator !=(ap_slong i_op, const ap_int_base<_AP_W, _AP_S>& op) { return ap_int_base<_AP_SIZE_ap_slong, true>(i_op) != op; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator !=(const ap_int_base<_AP_W, _AP_S>& op, ap_slong op2) { return op != ap_int_base<_AP_SIZE_ap_slong, true>(op2); }
 template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator >(ap_ulong i_op, const ap_int_base<_AP_W, _AP_S>& op) { return ap_int_base<_AP_SIZE_ap_slong, false>(i_op) > op; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator >(const ap_int_base<_AP_W, _AP_S>& op, ap_ulong op2) { return op > ap_int_base<_AP_SIZE_ap_slong, false>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator <(ap_ulong i_op, const ap_int_base<_AP_W, _AP_S>& op) { return ap_int_base<_AP_SIZE_ap_slong, false>(i_op) < op; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator <(const ap_int_base<_AP_W, _AP_S>& op, ap_ulong op2) { return op < ap_int_base<_AP_SIZE_ap_slong, false>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator >=(ap_ulong i_op, const ap_int_base<_AP_W, _AP_S>& op) { return ap_int_base<_AP_SIZE_ap_slong, false>(i_op) >= op; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator >=(const ap_int_base<_AP_W, _AP_S>& op, ap_ulong op2) { return op >= ap_int_base<_AP_SIZE_ap_slong, false>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator <=(ap_ulong i_op, const ap_int_base<_AP_W, _AP_S>& op) { return ap_int_base<_AP_SIZE_ap_slong, false>(i_op) <= op; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator <=(const ap_int_base<_AP_W, _AP_S>& op, ap_ulong op2) { return op <= ap_int_base<_AP_SIZE_ap_slong, false>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator ==(ap_ulong i_op, const ap_int_base<_AP_W, _AP_S>& op) { return ap_int_base<_AP_SIZE_ap_slong, false>(i_op) == op; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator ==(const ap_int_base<_AP_W, _AP_S>& op, ap_ulong op2) { return op == ap_int_base<_AP_SIZE_ap_slong, false>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator !=(ap_ulong i_op, const ap_int_base<_AP_W, _AP_S>& op) { return ap_int_base<_AP_SIZE_ap_slong, false>(i_op) != op; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator !=(const ap_int_base<_AP_W, _AP_S>& op, ap_ulong op2) { return op != ap_int_base<_AP_SIZE_ap_slong, false>(op2); }
-# 1629 "F:/Vivado/Vivado/2019.2/common/technology/autopilot\\ap_int_base.h"
+# 1629 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot\\ap_int_base.h"
   template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator >(const ap_int_base<_AP_W, _AP_S>& op1, double op2) { return op1.to_double() > op2 ; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator >(double op1, const ap_int_base<_AP_W, _AP_S>& op2) { return op1 > op2.to_double() ; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator >(const ap_int_base<_AP_W, _AP_S>& op1, float op2) { return op1.to_double() > op2 ; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator >(float op1, const ap_int_base<_AP_W, _AP_S>& op2) { return op1 > op2.to_double() ; }
   template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator <(const ap_int_base<_AP_W, _AP_S>& op1, double op2) { return op1.to_double() < op2 ; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator <(double op1, const ap_int_base<_AP_W, _AP_S>& op2) { return op1 < op2.to_double() ; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator <(const ap_int_base<_AP_W, _AP_S>& op1, float op2) { return op1.to_double() < op2 ; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator <(float op1, const ap_int_base<_AP_W, _AP_S>& op2) { return op1 < op2.to_double() ; }
   template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator >=(const ap_int_base<_AP_W, _AP_S>& op1, double op2) { return op1.to_double() >= op2 ; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator >=(double op1, const ap_int_base<_AP_W, _AP_S>& op2) { return op1 >= op2.to_double() ; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator >=(const ap_int_base<_AP_W, _AP_S>& op1, float op2) { return op1.to_double() >= op2 ; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator >=(float op1, const ap_int_base<_AP_W, _AP_S>& op2) { return op1 >= op2.to_double() ; }
   template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator <=(const ap_int_base<_AP_W, _AP_S>& op1, double op2) { return op1.to_double() <= op2 ; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator <=(double op1, const ap_int_base<_AP_W, _AP_S>& op2) { return op1 <= op2.to_double() ; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator <=(const ap_int_base<_AP_W, _AP_S>& op1, float op2) { return op1.to_double() <= op2 ; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator <=(float op1, const ap_int_base<_AP_W, _AP_S>& op2) { return op1 <= op2.to_double() ; }
   template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator ==(const ap_int_base<_AP_W, _AP_S>& op1, double op2) { return op1.to_double() == op2 ; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator ==(double op1, const ap_int_base<_AP_W, _AP_S>& op2) { return op1 == op2.to_double() ; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator ==(const ap_int_base<_AP_W, _AP_S>& op1, float op2) { return op1.to_double() == op2 ; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator ==(float op1, const ap_int_base<_AP_W, _AP_S>& op2) { return op1 == op2.to_double() ; }
   template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator !=(const ap_int_base<_AP_W, _AP_S>& op1, double op2) { return op1.to_double() != op2 ; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator !=(double op1, const ap_int_base<_AP_W, _AP_S>& op2) { return op1 != op2.to_double() ; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator !=(const ap_int_base<_AP_W, _AP_S>& op1, float op2) { return op1.to_double() != op2 ; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator !=(float op1, const ap_int_base<_AP_W, _AP_S>& op2) { return op1 != op2.to_double() ; }
-# 1659 "F:/Vivado/Vivado/2019.2/common/technology/autopilot\\ap_int_base.h"
+# 1659 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot\\ap_int_base.h"
 template <int _AP_W1, bool _AP_S1, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) typename ap_int_base<_AP_W1, _AP_S1>::template RType<_AP_W2, _AP_S2>::plus operator +(const ap_range_ref<_AP_W1, _AP_S1>& op1, const ap_int_base<_AP_W2, _AP_S2>& op2) { return ap_int_base<_AP_W1, false>(op1) + op2; } template <int _AP_W1, bool _AP_S1, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) typename ap_int_base<_AP_W1, _AP_S1>::template RType<_AP_W2, _AP_S2>::plus operator +(const ap_int_base<_AP_W1, _AP_S1>& op1, const ap_range_ref<_AP_W2, _AP_S2>& op2) { return op1 + ap_int_base<_AP_W2, false>(op2); }
 template <int _AP_W1, bool _AP_S1, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) typename ap_int_base<_AP_W1, _AP_S1>::template RType<_AP_W2, _AP_S2>::minus operator -(const ap_range_ref<_AP_W1, _AP_S1>& op1, const ap_int_base<_AP_W2, _AP_S2>& op2) { return ap_int_base<_AP_W1, false>(op1) - op2; } template <int _AP_W1, bool _AP_S1, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) typename ap_int_base<_AP_W1, _AP_S1>::template RType<_AP_W2, _AP_S2>::minus operator -(const ap_int_base<_AP_W1, _AP_S1>& op1, const ap_range_ref<_AP_W2, _AP_S2>& op2) { return op1 - ap_int_base<_AP_W2, false>(op2); }
 template <int _AP_W1, bool _AP_S1, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) typename ap_int_base<_AP_W1, _AP_S1>::template RType<_AP_W2, _AP_S2>::mult operator *(const ap_range_ref<_AP_W1, _AP_S1>& op1, const ap_int_base<_AP_W2, _AP_S2>& op2) { return ap_int_base<_AP_W1, false>(op1) * op2; } template <int _AP_W1, bool _AP_S1, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) typename ap_int_base<_AP_W1, _AP_S1>::template RType<_AP_W2, _AP_S2>::mult operator *(const ap_int_base<_AP_W1, _AP_S1>& op1, const ap_range_ref<_AP_W2, _AP_S2>& op2) { return op1 * ap_int_base<_AP_W2, false>(op2); }
@@ -2595,7 +2595,7 @@ template <int _AP_W1, bool _AP_S1, int _AP_W2, bool _AP_S2> inline __attribute__
 template <int _AP_W1, bool _AP_S1, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) typename ap_int_base<_AP_W1, _AP_S1>::template RType<_AP_W2, _AP_S2>::logic operator ^(const ap_range_ref<_AP_W1, _AP_S1>& op1, const ap_int_base<_AP_W2, _AP_S2>& op2) { return ap_int_base<_AP_W1, false>(op1) ^ op2; } template <int _AP_W1, bool _AP_S1, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) typename ap_int_base<_AP_W1, _AP_S1>::template RType<_AP_W2, _AP_S2>::logic operator ^(const ap_int_base<_AP_W1, _AP_S1>& op1, const ap_range_ref<_AP_W2, _AP_S2>& op2) { return op1 ^ ap_int_base<_AP_W2, false>(op2); }
 template <int _AP_W1, bool _AP_S1, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) typename ap_int_base<_AP_W1, _AP_S1>::template RType<_AP_W2, _AP_S2>::arg1 operator >>(const ap_range_ref<_AP_W1, _AP_S1>& op1, const ap_int_base<_AP_W2, _AP_S2>& op2) { return ap_int_base<_AP_W1, false>(op1) >> op2; } template <int _AP_W1, bool _AP_S1, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) typename ap_int_base<_AP_W1, _AP_S1>::template RType<_AP_W2, _AP_S2>::arg1 operator >>(const ap_int_base<_AP_W1, _AP_S1>& op1, const ap_range_ref<_AP_W2, _AP_S2>& op2) { return op1 >> ap_int_base<_AP_W2, false>(op2); }
 template <int _AP_W1, bool _AP_S1, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) typename ap_int_base<_AP_W1, _AP_S1>::template RType<_AP_W2, _AP_S2>::arg1 operator <<(const ap_range_ref<_AP_W1, _AP_S1>& op1, const ap_int_base<_AP_W2, _AP_S2>& op2) { return ap_int_base<_AP_W1, false>(op1) << op2; } template <int _AP_W1, bool _AP_S1, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) typename ap_int_base<_AP_W1, _AP_S1>::template RType<_AP_W2, _AP_S2>::arg1 operator <<(const ap_int_base<_AP_W1, _AP_S1>& op1, const ap_range_ref<_AP_W2, _AP_S2>& op2) { return op1 << ap_int_base<_AP_W2, false>(op2); }
-# 1690 "F:/Vivado/Vivado/2019.2/common/technology/autopilot\\ap_int_base.h"
+# 1690 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot\\ap_int_base.h"
 template <int _AP_W1, bool _AP_S1, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) ap_int_base<_AP_W1, _AP_S1>& operator +=( ap_int_base<_AP_W1, _AP_S1>& op1, const ap_range_ref<_AP_W2, _AP_S2>& op2) { return op1 += ap_int_base<_AP_W2, false>(op2); } template <int _AP_W1, bool _AP_S1, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) ap_range_ref<_AP_W1, _AP_S1>& operator +=( ap_range_ref<_AP_W1, _AP_S1>& op1, const ap_int_base<_AP_W2, _AP_S2>& op2) { ap_int_base<_AP_W1, false> tmp(op1); tmp += op2; op1 = tmp; return op1; }
 template <int _AP_W1, bool _AP_S1, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) ap_int_base<_AP_W1, _AP_S1>& operator -=( ap_int_base<_AP_W1, _AP_S1>& op1, const ap_range_ref<_AP_W2, _AP_S2>& op2) { return op1 -= ap_int_base<_AP_W2, false>(op2); } template <int _AP_W1, bool _AP_S1, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) ap_range_ref<_AP_W1, _AP_S1>& operator -=( ap_range_ref<_AP_W1, _AP_S1>& op1, const ap_int_base<_AP_W2, _AP_S2>& op2) { ap_int_base<_AP_W1, false> tmp(op1); tmp -= op2; op1 = tmp; return op1; }
 template <int _AP_W1, bool _AP_S1, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) ap_int_base<_AP_W1, _AP_S1>& operator *=( ap_int_base<_AP_W1, _AP_S1>& op1, const ap_range_ref<_AP_W2, _AP_S2>& op2) { return op1 *= ap_int_base<_AP_W2, false>(op2); } template <int _AP_W1, bool _AP_S1, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) ap_range_ref<_AP_W1, _AP_S1>& operator *=( ap_range_ref<_AP_W1, _AP_S1>& op1, const ap_int_base<_AP_W2, _AP_S2>& op2) { ap_int_base<_AP_W1, false> tmp(op1); tmp *= op2; op1 = tmp; return op1; }
@@ -2603,18 +2603,18 @@ template <int _AP_W1, bool _AP_S1, int _AP_W2, bool _AP_S2> inline __attribute__
 template <int _AP_W1, bool _AP_S1, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) ap_int_base<_AP_W1, _AP_S1>& operator %=( ap_int_base<_AP_W1, _AP_S1>& op1, const ap_range_ref<_AP_W2, _AP_S2>& op2) { return op1 %= ap_int_base<_AP_W2, false>(op2); } template <int _AP_W1, bool _AP_S1, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) ap_range_ref<_AP_W1, _AP_S1>& operator %=( ap_range_ref<_AP_W1, _AP_S1>& op1, const ap_int_base<_AP_W2, _AP_S2>& op2) { ap_int_base<_AP_W1, false> tmp(op1); tmp %= op2; op1 = tmp; return op1; }
 template <int _AP_W1, bool _AP_S1, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) ap_int_base<_AP_W1, _AP_S1>& operator >>=( ap_int_base<_AP_W1, _AP_S1>& op1, const ap_range_ref<_AP_W2, _AP_S2>& op2) { return op1 >>= ap_int_base<_AP_W2, false>(op2); } template <int _AP_W1, bool _AP_S1, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) ap_range_ref<_AP_W1, _AP_S1>& operator >>=( ap_range_ref<_AP_W1, _AP_S1>& op1, const ap_int_base<_AP_W2, _AP_S2>& op2) { ap_int_base<_AP_W1, false> tmp(op1); tmp >>= op2; op1 = tmp; return op1; }
 template <int _AP_W1, bool _AP_S1, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) ap_int_base<_AP_W1, _AP_S1>& operator <<=( ap_int_base<_AP_W1, _AP_S1>& op1, const ap_range_ref<_AP_W2, _AP_S2>& op2) { return op1 <<= ap_int_base<_AP_W2, false>(op2); } template <int _AP_W1, bool _AP_S1, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) ap_range_ref<_AP_W1, _AP_S1>& operator <<=( ap_range_ref<_AP_W1, _AP_S1>& op1, const ap_int_base<_AP_W2, _AP_S2>& op2) { ap_int_base<_AP_W1, false> tmp(op1); tmp <<= op2; op1 = tmp; return op1; }
-# 1722 "F:/Vivado/Vivado/2019.2/common/technology/autopilot\\ap_int_base.h"
+# 1722 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot\\ap_int_base.h"
 template <int _AP_W1, bool _AP_S1, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) ap_int_base<_AP_W1, _AP_S1>& operator &=( ap_int_base<_AP_W1, _AP_S1>& op1, const ap_range_ref<_AP_W2, _AP_S2>& op2) { ap_int_base<_AP_W2, false> tmp(op2); op1.V &= tmp.V; return op1; } template <int _AP_W1, bool _AP_S1, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) ap_range_ref<_AP_W1, _AP_S1>& operator &=( ap_range_ref<_AP_W1, _AP_S1>& op1, const ap_int_base<_AP_W2, _AP_S2>& op2) { ap_int_base<_AP_W1, false> tmp(op1); tmp.V &= op2.V; op1 = tmp; return op1; }
 template <int _AP_W1, bool _AP_S1, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) ap_int_base<_AP_W1, _AP_S1>& operator |=( ap_int_base<_AP_W1, _AP_S1>& op1, const ap_range_ref<_AP_W2, _AP_S2>& op2) { ap_int_base<_AP_W2, false> tmp(op2); op1.V |= tmp.V; return op1; } template <int _AP_W1, bool _AP_S1, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) ap_range_ref<_AP_W1, _AP_S1>& operator |=( ap_range_ref<_AP_W1, _AP_S1>& op1, const ap_int_base<_AP_W2, _AP_S2>& op2) { ap_int_base<_AP_W1, false> tmp(op1); tmp.V |= op2.V; op1 = tmp; return op1; }
 template <int _AP_W1, bool _AP_S1, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) ap_int_base<_AP_W1, _AP_S1>& operator ^=( ap_int_base<_AP_W1, _AP_S1>& op1, const ap_range_ref<_AP_W2, _AP_S2>& op2) { ap_int_base<_AP_W2, false> tmp(op2); op1.V ^= tmp.V; return op1; } template <int _AP_W1, bool _AP_S1, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) ap_range_ref<_AP_W1, _AP_S1>& operator ^=( ap_range_ref<_AP_W1, _AP_S1>& op1, const ap_int_base<_AP_W2, _AP_S2>& op2) { ap_int_base<_AP_W1, false> tmp(op1); tmp.V ^= op2.V; op1 = tmp; return op1; }
-# 1741 "F:/Vivado/Vivado/2019.2/common/technology/autopilot\\ap_int_base.h"
+# 1741 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot\\ap_int_base.h"
 template <int _AP_W1, bool _AP_S1, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) bool operator ==(const ap_range_ref<_AP_W1, _AP_S1>& op1, const ap_int_base<_AP_W2, _AP_S2>& op2) { return ap_int_base<_AP_W1, false>(op1).operator ==(op2); } template <int _AP_W1, bool _AP_S1, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) bool operator ==(const ap_int_base<_AP_W1, _AP_S1>& op1, const ap_range_ref<_AP_W2, _AP_S2>& op2) { return op1.operator ==(op2.operator ap_int_base<_AP_W2, false>()); }
 template <int _AP_W1, bool _AP_S1, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) bool operator !=(const ap_range_ref<_AP_W1, _AP_S1>& op1, const ap_int_base<_AP_W2, _AP_S2>& op2) { return ap_int_base<_AP_W1, false>(op1).operator !=(op2); } template <int _AP_W1, bool _AP_S1, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) bool operator !=(const ap_int_base<_AP_W1, _AP_S1>& op1, const ap_range_ref<_AP_W2, _AP_S2>& op2) { return op1.operator !=(op2.operator ap_int_base<_AP_W2, false>()); }
 template <int _AP_W1, bool _AP_S1, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) bool operator >(const ap_range_ref<_AP_W1, _AP_S1>& op1, const ap_int_base<_AP_W2, _AP_S2>& op2) { return ap_int_base<_AP_W1, false>(op1).operator >(op2); } template <int _AP_W1, bool _AP_S1, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) bool operator >(const ap_int_base<_AP_W1, _AP_S1>& op1, const ap_range_ref<_AP_W2, _AP_S2>& op2) { return op1.operator >(op2.operator ap_int_base<_AP_W2, false>()); }
 template <int _AP_W1, bool _AP_S1, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) bool operator >=(const ap_range_ref<_AP_W1, _AP_S1>& op1, const ap_int_base<_AP_W2, _AP_S2>& op2) { return ap_int_base<_AP_W1, false>(op1).operator >=(op2); } template <int _AP_W1, bool _AP_S1, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) bool operator >=(const ap_int_base<_AP_W1, _AP_S1>& op1, const ap_range_ref<_AP_W2, _AP_S2>& op2) { return op1.operator >=(op2.operator ap_int_base<_AP_W2, false>()); }
 template <int _AP_W1, bool _AP_S1, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) bool operator <(const ap_range_ref<_AP_W1, _AP_S1>& op1, const ap_int_base<_AP_W2, _AP_S2>& op2) { return ap_int_base<_AP_W1, false>(op1).operator <(op2); } template <int _AP_W1, bool _AP_S1, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) bool operator <(const ap_int_base<_AP_W1, _AP_S1>& op1, const ap_range_ref<_AP_W2, _AP_S2>& op2) { return op1.operator <(op2.operator ap_int_base<_AP_W2, false>()); }
 template <int _AP_W1, bool _AP_S1, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) bool operator <=(const ap_range_ref<_AP_W1, _AP_S1>& op1, const ap_int_base<_AP_W2, _AP_S2>& op2) { return ap_int_base<_AP_W1, false>(op1).operator <=(op2); } template <int _AP_W1, bool _AP_S1, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) bool operator <=(const ap_int_base<_AP_W1, _AP_S1>& op1, const ap_range_ref<_AP_W2, _AP_S2>& op2) { return op1.operator <=(op2.operator ap_int_base<_AP_W2, false>()); }
-# 1768 "F:/Vivado/Vivado/2019.2/common/technology/autopilot\\ap_int_base.h"
+# 1768 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot\\ap_int_base.h"
 template <int _AP_W1, bool _AP_S1, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) typename ap_int_base<_AP_W1, _AP_S1>::template RType<1, false>::plus operator +(const ap_int_base<_AP_W1, _AP_S1>& op1, const ap_bit_ref<_AP_W2, _AP_S2>& op2) { return op1 + ap_int_base<1, false>(op2); } template <int _AP_W1, bool _AP_S1, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) typename ap_int_base<1, false>::template RType<_AP_W2, _AP_S2>::plus operator +(const ap_bit_ref<_AP_W1, _AP_S1>& op1, const ap_int_base<_AP_W2, _AP_S2>& op2) { return ap_int_base<1, false>(op1) + op2; }
 template <int _AP_W1, bool _AP_S1, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) typename ap_int_base<_AP_W1, _AP_S1>::template RType<1, false>::minus operator -(const ap_int_base<_AP_W1, _AP_S1>& op1, const ap_bit_ref<_AP_W2, _AP_S2>& op2) { return op1 - ap_int_base<1, false>(op2); } template <int _AP_W1, bool _AP_S1, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) typename ap_int_base<1, false>::template RType<_AP_W2, _AP_S2>::minus operator -(const ap_bit_ref<_AP_W1, _AP_S1>& op1, const ap_int_base<_AP_W2, _AP_S2>& op2) { return ap_int_base<1, false>(op1) - op2; }
 template <int _AP_W1, bool _AP_S1, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) typename ap_int_base<_AP_W1, _AP_S1>::template RType<1, false>::mult operator *(const ap_int_base<_AP_W1, _AP_S1>& op1, const ap_bit_ref<_AP_W2, _AP_S2>& op2) { return op1 * ap_int_base<1, false>(op2); } template <int _AP_W1, bool _AP_S1, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) typename ap_int_base<1, false>::template RType<_AP_W2, _AP_S2>::mult operator *(const ap_bit_ref<_AP_W1, _AP_S1>& op1, const ap_int_base<_AP_W2, _AP_S2>& op2) { return ap_int_base<1, false>(op1) * op2; }
@@ -2625,7 +2625,7 @@ template <int _AP_W1, bool _AP_S1, int _AP_W2, bool _AP_S2> inline __attribute__
 template <int _AP_W1, bool _AP_S1, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) typename ap_int_base<_AP_W1, _AP_S1>::template RType<1, false>::logic operator ^(const ap_int_base<_AP_W1, _AP_S1>& op1, const ap_bit_ref<_AP_W2, _AP_S2>& op2) { return op1 ^ ap_int_base<1, false>(op2); } template <int _AP_W1, bool _AP_S1, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) typename ap_int_base<1, false>::template RType<_AP_W2, _AP_S2>::logic operator ^(const ap_bit_ref<_AP_W1, _AP_S1>& op1, const ap_int_base<_AP_W2, _AP_S2>& op2) { return ap_int_base<1, false>(op1) ^ op2; }
 template <int _AP_W1, bool _AP_S1, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) typename ap_int_base<_AP_W1, _AP_S1>::template RType<1, false>::arg1 operator >>(const ap_int_base<_AP_W1, _AP_S1>& op1, const ap_bit_ref<_AP_W2, _AP_S2>& op2) { return op1 >> ap_int_base<1, false>(op2); } template <int _AP_W1, bool _AP_S1, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) typename ap_int_base<1, false>::template RType<_AP_W2, _AP_S2>::arg1 operator >>(const ap_bit_ref<_AP_W1, _AP_S1>& op1, const ap_int_base<_AP_W2, _AP_S2>& op2) { return ap_int_base<1, false>(op1) >> op2; }
 template <int _AP_W1, bool _AP_S1, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) typename ap_int_base<_AP_W1, _AP_S1>::template RType<1, false>::arg1 operator <<(const ap_int_base<_AP_W1, _AP_S1>& op1, const ap_bit_ref<_AP_W2, _AP_S2>& op2) { return op1 << ap_int_base<1, false>(op2); } template <int _AP_W1, bool _AP_S1, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) typename ap_int_base<1, false>::template RType<_AP_W2, _AP_S2>::arg1 operator <<(const ap_bit_ref<_AP_W1, _AP_S1>& op1, const ap_int_base<_AP_W2, _AP_S2>& op2) { return ap_int_base<1, false>(op1) << op2; }
-# 1799 "F:/Vivado/Vivado/2019.2/common/technology/autopilot\\ap_int_base.h"
+# 1799 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot\\ap_int_base.h"
 template <int _AP_W1, bool _AP_S1, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) ap_int_base<_AP_W1, _AP_S1>& operator +=( ap_int_base<_AP_W1, _AP_S1>& op1, const ap_bit_ref<_AP_W2, _AP_S2>& op2) { return op1 += ap_int_base<1, false>(op2); } template <int _AP_W1, bool _AP_S1, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) ap_bit_ref<_AP_W1, _AP_S1>& operator +=( ap_bit_ref<_AP_W1, _AP_S1>& op1, const ap_int_base<_AP_W2, _AP_S2>& op2) { ap_int_base<1, false> tmp(op1); tmp += op2; op1 = tmp; return op1; }
 template <int _AP_W1, bool _AP_S1, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) ap_int_base<_AP_W1, _AP_S1>& operator -=( ap_int_base<_AP_W1, _AP_S1>& op1, const ap_bit_ref<_AP_W2, _AP_S2>& op2) { return op1 -= ap_int_base<1, false>(op2); } template <int _AP_W1, bool _AP_S1, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) ap_bit_ref<_AP_W1, _AP_S1>& operator -=( ap_bit_ref<_AP_W1, _AP_S1>& op1, const ap_int_base<_AP_W2, _AP_S2>& op2) { ap_int_base<1, false> tmp(op1); tmp -= op2; op1 = tmp; return op1; }
 template <int _AP_W1, bool _AP_S1, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) ap_int_base<_AP_W1, _AP_S1>& operator *=( ap_int_base<_AP_W1, _AP_S1>& op1, const ap_bit_ref<_AP_W2, _AP_S2>& op2) { return op1 *= ap_int_base<1, false>(op2); } template <int _AP_W1, bool _AP_S1, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) ap_bit_ref<_AP_W1, _AP_S1>& operator *=( ap_bit_ref<_AP_W1, _AP_S1>& op1, const ap_int_base<_AP_W2, _AP_S2>& op2) { ap_int_base<1, false> tmp(op1); tmp *= op2; op1 = tmp; return op1; }
@@ -2633,27 +2633,27 @@ template <int _AP_W1, bool _AP_S1, int _AP_W2, bool _AP_S2> inline __attribute__
 template <int _AP_W1, bool _AP_S1, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) ap_int_base<_AP_W1, _AP_S1>& operator %=( ap_int_base<_AP_W1, _AP_S1>& op1, const ap_bit_ref<_AP_W2, _AP_S2>& op2) { return op1 %= ap_int_base<1, false>(op2); } template <int _AP_W1, bool _AP_S1, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) ap_bit_ref<_AP_W1, _AP_S1>& operator %=( ap_bit_ref<_AP_W1, _AP_S1>& op1, const ap_int_base<_AP_W2, _AP_S2>& op2) { ap_int_base<1, false> tmp(op1); tmp %= op2; op1 = tmp; return op1; }
 template <int _AP_W1, bool _AP_S1, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) ap_int_base<_AP_W1, _AP_S1>& operator >>=( ap_int_base<_AP_W1, _AP_S1>& op1, const ap_bit_ref<_AP_W2, _AP_S2>& op2) { return op1 >>= ap_int_base<1, false>(op2); } template <int _AP_W1, bool _AP_S1, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) ap_bit_ref<_AP_W1, _AP_S1>& operator >>=( ap_bit_ref<_AP_W1, _AP_S1>& op1, const ap_int_base<_AP_W2, _AP_S2>& op2) { ap_int_base<1, false> tmp(op1); tmp >>= op2; op1 = tmp; return op1; }
 template <int _AP_W1, bool _AP_S1, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) ap_int_base<_AP_W1, _AP_S1>& operator <<=( ap_int_base<_AP_W1, _AP_S1>& op1, const ap_bit_ref<_AP_W2, _AP_S2>& op2) { return op1 <<= ap_int_base<1, false>(op2); } template <int _AP_W1, bool _AP_S1, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) ap_bit_ref<_AP_W1, _AP_S1>& operator <<=( ap_bit_ref<_AP_W1, _AP_S1>& op1, const ap_int_base<_AP_W2, _AP_S2>& op2) { ap_int_base<1, false> tmp(op1); tmp <<= op2; op1 = tmp; return op1; }
-# 1831 "F:/Vivado/Vivado/2019.2/common/technology/autopilot\\ap_int_base.h"
+# 1831 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot\\ap_int_base.h"
 template <int _AP_W1, bool _AP_S1, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) ap_int_base<_AP_W1, _AP_S1>& operator &=( ap_int_base<_AP_W1, _AP_S1>& op1, const ap_bit_ref<_AP_W2, _AP_S2>& op2) { ap_int_base<1, false> tmp(op2); op1.V &= tmp.V; return op1; } template <int _AP_W1, bool _AP_S1, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) ap_bit_ref<_AP_W1, _AP_S1>& operator &=( ap_bit_ref<_AP_W1, _AP_S1>& op1, const ap_int_base<_AP_W2, _AP_S2>& op2) { ap_int_base<1, false> tmp(op1); tmp.V &= op2.V; op1 = tmp; return op1; }
 template <int _AP_W1, bool _AP_S1, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) ap_int_base<_AP_W1, _AP_S1>& operator |=( ap_int_base<_AP_W1, _AP_S1>& op1, const ap_bit_ref<_AP_W2, _AP_S2>& op2) { ap_int_base<1, false> tmp(op2); op1.V |= tmp.V; return op1; } template <int _AP_W1, bool _AP_S1, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) ap_bit_ref<_AP_W1, _AP_S1>& operator |=( ap_bit_ref<_AP_W1, _AP_S1>& op1, const ap_int_base<_AP_W2, _AP_S2>& op2) { ap_int_base<1, false> tmp(op1); tmp.V |= op2.V; op1 = tmp; return op1; }
 template <int _AP_W1, bool _AP_S1, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) ap_int_base<_AP_W1, _AP_S1>& operator ^=( ap_int_base<_AP_W1, _AP_S1>& op1, const ap_bit_ref<_AP_W2, _AP_S2>& op2) { ap_int_base<1, false> tmp(op2); op1.V ^= tmp.V; return op1; } template <int _AP_W1, bool _AP_S1, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) ap_bit_ref<_AP_W1, _AP_S1>& operator ^=( ap_bit_ref<_AP_W1, _AP_S1>& op1, const ap_int_base<_AP_W2, _AP_S2>& op2) { ap_int_base<1, false> tmp(op1); tmp.V ^= op2.V; op1 = tmp; return op1; }
-# 1850 "F:/Vivado/Vivado/2019.2/common/technology/autopilot\\ap_int_base.h"
+# 1850 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot\\ap_int_base.h"
 template <int _AP_W1, bool _AP_S1, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) bool operator ==(const ap_int_base<_AP_W1, _AP_S1>& op1, const ap_bit_ref<_AP_W2, _AP_S2>& op2) { return op1 == ap_int_base<1, false>(op2); } template <int _AP_W1, bool _AP_S1, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) bool operator ==(const ap_bit_ref<_AP_W1, _AP_S1>& op1, const ap_int_base<_AP_W2, _AP_S2>& op2) { return ap_int_base<1, false>(op1) == op2; }
 template <int _AP_W1, bool _AP_S1, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) bool operator !=(const ap_int_base<_AP_W1, _AP_S1>& op1, const ap_bit_ref<_AP_W2, _AP_S2>& op2) { return op1 != ap_int_base<1, false>(op2); } template <int _AP_W1, bool _AP_S1, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) bool operator !=(const ap_bit_ref<_AP_W1, _AP_S1>& op1, const ap_int_base<_AP_W2, _AP_S2>& op2) { return ap_int_base<1, false>(op1) != op2; }
 template <int _AP_W1, bool _AP_S1, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) bool operator >(const ap_int_base<_AP_W1, _AP_S1>& op1, const ap_bit_ref<_AP_W2, _AP_S2>& op2) { return op1 > ap_int_base<1, false>(op2); } template <int _AP_W1, bool _AP_S1, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) bool operator >(const ap_bit_ref<_AP_W1, _AP_S1>& op1, const ap_int_base<_AP_W2, _AP_S2>& op2) { return ap_int_base<1, false>(op1) > op2; }
 template <int _AP_W1, bool _AP_S1, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) bool operator >=(const ap_int_base<_AP_W1, _AP_S1>& op1, const ap_bit_ref<_AP_W2, _AP_S2>& op2) { return op1 >= ap_int_base<1, false>(op2); } template <int _AP_W1, bool _AP_S1, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) bool operator >=(const ap_bit_ref<_AP_W1, _AP_S1>& op1, const ap_int_base<_AP_W2, _AP_S2>& op2) { return ap_int_base<1, false>(op1) >= op2; }
 template <int _AP_W1, bool _AP_S1, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) bool operator <(const ap_int_base<_AP_W1, _AP_S1>& op1, const ap_bit_ref<_AP_W2, _AP_S2>& op2) { return op1 < ap_int_base<1, false>(op2); } template <int _AP_W1, bool _AP_S1, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) bool operator <(const ap_bit_ref<_AP_W1, _AP_S1>& op1, const ap_int_base<_AP_W2, _AP_S2>& op2) { return ap_int_base<1, false>(op1) < op2; }
 template <int _AP_W1, bool _AP_S1, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) bool operator <=(const ap_int_base<_AP_W1, _AP_S1>& op1, const ap_bit_ref<_AP_W2, _AP_S2>& op2) { return op1 <= ap_int_base<1, false>(op2); } template <int _AP_W1, bool _AP_S1, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) bool operator <=(const ap_bit_ref<_AP_W1, _AP_S1>& op1, const ap_int_base<_AP_W2, _AP_S2>& op2) { return ap_int_base<1, false>(op1) <= op2; }
-# 1958 "F:/Vivado/Vivado/2019.2/common/technology/autopilot\\ap_int_base.h"
+# 1958 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot\\ap_int_base.h"
 template <int _AP_W1, typename _AP_T1, int _AP_W2, typename _AP_T2, int _AP_W3, bool _AP_S3> inline __attribute__((always_inline)) bool operator ==( const ap_int_base<_AP_W3, _AP_S3>& op1, const ap_concat_ref<_AP_W1, _AP_T1, _AP_W2, _AP_T2>& op2) { return op1 == op2.get(); } template <int _AP_W1, typename _AP_T1, int _AP_W2, typename _AP_T2, int _AP_W3, bool _AP_S3> inline __attribute__((always_inline)) bool operator ==( const ap_concat_ref<_AP_W1, _AP_T1, _AP_W2, _AP_T2>& op1, const ap_int_base<_AP_W3, _AP_S3>& op2) { return op1.get() == op2; }
 template <int _AP_W1, typename _AP_T1, int _AP_W2, typename _AP_T2, int _AP_W3, bool _AP_S3> inline __attribute__((always_inline)) bool operator !=( const ap_int_base<_AP_W3, _AP_S3>& op1, const ap_concat_ref<_AP_W1, _AP_T1, _AP_W2, _AP_T2>& op2) { return op1 != op2.get(); } template <int _AP_W1, typename _AP_T1, int _AP_W2, typename _AP_T2, int _AP_W3, bool _AP_S3> inline __attribute__((always_inline)) bool operator !=( const ap_concat_ref<_AP_W1, _AP_T1, _AP_W2, _AP_T2>& op1, const ap_int_base<_AP_W3, _AP_S3>& op2) { return op1.get() != op2; }
 template <int _AP_W1, typename _AP_T1, int _AP_W2, typename _AP_T2, int _AP_W3, bool _AP_S3> inline __attribute__((always_inline)) bool operator >( const ap_int_base<_AP_W3, _AP_S3>& op1, const ap_concat_ref<_AP_W1, _AP_T1, _AP_W2, _AP_T2>& op2) { return op1 > op2.get(); } template <int _AP_W1, typename _AP_T1, int _AP_W2, typename _AP_T2, int _AP_W3, bool _AP_S3> inline __attribute__((always_inline)) bool operator >( const ap_concat_ref<_AP_W1, _AP_T1, _AP_W2, _AP_T2>& op1, const ap_int_base<_AP_W3, _AP_S3>& op2) { return op1.get() > op2; }
 template <int _AP_W1, typename _AP_T1, int _AP_W2, typename _AP_T2, int _AP_W3, bool _AP_S3> inline __attribute__((always_inline)) bool operator >=( const ap_int_base<_AP_W3, _AP_S3>& op1, const ap_concat_ref<_AP_W1, _AP_T1, _AP_W2, _AP_T2>& op2) { return op1 >= op2.get(); } template <int _AP_W1, typename _AP_T1, int _AP_W2, typename _AP_T2, int _AP_W3, bool _AP_S3> inline __attribute__((always_inline)) bool operator >=( const ap_concat_ref<_AP_W1, _AP_T1, _AP_W2, _AP_T2>& op1, const ap_int_base<_AP_W3, _AP_S3>& op2) { return op1.get() >= op2; }
 template <int _AP_W1, typename _AP_T1, int _AP_W2, typename _AP_T2, int _AP_W3, bool _AP_S3> inline __attribute__((always_inline)) bool operator <( const ap_int_base<_AP_W3, _AP_S3>& op1, const ap_concat_ref<_AP_W1, _AP_T1, _AP_W2, _AP_T2>& op2) { return op1 < op2.get(); } template <int _AP_W1, typename _AP_T1, int _AP_W2, typename _AP_T2, int _AP_W3, bool _AP_S3> inline __attribute__((always_inline)) bool operator <( const ap_concat_ref<_AP_W1, _AP_T1, _AP_W2, _AP_T2>& op1, const ap_int_base<_AP_W3, _AP_S3>& op2) { return op1.get() < op2; }
 template <int _AP_W1, typename _AP_T1, int _AP_W2, typename _AP_T2, int _AP_W3, bool _AP_S3> inline __attribute__((always_inline)) bool operator <=( const ap_int_base<_AP_W3, _AP_S3>& op1, const ap_concat_ref<_AP_W1, _AP_T1, _AP_W2, _AP_T2>& op2) { return op1 <= op2.get(); } template <int _AP_W1, typename _AP_T1, int _AP_W2, typename _AP_T2, int _AP_W3, bool _AP_S3> inline __attribute__((always_inline)) bool operator <=( const ap_concat_ref<_AP_W1, _AP_T1, _AP_W2, _AP_T2>& op1, const ap_int_base<_AP_W3, _AP_S3>& op2) { return op1.get() <= op2; }
-# 56 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/ap_int.h" 2
-# 1 "F:/Vivado/Vivado/2019.2/common/technology/autopilot\\ap_int_ref.h" 1
-# 73 "F:/Vivado/Vivado/2019.2/common/technology/autopilot\\ap_int_ref.h"
+# 56 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/ap_int.h" 2
+# 1 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot\\ap_int_ref.h" 1
+# 73 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot\\ap_int_ref.h"
 template <int _AP_W1, typename _AP_T1, int _AP_W2, typename _AP_T2>
 struct ap_concat_ref {
   enum {
@@ -2681,7 +2681,7 @@ struct ap_concat_ref {
     mbv2.set(Part2);
     return *this;
   }
-# 116 "F:/Vivado/Vivado/2019.2/common/technology/autopilot\\ap_int_ref.h"
+# 116 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot\\ap_int_ref.h"
   inline __attribute__((always_inline)) ap_concat_ref& operator=(bool val) { ap_int_base<_AP_W1 + _AP_W2, false> tmpVal(val); return operator=(tmpVal); }
   inline __attribute__((always_inline)) ap_concat_ref& operator=(char val) { ap_int_base<_AP_W1 + _AP_W2, false> tmpVal(val); return operator=(tmpVal); }
   inline __attribute__((always_inline)) ap_concat_ref& operator=(signed char val) { ap_int_base<_AP_W1 + _AP_W2, false> tmpVal(val); return operator=(tmpVal); }
@@ -2861,7 +2861,7 @@ struct ap_concat_ref {
       const ap_int_base<_AP_W3, _AP_S3>& a2) {
     return get() ^ a2;
   }
-# 304 "F:/Vivado/Vivado/2019.2/common/technology/autopilot\\ap_int_ref.h"
+# 304 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot\\ap_int_ref.h"
   inline __attribute__((always_inline)) ap_int_base<_AP_WR, false> get() const {
     ap_int_base<_AP_WR, false> tmpVal(0);
     int W_ref1 = mbv1.length();
@@ -2920,7 +2920,7 @@ struct ap_range_ref {
   }
 
   inline __attribute__((always_inline)) operator ap_ulong() const { return to_uint64(); }
-# 385 "F:/Vivado/Vivado/2019.2/common/technology/autopilot\\ap_int_ref.h"
+# 385 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot\\ap_int_ref.h"
   inline __attribute__((always_inline)) ap_range_ref& operator=(bool val) { ap_int_base<_AP_W, false> tmp(val); d_bv.V = ({ typename _ap_type::remove_const<typeof(d_bv.V)>::type __Result__ = 0; typeof(d_bv.V) __Val2__ = d_bv.V; typeof(tmp.V) __Repl2__ = tmp.V; __builtin_bit_part_set((void*)(&__Result__), (void*)(&__Val2__), (void*)(&__Repl2__), l_index, h_index); __Result__; }); return *this; }
   inline __attribute__((always_inline)) ap_range_ref& operator=(char val) { ap_int_base<_AP_W, false> tmp(val); d_bv.V = ({ typename _ap_type::remove_const<typeof(d_bv.V)>::type __Result__ = 0; typeof(d_bv.V) __Val2__ = d_bv.V; typeof(tmp.V) __Repl2__ = tmp.V; __builtin_bit_part_set((void*)(&__Result__), (void*)(&__Val2__), (void*)(&__Repl2__), l_index, h_index); __Result__; }); return *this; }
   inline __attribute__((always_inline)) ap_range_ref& operator=(signed char val) { ap_int_base<_AP_W, false> tmp(val); d_bv.V = ({ typename _ap_type::remove_const<typeof(d_bv.V)>::type __Result__ = 0; typeof(d_bv.V) __Val2__ = d_bv.V; typeof(tmp.V) __Repl2__ = tmp.V; __builtin_bit_part_set((void*)(&__Result__), (void*)(&__Val2__), (void*)(&__Repl2__), l_index, h_index); __Result__; }); return *this; }
@@ -3261,13 +3261,13 @@ _ssdm_Unroll(0,0,0, "");
     }
     return ret;
   }
-# 733 "F:/Vivado/Vivado/2019.2/common/technology/autopilot\\ap_int_ref.h"
+# 733 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot\\ap_int_ref.h"
   inline __attribute__((always_inline)) char* to_string(signed char radix = 2) const {
     return 0;
   }
 
 };
-# 772 "F:/Vivado/Vivado/2019.2/common/technology/autopilot\\ap_int_ref.h"
+# 772 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot\\ap_int_ref.h"
 template <int _AP_W, bool _AP_S>
 struct ap_bit_ref {
 
@@ -3289,7 +3289,7 @@ struct ap_bit_ref {
 
   inline __attribute__((always_inline)) operator bool() const { return ({ typeof(d_bv.V) __Val2__ = d_bv.V; bool __Result__ = __builtin_bit_select((void*)(&__Val2__), d_index); __Result__; }); }
   inline __attribute__((always_inline)) bool to_bool() const { return ({ typeof(d_bv.V) __Val2__ = d_bv.V; bool __Result__ = __builtin_bit_select((void*)(&__Val2__), d_index); __Result__; }); }
-# 810 "F:/Vivado/Vivado/2019.2/common/technology/autopilot\\ap_int_ref.h"
+# 810 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot\\ap_int_ref.h"
   inline __attribute__((always_inline)) ap_bit_ref& operator=(bool val) { d_bv.V = ({ typename _ap_type::remove_const<typeof(d_bv.V)>::type __Result__ = 0; typeof(d_bv.V) __Val2__ = d_bv.V; typeof(val) __Repl2__ = !!val; __builtin_bit_part_set((void*)(&__Result__), (void*)(&__Val2__), (void*)(&__Repl2__), d_index, d_index); __Result__; }); return *this; }
   inline __attribute__((always_inline)) ap_bit_ref& operator=(char val) { d_bv.V = ({ typename _ap_type::remove_const<typeof(d_bv.V)>::type __Result__ = 0; typeof(d_bv.V) __Val2__ = d_bv.V; typeof(val) __Repl2__ = !!val; __builtin_bit_part_set((void*)(&__Result__), (void*)(&__Val2__), (void*)(&__Repl2__), d_index, d_index); __Result__; }); return *this; }
   inline __attribute__((always_inline)) ap_bit_ref& operator=(signed char val) { d_bv.V = ({ typename _ap_type::remove_const<typeof(d_bv.V)>::type __Result__ = 0; typeof(d_bv.V) __Val2__ = d_bv.V; typeof(val) __Repl2__ = !!val; __builtin_bit_part_set((void*)(&__Result__), (void*)(&__Val2__), (void*)(&__Repl2__), d_index, d_index); __Result__; }); return *this; }
@@ -3302,7 +3302,7 @@ struct ap_bit_ref {
   inline __attribute__((always_inline)) ap_bit_ref& operator=(unsigned long val) { d_bv.V = ({ typename _ap_type::remove_const<typeof(d_bv.V)>::type __Result__ = 0; typeof(d_bv.V) __Val2__ = d_bv.V; typeof(val) __Repl2__ = !!val; __builtin_bit_part_set((void*)(&__Result__), (void*)(&__Val2__), (void*)(&__Repl2__), d_index, d_index); __Result__; }); return *this; }
   inline __attribute__((always_inline)) ap_bit_ref& operator=(ap_slong val) { d_bv.V = ({ typename _ap_type::remove_const<typeof(d_bv.V)>::type __Result__ = 0; typeof(d_bv.V) __Val2__ = d_bv.V; typeof(val) __Repl2__ = !!val; __builtin_bit_part_set((void*)(&__Result__), (void*)(&__Val2__), (void*)(&__Repl2__), d_index, d_index); __Result__; }); return *this; }
   inline __attribute__((always_inline)) ap_bit_ref& operator=(ap_ulong val) { d_bv.V = ({ typename _ap_type::remove_const<typeof(d_bv.V)>::type __Result__ = 0; typeof(d_bv.V) __Val2__ = d_bv.V; typeof(val) __Repl2__ = !!val; __builtin_bit_part_set((void*)(&__Result__), (void*)(&__Val2__), (void*)(&__Repl2__), d_index, d_index); __Result__; }); return *this; }
-# 832 "F:/Vivado/Vivado/2019.2/common/technology/autopilot\\ap_int_ref.h"
+# 832 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot\\ap_int_ref.h"
   inline __attribute__((always_inline)) ap_bit_ref& operator=(half val) { bool tmp_val = val; d_bv.V = ({ typename _ap_type::remove_const<typeof(d_bv.V)>::type __Result__ = 0; typeof(d_bv.V) __Val2__ = d_bv.V; typeof(tmp_val) __Repl2__ = !!tmp_val; __builtin_bit_part_set((void*)(&__Result__), (void*)(&__Val2__), (void*)(&__Repl2__), d_index, d_index); __Result__; }); return *this; }
   inline __attribute__((always_inline)) ap_bit_ref& operator=(float val) { bool tmp_val = val; d_bv.V = ({ typename _ap_type::remove_const<typeof(d_bv.V)>::type __Result__ = 0; typeof(d_bv.V) __Val2__ = d_bv.V; typeof(tmp_val) __Repl2__ = !!tmp_val; __builtin_bit_part_set((void*)(&__Result__), (void*)(&__Val2__), (void*)(&__Repl2__), d_index, d_index); __Result__; }); return *this; }
   inline __attribute__((always_inline)) ap_bit_ref& operator=(double val) { bool tmp_val = val; d_bv.V = ({ typename _ap_type::remove_const<typeof(d_bv.V)>::type __Result__ = 0; typeof(d_bv.V) __Val2__ = d_bv.V; typeof(tmp_val) __Repl2__ = !!tmp_val; __builtin_bit_part_set((void*)(&__Result__), (void*)(&__Val2__), (void*)(&__Repl2__), d_index, d_index); __Result__; }); return *this; }
@@ -3465,7 +3465,7 @@ struct ap_bit_ref {
   inline __attribute__((always_inline)) char* to_string() const { return 0; }
 
 };
-# 1030 "F:/Vivado/Vivado/2019.2/common/technology/autopilot\\ap_int_ref.h"
+# 1030 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot\\ap_int_ref.h"
 template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator >(const ap_range_ref<_AP_W, _AP_S>& op, bool op2) { return ap_int_base<_AP_W, false>(op) > ap_int_base<1, false>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator >(const ap_bit_ref<_AP_W, _AP_S>& op, bool op2) { return bool(op) > op2; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator >(bool op2, const ap_bit_ref<_AP_W, _AP_S>& op) { return op2 > bool(op); } template <int _AP_W, typename _AP_T, int _AP_W1, typename _AP_T1> inline __attribute__((always_inline)) bool operator >( const ap_concat_ref<_AP_W, _AP_T, _AP_W1, _AP_T1>& op, bool op2) { return ap_int_base<_AP_W + _AP_W1, false>(op) > ap_int_base<1, false>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator <(const ap_range_ref<_AP_W, _AP_S>& op, bool op2) { return ap_int_base<_AP_W, false>(op) < ap_int_base<1, false>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator <(const ap_bit_ref<_AP_W, _AP_S>& op, bool op2) { return bool(op) < op2; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator <(bool op2, const ap_bit_ref<_AP_W, _AP_S>& op) { return op2 < bool(op); } template <int _AP_W, typename _AP_T, int _AP_W1, typename _AP_T1> inline __attribute__((always_inline)) bool operator <( const ap_concat_ref<_AP_W, _AP_T, _AP_W1, _AP_T1>& op, bool op2) { return ap_int_base<_AP_W + _AP_W1, false>(op) < ap_int_base<1, false>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator >=(const ap_range_ref<_AP_W, _AP_S>& op, bool op2) { return ap_int_base<_AP_W, false>(op) >= ap_int_base<1, false>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator >=(const ap_bit_ref<_AP_W, _AP_S>& op, bool op2) { return bool(op) >= op2; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator >=(bool op2, const ap_bit_ref<_AP_W, _AP_S>& op) { return op2 >= bool(op); } template <int _AP_W, typename _AP_T, int _AP_W1, typename _AP_T1> inline __attribute__((always_inline)) bool operator >=( const ap_concat_ref<_AP_W, _AP_T, _AP_W1, _AP_T1>& op, bool op2) { return ap_int_base<_AP_W + _AP_W1, false>(op) >= ap_int_base<1, false>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator <=(const ap_range_ref<_AP_W, _AP_S>& op, bool op2) { return ap_int_base<_AP_W, false>(op) <= ap_int_base<1, false>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator <=(const ap_bit_ref<_AP_W, _AP_S>& op, bool op2) { return bool(op) <= op2; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator <=(bool op2, const ap_bit_ref<_AP_W, _AP_S>& op) { return op2 <= bool(op); } template <int _AP_W, typename _AP_T, int _AP_W1, typename _AP_T1> inline __attribute__((always_inline)) bool operator <=( const ap_concat_ref<_AP_W, _AP_T, _AP_W1, _AP_T1>& op, bool op2) { return ap_int_base<_AP_W + _AP_W1, false>(op) <= ap_int_base<1, false>(op2); }
 template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator >(const ap_range_ref<_AP_W, _AP_S>& op, char op2) { return ap_int_base<_AP_W, false>(op) > ap_int_base<8, CHAR_IS_SIGNED>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator >(const ap_bit_ref<_AP_W, _AP_S>& op, char op2) { return bool(op) > op2; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator >(char op2, const ap_bit_ref<_AP_W, _AP_S>& op) { return op2 > bool(op); } template <int _AP_W, typename _AP_T, int _AP_W1, typename _AP_T1> inline __attribute__((always_inline)) bool operator >( const ap_concat_ref<_AP_W, _AP_T, _AP_W1, _AP_T1>& op, char op2) { return ap_int_base<_AP_W + _AP_W1, false>(op) > ap_int_base<8, CHAR_IS_SIGNED>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator <(const ap_range_ref<_AP_W, _AP_S>& op, char op2) { return ap_int_base<_AP_W, false>(op) < ap_int_base<8, CHAR_IS_SIGNED>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator <(const ap_bit_ref<_AP_W, _AP_S>& op, char op2) { return bool(op) < op2; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator <(char op2, const ap_bit_ref<_AP_W, _AP_S>& op) { return op2 < bool(op); } template <int _AP_W, typename _AP_T, int _AP_W1, typename _AP_T1> inline __attribute__((always_inline)) bool operator <( const ap_concat_ref<_AP_W, _AP_T, _AP_W1, _AP_T1>& op, char op2) { return ap_int_base<_AP_W + _AP_W1, false>(op) < ap_int_base<8, CHAR_IS_SIGNED>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator >=(const ap_range_ref<_AP_W, _AP_S>& op, char op2) { return ap_int_base<_AP_W, false>(op) >= ap_int_base<8, CHAR_IS_SIGNED>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator >=(const ap_bit_ref<_AP_W, _AP_S>& op, char op2) { return bool(op) >= op2; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator >=(char op2, const ap_bit_ref<_AP_W, _AP_S>& op) { return op2 >= bool(op); } template <int _AP_W, typename _AP_T, int _AP_W1, typename _AP_T1> inline __attribute__((always_inline)) bool operator >=( const ap_concat_ref<_AP_W, _AP_T, _AP_W1, _AP_T1>& op, char op2) { return ap_int_base<_AP_W + _AP_W1, false>(op) >= ap_int_base<8, CHAR_IS_SIGNED>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator <=(const ap_range_ref<_AP_W, _AP_S>& op, char op2) { return ap_int_base<_AP_W, false>(op) <= ap_int_base<8, CHAR_IS_SIGNED>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator <=(const ap_bit_ref<_AP_W, _AP_S>& op, char op2) { return bool(op) <= op2; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator <=(char op2, const ap_bit_ref<_AP_W, _AP_S>& op) { return op2 <= bool(op); } template <int _AP_W, typename _AP_T, int _AP_W1, typename _AP_T1> inline __attribute__((always_inline)) bool operator <=( const ap_concat_ref<_AP_W, _AP_T, _AP_W1, _AP_T1>& op, char op2) { return ap_int_base<_AP_W + _AP_W1, false>(op) <= ap_int_base<8, CHAR_IS_SIGNED>(op2); }
 template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator >(const ap_range_ref<_AP_W, _AP_S>& op, signed char op2) { return ap_int_base<_AP_W, false>(op) > ap_int_base<8, true>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator >(const ap_bit_ref<_AP_W, _AP_S>& op, signed char op2) { return bool(op) > op2; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator >(signed char op2, const ap_bit_ref<_AP_W, _AP_S>& op) { return op2 > bool(op); } template <int _AP_W, typename _AP_T, int _AP_W1, typename _AP_T1> inline __attribute__((always_inline)) bool operator >( const ap_concat_ref<_AP_W, _AP_T, _AP_W1, _AP_T1>& op, signed char op2) { return ap_int_base<_AP_W + _AP_W1, false>(op) > ap_int_base<8, true>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator <(const ap_range_ref<_AP_W, _AP_S>& op, signed char op2) { return ap_int_base<_AP_W, false>(op) < ap_int_base<8, true>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator <(const ap_bit_ref<_AP_W, _AP_S>& op, signed char op2) { return bool(op) < op2; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator <(signed char op2, const ap_bit_ref<_AP_W, _AP_S>& op) { return op2 < bool(op); } template <int _AP_W, typename _AP_T, int _AP_W1, typename _AP_T1> inline __attribute__((always_inline)) bool operator <( const ap_concat_ref<_AP_W, _AP_T, _AP_W1, _AP_T1>& op, signed char op2) { return ap_int_base<_AP_W + _AP_W1, false>(op) < ap_int_base<8, true>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator >=(const ap_range_ref<_AP_W, _AP_S>& op, signed char op2) { return ap_int_base<_AP_W, false>(op) >= ap_int_base<8, true>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator >=(const ap_bit_ref<_AP_W, _AP_S>& op, signed char op2) { return bool(op) >= op2; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator >=(signed char op2, const ap_bit_ref<_AP_W, _AP_S>& op) { return op2 >= bool(op); } template <int _AP_W, typename _AP_T, int _AP_W1, typename _AP_T1> inline __attribute__((always_inline)) bool operator >=( const ap_concat_ref<_AP_W, _AP_T, _AP_W1, _AP_T1>& op, signed char op2) { return ap_int_base<_AP_W + _AP_W1, false>(op) >= ap_int_base<8, true>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator <=(const ap_range_ref<_AP_W, _AP_S>& op, signed char op2) { return ap_int_base<_AP_W, false>(op) <= ap_int_base<8, true>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator <=(const ap_bit_ref<_AP_W, _AP_S>& op, signed char op2) { return bool(op) <= op2; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator <=(signed char op2, const ap_bit_ref<_AP_W, _AP_S>& op) { return op2 <= bool(op); } template <int _AP_W, typename _AP_T, int _AP_W1, typename _AP_T1> inline __attribute__((always_inline)) bool operator <=( const ap_concat_ref<_AP_W, _AP_T, _AP_W1, _AP_T1>& op, signed char op2) { return ap_int_base<_AP_W + _AP_W1, false>(op) <= ap_int_base<8, true>(op2); }
@@ -3496,7 +3496,7 @@ template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool oper
 template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator ==(const ap_range_ref<_AP_W, _AP_S>& op, unsigned long op2) { return ap_int_base<_AP_W, false>(op) == ap_int_base<_AP_SIZE_long, false>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator ==(const ap_bit_ref<_AP_W, _AP_S>& op, unsigned long op2) { return bool(op) == op2; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator ==(unsigned long op2, const ap_bit_ref<_AP_W, _AP_S>& op) { return op2 == bool(op); } template <int _AP_W, typename _AP_T, int _AP_W1, typename _AP_T1> inline __attribute__((always_inline)) bool operator ==( const ap_concat_ref<_AP_W, _AP_T, _AP_W1, _AP_T1>& op, unsigned long op2) { return ap_int_base<_AP_W + _AP_W1, false>(op) == ap_int_base<_AP_SIZE_long, false>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator !=(const ap_range_ref<_AP_W, _AP_S>& op, unsigned long op2) { return ap_int_base<_AP_W, false>(op) != ap_int_base<_AP_SIZE_long, false>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator !=(const ap_bit_ref<_AP_W, _AP_S>& op, unsigned long op2) { return bool(op) != op2; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator !=(unsigned long op2, const ap_bit_ref<_AP_W, _AP_S>& op) { return op2 != bool(op); } template <int _AP_W, typename _AP_T, int _AP_W1, typename _AP_T1> inline __attribute__((always_inline)) bool operator !=( const ap_concat_ref<_AP_W, _AP_T, _AP_W1, _AP_T1>& op, unsigned long op2) { return ap_int_base<_AP_W + _AP_W1, false>(op) != ap_int_base<_AP_SIZE_long, false>(op2); }
 template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator ==(const ap_range_ref<_AP_W, _AP_S>& op, ap_slong op2) { return ap_int_base<_AP_W, false>(op) == ap_int_base<_AP_SIZE_ap_slong, true>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator ==(const ap_bit_ref<_AP_W, _AP_S>& op, ap_slong op2) { return bool(op) == op2; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator ==(ap_slong op2, const ap_bit_ref<_AP_W, _AP_S>& op) { return op2 == bool(op); } template <int _AP_W, typename _AP_T, int _AP_W1, typename _AP_T1> inline __attribute__((always_inline)) bool operator ==( const ap_concat_ref<_AP_W, _AP_T, _AP_W1, _AP_T1>& op, ap_slong op2) { return ap_int_base<_AP_W + _AP_W1, false>(op) == ap_int_base<_AP_SIZE_ap_slong, true>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator !=(const ap_range_ref<_AP_W, _AP_S>& op, ap_slong op2) { return ap_int_base<_AP_W, false>(op) != ap_int_base<_AP_SIZE_ap_slong, true>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator !=(const ap_bit_ref<_AP_W, _AP_S>& op, ap_slong op2) { return bool(op) != op2; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator !=(ap_slong op2, const ap_bit_ref<_AP_W, _AP_S>& op) { return op2 != bool(op); } template <int _AP_W, typename _AP_T, int _AP_W1, typename _AP_T1> inline __attribute__((always_inline)) bool operator !=( const ap_concat_ref<_AP_W, _AP_T, _AP_W1, _AP_T1>& op, ap_slong op2) { return ap_int_base<_AP_W + _AP_W1, false>(op) != ap_int_base<_AP_SIZE_ap_slong, true>(op2); }
 template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator ==(const ap_range_ref<_AP_W, _AP_S>& op, ap_ulong op2) { return ap_int_base<_AP_W, false>(op) == ap_int_base<_AP_SIZE_ap_slong, false>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator ==(const ap_bit_ref<_AP_W, _AP_S>& op, ap_ulong op2) { return bool(op) == op2; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator ==(ap_ulong op2, const ap_bit_ref<_AP_W, _AP_S>& op) { return op2 == bool(op); } template <int _AP_W, typename _AP_T, int _AP_W1, typename _AP_T1> inline __attribute__((always_inline)) bool operator ==( const ap_concat_ref<_AP_W, _AP_T, _AP_W1, _AP_T1>& op, ap_ulong op2) { return ap_int_base<_AP_W + _AP_W1, false>(op) == ap_int_base<_AP_SIZE_ap_slong, false>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator !=(const ap_range_ref<_AP_W, _AP_S>& op, ap_ulong op2) { return ap_int_base<_AP_W, false>(op) != ap_int_base<_AP_SIZE_ap_slong, false>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator !=(const ap_bit_ref<_AP_W, _AP_S>& op, ap_ulong op2) { return bool(op) != op2; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) bool operator !=(ap_ulong op2, const ap_bit_ref<_AP_W, _AP_S>& op) { return op2 != bool(op); } template <int _AP_W, typename _AP_T, int _AP_W1, typename _AP_T1> inline __attribute__((always_inline)) bool operator !=( const ap_concat_ref<_AP_W, _AP_T, _AP_W1, _AP_T1>& op, ap_ulong op2) { return ap_int_base<_AP_W + _AP_W1, false>(op) != ap_int_base<_AP_SIZE_ap_slong, false>(op2); }
-# 1089 "F:/Vivado/Vivado/2019.2/common/technology/autopilot\\ap_int_ref.h"
+# 1089 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot\\ap_int_ref.h"
 template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, false>::template RType<(1), (false)>::plus operator +(const ap_range_ref<_AP_W, _AP_S>& op, bool op2) { return ap_int_base<_AP_W, false>(op) + ap_int_base<(1), (false)>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<(1), (false)>::template RType<_AP_W, false>::plus operator +(bool op2, const ap_range_ref<_AP_W, _AP_S>& op) { return ap_int_base<(1), (false)>(op2) + ap_int_base<_AP_W, false>(op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, false>::template RType<(1), (false)>::minus operator -(const ap_range_ref<_AP_W, _AP_S>& op, bool op2) { return ap_int_base<_AP_W, false>(op) - ap_int_base<(1), (false)>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<(1), (false)>::template RType<_AP_W, false>::minus operator -(bool op2, const ap_range_ref<_AP_W, _AP_S>& op) { return ap_int_base<(1), (false)>(op2) - ap_int_base<_AP_W, false>(op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, false>::template RType<(1), (false)>::mult operator *(const ap_range_ref<_AP_W, _AP_S>& op, bool op2) { return ap_int_base<_AP_W, false>(op) * ap_int_base<(1), (false)>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<(1), (false)>::template RType<_AP_W, false>::mult operator *(bool op2, const ap_range_ref<_AP_W, _AP_S>& op) { return ap_int_base<(1), (false)>(op2) * ap_int_base<_AP_W, false>(op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, false>::template RType<(1), (false)>::div operator /(const ap_range_ref<_AP_W, _AP_S>& op, bool op2) { return ap_int_base<_AP_W, false>(op) / ap_int_base<(1), (false)>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<(1), (false)>::template RType<_AP_W, false>::div operator /(bool op2, const ap_range_ref<_AP_W, _AP_S>& op) { return ap_int_base<(1), (false)>(op2) / ap_int_base<_AP_W, false>(op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, false>::template RType<(1), (false)>::mod operator %(const ap_range_ref<_AP_W, _AP_S>& op, bool op2) { return ap_int_base<_AP_W, false>(op) % ap_int_base<(1), (false)>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<(1), (false)>::template RType<_AP_W, false>::mod operator %(bool op2, const ap_range_ref<_AP_W, _AP_S>& op) { return ap_int_base<(1), (false)>(op2) % ap_int_base<_AP_W, false>(op); }
 template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, false>::template RType<(8), (CHAR_IS_SIGNED)>::plus operator +(const ap_range_ref<_AP_W, _AP_S>& op, char op2) { return ap_int_base<_AP_W, false>(op) + ap_int_base<(8), (CHAR_IS_SIGNED)>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<(8), (CHAR_IS_SIGNED)>::template RType<_AP_W, false>::plus operator +(char op2, const ap_range_ref<_AP_W, _AP_S>& op) { return ap_int_base<(8), (CHAR_IS_SIGNED)>(op2) + ap_int_base<_AP_W, false>(op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, false>::template RType<(8), (CHAR_IS_SIGNED)>::minus operator -(const ap_range_ref<_AP_W, _AP_S>& op, char op2) { return ap_int_base<_AP_W, false>(op) - ap_int_base<(8), (CHAR_IS_SIGNED)>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<(8), (CHAR_IS_SIGNED)>::template RType<_AP_W, false>::minus operator -(char op2, const ap_range_ref<_AP_W, _AP_S>& op) { return ap_int_base<(8), (CHAR_IS_SIGNED)>(op2) - ap_int_base<_AP_W, false>(op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, false>::template RType<(8), (CHAR_IS_SIGNED)>::mult operator *(const ap_range_ref<_AP_W, _AP_S>& op, char op2) { return ap_int_base<_AP_W, false>(op) * ap_int_base<(8), (CHAR_IS_SIGNED)>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<(8), (CHAR_IS_SIGNED)>::template RType<_AP_W, false>::mult operator *(char op2, const ap_range_ref<_AP_W, _AP_S>& op) { return ap_int_base<(8), (CHAR_IS_SIGNED)>(op2) * ap_int_base<_AP_W, false>(op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, false>::template RType<(8), (CHAR_IS_SIGNED)>::div operator /(const ap_range_ref<_AP_W, _AP_S>& op, char op2) { return ap_int_base<_AP_W, false>(op) / ap_int_base<(8), (CHAR_IS_SIGNED)>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<(8), (CHAR_IS_SIGNED)>::template RType<_AP_W, false>::div operator /(char op2, const ap_range_ref<_AP_W, _AP_S>& op) { return ap_int_base<(8), (CHAR_IS_SIGNED)>(op2) / ap_int_base<_AP_W, false>(op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, false>::template RType<(8), (CHAR_IS_SIGNED)>::mod operator %(const ap_range_ref<_AP_W, _AP_S>& op, char op2) { return ap_int_base<_AP_W, false>(op) % ap_int_base<(8), (CHAR_IS_SIGNED)>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<(8), (CHAR_IS_SIGNED)>::template RType<_AP_W, false>::mod operator %(char op2, const ap_range_ref<_AP_W, _AP_S>& op) { return ap_int_base<(8), (CHAR_IS_SIGNED)>(op2) % ap_int_base<_AP_W, false>(op); }
 template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, false>::template RType<(8), (true)>::plus operator +(const ap_range_ref<_AP_W, _AP_S>& op, signed char op2) { return ap_int_base<_AP_W, false>(op) + ap_int_base<(8), (true)>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<(8), (true)>::template RType<_AP_W, false>::plus operator +(signed char op2, const ap_range_ref<_AP_W, _AP_S>& op) { return ap_int_base<(8), (true)>(op2) + ap_int_base<_AP_W, false>(op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, false>::template RType<(8), (true)>::minus operator -(const ap_range_ref<_AP_W, _AP_S>& op, signed char op2) { return ap_int_base<_AP_W, false>(op) - ap_int_base<(8), (true)>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<(8), (true)>::template RType<_AP_W, false>::minus operator -(signed char op2, const ap_range_ref<_AP_W, _AP_S>& op) { return ap_int_base<(8), (true)>(op2) - ap_int_base<_AP_W, false>(op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, false>::template RType<(8), (true)>::mult operator *(const ap_range_ref<_AP_W, _AP_S>& op, signed char op2) { return ap_int_base<_AP_W, false>(op) * ap_int_base<(8), (true)>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<(8), (true)>::template RType<_AP_W, false>::mult operator *(signed char op2, const ap_range_ref<_AP_W, _AP_S>& op) { return ap_int_base<(8), (true)>(op2) * ap_int_base<_AP_W, false>(op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, false>::template RType<(8), (true)>::div operator /(const ap_range_ref<_AP_W, _AP_S>& op, signed char op2) { return ap_int_base<_AP_W, false>(op) / ap_int_base<(8), (true)>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<(8), (true)>::template RType<_AP_W, false>::div operator /(signed char op2, const ap_range_ref<_AP_W, _AP_S>& op) { return ap_int_base<(8), (true)>(op2) / ap_int_base<_AP_W, false>(op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, false>::template RType<(8), (true)>::mod operator %(const ap_range_ref<_AP_W, _AP_S>& op, signed char op2) { return ap_int_base<_AP_W, false>(op) % ap_int_base<(8), (true)>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<(8), (true)>::template RType<_AP_W, false>::mod operator %(signed char op2, const ap_range_ref<_AP_W, _AP_S>& op) { return ap_int_base<(8), (true)>(op2) % ap_int_base<_AP_W, false>(op); }
@@ -3509,7 +3509,7 @@ template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename 
 template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, false>::template RType<(_AP_SIZE_long), (false)>::plus operator +(const ap_range_ref<_AP_W, _AP_S>& op, unsigned long op2) { return ap_int_base<_AP_W, false>(op) + ap_int_base<(_AP_SIZE_long), (false)>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<(_AP_SIZE_long), (false)>::template RType<_AP_W, false>::plus operator +(unsigned long op2, const ap_range_ref<_AP_W, _AP_S>& op) { return ap_int_base<(_AP_SIZE_long), (false)>(op2) + ap_int_base<_AP_W, false>(op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, false>::template RType<(_AP_SIZE_long), (false)>::minus operator -(const ap_range_ref<_AP_W, _AP_S>& op, unsigned long op2) { return ap_int_base<_AP_W, false>(op) - ap_int_base<(_AP_SIZE_long), (false)>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<(_AP_SIZE_long), (false)>::template RType<_AP_W, false>::minus operator -(unsigned long op2, const ap_range_ref<_AP_W, _AP_S>& op) { return ap_int_base<(_AP_SIZE_long), (false)>(op2) - ap_int_base<_AP_W, false>(op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, false>::template RType<(_AP_SIZE_long), (false)>::mult operator *(const ap_range_ref<_AP_W, _AP_S>& op, unsigned long op2) { return ap_int_base<_AP_W, false>(op) * ap_int_base<(_AP_SIZE_long), (false)>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<(_AP_SIZE_long), (false)>::template RType<_AP_W, false>::mult operator *(unsigned long op2, const ap_range_ref<_AP_W, _AP_S>& op) { return ap_int_base<(_AP_SIZE_long), (false)>(op2) * ap_int_base<_AP_W, false>(op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, false>::template RType<(_AP_SIZE_long), (false)>::div operator /(const ap_range_ref<_AP_W, _AP_S>& op, unsigned long op2) { return ap_int_base<_AP_W, false>(op) / ap_int_base<(_AP_SIZE_long), (false)>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<(_AP_SIZE_long), (false)>::template RType<_AP_W, false>::div operator /(unsigned long op2, const ap_range_ref<_AP_W, _AP_S>& op) { return ap_int_base<(_AP_SIZE_long), (false)>(op2) / ap_int_base<_AP_W, false>(op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, false>::template RType<(_AP_SIZE_long), (false)>::mod operator %(const ap_range_ref<_AP_W, _AP_S>& op, unsigned long op2) { return ap_int_base<_AP_W, false>(op) % ap_int_base<(_AP_SIZE_long), (false)>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<(_AP_SIZE_long), (false)>::template RType<_AP_W, false>::mod operator %(unsigned long op2, const ap_range_ref<_AP_W, _AP_S>& op) { return ap_int_base<(_AP_SIZE_long), (false)>(op2) % ap_int_base<_AP_W, false>(op); }
 template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, false>::template RType<(_AP_SIZE_ap_slong), (true)>::plus operator +(const ap_range_ref<_AP_W, _AP_S>& op, ap_slong op2) { return ap_int_base<_AP_W, false>(op) + ap_int_base<(_AP_SIZE_ap_slong), (true)>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<(_AP_SIZE_ap_slong), (true)>::template RType<_AP_W, false>::plus operator +(ap_slong op2, const ap_range_ref<_AP_W, _AP_S>& op) { return ap_int_base<(_AP_SIZE_ap_slong), (true)>(op2) + ap_int_base<_AP_W, false>(op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, false>::template RType<(_AP_SIZE_ap_slong), (true)>::minus operator -(const ap_range_ref<_AP_W, _AP_S>& op, ap_slong op2) { return ap_int_base<_AP_W, false>(op) - ap_int_base<(_AP_SIZE_ap_slong), (true)>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<(_AP_SIZE_ap_slong), (true)>::template RType<_AP_W, false>::minus operator -(ap_slong op2, const ap_range_ref<_AP_W, _AP_S>& op) { return ap_int_base<(_AP_SIZE_ap_slong), (true)>(op2) - ap_int_base<_AP_W, false>(op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, false>::template RType<(_AP_SIZE_ap_slong), (true)>::mult operator *(const ap_range_ref<_AP_W, _AP_S>& op, ap_slong op2) { return ap_int_base<_AP_W, false>(op) * ap_int_base<(_AP_SIZE_ap_slong), (true)>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<(_AP_SIZE_ap_slong), (true)>::template RType<_AP_W, false>::mult operator *(ap_slong op2, const ap_range_ref<_AP_W, _AP_S>& op) { return ap_int_base<(_AP_SIZE_ap_slong), (true)>(op2) * ap_int_base<_AP_W, false>(op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, false>::template RType<(_AP_SIZE_ap_slong), (true)>::div operator /(const ap_range_ref<_AP_W, _AP_S>& op, ap_slong op2) { return ap_int_base<_AP_W, false>(op) / ap_int_base<(_AP_SIZE_ap_slong), (true)>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<(_AP_SIZE_ap_slong), (true)>::template RType<_AP_W, false>::div operator /(ap_slong op2, const ap_range_ref<_AP_W, _AP_S>& op) { return ap_int_base<(_AP_SIZE_ap_slong), (true)>(op2) / ap_int_base<_AP_W, false>(op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, false>::template RType<(_AP_SIZE_ap_slong), (true)>::mod operator %(const ap_range_ref<_AP_W, _AP_S>& op, ap_slong op2) { return ap_int_base<_AP_W, false>(op) % ap_int_base<(_AP_SIZE_ap_slong), (true)>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<(_AP_SIZE_ap_slong), (true)>::template RType<_AP_W, false>::mod operator %(ap_slong op2, const ap_range_ref<_AP_W, _AP_S>& op) { return ap_int_base<(_AP_SIZE_ap_slong), (true)>(op2) % ap_int_base<_AP_W, false>(op); }
 template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, false>::template RType<(_AP_SIZE_ap_slong), (false)>::plus operator +(const ap_range_ref<_AP_W, _AP_S>& op, ap_ulong op2) { return ap_int_base<_AP_W, false>(op) + ap_int_base<(_AP_SIZE_ap_slong), (false)>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<(_AP_SIZE_ap_slong), (false)>::template RType<_AP_W, false>::plus operator +(ap_ulong op2, const ap_range_ref<_AP_W, _AP_S>& op) { return ap_int_base<(_AP_SIZE_ap_slong), (false)>(op2) + ap_int_base<_AP_W, false>(op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, false>::template RType<(_AP_SIZE_ap_slong), (false)>::minus operator -(const ap_range_ref<_AP_W, _AP_S>& op, ap_ulong op2) { return ap_int_base<_AP_W, false>(op) - ap_int_base<(_AP_SIZE_ap_slong), (false)>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<(_AP_SIZE_ap_slong), (false)>::template RType<_AP_W, false>::minus operator -(ap_ulong op2, const ap_range_ref<_AP_W, _AP_S>& op) { return ap_int_base<(_AP_SIZE_ap_slong), (false)>(op2) - ap_int_base<_AP_W, false>(op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, false>::template RType<(_AP_SIZE_ap_slong), (false)>::mult operator *(const ap_range_ref<_AP_W, _AP_S>& op, ap_ulong op2) { return ap_int_base<_AP_W, false>(op) * ap_int_base<(_AP_SIZE_ap_slong), (false)>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<(_AP_SIZE_ap_slong), (false)>::template RType<_AP_W, false>::mult operator *(ap_ulong op2, const ap_range_ref<_AP_W, _AP_S>& op) { return ap_int_base<(_AP_SIZE_ap_slong), (false)>(op2) * ap_int_base<_AP_W, false>(op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, false>::template RType<(_AP_SIZE_ap_slong), (false)>::div operator /(const ap_range_ref<_AP_W, _AP_S>& op, ap_ulong op2) { return ap_int_base<_AP_W, false>(op) / ap_int_base<(_AP_SIZE_ap_slong), (false)>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<(_AP_SIZE_ap_slong), (false)>::template RType<_AP_W, false>::div operator /(ap_ulong op2, const ap_range_ref<_AP_W, _AP_S>& op) { return ap_int_base<(_AP_SIZE_ap_slong), (false)>(op2) / ap_int_base<_AP_W, false>(op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, false>::template RType<(_AP_SIZE_ap_slong), (false)>::mod operator %(const ap_range_ref<_AP_W, _AP_S>& op, ap_ulong op2) { return ap_int_base<_AP_W, false>(op) % ap_int_base<(_AP_SIZE_ap_slong), (false)>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<(_AP_SIZE_ap_slong), (false)>::template RType<_AP_W, false>::mod operator %(ap_ulong op2, const ap_range_ref<_AP_W, _AP_S>& op) { return ap_int_base<(_AP_SIZE_ap_slong), (false)>(op2) % ap_int_base<_AP_W, false>(op); }
-# 1112 "F:/Vivado/Vivado/2019.2/common/technology/autopilot\\ap_int_ref.h"
+# 1112 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot\\ap_int_ref.h"
 template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, false>::template RType<(1), (false)>::logic operator &(const ap_range_ref<_AP_W, _AP_S>& op, bool op2) { return ap_int_base<_AP_W, false>(op) & ap_int_base<(1), (false)>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<(1), (false)>::template RType<_AP_W, false>::logic operator &(bool op2, const ap_range_ref<_AP_W, _AP_S>& op) { return ap_int_base<(1), (false)>(op2) & ap_int_base<_AP_W, false>(op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, false>::template RType<(1), (false)>::logic operator |(const ap_range_ref<_AP_W, _AP_S>& op, bool op2) { return ap_int_base<_AP_W, false>(op) | ap_int_base<(1), (false)>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<(1), (false)>::template RType<_AP_W, false>::logic operator |(bool op2, const ap_range_ref<_AP_W, _AP_S>& op) { return ap_int_base<(1), (false)>(op2) | ap_int_base<_AP_W, false>(op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, false>::template RType<(1), (false)>::logic operator ^(const ap_range_ref<_AP_W, _AP_S>& op, bool op2) { return ap_int_base<_AP_W, false>(op) ^ ap_int_base<(1), (false)>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<(1), (false)>::template RType<_AP_W, false>::logic operator ^(bool op2, const ap_range_ref<_AP_W, _AP_S>& op) { return ap_int_base<(1), (false)>(op2) ^ ap_int_base<_AP_W, false>(op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, false>::template RType<(1), (false)>::arg1 operator >>(const ap_range_ref<_AP_W, _AP_S>& op, bool op2) { return ap_int_base<_AP_W, false>(op) >> ap_int_base<(1), (false)>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<(1), (false)>::template RType<_AP_W, false>::arg1 operator >>(bool op2, const ap_range_ref<_AP_W, _AP_S>& op) { return ap_int_base<(1), (false)>(op2) >> ap_int_base<_AP_W, false>(op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, false>::template RType<(1), (false)>::arg1 operator <<(const ap_range_ref<_AP_W, _AP_S>& op, bool op2) { return ap_int_base<_AP_W, false>(op) << ap_int_base<(1), (false)>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<(1), (false)>::template RType<_AP_W, false>::arg1 operator <<(bool op2, const ap_range_ref<_AP_W, _AP_S>& op) { return ap_int_base<(1), (false)>(op2) << ap_int_base<_AP_W, false>(op); }
 template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, false>::template RType<(8), (CHAR_IS_SIGNED)>::logic operator &(const ap_range_ref<_AP_W, _AP_S>& op, char op2) { return ap_int_base<_AP_W, false>(op) & ap_int_base<(8), (CHAR_IS_SIGNED)>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<(8), (CHAR_IS_SIGNED)>::template RType<_AP_W, false>::logic operator &(char op2, const ap_range_ref<_AP_W, _AP_S>& op) { return ap_int_base<(8), (CHAR_IS_SIGNED)>(op2) & ap_int_base<_AP_W, false>(op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, false>::template RType<(8), (CHAR_IS_SIGNED)>::logic operator |(const ap_range_ref<_AP_W, _AP_S>& op, char op2) { return ap_int_base<_AP_W, false>(op) | ap_int_base<(8), (CHAR_IS_SIGNED)>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<(8), (CHAR_IS_SIGNED)>::template RType<_AP_W, false>::logic operator |(char op2, const ap_range_ref<_AP_W, _AP_S>& op) { return ap_int_base<(8), (CHAR_IS_SIGNED)>(op2) | ap_int_base<_AP_W, false>(op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, false>::template RType<(8), (CHAR_IS_SIGNED)>::logic operator ^(const ap_range_ref<_AP_W, _AP_S>& op, char op2) { return ap_int_base<_AP_W, false>(op) ^ ap_int_base<(8), (CHAR_IS_SIGNED)>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<(8), (CHAR_IS_SIGNED)>::template RType<_AP_W, false>::logic operator ^(char op2, const ap_range_ref<_AP_W, _AP_S>& op) { return ap_int_base<(8), (CHAR_IS_SIGNED)>(op2) ^ ap_int_base<_AP_W, false>(op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, false>::template RType<(8), (CHAR_IS_SIGNED)>::arg1 operator >>(const ap_range_ref<_AP_W, _AP_S>& op, char op2) { return ap_int_base<_AP_W, false>(op) >> ap_int_base<(8), (CHAR_IS_SIGNED)>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<(8), (CHAR_IS_SIGNED)>::template RType<_AP_W, false>::arg1 operator >>(char op2, const ap_range_ref<_AP_W, _AP_S>& op) { return ap_int_base<(8), (CHAR_IS_SIGNED)>(op2) >> ap_int_base<_AP_W, false>(op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, false>::template RType<(8), (CHAR_IS_SIGNED)>::arg1 operator <<(const ap_range_ref<_AP_W, _AP_S>& op, char op2) { return ap_int_base<_AP_W, false>(op) << ap_int_base<(8), (CHAR_IS_SIGNED)>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<(8), (CHAR_IS_SIGNED)>::template RType<_AP_W, false>::arg1 operator <<(char op2, const ap_range_ref<_AP_W, _AP_S>& op) { return ap_int_base<(8), (CHAR_IS_SIGNED)>(op2) << ap_int_base<_AP_W, false>(op); }
 template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, false>::template RType<(8), (true)>::logic operator &(const ap_range_ref<_AP_W, _AP_S>& op, signed char op2) { return ap_int_base<_AP_W, false>(op) & ap_int_base<(8), (true)>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<(8), (true)>::template RType<_AP_W, false>::logic operator &(signed char op2, const ap_range_ref<_AP_W, _AP_S>& op) { return ap_int_base<(8), (true)>(op2) & ap_int_base<_AP_W, false>(op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, false>::template RType<(8), (true)>::logic operator |(const ap_range_ref<_AP_W, _AP_S>& op, signed char op2) { return ap_int_base<_AP_W, false>(op) | ap_int_base<(8), (true)>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<(8), (true)>::template RType<_AP_W, false>::logic operator |(signed char op2, const ap_range_ref<_AP_W, _AP_S>& op) { return ap_int_base<(8), (true)>(op2) | ap_int_base<_AP_W, false>(op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, false>::template RType<(8), (true)>::logic operator ^(const ap_range_ref<_AP_W, _AP_S>& op, signed char op2) { return ap_int_base<_AP_W, false>(op) ^ ap_int_base<(8), (true)>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<(8), (true)>::template RType<_AP_W, false>::logic operator ^(signed char op2, const ap_range_ref<_AP_W, _AP_S>& op) { return ap_int_base<(8), (true)>(op2) ^ ap_int_base<_AP_W, false>(op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, false>::template RType<(8), (true)>::arg1 operator >>(const ap_range_ref<_AP_W, _AP_S>& op, signed char op2) { return ap_int_base<_AP_W, false>(op) >> ap_int_base<(8), (true)>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<(8), (true)>::template RType<_AP_W, false>::arg1 operator >>(signed char op2, const ap_range_ref<_AP_W, _AP_S>& op) { return ap_int_base<(8), (true)>(op2) >> ap_int_base<_AP_W, false>(op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, false>::template RType<(8), (true)>::arg1 operator <<(const ap_range_ref<_AP_W, _AP_S>& op, signed char op2) { return ap_int_base<_AP_W, false>(op) << ap_int_base<(8), (true)>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<(8), (true)>::template RType<_AP_W, false>::arg1 operator <<(signed char op2, const ap_range_ref<_AP_W, _AP_S>& op) { return ap_int_base<(8), (true)>(op2) << ap_int_base<_AP_W, false>(op); }
@@ -3522,7 +3522,7 @@ template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename 
 template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, false>::template RType<(_AP_SIZE_long), (false)>::logic operator &(const ap_range_ref<_AP_W, _AP_S>& op, unsigned long op2) { return ap_int_base<_AP_W, false>(op) & ap_int_base<(_AP_SIZE_long), (false)>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<(_AP_SIZE_long), (false)>::template RType<_AP_W, false>::logic operator &(unsigned long op2, const ap_range_ref<_AP_W, _AP_S>& op) { return ap_int_base<(_AP_SIZE_long), (false)>(op2) & ap_int_base<_AP_W, false>(op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, false>::template RType<(_AP_SIZE_long), (false)>::logic operator |(const ap_range_ref<_AP_W, _AP_S>& op, unsigned long op2) { return ap_int_base<_AP_W, false>(op) | ap_int_base<(_AP_SIZE_long), (false)>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<(_AP_SIZE_long), (false)>::template RType<_AP_W, false>::logic operator |(unsigned long op2, const ap_range_ref<_AP_W, _AP_S>& op) { return ap_int_base<(_AP_SIZE_long), (false)>(op2) | ap_int_base<_AP_W, false>(op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, false>::template RType<(_AP_SIZE_long), (false)>::logic operator ^(const ap_range_ref<_AP_W, _AP_S>& op, unsigned long op2) { return ap_int_base<_AP_W, false>(op) ^ ap_int_base<(_AP_SIZE_long), (false)>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<(_AP_SIZE_long), (false)>::template RType<_AP_W, false>::logic operator ^(unsigned long op2, const ap_range_ref<_AP_W, _AP_S>& op) { return ap_int_base<(_AP_SIZE_long), (false)>(op2) ^ ap_int_base<_AP_W, false>(op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, false>::template RType<(_AP_SIZE_long), (false)>::arg1 operator >>(const ap_range_ref<_AP_W, _AP_S>& op, unsigned long op2) { return ap_int_base<_AP_W, false>(op) >> ap_int_base<(_AP_SIZE_long), (false)>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<(_AP_SIZE_long), (false)>::template RType<_AP_W, false>::arg1 operator >>(unsigned long op2, const ap_range_ref<_AP_W, _AP_S>& op) { return ap_int_base<(_AP_SIZE_long), (false)>(op2) >> ap_int_base<_AP_W, false>(op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, false>::template RType<(_AP_SIZE_long), (false)>::arg1 operator <<(const ap_range_ref<_AP_W, _AP_S>& op, unsigned long op2) { return ap_int_base<_AP_W, false>(op) << ap_int_base<(_AP_SIZE_long), (false)>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<(_AP_SIZE_long), (false)>::template RType<_AP_W, false>::arg1 operator <<(unsigned long op2, const ap_range_ref<_AP_W, _AP_S>& op) { return ap_int_base<(_AP_SIZE_long), (false)>(op2) << ap_int_base<_AP_W, false>(op); }
 template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, false>::template RType<(_AP_SIZE_ap_slong), (true)>::logic operator &(const ap_range_ref<_AP_W, _AP_S>& op, ap_slong op2) { return ap_int_base<_AP_W, false>(op) & ap_int_base<(_AP_SIZE_ap_slong), (true)>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<(_AP_SIZE_ap_slong), (true)>::template RType<_AP_W, false>::logic operator &(ap_slong op2, const ap_range_ref<_AP_W, _AP_S>& op) { return ap_int_base<(_AP_SIZE_ap_slong), (true)>(op2) & ap_int_base<_AP_W, false>(op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, false>::template RType<(_AP_SIZE_ap_slong), (true)>::logic operator |(const ap_range_ref<_AP_W, _AP_S>& op, ap_slong op2) { return ap_int_base<_AP_W, false>(op) | ap_int_base<(_AP_SIZE_ap_slong), (true)>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<(_AP_SIZE_ap_slong), (true)>::template RType<_AP_W, false>::logic operator |(ap_slong op2, const ap_range_ref<_AP_W, _AP_S>& op) { return ap_int_base<(_AP_SIZE_ap_slong), (true)>(op2) | ap_int_base<_AP_W, false>(op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, false>::template RType<(_AP_SIZE_ap_slong), (true)>::logic operator ^(const ap_range_ref<_AP_W, _AP_S>& op, ap_slong op2) { return ap_int_base<_AP_W, false>(op) ^ ap_int_base<(_AP_SIZE_ap_slong), (true)>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<(_AP_SIZE_ap_slong), (true)>::template RType<_AP_W, false>::logic operator ^(ap_slong op2, const ap_range_ref<_AP_W, _AP_S>& op) { return ap_int_base<(_AP_SIZE_ap_slong), (true)>(op2) ^ ap_int_base<_AP_W, false>(op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, false>::template RType<(_AP_SIZE_ap_slong), (true)>::arg1 operator >>(const ap_range_ref<_AP_W, _AP_S>& op, ap_slong op2) { return ap_int_base<_AP_W, false>(op) >> ap_int_base<(_AP_SIZE_ap_slong), (true)>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<(_AP_SIZE_ap_slong), (true)>::template RType<_AP_W, false>::arg1 operator >>(ap_slong op2, const ap_range_ref<_AP_W, _AP_S>& op) { return ap_int_base<(_AP_SIZE_ap_slong), (true)>(op2) >> ap_int_base<_AP_W, false>(op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, false>::template RType<(_AP_SIZE_ap_slong), (true)>::arg1 operator <<(const ap_range_ref<_AP_W, _AP_S>& op, ap_slong op2) { return ap_int_base<_AP_W, false>(op) << ap_int_base<(_AP_SIZE_ap_slong), (true)>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<(_AP_SIZE_ap_slong), (true)>::template RType<_AP_W, false>::arg1 operator <<(ap_slong op2, const ap_range_ref<_AP_W, _AP_S>& op) { return ap_int_base<(_AP_SIZE_ap_slong), (true)>(op2) << ap_int_base<_AP_W, false>(op); }
 template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, false>::template RType<(_AP_SIZE_ap_slong), (false)>::logic operator &(const ap_range_ref<_AP_W, _AP_S>& op, ap_ulong op2) { return ap_int_base<_AP_W, false>(op) & ap_int_base<(_AP_SIZE_ap_slong), (false)>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<(_AP_SIZE_ap_slong), (false)>::template RType<_AP_W, false>::logic operator &(ap_ulong op2, const ap_range_ref<_AP_W, _AP_S>& op) { return ap_int_base<(_AP_SIZE_ap_slong), (false)>(op2) & ap_int_base<_AP_W, false>(op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, false>::template RType<(_AP_SIZE_ap_slong), (false)>::logic operator |(const ap_range_ref<_AP_W, _AP_S>& op, ap_ulong op2) { return ap_int_base<_AP_W, false>(op) | ap_int_base<(_AP_SIZE_ap_slong), (false)>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<(_AP_SIZE_ap_slong), (false)>::template RType<_AP_W, false>::logic operator |(ap_ulong op2, const ap_range_ref<_AP_W, _AP_S>& op) { return ap_int_base<(_AP_SIZE_ap_slong), (false)>(op2) | ap_int_base<_AP_W, false>(op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, false>::template RType<(_AP_SIZE_ap_slong), (false)>::logic operator ^(const ap_range_ref<_AP_W, _AP_S>& op, ap_ulong op2) { return ap_int_base<_AP_W, false>(op) ^ ap_int_base<(_AP_SIZE_ap_slong), (false)>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<(_AP_SIZE_ap_slong), (false)>::template RType<_AP_W, false>::logic operator ^(ap_ulong op2, const ap_range_ref<_AP_W, _AP_S>& op) { return ap_int_base<(_AP_SIZE_ap_slong), (false)>(op2) ^ ap_int_base<_AP_W, false>(op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, false>::template RType<(_AP_SIZE_ap_slong), (false)>::arg1 operator >>(const ap_range_ref<_AP_W, _AP_S>& op, ap_ulong op2) { return ap_int_base<_AP_W, false>(op) >> ap_int_base<(_AP_SIZE_ap_slong), (false)>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<(_AP_SIZE_ap_slong), (false)>::template RType<_AP_W, false>::arg1 operator >>(ap_ulong op2, const ap_range_ref<_AP_W, _AP_S>& op) { return ap_int_base<(_AP_SIZE_ap_slong), (false)>(op2) >> ap_int_base<_AP_W, false>(op); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, false>::template RType<(_AP_SIZE_ap_slong), (false)>::arg1 operator <<(const ap_range_ref<_AP_W, _AP_S>& op, ap_ulong op2) { return ap_int_base<_AP_W, false>(op) << ap_int_base<(_AP_SIZE_ap_slong), (false)>(op2); } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) typename ap_int_base<(_AP_SIZE_ap_slong), (false)>::template RType<_AP_W, false>::arg1 operator <<(ap_ulong op2, const ap_range_ref<_AP_W, _AP_S>& op) { return ap_int_base<(_AP_SIZE_ap_slong), (false)>(op2) << ap_int_base<_AP_W, false>(op); }
-# 1140 "F:/Vivado/Vivado/2019.2/common/technology/autopilot\\ap_int_ref.h"
+# 1140 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot\\ap_int_ref.h"
 template <int _AP_W, bool _AP_S, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, false>::template RType<_AP_W2, false>::plus operator +(const ap_range_ref<_AP_W, _AP_S>& lhs, const ap_range_ref<_AP_W2, _AP_S2>& rhs) { return (lhs.operator ap_int_base<_AP_W, false>())+( rhs.operator ap_int_base<_AP_W2, false>()); }
 template <int _AP_W, bool _AP_S, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, false>::template RType<_AP_W2, false>::minus operator -(const ap_range_ref<_AP_W, _AP_S>& lhs, const ap_range_ref<_AP_W2, _AP_S2>& rhs) { return (lhs.operator ap_int_base<_AP_W, false>())-( rhs.operator ap_int_base<_AP_W2, false>()); }
 template <int _AP_W, bool _AP_S, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, false>::template RType<_AP_W2, false>::mult operator *(const ap_range_ref<_AP_W, _AP_S>& lhs, const ap_range_ref<_AP_W2, _AP_S2>& rhs) { return (lhs.operator ap_int_base<_AP_W, false>())*( rhs.operator ap_int_base<_AP_W2, false>()); }
@@ -3533,7 +3533,7 @@ template <int _AP_W, bool _AP_S, int _AP_W2, bool _AP_S2> inline __attribute__((
 template <int _AP_W, bool _AP_S, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, false>::template RType<_AP_W2, false>::logic operator ^(const ap_range_ref<_AP_W, _AP_S>& lhs, const ap_range_ref<_AP_W2, _AP_S2>& rhs) { return (lhs.operator ap_int_base<_AP_W, false>())^( rhs.operator ap_int_base<_AP_W2, false>()); }
 template <int _AP_W, bool _AP_S, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, false>::template RType<_AP_W2, false>::arg1 operator >>(const ap_range_ref<_AP_W, _AP_S>& lhs, const ap_range_ref<_AP_W2, _AP_S2>& rhs) { return (lhs.operator ap_int_base<_AP_W, false>())>>( rhs.operator ap_int_base<_AP_W2, false>()); }
 template <int _AP_W, bool _AP_S, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) typename ap_int_base<_AP_W, false>::template RType<_AP_W2, false>::arg1 operator <<(const ap_range_ref<_AP_W, _AP_S>& lhs, const ap_range_ref<_AP_W2, _AP_S2>& rhs) { return (lhs.operator ap_int_base<_AP_W, false>())<<( rhs.operator ap_int_base<_AP_W2, false>()); }
-# 1189 "F:/Vivado/Vivado/2019.2/common/technology/autopilot\\ap_int_ref.h"
+# 1189 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot\\ap_int_ref.h"
 template <int _AP_LW1, typename _AP_LT1, int _AP_LW2, typename _AP_LT2, int _AP_RW1, typename _AP_RT1, int _AP_RW2, typename _AP_RT2> inline __attribute__((always_inline)) typename ap_int_base<_AP_LW1 + _AP_LW2, false>::template RType< _AP_RW1 + _AP_RW2, false>::plus operator +( const ap_concat_ref<_AP_LW1, _AP_LT1, _AP_LW2, _AP_LT2>& lhs, const ap_concat_ref<_AP_RW1, _AP_RT1, _AP_RW2, _AP_RT2>& rhs) { return lhs.get() + rhs.get(); }
 template <int _AP_LW1, typename _AP_LT1, int _AP_LW2, typename _AP_LT2, int _AP_RW1, typename _AP_RT1, int _AP_RW2, typename _AP_RT2> inline __attribute__((always_inline)) typename ap_int_base<_AP_LW1 + _AP_LW2, false>::template RType< _AP_RW1 + _AP_RW2, false>::minus operator -( const ap_concat_ref<_AP_LW1, _AP_LT1, _AP_LW2, _AP_LT2>& lhs, const ap_concat_ref<_AP_RW1, _AP_RT1, _AP_RW2, _AP_RT2>& rhs) { return lhs.get() - rhs.get(); }
 template <int _AP_LW1, typename _AP_LT1, int _AP_LW2, typename _AP_LT2, int _AP_RW1, typename _AP_RT1, int _AP_RW2, typename _AP_RT2> inline __attribute__((always_inline)) typename ap_int_base<_AP_LW1 + _AP_LW2, false>::template RType< _AP_RW1 + _AP_RW2, false>::mult operator *( const ap_concat_ref<_AP_LW1, _AP_LT1, _AP_LW2, _AP_LT2>& lhs, const ap_concat_ref<_AP_RW1, _AP_RT1, _AP_RW2, _AP_RT2>& rhs) { return lhs.get() * rhs.get(); }
@@ -3544,7 +3544,7 @@ template <int _AP_LW1, typename _AP_LT1, int _AP_LW2, typename _AP_LT2, int _AP_
 template <int _AP_LW1, typename _AP_LT1, int _AP_LW2, typename _AP_LT2, int _AP_RW1, typename _AP_RT1, int _AP_RW2, typename _AP_RT2> inline __attribute__((always_inline)) typename ap_int_base<_AP_LW1 + _AP_LW2, false>::template RType< _AP_RW1 + _AP_RW2, false>::logic operator ^( const ap_concat_ref<_AP_LW1, _AP_LT1, _AP_LW2, _AP_LT2>& lhs, const ap_concat_ref<_AP_RW1, _AP_RT1, _AP_RW2, _AP_RT2>& rhs) { return lhs.get() ^ rhs.get(); }
 template <int _AP_LW1, typename _AP_LT1, int _AP_LW2, typename _AP_LT2, int _AP_RW1, typename _AP_RT1, int _AP_RW2, typename _AP_RT2> inline __attribute__((always_inline)) typename ap_int_base<_AP_LW1 + _AP_LW2, false>::template RType< _AP_RW1 + _AP_RW2, false>::arg1 operator >>( const ap_concat_ref<_AP_LW1, _AP_LT1, _AP_LW2, _AP_LT2>& lhs, const ap_concat_ref<_AP_RW1, _AP_RT1, _AP_RW2, _AP_RT2>& rhs) { return lhs.get() >> rhs.get(); }
 template <int _AP_LW1, typename _AP_LT1, int _AP_LW2, typename _AP_LT2, int _AP_RW1, typename _AP_RT1, int _AP_RW2, typename _AP_RT2> inline __attribute__((always_inline)) typename ap_int_base<_AP_LW1 + _AP_LW2, false>::template RType< _AP_RW1 + _AP_RW2, false>::arg1 operator <<( const ap_concat_ref<_AP_LW1, _AP_LT1, _AP_LW2, _AP_LT2>& lhs, const ap_concat_ref<_AP_RW1, _AP_RT1, _AP_RW2, _AP_RT2>& rhs) { return lhs.get() << rhs.get(); }
-# 1336 "F:/Vivado/Vivado/2019.2/common/technology/autopilot\\ap_int_ref.h"
+# 1336 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot\\ap_int_ref.h"
 template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) ap_int_base<_AP_W + 1, false> operator,( const ap_int_base<_AP_W, _AP_S> &op1, bool op2) { ap_int_base<1 + _AP_W, false> val(op2); ap_int_base<1 + _AP_W, false> ret(op1); ret <<= 1; if (false) { val <<= _AP_W; val >>= _AP_W; } ret |= val; return ret; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) ap_int_base<_AP_W + 1, false> operator,( bool op1, const ap_int_base<_AP_W, _AP_S> &op2) { ap_int_base<1 + _AP_W, false> val(op1); ap_int_base<1 + _AP_W, false> ret(op2); if (_AP_S) { ret <<= 1; ret >>= 1; } ret |= val << _AP_W; return ret; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) ap_int_base<_AP_W + 1, false> operator,( const ap_range_ref<_AP_W, _AP_S> &op1, bool op2) { ap_int_base<1 + _AP_W, false> val(op2); ap_int_base<1 + _AP_W, false> ret(op1); ret <<= 1; if (false) { val <<= _AP_W; val >>= _AP_W; } ret |= val; return ret; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) ap_int_base<_AP_W + 1, false> operator,( bool op1, const ap_range_ref<_AP_W, _AP_S> &op2) { ap_int_base<1 + _AP_W, false> val(op1); ap_int_base<1 + _AP_W, false> ret(op2); int len = op2.length(); val <<= len; ret |= val; return ret; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) ap_int_base<1 + 1, false> operator,( const ap_bit_ref<_AP_W, _AP_S> &op1, bool op2) { ap_int_base<1 + 1, false> val(op2); val[1] = op1; return val; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) ap_int_base<1 + 1, false> operator,( bool op1, const ap_bit_ref<_AP_W, _AP_S> &op2) { ap_int_base<1 + 1, false> val(op1); val <<= 1; val[0] = op2; return val; } template <int _AP_W, typename _AP_T, int _AP_W2, typename _AP_T2> inline __attribute__((always_inline)) ap_int_base<_AP_W + _AP_W2 + 1, false> operator,( const ap_concat_ref<_AP_W, _AP_T, _AP_W2, _AP_T2> &op1, bool op2) { ap_int_base<1 + _AP_W + _AP_W2, false> val(op2); ap_int_base<1 + _AP_W + _AP_W2, false> ret(op1); if (false) { val <<= _AP_W + _AP_W2; val >>= _AP_W + _AP_W2; } ret <<= 1; ret |= val; return ret; } template <int _AP_W, typename _AP_T, int _AP_W2, typename _AP_T2> inline __attribute__((always_inline)) ap_int_base<_AP_W + _AP_W2 + 1, false> operator,( bool op1, const ap_concat_ref<_AP_W, _AP_T, _AP_W2, _AP_T2> &op2) { ap_int_base<1 + _AP_W + _AP_W2, false> val(op1); ap_int_base<1 + _AP_W + _AP_W2, false> ret(op2); int len = op2.length(); val <<= len; ret |= val; return ret; } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) ap_int_base<_AP_W + 1, false> operator,( const af_range_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N> &op1, bool op2) { ap_int_base<1 + _AP_W, false> val(op2); ap_int_base<1 + _AP_W, false> ret(op1); if (false) { val <<= _AP_W; val >>= _AP_W; } ret <<= 1; ret |= val; return ret; } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) ap_int_base<_AP_W + 1, false> operator,( bool op1, const af_range_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N> &op2) { ap_int_base<1 + _AP_W, false> val(op1); ap_int_base<1 + _AP_W, false> ret(op2); int len = op2.length(); val <<= len; ret |= val; return ret; } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) ap_int_base<1 + 1, false> operator,( const af_bit_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N> &op1, bool op2) { ap_int_base<1 + 1, false> val(op2); val[1] = op1; return val; } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) ap_int_base<1 + 1, false> operator,( bool op1, const af_bit_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N> &op2) { ap_int_base<1 + 1, false> val(op1); val <<= 1; val[0] = op2; return val; }
 template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) ap_int_base<_AP_W + 8, false> operator,( const ap_int_base<_AP_W, _AP_S> &op1, char op2) { ap_int_base<8 + _AP_W, false> val(op2); ap_int_base<8 + _AP_W, false> ret(op1); ret <<= 8; if (CHAR_IS_SIGNED) { val <<= _AP_W; val >>= _AP_W; } ret |= val; return ret; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) ap_int_base<_AP_W + 8, false> operator,( char op1, const ap_int_base<_AP_W, _AP_S> &op2) { ap_int_base<8 + _AP_W, false> val(op1); ap_int_base<8 + _AP_W, false> ret(op2); if (_AP_S) { ret <<= 8; ret >>= 8; } ret |= val << _AP_W; return ret; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) ap_int_base<_AP_W + 8, false> operator,( const ap_range_ref<_AP_W, _AP_S> &op1, char op2) { ap_int_base<8 + _AP_W, false> val(op2); ap_int_base<8 + _AP_W, false> ret(op1); ret <<= 8; if (CHAR_IS_SIGNED) { val <<= _AP_W; val >>= _AP_W; } ret |= val; return ret; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) ap_int_base<_AP_W + 8, false> operator,( char op1, const ap_range_ref<_AP_W, _AP_S> &op2) { ap_int_base<8 + _AP_W, false> val(op1); ap_int_base<8 + _AP_W, false> ret(op2); int len = op2.length(); val <<= len; ret |= val; return ret; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) ap_int_base<8 + 1, false> operator,( const ap_bit_ref<_AP_W, _AP_S> &op1, char op2) { ap_int_base<8 + 1, false> val(op2); val[8] = op1; return val; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) ap_int_base<8 + 1, false> operator,( char op1, const ap_bit_ref<_AP_W, _AP_S> &op2) { ap_int_base<8 + 1, false> val(op1); val <<= 1; val[0] = op2; return val; } template <int _AP_W, typename _AP_T, int _AP_W2, typename _AP_T2> inline __attribute__((always_inline)) ap_int_base<_AP_W + _AP_W2 + 8, false> operator,( const ap_concat_ref<_AP_W, _AP_T, _AP_W2, _AP_T2> &op1, char op2) { ap_int_base<8 + _AP_W + _AP_W2, CHAR_IS_SIGNED> val(op2); ap_int_base<8 + _AP_W + _AP_W2, CHAR_IS_SIGNED> ret(op1); if (CHAR_IS_SIGNED) { val <<= _AP_W + _AP_W2; val >>= _AP_W + _AP_W2; } ret <<= 8; ret |= val; return ret; } template <int _AP_W, typename _AP_T, int _AP_W2, typename _AP_T2> inline __attribute__((always_inline)) ap_int_base<_AP_W + _AP_W2 + 8, false> operator,( char op1, const ap_concat_ref<_AP_W, _AP_T, _AP_W2, _AP_T2> &op2) { ap_int_base<8 + _AP_W + _AP_W2, CHAR_IS_SIGNED> val(op1); ap_int_base<8 + _AP_W + _AP_W2, CHAR_IS_SIGNED> ret(op2); int len = op2.length(); val <<= len; ret |= val; return ret; } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) ap_int_base<_AP_W + 8, false> operator,( const af_range_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N> &op1, char op2) { ap_int_base<8 + _AP_W, false> val(op2); ap_int_base<8 + _AP_W, false> ret(op1); if (CHAR_IS_SIGNED) { val <<= _AP_W; val >>= _AP_W; } ret <<= 8; ret |= val; return ret; } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) ap_int_base<_AP_W + 8, false> operator,( char op1, const af_range_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N> &op2) { ap_int_base<8 + _AP_W, false> val(op1); ap_int_base<8 + _AP_W, false> ret(op2); int len = op2.length(); val <<= len; ret |= val; return ret; } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) ap_int_base<1 + 8, false> operator,( const af_bit_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N> &op1, char op2) { ap_int_base<8 + 1, CHAR_IS_SIGNED> val(op2); val[8] = op1; return val; } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) ap_int_base<1 + 8, false> operator,( char op1, const af_bit_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N> &op2) { ap_int_base<8 + 1, CHAR_IS_SIGNED> val(op1); val <<= 1; val[0] = op2; return val; }
 template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) ap_int_base<_AP_W + 8, false> operator,( const ap_int_base<_AP_W, _AP_S> &op1, signed char op2) { ap_int_base<8 + _AP_W, false> val(op2); ap_int_base<8 + _AP_W, false> ret(op1); ret <<= 8; if (true) { val <<= _AP_W; val >>= _AP_W; } ret |= val; return ret; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) ap_int_base<_AP_W + 8, false> operator,( signed char op1, const ap_int_base<_AP_W, _AP_S> &op2) { ap_int_base<8 + _AP_W, false> val(op1); ap_int_base<8 + _AP_W, false> ret(op2); if (_AP_S) { ret <<= 8; ret >>= 8; } ret |= val << _AP_W; return ret; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) ap_int_base<_AP_W + 8, false> operator,( const ap_range_ref<_AP_W, _AP_S> &op1, signed char op2) { ap_int_base<8 + _AP_W, false> val(op2); ap_int_base<8 + _AP_W, false> ret(op1); ret <<= 8; if (true) { val <<= _AP_W; val >>= _AP_W; } ret |= val; return ret; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) ap_int_base<_AP_W + 8, false> operator,( signed char op1, const ap_range_ref<_AP_W, _AP_S> &op2) { ap_int_base<8 + _AP_W, false> val(op1); ap_int_base<8 + _AP_W, false> ret(op2); int len = op2.length(); val <<= len; ret |= val; return ret; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) ap_int_base<8 + 1, false> operator,( const ap_bit_ref<_AP_W, _AP_S> &op1, signed char op2) { ap_int_base<8 + 1, false> val(op2); val[8] = op1; return val; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) ap_int_base<8 + 1, false> operator,( signed char op1, const ap_bit_ref<_AP_W, _AP_S> &op2) { ap_int_base<8 + 1, false> val(op1); val <<= 1; val[0] = op2; return val; } template <int _AP_W, typename _AP_T, int _AP_W2, typename _AP_T2> inline __attribute__((always_inline)) ap_int_base<_AP_W + _AP_W2 + 8, false> operator,( const ap_concat_ref<_AP_W, _AP_T, _AP_W2, _AP_T2> &op1, signed char op2) { ap_int_base<8 + _AP_W + _AP_W2, true> val(op2); ap_int_base<8 + _AP_W + _AP_W2, true> ret(op1); if (true) { val <<= _AP_W + _AP_W2; val >>= _AP_W + _AP_W2; } ret <<= 8; ret |= val; return ret; } template <int _AP_W, typename _AP_T, int _AP_W2, typename _AP_T2> inline __attribute__((always_inline)) ap_int_base<_AP_W + _AP_W2 + 8, false> operator,( signed char op1, const ap_concat_ref<_AP_W, _AP_T, _AP_W2, _AP_T2> &op2) { ap_int_base<8 + _AP_W + _AP_W2, true> val(op1); ap_int_base<8 + _AP_W + _AP_W2, true> ret(op2); int len = op2.length(); val <<= len; ret |= val; return ret; } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) ap_int_base<_AP_W + 8, false> operator,( const af_range_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N> &op1, signed char op2) { ap_int_base<8 + _AP_W, false> val(op2); ap_int_base<8 + _AP_W, false> ret(op1); if (true) { val <<= _AP_W; val >>= _AP_W; } ret <<= 8; ret |= val; return ret; } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) ap_int_base<_AP_W + 8, false> operator,( signed char op1, const af_range_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N> &op2) { ap_int_base<8 + _AP_W, false> val(op1); ap_int_base<8 + _AP_W, false> ret(op2); int len = op2.length(); val <<= len; ret |= val; return ret; } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) ap_int_base<1 + 8, false> operator,( const af_bit_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N> &op1, signed char op2) { ap_int_base<8 + 1, true> val(op2); val[8] = op1; return val; } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) ap_int_base<1 + 8, false> operator,( signed char op1, const af_bit_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N> &op2) { ap_int_base<8 + 1, true> val(op1); val <<= 1; val[0] = op2; return val; }
@@ -3557,7 +3557,7 @@ template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) ap_int_ba
 template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) ap_int_base<_AP_W + _AP_SIZE_long, false> operator,( const ap_int_base<_AP_W, _AP_S> &op1, unsigned long op2) { ap_int_base<_AP_SIZE_long + _AP_W, false> val(op2); ap_int_base<_AP_SIZE_long + _AP_W, false> ret(op1); ret <<= _AP_SIZE_long; if (false) { val <<= _AP_W; val >>= _AP_W; } ret |= val; return ret; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) ap_int_base<_AP_W + _AP_SIZE_long, false> operator,( unsigned long op1, const ap_int_base<_AP_W, _AP_S> &op2) { ap_int_base<_AP_SIZE_long + _AP_W, false> val(op1); ap_int_base<_AP_SIZE_long + _AP_W, false> ret(op2); if (_AP_S) { ret <<= _AP_SIZE_long; ret >>= _AP_SIZE_long; } ret |= val << _AP_W; return ret; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) ap_int_base<_AP_W + _AP_SIZE_long, false> operator,( const ap_range_ref<_AP_W, _AP_S> &op1, unsigned long op2) { ap_int_base<_AP_SIZE_long + _AP_W, false> val(op2); ap_int_base<_AP_SIZE_long + _AP_W, false> ret(op1); ret <<= _AP_SIZE_long; if (false) { val <<= _AP_W; val >>= _AP_W; } ret |= val; return ret; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) ap_int_base<_AP_W + _AP_SIZE_long, false> operator,( unsigned long op1, const ap_range_ref<_AP_W, _AP_S> &op2) { ap_int_base<_AP_SIZE_long + _AP_W, false> val(op1); ap_int_base<_AP_SIZE_long + _AP_W, false> ret(op2); int len = op2.length(); val <<= len; ret |= val; return ret; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) ap_int_base<_AP_SIZE_long + 1, false> operator,( const ap_bit_ref<_AP_W, _AP_S> &op1, unsigned long op2) { ap_int_base<_AP_SIZE_long + 1, false> val(op2); val[_AP_SIZE_long] = op1; return val; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) ap_int_base<_AP_SIZE_long + 1, false> operator,( unsigned long op1, const ap_bit_ref<_AP_W, _AP_S> &op2) { ap_int_base<_AP_SIZE_long + 1, false> val(op1); val <<= 1; val[0] = op2; return val; } template <int _AP_W, typename _AP_T, int _AP_W2, typename _AP_T2> inline __attribute__((always_inline)) ap_int_base<_AP_W + _AP_W2 + _AP_SIZE_long, false> operator,( const ap_concat_ref<_AP_W, _AP_T, _AP_W2, _AP_T2> &op1, unsigned long op2) { ap_int_base<_AP_SIZE_long + _AP_W + _AP_W2, false> val(op2); ap_int_base<_AP_SIZE_long + _AP_W + _AP_W2, false> ret(op1); if (false) { val <<= _AP_W + _AP_W2; val >>= _AP_W + _AP_W2; } ret <<= _AP_SIZE_long; ret |= val; return ret; } template <int _AP_W, typename _AP_T, int _AP_W2, typename _AP_T2> inline __attribute__((always_inline)) ap_int_base<_AP_W + _AP_W2 + _AP_SIZE_long, false> operator,( unsigned long op1, const ap_concat_ref<_AP_W, _AP_T, _AP_W2, _AP_T2> &op2) { ap_int_base<_AP_SIZE_long + _AP_W + _AP_W2, false> val(op1); ap_int_base<_AP_SIZE_long + _AP_W + _AP_W2, false> ret(op2); int len = op2.length(); val <<= len; ret |= val; return ret; } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) ap_int_base<_AP_W + _AP_SIZE_long, false> operator,( const af_range_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N> &op1, unsigned long op2) { ap_int_base<_AP_SIZE_long + _AP_W, false> val(op2); ap_int_base<_AP_SIZE_long + _AP_W, false> ret(op1); if (false) { val <<= _AP_W; val >>= _AP_W; } ret <<= _AP_SIZE_long; ret |= val; return ret; } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) ap_int_base<_AP_W + _AP_SIZE_long, false> operator,( unsigned long op1, const af_range_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N> &op2) { ap_int_base<_AP_SIZE_long + _AP_W, false> val(op1); ap_int_base<_AP_SIZE_long + _AP_W, false> ret(op2); int len = op2.length(); val <<= len; ret |= val; return ret; } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) ap_int_base<1 + _AP_SIZE_long, false> operator,( const af_bit_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N> &op1, unsigned long op2) { ap_int_base<_AP_SIZE_long + 1, false> val(op2); val[_AP_SIZE_long] = op1; return val; } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) ap_int_base<1 + _AP_SIZE_long, false> operator,( unsigned long op1, const af_bit_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N> &op2) { ap_int_base<_AP_SIZE_long + 1, false> val(op1); val <<= 1; val[0] = op2; return val; }
 template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) ap_int_base<_AP_W + _AP_SIZE_ap_slong, false> operator,( const ap_int_base<_AP_W, _AP_S> &op1, ap_slong op2) { ap_int_base<_AP_SIZE_ap_slong + _AP_W, false> val(op2); ap_int_base<_AP_SIZE_ap_slong + _AP_W, false> ret(op1); ret <<= _AP_SIZE_ap_slong; if (true) { val <<= _AP_W; val >>= _AP_W; } ret |= val; return ret; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) ap_int_base<_AP_W + _AP_SIZE_ap_slong, false> operator,( ap_slong op1, const ap_int_base<_AP_W, _AP_S> &op2) { ap_int_base<_AP_SIZE_ap_slong + _AP_W, false> val(op1); ap_int_base<_AP_SIZE_ap_slong + _AP_W, false> ret(op2); if (_AP_S) { ret <<= _AP_SIZE_ap_slong; ret >>= _AP_SIZE_ap_slong; } ret |= val << _AP_W; return ret; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) ap_int_base<_AP_W + _AP_SIZE_ap_slong, false> operator,( const ap_range_ref<_AP_W, _AP_S> &op1, ap_slong op2) { ap_int_base<_AP_SIZE_ap_slong + _AP_W, false> val(op2); ap_int_base<_AP_SIZE_ap_slong + _AP_W, false> ret(op1); ret <<= _AP_SIZE_ap_slong; if (true) { val <<= _AP_W; val >>= _AP_W; } ret |= val; return ret; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) ap_int_base<_AP_W + _AP_SIZE_ap_slong, false> operator,( ap_slong op1, const ap_range_ref<_AP_W, _AP_S> &op2) { ap_int_base<_AP_SIZE_ap_slong + _AP_W, false> val(op1); ap_int_base<_AP_SIZE_ap_slong + _AP_W, false> ret(op2); int len = op2.length(); val <<= len; ret |= val; return ret; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) ap_int_base<_AP_SIZE_ap_slong + 1, false> operator,( const ap_bit_ref<_AP_W, _AP_S> &op1, ap_slong op2) { ap_int_base<_AP_SIZE_ap_slong + 1, false> val(op2); val[_AP_SIZE_ap_slong] = op1; return val; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) ap_int_base<_AP_SIZE_ap_slong + 1, false> operator,( ap_slong op1, const ap_bit_ref<_AP_W, _AP_S> &op2) { ap_int_base<_AP_SIZE_ap_slong + 1, false> val(op1); val <<= 1; val[0] = op2; return val; } template <int _AP_W, typename _AP_T, int _AP_W2, typename _AP_T2> inline __attribute__((always_inline)) ap_int_base<_AP_W + _AP_W2 + _AP_SIZE_ap_slong, false> operator,( const ap_concat_ref<_AP_W, _AP_T, _AP_W2, _AP_T2> &op1, ap_slong op2) { ap_int_base<_AP_SIZE_ap_slong + _AP_W + _AP_W2, true> val(op2); ap_int_base<_AP_SIZE_ap_slong + _AP_W + _AP_W2, true> ret(op1); if (true) { val <<= _AP_W + _AP_W2; val >>= _AP_W + _AP_W2; } ret <<= _AP_SIZE_ap_slong; ret |= val; return ret; } template <int _AP_W, typename _AP_T, int _AP_W2, typename _AP_T2> inline __attribute__((always_inline)) ap_int_base<_AP_W + _AP_W2 + _AP_SIZE_ap_slong, false> operator,( ap_slong op1, const ap_concat_ref<_AP_W, _AP_T, _AP_W2, _AP_T2> &op2) { ap_int_base<_AP_SIZE_ap_slong + _AP_W + _AP_W2, true> val(op1); ap_int_base<_AP_SIZE_ap_slong + _AP_W + _AP_W2, true> ret(op2); int len = op2.length(); val <<= len; ret |= val; return ret; } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) ap_int_base<_AP_W + _AP_SIZE_ap_slong, false> operator,( const af_range_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N> &op1, ap_slong op2) { ap_int_base<_AP_SIZE_ap_slong + _AP_W, false> val(op2); ap_int_base<_AP_SIZE_ap_slong + _AP_W, false> ret(op1); if (true) { val <<= _AP_W; val >>= _AP_W; } ret <<= _AP_SIZE_ap_slong; ret |= val; return ret; } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) ap_int_base<_AP_W + _AP_SIZE_ap_slong, false> operator,( ap_slong op1, const af_range_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N> &op2) { ap_int_base<_AP_SIZE_ap_slong + _AP_W, false> val(op1); ap_int_base<_AP_SIZE_ap_slong + _AP_W, false> ret(op2); int len = op2.length(); val <<= len; ret |= val; return ret; } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) ap_int_base<1 + _AP_SIZE_ap_slong, false> operator,( const af_bit_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N> &op1, ap_slong op2) { ap_int_base<_AP_SIZE_ap_slong + 1, true> val(op2); val[_AP_SIZE_ap_slong] = op1; return val; } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) ap_int_base<1 + _AP_SIZE_ap_slong, false> operator,( ap_slong op1, const af_bit_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N> &op2) { ap_int_base<_AP_SIZE_ap_slong + 1, true> val(op1); val <<= 1; val[0] = op2; return val; }
 template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) ap_int_base<_AP_W + _AP_SIZE_ap_slong, false> operator,( const ap_int_base<_AP_W, _AP_S> &op1, ap_ulong op2) { ap_int_base<_AP_SIZE_ap_slong + _AP_W, false> val(op2); ap_int_base<_AP_SIZE_ap_slong + _AP_W, false> ret(op1); ret <<= _AP_SIZE_ap_slong; if (false) { val <<= _AP_W; val >>= _AP_W; } ret |= val; return ret; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) ap_int_base<_AP_W + _AP_SIZE_ap_slong, false> operator,( ap_ulong op1, const ap_int_base<_AP_W, _AP_S> &op2) { ap_int_base<_AP_SIZE_ap_slong + _AP_W, false> val(op1); ap_int_base<_AP_SIZE_ap_slong + _AP_W, false> ret(op2); if (_AP_S) { ret <<= _AP_SIZE_ap_slong; ret >>= _AP_SIZE_ap_slong; } ret |= val << _AP_W; return ret; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) ap_int_base<_AP_W + _AP_SIZE_ap_slong, false> operator,( const ap_range_ref<_AP_W, _AP_S> &op1, ap_ulong op2) { ap_int_base<_AP_SIZE_ap_slong + _AP_W, false> val(op2); ap_int_base<_AP_SIZE_ap_slong + _AP_W, false> ret(op1); ret <<= _AP_SIZE_ap_slong; if (false) { val <<= _AP_W; val >>= _AP_W; } ret |= val; return ret; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) ap_int_base<_AP_W + _AP_SIZE_ap_slong, false> operator,( ap_ulong op1, const ap_range_ref<_AP_W, _AP_S> &op2) { ap_int_base<_AP_SIZE_ap_slong + _AP_W, false> val(op1); ap_int_base<_AP_SIZE_ap_slong + _AP_W, false> ret(op2); int len = op2.length(); val <<= len; ret |= val; return ret; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) ap_int_base<_AP_SIZE_ap_slong + 1, false> operator,( const ap_bit_ref<_AP_W, _AP_S> &op1, ap_ulong op2) { ap_int_base<_AP_SIZE_ap_slong + 1, false> val(op2); val[_AP_SIZE_ap_slong] = op1; return val; } template <int _AP_W, bool _AP_S> inline __attribute__((always_inline)) ap_int_base<_AP_SIZE_ap_slong + 1, false> operator,( ap_ulong op1, const ap_bit_ref<_AP_W, _AP_S> &op2) { ap_int_base<_AP_SIZE_ap_slong + 1, false> val(op1); val <<= 1; val[0] = op2; return val; } template <int _AP_W, typename _AP_T, int _AP_W2, typename _AP_T2> inline __attribute__((always_inline)) ap_int_base<_AP_W + _AP_W2 + _AP_SIZE_ap_slong, false> operator,( const ap_concat_ref<_AP_W, _AP_T, _AP_W2, _AP_T2> &op1, ap_ulong op2) { ap_int_base<_AP_SIZE_ap_slong + _AP_W + _AP_W2, false> val(op2); ap_int_base<_AP_SIZE_ap_slong + _AP_W + _AP_W2, false> ret(op1); if (false) { val <<= _AP_W + _AP_W2; val >>= _AP_W + _AP_W2; } ret <<= _AP_SIZE_ap_slong; ret |= val; return ret; } template <int _AP_W, typename _AP_T, int _AP_W2, typename _AP_T2> inline __attribute__((always_inline)) ap_int_base<_AP_W + _AP_W2 + _AP_SIZE_ap_slong, false> operator,( ap_ulong op1, const ap_concat_ref<_AP_W, _AP_T, _AP_W2, _AP_T2> &op2) { ap_int_base<_AP_SIZE_ap_slong + _AP_W + _AP_W2, false> val(op1); ap_int_base<_AP_SIZE_ap_slong + _AP_W + _AP_W2, false> ret(op2); int len = op2.length(); val <<= len; ret |= val; return ret; } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) ap_int_base<_AP_W + _AP_SIZE_ap_slong, false> operator,( const af_range_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N> &op1, ap_ulong op2) { ap_int_base<_AP_SIZE_ap_slong + _AP_W, false> val(op2); ap_int_base<_AP_SIZE_ap_slong + _AP_W, false> ret(op1); if (false) { val <<= _AP_W; val >>= _AP_W; } ret <<= _AP_SIZE_ap_slong; ret |= val; return ret; } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) ap_int_base<_AP_W + _AP_SIZE_ap_slong, false> operator,( ap_ulong op1, const af_range_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N> &op2) { ap_int_base<_AP_SIZE_ap_slong + _AP_W, false> val(op1); ap_int_base<_AP_SIZE_ap_slong + _AP_W, false> ret(op2); int len = op2.length(); val <<= len; ret |= val; return ret; } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) ap_int_base<1 + _AP_SIZE_ap_slong, false> operator,( const af_bit_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N> &op1, ap_ulong op2) { ap_int_base<_AP_SIZE_ap_slong + 1, false> val(op2); val[_AP_SIZE_ap_slong] = op1; return val; } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) ap_int_base<1 + _AP_SIZE_ap_slong, false> operator,( ap_ulong op1, const af_bit_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N> &op2) { ap_int_base<_AP_SIZE_ap_slong + 1, false> val(op1); val <<= 1; val[0] = op2; return val; }
-# 1360 "F:/Vivado/Vivado/2019.2/common/technology/autopilot\\ap_int_ref.h"
+# 1360 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot\\ap_int_ref.h"
 template <int _AP_W, typename _AP_T, int _AP_W1, typename _AP_T1> inline __attribute__((always_inline)) ap_uint<_AP_W + _AP_W1> operator <<( const ap_concat_ref<_AP_W, _AP_T, _AP_W1, _AP_T1> lhs, int rhs) { return ap_uint<_AP_W + _AP_W1>(lhs).get() << int(rhs); }
 template <int _AP_W, typename _AP_T, int _AP_W1, typename _AP_T1> inline __attribute__((always_inline)) ap_uint<_AP_W + _AP_W1> operator <<( const ap_concat_ref<_AP_W, _AP_T, _AP_W1, _AP_T1> lhs, unsigned int rhs) { return ap_uint<_AP_W + _AP_W1>(lhs).get() << int(rhs); }
 template <int _AP_W, typename _AP_T, int _AP_W1, typename _AP_T1> inline __attribute__((always_inline)) ap_uint<_AP_W + _AP_W1> operator <<( const ap_concat_ref<_AP_W, _AP_T, _AP_W1, _AP_T1> lhs, long rhs) { return ap_uint<_AP_W + _AP_W1>(lhs).get() << int(rhs); }
@@ -3571,7 +3571,7 @@ template <int _AP_W, typename _AP_T, int _AP_W1, typename _AP_T1> inline __attri
 template <int _AP_W, typename _AP_T, int _AP_W1, typename _AP_T1> inline __attribute__((always_inline)) ap_uint<_AP_W + _AP_W1> operator >>( const ap_concat_ref<_AP_W, _AP_T, _AP_W1, _AP_T1> lhs, unsigned long rhs) { return ap_uint<_AP_W + _AP_W1>(lhs).get() >> int(rhs); }
 template <int _AP_W, typename _AP_T, int _AP_W1, typename _AP_T1> inline __attribute__((always_inline)) ap_uint<_AP_W + _AP_W1> operator >>( const ap_concat_ref<_AP_W, _AP_T, _AP_W1, _AP_T1> lhs, ap_slong rhs) { return ap_uint<_AP_W + _AP_W1>(lhs).get() >> int(rhs); }
 template <int _AP_W, typename _AP_T, int _AP_W1, typename _AP_T1> inline __attribute__((always_inline)) ap_uint<_AP_W + _AP_W1> operator >>( const ap_concat_ref<_AP_W, _AP_T, _AP_W1, _AP_T1> lhs, ap_ulong rhs) { return ap_uint<_AP_W + _AP_W1>(lhs).get() >> int(rhs); }
-# 57 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/ap_int.h" 2
+# 57 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/ap_int.h" 2
 
 
 
@@ -3600,7 +3600,7 @@ struct ap_int : ap_int_base<_AP_W, true> {
   inline __attribute__((always_inline)) ap_int(const volatile ap_uint<_AP_W2>& op) {
     Base::V = op.V;
   }
-# 95 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/ap_int.h"
+# 95 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/ap_int.h"
   template <int _AP_W2, bool _AP_S2>
   inline __attribute__((always_inline)) ap_int(const ap_range_ref<_AP_W2, _AP_S2>& ref) : Base(ref) {}
 
@@ -3732,7 +3732,7 @@ struct ap_uint : ap_int_base<_AP_W, false> {
   inline __attribute__((always_inline)) ap_uint(const volatile ap_int<_AP_W2>& op) {
     Base::V = op.V;
   }
-# 236 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/ap_int.h"
+# 236 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/ap_int.h"
   template <int _AP_W2, bool _AP_S2>
   inline __attribute__((always_inline)) ap_uint(const ap_range_ref<_AP_W2, _AP_S2>& ref) : Base(ref) {}
 
@@ -3836,9 +3836,9 @@ struct ap_uint : ap_int_base<_AP_W, false> {
   }
 
 };
-# 359 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/ap_int.h"
-# 1 "F:/Vivado/Vivado/2019.2/common/technology/autopilot\\ap_int_special.h" 1
-# 61 "F:/Vivado/Vivado/2019.2/common/technology/autopilot\\ap_int_special.h"
+# 359 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/ap_int.h"
+# 1 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot\\ap_int_special.h" 1
+# 61 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot\\ap_int_special.h"
 namespace std {
 template<typename _Tp> class complex;
 }
@@ -3850,7 +3850,7 @@ template<typename _Tp> class complex;
 
 
 namespace std {
-# 89 "F:/Vivado/Vivado/2019.2/common/technology/autopilot\\ap_int_special.h"
+# 89 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot\\ap_int_special.h"
 template <int _AP_W>
 class complex<ap_int<_AP_W> > {
  public:
@@ -3975,7 +3975,7 @@ class complex<ap_int<_AP_W> > {
   _Tp _M_imag;
 
 };
-# 222 "F:/Vivado/Vivado/2019.2/common/technology/autopilot\\ap_int_special.h"
+# 222 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot\\ap_int_special.h"
 template <int _AP_W>
 inline bool operator==(const complex<ap_int<_AP_W> > &__x, const ap_int<_AP_W> &__y) {
   return __x.real() == __y &&
@@ -4004,7 +4004,7 @@ inline bool operator!=(const ap_int<_AP_W> &__x, const complex<ap_int<_AP_W> > &
 }
 
 }
-# 360 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/ap_int.h" 2
+# 360 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/ap_int.h" 2
 
 
 
@@ -4012,13 +4012,13 @@ inline bool operator!=(const ap_int<_AP_W> &__x, const complex<ap_int<_AP_W> > &
 
 
 
-# 1 "F:/Vivado/Vivado/2019.2/common/technology/autopilot\\ap_fixed.h" 1
-# 55 "F:/Vivado/Vivado/2019.2/common/technology/autopilot\\ap_fixed.h"
-# 1 "F:/Vivado/Vivado/2019.2/common/technology/autopilot\\ap_fixed_base.h" 1
-# 62 "F:/Vivado/Vivado/2019.2/common/technology/autopilot\\ap_fixed_base.h"
-# 1 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/ap_int.h" 1
-# 63 "F:/Vivado/Vivado/2019.2/common/technology/autopilot\\ap_fixed_base.h" 2
-# 133 "F:/Vivado/Vivado/2019.2/common/technology/autopilot\\ap_fixed_base.h"
+# 1 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot\\ap_fixed.h" 1
+# 55 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot\\ap_fixed.h"
+# 1 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot\\ap_fixed_base.h" 1
+# 62 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot\\ap_fixed_base.h"
+# 1 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/ap_int.h" 1
+# 63 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot\\ap_fixed_base.h" 2
+# 133 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot\\ap_fixed_base.h"
 template <int _AP_W2, int _AP_I2, bool _AP_S2>
 struct _ap_fixed_factory;
 template <int _AP_W2, int _AP_I2>
@@ -4029,7 +4029,7 @@ template <int _AP_W2, int _AP_I2>
 struct _ap_fixed_factory<_AP_W2, _AP_I2, false> {
   typedef ap_ufixed<_AP_W2, _AP_I2> type;
 };
-# 154 "F:/Vivado/Vivado/2019.2/common/technology/autopilot\\ap_fixed_base.h"
+# 154 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot\\ap_fixed_base.h"
 template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O,
           int _AP_N>
 struct ap_fixed_base : ssdm_int<_AP_W, _AP_S> {
@@ -4093,7 +4093,7 @@ struct ap_fixed_base : ssdm_int<_AP_W, _AP_S> {
   };
 
  private:
-# 333 "F:/Vivado/Vivado/2019.2/common/technology/autopilot\\ap_fixed_base.h"
+# 333 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot\\ap_fixed_base.h"
   inline __attribute__((always_inline)) void report() {}
 
 
@@ -4219,7 +4219,7 @@ struct ap_fixed_base : ssdm_int<_AP_W, _AP_S> {
     operator=(tmp);
     report();
   }
-# 477 "F:/Vivado/Vivado/2019.2/common/technology/autopilot\\ap_fixed_base.h"
+# 477 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot\\ap_fixed_base.h"
   inline __attribute__((always_inline)) ap_fixed_base(const char* s) {
     typeof(Base::V) t;
     _ssdm_string2bits((void*)(&t), (const char*)(s), 10, _AP_I, _AP_S, _AP_Q,
@@ -4268,7 +4268,7 @@ struct ap_fixed_base : ssdm_int<_AP_W, _AP_S> {
     *this = (ap_int_base<_AP_W2, false>(op));
     report();
   }
-# 535 "F:/Vivado/Vivado/2019.2/common/technology/autopilot\\ap_fixed_base.h"
+# 535 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot\\ap_fixed_base.h"
   inline __attribute__((always_inline)) ap_fixed_base(const bool x) { ap_fixed_base<(1), (1), (false)> tmp; tmp.V = x; *this = tmp; }
   inline __attribute__((always_inline)) ap_fixed_base(const char x) { ap_fixed_base<(8), (8), (CHAR_IS_SIGNED)> tmp; tmp.V = x; *this = tmp; }
   inline __attribute__((always_inline)) ap_fixed_base(const signed char x) { ap_fixed_base<(8), (8), (true)> tmp; tmp.V = x; *this = tmp; }
@@ -4410,7 +4410,7 @@ struct ap_fixed_base : ssdm_int<_AP_W, _AP_S> {
 
 
   inline __attribute__((always_inline)) ap_fixed_base(half d) { *this = ap_fixed_base(double(d)); }
-# 688 "F:/Vivado/Vivado/2019.2/common/technology/autopilot\\ap_fixed_base.h"
+# 688 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot\\ap_fixed_base.h"
   template <int _AP_W2, int _AP_I2, bool _AP_S2, ap_q_mode _AP_Q2,
             ap_o_mode _AP_O2, int _AP_N2>
   inline __attribute__((always_inline)) ap_fixed_base& operator=(
@@ -4563,7 +4563,7 @@ struct ap_fixed_base : ssdm_int<_AP_W, _AP_S> {
       ret.V = ({ typename _ap_type::remove_const<typeof(Base::V)>::type __Result__ = 0; typeof(Base::V) __Val2__ = Base::V; __builtin_bit_part_select((void*)(&__Result__), (void*)(&__Val2__), 0, _AP_W - 1); __Result__; });
       ret.V <<= (_AP_I - _AP_W);
     }
-# 848 "F:/Vivado/Vivado/2019.2/common/technology/autopilot\\ap_fixed_base.h"
+# 848 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot\\ap_fixed_base.h"
     if (Cnative && _AP_I < _AP_W) {
 
       if (_AP_S && ({ typeof(Base::V) __Val2__ = Base::V; bool __Result__ = __builtin_bit_select((void*)(&__Val2__), _AP_W - 1); __Result__; }) && (_AP_I < _AP_W) &&
@@ -4778,7 +4778,7 @@ struct ap_fixed_base : ssdm_int<_AP_W, _AP_S> {
   inline __attribute__((always_inline)) operator ap_slong() const { return to_int64(); }
 
   inline __attribute__((always_inline)) int length() const { return _AP_W; };
-# 1074 "F:/Vivado/Vivado/2019.2/common/technology/autopilot\\ap_fixed_base.h"
+# 1074 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot\\ap_fixed_base.h"
   inline __attribute__((always_inline)) int countLeadingZeros() {
 
 
@@ -4835,22 +4835,22 @@ struct ap_fixed_base : ssdm_int<_AP_W, _AP_S> {
       const ap_fixed_base<_AP_W2, _AP_I2, _AP_S2, _AP_Q2, _AP_O2, _AP_N2>& op2)
       const {
     typename RType<_AP_W2, _AP_I2, _AP_S2>::div_base r;
-# 1144 "F:/Vivado/Vivado/2019.2/common/technology/autopilot\\ap_fixed_base.h"
+# 1144 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot\\ap_fixed_base.h"
         ap_fixed_base<_AP_W + ((_AP_W2 - _AP_I2) > (0) ? (_AP_W2 - _AP_I2) : (0)),_AP_I, _AP_S> t(*this);
 
 
 
         r.V = t.V / op2.V;
-# 1177 "F:/Vivado/Vivado/2019.2/common/technology/autopilot\\ap_fixed_base.h"
+# 1177 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot\\ap_fixed_base.h"
     return r;
   }
-# 1192 "F:/Vivado/Vivado/2019.2/common/technology/autopilot\\ap_fixed_base.h"
+# 1192 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot\\ap_fixed_base.h"
   template <int _AP_W2, int _AP_I2, bool _AP_S2, ap_q_mode _AP_Q2, ap_o_mode _AP_O2, int _AP_N2> inline __attribute__((always_inline)) typename RType<_AP_W2, _AP_I2, _AP_S2>::plus operator +( const ap_fixed_base<_AP_W2, _AP_I2, _AP_S2, _AP_Q2, _AP_O2, _AP_N2>& op2) const { typename RType<_AP_W2, _AP_I2, _AP_S2>:: plus_base ret, lhs(*this), rhs(op2); ret.V = lhs.V + rhs.V; return ret; }
   template <int _AP_W2, int _AP_I2, bool _AP_S2, ap_q_mode _AP_Q2, ap_o_mode _AP_O2, int _AP_N2> inline __attribute__((always_inline)) typename RType<_AP_W2, _AP_I2, _AP_S2>::minus operator -( const ap_fixed_base<_AP_W2, _AP_I2, _AP_S2, _AP_Q2, _AP_O2, _AP_N2>& op2) const { typename RType<_AP_W2, _AP_I2, _AP_S2>:: minus_base ret, lhs(*this), rhs(op2); ret.V = lhs.V - rhs.V; return ret; }
   template <int _AP_W2, int _AP_I2, bool _AP_S2, ap_q_mode _AP_Q2, ap_o_mode _AP_O2, int _AP_N2> inline __attribute__((always_inline)) typename RType<_AP_W2, _AP_I2, _AP_S2>::logic operator &( const ap_fixed_base<_AP_W2, _AP_I2, _AP_S2, _AP_Q2, _AP_O2, _AP_N2>& op2) const { typename RType<_AP_W2, _AP_I2, _AP_S2>:: logic_base ret, lhs(*this), rhs(op2); ret.V = lhs.V & rhs.V; return ret; }
   template <int _AP_W2, int _AP_I2, bool _AP_S2, ap_q_mode _AP_Q2, ap_o_mode _AP_O2, int _AP_N2> inline __attribute__((always_inline)) typename RType<_AP_W2, _AP_I2, _AP_S2>::logic operator |( const ap_fixed_base<_AP_W2, _AP_I2, _AP_S2, _AP_Q2, _AP_O2, _AP_N2>& op2) const { typename RType<_AP_W2, _AP_I2, _AP_S2>:: logic_base ret, lhs(*this), rhs(op2); ret.V = lhs.V | rhs.V; return ret; }
   template <int _AP_W2, int _AP_I2, bool _AP_S2, ap_q_mode _AP_Q2, ap_o_mode _AP_O2, int _AP_N2> inline __attribute__((always_inline)) typename RType<_AP_W2, _AP_I2, _AP_S2>::logic operator ^( const ap_fixed_base<_AP_W2, _AP_I2, _AP_S2, _AP_Q2, _AP_O2, _AP_N2>& op2) const { typename RType<_AP_W2, _AP_I2, _AP_S2>:: logic_base ret, lhs(*this), rhs(op2); ret.V = lhs.V ^ rhs.V; return ret; }
-# 1210 "F:/Vivado/Vivado/2019.2/common/technology/autopilot\\ap_fixed_base.h"
+# 1210 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot\\ap_fixed_base.h"
   template <int _AP_W2, int _AP_I2, bool _AP_S2, ap_q_mode _AP_Q2, ap_o_mode _AP_O2, int _AP_N2> inline __attribute__((always_inline)) ap_fixed_base& operator *=( const ap_fixed_base<_AP_W2, _AP_I2, _AP_S2, _AP_Q2, _AP_O2, _AP_N2>& op2) { *this = operator *(op2); return *this; }
   template <int _AP_W2, int _AP_I2, bool _AP_S2, ap_q_mode _AP_Q2, ap_o_mode _AP_O2, int _AP_N2> inline __attribute__((always_inline)) ap_fixed_base& operator /=( const ap_fixed_base<_AP_W2, _AP_I2, _AP_S2, _AP_Q2, _AP_O2, _AP_N2>& op2) { *this = operator /(op2); return *this; }
   template <int _AP_W2, int _AP_I2, bool _AP_S2, ap_q_mode _AP_Q2, ap_o_mode _AP_O2, int _AP_N2> inline __attribute__((always_inline)) ap_fixed_base& operator +=( const ap_fixed_base<_AP_W2, _AP_I2, _AP_S2, _AP_Q2, _AP_O2, _AP_N2>& op2) { *this = operator +(op2); return *this; }
@@ -4941,14 +4941,14 @@ struct ap_fixed_base : ssdm_int<_AP_W, _AP_S> {
   inline __attribute__((always_inline)) ap_fixed_base operator<<(unsigned int sh) const {
     ap_fixed_base r;
     r.V = Base::V << sh;
-# 1328 "F:/Vivado/Vivado/2019.2/common/technology/autopilot\\ap_fixed_base.h"
+# 1328 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot\\ap_fixed_base.h"
     return r;
   }
 
   inline __attribute__((always_inline)) ap_fixed_base operator>>(unsigned int sh) const {
     ap_fixed_base r;
     r.V = Base::V >> sh;
-# 1350 "F:/Vivado/Vivado/2019.2/common/technology/autopilot\\ap_fixed_base.h"
+# 1350 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot\\ap_fixed_base.h"
     return r;
   }
 
@@ -5073,7 +5073,7 @@ struct ap_fixed_base : ssdm_int<_AP_W, _AP_S> {
     *this = operator>>(sh.to_int());
     return *this;
   }
-# 1494 "F:/Vivado/Vivado/2019.2/common/technology/autopilot\\ap_fixed_base.h"
+# 1494 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot\\ap_fixed_base.h"
   template <int _AP_W2, int _AP_I2, bool _AP_S2, ap_q_mode _AP_Q2, ap_o_mode _AP_O2, int _AP_N2> inline __attribute__((always_inline)) bool operator >(const ap_fixed_base<_AP_W2, _AP_I2, _AP_S2, _AP_Q2, _AP_O2, _AP_N2>& op2) const { enum { _AP_F = _AP_W - _AP_I, F2 = _AP_W2 - _AP_I2 }; if (_AP_F == F2) return Base::V > op2.V; else if (_AP_F > F2) return Base::V > ap_fixed_base<((_AP_W2 + _AP_F - F2) > (1) ? (_AP_W2 + _AP_F - F2) : (1)), _AP_I2, _AP_S2, _AP_Q2, _AP_O2, _AP_N2>(op2).V; else return ap_fixed_base<((_AP_W + F2 - _AP_F + 1) > (1) ? (_AP_W + F2 - _AP_F + 1) : (1)), _AP_I + 1, _AP_S, _AP_Q, _AP_O, _AP_N>(*this).V > op2.V; return false; }
   template <int _AP_W2, int _AP_I2, bool _AP_S2, ap_q_mode _AP_Q2, ap_o_mode _AP_O2, int _AP_N2> inline __attribute__((always_inline)) bool operator <(const ap_fixed_base<_AP_W2, _AP_I2, _AP_S2, _AP_Q2, _AP_O2, _AP_N2>& op2) const { enum { _AP_F = _AP_W - _AP_I, F2 = _AP_W2 - _AP_I2 }; if (_AP_F == F2) return Base::V < op2.V; else if (_AP_F > F2) return Base::V < ap_fixed_base<((_AP_W2 + _AP_F - F2) > (1) ? (_AP_W2 + _AP_F - F2) : (1)), _AP_I2, _AP_S2, _AP_Q2, _AP_O2, _AP_N2>(op2).V; else return ap_fixed_base<((_AP_W + F2 - _AP_F + 1) > (1) ? (_AP_W + F2 - _AP_F + 1) : (1)), _AP_I + 1, _AP_S, _AP_Q, _AP_O, _AP_N>(*this).V < op2.V; return false; }
   template <int _AP_W2, int _AP_I2, bool _AP_S2, ap_q_mode _AP_Q2, ap_o_mode _AP_O2, int _AP_N2> inline __attribute__((always_inline)) bool operator >=(const ap_fixed_base<_AP_W2, _AP_I2, _AP_S2, _AP_Q2, _AP_O2, _AP_N2>& op2) const { enum { _AP_F = _AP_W - _AP_I, F2 = _AP_W2 - _AP_I2 }; if (_AP_F == F2) return Base::V >= op2.V; else if (_AP_F > F2) return Base::V >= ap_fixed_base<((_AP_W2 + _AP_F - F2) > (1) ? (_AP_W2 + _AP_F - F2) : (1)), _AP_I2, _AP_S2, _AP_Q2, _AP_O2, _AP_N2>(op2).V; else return ap_fixed_base<((_AP_W + F2 - _AP_F + 1) > (1) ? (_AP_W + F2 - _AP_F + 1) : (1)), _AP_I + 1, _AP_S, _AP_Q, _AP_O, _AP_N>(*this).V >= op2.V; return false; }
@@ -5149,7 +5149,7 @@ struct ap_fixed_base : ssdm_int<_AP_W, _AP_S> {
     return ({ typeof(const_cast<ap_fixed_base*>(this)->V) __Val2__ = const_cast<ap_fixed_base*>(this)->V; bool __Result__ = __builtin_bit_select((void*)(&__Val2__), index + _AP_W - _AP_I); __Result__; });
 
   }
-# 1580 "F:/Vivado/Vivado/2019.2/common/technology/autopilot\\ap_fixed_base.h"
+# 1580 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot\\ap_fixed_base.h"
   template <int _AP_W2>
   inline __attribute__((always_inline)) bool get_bit(const ap_int_base<_AP_W2, true>& index) const {
     (static_cast<void>(0));
@@ -5242,7 +5242,7 @@ struct ap_fixed_base : ssdm_int<_AP_W, _AP_S> {
   inline __attribute__((always_inline)) ap_o_mode o_mode() const { return _AP_O; }
 
   inline __attribute__((always_inline)) int n_bits() const { return _AP_N; }
-# 1763 "F:/Vivado/Vivado/2019.2/common/technology/autopilot\\ap_fixed_base.h"
+# 1763 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot\\ap_fixed_base.h"
   inline __attribute__((always_inline)) char* to_string(unsigned char radix = 2, bool sign = _AP_S) const {
     return 0;
   }
@@ -5340,7 +5340,7 @@ inline __attribute__((always_inline)) void rshift(
 
   ret = t;
 }
-# 2213 "F:/Vivado/Vivado/2019.2/common/technology/autopilot\\ap_fixed_base.h"
+# 2213 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot\\ap_fixed_base.h"
 template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W, _AP_I, _AP_S>::template RType< (1), (1), (false)>::plus operator +( const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, bool i_op) { return op.operator +(ap_fixed_base<(1), (1), (false)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W, _AP_I, _AP_S>::template RType< (1), (1), (false)>::plus operator +( bool i_op, const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_fixed_base<(1), (1), (false)>(i_op).operator +(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W, _AP_I, _AP_S>::template RType< (1), (1), (false)>::minus operator -( const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, bool i_op) { return op.operator -(ap_fixed_base<(1), (1), (false)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W, _AP_I, _AP_S>::template RType< (1), (1), (false)>::minus operator -( bool i_op, const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_fixed_base<(1), (1), (false)>(i_op).operator -(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W, _AP_I, _AP_S>::template RType< (1), (1), (false)>::mult operator *( const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, bool i_op) { return op.operator *(ap_fixed_base<(1), (1), (false)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W, _AP_I, _AP_S>::template RType< (1), (1), (false)>::mult operator *( bool i_op, const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_fixed_base<(1), (1), (false)>(i_op).operator *(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W, _AP_I, _AP_S>::template RType< (1), (1), (false)>::div operator /( const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, bool i_op) { return op.operator /(ap_fixed_base<(1), (1), (false)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W, _AP_I, _AP_S>::template RType< (1), (1), (false)>::div operator /( bool i_op, const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_fixed_base<(1), (1), (false)>(i_op).operator /(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W, _AP_I, _AP_S>::template RType< (1), (1), (false)>::logic operator &( const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, bool i_op) { return op.operator &(ap_fixed_base<(1), (1), (false)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W, _AP_I, _AP_S>::template RType< (1), (1), (false)>::logic operator &( bool i_op, const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_fixed_base<(1), (1), (false)>(i_op).operator &(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W, _AP_I, _AP_S>::template RType< (1), (1), (false)>::logic operator |( const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, bool i_op) { return op.operator |(ap_fixed_base<(1), (1), (false)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W, _AP_I, _AP_S>::template RType< (1), (1), (false)>::logic operator |( bool i_op, const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_fixed_base<(1), (1), (false)>(i_op).operator |(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W, _AP_I, _AP_S>::template RType< (1), (1), (false)>::logic operator ^( const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, bool i_op) { return op.operator ^(ap_fixed_base<(1), (1), (false)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W, _AP_I, _AP_S>::template RType< (1), (1), (false)>::logic operator ^( bool i_op, const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_fixed_base<(1), (1), (false)>(i_op).operator ^(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W, _AP_I, _AP_S>::template RType< (1), (1), (false)>::lhs operator >>( const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, bool i_op) { return op.operator >>(ap_int_base<(1), (false)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W, _AP_I, _AP_S>::template RType< (1), (1), (false)>::lhs operator <<( const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, bool i_op) { return op.operator <<(ap_int_base<(1), (false)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& operator +=( ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, bool i_op) { return op.operator +=(ap_fixed_base<(1), (1), (false)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& operator -=( ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, bool i_op) { return op.operator -=(ap_fixed_base<(1), (1), (false)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& operator *=( ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, bool i_op) { return op.operator *=(ap_fixed_base<(1), (1), (false)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& operator /=( ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, bool i_op) { return op.operator /=(ap_fixed_base<(1), (1), (false)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& operator &=( ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, bool i_op) { return op.operator &=(ap_fixed_base<(1), (1), (false)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& operator |=( ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, bool i_op) { return op.operator |=(ap_fixed_base<(1), (1), (false)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& operator ^=( ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, bool i_op) { return op.operator ^=(ap_fixed_base<(1), (1), (false)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& operator >>=( ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, bool i_op) { return op.operator >>=(ap_int_base<(1), (false)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& operator <<=( ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, bool i_op) { return op.operator <<=(ap_int_base<(1), (false)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator >( const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, bool i_op) { return op.operator >(ap_fixed_base<(1), (1), (false)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator >( bool i_op, const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_fixed_base<(1), (1), (false)>(i_op).operator >(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator <( const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, bool i_op) { return op.operator <(ap_fixed_base<(1), (1), (false)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator <( bool i_op, const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_fixed_base<(1), (1), (false)>(i_op).operator <(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator >=( const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, bool i_op) { return op.operator >=(ap_fixed_base<(1), (1), (false)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator >=( bool i_op, const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_fixed_base<(1), (1), (false)>(i_op).operator >=(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator <=( const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, bool i_op) { return op.operator <=(ap_fixed_base<(1), (1), (false)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator <=( bool i_op, const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_fixed_base<(1), (1), (false)>(i_op).operator <=(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator ==( const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, bool i_op) { return op.operator ==(ap_fixed_base<(1), (1), (false)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator ==( bool i_op, const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_fixed_base<(1), (1), (false)>(i_op).operator ==(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator !=( const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, bool i_op) { return op.operator !=(ap_fixed_base<(1), (1), (false)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator !=( bool i_op, const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_fixed_base<(1), (1), (false)>(i_op).operator !=(op); }
 template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W, _AP_I, _AP_S>::template RType< (8), (8), (CHAR_IS_SIGNED)>::plus operator +( const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, char i_op) { return op.operator +(ap_fixed_base<(8), (8), (CHAR_IS_SIGNED)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W, _AP_I, _AP_S>::template RType< (8), (8), (CHAR_IS_SIGNED)>::plus operator +( char i_op, const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_fixed_base<(8), (8), (CHAR_IS_SIGNED)>(i_op).operator +(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W, _AP_I, _AP_S>::template RType< (8), (8), (CHAR_IS_SIGNED)>::minus operator -( const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, char i_op) { return op.operator -(ap_fixed_base<(8), (8), (CHAR_IS_SIGNED)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W, _AP_I, _AP_S>::template RType< (8), (8), (CHAR_IS_SIGNED)>::minus operator -( char i_op, const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_fixed_base<(8), (8), (CHAR_IS_SIGNED)>(i_op).operator -(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W, _AP_I, _AP_S>::template RType< (8), (8), (CHAR_IS_SIGNED)>::mult operator *( const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, char i_op) { return op.operator *(ap_fixed_base<(8), (8), (CHAR_IS_SIGNED)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W, _AP_I, _AP_S>::template RType< (8), (8), (CHAR_IS_SIGNED)>::mult operator *( char i_op, const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_fixed_base<(8), (8), (CHAR_IS_SIGNED)>(i_op).operator *(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W, _AP_I, _AP_S>::template RType< (8), (8), (CHAR_IS_SIGNED)>::div operator /( const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, char i_op) { return op.operator /(ap_fixed_base<(8), (8), (CHAR_IS_SIGNED)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W, _AP_I, _AP_S>::template RType< (8), (8), (CHAR_IS_SIGNED)>::div operator /( char i_op, const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_fixed_base<(8), (8), (CHAR_IS_SIGNED)>(i_op).operator /(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W, _AP_I, _AP_S>::template RType< (8), (8), (CHAR_IS_SIGNED)>::logic operator &( const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, char i_op) { return op.operator &(ap_fixed_base<(8), (8), (CHAR_IS_SIGNED)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W, _AP_I, _AP_S>::template RType< (8), (8), (CHAR_IS_SIGNED)>::logic operator &( char i_op, const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_fixed_base<(8), (8), (CHAR_IS_SIGNED)>(i_op).operator &(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W, _AP_I, _AP_S>::template RType< (8), (8), (CHAR_IS_SIGNED)>::logic operator |( const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, char i_op) { return op.operator |(ap_fixed_base<(8), (8), (CHAR_IS_SIGNED)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W, _AP_I, _AP_S>::template RType< (8), (8), (CHAR_IS_SIGNED)>::logic operator |( char i_op, const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_fixed_base<(8), (8), (CHAR_IS_SIGNED)>(i_op).operator |(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W, _AP_I, _AP_S>::template RType< (8), (8), (CHAR_IS_SIGNED)>::logic operator ^( const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, char i_op) { return op.operator ^(ap_fixed_base<(8), (8), (CHAR_IS_SIGNED)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W, _AP_I, _AP_S>::template RType< (8), (8), (CHAR_IS_SIGNED)>::logic operator ^( char i_op, const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_fixed_base<(8), (8), (CHAR_IS_SIGNED)>(i_op).operator ^(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W, _AP_I, _AP_S>::template RType< (8), (8), (CHAR_IS_SIGNED)>::lhs operator >>( const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, char i_op) { return op.operator >>(ap_int_base<(8), (CHAR_IS_SIGNED)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W, _AP_I, _AP_S>::template RType< (8), (8), (CHAR_IS_SIGNED)>::lhs operator <<( const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, char i_op) { return op.operator <<(ap_int_base<(8), (CHAR_IS_SIGNED)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& operator +=( ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, char i_op) { return op.operator +=(ap_fixed_base<(8), (8), (CHAR_IS_SIGNED)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& operator -=( ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, char i_op) { return op.operator -=(ap_fixed_base<(8), (8), (CHAR_IS_SIGNED)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& operator *=( ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, char i_op) { return op.operator *=(ap_fixed_base<(8), (8), (CHAR_IS_SIGNED)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& operator /=( ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, char i_op) { return op.operator /=(ap_fixed_base<(8), (8), (CHAR_IS_SIGNED)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& operator &=( ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, char i_op) { return op.operator &=(ap_fixed_base<(8), (8), (CHAR_IS_SIGNED)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& operator |=( ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, char i_op) { return op.operator |=(ap_fixed_base<(8), (8), (CHAR_IS_SIGNED)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& operator ^=( ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, char i_op) { return op.operator ^=(ap_fixed_base<(8), (8), (CHAR_IS_SIGNED)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& operator >>=( ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, char i_op) { return op.operator >>=(ap_int_base<(8), (CHAR_IS_SIGNED)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& operator <<=( ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, char i_op) { return op.operator <<=(ap_int_base<(8), (CHAR_IS_SIGNED)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator >( const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, char i_op) { return op.operator >(ap_fixed_base<(8), (8), (CHAR_IS_SIGNED)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator >( char i_op, const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_fixed_base<(8), (8), (CHAR_IS_SIGNED)>(i_op).operator >(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator <( const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, char i_op) { return op.operator <(ap_fixed_base<(8), (8), (CHAR_IS_SIGNED)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator <( char i_op, const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_fixed_base<(8), (8), (CHAR_IS_SIGNED)>(i_op).operator <(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator >=( const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, char i_op) { return op.operator >=(ap_fixed_base<(8), (8), (CHAR_IS_SIGNED)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator >=( char i_op, const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_fixed_base<(8), (8), (CHAR_IS_SIGNED)>(i_op).operator >=(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator <=( const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, char i_op) { return op.operator <=(ap_fixed_base<(8), (8), (CHAR_IS_SIGNED)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator <=( char i_op, const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_fixed_base<(8), (8), (CHAR_IS_SIGNED)>(i_op).operator <=(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator ==( const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, char i_op) { return op.operator ==(ap_fixed_base<(8), (8), (CHAR_IS_SIGNED)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator ==( char i_op, const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_fixed_base<(8), (8), (CHAR_IS_SIGNED)>(i_op).operator ==(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator !=( const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, char i_op) { return op.operator !=(ap_fixed_base<(8), (8), (CHAR_IS_SIGNED)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator !=( char i_op, const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_fixed_base<(8), (8), (CHAR_IS_SIGNED)>(i_op).operator !=(op); }
 template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W, _AP_I, _AP_S>::template RType< (8), (8), (true)>::plus operator +( const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, signed char i_op) { return op.operator +(ap_fixed_base<(8), (8), (true)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W, _AP_I, _AP_S>::template RType< (8), (8), (true)>::plus operator +( signed char i_op, const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_fixed_base<(8), (8), (true)>(i_op).operator +(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W, _AP_I, _AP_S>::template RType< (8), (8), (true)>::minus operator -( const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, signed char i_op) { return op.operator -(ap_fixed_base<(8), (8), (true)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W, _AP_I, _AP_S>::template RType< (8), (8), (true)>::minus operator -( signed char i_op, const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_fixed_base<(8), (8), (true)>(i_op).operator -(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W, _AP_I, _AP_S>::template RType< (8), (8), (true)>::mult operator *( const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, signed char i_op) { return op.operator *(ap_fixed_base<(8), (8), (true)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W, _AP_I, _AP_S>::template RType< (8), (8), (true)>::mult operator *( signed char i_op, const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_fixed_base<(8), (8), (true)>(i_op).operator *(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W, _AP_I, _AP_S>::template RType< (8), (8), (true)>::div operator /( const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, signed char i_op) { return op.operator /(ap_fixed_base<(8), (8), (true)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W, _AP_I, _AP_S>::template RType< (8), (8), (true)>::div operator /( signed char i_op, const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_fixed_base<(8), (8), (true)>(i_op).operator /(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W, _AP_I, _AP_S>::template RType< (8), (8), (true)>::logic operator &( const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, signed char i_op) { return op.operator &(ap_fixed_base<(8), (8), (true)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W, _AP_I, _AP_S>::template RType< (8), (8), (true)>::logic operator &( signed char i_op, const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_fixed_base<(8), (8), (true)>(i_op).operator &(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W, _AP_I, _AP_S>::template RType< (8), (8), (true)>::logic operator |( const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, signed char i_op) { return op.operator |(ap_fixed_base<(8), (8), (true)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W, _AP_I, _AP_S>::template RType< (8), (8), (true)>::logic operator |( signed char i_op, const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_fixed_base<(8), (8), (true)>(i_op).operator |(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W, _AP_I, _AP_S>::template RType< (8), (8), (true)>::logic operator ^( const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, signed char i_op) { return op.operator ^(ap_fixed_base<(8), (8), (true)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W, _AP_I, _AP_S>::template RType< (8), (8), (true)>::logic operator ^( signed char i_op, const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_fixed_base<(8), (8), (true)>(i_op).operator ^(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W, _AP_I, _AP_S>::template RType< (8), (8), (true)>::lhs operator >>( const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, signed char i_op) { return op.operator >>(ap_int_base<(8), (true)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W, _AP_I, _AP_S>::template RType< (8), (8), (true)>::lhs operator <<( const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, signed char i_op) { return op.operator <<(ap_int_base<(8), (true)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& operator +=( ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, signed char i_op) { return op.operator +=(ap_fixed_base<(8), (8), (true)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& operator -=( ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, signed char i_op) { return op.operator -=(ap_fixed_base<(8), (8), (true)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& operator *=( ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, signed char i_op) { return op.operator *=(ap_fixed_base<(8), (8), (true)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& operator /=( ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, signed char i_op) { return op.operator /=(ap_fixed_base<(8), (8), (true)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& operator &=( ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, signed char i_op) { return op.operator &=(ap_fixed_base<(8), (8), (true)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& operator |=( ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, signed char i_op) { return op.operator |=(ap_fixed_base<(8), (8), (true)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& operator ^=( ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, signed char i_op) { return op.operator ^=(ap_fixed_base<(8), (8), (true)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& operator >>=( ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, signed char i_op) { return op.operator >>=(ap_int_base<(8), (true)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& operator <<=( ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, signed char i_op) { return op.operator <<=(ap_int_base<(8), (true)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator >( const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, signed char i_op) { return op.operator >(ap_fixed_base<(8), (8), (true)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator >( signed char i_op, const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_fixed_base<(8), (8), (true)>(i_op).operator >(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator <( const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, signed char i_op) { return op.operator <(ap_fixed_base<(8), (8), (true)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator <( signed char i_op, const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_fixed_base<(8), (8), (true)>(i_op).operator <(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator >=( const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, signed char i_op) { return op.operator >=(ap_fixed_base<(8), (8), (true)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator >=( signed char i_op, const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_fixed_base<(8), (8), (true)>(i_op).operator >=(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator <=( const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, signed char i_op) { return op.operator <=(ap_fixed_base<(8), (8), (true)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator <=( signed char i_op, const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_fixed_base<(8), (8), (true)>(i_op).operator <=(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator ==( const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, signed char i_op) { return op.operator ==(ap_fixed_base<(8), (8), (true)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator ==( signed char i_op, const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_fixed_base<(8), (8), (true)>(i_op).operator ==(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator !=( const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, signed char i_op) { return op.operator !=(ap_fixed_base<(8), (8), (true)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator !=( signed char i_op, const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_fixed_base<(8), (8), (true)>(i_op).operator !=(op); }
@@ -5353,7 +5353,7 @@ template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, in
 template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W, _AP_I, _AP_S>::template RType< (_AP_SIZE_long), (_AP_SIZE_long), (false)>::plus operator +( const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, unsigned long i_op) { return op.operator +(ap_fixed_base<(_AP_SIZE_long), (_AP_SIZE_long), (false)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W, _AP_I, _AP_S>::template RType< (_AP_SIZE_long), (_AP_SIZE_long), (false)>::plus operator +( unsigned long i_op, const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_fixed_base<(_AP_SIZE_long), (_AP_SIZE_long), (false)>(i_op).operator +(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W, _AP_I, _AP_S>::template RType< (_AP_SIZE_long), (_AP_SIZE_long), (false)>::minus operator -( const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, unsigned long i_op) { return op.operator -(ap_fixed_base<(_AP_SIZE_long), (_AP_SIZE_long), (false)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W, _AP_I, _AP_S>::template RType< (_AP_SIZE_long), (_AP_SIZE_long), (false)>::minus operator -( unsigned long i_op, const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_fixed_base<(_AP_SIZE_long), (_AP_SIZE_long), (false)>(i_op).operator -(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W, _AP_I, _AP_S>::template RType< (_AP_SIZE_long), (_AP_SIZE_long), (false)>::mult operator *( const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, unsigned long i_op) { return op.operator *(ap_fixed_base<(_AP_SIZE_long), (_AP_SIZE_long), (false)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W, _AP_I, _AP_S>::template RType< (_AP_SIZE_long), (_AP_SIZE_long), (false)>::mult operator *( unsigned long i_op, const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_fixed_base<(_AP_SIZE_long), (_AP_SIZE_long), (false)>(i_op).operator *(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W, _AP_I, _AP_S>::template RType< (_AP_SIZE_long), (_AP_SIZE_long), (false)>::div operator /( const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, unsigned long i_op) { return op.operator /(ap_fixed_base<(_AP_SIZE_long), (_AP_SIZE_long), (false)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W, _AP_I, _AP_S>::template RType< (_AP_SIZE_long), (_AP_SIZE_long), (false)>::div operator /( unsigned long i_op, const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_fixed_base<(_AP_SIZE_long), (_AP_SIZE_long), (false)>(i_op).operator /(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W, _AP_I, _AP_S>::template RType< (_AP_SIZE_long), (_AP_SIZE_long), (false)>::logic operator &( const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, unsigned long i_op) { return op.operator &(ap_fixed_base<(_AP_SIZE_long), (_AP_SIZE_long), (false)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W, _AP_I, _AP_S>::template RType< (_AP_SIZE_long), (_AP_SIZE_long), (false)>::logic operator &( unsigned long i_op, const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_fixed_base<(_AP_SIZE_long), (_AP_SIZE_long), (false)>(i_op).operator &(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W, _AP_I, _AP_S>::template RType< (_AP_SIZE_long), (_AP_SIZE_long), (false)>::logic operator |( const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, unsigned long i_op) { return op.operator |(ap_fixed_base<(_AP_SIZE_long), (_AP_SIZE_long), (false)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W, _AP_I, _AP_S>::template RType< (_AP_SIZE_long), (_AP_SIZE_long), (false)>::logic operator |( unsigned long i_op, const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_fixed_base<(_AP_SIZE_long), (_AP_SIZE_long), (false)>(i_op).operator |(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W, _AP_I, _AP_S>::template RType< (_AP_SIZE_long), (_AP_SIZE_long), (false)>::logic operator ^( const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, unsigned long i_op) { return op.operator ^(ap_fixed_base<(_AP_SIZE_long), (_AP_SIZE_long), (false)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W, _AP_I, _AP_S>::template RType< (_AP_SIZE_long), (_AP_SIZE_long), (false)>::logic operator ^( unsigned long i_op, const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_fixed_base<(_AP_SIZE_long), (_AP_SIZE_long), (false)>(i_op).operator ^(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W, _AP_I, _AP_S>::template RType< (_AP_SIZE_long), (_AP_SIZE_long), (false)>::lhs operator >>( const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, unsigned long i_op) { return op.operator >>(ap_int_base<(_AP_SIZE_long), (false)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W, _AP_I, _AP_S>::template RType< (_AP_SIZE_long), (_AP_SIZE_long), (false)>::lhs operator <<( const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, unsigned long i_op) { return op.operator <<(ap_int_base<(_AP_SIZE_long), (false)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& operator +=( ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, unsigned long i_op) { return op.operator +=(ap_fixed_base<(_AP_SIZE_long), (_AP_SIZE_long), (false)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& operator -=( ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, unsigned long i_op) { return op.operator -=(ap_fixed_base<(_AP_SIZE_long), (_AP_SIZE_long), (false)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& operator *=( ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, unsigned long i_op) { return op.operator *=(ap_fixed_base<(_AP_SIZE_long), (_AP_SIZE_long), (false)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& operator /=( ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, unsigned long i_op) { return op.operator /=(ap_fixed_base<(_AP_SIZE_long), (_AP_SIZE_long), (false)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& operator &=( ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, unsigned long i_op) { return op.operator &=(ap_fixed_base<(_AP_SIZE_long), (_AP_SIZE_long), (false)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& operator |=( ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, unsigned long i_op) { return op.operator |=(ap_fixed_base<(_AP_SIZE_long), (_AP_SIZE_long), (false)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& operator ^=( ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, unsigned long i_op) { return op.operator ^=(ap_fixed_base<(_AP_SIZE_long), (_AP_SIZE_long), (false)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& operator >>=( ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, unsigned long i_op) { return op.operator >>=(ap_int_base<(_AP_SIZE_long), (false)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& operator <<=( ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, unsigned long i_op) { return op.operator <<=(ap_int_base<(_AP_SIZE_long), (false)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator >( const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, unsigned long i_op) { return op.operator >(ap_fixed_base<(_AP_SIZE_long), (_AP_SIZE_long), (false)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator >( unsigned long i_op, const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_fixed_base<(_AP_SIZE_long), (_AP_SIZE_long), (false)>(i_op).operator >(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator <( const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, unsigned long i_op) { return op.operator <(ap_fixed_base<(_AP_SIZE_long), (_AP_SIZE_long), (false)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator <( unsigned long i_op, const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_fixed_base<(_AP_SIZE_long), (_AP_SIZE_long), (false)>(i_op).operator <(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator >=( const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, unsigned long i_op) { return op.operator >=(ap_fixed_base<(_AP_SIZE_long), (_AP_SIZE_long), (false)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator >=( unsigned long i_op, const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_fixed_base<(_AP_SIZE_long), (_AP_SIZE_long), (false)>(i_op).operator >=(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator <=( const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, unsigned long i_op) { return op.operator <=(ap_fixed_base<(_AP_SIZE_long), (_AP_SIZE_long), (false)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator <=( unsigned long i_op, const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_fixed_base<(_AP_SIZE_long), (_AP_SIZE_long), (false)>(i_op).operator <=(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator ==( const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, unsigned long i_op) { return op.operator ==(ap_fixed_base<(_AP_SIZE_long), (_AP_SIZE_long), (false)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator ==( unsigned long i_op, const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_fixed_base<(_AP_SIZE_long), (_AP_SIZE_long), (false)>(i_op).operator ==(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator !=( const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, unsigned long i_op) { return op.operator !=(ap_fixed_base<(_AP_SIZE_long), (_AP_SIZE_long), (false)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator !=( unsigned long i_op, const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_fixed_base<(_AP_SIZE_long), (_AP_SIZE_long), (false)>(i_op).operator !=(op); }
 template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W, _AP_I, _AP_S>::template RType< (_AP_SIZE_ap_slong), (_AP_SIZE_ap_slong), (true)>::plus operator +( const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, ap_slong i_op) { return op.operator +(ap_fixed_base<(_AP_SIZE_ap_slong), (_AP_SIZE_ap_slong), (true)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W, _AP_I, _AP_S>::template RType< (_AP_SIZE_ap_slong), (_AP_SIZE_ap_slong), (true)>::plus operator +( ap_slong i_op, const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_fixed_base<(_AP_SIZE_ap_slong), (_AP_SIZE_ap_slong), (true)>(i_op).operator +(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W, _AP_I, _AP_S>::template RType< (_AP_SIZE_ap_slong), (_AP_SIZE_ap_slong), (true)>::minus operator -( const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, ap_slong i_op) { return op.operator -(ap_fixed_base<(_AP_SIZE_ap_slong), (_AP_SIZE_ap_slong), (true)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W, _AP_I, _AP_S>::template RType< (_AP_SIZE_ap_slong), (_AP_SIZE_ap_slong), (true)>::minus operator -( ap_slong i_op, const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_fixed_base<(_AP_SIZE_ap_slong), (_AP_SIZE_ap_slong), (true)>(i_op).operator -(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W, _AP_I, _AP_S>::template RType< (_AP_SIZE_ap_slong), (_AP_SIZE_ap_slong), (true)>::mult operator *( const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, ap_slong i_op) { return op.operator *(ap_fixed_base<(_AP_SIZE_ap_slong), (_AP_SIZE_ap_slong), (true)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W, _AP_I, _AP_S>::template RType< (_AP_SIZE_ap_slong), (_AP_SIZE_ap_slong), (true)>::mult operator *( ap_slong i_op, const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_fixed_base<(_AP_SIZE_ap_slong), (_AP_SIZE_ap_slong), (true)>(i_op).operator *(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W, _AP_I, _AP_S>::template RType< (_AP_SIZE_ap_slong), (_AP_SIZE_ap_slong), (true)>::div operator /( const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, ap_slong i_op) { return op.operator /(ap_fixed_base<(_AP_SIZE_ap_slong), (_AP_SIZE_ap_slong), (true)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W, _AP_I, _AP_S>::template RType< (_AP_SIZE_ap_slong), (_AP_SIZE_ap_slong), (true)>::div operator /( ap_slong i_op, const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_fixed_base<(_AP_SIZE_ap_slong), (_AP_SIZE_ap_slong), (true)>(i_op).operator /(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W, _AP_I, _AP_S>::template RType< (_AP_SIZE_ap_slong), (_AP_SIZE_ap_slong), (true)>::logic operator &( const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, ap_slong i_op) { return op.operator &(ap_fixed_base<(_AP_SIZE_ap_slong), (_AP_SIZE_ap_slong), (true)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W, _AP_I, _AP_S>::template RType< (_AP_SIZE_ap_slong), (_AP_SIZE_ap_slong), (true)>::logic operator &( ap_slong i_op, const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_fixed_base<(_AP_SIZE_ap_slong), (_AP_SIZE_ap_slong), (true)>(i_op).operator &(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W, _AP_I, _AP_S>::template RType< (_AP_SIZE_ap_slong), (_AP_SIZE_ap_slong), (true)>::logic operator |( const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, ap_slong i_op) { return op.operator |(ap_fixed_base<(_AP_SIZE_ap_slong), (_AP_SIZE_ap_slong), (true)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W, _AP_I, _AP_S>::template RType< (_AP_SIZE_ap_slong), (_AP_SIZE_ap_slong), (true)>::logic operator |( ap_slong i_op, const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_fixed_base<(_AP_SIZE_ap_slong), (_AP_SIZE_ap_slong), (true)>(i_op).operator |(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W, _AP_I, _AP_S>::template RType< (_AP_SIZE_ap_slong), (_AP_SIZE_ap_slong), (true)>::logic operator ^( const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, ap_slong i_op) { return op.operator ^(ap_fixed_base<(_AP_SIZE_ap_slong), (_AP_SIZE_ap_slong), (true)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W, _AP_I, _AP_S>::template RType< (_AP_SIZE_ap_slong), (_AP_SIZE_ap_slong), (true)>::logic operator ^( ap_slong i_op, const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_fixed_base<(_AP_SIZE_ap_slong), (_AP_SIZE_ap_slong), (true)>(i_op).operator ^(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W, _AP_I, _AP_S>::template RType< (_AP_SIZE_ap_slong), (_AP_SIZE_ap_slong), (true)>::lhs operator >>( const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, ap_slong i_op) { return op.operator >>(ap_int_base<(_AP_SIZE_ap_slong), (true)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W, _AP_I, _AP_S>::template RType< (_AP_SIZE_ap_slong), (_AP_SIZE_ap_slong), (true)>::lhs operator <<( const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, ap_slong i_op) { return op.operator <<(ap_int_base<(_AP_SIZE_ap_slong), (true)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& operator +=( ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, ap_slong i_op) { return op.operator +=(ap_fixed_base<(_AP_SIZE_ap_slong), (_AP_SIZE_ap_slong), (true)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& operator -=( ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, ap_slong i_op) { return op.operator -=(ap_fixed_base<(_AP_SIZE_ap_slong), (_AP_SIZE_ap_slong), (true)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& operator *=( ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, ap_slong i_op) { return op.operator *=(ap_fixed_base<(_AP_SIZE_ap_slong), (_AP_SIZE_ap_slong), (true)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& operator /=( ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, ap_slong i_op) { return op.operator /=(ap_fixed_base<(_AP_SIZE_ap_slong), (_AP_SIZE_ap_slong), (true)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& operator &=( ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, ap_slong i_op) { return op.operator &=(ap_fixed_base<(_AP_SIZE_ap_slong), (_AP_SIZE_ap_slong), (true)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& operator |=( ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, ap_slong i_op) { return op.operator |=(ap_fixed_base<(_AP_SIZE_ap_slong), (_AP_SIZE_ap_slong), (true)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& operator ^=( ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, ap_slong i_op) { return op.operator ^=(ap_fixed_base<(_AP_SIZE_ap_slong), (_AP_SIZE_ap_slong), (true)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& operator >>=( ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, ap_slong i_op) { return op.operator >>=(ap_int_base<(_AP_SIZE_ap_slong), (true)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& operator <<=( ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, ap_slong i_op) { return op.operator <<=(ap_int_base<(_AP_SIZE_ap_slong), (true)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator >( const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, ap_slong i_op) { return op.operator >(ap_fixed_base<(_AP_SIZE_ap_slong), (_AP_SIZE_ap_slong), (true)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator >( ap_slong i_op, const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_fixed_base<(_AP_SIZE_ap_slong), (_AP_SIZE_ap_slong), (true)>(i_op).operator >(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator <( const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, ap_slong i_op) { return op.operator <(ap_fixed_base<(_AP_SIZE_ap_slong), (_AP_SIZE_ap_slong), (true)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator <( ap_slong i_op, const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_fixed_base<(_AP_SIZE_ap_slong), (_AP_SIZE_ap_slong), (true)>(i_op).operator <(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator >=( const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, ap_slong i_op) { return op.operator >=(ap_fixed_base<(_AP_SIZE_ap_slong), (_AP_SIZE_ap_slong), (true)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator >=( ap_slong i_op, const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_fixed_base<(_AP_SIZE_ap_slong), (_AP_SIZE_ap_slong), (true)>(i_op).operator >=(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator <=( const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, ap_slong i_op) { return op.operator <=(ap_fixed_base<(_AP_SIZE_ap_slong), (_AP_SIZE_ap_slong), (true)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator <=( ap_slong i_op, const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_fixed_base<(_AP_SIZE_ap_slong), (_AP_SIZE_ap_slong), (true)>(i_op).operator <=(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator ==( const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, ap_slong i_op) { return op.operator ==(ap_fixed_base<(_AP_SIZE_ap_slong), (_AP_SIZE_ap_slong), (true)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator ==( ap_slong i_op, const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_fixed_base<(_AP_SIZE_ap_slong), (_AP_SIZE_ap_slong), (true)>(i_op).operator ==(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator !=( const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, ap_slong i_op) { return op.operator !=(ap_fixed_base<(_AP_SIZE_ap_slong), (_AP_SIZE_ap_slong), (true)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator !=( ap_slong i_op, const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_fixed_base<(_AP_SIZE_ap_slong), (_AP_SIZE_ap_slong), (true)>(i_op).operator !=(op); }
 template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W, _AP_I, _AP_S>::template RType< (_AP_SIZE_ap_slong), (_AP_SIZE_ap_slong), (false)>::plus operator +( const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, ap_ulong i_op) { return op.operator +(ap_fixed_base<(_AP_SIZE_ap_slong), (_AP_SIZE_ap_slong), (false)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W, _AP_I, _AP_S>::template RType< (_AP_SIZE_ap_slong), (_AP_SIZE_ap_slong), (false)>::plus operator +( ap_ulong i_op, const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_fixed_base<(_AP_SIZE_ap_slong), (_AP_SIZE_ap_slong), (false)>(i_op).operator +(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W, _AP_I, _AP_S>::template RType< (_AP_SIZE_ap_slong), (_AP_SIZE_ap_slong), (false)>::minus operator -( const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, ap_ulong i_op) { return op.operator -(ap_fixed_base<(_AP_SIZE_ap_slong), (_AP_SIZE_ap_slong), (false)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W, _AP_I, _AP_S>::template RType< (_AP_SIZE_ap_slong), (_AP_SIZE_ap_slong), (false)>::minus operator -( ap_ulong i_op, const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_fixed_base<(_AP_SIZE_ap_slong), (_AP_SIZE_ap_slong), (false)>(i_op).operator -(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W, _AP_I, _AP_S>::template RType< (_AP_SIZE_ap_slong), (_AP_SIZE_ap_slong), (false)>::mult operator *( const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, ap_ulong i_op) { return op.operator *(ap_fixed_base<(_AP_SIZE_ap_slong), (_AP_SIZE_ap_slong), (false)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W, _AP_I, _AP_S>::template RType< (_AP_SIZE_ap_slong), (_AP_SIZE_ap_slong), (false)>::mult operator *( ap_ulong i_op, const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_fixed_base<(_AP_SIZE_ap_slong), (_AP_SIZE_ap_slong), (false)>(i_op).operator *(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W, _AP_I, _AP_S>::template RType< (_AP_SIZE_ap_slong), (_AP_SIZE_ap_slong), (false)>::div operator /( const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, ap_ulong i_op) { return op.operator /(ap_fixed_base<(_AP_SIZE_ap_slong), (_AP_SIZE_ap_slong), (false)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W, _AP_I, _AP_S>::template RType< (_AP_SIZE_ap_slong), (_AP_SIZE_ap_slong), (false)>::div operator /( ap_ulong i_op, const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_fixed_base<(_AP_SIZE_ap_slong), (_AP_SIZE_ap_slong), (false)>(i_op).operator /(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W, _AP_I, _AP_S>::template RType< (_AP_SIZE_ap_slong), (_AP_SIZE_ap_slong), (false)>::logic operator &( const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, ap_ulong i_op) { return op.operator &(ap_fixed_base<(_AP_SIZE_ap_slong), (_AP_SIZE_ap_slong), (false)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W, _AP_I, _AP_S>::template RType< (_AP_SIZE_ap_slong), (_AP_SIZE_ap_slong), (false)>::logic operator &( ap_ulong i_op, const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_fixed_base<(_AP_SIZE_ap_slong), (_AP_SIZE_ap_slong), (false)>(i_op).operator &(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W, _AP_I, _AP_S>::template RType< (_AP_SIZE_ap_slong), (_AP_SIZE_ap_slong), (false)>::logic operator |( const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, ap_ulong i_op) { return op.operator |(ap_fixed_base<(_AP_SIZE_ap_slong), (_AP_SIZE_ap_slong), (false)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W, _AP_I, _AP_S>::template RType< (_AP_SIZE_ap_slong), (_AP_SIZE_ap_slong), (false)>::logic operator |( ap_ulong i_op, const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_fixed_base<(_AP_SIZE_ap_slong), (_AP_SIZE_ap_slong), (false)>(i_op).operator |(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W, _AP_I, _AP_S>::template RType< (_AP_SIZE_ap_slong), (_AP_SIZE_ap_slong), (false)>::logic operator ^( const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, ap_ulong i_op) { return op.operator ^(ap_fixed_base<(_AP_SIZE_ap_slong), (_AP_SIZE_ap_slong), (false)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W, _AP_I, _AP_S>::template RType< (_AP_SIZE_ap_slong), (_AP_SIZE_ap_slong), (false)>::logic operator ^( ap_ulong i_op, const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_fixed_base<(_AP_SIZE_ap_slong), (_AP_SIZE_ap_slong), (false)>(i_op).operator ^(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W, _AP_I, _AP_S>::template RType< (_AP_SIZE_ap_slong), (_AP_SIZE_ap_slong), (false)>::lhs operator >>( const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, ap_ulong i_op) { return op.operator >>(ap_int_base<(_AP_SIZE_ap_slong), (false)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W, _AP_I, _AP_S>::template RType< (_AP_SIZE_ap_slong), (_AP_SIZE_ap_slong), (false)>::lhs operator <<( const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, ap_ulong i_op) { return op.operator <<(ap_int_base<(_AP_SIZE_ap_slong), (false)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& operator +=( ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, ap_ulong i_op) { return op.operator +=(ap_fixed_base<(_AP_SIZE_ap_slong), (_AP_SIZE_ap_slong), (false)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& operator -=( ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, ap_ulong i_op) { return op.operator -=(ap_fixed_base<(_AP_SIZE_ap_slong), (_AP_SIZE_ap_slong), (false)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& operator *=( ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, ap_ulong i_op) { return op.operator *=(ap_fixed_base<(_AP_SIZE_ap_slong), (_AP_SIZE_ap_slong), (false)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& operator /=( ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, ap_ulong i_op) { return op.operator /=(ap_fixed_base<(_AP_SIZE_ap_slong), (_AP_SIZE_ap_slong), (false)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& operator &=( ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, ap_ulong i_op) { return op.operator &=(ap_fixed_base<(_AP_SIZE_ap_slong), (_AP_SIZE_ap_slong), (false)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& operator |=( ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, ap_ulong i_op) { return op.operator |=(ap_fixed_base<(_AP_SIZE_ap_slong), (_AP_SIZE_ap_slong), (false)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& operator ^=( ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, ap_ulong i_op) { return op.operator ^=(ap_fixed_base<(_AP_SIZE_ap_slong), (_AP_SIZE_ap_slong), (false)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& operator >>=( ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, ap_ulong i_op) { return op.operator >>=(ap_int_base<(_AP_SIZE_ap_slong), (false)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& operator <<=( ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, ap_ulong i_op) { return op.operator <<=(ap_int_base<(_AP_SIZE_ap_slong), (false)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator >( const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, ap_ulong i_op) { return op.operator >(ap_fixed_base<(_AP_SIZE_ap_slong), (_AP_SIZE_ap_slong), (false)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator >( ap_ulong i_op, const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_fixed_base<(_AP_SIZE_ap_slong), (_AP_SIZE_ap_slong), (false)>(i_op).operator >(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator <( const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, ap_ulong i_op) { return op.operator <(ap_fixed_base<(_AP_SIZE_ap_slong), (_AP_SIZE_ap_slong), (false)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator <( ap_ulong i_op, const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_fixed_base<(_AP_SIZE_ap_slong), (_AP_SIZE_ap_slong), (false)>(i_op).operator <(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator >=( const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, ap_ulong i_op) { return op.operator >=(ap_fixed_base<(_AP_SIZE_ap_slong), (_AP_SIZE_ap_slong), (false)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator >=( ap_ulong i_op, const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_fixed_base<(_AP_SIZE_ap_slong), (_AP_SIZE_ap_slong), (false)>(i_op).operator >=(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator <=( const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, ap_ulong i_op) { return op.operator <=(ap_fixed_base<(_AP_SIZE_ap_slong), (_AP_SIZE_ap_slong), (false)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator <=( ap_ulong i_op, const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_fixed_base<(_AP_SIZE_ap_slong), (_AP_SIZE_ap_slong), (false)>(i_op).operator <=(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator ==( const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, ap_ulong i_op) { return op.operator ==(ap_fixed_base<(_AP_SIZE_ap_slong), (_AP_SIZE_ap_slong), (false)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator ==( ap_ulong i_op, const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_fixed_base<(_AP_SIZE_ap_slong), (_AP_SIZE_ap_slong), (false)>(i_op).operator ==(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator !=( const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, ap_ulong i_op) { return op.operator !=(ap_fixed_base<(_AP_SIZE_ap_slong), (_AP_SIZE_ap_slong), (false)>(i_op)); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator !=( ap_ulong i_op, const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_fixed_base<(_AP_SIZE_ap_slong), (_AP_SIZE_ap_slong), (false)>(i_op).operator !=(op); }
-# 2301 "F:/Vivado/Vivado/2019.2/common/technology/autopilot\\ap_fixed_base.h"
+# 2301 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot\\ap_fixed_base.h"
 template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W2, _AP_W2, _AP_S2>::template RType< _AP_W, _AP_I, _AP_S>::plus operator +( const ap_int_base<_AP_W2, _AP_S2>& i_op, const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_fixed_base<_AP_W2, _AP_W2, _AP_S2>(i_op).operator +(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W, _AP_I, _AP_S>::template RType< _AP_W2, _AP_W2, _AP_S2>::plus operator +( const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, const ap_int_base<_AP_W2, _AP_S2>& i_op) { return op.operator +(ap_fixed_base<_AP_W2, _AP_W2, _AP_S2>(i_op)); }
 template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W2, _AP_W2, _AP_S2>::template RType< _AP_W, _AP_I, _AP_S>::minus operator -( const ap_int_base<_AP_W2, _AP_S2>& i_op, const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_fixed_base<_AP_W2, _AP_W2, _AP_S2>(i_op).operator -(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W, _AP_I, _AP_S>::template RType< _AP_W2, _AP_W2, _AP_S2>::minus operator -( const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, const ap_int_base<_AP_W2, _AP_S2>& i_op) { return op.operator -(ap_fixed_base<_AP_W2, _AP_W2, _AP_S2>(i_op)); }
 template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W2, _AP_W2, _AP_S2>::template RType< _AP_W, _AP_I, _AP_S>::mult operator *( const ap_int_base<_AP_W2, _AP_S2>& i_op, const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_fixed_base<_AP_W2, _AP_W2, _AP_S2>(i_op).operator *(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) typename ap_fixed_base<_AP_W, _AP_I, _AP_S>::template RType< _AP_W2, _AP_W2, _AP_S2>::mult operator *( const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, const ap_int_base<_AP_W2, _AP_S2>& i_op) { return op.operator *(ap_fixed_base<_AP_W2, _AP_W2, _AP_S2>(i_op)); }
@@ -5431,9 +5431,9 @@ inline __attribute__((always_inline)) bool operator<=(
     const ap_fixed_base<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op2) {
   return op2.operator>=(op1);
 }
-# 56 "F:/Vivado/Vivado/2019.2/common/technology/autopilot\\ap_fixed.h" 2
-# 1 "F:/Vivado/Vivado/2019.2/common/technology/autopilot\\ap_fixed_ref.h" 1
-# 70 "F:/Vivado/Vivado/2019.2/common/technology/autopilot\\ap_fixed_ref.h"
+# 56 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot\\ap_fixed.h" 2
+# 1 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot\\ap_fixed_ref.h" 1
+# 70 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot\\ap_fixed_ref.h"
 template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O,
           int _AP_N>
 struct af_bit_ref {
@@ -5605,7 +5605,7 @@ struct af_bit_ref {
   inline __attribute__((always_inline)) char* to_string() const { return 0; }
 
 };
-# 257 "F:/Vivado/Vivado/2019.2/common/technology/autopilot\\ap_fixed_ref.h"
+# 257 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot\\ap_fixed_ref.h"
 template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O,
           int _AP_N>
 struct af_range_ref {
@@ -5628,14 +5628,14 @@ struct af_range_ref {
 
   inline __attribute__((always_inline)) af_range_ref(ref_type* bv, int h, int l)
       : d_bv(*bv), l_index(l), h_index(h) {
-# 287 "F:/Vivado/Vivado/2019.2/common/technology/autopilot\\ap_fixed_ref.h"
+# 287 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot\\ap_fixed_ref.h"
   }
 
   inline __attribute__((always_inline)) af_range_ref(const ref_type* bv, int h, int l)
       : d_bv(*const_cast<ref_type*>(bv)), l_index(l), h_index(h) {
-# 299 "F:/Vivado/Vivado/2019.2/common/technology/autopilot\\ap_fixed_ref.h"
+# 299 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot\\ap_fixed_ref.h"
   }
-# 311 "F:/Vivado/Vivado/2019.2/common/technology/autopilot\\ap_fixed_ref.h"
+# 311 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot\\ap_fixed_ref.h"
   inline __attribute__((always_inline)) af_range_ref& operator=(const bool val) { ap_int_base<_AP_W, false> loc(val); d_bv.V = ({ typename _ap_type::remove_const<typeof(d_bv.V)>::type __Result__ = 0; typeof(d_bv.V) __Val2__ = d_bv.V; typeof(loc.V) __Repl2__ = loc.V; __builtin_bit_part_set((void*)(&__Result__), (void*)(&__Val2__), (void*)(&__Repl2__), l_index, h_index); __Result__; }); return *this; }
   inline __attribute__((always_inline)) af_range_ref& operator=(const char val) { ap_int_base<_AP_W, false> loc(val); d_bv.V = ({ typename _ap_type::remove_const<typeof(d_bv.V)>::type __Result__ = 0; typeof(d_bv.V) __Val2__ = d_bv.V; typeof(loc.V) __Repl2__ = loc.V; __builtin_bit_part_set((void*)(&__Result__), (void*)(&__Val2__), (void*)(&__Repl2__), l_index, h_index); __Result__; }); return *this; }
   inline __attribute__((always_inline)) af_range_ref& operator=(const signed char val) { ap_int_base<_AP_W, false> loc(val); d_bv.V = ({ typename _ap_type::remove_const<typeof(d_bv.V)>::type __Result__ = 0; typeof(d_bv.V) __Val2__ = d_bv.V; typeof(loc.V) __Repl2__ = loc.V; __builtin_bit_part_set((void*)(&__Result__), (void*)(&__Val2__), (void*)(&__Repl2__), l_index, h_index); __Result__; }); return *this; }
@@ -5949,13 +5949,13 @@ struct af_range_ref {
   inline __attribute__((always_inline)) int length() const {
     return h_index >= l_index ? h_index - l_index + 1 : l_index - h_index + 1;
   }
-# 633 "F:/Vivado/Vivado/2019.2/common/technology/autopilot\\ap_fixed_ref.h"
+# 633 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot\\ap_fixed_ref.h"
   inline __attribute__((always_inline)) char* to_string(signed char rd = 2) const {
     return 0;
   }
 
 };
-# 696 "F:/Vivado/Vivado/2019.2/common/technology/autopilot\\ap_fixed_ref.h"
+# 696 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot\\ap_fixed_ref.h"
 template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator >( const af_range_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, bool op2) { return ap_int_base<_AP_W, false>(op) > ap_int_base<(1), (false)>(op2); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator >( bool op2, const af_range_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_int_base<(1), (false)>(op2) > ap_int_base<_AP_W, false>(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator >( const af_bit_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, bool op2) { return bool(op) > op2; } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator >( bool op2, const af_bit_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return op2 > bool(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator <( const af_range_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, bool op2) { return ap_int_base<_AP_W, false>(op) < ap_int_base<(1), (false)>(op2); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator <( bool op2, const af_range_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_int_base<(1), (false)>(op2) < ap_int_base<_AP_W, false>(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator <( const af_bit_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, bool op2) { return bool(op) < op2; } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator <( bool op2, const af_bit_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return op2 < bool(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator >=( const af_range_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, bool op2) { return ap_int_base<_AP_W, false>(op) >= ap_int_base<(1), (false)>(op2); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator >=( bool op2, const af_range_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_int_base<(1), (false)>(op2) >= ap_int_base<_AP_W, false>(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator >=( const af_bit_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, bool op2) { return bool(op) >= op2; } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator >=( bool op2, const af_bit_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return op2 >= bool(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator <=( const af_range_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, bool op2) { return ap_int_base<_AP_W, false>(op) <= ap_int_base<(1), (false)>(op2); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator <=( bool op2, const af_range_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_int_base<(1), (false)>(op2) <= ap_int_base<_AP_W, false>(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator <=( const af_bit_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, bool op2) { return bool(op) <= op2; } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator <=( bool op2, const af_bit_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return op2 <= bool(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator ==( const af_range_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, bool op2) { return ap_int_base<_AP_W, false>(op) == ap_int_base<(1), (false)>(op2); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator ==( bool op2, const af_range_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_int_base<(1), (false)>(op2) == ap_int_base<_AP_W, false>(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator ==( const af_bit_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, bool op2) { return bool(op) == op2; } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator ==( bool op2, const af_bit_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return op2 == bool(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator !=( const af_range_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, bool op2) { return ap_int_base<_AP_W, false>(op) != ap_int_base<(1), (false)>(op2); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator !=( bool op2, const af_range_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_int_base<(1), (false)>(op2) != ap_int_base<_AP_W, false>(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator !=( const af_bit_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, bool op2) { return bool(op) != op2; } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator !=( bool op2, const af_bit_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return op2 != bool(op); }
 template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator >( const af_range_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, char op2) { return ap_int_base<_AP_W, false>(op) > ap_int_base<(8), (CHAR_IS_SIGNED)>(op2); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator >( char op2, const af_range_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_int_base<(8), (CHAR_IS_SIGNED)>(op2) > ap_int_base<_AP_W, false>(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator >( const af_bit_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, char op2) { return bool(op) > op2; } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator >( char op2, const af_bit_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return op2 > bool(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator <( const af_range_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, char op2) { return ap_int_base<_AP_W, false>(op) < ap_int_base<(8), (CHAR_IS_SIGNED)>(op2); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator <( char op2, const af_range_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_int_base<(8), (CHAR_IS_SIGNED)>(op2) < ap_int_base<_AP_W, false>(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator <( const af_bit_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, char op2) { return bool(op) < op2; } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator <( char op2, const af_bit_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return op2 < bool(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator >=( const af_range_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, char op2) { return ap_int_base<_AP_W, false>(op) >= ap_int_base<(8), (CHAR_IS_SIGNED)>(op2); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator >=( char op2, const af_range_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_int_base<(8), (CHAR_IS_SIGNED)>(op2) >= ap_int_base<_AP_W, false>(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator >=( const af_bit_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, char op2) { return bool(op) >= op2; } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator >=( char op2, const af_bit_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return op2 >= bool(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator <=( const af_range_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, char op2) { return ap_int_base<_AP_W, false>(op) <= ap_int_base<(8), (CHAR_IS_SIGNED)>(op2); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator <=( char op2, const af_range_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_int_base<(8), (CHAR_IS_SIGNED)>(op2) <= ap_int_base<_AP_W, false>(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator <=( const af_bit_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, char op2) { return bool(op) <= op2; } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator <=( char op2, const af_bit_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return op2 <= bool(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator ==( const af_range_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, char op2) { return ap_int_base<_AP_W, false>(op) == ap_int_base<(8), (CHAR_IS_SIGNED)>(op2); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator ==( char op2, const af_range_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_int_base<(8), (CHAR_IS_SIGNED)>(op2) == ap_int_base<_AP_W, false>(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator ==( const af_bit_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, char op2) { return bool(op) == op2; } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator ==( char op2, const af_bit_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return op2 == bool(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator !=( const af_range_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, char op2) { return ap_int_base<_AP_W, false>(op) != ap_int_base<(8), (CHAR_IS_SIGNED)>(op2); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator !=( char op2, const af_range_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_int_base<(8), (CHAR_IS_SIGNED)>(op2) != ap_int_base<_AP_W, false>(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator !=( const af_bit_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, char op2) { return bool(op) != op2; } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator !=( char op2, const af_bit_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return op2 != bool(op); }
 template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator >( const af_range_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, signed char op2) { return ap_int_base<_AP_W, false>(op) > ap_int_base<(8), (true)>(op2); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator >( signed char op2, const af_range_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_int_base<(8), (true)>(op2) > ap_int_base<_AP_W, false>(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator >( const af_bit_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, signed char op2) { return bool(op) > op2; } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator >( signed char op2, const af_bit_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return op2 > bool(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator <( const af_range_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, signed char op2) { return ap_int_base<_AP_W, false>(op) < ap_int_base<(8), (true)>(op2); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator <( signed char op2, const af_range_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_int_base<(8), (true)>(op2) < ap_int_base<_AP_W, false>(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator <( const af_bit_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, signed char op2) { return bool(op) < op2; } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator <( signed char op2, const af_bit_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return op2 < bool(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator >=( const af_range_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, signed char op2) { return ap_int_base<_AP_W, false>(op) >= ap_int_base<(8), (true)>(op2); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator >=( signed char op2, const af_range_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_int_base<(8), (true)>(op2) >= ap_int_base<_AP_W, false>(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator >=( const af_bit_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, signed char op2) { return bool(op) >= op2; } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator >=( signed char op2, const af_bit_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return op2 >= bool(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator <=( const af_range_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, signed char op2) { return ap_int_base<_AP_W, false>(op) <= ap_int_base<(8), (true)>(op2); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator <=( signed char op2, const af_range_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_int_base<(8), (true)>(op2) <= ap_int_base<_AP_W, false>(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator <=( const af_bit_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, signed char op2) { return bool(op) <= op2; } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator <=( signed char op2, const af_bit_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return op2 <= bool(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator ==( const af_range_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, signed char op2) { return ap_int_base<_AP_W, false>(op) == ap_int_base<(8), (true)>(op2); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator ==( signed char op2, const af_range_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_int_base<(8), (true)>(op2) == ap_int_base<_AP_W, false>(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator ==( const af_bit_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, signed char op2) { return bool(op) == op2; } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator ==( signed char op2, const af_bit_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return op2 == bool(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator !=( const af_range_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, signed char op2) { return ap_int_base<_AP_W, false>(op) != ap_int_base<(8), (true)>(op2); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator !=( signed char op2, const af_range_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_int_base<(8), (true)>(op2) != ap_int_base<_AP_W, false>(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator !=( const af_bit_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, signed char op2) { return bool(op) != op2; } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator !=( signed char op2, const af_bit_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return op2 != bool(op); }
@@ -5968,14 +5968,14 @@ template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, in
 template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator >( const af_range_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, unsigned long op2) { return ap_int_base<_AP_W, false>(op) > ap_int_base<(_AP_SIZE_long), (false)>(op2); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator >( unsigned long op2, const af_range_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_int_base<(_AP_SIZE_long), (false)>(op2) > ap_int_base<_AP_W, false>(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator >( const af_bit_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, unsigned long op2) { return bool(op) > op2; } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator >( unsigned long op2, const af_bit_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return op2 > bool(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator <( const af_range_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, unsigned long op2) { return ap_int_base<_AP_W, false>(op) < ap_int_base<(_AP_SIZE_long), (false)>(op2); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator <( unsigned long op2, const af_range_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_int_base<(_AP_SIZE_long), (false)>(op2) < ap_int_base<_AP_W, false>(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator <( const af_bit_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, unsigned long op2) { return bool(op) < op2; } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator <( unsigned long op2, const af_bit_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return op2 < bool(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator >=( const af_range_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, unsigned long op2) { return ap_int_base<_AP_W, false>(op) >= ap_int_base<(_AP_SIZE_long), (false)>(op2); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator >=( unsigned long op2, const af_range_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_int_base<(_AP_SIZE_long), (false)>(op2) >= ap_int_base<_AP_W, false>(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator >=( const af_bit_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, unsigned long op2) { return bool(op) >= op2; } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator >=( unsigned long op2, const af_bit_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return op2 >= bool(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator <=( const af_range_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, unsigned long op2) { return ap_int_base<_AP_W, false>(op) <= ap_int_base<(_AP_SIZE_long), (false)>(op2); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator <=( unsigned long op2, const af_range_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_int_base<(_AP_SIZE_long), (false)>(op2) <= ap_int_base<_AP_W, false>(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator <=( const af_bit_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, unsigned long op2) { return bool(op) <= op2; } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator <=( unsigned long op2, const af_bit_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return op2 <= bool(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator ==( const af_range_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, unsigned long op2) { return ap_int_base<_AP_W, false>(op) == ap_int_base<(_AP_SIZE_long), (false)>(op2); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator ==( unsigned long op2, const af_range_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_int_base<(_AP_SIZE_long), (false)>(op2) == ap_int_base<_AP_W, false>(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator ==( const af_bit_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, unsigned long op2) { return bool(op) == op2; } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator ==( unsigned long op2, const af_bit_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return op2 == bool(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator !=( const af_range_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, unsigned long op2) { return ap_int_base<_AP_W, false>(op) != ap_int_base<(_AP_SIZE_long), (false)>(op2); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator !=( unsigned long op2, const af_range_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_int_base<(_AP_SIZE_long), (false)>(op2) != ap_int_base<_AP_W, false>(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator !=( const af_bit_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, unsigned long op2) { return bool(op) != op2; } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator !=( unsigned long op2, const af_bit_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return op2 != bool(op); }
 template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator >( const af_range_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, ap_slong op2) { return ap_int_base<_AP_W, false>(op) > ap_int_base<(_AP_SIZE_ap_slong), (true)>(op2); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator >( ap_slong op2, const af_range_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_int_base<(_AP_SIZE_ap_slong), (true)>(op2) > ap_int_base<_AP_W, false>(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator >( const af_bit_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, ap_slong op2) { return bool(op) > op2; } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator >( ap_slong op2, const af_bit_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return op2 > bool(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator <( const af_range_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, ap_slong op2) { return ap_int_base<_AP_W, false>(op) < ap_int_base<(_AP_SIZE_ap_slong), (true)>(op2); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator <( ap_slong op2, const af_range_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_int_base<(_AP_SIZE_ap_slong), (true)>(op2) < ap_int_base<_AP_W, false>(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator <( const af_bit_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, ap_slong op2) { return bool(op) < op2; } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator <( ap_slong op2, const af_bit_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return op2 < bool(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator >=( const af_range_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, ap_slong op2) { return ap_int_base<_AP_W, false>(op) >= ap_int_base<(_AP_SIZE_ap_slong), (true)>(op2); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator >=( ap_slong op2, const af_range_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_int_base<(_AP_SIZE_ap_slong), (true)>(op2) >= ap_int_base<_AP_W, false>(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator >=( const af_bit_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, ap_slong op2) { return bool(op) >= op2; } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator >=( ap_slong op2, const af_bit_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return op2 >= bool(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator <=( const af_range_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, ap_slong op2) { return ap_int_base<_AP_W, false>(op) <= ap_int_base<(_AP_SIZE_ap_slong), (true)>(op2); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator <=( ap_slong op2, const af_range_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_int_base<(_AP_SIZE_ap_slong), (true)>(op2) <= ap_int_base<_AP_W, false>(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator <=( const af_bit_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, ap_slong op2) { return bool(op) <= op2; } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator <=( ap_slong op2, const af_bit_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return op2 <= bool(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator ==( const af_range_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, ap_slong op2) { return ap_int_base<_AP_W, false>(op) == ap_int_base<(_AP_SIZE_ap_slong), (true)>(op2); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator ==( ap_slong op2, const af_range_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_int_base<(_AP_SIZE_ap_slong), (true)>(op2) == ap_int_base<_AP_W, false>(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator ==( const af_bit_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, ap_slong op2) { return bool(op) == op2; } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator ==( ap_slong op2, const af_bit_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return op2 == bool(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator !=( const af_range_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, ap_slong op2) { return ap_int_base<_AP_W, false>(op) != ap_int_base<(_AP_SIZE_ap_slong), (true)>(op2); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator !=( ap_slong op2, const af_range_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_int_base<(_AP_SIZE_ap_slong), (true)>(op2) != ap_int_base<_AP_W, false>(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator !=( const af_bit_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, ap_slong op2) { return bool(op) != op2; } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator !=( ap_slong op2, const af_bit_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return op2 != bool(op); }
 template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator >( const af_range_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, ap_ulong op2) { return ap_int_base<_AP_W, false>(op) > ap_int_base<(_AP_SIZE_ap_slong), (false)>(op2); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator >( ap_ulong op2, const af_range_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_int_base<(_AP_SIZE_ap_slong), (false)>(op2) > ap_int_base<_AP_W, false>(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator >( const af_bit_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, ap_ulong op2) { return bool(op) > op2; } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator >( ap_ulong op2, const af_bit_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return op2 > bool(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator <( const af_range_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, ap_ulong op2) { return ap_int_base<_AP_W, false>(op) < ap_int_base<(_AP_SIZE_ap_slong), (false)>(op2); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator <( ap_ulong op2, const af_range_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_int_base<(_AP_SIZE_ap_slong), (false)>(op2) < ap_int_base<_AP_W, false>(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator <( const af_bit_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, ap_ulong op2) { return bool(op) < op2; } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator <( ap_ulong op2, const af_bit_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return op2 < bool(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator >=( const af_range_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, ap_ulong op2) { return ap_int_base<_AP_W, false>(op) >= ap_int_base<(_AP_SIZE_ap_slong), (false)>(op2); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator >=( ap_ulong op2, const af_range_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_int_base<(_AP_SIZE_ap_slong), (false)>(op2) >= ap_int_base<_AP_W, false>(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator >=( const af_bit_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, ap_ulong op2) { return bool(op) >= op2; } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator >=( ap_ulong op2, const af_bit_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return op2 >= bool(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator <=( const af_range_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, ap_ulong op2) { return ap_int_base<_AP_W, false>(op) <= ap_int_base<(_AP_SIZE_ap_slong), (false)>(op2); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator <=( ap_ulong op2, const af_range_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_int_base<(_AP_SIZE_ap_slong), (false)>(op2) <= ap_int_base<_AP_W, false>(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator <=( const af_bit_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, ap_ulong op2) { return bool(op) <= op2; } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator <=( ap_ulong op2, const af_bit_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return op2 <= bool(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator ==( const af_range_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, ap_ulong op2) { return ap_int_base<_AP_W, false>(op) == ap_int_base<(_AP_SIZE_ap_slong), (false)>(op2); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator ==( ap_ulong op2, const af_range_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_int_base<(_AP_SIZE_ap_slong), (false)>(op2) == ap_int_base<_AP_W, false>(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator ==( const af_bit_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, ap_ulong op2) { return bool(op) == op2; } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator ==( ap_ulong op2, const af_bit_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return op2 == bool(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator !=( const af_range_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, ap_ulong op2) { return ap_int_base<_AP_W, false>(op) != ap_int_base<(_AP_SIZE_ap_slong), (false)>(op2); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator !=( ap_ulong op2, const af_range_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return ap_int_base<(_AP_SIZE_ap_slong), (false)>(op2) != ap_int_base<_AP_W, false>(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator !=( const af_bit_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, ap_ulong op2) { return bool(op) != op2; } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N> inline __attribute__((always_inline)) bool operator !=( ap_ulong op2, const af_bit_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return op2 != bool(op); }
-# 742 "F:/Vivado/Vivado/2019.2/common/technology/autopilot\\ap_fixed_ref.h"
+# 742 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot\\ap_fixed_ref.h"
 template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) bool operator >( const af_range_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, const ap_int_base<_AP_W2, _AP_S>& op2) { return ap_int_base<_AP_W, false>(op) > op2; } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) bool operator >( const ap_int_base<_AP_W2, _AP_S2>& op2, const af_range_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return op2 > ap_int_base<_AP_W, false>(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) bool operator >( const af_bit_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, const ap_int_base<_AP_W2, _AP_S2>& op2) { return ap_int_base<1, false>(op) > op2; } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) bool operator >( const ap_int_base<_AP_W2, _AP_S2>& op2, const af_bit_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return op2 > ap_int_base<1, false>(op); }
 template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) bool operator <( const af_range_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, const ap_int_base<_AP_W2, _AP_S>& op2) { return ap_int_base<_AP_W, false>(op) < op2; } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) bool operator <( const ap_int_base<_AP_W2, _AP_S2>& op2, const af_range_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return op2 < ap_int_base<_AP_W, false>(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) bool operator <( const af_bit_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, const ap_int_base<_AP_W2, _AP_S2>& op2) { return ap_int_base<1, false>(op) < op2; } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) bool operator <( const ap_int_base<_AP_W2, _AP_S2>& op2, const af_bit_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return op2 < ap_int_base<1, false>(op); }
 template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) bool operator >=( const af_range_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, const ap_int_base<_AP_W2, _AP_S>& op2) { return ap_int_base<_AP_W, false>(op) >= op2; } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) bool operator >=( const ap_int_base<_AP_W2, _AP_S2>& op2, const af_range_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return op2 >= ap_int_base<_AP_W, false>(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) bool operator >=( const af_bit_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, const ap_int_base<_AP_W2, _AP_S2>& op2) { return ap_int_base<1, false>(op) >= op2; } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) bool operator >=( const ap_int_base<_AP_W2, _AP_S2>& op2, const af_bit_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return op2 >= ap_int_base<1, false>(op); }
 template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) bool operator <=( const af_range_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, const ap_int_base<_AP_W2, _AP_S>& op2) { return ap_int_base<_AP_W, false>(op) <= op2; } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) bool operator <=( const ap_int_base<_AP_W2, _AP_S2>& op2, const af_range_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return op2 <= ap_int_base<_AP_W, false>(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) bool operator <=( const af_bit_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, const ap_int_base<_AP_W2, _AP_S2>& op2) { return ap_int_base<1, false>(op) <= op2; } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) bool operator <=( const ap_int_base<_AP_W2, _AP_S2>& op2, const af_bit_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return op2 <= ap_int_base<1, false>(op); }
 template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) bool operator ==( const af_range_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, const ap_int_base<_AP_W2, _AP_S>& op2) { return ap_int_base<_AP_W, false>(op) == op2; } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) bool operator ==( const ap_int_base<_AP_W2, _AP_S2>& op2, const af_range_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return op2 == ap_int_base<_AP_W, false>(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) bool operator ==( const af_bit_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, const ap_int_base<_AP_W2, _AP_S2>& op2) { return ap_int_base<1, false>(op) == op2; } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) bool operator ==( const ap_int_base<_AP_W2, _AP_S2>& op2, const af_bit_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return op2 == ap_int_base<1, false>(op); }
 template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) bool operator !=( const af_range_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, const ap_int_base<_AP_W2, _AP_S>& op2) { return ap_int_base<_AP_W, false>(op) != op2; } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) bool operator !=( const ap_int_base<_AP_W2, _AP_S2>& op2, const af_range_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return op2 != ap_int_base<_AP_W, false>(op); } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) bool operator !=( const af_bit_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op, const ap_int_base<_AP_W2, _AP_S2>& op2) { return ap_int_base<1, false>(op) != op2; } template <int _AP_W, int _AP_I, bool _AP_S, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N, int _AP_W2, bool _AP_S2> inline __attribute__((always_inline)) bool operator !=( const ap_int_base<_AP_W2, _AP_S2>& op2, const af_bit_ref<_AP_W, _AP_I, _AP_S, _AP_Q, _AP_O, _AP_N>& op) { return op2 != ap_int_base<1, false>(op); }
-# 57 "F:/Vivado/Vivado/2019.2/common/technology/autopilot\\ap_fixed.h" 2
+# 57 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot\\ap_fixed.h" 2
 
 
 
@@ -6000,13 +6000,13 @@ struct ap_fixed : ap_fixed_base<_AP_W, _AP_I, true, _AP_Q, _AP_O, _AP_N> {
   inline __attribute__((always_inline)) ap_fixed(const volatile ap_fixed_base<_AP_W2, _AP_I2, _AP_S2, _AP_Q2,
                                                _AP_O2, _AP_N2>& op)
       : Base(op) {}
-# 111 "F:/Vivado/Vivado/2019.2/common/technology/autopilot\\ap_fixed.h"
+# 111 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot\\ap_fixed.h"
   template <int _AP_W2, bool _AP_S2>
   inline __attribute__((always_inline)) ap_fixed(const ap_int_base<_AP_W2, _AP_S2>& op) : Base(op) {}
 
   template <int _AP_W2, bool _AP_S2>
   inline __attribute__((always_inline)) ap_fixed(const volatile ap_int_base<_AP_W2, _AP_S2>& op) : Base(op) {}
-# 145 "F:/Vivado/Vivado/2019.2/common/technology/autopilot\\ap_fixed.h"
+# 145 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot\\ap_fixed.h"
   template <int _AP_W2, bool _AP_S2>
   inline __attribute__((always_inline)) ap_fixed(const ap_bit_ref<_AP_W2, _AP_S2>& op) : Base(op) {}
 
@@ -6110,13 +6110,13 @@ struct ap_ufixed : ap_fixed_base<_AP_W, _AP_I, false, _AP_Q, _AP_O, _AP_N> {
   inline __attribute__((always_inline)) ap_ufixed(const volatile ap_fixed_base<_AP_W2, _AP_I2, _AP_S2, _AP_Q2,
                                                 _AP_O2, _AP_N2>& op)
       : Base(op) {}
-# 276 "F:/Vivado/Vivado/2019.2/common/technology/autopilot\\ap_fixed.h"
+# 276 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot\\ap_fixed.h"
   template <int _AP_W2, bool _AP_S2>
   inline __attribute__((always_inline)) ap_ufixed(const ap_int_base<_AP_W2, _AP_S2>& op) : Base(op) {}
 
   template <int _AP_W2, bool _AP_S2>
   inline __attribute__((always_inline)) ap_ufixed(const volatile ap_int_base<_AP_W2, _AP_S2>& op) : Base(op) {}
-# 307 "F:/Vivado/Vivado/2019.2/common/technology/autopilot\\ap_fixed.h"
+# 307 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot\\ap_fixed.h"
   template <int _AP_W2, bool _AP_S2>
   inline __attribute__((always_inline)) ap_ufixed(const ap_bit_ref<_AP_W2, _AP_S2>& op) : Base(op) {}
 
@@ -6186,9 +6186,9 @@ struct ap_ufixed : ap_fixed_base<_AP_W, _AP_I, false, _AP_Q, _AP_O, _AP_N> {
     Base::V = op.V;
   }
 };
-# 398 "F:/Vivado/Vivado/2019.2/common/technology/autopilot\\ap_fixed.h"
-# 1 "F:/Vivado/Vivado/2019.2/common/technology/autopilot\\ap_fixed_special.h" 1
-# 61 "F:/Vivado/Vivado/2019.2/common/technology/autopilot\\ap_fixed_special.h"
+# 398 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot\\ap_fixed.h"
+# 1 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot\\ap_fixed_special.h" 1
+# 61 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot\\ap_fixed_special.h"
 namespace std {
 template<typename _Tp> class complex;
 }
@@ -6200,7 +6200,7 @@ template<typename _Tp> class complex;
 
 
 namespace std {
-# 89 "F:/Vivado/Vivado/2019.2/common/technology/autopilot\\ap_fixed_special.h"
+# 89 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot\\ap_fixed_special.h"
 template <int _AP_W, int _AP_I, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N>
 class complex<ap_fixed<_AP_W, _AP_I, _AP_Q, _AP_O, _AP_N> > {
  public:
@@ -6325,7 +6325,7 @@ class complex<ap_fixed<_AP_W, _AP_I, _AP_Q, _AP_O, _AP_N> > {
   _Tp _M_imag;
 
 };
-# 221 "F:/Vivado/Vivado/2019.2/common/technology/autopilot\\ap_fixed_special.h"
+# 221 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot\\ap_fixed_special.h"
 template <int _AP_W, int _AP_I, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N>
 inline bool operator==(
     const complex<ap_fixed<_AP_W, _AP_I, _AP_Q, _AP_O, _AP_N> > &__x,
@@ -6362,9 +6362,9 @@ inline bool operator!=(
 }
 
 }
-# 399 "F:/Vivado/Vivado/2019.2/common/technology/autopilot\\ap_fixed.h" 2
-# 368 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/ap_int.h" 2
-# 87 "F:/Vivado/Vivado/2019.2/common/technology/autopilot\\ap_axi_sdata.h" 2
+# 399 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot\\ap_fixed.h" 2
+# 368 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/ap_int.h" 2
+# 87 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot\\ap_axi_sdata.h" 2
 
 template<int D,int U,int TI,int TD>
   struct ap_axis{
@@ -6429,28 +6429,28 @@ template<int D>
     qdma_axis(ap_uint<D> d = ap_uint<D>(), ap_uint<(D+7)/8> k = ap_uint<(D+7)/8>(), ap_uint<1> l = ap_uint<1>()) : data(d), keep(k), last(l) {}
     qdma_axis(const qdma_axis<D, 0, 0, 0> &d) : data(d.data), keep(d.keep), last(d.last) {}
   };
-# 40 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_axi_io.h" 2
-# 1 "F:/Vivado/Vivado/2019.2/common/technology/autopilot\\utils/x_hls_utils.h" 1
-# 34 "F:/Vivado/Vivado/2019.2/common/technology/autopilot\\utils/x_hls_utils.h"
-# 1 "F:/Vivado/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/include\\stdint.h" 1 3 4
-# 33 "F:/Vivado/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/include\\stdint.h" 3 4
-# 1 "F:/Vivado/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\stdint.h" 1 3 4
-# 28 "F:/Vivado/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\stdint.h" 3 4
-# 1 "F:/Vivado/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\_mingw.h" 1 3 4
-# 10 "F:/Vivado/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\_mingw.h" 3 4
-# 1 "F:/Vivado/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include/_mingw_mac.h" 1 3 4
-# 10 "F:/Vivado/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\_mingw.h" 2 3 4
-# 277 "F:/Vivado/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\_mingw.h" 3 4
-# 1 "F:/Vivado/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\vadefs.h" 1 3 4
-# 13 "F:/Vivado/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\vadefs.h" 3 4
-# 1 "F:/Vivado/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\_mingw.h" 1 3 4
-# 674 "F:/Vivado/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\_mingw.h" 3 4
-# 1 "F:/Vivado/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include/sdks/_mingw_directx.h" 1 3 4
-# 674 "F:/Vivado/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\_mingw.h" 2 3 4
+# 40 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_axi_io.h" 2
+# 1 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot\\utils/x_hls_utils.h" 1
+# 34 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot\\utils/x_hls_utils.h"
+# 1 "D:/Xilinx/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/include\\stdint.h" 1 3 4
+# 33 "D:/Xilinx/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/include\\stdint.h" 3 4
+# 1 "D:/Xilinx/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\stdint.h" 1 3 4
+# 28 "D:/Xilinx/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\stdint.h" 3 4
+# 1 "D:/Xilinx/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\_mingw.h" 1 3 4
+# 10 "D:/Xilinx/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\_mingw.h" 3 4
+# 1 "D:/Xilinx/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include/_mingw_mac.h" 1 3 4
+# 10 "D:/Xilinx/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\_mingw.h" 2 3 4
+# 277 "D:/Xilinx/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\_mingw.h" 3 4
+# 1 "D:/Xilinx/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\vadefs.h" 1 3 4
+# 13 "D:/Xilinx/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\vadefs.h" 3 4
+# 1 "D:/Xilinx/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\_mingw.h" 1 3 4
+# 674 "D:/Xilinx/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\_mingw.h" 3 4
+# 1 "D:/Xilinx/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include/sdks/_mingw_directx.h" 1 3 4
+# 674 "D:/Xilinx/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\_mingw.h" 2 3 4
 
-# 1 "F:/Vivado/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include/sdks/_mingw_ddk.h" 1 3 4
-# 675 "F:/Vivado/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\_mingw.h" 2 3 4
-# 13 "F:/Vivado/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\vadefs.h" 2 3 4
+# 1 "D:/Xilinx/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include/sdks/_mingw_ddk.h" 1 3 4
+# 675 "D:/Xilinx/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\_mingw.h" 2 3 4
+# 13 "D:/Xilinx/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\vadefs.h" 2 3 4
 
 
 #pragma pack(push,_CRT_PACKING)
@@ -6470,29 +6470,29 @@ extern "C" {
 
 
   typedef __gnuc_va_list va_list;
-# 99 "F:/Vivado/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\vadefs.h" 3 4
+# 99 "D:/Xilinx/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\vadefs.h" 3 4
 }
 
 
 #pragma pack(pop)
-# 277 "F:/Vivado/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\_mingw.h" 2 3 4
+# 277 "D:/Xilinx/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\_mingw.h" 2 3 4
 
 
 #pragma pack(push,_CRT_PACKING)
-# 370 "F:/Vivado/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\_mingw.h" 3 4
+# 370 "D:/Xilinx/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\_mingw.h" 3 4
 __extension__ typedef unsigned long long size_t;
-# 380 "F:/Vivado/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\_mingw.h" 3 4
+# 380 "D:/Xilinx/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\_mingw.h" 3 4
 __extension__ typedef long long ssize_t;
-# 392 "F:/Vivado/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\_mingw.h" 3 4
+# 392 "D:/Xilinx/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\_mingw.h" 3 4
 __extension__ typedef long long intptr_t;
-# 405 "F:/Vivado/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\_mingw.h" 3 4
+# 405 "D:/Xilinx/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\_mingw.h" 3 4
 __extension__ typedef unsigned long long uintptr_t;
-# 418 "F:/Vivado/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\_mingw.h" 3 4
+# 418 "D:/Xilinx/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\_mingw.h" 3 4
 __extension__ typedef long long ptrdiff_t;
-# 436 "F:/Vivado/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\_mingw.h" 3 4
+# 436 "D:/Xilinx/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\_mingw.h" 3 4
 typedef unsigned short wint_t;
 typedef unsigned short wctype_t;
-# 456 "F:/Vivado/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\_mingw.h" 3 4
+# 456 "D:/Xilinx/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\_mingw.h" 3 4
 typedef int errno_t;
 
 
@@ -6512,7 +6512,7 @@ __extension__ typedef long long __time64_t;
 
 
 typedef __time64_t time_t;
-# 607 "F:/Vivado/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\_mingw.h" 3 4
+# 607 "D:/Xilinx/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\_mingw.h" 3 4
 struct threadlocaleinfostruct;
 struct threadmbcinfostruct;
 typedef struct threadlocaleinfostruct *pthreadlocinfo;
@@ -6574,19 +6574,19 @@ const char *__mingw_get_crt_info (void);
 
 
 #pragma pack(pop)
-# 28 "F:/Vivado/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\stdint.h" 2 3 4
+# 28 "D:/Xilinx/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\stdint.h" 2 3 4
 
 
 
 
-# 1 "F:/Vivado/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/include\\stddef.h" 1 3 4
-# 31 "F:/Vivado/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/include\\stddef.h" 3 4
+# 1 "D:/Xilinx/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/include\\stddef.h" 1 3 4
+# 31 "D:/Xilinx/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/include\\stddef.h" 3 4
 typedef __typeof__(((int*)0)-((int*)0)) ptrdiff_t;
 
 
 
 typedef __typeof__(sizeof(int)) size_t;
-# 32 "F:/Vivado/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\stdint.h" 2 3 4
+# 32 "D:/Xilinx/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\stdint.h" 2 3 4
 
 
 
@@ -6625,11 +6625,11 @@ __extension__ typedef unsigned long long uint_fast64_t;
 
 __extension__ typedef long long intmax_t;
 __extension__ typedef unsigned long long uintmax_t;
-# 33 "F:/Vivado/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/include\\stdint.h" 2 3 4
-# 35 "F:/Vivado/Vivado/2019.2/common/technology/autopilot\\utils/x_hls_utils.h" 2
+# 33 "D:/Xilinx/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/include\\stdint.h" 2 3 4
+# 35 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot\\utils/x_hls_utils.h" 2
 
-# 1 "F:/Vivado/Vivado/2019.2/common/technology/autopilot\\hls_half.h" 1
-# 3274 "F:/Vivado/Vivado/2019.2/common/technology/autopilot\\hls_half.h"
+# 1 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot\\hls_half.h" 1
+# 3274 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot\\hls_half.h"
 extern half half_nan(const char *tagp);
 
 
@@ -6701,21 +6701,21 @@ extern half half_fmod(half x, half y);
 extern half half_remainder(half x, half y);
 extern half half_remquo(half x, half y, int* quo);
 extern half half_divide(half x, half y);
-# 37 "F:/Vivado/Vivado/2019.2/common/technology/autopilot\\utils/x_hls_utils.h" 2
-# 1 "F:/Vivado/Vivado/2019.2/win64/tools/clang/bin\\..\\lib\\clang\\3.1/../../../include/c++/4.5.2\\limits" 1 3
-# 41 "F:/Vivado/Vivado/2019.2/win64/tools/clang/bin\\..\\lib\\clang\\3.1/../../../include/c++/4.5.2\\limits" 3
-# 41 "F:/Vivado/Vivado/2019.2/win64/tools/clang/bin\\..\\lib\\clang\\3.1/../../../include/c++/4.5.2\\limits" 3
+# 37 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot\\utils/x_hls_utils.h" 2
+# 1 "D:/Xilinx/Vivado/2019.2/win64/tools/clang/bin\\..\\lib\\clang\\3.1/../../../include/c++/4.5.2\\limits" 1 3
+# 41 "D:/Xilinx/Vivado/2019.2/win64/tools/clang/bin\\..\\lib\\clang\\3.1/../../../include/c++/4.5.2\\limits" 3
+# 41 "D:/Xilinx/Vivado/2019.2/win64/tools/clang/bin\\..\\lib\\clang\\3.1/../../../include/c++/4.5.2\\limits" 3
 
-# 1 "F:/Vivado/Vivado/2019.2/win64/tools/clang/bin\\..\\lib\\clang\\3.1/../../../include/c++/4.5.2/x86_64-w64-mingw32\\bits/c++config.h" 1 3
-# 275 "F:/Vivado/Vivado/2019.2/win64/tools/clang/bin\\..\\lib\\clang\\3.1/../../../include/c++/4.5.2/x86_64-w64-mingw32\\bits/c++config.h" 3
-# 1 "F:/Vivado/Vivado/2019.2/win64/tools/clang/bin\\..\\lib\\clang\\3.1/../../../include/c++/4.5.2/x86_64-w64-mingw32\\bits/os_defines.h" 1 3
-# 276 "F:/Vivado/Vivado/2019.2/win64/tools/clang/bin\\..\\lib\\clang\\3.1/../../../include/c++/4.5.2/x86_64-w64-mingw32\\bits/c++config.h" 2 3
+# 1 "D:/Xilinx/Vivado/2019.2/win64/tools/clang/bin\\..\\lib\\clang\\3.1/../../../include/c++/4.5.2/x86_64-w64-mingw32\\bits/c++config.h" 1 3
+# 275 "D:/Xilinx/Vivado/2019.2/win64/tools/clang/bin\\..\\lib\\clang\\3.1/../../../include/c++/4.5.2/x86_64-w64-mingw32\\bits/c++config.h" 3
+# 1 "D:/Xilinx/Vivado/2019.2/win64/tools/clang/bin\\..\\lib\\clang\\3.1/../../../include/c++/4.5.2/x86_64-w64-mingw32\\bits/os_defines.h" 1 3
+# 276 "D:/Xilinx/Vivado/2019.2/win64/tools/clang/bin\\..\\lib\\clang\\3.1/../../../include/c++/4.5.2/x86_64-w64-mingw32\\bits/c++config.h" 2 3
 
 
-# 1 "F:/Vivado/Vivado/2019.2/win64/tools/clang/bin\\..\\lib\\clang\\3.1/../../../include/c++/4.5.2/x86_64-w64-mingw32\\bits/cpu_defines.h" 1 3
-# 279 "F:/Vivado/Vivado/2019.2/win64/tools/clang/bin\\..\\lib\\clang\\3.1/../../../include/c++/4.5.2/x86_64-w64-mingw32\\bits/c++config.h" 2 3
-# 43 "F:/Vivado/Vivado/2019.2/win64/tools/clang/bin\\..\\lib\\clang\\3.1/../../../include/c++/4.5.2\\limits" 2 3
-# 147 "F:/Vivado/Vivado/2019.2/win64/tools/clang/bin\\..\\lib\\clang\\3.1/../../../include/c++/4.5.2\\limits" 3
+# 1 "D:/Xilinx/Vivado/2019.2/win64/tools/clang/bin\\..\\lib\\clang\\3.1/../../../include/c++/4.5.2/x86_64-w64-mingw32\\bits/cpu_defines.h" 1 3
+# 279 "D:/Xilinx/Vivado/2019.2/win64/tools/clang/bin\\..\\lib\\clang\\3.1/../../../include/c++/4.5.2/x86_64-w64-mingw32\\bits/c++config.h" 2 3
+# 43 "D:/Xilinx/Vivado/2019.2/win64/tools/clang/bin\\..\\lib\\clang\\3.1/../../../include/c++/4.5.2\\limits" 2 3
+# 147 "D:/Xilinx/Vivado/2019.2/win64/tools/clang/bin\\..\\lib\\clang\\3.1/../../../include/c++/4.5.2\\limits" 3
 namespace std {
 
 
@@ -6747,7 +6747,7 @@ namespace std {
 
     denorm_present = 1
   };
-# 189 "F:/Vivado/Vivado/2019.2/win64/tools/clang/bin\\..\\lib\\clang\\3.1/../../../include/c++/4.5.2\\limits" 3
+# 189 "D:/Xilinx/Vivado/2019.2/win64/tools/clang/bin\\..\\lib\\clang\\3.1/../../../include/c++/4.5.2\\limits" 3
   struct __numeric_limits_base
   {
 
@@ -6829,7 +6829,7 @@ namespace std {
 
     static const float_round_style round_style = round_toward_zero;
   };
-# 282 "F:/Vivado/Vivado/2019.2/win64/tools/clang/bin\\..\\lib\\clang\\3.1/../../../include/c++/4.5.2\\limits" 3
+# 282 "D:/Xilinx/Vivado/2019.2/win64/tools/clang/bin\\..\\lib\\clang\\3.1/../../../include/c++/4.5.2\\limits" 3
   template<typename _Tp>
     struct numeric_limits : public __numeric_limits_base
     {
@@ -6862,7 +6862,7 @@ namespace std {
 
       static _Tp denorm_min() throw() { return static_cast<_Tp>(0); }
     };
-# 333 "F:/Vivado/Vivado/2019.2/win64/tools/clang/bin\\..\\lib\\clang\\3.1/../../../include/c++/4.5.2\\limits" 3
+# 333 "D:/Xilinx/Vivado/2019.2/win64/tools/clang/bin\\..\\lib\\clang\\3.1/../../../include/c++/4.5.2\\limits" 3
   template<>
     struct numeric_limits<bool>
     {
@@ -7153,7 +7153,7 @@ namespace std {
       static const bool tinyness_before = false;
       static const float_round_style round_style = round_toward_zero;
     };
-# 743 "F:/Vivado/Vivado/2019.2/win64/tools/clang/bin\\..\\lib\\clang\\3.1/../../../include/c++/4.5.2\\limits" 3
+# 743 "D:/Xilinx/Vivado/2019.2/win64/tools/clang/bin\\..\\lib\\clang\\3.1/../../../include/c++/4.5.2\\limits" 3
   template<>
     struct numeric_limits<short>
     {
@@ -7814,8 +7814,8 @@ namespace std {
 
 
 }
-# 38 "F:/Vivado/Vivado/2019.2/common/technology/autopilot\\utils/x_hls_utils.h" 2
-# 68 "F:/Vivado/Vivado/2019.2/common/technology/autopilot\\utils/x_hls_utils.h"
+# 38 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot\\utils/x_hls_utils.h" 2
+# 68 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot\\utils/x_hls_utils.h"
 namespace hls {
 
     template<typename T>
@@ -7998,7 +7998,7 @@ _ssdm_op_SpecInterface(0, "ap_none", 1, 1, "", 0, 0, "", "", "", 0, 0, 0, 0, "",
 
     return in;
 }
-# 264 "F:/Vivado/Vivado/2019.2/common/technology/autopilot\\utils/x_hls_utils.h"
+# 264 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot\\utils/x_hls_utils.h"
 static inline
 float to_float(float v)
 {
@@ -8010,7 +8010,7 @@ float to_float(ap_fixed<_W, _I> v)
 {
     return v.to_float();
 }
-# 283 "F:/Vivado/Vivado/2019.2/common/technology/autopilot\\utils/x_hls_utils.h"
+# 283 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot\\utils/x_hls_utils.h"
 template <typename T>
 class fp_struct
 {
@@ -8125,7 +8125,7 @@ public:
     ap_uint<EXP_BITS> exp;
     ap_uint<SIG_BITS> sig;
 };
-# 413 "F:/Vivado/Vivado/2019.2/common/technology/autopilot\\utils/x_hls_utils.h"
+# 413 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot\\utils/x_hls_utils.h"
 static inline
 void
 castSingle(
@@ -8150,7 +8150,7 @@ dumpSingle(
     float da,
     fp_struct<float> ds)
 {
-# 447 "F:/Vivado/Vivado/2019.2/common/technology/autopilot\\utils/x_hls_utils.h"
+# 447 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot\\utils/x_hls_utils.h"
 }
 
 
@@ -8258,7 +8258,7 @@ public:
     ap_uint<EXP_BITS> exp;
     ap_uint<SIG_BITS> sig;
 };
-# 566 "F:/Vivado/Vivado/2019.2/common/technology/autopilot\\utils/x_hls_utils.h"
+# 566 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot\\utils/x_hls_utils.h"
 static inline
 void
 castDouble(
@@ -8283,9 +8283,9 @@ dumpDouble(
     double da,
     fp_struct<double> ds)
 {
-# 600 "F:/Vivado/Vivado/2019.2/common/technology/autopilot\\utils/x_hls_utils.h"
+# 600 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot\\utils/x_hls_utils.h"
 }
-# 610 "F:/Vivado/Vivado/2019.2/common/technology/autopilot\\utils/x_hls_utils.h"
+# 610 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot\\utils/x_hls_utils.h"
 union half_cast {
     half d;
     uint16_t i;
@@ -8390,7 +8390,7 @@ public:
     ap_uint<EXP_BITS> exp;
     ap_uint<SIG_BITS> sig;
 };
-# 726 "F:/Vivado/Vivado/2019.2/common/technology/autopilot\\utils/x_hls_utils.h"
+# 726 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot\\utils/x_hls_utils.h"
 static inline
 void
 castHalf(
@@ -8415,9 +8415,9 @@ dumpHalf(
     half da,
     fp_struct<half> ds)
 {
-# 760 "F:/Vivado/Vivado/2019.2/common/technology/autopilot\\utils/x_hls_utils.h"
+# 760 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot\\utils/x_hls_utils.h"
 }
-# 775 "F:/Vivado/Vivado/2019.2/common/technology/autopilot\\utils/x_hls_utils.h"
+# 775 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot\\utils/x_hls_utils.h"
 template < unsigned int _Base, unsigned int _Num >
 class Power
 {
@@ -8431,7 +8431,7 @@ class Power< _Base, 0 >
 public:
     static const unsigned int Value = 1;
 };
-# 797 "F:/Vivado/Vivado/2019.2/common/technology/autopilot\\utils/x_hls_utils.h"
+# 797 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot\\utils/x_hls_utils.h"
 template < unsigned int _Num, unsigned int _I=_Num/2>
 class BitWidth
 {
@@ -8445,7 +8445,7 @@ class BitWidth<_Num, 0>
 public:
     static const unsigned int Value = 1;
 };
-# 819 "F:/Vivado/Vivado/2019.2/common/technology/autopilot\\utils/x_hls_utils.h"
+# 819 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot\\utils/x_hls_utils.h"
 template < unsigned int _Num, unsigned int _I=_Num/2>
 class UnsignedBitWidth
 {
@@ -8459,7 +8459,7 @@ class UnsignedBitWidth<_Num, 0>
 public:
     static const unsigned int Value = 0;
 };
-# 840 "F:/Vivado/Vivado/2019.2/common/technology/autopilot\\utils/x_hls_utils.h"
+# 840 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot\\utils/x_hls_utils.h"
 template < typename T >
 class Type_BitWidth
 {
@@ -8494,7 +8494,7 @@ class Type_BitWidth< ap_fixed<W, I> >
 public:
     static const unsigned int Value = W;
 };
-# 888 "F:/Vivado/Vivado/2019.2/common/technology/autopilot\\utils/x_hls_utils.h"
+# 888 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot\\utils/x_hls_utils.h"
 template <typename _T, int _Num, int _I=_Num-1>
 class Table : public Table<_T, _Num, _I-1>
 {
@@ -8512,7 +8512,7 @@ public:
     static const typename _T::TableType dummy;
     static typename _T::TableType array[_Num];
 };
-# 915 "F:/Vivado/Vivado/2019.2/common/technology/autopilot\\utils/x_hls_utils.h"
+# 915 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot\\utils/x_hls_utils.h"
 template <typename _T, int _Num, int _I>
 const typename _T::TableType Table<_T, _Num, _I>::dummy
     = Table<_T, _Num, 0>::array[_I] = _T::apply(_I,_Num) + 0*Table<_T, _Num, _I-1>::dummy;
@@ -8609,46 +8609,46 @@ struct __promote<float> { typedef float type; };
 
 template<>
 struct __promote<half> { typedef half type; };
-# 41 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_axi_io.h" 2
-# 1 "F:/Vivado/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\assert.h" 1 3
-# 15 "F:/Vivado/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\assert.h" 3
-# 1 "F:/Vivado/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\_mingw.h" 1 3
-# 15 "F:/Vivado/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\assert.h" 2 3
+# 41 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_axi_io.h" 2
+# 1 "D:/Xilinx/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\assert.h" 1 3
+# 15 "D:/Xilinx/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\assert.h" 3
+# 1 "D:/Xilinx/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\_mingw.h" 1 3
+# 15 "D:/Xilinx/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\assert.h" 2 3
 
 
-# 1 "F:/Vivado/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\stdlib.h" 1 3
-
-
-
+# 1 "D:/Xilinx/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\stdlib.h" 1 3
 
 
 
 
 
-# 1 "F:/Vivado/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\_mingw.h" 1 3
-# 9 "F:/Vivado/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\stdlib.h" 2 3
-
-# 1 "F:/Vivado/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/include\\limits.h" 1 3 4
-# 38 "F:/Vivado/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/include\\limits.h" 3 4
-# 1 "F:/Vivado/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\limits.h" 1 3 4
 
 
 
+# 1 "D:/Xilinx/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\_mingw.h" 1 3
+# 9 "D:/Xilinx/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\stdlib.h" 2 3
+
+# 1 "D:/Xilinx/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/include\\limits.h" 1 3 4
+# 38 "D:/Xilinx/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/include\\limits.h" 3 4
+# 1 "D:/Xilinx/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\limits.h" 1 3 4
 
 
-# 1 "F:/Vivado/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\_mingw.h" 1 3 4
-# 6 "F:/Vivado/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\limits.h" 2 3 4
-# 38 "F:/Vivado/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/include\\limits.h" 2 3 4
-# 10 "F:/Vivado/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\stdlib.h" 2 3
+
+
+
+# 1 "D:/Xilinx/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\_mingw.h" 1 3 4
+# 6 "D:/Xilinx/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\limits.h" 2 3 4
+# 38 "D:/Xilinx/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/include\\limits.h" 2 3 4
+# 10 "D:/Xilinx/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\stdlib.h" 2 3
 
 
 #pragma pack(push,_CRT_PACKING)
 
 
 extern "C" {
-# 36 "F:/Vivado/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\stdlib.h" 3
+# 36 "D:/Xilinx/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\stdlib.h" 3
   typedef int ( *_onexit_t)(void);
-# 46 "F:/Vivado/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\stdlib.h" 3
+# 46 "D:/Xilinx/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\stdlib.h" 3
   typedef struct _div_t {
     int quot;
     int rem;
@@ -8693,7 +8693,7 @@ extern "C" {
     unsigned char ld12[12];
   } _LDBL12;
 #pragma pack()
-# 100 "F:/Vivado/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\stdlib.h" 3
+# 100 "D:/Xilinx/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\stdlib.h" 3
  extern int * __imp___mb_cur_max;
 
 
@@ -8703,7 +8703,7 @@ extern "C" {
 
 
   extern int* __imp___mbcur_max;
-# 132 "F:/Vivado/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\stdlib.h" 3
+# 132 "D:/Xilinx/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\stdlib.h" 3
   typedef void ( *_purecall_handler)(void);
 
   __attribute__ ((__dllimport__)) _purecall_handler _set_purecall_handler(_purecall_handler _Handler);
@@ -8730,7 +8730,7 @@ extern "C" {
 
   extern __attribute__ ((__dllimport__)) char *_sys_errlist[1];
   extern __attribute__ ((__dllimport__)) int _sys_nerr;
-# 172 "F:/Vivado/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\stdlib.h" 3
+# 172 "D:/Xilinx/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\stdlib.h" 3
   extern int * __imp___argc;
 
 
@@ -8748,13 +8748,13 @@ extern "C" {
 
 
   extern wchar_t *** __imp___wargv;
-# 200 "F:/Vivado/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\stdlib.h" 3
+# 200 "D:/Xilinx/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\stdlib.h" 3
   extern char *** __imp__environ;
-# 209 "F:/Vivado/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\stdlib.h" 3
+# 209 "D:/Xilinx/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\stdlib.h" 3
   extern wchar_t *** __imp__wenviron;
-# 218 "F:/Vivado/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\stdlib.h" 3
+# 218 "D:/Xilinx/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\stdlib.h" 3
   extern char ** __imp__pgmptr;
-# 227 "F:/Vivado/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\stdlib.h" 3
+# 227 "D:/Xilinx/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\stdlib.h" 3
   extern wchar_t ** __imp__wpgmptr;
 
 
@@ -8777,13 +8777,13 @@ extern "C" {
 
 
   extern unsigned int * __imp__osplatform;
-# 257 "F:/Vivado/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\stdlib.h" 3
+# 257 "D:/Xilinx/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\stdlib.h" 3
   extern unsigned int * __imp__osver;
-# 266 "F:/Vivado/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\stdlib.h" 3
+# 266 "D:/Xilinx/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\stdlib.h" 3
   extern unsigned int * __imp__winver;
-# 275 "F:/Vivado/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\stdlib.h" 3
+# 275 "D:/Xilinx/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\stdlib.h" 3
   extern unsigned int * __imp__winmajor;
-# 284 "F:/Vivado/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\stdlib.h" 3
+# 284 "D:/Xilinx/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\stdlib.h" 3
   extern unsigned int * __imp__winminor;
 
 
@@ -8813,7 +8813,7 @@ extern "C" {
 
 
   void _Exit(int) __attribute__ ((__noreturn__));
-# 321 "F:/Vivado/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\stdlib.h" 3
+# 321 "D:/Xilinx/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\stdlib.h" 3
   void __attribute__((noreturn)) abort(void);
 
 
@@ -9047,7 +9047,7 @@ strtod (const char * __restrict__ __nptr, char ** __restrict__ __endptr)
 
   __attribute__ ((__dllimport__)) void _seterrormode(int _Mode) __attribute__ ((__deprecated__));
   __attribute__ ((__dllimport__)) void _sleep(unsigned long _Duration) __attribute__ ((__deprecated__));
-# 574 "F:/Vivado/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\stdlib.h" 3
+# 574 "D:/Xilinx/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\stdlib.h" 3
   char * ecvt(double _Val,int _NumOfDigits,int *_PtDec,int *_PtSign) ;
   char * fcvt(double _Val,int _NumOfDec,int *_PtDec,int *_PtSign) ;
   char * gcvt(double _Val,int _NumOfDigits,char *_DstBuf) ;
@@ -9083,14 +9083,14 @@ strtod (const char * __restrict__ __nptr, char ** __restrict__ __endptr)
   __extension__ char * ulltoa (unsigned long long , char *, int);
   __extension__ wchar_t * lltow (long long, wchar_t *, int);
   __extension__ wchar_t * ulltow (unsigned long long, wchar_t *, int);
-# 624 "F:/Vivado/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\stdlib.h" 3
+# 624 "D:/Xilinx/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\stdlib.h" 3
 }
 
 
 #pragma pack(pop)
 
 
-# 1 "F:/Vivado/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\sec_api/stdlib_s.h" 1 3
+# 1 "D:/Xilinx/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\sec_api/stdlib_s.h" 1 3
 
 
 
@@ -9099,21 +9099,21 @@ strtod (const char * __restrict__ __nptr, char ** __restrict__ __endptr)
 
 
 
-# 1 "F:/Vivado/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\stdlib.h" 1 3
-# 9 "F:/Vivado/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\sec_api/stdlib_s.h" 2 3
-# 629 "F:/Vivado/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\stdlib.h" 2 3
+# 1 "D:/Xilinx/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\stdlib.h" 1 3
+# 9 "D:/Xilinx/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\sec_api/stdlib_s.h" 2 3
+# 629 "D:/Xilinx/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\stdlib.h" 2 3
 
-# 1 "F:/Vivado/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\malloc.h" 1 3
-
-
+# 1 "D:/Xilinx/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\malloc.h" 1 3
 
 
 
 
 
 
-# 1 "F:/Vivado/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\_mingw.h" 1 3
-# 9 "F:/Vivado/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\malloc.h" 2 3
+
+
+# 1 "D:/Xilinx/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\_mingw.h" 1 3
+# 9 "D:/Xilinx/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\malloc.h" 2 3
 
 
 #pragma pack(push,_CRT_PACKING)
@@ -9124,7 +9124,7 @@ strtod (const char * __restrict__ __nptr, char ** __restrict__ __endptr)
 
 
 extern "C" {
-# 46 "F:/Vivado/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\malloc.h" 3
+# 46 "D:/Xilinx/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\malloc.h" 3
   typedef struct _heapinfo {
     int *_pentry;
     size_t _size;
@@ -9133,7 +9133,7 @@ extern "C" {
 
 
   extern unsigned int _amblksiz;
-# 99 "F:/Vivado/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\malloc.h" 3
+# 99 "D:/Xilinx/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\malloc.h" 3
 void * __mingw_aligned_malloc (size_t _Size, size_t _Alignment);
 void __mingw_aligned_free (void *_Memory);
 void * __mingw_aligned_offset_realloc (void *_Memory, size_t _Size, size_t _Alignment, size_t _Offset);
@@ -9163,7 +9163,7 @@ void * __mingw_aligned_realloc (void *_Memory, size_t _Size, size_t _Offset);
   __attribute__ ((__dllimport__)) int _heapwalk(_HEAPINFO *_EntryInfo);
   __attribute__ ((__dllimport__)) size_t _heapused(size_t *_Used,size_t *_Commit);
   __attribute__ ((__dllimport__)) intptr_t _get_heap_handle(void);
-# 140 "F:/Vivado/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\malloc.h" 3
+# 140 "D:/Xilinx/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\malloc.h" 3
   static __inline void *_MarkAllocaS(void *_Ptr,unsigned int _Marker) {
     if(_Ptr) {
       *((unsigned int*)_Ptr) = _Marker;
@@ -9171,7 +9171,7 @@ void * __mingw_aligned_realloc (void *_Memory, size_t _Size, size_t _Offset);
     }
     return _Ptr;
   }
-# 159 "F:/Vivado/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\malloc.h" 3
+# 159 "D:/Xilinx/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\malloc.h" 3
   static __inline void _freea(void *_Memory) {
     unsigned int _Marker;
     if(_Memory) {
@@ -9187,14 +9187,14 @@ void * __mingw_aligned_realloc (void *_Memory, size_t _Size, size_t _Offset);
 
     }
   }
-# 202 "F:/Vivado/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\malloc.h" 3
+# 202 "D:/Xilinx/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\malloc.h" 3
 }
 
 
 #pragma pack(pop)
-# 630 "F:/Vivado/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\stdlib.h" 2 3
-# 17 "F:/Vivado/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\assert.h" 2 3
-# 42 "F:/Vivado/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\assert.h" 3
+# 630 "D:/Xilinx/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\stdlib.h" 2 3
+# 17 "D:/Xilinx/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\assert.h" 2 3
+# 42 "D:/Xilinx/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\assert.h" 3
 extern "C" {
 
 
@@ -9205,21 +9205,21 @@ _assert (const char *_Message, const char *_File, unsigned _Line);
 
 
 }
-# 42 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_axi_io.h" 2
+# 42 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_axi_io.h" 2
 
 namespace hls {
 
 template<int W, typename T>
 void AXIGetBitFields(ap_uint<W> pix, int start, int w, T& val) {
 _ssdm_InlineSelf(0, "");
-    (void) ((!!(start >= 0 && start+w <= W)) || (_assert("start >= 0 && start+w <= W","F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_axi_io.h",48),0));
+    (void) ((!!(start >= 0 && start+w <= W)) || (_assert("start >= 0 && start+w <= W","D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_axi_io.h",48),0));
     val = (T)pix(start+w-1, start);
 }
 
 template<int W>
 void AXIGetBitFields(ap_uint<W> pix, int start, int w, float& val) {
 _ssdm_InlineSelf(0, "");
-    (void) ((!!(w == 32 && start >= 0 && start+w <= W)) || (_assert("w == 32 && start >= 0 && start+w <= W","F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_axi_io.h",55),0));
+    (void) ((!!(w == 32 && start >= 0 && start+w <= W)) || (_assert("w == 32 && start >= 0 && start+w <= W","D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_axi_io.h",55),0));
     fp_struct<float> temp((ap_uint<32>)pix(start+w-1, start));
     val = temp.to_float();
 }
@@ -9227,7 +9227,7 @@ _ssdm_InlineSelf(0, "");
 template<int W>
 void AXIGetBitFields(ap_uint<W> pix, int start, int w, double& val) {
 _ssdm_InlineSelf(0, "");
-    (void) ((!!(w == 64 && start >= 0 && start+w <= W)) || (_assert("w == 64 && start >= 0 && start+w <= W","F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_axi_io.h",63),0));
+    (void) ((!!(w == 64 && start >= 0 && start+w <= W)) || (_assert("w == 64 && start >= 0 && start+w <= W","D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_axi_io.h",63),0));
     fp_struct<double> temp((ap_uint<64>)pix(start+w-1, start));
     val = temp.to_double();
 }
@@ -9241,14 +9241,14 @@ _ssdm_InlineSelf(0, "");
 template<int W, typename T>
 void AXISetBitFields(ap_uint<W>& pix, int start, int w, T val) {
 _ssdm_InlineSelf(0, "");
-    (void) ((!!(start >= 0 && start+w <= W)) || (_assert("start >= 0 && start+w <= W","F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_axi_io.h",77),0));
+    (void) ((!!(start >= 0 && start+w <= W)) || (_assert("start >= 0 && start+w <= W","D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_axi_io.h",77),0));
     pix(start+w-1, start) = val;
 }
 
 template<int W>
 void AXISetBitFields(ap_uint<W>& pix, int start, int w, float val) {
 _ssdm_InlineSelf(0, "");
-    (void) ((!!(w == 32 && start >= 0 && start+w <= W)) || (_assert("w == 32 && start >= 0 && start+w <= W","F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_axi_io.h",84),0));
+    (void) ((!!(w == 32 && start >= 0 && start+w <= W)) || (_assert("w == 32 && start >= 0 && start+w <= W","D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_axi_io.h",84),0));
     fp_struct<float> temp(val);
     pix(start+w-1, start) = temp.data();
 }
@@ -9256,7 +9256,7 @@ _ssdm_InlineSelf(0, "");
 template<int W>
 void AXISetBitFields(ap_uint<W>& pix, int start, int w, double val) {
 _ssdm_InlineSelf(0, "");
-    (void) ((!!(w == 64 && start >= 0 && start+w <= W)) || (_assert("w == 64 && start >= 0 && start+w <= W","F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_axi_io.h",92),0));
+    (void) ((!!(w == 64 && start >= 0 && start+w <= W)) || (_assert("w == 64 && start >= 0 && start+w <= W","D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_axi_io.h",92),0));
     fp_struct<double> temp(val);
     pix(start+w-1, start) = temp.data();
 }
@@ -9268,18 +9268,18 @@ _ssdm_InlineSelf(0, "");
 }
 
 }
-# 49 "F:/Vivado/Vivado/2019.2/common/technology/autopilot\\hls_video.h" 2
-# 1 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls_math.h" 1
-# 36 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls_math.h"
-# 1 "F:/Vivado/Vivado/2019.2/win64/tools/clang/bin\\..\\lib\\clang\\3.1/../../../include/c++/4.5.2\\cmath" 1 3
-# 41 "F:/Vivado/Vivado/2019.2/win64/tools/clang/bin\\..\\lib\\clang\\3.1/../../../include/c++/4.5.2\\cmath" 3
-# 41 "F:/Vivado/Vivado/2019.2/win64/tools/clang/bin\\..\\lib\\clang\\3.1/../../../include/c++/4.5.2\\cmath" 3
+# 49 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot\\hls_video.h" 2
+# 1 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls_math.h" 1
+# 36 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls_math.h"
+# 1 "D:/Xilinx/Vivado/2019.2/win64/tools/clang/bin\\..\\lib\\clang\\3.1/../../../include/c++/4.5.2\\cmath" 1 3
+# 41 "D:/Xilinx/Vivado/2019.2/win64/tools/clang/bin\\..\\lib\\clang\\3.1/../../../include/c++/4.5.2\\cmath" 3
+# 41 "D:/Xilinx/Vivado/2019.2/win64/tools/clang/bin\\..\\lib\\clang\\3.1/../../../include/c++/4.5.2\\cmath" 3
 
 
-# 1 "F:/Vivado/Vivado/2019.2/win64/tools/clang/bin\\..\\lib\\clang\\3.1/../../../include/c++/4.5.2\\bits/cpp_type_traits.h" 1 3
-# 36 "F:/Vivado/Vivado/2019.2/win64/tools/clang/bin\\..\\lib\\clang\\3.1/../../../include/c++/4.5.2\\bits/cpp_type_traits.h" 3
-# 36 "F:/Vivado/Vivado/2019.2/win64/tools/clang/bin\\..\\lib\\clang\\3.1/../../../include/c++/4.5.2\\bits/cpp_type_traits.h" 3
-# 68 "F:/Vivado/Vivado/2019.2/win64/tools/clang/bin\\..\\lib\\clang\\3.1/../../../include/c++/4.5.2\\bits/cpp_type_traits.h" 3
+# 1 "D:/Xilinx/Vivado/2019.2/win64/tools/clang/bin\\..\\lib\\clang\\3.1/../../../include/c++/4.5.2\\bits/cpp_type_traits.h" 1 3
+# 36 "D:/Xilinx/Vivado/2019.2/win64/tools/clang/bin\\..\\lib\\clang\\3.1/../../../include/c++/4.5.2\\bits/cpp_type_traits.h" 3
+# 36 "D:/Xilinx/Vivado/2019.2/win64/tools/clang/bin\\..\\lib\\clang\\3.1/../../../include/c++/4.5.2\\bits/cpp_type_traits.h" 3
+# 68 "D:/Xilinx/Vivado/2019.2/win64/tools/clang/bin\\..\\lib\\clang\\3.1/../../../include/c++/4.5.2\\bits/cpp_type_traits.h" 3
 namespace __gnu_cxx {
 
   template<typename _Iterator, typename _Container>
@@ -9387,7 +9387,7 @@ namespace std {
       enum { __value = 1 };
       typedef __true_type __type;
     };
-# 193 "F:/Vivado/Vivado/2019.2/win64/tools/clang/bin\\..\\lib\\clang\\3.1/../../../include/c++/4.5.2\\bits/cpp_type_traits.h" 3
+# 193 "D:/Xilinx/Vivado/2019.2/win64/tools/clang/bin\\..\\lib\\clang\\3.1/../../../include/c++/4.5.2\\bits/cpp_type_traits.h" 3
   template<>
     struct __is_integer<short>
     {
@@ -9598,7 +9598,7 @@ namespace std {
       enum { __value = 0 };
       typedef __false_type __type;
     };
-# 416 "F:/Vivado/Vivado/2019.2/win64/tools/clang/bin\\..\\lib\\clang\\3.1/../../../include/c++/4.5.2\\bits/cpp_type_traits.h" 3
+# 416 "D:/Xilinx/Vivado/2019.2/win64/tools/clang/bin\\..\\lib\\clang\\3.1/../../../include/c++/4.5.2\\bits/cpp_type_traits.h" 3
   template<typename _Tp>
     class __is_iterator_helper
     {
@@ -9628,10 +9628,10 @@ namespace std {
     };
 
 }
-# 44 "F:/Vivado/Vivado/2019.2/win64/tools/clang/bin\\..\\lib\\clang\\3.1/../../../include/c++/4.5.2\\cmath" 2 3
-# 1 "F:/Vivado/Vivado/2019.2/win64/tools/clang/bin\\..\\lib\\clang\\3.1/../../../include/c++/4.5.2\\ext/type_traits.h" 1 3
-# 32 "F:/Vivado/Vivado/2019.2/win64/tools/clang/bin\\..\\lib\\clang\\3.1/../../../include/c++/4.5.2\\ext/type_traits.h" 3
-# 32 "F:/Vivado/Vivado/2019.2/win64/tools/clang/bin\\..\\lib\\clang\\3.1/../../../include/c++/4.5.2\\ext/type_traits.h" 3
+# 44 "D:/Xilinx/Vivado/2019.2/win64/tools/clang/bin\\..\\lib\\clang\\3.1/../../../include/c++/4.5.2\\cmath" 2 3
+# 1 "D:/Xilinx/Vivado/2019.2/win64/tools/clang/bin\\..\\lib\\clang\\3.1/../../../include/c++/4.5.2\\ext/type_traits.h" 1 3
+# 32 "D:/Xilinx/Vivado/2019.2/win64/tools/clang/bin\\..\\lib\\clang\\3.1/../../../include/c++/4.5.2\\ext/type_traits.h" 3
+# 32 "D:/Xilinx/Vivado/2019.2/win64/tools/clang/bin\\..\\lib\\clang\\3.1/../../../include/c++/4.5.2\\ext/type_traits.h" 3
 
 
 
@@ -9802,26 +9802,26 @@ namespace __gnu_cxx {
     };
 
 }
-# 45 "F:/Vivado/Vivado/2019.2/win64/tools/clang/bin\\..\\lib\\clang\\3.1/../../../include/c++/4.5.2\\cmath" 2 3
-# 1 "F:/Vivado/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\math.h" 1 3
-# 10 "F:/Vivado/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\math.h" 3
-# 10 "F:/Vivado/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\math.h" 3
+# 45 "D:/Xilinx/Vivado/2019.2/win64/tools/clang/bin\\..\\lib\\clang\\3.1/../../../include/c++/4.5.2\\cmath" 2 3
+# 1 "D:/Xilinx/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\math.h" 1 3
+# 10 "D:/Xilinx/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\math.h" 3
+# 10 "D:/Xilinx/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\math.h" 3
 
 
-# 1 "F:/Vivado/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\_mingw.h" 1 3
-# 12 "F:/Vivado/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\math.h" 2 3
+# 1 "D:/Xilinx/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\_mingw.h" 1 3
+# 12 "D:/Xilinx/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\math.h" 2 3
 
 
 struct _exception;
 
 #pragma pack(push,_CRT_PACKING)
-# 75 "F:/Vivado/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\math.h" 3
+# 75 "D:/Xilinx/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\math.h" 3
 extern "C" {
 
 
 
   extern double * __imp__HUGE;
-# 91 "F:/Vivado/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\math.h" 3
+# 91 "D:/Xilinx/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\math.h" 3
   struct _exception {
     int type;
     const char *name;
@@ -9855,7 +9855,7 @@ extern "C" {
   double ceil(double _X);
   double floor(double _X);
   double fabs(double _X);
-# 135 "F:/Vivado/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\math.h" 3
+# 135 "D:/Xilinx/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\math.h" 3
   double ldexp(double _X,int _Y);
   double frexp(double _X,int *_Y);
   double modf(double _X,double *_Y);
@@ -9864,7 +9864,7 @@ extern "C" {
   void sincos (double __x, double *p_sin, double *p_cos);
   void sincosl (long double __x, long double *p_sin, long double *p_cos);
   void sincosf (float __x, float *p_sin, float *p_cos);
-# 162 "F:/Vivado/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\math.h" 3
+# 162 "D:/Xilinx/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\math.h" 3
   struct _complex {
     double x;
     double y;
@@ -9882,7 +9882,7 @@ extern "C" {
 
 
   __attribute__ ((__dllimport__)) int _matherr (struct _exception *);
-# 189 "F:/Vivado/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\math.h" 3
+# 189 "D:/Xilinx/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\math.h" 3
   __attribute__ ((__dllimport__)) double _chgsign (double _X);
   __attribute__ ((__dllimport__)) double _copysign (double _Number,double _Sign);
   __attribute__ ((__dllimport__)) double _logb (double);
@@ -9905,25 +9905,25 @@ __attribute__ ((__dllimport__)) double y1 (double) ;
 __attribute__ ((__dllimport__)) double yn (int, double) ;
 
 __attribute__ ((__dllimport__)) double chgsign (double);
-# 219 "F:/Vivado/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\math.h" 3
+# 219 "D:/Xilinx/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\math.h" 3
   __attribute__ ((__dllimport__)) int finite (double);
   __attribute__ ((__dllimport__)) int fpclass (double);
-# 264 "F:/Vivado/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\math.h" 3
+# 264 "D:/Xilinx/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\math.h" 3
 typedef float float_t;
 typedef double double_t;
-# 299 "F:/Vivado/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\math.h" 3
+# 299 "D:/Xilinx/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\math.h" 3
   extern int __fpclassifyl (long double);
   extern int __fpclassifyf (float);
   extern int __fpclassify (double);
-# 335 "F:/Vivado/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\math.h" 3
+# 335 "D:/Xilinx/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\math.h" 3
   extern int __isnan (double);
   extern int __isnanf (float);
   extern int __isnanl (long double);
-# 376 "F:/Vivado/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\math.h" 3
+# 376 "D:/Xilinx/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\math.h" 3
   extern int __signbit (double);
   extern int __signbitf (float);
   extern int __signbitl (long double);
-# 404 "F:/Vivado/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\math.h" 3
+# 404 "D:/Xilinx/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\math.h" 3
   extern float sinf(float _X);
   extern long double sinl(long double);
 
@@ -10041,7 +10041,7 @@ typedef double double_t;
   extern double logb (double);
   extern float logbf (float);
   extern long double logbl (long double);
-# 553 "F:/Vivado/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\math.h" 3
+# 553 "D:/Xilinx/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\math.h" 3
   extern float modff (float, float*);
   extern long double modfl (long double, long double*);
 
@@ -10062,9 +10062,9 @@ typedef double double_t;
 
 
   extern float fabsf (float x);
-# 583 "F:/Vivado/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\math.h" 3
+# 583 "D:/Xilinx/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\math.h" 3
   extern long double fabsl (long double);
-# 595 "F:/Vivado/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\math.h" 3
+# 595 "D:/Xilinx/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\math.h" 3
   extern double hypot (double, double) ;
   extern float hypotf (float x, float y);
 
@@ -10130,7 +10130,7 @@ extern long lrintl (long double);
 __extension__ long long llrint (double);
 __extension__ long long llrintf (float);
 __extension__ long long llrintl (long double);
-# 739 "F:/Vivado/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\math.h" 3
+# 739 "D:/Xilinx/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\math.h" 3
   extern double round (double);
   extern float roundf (float);
   extern long double roundl (long double);
@@ -10172,7 +10172,7 @@ __extension__ long long llrintl (long double);
   extern double nan(const char *tagp);
   extern float nanf(const char *tagp);
   extern long double nanl(const char *tagp);
-# 788 "F:/Vivado/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\math.h" 3
+# 788 "D:/Xilinx/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\math.h" 3
   extern double nextafter (double, double);
   extern float nextafterf (float, float);
   extern long double nextafterl (long double, long double);
@@ -10208,7 +10208,7 @@ __extension__ long long llrintl (long double);
   extern double fma (double, double, double);
   extern float fmaf (float, float, float);
   extern long double fmal (long double, long double, long double);
-# 871 "F:/Vivado/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\math.h" 3
+# 871 "D:/Xilinx/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\math.h" 3
    __attribute__ ((__dllimport__)) float _copysignf (float _Number,float _Sign);
    __attribute__ ((__dllimport__)) float _chgsignf (float _X);
    __attribute__ ((__dllimport__)) float _logbf(float _X);
@@ -10220,15 +10220,15 @@ __extension__ long long llrintl (long double);
 
 
    extern long double _chgsignl (long double);
-# 893 "F:/Vivado/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\math.h" 3
+# 893 "D:/Xilinx/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\math.h" 3
 }
 
 
 
 
 #pragma pack(pop)
-# 46 "F:/Vivado/Vivado/2019.2/win64/tools/clang/bin\\..\\lib\\clang\\3.1/../../../include/c++/4.5.2\\cmath" 2 3
-# 76 "F:/Vivado/Vivado/2019.2/win64/tools/clang/bin\\..\\lib\\clang\\3.1/../../../include/c++/4.5.2\\cmath" 3
+# 46 "D:/Xilinx/Vivado/2019.2/win64/tools/clang/bin\\..\\lib\\clang\\3.1/../../../include/c++/4.5.2\\cmath" 2 3
+# 76 "D:/Xilinx/Vivado/2019.2/win64/tools/clang/bin\\..\\lib\\clang\\3.1/../../../include/c++/4.5.2\\cmath" 3
 namespace std {
 
 
@@ -10632,7 +10632,7 @@ namespace std {
     { return __builtin_tanh(__x); }
 
 }
-# 497 "F:/Vivado/Vivado/2019.2/win64/tools/clang/bin\\..\\lib\\clang\\3.1/../../../include/c++/4.5.2\\cmath" 3
+# 497 "D:/Xilinx/Vivado/2019.2/win64/tools/clang/bin\\..\\lib\\clang\\3.1/../../../include/c++/4.5.2\\cmath" 3
 namespace std {
 
   template<typename _Tp>
@@ -10751,8 +10751,8 @@ namespace std {
 
 
 
-# 1 "F:/Vivado/Vivado/2019.2/win64/tools/clang/bin\\..\\lib\\clang\\3.1/../../../include/c++/4.5.2\\bits/cmath.tcc" 1 3
-# 35 "F:/Vivado/Vivado/2019.2/win64/tools/clang/bin\\..\\lib\\clang\\3.1/../../../include/c++/4.5.2\\bits/cmath.tcc" 3
+# 1 "D:/Xilinx/Vivado/2019.2/win64/tools/clang/bin\\..\\lib\\clang\\3.1/../../../include/c++/4.5.2\\bits/cmath.tcc" 1 3
+# 35 "D:/Xilinx/Vivado/2019.2/win64/tools/clang/bin\\..\\lib\\clang\\3.1/../../../include/c++/4.5.2\\bits/cmath.tcc" 3
 namespace std {
 
   template<typename _Tp>
@@ -10772,14 +10772,14 @@ namespace std {
     }
 
 }
-# 615 "F:/Vivado/Vivado/2019.2/win64/tools/clang/bin\\..\\lib\\clang\\3.1/../../../include/c++/4.5.2\\cmath" 2 3
-# 37 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls_math.h" 2
+# 615 "D:/Xilinx/Vivado/2019.2/win64/tools/clang/bin\\..\\lib\\clang\\3.1/../../../include/c++/4.5.2\\cmath" 2 3
+# 37 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls_math.h" 2
 
-# 1 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls_fpo.h" 1
-# 62 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls_fpo.h"
-# 1 "F:/Vivado/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\assert.h" 1 3
-# 63 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls_fpo.h" 2
-# 39 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls_math.h" 2
+# 1 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls_fpo.h" 1
+# 62 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls_fpo.h"
+# 1 "D:/Xilinx/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\assert.h" 1 3
+# 63 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls_fpo.h" 2
+# 39 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls_math.h" 2
 
 
 namespace hls {
@@ -11576,7 +11576,7 @@ namespace hls {
   uint16_t sqrt(uint16_t);
   int32_t sqrt(int32_t);
   uint32_t sqrt(uint32_t);
-# 854 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls_math.h"
+# 854 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls_math.h"
   double recip(double);
   float recip(float);
   half recip(half);
@@ -11742,15 +11742,15 @@ namespace hls {
 }
 
 
-# 1 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls_hotbm_apfixed.h" 1
-# 43 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls_hotbm_apfixed.h"
-# 1 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/ap_int.h" 1
-# 44 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls_hotbm_apfixed.h" 2
-# 1 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/utils/x_hls_defines.h" 1
-# 39 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/utils/x_hls_defines.h"
-# 1 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/ap_int.h" 1
-# 40 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/utils/x_hls_defines.h" 2
-# 107 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/utils/x_hls_defines.h"
+# 1 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls_hotbm_apfixed.h" 1
+# 43 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls_hotbm_apfixed.h"
+# 1 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/ap_int.h" 1
+# 44 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls_hotbm_apfixed.h" 2
+# 1 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/utils/x_hls_defines.h" 1
+# 39 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/utils/x_hls_defines.h"
+# 1 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/ap_int.h" 1
+# 40 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/utils/x_hls_defines.h" 2
+# 107 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/utils/x_hls_defines.h"
 template<int M, int E>
 struct float_struct {
     ap_uint<M> mant;
@@ -11766,7 +11766,7 @@ struct float_struct2 {
     ap_int<M> mant;
     ap_uint<E> exp;
 };
-# 45 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls_hotbm_apfixed.h" 2
+# 45 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls_hotbm_apfixed.h" 2
 
 
 
@@ -12216,11 +12216,11 @@ _ssdm_SpecArrayPartition( &neg_cos_table, 1, "COMPLETE", 0, "");
   };
 
 };
-# 1019 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls_math.h" 2
-# 1 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls_cordic_apfixed.h" 1
-# 41 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls_cordic_apfixed.h"
-# 1 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/ap_int.h" 1
-# 42 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls_cordic_apfixed.h" 2
+# 1019 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls_math.h" 2
+# 1 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls_cordic_apfixed.h" 1
+# 41 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls_cordic_apfixed.h"
+# 1 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/ap_int.h" 1
+# 42 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls_cordic_apfixed.h" 2
 
 
 
@@ -12294,7 +12294,7 @@ _ssdm_op_SpecPipeline(-1, 1, 1, 0, "");
       x = tx;
       y = ty;
       z = tz;
-# 126 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls_cordic_apfixed.h"
+# 126 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls_cordic_apfixed.h"
     }
   };
 
@@ -12380,7 +12380,7 @@ _ssdm_op_SpecPipeline(4, 1, 1, 0, "");
         tz = z + z_s;
       }
       z = tz;
-# 221 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls_cordic_apfixed.h"
+# 221 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls_cordic_apfixed.h"
     }
   };
 
@@ -12517,7 +12517,7 @@ _ssdm_Unroll(0,0,0, "");
     }
     return out;
   };
-# 366 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls_cordic_apfixed.h"
+# 366 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls_cordic_apfixed.h"
   template<int W, int I, int Wo>
   void circ_range_redux_pi( ap_ufixed<W,I> x,
                              ap_uint<2> &k,
@@ -12948,7 +12948,7 @@ _ssdm_Unroll(0,0,0, "");
       x = tx;
       y = ty;
       z = tz;
-# 804 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls_cordic_apfixed.h"
+# 804 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls_cordic_apfixed.h"
     }
   }
 
@@ -13196,7 +13196,7 @@ _ssdm_Unroll(0,0,0, "");
     const ap_fixed<W+1,I+1> cst1("0x1");
     const ap_fixed<W,I> cst0("0x0");
     const ap_fixed<W,I> cst_1("-0x1");
-# 1062 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls_cordic_apfixed.h"
+# 1062 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls_cordic_apfixed.h"
     ap_fixed<W-I+3,3> out;
 
 
@@ -13260,7 +13260,7 @@ _ssdm_Unroll(0,0,0, "");
 
     const int I0 = 3;
     const int W0 = W - I + I0;
-# 1140 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls_cordic_apfixed.h"
+# 1140 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls_cordic_apfixed.h"
     const ap_fixed<W0,I0> pi2("0x1.921FB54442D1846");
     ap_fixed<W0,I0> out = pi2 - generic_asin(in);
 
@@ -13744,9 +13744,9 @@ _ssdm_Unroll(0,0,0, "");
   }
 
 }
-# 1020 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls_math.h" 2
-# 1 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls_exp_apfixed.h" 1
-# 36 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls_exp_apfixed.h"
+# 1020 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls_math.h" 2
+# 1 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls_exp_apfixed.h" 1
+# 36 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls_exp_apfixed.h"
 namespace exp_reduce {
 
 template<int W_, int I_>
@@ -13842,7 +13842,7 @@ _ssdm_op_SpecPipeline(-1, 1, 1, 0, "");
             ap_uint<4> x_lsb_ind;
             x_lsb_ind(3,0) = x_l(3,0);
             ap_ufixed<4,-1> x_lsb = x_l;
-# 151 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls_exp_apfixed.h"
+# 151 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls_exp_apfixed.h"
             const static ap_ufixed<12,0> exp_x_lsb_m_1_table[16] = {
                 "0x0.0p0", "0x0.082p0", "0x0.108p0", "0x0.193p0", "0x0.221p0", "0x0.2b5p0", "0x0.34dp0", "0x0.3eap0",
                 "0x0.48bp0", "0x0.532p0", "0x0.5dfp0", "0x0.69p0", "0x0.748p0", "0x0.805p0", "0x0.8c8p0", "0x0.991p0",
@@ -17123,9 +17123,9 @@ ap_uint<I> exp10(ap_uint<I> x) {
 }
 
 }
-# 1021 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls_math.h" 2
-# 1 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls_log_apfixed.h" 1
-# 39 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls_log_apfixed.h"
+# 1021 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls_math.h" 2
+# 1 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls_log_apfixed.h" 1
+# 39 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls_log_apfixed.h"
 namespace log_apfixed_reduce {
 
 
@@ -17794,7 +17794,7 @@ _ssdm_op_SpecPipeline(-1, 1, 1, 0, "");
 
 
             const static int W_s_ = (F_+F_/77*2+12)/15-(100+F_)/133+(99+F_)/133-(100+F_)/118+(98+F_)/118+1;
-# 716 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls_log_apfixed.h"
+# 716 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls_log_apfixed.h"
             const static int wf = log_traits<W_s_>::wf;
             const static int I_s= I_>0? I_:-I_;
             const static int org_wf = log_traits<W_s_>::org_wf+I_s;
@@ -18075,7 +18075,7 @@ _ssdm_op_SpecPipeline(-1, 1, 1, 0, "");
 
             if (F_<=16) log_base = Elog2_s + log_base * LOG1_54_s;
             else log_base = Elog2_l + log_base * LOG1_54_l;
-# 1004 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls_log_apfixed.h"
+# 1004 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls_log_apfixed.h"
             r = log_base;
         }
 
@@ -18543,11 +18543,11 @@ ap_uint<I_> logb(ap_uint<I_> x) {
 }
 
 }
-# 1022 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls_math.h" 2
-# 1 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls_sqrt_apfixed.h" 1
-# 34 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls_sqrt_apfixed.h"
-# 1 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/ap_int.h" 1
-# 35 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls_sqrt_apfixed.h" 2
+# 1022 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls_math.h" 2
+# 1 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls_sqrt_apfixed.h" 1
+# 34 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls_sqrt_apfixed.h"
+# 1 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/ap_int.h" 1
+# 35 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls_sqrt_apfixed.h" 2
 
 
 
@@ -18754,7 +18754,7 @@ _ssdm_op_SpecPipeline(-1, 1, 1, 0, "");
         ap_ufixed<msbr + prcs , msbr> res = 0;
         ap_ufixed<msbr , msbr> res_I = 0;
         ap_ufixed< prcs/2, 0> res_FH = 0;
-# 265 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls_sqrt_apfixed.h"
+# 265 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls_sqrt_apfixed.h"
     if (I_>0)
 #pragma unroll
  for ( int pos = msbr-1; pos >= 0; pos-- ) {
@@ -18950,11 +18950,11 @@ ap_uint<I_> recip_fixed(ap_uint<I_> x) {
     ap_fixed<I_+1,I_+1> xf = x;
     return recip_fixed(xf);
 }
-# 1023 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls_math.h" 2
-# 1 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls_round_copysign_apfixed.h" 1
-# 35 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls_round_copysign_apfixed.h"
-# 1 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/ap_int.h" 1
-# 36 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls_round_copysign_apfixed.h" 2
+# 1023 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls_math.h" 2
+# 1 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls_round_copysign_apfixed.h" 1
+# 35 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls_round_copysign_apfixed.h"
+# 1 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/ap_int.h" 1
+# 36 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls_round_copysign_apfixed.h" 2
 
 template <int W_, int I_>
 ap_fixed<W_,I_> ceil_fixed(ap_fixed<W_,I_> x)
@@ -19176,7 +19176,7 @@ _ssdm_op_SpecPipeline(-1, 1, 1, 0, "");
             if(x[W_-1]) return -xUp;
             else return xUp;
         }
-# 287 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls_round_copysign_apfixed.h"
+# 287 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls_round_copysign_apfixed.h"
     }
 }
 template <int W_, int I_>
@@ -19448,11 +19448,11 @@ long int lrint_fixed(ap_uint<I> x){
         return x;
     }
 }
-# 1024 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls_math.h" 2
-# 1 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls_pow_apfixed.h" 1
-# 37 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls_pow_apfixed.h"
+# 1024 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls_math.h" 2
+# 1 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls_pow_apfixed.h" 1
+# 37 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls_pow_apfixed.h"
 namespace pow_apfixed_reduce{
-# 52 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls_pow_apfixed.h"
+# 52 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls_pow_apfixed.h"
 template<int W_,int I_>
 ap_fixed<W_,I_> pow(ap_fixed<W_,I_> x, ap_fixed<W_,I_> y) {
     const static int F_ = W_ - I_;
@@ -19519,7 +19519,7 @@ ap_fixed<W_,I_> pow(ap_fixed<W_,I_> x, ap_fixed<W_,I_> y) {
     const static int WI_m = FI_m + I_m;
     const static int WO_m = F_ + I_m;
     ap_fixed<F_l+W_+6,6+I_> mul_y_ln = ln_x_s * y;
-# 127 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls_pow_apfixed.h"
+# 127 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls_pow_apfixed.h"
     ap_fixed<WO_m,I_m> exp_r = 0;
     ap_fixed<W_,I_> r_1 = 0;
     bool m_overf = 0;
@@ -19580,7 +19580,7 @@ ap_fixed<W_,I_> pow(ap_fixed<W_,I_> x, ap_fixed<W_,I_> y) {
 
     return r;
 }
-# 206 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls_pow_apfixed.h"
+# 206 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls_pow_apfixed.h"
 template<int W_, int I_>
 ap_fixed<W_,I_> pown(ap_fixed<W_,I_> x, int n) {
 
@@ -19611,7 +19611,7 @@ ap_fixed<W_,I_> pown(ap_fixed<W_,I_> x, int n) {
         if(n_is_odd) r = -1;
         else r = 1;
     }else {
-# 262 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls_pow_apfixed.h"
+# 262 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls_pow_apfixed.h"
        const static int we_n = F_ > 26? 32 : 6 + F_;
 
        const static int wf_log = I_ == F_>26 ? (31+F_+I_) : (we_n-1+F_+I_);
@@ -19700,7 +19700,7 @@ _ssdm_Unroll(0,0,0, "");
    }
    return r;
 }
-# 376 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls_pow_apfixed.h"
+# 376 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls_pow_apfixed.h"
 template<int W_,int I_>
 ap_fixed<W_,I_> rootn(ap_fixed<W_,I_> x, int n) {
 
@@ -19888,12 +19888,12 @@ ap_uint<I_> rootn(ap_uint<I_> x, int n) {
    return rootn(xi, n);
 }
 }
-# 1025 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls_math.h" 2
-# 1 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls_diff_apfixed.h" 1
-# 35 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls_diff_apfixed.h"
-# 1 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/ap_int.h" 1
-# 36 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls_diff_apfixed.h" 2
-# 46 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls_diff_apfixed.h"
+# 1025 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls_math.h" 2
+# 1 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls_diff_apfixed.h" 1
+# 35 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls_diff_apfixed.h"
+# 1 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/ap_int.h" 1
+# 36 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls_diff_apfixed.h" 2
+# 46 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls_diff_apfixed.h"
 template <int W_, int I_>
 ap_fixed<W_,I_> fdim_fixed(ap_fixed<W_,I_> x, ap_fixed<W_,I_> y )
 {
@@ -19941,7 +19941,7 @@ ap_uint<I_> fdim_fixed(ap_uint<I_> x, ap_uint<I_> y)
     if(x > y) { xs = x - y; }
     return xs;
 }
-# 102 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls_diff_apfixed.h"
+# 102 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls_diff_apfixed.h"
 template <int W_, int I_>
 ap_fixed<W_,I_> fmax_fixed(ap_fixed<W_,I_> x, ap_fixed<W_,I_> y )
 {
@@ -19974,7 +19974,7 @@ ap_uint<I_> fmax_fixed(ap_uint<I_> x, ap_uint<I_> y)
         else xs = y ;
     return xs;
 }
-# 143 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls_diff_apfixed.h"
+# 143 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls_diff_apfixed.h"
 template <int W_, int I_>
 ap_fixed<W_,I_> fmin_fixed(ap_fixed<W_,I_> x, ap_fixed<W_,I_> y )
 {
@@ -20007,7 +20007,7 @@ ap_uint<I_> fmin_fixed(ap_uint<I_> x, ap_uint<I_> y)
         else xs = y ;
     return xs;
 }
-# 186 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls_diff_apfixed.h"
+# 186 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls_diff_apfixed.h"
 template <int W_, int I_>
 ap_fixed<W_,I_> maxmag_fixed(ap_fixed<W_,I_> x, ap_fixed<W_,I_> y )
 {
@@ -20063,7 +20063,7 @@ ap_uint<I_> maxmag_fixed(ap_uint<I_> x, ap_uint<I_> y)
         else xs = y ;
     return xs;
 }
-# 252 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls_diff_apfixed.h"
+# 252 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls_diff_apfixed.h"
 template <int W_, int I_>
 ap_fixed<W_,I_> minmag_fixed(ap_fixed<W_,I_> x, ap_fixed<W_,I_> y )
 {
@@ -20118,11 +20118,11 @@ ap_uint<I_> minmag_fixed(ap_uint<I_> x, ap_uint<I_> y)
         else xs = y ;
     return xs;
 }
-# 1026 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls_math.h" 2
-# 1 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls_comparison_apfixed.h" 1
-# 35 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls_comparison_apfixed.h"
-# 1 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/ap_int.h" 1
-# 36 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls_comparison_apfixed.h" 2
+# 1026 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls_math.h" 2
+# 1 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls_comparison_apfixed.h" 1
+# 35 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls_comparison_apfixed.h"
+# 1 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/ap_int.h" 1
+# 36 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls_comparison_apfixed.h" 2
 
 
 
@@ -20314,9 +20314,9 @@ bool islessgreater_fixed(ap_uint<I> x1, ap_uint<I> x2){
         return false;
     }
 }
-# 1027 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls_math.h" 2
-# 1 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls_frexp_apfixed.h" 1
-# 41 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls_frexp_apfixed.h"
+# 1027 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls_math.h" 2
+# 1 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls_frexp_apfixed.h" 1
+# 41 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls_frexp_apfixed.h"
 namespace frexp_internal {
 
 template<int W, int I>
@@ -20404,9 +20404,9 @@ ap_int<I> frexp(ap_int<I> x,
    return r;
 }
 }
-# 1028 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls_math.h" 2
-# 1 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls_modf_apfixed.h" 1
-# 40 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls_modf_apfixed.h"
+# 1028 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls_math.h" 2
+# 1 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls_modf_apfixed.h" 1
+# 40 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls_modf_apfixed.h"
 namespace modf_internal {
 template<int W, int I>
 ap_fixed<W,I> modf(ap_fixed<W, I> x,
@@ -20450,9 +20450,9 @@ ap_uint<I> modf(ap_uint<I> x,
     return 0;
 }
 }
-# 1029 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls_math.h" 2
-# 1 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls_isequal_isnotequal_apfixed.h" 1
-# 40 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls_isequal_isnotequal_apfixed.h"
+# 1029 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls_math.h" 2
+# 1 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls_isequal_isnotequal_apfixed.h" 1
+# 40 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls_isequal_isnotequal_apfixed.h"
 template <int W_, int I_>
 bool generic_isequal(ap_fixed<W_,I_> x,ap_fixed<W_,I_> y)
 {
@@ -20580,11 +20580,11 @@ bool generic_isnotequal(ap_uint<I_> x,ap_uint<I_> y)
 _ssdm_op_SpecPipeline(-1, 1, 1, 0, "");
  return (!(x==y));
 }
-# 1030 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls_math.h" 2
-# 1 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls_all_any_apfixed.h" 1
-# 35 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls_all_any_apfixed.h"
-# 1 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/ap_int.h" 1
-# 35 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls_all_any_apfixed.h" 2
+# 1030 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls_math.h" 2
+# 1 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls_all_any_apfixed.h" 1
+# 35 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls_all_any_apfixed.h"
+# 1 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/ap_int.h" 1
+# 35 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls_all_any_apfixed.h" 2
 
 
 
@@ -20674,12 +20674,12 @@ _ssdm_op_SpecPipeline(1, 1, 1, 0, "");
       return true;
     return false;
 }
-# 1031 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls_math.h" 2
-# 1 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls_select_bitselect_apfixed.h" 1
-# 35 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls_select_bitselect_apfixed.h"
-# 1 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/ap_int.h" 1
-# 36 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls_select_bitselect_apfixed.h" 2
-# 62 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls_select_bitselect_apfixed.h"
+# 1031 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls_math.h" 2
+# 1 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls_select_bitselect_apfixed.h" 1
+# 35 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls_select_bitselect_apfixed.h"
+# 1 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/ap_int.h" 1
+# 36 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls_select_bitselect_apfixed.h" 2
+# 62 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls_select_bitselect_apfixed.h"
 template <int W_, int I_>
 ap_fixed<W_,I_> generic_bitselect(ap_fixed<W_,I_> x,ap_fixed<W_,I_> y, ap_fixed<W_,I_> z)
 {
@@ -20709,11 +20709,11 @@ ap_uint<I_> generic_bitselect(ap_uint<I_> x,ap_uint<I_> y, ap_uint<I_> z)
 _ssdm_op_SpecPipeline(-1, 1, 1, 0, "");
  return (z & y)|(~z & x);
 }
-# 1032 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls_math.h" 2
-# 1 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls_erf_apfixed.h" 1
-# 35 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls_erf_apfixed.h"
-# 1 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/ap_int.h" 1
-# 36 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls_erf_apfixed.h" 2
+# 1032 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls_math.h" 2
+# 1 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls_erf_apfixed.h" 1
+# 35 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls_erf_apfixed.h"
+# 1 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/ap_int.h" 1
+# 36 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls_erf_apfixed.h" 2
 
 
 
@@ -20822,9 +20822,9 @@ namespace erf_erfc_fixed {
     2.55305040643316442583e+03,
     4.74528541206955367215e+02,
     -2.24409524465858183362e+01};
-# 245 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls_erf_apfixed.h"
+# 245 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls_erf_apfixed.h"
  template<typename T> class erf_traits{ };
-# 267 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls_erf_apfixed.h"
+# 267 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls_erf_apfixed.h"
  template<> class erf_traits<double> {
  public:
    static const uint64_t mask;
@@ -20846,7 +20846,7 @@ namespace erf_erfc_fixed {
    };
 
  template<typename T> class erfc_traits{};
-# 308 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls_erf_apfixed.h"
+# 308 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls_erf_apfixed.h"
  template<> class erfc_traits<double>{
  public:
    static const uint32_t segment[11];
@@ -20866,7 +20866,7 @@ namespace erf_erfc_fixed {
   32
    };
   }
-# 346 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls_erf_apfixed.h"
+# 346 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls_erf_apfixed.h"
 template <int W_, int I_>
 ap_fixed<W_,I_> erf(ap_fixed<W_,I_> x_fixed )
 {
@@ -21026,7 +21026,7 @@ ap_uint<I_> erf(ap_uint<I_> x) {
     ap_fixed<I_+1,I_+1> xs = x;
     return erf(xs);
 }
-# 513 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls_erf_apfixed.h"
+# 513 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls_erf_apfixed.h"
 template <int W_, int I_>
 ap_fixed<W_,I_> erfc(ap_fixed<W_,I_> x_fixed)
 {
@@ -21197,11 +21197,11 @@ ap_uint<I_> erfc(ap_uint<I_> x) {
 }
 
 }
-# 1033 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls_math.h" 2
-# 1 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls_fmod_rem_quo_remainder_divide_apfixed.h" 1
-# 40 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls_fmod_rem_quo_remainder_divide_apfixed.h"
-# 1 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/ap_int.h" 1
-# 41 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls_fmod_rem_quo_remainder_divide_apfixed.h" 2
+# 1033 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls_math.h" 2
+# 1 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls_fmod_rem_quo_remainder_divide_apfixed.h" 1
+# 40 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls_fmod_rem_quo_remainder_divide_apfixed.h"
+# 1 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/ap_int.h" 1
+# 41 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls_fmod_rem_quo_remainder_divide_apfixed.h" 2
 
 
 
@@ -21390,18 +21390,18 @@ namespace hls_internal{
      return generic_remainder(xi,yi);
     }
 }
-# 1034 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls_math.h" 2
-# 1 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls_fract_apfixed.h" 1
+# 1034 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls_math.h" 2
+# 1 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls_fract_apfixed.h" 1
 
 
 
 
 
 
-# 1 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/utils/x_hls_traits.h" 1
-# 36 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/utils/x_hls_traits.h"
-# 1 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/ap_int.h" 1
-# 37 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/utils/x_hls_traits.h" 2
+# 1 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/utils/x_hls_traits.h" 1
+# 36 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/utils/x_hls_traits.h"
+# 1 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/ap_int.h" 1
+# 37 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/utils/x_hls_traits.h" 2
 
 
 
@@ -21421,7 +21421,7 @@ struct x_traits_default {
 
 template<typename T1, typename T2>
 struct x_traits {
-# 67 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/utils/x_hls_traits.h"
+# 67 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/utils/x_hls_traits.h"
 };
 template<typename T2>
 struct x_traits<double, T2> : public x_traits_default<double> { };
@@ -21440,7 +21440,7 @@ struct x_traits<half, T2> : public x_traits_default<float> { };
 
 template<typename T1>
 struct x_traits<T1, half> : public x_traits_default<float> { };
-# 100 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/utils/x_hls_traits.h"
+# 100 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/utils/x_hls_traits.h"
 template<>
 struct x_traits< char , char > : public x_traits_default< char > {};
 
@@ -22223,7 +22223,7 @@ struct x_traits_default {
 
 template<typename T1, typename T2>
 struct x_traits {
-# 893 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/utils/x_hls_traits.h"
+# 893 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/utils/x_hls_traits.h"
 };
 
 template<>
@@ -22447,7 +22447,7 @@ struct x_traits_d <ap_ufixed<W,I,Q,O>,DIM> {
 };
 
 }
-# 8 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls_fract_apfixed.h" 2
+# 8 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls_fract_apfixed.h" 2
 
 namespace hls_fract {
 
@@ -22477,8 +22477,8 @@ ap_uint<I_> generic_fract(ap_uint<I_> x){
  return generic_fract(x1);
 }
 }
-# 1035 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls_math.h" 2
-# 1 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls_mad_apfixed.h" 1
+# 1035 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls_math.h" 2
+# 1 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls_mad_apfixed.h" 1
 
 
 
@@ -22536,9 +22536,9 @@ _ssdm_Unroll(0,0,0, "");
         return generic_mad(xi,yi,zi);
     }
 }
-# 1036 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls_math.h" 2
-# 1 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls_cbrt_apfixed.h" 1
-# 40 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls_cbrt_apfixed.h"
+# 1036 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls_math.h" 2
+# 1 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls_cbrt_apfixed.h" 1
+# 40 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls_cbrt_apfixed.h"
 namespace cbrt_internal{
 template <int W, int I>
 ap_fixed<W, I> cbrt_fixed(ap_fixed<W,I> x) {
@@ -22624,7 +22624,7 @@ ap_fixed<W, I> cbrt_fixed(ap_fixed<W,I> x) {
              resq[2*pos+prcs] = 1;
              res[pos+prcs] = 1;
          }
-# 133 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls_cbrt_apfixed.h"
+# 133 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls_cbrt_apfixed.h"
       }
 
 
@@ -22656,11 +22656,11 @@ ap_uint<I> cbrt_fixed(ap_uint<I> x) {
    return cbrt_fixed(xi);
 }
 }
-# 1037 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls_math.h" 2
-# 1 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls_hypot_apfixed.h" 1
-# 39 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls_hypot_apfixed.h"
-# 1 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/ap_int.h" 1
-# 40 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls_hypot_apfixed.h" 2
+# 1037 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls_math.h" 2
+# 1 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls_hypot_apfixed.h" 1
+# 39 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls_hypot_apfixed.h"
+# 1 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/ap_int.h" 1
+# 40 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls_hypot_apfixed.h" 2
 
 namespace hypot_internal {
 template<int W, int I>
@@ -22668,14 +22668,14 @@ ap_fixed<W, I> hypot_fixed(ap_fixed<W, I> x, ap_fixed<W, I> y) {
     const static int F = W - I;
     if(I > 33) return 0;
     else if(F > 32) return 0;
-# 55 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls_hypot_apfixed.h"
+# 55 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls_hypot_apfixed.h"
     if(x==0) return fabs_fixed(y);
     if(y==0) return fabs_fixed(x);
 
     ap_ufixed<2*W, I*2> x_sq = x * x;
     ap_ufixed<2*W, I*2> y_sq = y * y;
     ap_ufixed<2*W, I*2> xy_sq = x_sq + y_sq;
-# 69 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls_hypot_apfixed.h"
+# 69 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls_hypot_apfixed.h"
     const static int prcs = (F+1)*2;
     const static int msbr = I > 0? I : 1;
     ap_ufixed<msbr, msbr> res_I = 0;
@@ -22703,7 +22703,7 @@ ap_fixed<W, I> hypot_fixed(ap_fixed<W, I> x, ap_fixed<W, I> y) {
        }
     }
     ap_ufixed<msbr+1, msbr+1> x_l_I_s = x_l_I;
-# 104 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls_hypot_apfixed.h"
+# 104 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls_hypot_apfixed.h"
     ap_ufixed<prcs/2,0> res_F = 0;
     ap_ufixed<prcs/2,0> x_l_FH = xy_sq;
     ap_ufixed<prcs/2, -prcs/2> x_l_FL = xy_sq;
@@ -22720,7 +22720,7 @@ ap_fixed<W, I> hypot_fixed(ap_fixed<W, I> x, ap_fixed<W, I> y) {
         mul_I = mul;
         ap_ufixed<prcs/2, 0> mul_FH = mul;
         ap_ufixed<prcs/2, -prcs/2> mul_FL = mul;
-# 139 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls_hypot_apfixed.h"
+# 139 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls_hypot_apfixed.h"
         if((x_l_I_s > mul_I) || ((x_l_I_s == mul_I) && (x_l_FH > mul_FH)) || ((x_l_I_s == mul_I) && (x_l_FH == mul_FH) && (x_l_FL >= mul_FL))) {
 
 
@@ -22810,9 +22810,9 @@ ap_uint<I> hypot_fixed(ap_uint<I> x, ap_uint<I> y) {
    return hypot_fixed(xi, yi);
 }
 }
-# 1038 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls_math.h" 2
-# 1 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls_ldexp_apfixed.h" 1
-# 36 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls_ldexp_apfixed.h"
+# 1038 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls_math.h" 2
+# 1 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls_ldexp_apfixed.h" 1
+# 36 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls_ldexp_apfixed.h"
 namespace hls_ldexp {
 
 template<int W, int I>
@@ -22903,10 +22903,10 @@ ap_uint<I> scalbln(ap_uint<I> x, long int n) {
 }
 
 }
-# 1039 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls_math.h" 2
+# 1039 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls_math.h" 2
 
 namespace hls {
-# 1063 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls_math.h"
+# 1063 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls_math.h"
   template<int W, int I>
   ap_fixed<W, 2> sinpi(ap_fixed<W,I> x){
     return hotbm_apfixed::sinf_or_cosf<W,I>(x, 0, 1);
@@ -23761,7 +23761,7 @@ namespace hls {
   }
   return out;
   }
-# 1935 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls_math.h"
+# 1935 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls_math.h"
   template<int I>
   ap_int<I> sin(ap_int<I> in) {
  return ap_int<I>(0);
@@ -24937,11 +24937,11 @@ namespace hls {
     uint32_t logb(uint32_t);
 
 };
-# 50 "F:/Vivado/Vivado/2019.2/common/technology/autopilot\\hls_video.h" 2
-# 1 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls_stream.h" 1
-# 66 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls_stream.h"
-# 1 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/etc/autopilot_enum.h" 1
-# 58 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/etc/autopilot_enum.h"
+# 50 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot\\hls_video.h" 2
+# 1 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls_stream.h" 1
+# 66 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls_stream.h"
+# 1 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/etc/autopilot_enum.h" 1
+# 58 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/etc/autopilot_enum.h"
 enum SsdmDataTypes {
     _ssdm_sc_int = 0,
     _ssdm_c_int = _ssdm_sc_int,
@@ -25014,11 +25014,11 @@ enum SsdmRegionTypes {
     _ssdm_region_pipeline,
     _ssdm_region_parallel,
 };
-# 67 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls_stream.h" 2
+# 67 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls_stream.h" 2
 
 
 namespace hls {
-# 88 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls_stream.h"
+# 88 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls_stream.h"
 template<typename __STREAM_T__>
 class stream
 {
@@ -25139,13 +25139,13 @@ class stream
 
 
 }
-# 51 "F:/Vivado/Vivado/2019.2/common/technology/autopilot\\hls_video.h" 2
+# 51 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot\\hls_video.h" 2
 
 
 
 
-# 1 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_types.h" 1
-# 177 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_types.h"
+# 1 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_types.h" 1
+# 177 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_types.h"
 template<int T> struct Type { typedef ap_int<T-12> name; static const int bitdepth = T-12; };
 template<> struct Type<0> { typedef unsigned char name; static const int bitdepth = 8; };
 template<> struct Type<1> { typedef char name; static const int bitdepth = 8; };
@@ -25168,7 +25168,7 @@ template<> struct pixel_op_type<unsigned int> { typedef ap_uint<32> T; };
 template<> struct pixel_op_type<int> { typedef ap_int<32> T; };
 template<int W> struct pixel_op_type<ap_int<W> > { typedef ap_int<W> T; };
 template<int W> struct pixel_op_type<ap_uint<W> > { typedef ap_uint<W> T; };
-# 225 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_types.h"
+# 225 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_types.h"
 template<typename T> struct Name
 { static const int _min = -2147483647; static const int _max = 2147483647; };
 template<> struct Name<unsigned char>
@@ -25523,9 +25523,9 @@ typedef struct{
 }luma_8;
 
 }
-# 56 "F:/Vivado/Vivado/2019.2/common/technology/autopilot\\hls_video.h" 2
-# 1 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_mem.h" 1
-# 45 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_mem.h"
+# 56 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot\\hls_video.h" 2
+# 1 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_mem.h" 1
+# 45 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_mem.h"
 namespace hls {
 
 
@@ -25572,7 +25572,7 @@ _ssdm_SpecArrayPartition( val, 2, "COMPLETE", 0, "");
 
 
 };
-# 113 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_mem.h"
+# 113 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_mem.h"
 template<int ROWS, int COLS, typename T> void Window<ROWS, COLS, T>::shift_pixels_left() {
 _ssdm_InlineSelf(0, "");
 
@@ -25590,7 +25590,7 @@ _ssdm_Unroll(0,0,0, "");
             val[i][j] = val[i][j+1];
         }
     }
-# 145 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_mem.h"
+# 145 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_mem.h"
 }
 
 
@@ -25614,7 +25614,7 @@ _ssdm_Unroll(0,0,0, "");
             val[i][j] = val[i][j-1];
         }
     }
-# 183 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_mem.h"
+# 183 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_mem.h"
 }
 
 
@@ -25638,7 +25638,7 @@ _ssdm_Unroll(0,0,0, "");
             val[i][j] = val[i+1][j];
         }
     }
-# 221 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_mem.h"
+# 221 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_mem.h"
 }
 
 
@@ -25662,7 +25662,7 @@ _ssdm_Unroll(0,0,0, "");
             val[i][j] = val[i-1][j];
         }
     }
-# 259 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_mem.h"
+# 259 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_mem.h"
 }
 
 
@@ -25670,7 +25670,7 @@ _ssdm_Unroll(0,0,0, "");
 
 template<int ROWS, int COLS, typename T> void Window<ROWS, COLS, T>::insert_pixel(T value, int row, int col) {
 _ssdm_InlineSelf(0, "");
-    (void) ((!!(row >= 0 && row < ROWS && col >= 0 && col < COLS)) || (_assert("row >= 0 && row < ROWS && col >= 0 && col < COLS","F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_mem.h",266),0));
+    (void) ((!!(row >= 0 && row < ROWS && col >= 0 && col < COLS)) || (_assert("row >= 0 && row < ROWS && col >= 0 && col < COLS","D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_mem.h",266),0));
 
 
 
@@ -25679,7 +25679,7 @@ _ssdm_InlineSelf(0, "");
 
 
     val[row][col] = value;
-# 291 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_mem.h"
+# 291 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_mem.h"
 }
 
 
@@ -25699,7 +25699,7 @@ _ssdm_InlineSelf(0, "");
 _ssdm_Unroll(0,0,0, "");
         val[row][j] = value[j];
     }
-# 326 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_mem.h"
+# 326 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_mem.h"
 }
 
 
@@ -25715,7 +25715,7 @@ _ssdm_InlineSelf(0, "");
 
 
     insert_row(value, 0);
-# 357 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_mem.h"
+# 357 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_mem.h"
 }
 
 
@@ -25731,7 +25731,7 @@ _ssdm_InlineSelf(0, "");
 
 
     insert_row(value, ROWS-1);
-# 388 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_mem.h"
+# 388 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_mem.h"
 }
 
 
@@ -25751,7 +25751,7 @@ _ssdm_InlineSelf(0, "");
 _ssdm_Unroll(0,0,0, "");
         val[i][col] = value[i];
     }
-# 423 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_mem.h"
+# 423 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_mem.h"
 }
 
 
@@ -25767,7 +25767,7 @@ _ssdm_InlineSelf(0, "");
 
 
     insert_col(value, 0);
-# 454 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_mem.h"
+# 454 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_mem.h"
 }
 
 
@@ -25783,7 +25783,7 @@ _ssdm_InlineSelf(0, "");
 
 
     insert_col(value, COLS-1);
-# 485 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_mem.h"
+# 485 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_mem.h"
 }
 
 
@@ -25791,7 +25791,7 @@ _ssdm_InlineSelf(0, "");
 
 template<int ROWS, int COLS, typename T> T& Window<ROWS, COLS, T>::getval(int row, int col) {
 _ssdm_InlineSelf(0, "");
-    (void) ((!!(row >= 0 && row < ROWS && col >= 0 && col < COLS)) || (_assert("row >= 0 && row < ROWS && col >= 0 && col < COLS","F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_mem.h",492),0));
+    (void) ((!!(row >= 0 && row < ROWS && col >= 0 && col < COLS)) || (_assert("row >= 0 && row < ROWS && col >= 0 && col < COLS","D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_mem.h",492),0));
     return val[row][col];
 }
 
@@ -25802,7 +25802,7 @@ template<int ROWS, int COLS, typename T> T& Window<ROWS, COLS, T>::operator ()(i
 _ssdm_InlineSelf(0, "");
     return getval(row, col);
 }
-# 531 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_mem.h"
+# 531 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_mem.h"
 template<int ROWS, int COLS, typename T> void Window<ROWS, COLS, T>::shift_left() {
 _ssdm_InlineSelf(0, "");
     shift_pixels_left();
@@ -25924,10 +25924,10 @@ _ssdm_SpecDependence( val, 0, 0, -1, 0, 0);
 
 
 };
-# 676 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_mem.h"
+# 676 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_mem.h"
 template<int ROWS, int COLS, typename T> void LineBuffer<ROWS, COLS, T>::shift_pixels_down(int col) {
 _ssdm_InlineSelf(0, "");
-    (void) ((!!(col >= 0 && col < COLS)) || (_assert("col >= 0 && col < COLS","F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_mem.h",678),0));
+    (void) ((!!(col >= 0 && col < COLS)) || (_assert("col >= 0 && col < COLS","D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_mem.h",678),0));
 
 
 
@@ -25940,7 +25940,7 @@ _ssdm_InlineSelf(0, "");
 _ssdm_Unroll(0,0,0, "");
         val[i][col] = val[i-1][col];
     }
-# 710 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_mem.h"
+# 710 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_mem.h"
 }
 
 
@@ -25949,7 +25949,7 @@ _ssdm_Unroll(0,0,0, "");
 
 template<int ROWS, int COLS, typename T> void LineBuffer<ROWS, COLS, T>::shift_pixels_up(int col) {
 _ssdm_InlineSelf(0, "");
-    (void) ((!!(col >= 0 && col < COLS)) || (_assert("col >= 0 && col < COLS","F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_mem.h",718),0));
+    (void) ((!!(col >= 0 && col < COLS)) || (_assert("col >= 0 && col < COLS","D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_mem.h",718),0));
 
 
 
@@ -25962,7 +25962,7 @@ _ssdm_InlineSelf(0, "");
 _ssdm_Unroll(0,0,0, "");
         val[i][col] = val[i+1][col];
     }
-# 750 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_mem.h"
+# 750 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_mem.h"
 }
 
 
@@ -25970,7 +25970,7 @@ _ssdm_Unroll(0,0,0, "");
 
 template<int ROWS, int COLS, typename T> void LineBuffer<ROWS, COLS, T>::insert_bottom_row(T value, int col) {
 _ssdm_InlineSelf(0, "");
-    (void) ((!!(col >= 0 && col < COLS)) || (_assert("col >= 0 && col < COLS","F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_mem.h",757),0));
+    (void) ((!!(col >= 0 && col < COLS)) || (_assert("col >= 0 && col < COLS","D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_mem.h",757),0));
 
 
 
@@ -25979,7 +25979,7 @@ _ssdm_InlineSelf(0, "");
 
 
     val[ROWS-1][col] = value;
-# 782 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_mem.h"
+# 782 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_mem.h"
 }
 
 
@@ -25987,7 +25987,7 @@ _ssdm_InlineSelf(0, "");
 
 template <int ROWS, int COLS, typename T> void LineBuffer<ROWS, COLS, T>::insert_top_row(T value, int col) {
 _ssdm_InlineSelf(0, "");
-    (void) ((!!(col >= 0 && col < COLS)) || (_assert("col >= 0 && col < COLS","F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_mem.h",789),0));
+    (void) ((!!(col >= 0 && col < COLS)) || (_assert("col >= 0 && col < COLS","D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_mem.h",789),0));
 
 
 
@@ -25996,7 +25996,7 @@ _ssdm_InlineSelf(0, "");
 
 
     val[0][col] = value;
-# 814 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_mem.h"
+# 814 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_mem.h"
 }
 
 
@@ -26004,7 +26004,7 @@ _ssdm_InlineSelf(0, "");
 
 template <int ROWS, int COLS, typename T> void LineBuffer<ROWS, COLS, T>::get_col(T value[ROWS], int col) {
 _ssdm_InlineSelf(0, "");
-    (void) ((!!(col >= 0 && col < COLS)) || (_assert("col >= 0 && col < COLS","F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_mem.h",821),0));
+    (void) ((!!(col >= 0 && col < COLS)) || (_assert("col >= 0 && col < COLS","D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_mem.h",821),0));
     HLS_SIZE_T i;
     for(i = 0; i < ROWS; i++) {
 _ssdm_Unroll(0,0,0, "");
@@ -26017,7 +26017,7 @@ _ssdm_Unroll(0,0,0, "");
 
 template <int ROWS, int COLS, typename T> T& LineBuffer<ROWS, COLS, T>::getval(int row, int col) {
 _ssdm_InlineSelf(0, "");
-    (void) ((!!(row >= 0 && row < ROWS && col >= 0 && col < COLS)) || (_assert("row >= 0 && row < ROWS && col >= 0 && col < COLS","F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_mem.h",834),0));
+    (void) ((!!(row >= 0 && row < ROWS && col >= 0 && col < COLS)) || (_assert("row >= 0 && row < ROWS && col >= 0 && col < COLS","D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_mem.h",834),0));
     return val[row][col];
 }
 
@@ -26068,7 +26068,7 @@ template <int ROWS, int COLS, typename T> void LineBuffer<ROWS, COLS, T>::insert
 _ssdm_InlineSelf(0, "");
     insert_bottom_row(value, col);
 }
-# 907 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_mem.h"
+# 907 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_mem.h"
 template<int ROWS, int COLS, typename T>
 class LineBuffer<ROWS, COLS, T, 1> {
 public:
@@ -26101,10 +26101,10 @@ _ssdm_SpecDependence( val, 0, 0, -1, 0, 0);
 
 
 };
-# 964 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_mem.h"
+# 964 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_mem.h"
 template<int ROWS, int COLS, typename T> void LineBuffer<ROWS, COLS, T, 1>::shift_pixels_down(int col) {
 _ssdm_InlineSelf(0, "");
-    (void) ((!!(col >= 0 && col < COLS)) || (_assert("col >= 0 && col < COLS","F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_mem.h",966),0));
+    (void) ((!!(col >= 0 && col < COLS)) || (_assert("col >= 0 && col < COLS","D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_mem.h",966),0));
 
 
 
@@ -26117,7 +26117,7 @@ _ssdm_InlineSelf(0, "");
 _ssdm_Unroll(0,0,0, "");
         val[i][col] = val[i-1][col];
     }
-# 998 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_mem.h"
+# 998 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_mem.h"
 }
 
 
@@ -26126,7 +26126,7 @@ _ssdm_Unroll(0,0,0, "");
 
 template<int ROWS, int COLS, typename T> void LineBuffer<ROWS, COLS, T, 1>::shift_pixels_up(int col) {
 _ssdm_InlineSelf(0, "");
-    (void) ((!!(col >= 0 && col < COLS)) || (_assert("col >= 0 && col < COLS","F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_mem.h",1006),0));
+    (void) ((!!(col >= 0 && col < COLS)) || (_assert("col >= 0 && col < COLS","D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_mem.h",1006),0));
 
 
 
@@ -26139,7 +26139,7 @@ _ssdm_InlineSelf(0, "");
 _ssdm_Unroll(0,0,0, "");
         val[i][col] = val[i+1][col];
     }
-# 1038 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_mem.h"
+# 1038 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_mem.h"
 }
 
 
@@ -26147,7 +26147,7 @@ _ssdm_Unroll(0,0,0, "");
 
 template<int ROWS, int COLS, typename T> void LineBuffer<ROWS, COLS, T, 1>::insert_bottom_row(T value, int col) {
 _ssdm_InlineSelf(0, "");
-    (void) ((!!(col >= 0 && col < COLS)) || (_assert("col >= 0 && col < COLS","F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_mem.h",1045),0));
+    (void) ((!!(col >= 0 && col < COLS)) || (_assert("col >= 0 && col < COLS","D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_mem.h",1045),0));
 
 
 
@@ -26156,7 +26156,7 @@ _ssdm_InlineSelf(0, "");
 
 
     val[ROWS-1][col] = value;
-# 1070 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_mem.h"
+# 1070 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_mem.h"
 }
 
 
@@ -26164,7 +26164,7 @@ _ssdm_InlineSelf(0, "");
 
 template <int ROWS, int COLS, typename T> void LineBuffer<ROWS, COLS, T, 1>::insert_top_row(T value, int col) {
 _ssdm_InlineSelf(0, "");
-    (void) ((!!(col >= 0 && col < COLS)) || (_assert("col >= 0 && col < COLS","F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_mem.h",1077),0));
+    (void) ((!!(col >= 0 && col < COLS)) || (_assert("col >= 0 && col < COLS","D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_mem.h",1077),0));
 
 
 
@@ -26173,7 +26173,7 @@ _ssdm_InlineSelf(0, "");
 
 
     val[0][col] = value;
-# 1102 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_mem.h"
+# 1102 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_mem.h"
 }
 
 
@@ -26181,7 +26181,7 @@ _ssdm_InlineSelf(0, "");
 
 template <int ROWS, int COLS, typename T> void LineBuffer<ROWS, COLS, T, 1>::get_col(T value[ROWS], int col) {
 _ssdm_InlineSelf(0, "");
-    (void) ((!!(col >= 0 && col < COLS)) || (_assert("col >= 0 && col < COLS","F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_mem.h",1109),0));
+    (void) ((!!(col >= 0 && col < COLS)) || (_assert("col >= 0 && col < COLS","D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_mem.h",1109),0));
     HLS_SIZE_T i;
     for(i = 0; i < ROWS; i++) {
 _ssdm_Unroll(0,0,0, "");
@@ -26194,7 +26194,7 @@ _ssdm_Unroll(0,0,0, "");
 
 template <int ROWS, int COLS, typename T> T& LineBuffer<ROWS, COLS, T, 1>::getval(int row, int col) {
 _ssdm_InlineSelf(0, "");
-    (void) ((!!(row >= 0 && row < ROWS && col >= 0 && col < COLS)) || (_assert("row >= 0 && row < ROWS && col >= 0 && col < COLS","F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_mem.h",1122),0));
+    (void) ((!!(row >= 0 && row < ROWS && col >= 0 && col < COLS)) || (_assert("row >= 0 && row < ROWS && col >= 0 && col < COLS","D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_mem.h",1122),0));
     return val[row][col];
 }
 
@@ -26245,11 +26245,11 @@ template <int ROWS, int COLS, typename T> void LineBuffer<ROWS, COLS, T, 1>::ins
 _ssdm_InlineSelf(0, "");
     insert_bottom_row(value, col);
 }
-# 1194 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_mem.h"
+# 1194 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_mem.h"
 }
-# 57 "F:/Vivado/Vivado/2019.2/common/technology/autopilot\\hls_video.h" 2
-# 1 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_core.h" 1
-# 84 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_core.h"
+# 57 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot\\hls_video.h" 2
+# 1 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_core.h" 1
+# 84 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_core.h"
 namespace hls {
 
 
@@ -26350,26 +26350,26 @@ class Scalar {
 public:
     Scalar() {
 _ssdm_SpecArrayPartition( val, 1, "COMPLETE", 0, "");
-        (void) ((!!(N > 0)) || (_assert("N > 0","F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_core.h",184),0));
+        (void) ((!!(N > 0)) || (_assert("N > 0","D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_core.h",184),0));
     }
     Scalar(T v0) {
 _ssdm_SpecArrayPartition( val, 1, "COMPLETE", 0, "");
-        (void) ((!!(N >= 1 && "Scalar must have enough channels for constructor.")) || (_assert("N >= 1 && \"Scalar must have enough channels for constructor.\"","F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_core.h",188),0));
+        (void) ((!!(N >= 1 && "Scalar must have enough channels for constructor.")) || (_assert("N >= 1 && \"Scalar must have enough channels for constructor.\"","D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_core.h",188),0));
         val[0] = v0;
     }
     Scalar(T v0, T v1) {
 _ssdm_SpecArrayPartition( val, 1, "COMPLETE", 0, "");
-        (void) ((!!(N >= 2 && "Scalar must have enough channels for constructor.")) || (_assert("N >= 2 && \"Scalar must have enough channels for constructor.\"","F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_core.h",193),0));
+        (void) ((!!(N >= 2 && "Scalar must have enough channels for constructor.")) || (_assert("N >= 2 && \"Scalar must have enough channels for constructor.\"","D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_core.h",193),0));
         val[0] = v0; val[1] = v1;
     }
     Scalar(T v0, T v1, T v2) {
 _ssdm_SpecArrayPartition( val, 1, "COMPLETE", 0, "");
-        (void) ((!!(N >= 3 && "Scalar must have enough channels for constructor.")) || (_assert("N >= 3 && \"Scalar must have enough channels for constructor.\"","F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_core.h",198),0));
+        (void) ((!!(N >= 3 && "Scalar must have enough channels for constructor.")) || (_assert("N >= 3 && \"Scalar must have enough channels for constructor.\"","D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_core.h",198),0));
         val[0] = v0; val[1] = v1; val[2] = v2;
     }
     Scalar(T v0, T v1, T v2, T v3) {
 _ssdm_SpecArrayPartition( val, 1, "COMPLETE", 0, "");
-        (void) ((!!(N >= 4 && "Scalar must have enough channels for constructor.")) || (_assert("N >= 4 && \"Scalar must have enough channels for constructor.\"","F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_core.h",203),0));
+        (void) ((!!(N >= 4 && "Scalar must have enough channels for constructor.")) || (_assert("N >= 4 && \"Scalar must have enough channels for constructor.\"","D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_core.h",203),0));
         val[0] = v0; val[1] = v1; val[2] = v2; val[3] = v3;
     }
 
@@ -26820,7 +26820,7 @@ _ssdm_InlineSelf(0, "");
 template<int ROWS, int COLS, int T>
 inline void Mat<ROWS, COLS, T>::init(int _rows, int _cols) {
 _ssdm_InlineSelf(0, "");
-    (void) ((!!((_rows > 0) && (_rows <= ROWS) && (_cols > 0) && (_cols <= COLS) && "The number of rows and columns must be less than the template arguments.")) || (_assert("(_rows > 0) && (_rows <= ROWS) && (_cols > 0) && (_cols <= COLS) && \"The number of rows and columns must be less than the template arguments.\"","F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_core.h",655),0));
+    (void) ((!!((_rows > 0) && (_rows <= ROWS) && (_cols > 0) && (_cols <= COLS) && "The number of rows and columns must be less than the template arguments.")) || (_assert("(_rows > 0) && (_rows <= ROWS) && (_cols > 0) && (_cols <= COLS) && \"The number of rows and columns must be less than the template arguments.\"","D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_core.h",655),0));
 
     rows = _rows;
     cols = _cols;
@@ -26919,9 +26919,9 @@ _ssdm_InlineSelf(0, "");
 }
 
 }
-# 58 "F:/Vivado/Vivado/2019.2/common/technology/autopilot\\hls_video.h" 2
-# 1 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h" 1
-# 86 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h"
+# 58 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot\\hls_video.h" 2
+# 1 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h" 1
+# 86 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h"
 namespace hls {
 
 enum {MORPH_RECT,MORPH_CROSS,MORPH_ELLIPSE};
@@ -26938,11 +26938,11 @@ class BORDER_REFLECT : public border_mode { public: static const values value = 
 class BORDER_WRAP : public border_mode { public: static const values value = border_mode::BORDER_WRAP; };
 class BORDER_REFLECT_101 : public border_mode { public: static const values value = border_mode::BORDER_REFLECT_101; };
 class BORDER_DEFAULT : public border_mode { public: static const values value = border_mode::BORDER_REFLECT_101; };
-# 113 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h"
+# 113 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h"
 static int borderInterpolate( int p, int len, int borderType )
 {
     _ssdm_InlineSelf(0, "");
-    (void) ((!!(borderType != BORDER_WRAP::value && "BORDER_WRAP is not supported.")) || (_assert("borderType != BORDER_WRAP::value && \"BORDER_WRAP is not supported.\"","F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h",116),0));
+    (void) ((!!(borderType != BORDER_WRAP::value && "BORDER_WRAP is not supported.")) || (_assert("borderType != BORDER_WRAP::value && \"BORDER_WRAP is not supported.\"","D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h",116),0));
 
     if( p >= 0 && p < len )
         return p;
@@ -26993,10 +26993,10 @@ _ssdm_InlineSelf(0, "");
     if(anchor.y==-1)
         anchor.y=kernel_size.height/2;
 
-    (void) ((!!(anchor.x>=0)) || (_assert("anchor.x>=0","F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h",167),0));
-    (void) ((!!(anchor.x<=kernel_size.width-1)) || (_assert("anchor.x<=kernel_size.width-1","F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h",168),0));
-    (void) ((!!(anchor.y>=0)) || (_assert("anchor.y>=0","F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h",169),0));
-    (void) ((!!(anchor.y<=kernel_size.height-1)) || (_assert("anchor.y<=kernel_size.height-1","F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h",170),0));
+    (void) ((!!(anchor.x>=0)) || (_assert("anchor.x>=0","D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h",167),0));
+    (void) ((!!(anchor.x<=kernel_size.width-1)) || (_assert("anchor.x<=kernel_size.width-1","D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h",168),0));
+    (void) ((!!(anchor.y>=0)) || (_assert("anchor.y>=0","D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h",169),0));
+    (void) ((!!(anchor.y<=kernel_size.height-1)) || (_assert("anchor.y<=kernel_size.height-1","D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgbase.h",170),0));
 }
 template<int SRC_T,int ROWS,int COLS>
 void DuplicateImageN(
@@ -27026,11 +27026,11 @@ _ssdm_op_SpecPipeline(-1, 1, 1, 0, "");
         }
 }
 }
-# 59 "F:/Vivado/Vivado/2019.2/common/technology/autopilot\\hls_video.h" 2
-# 1 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_io.h" 1
-# 41 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_io.h"
+# 59 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot\\hls_video.h" 2
+# 1 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_io.h" 1
+# 41 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_io.h"
 namespace hls {
-# 50 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_io.h"
+# 50 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_io.h"
 template<int W, int ROWS, int COLS, int T>
 int AXIvideo2Mat(stream<ap_axiu<W,1,1,1> >& AXI_video_strm,
                  Mat<ROWS, COLS, T>& img)
@@ -27040,11 +27040,11 @@ int AXIvideo2Mat(stream<ap_axiu<W,1,1,1> >& AXI_video_strm,
     Scalar<((((T) & ((512 - 1) << 11)) >> 11) + 1), typename Type<((T) & ((1 << 11) - 1))>::name> pix;
     int depth = Type<((T) & ((1 << 11) - 1))>::bitdepth;
 
-    (void) ((!!(W >= depth*((((T) & ((512 - 1) << 11)) >> 11) + 1) && "Bit-Width of AXI stream must be greater than the total number of bits in a pixel")) || (_assert("W >= depth*HLS_MAT_CN(T) && \"Bit-Width of AXI stream must be greater than the total number of bits in a pixel\"","F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_io.h",59),0));
+    (void) ((!!(W >= depth*((((T) & ((512 - 1) << 11)) >> 11) + 1) && "Bit-Width of AXI stream must be greater than the total number of bits in a pixel")) || (_assert("W >= depth*HLS_MAT_CN(T) && \"Bit-Width of AXI stream must be greater than the total number of bits in a pixel\"","D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_io.h",59),0));
     HLS_SIZE_T rows = img.rows;
     HLS_SIZE_T cols = img.cols;
-    (void) ((!!(rows <= ROWS)) || (_assert("rows <= ROWS","F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_io.h",62),0));
-    (void) ((!!(cols <= COLS)) || (_assert("cols <= COLS","F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_io.h",63),0));
+    (void) ((!!(rows <= ROWS)) || (_assert("rows <= ROWS","D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_io.h",62),0));
+    (void) ((!!(cols <= COLS)) || (_assert("cols <= COLS","D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_io.h",63),0));
     bool sof = 0;
  loop_wait_for_start: while (!sof) {
 _ssdm_op_SpecPipeline(1, 1, 1, 0, "");
@@ -27100,11 +27100,11 @@ int Mat2AXIvideo(Mat<ROWS, COLS, T>& img,
     ap_axiu<W,1,1,1> axi;
     int depth = Type<((T) & ((1 << 11) - 1))>::bitdepth;
 
-    (void) ((!!(W >= depth*((((T) & ((512 - 1) << 11)) >> 11) + 1) && "Bit-Width of AXI stream must be greater than the total number of bits in a pixel")) || (_assert("W >= depth*HLS_MAT_CN(T) && \"Bit-Width of AXI stream must be greater than the total number of bits in a pixel\"","F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_io.h",119),0));
+    (void) ((!!(W >= depth*((((T) & ((512 - 1) << 11)) >> 11) + 1) && "Bit-Width of AXI stream must be greater than the total number of bits in a pixel")) || (_assert("W >= depth*HLS_MAT_CN(T) && \"Bit-Width of AXI stream must be greater than the total number of bits in a pixel\"","D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_io.h",119),0));
     HLS_SIZE_T rows = img.rows;
     HLS_SIZE_T cols = img.cols;
-    (void) ((!!(rows <= ROWS)) || (_assert("rows <= ROWS","F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_io.h",122),0));
-    (void) ((!!(cols <= COLS)) || (_assert("cols <= COLS","F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_io.h",123),0));
+    (void) ((!!(rows <= ROWS)) || (_assert("rows <= ROWS","D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_io.h",122),0));
+    (void) ((!!(cols <= COLS)) || (_assert("cols <= COLS","D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_io.h",123),0));
     bool sof = 1;
  loop_height: for (HLS_SIZE_T i = 0; i < rows; i++) {
     loop_width: for (HLS_SIZE_T j = 0; j < cols; j++) {
@@ -27143,15 +27143,15 @@ int Array2Mat(FB_T fb[ROWS*FB_COLS], int rowStride,
     int res = 0;
     HLS_SIZE_T rows = img.rows;
     HLS_SIZE_T cols = img.cols;
-    (void) ((!!(cols <= rowStride)) || (_assert("cols <= rowStride","F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_io.h",162),0));
-    (void) ((!!(rowStride <= FB_COLS)) || (_assert("rowStride <= FB_COLS","F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_io.h",163),0));
-    (void) ((!!(rows <= ROWS)) || (_assert("rows <= ROWS","F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_io.h",164),0));
-    (void) ((!!(cols <= COLS)) || (_assert("cols <= COLS","F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_io.h",165),0));
-    (void) ((!!(COLS <= FB_COLS)) || (_assert("COLS <= FB_COLS","F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_io.h",166),0));
+    (void) ((!!(cols <= rowStride)) || (_assert("cols <= rowStride","D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_io.h",162),0));
+    (void) ((!!(rowStride <= FB_COLS)) || (_assert("rowStride <= FB_COLS","D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_io.h",163),0));
+    (void) ((!!(rows <= ROWS)) || (_assert("rows <= ROWS","D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_io.h",164),0));
+    (void) ((!!(cols <= COLS)) || (_assert("cols <= COLS","D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_io.h",165),0));
+    (void) ((!!(COLS <= FB_COLS)) || (_assert("COLS <= FB_COLS","D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_io.h",166),0));
     int fb_BitWidth = Type_BitWidth<FB_T>::Value;
     int depth = Type<((T) & ((1 << 11) - 1))>::bitdepth;
     int ch = ((((T) & ((512 - 1) << 11)) >> 11) + 1);
-    (void) ((!!(fb_BitWidth >= ch*depth && "Bit-Width of frame buffer must be greater than the total number of bits in a pixel")) || (_assert("fb_BitWidth >= ch*depth && \"Bit-Width of frame buffer must be greater than the total number of bits in a pixel\"","F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_io.h",170),0));
+    (void) ((!!(fb_BitWidth >= ch*depth && "Bit-Width of frame buffer must be greater than the total number of bits in a pixel")) || (_assert("fb_BitWidth >= ch*depth && \"Bit-Width of frame buffer must be greater than the total number of bits in a pixel\"","D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_io.h",170),0));
     HLS_SIZE_T col = 0;
     Scalar<((((T) & ((512 - 1) << 11)) >> 11) + 1), typename Type<((T) & ((1 << 11) - 1))>::name> pix;
 loop_pixel:
@@ -27209,15 +27209,15 @@ int Mat2Array(Mat<ROWS, COLS, T>& img,
     int res = 0;
     HLS_SIZE_T rows = img.rows;
     HLS_SIZE_T cols = img.cols;
-    (void) ((!!(cols <= rowStride)) || (_assert("cols <= rowStride","F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_io.h",228),0));
-    (void) ((!!(rowStride <= FB_COLS)) || (_assert("rowStride <= FB_COLS","F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_io.h",229),0));
-    (void) ((!!(rows <= ROWS)) || (_assert("rows <= ROWS","F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_io.h",230),0));
-    (void) ((!!(cols <= COLS)) || (_assert("cols <= COLS","F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_io.h",231),0));
-    (void) ((!!(COLS <= FB_COLS)) || (_assert("COLS <= FB_COLS","F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_io.h",232),0));
+    (void) ((!!(cols <= rowStride)) || (_assert("cols <= rowStride","D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_io.h",228),0));
+    (void) ((!!(rowStride <= FB_COLS)) || (_assert("rowStride <= FB_COLS","D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_io.h",229),0));
+    (void) ((!!(rows <= ROWS)) || (_assert("rows <= ROWS","D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_io.h",230),0));
+    (void) ((!!(cols <= COLS)) || (_assert("cols <= COLS","D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_io.h",231),0));
+    (void) ((!!(COLS <= FB_COLS)) || (_assert("COLS <= FB_COLS","D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_io.h",232),0));
     int fb_BitWidth = Type_BitWidth<FB_T>::Value;
     int depth = Type<((T) & ((1 << 11) - 1))>::bitdepth;
     int ch = ((((T) & ((512 - 1) << 11)) >> 11) + 1);
-    (void) ((!!(fb_BitWidth >= ch*depth && "Bit-Width of frame buffer must be greater than the total number of bits in a pixel")) || (_assert("fb_BitWidth >= ch*depth && \"Bit-Width of frame buffer must be greater than the total number of bits in a pixel\"","F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_io.h",236),0));
+    (void) ((!!(fb_BitWidth >= ch*depth && "Bit-Width of frame buffer must be greater than the total number of bits in a pixel")) || (_assert("fb_BitWidth >= ch*depth && \"Bit-Width of frame buffer must be greater than the total number of bits in a pixel\"","D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_io.h",236),0));
     HLS_SIZE_T col = 0;
     Scalar<((((T) & ((512 - 1) << 11)) >> 11) + 1), typename Type<((T) & ((1 << 11) - 1))>::name> pix;
 loop_pixel:
@@ -27268,12 +27268,12 @@ int Mat2AXIM(Mat<ROWS, COLS, T>& img,
 }
 
 }
-# 60 "F:/Vivado/Vivado/2019.2/common/technology/autopilot\\hls_video.h" 2
+# 60 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot\\hls_video.h" 2
 
-# 1 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_arithm.h" 1
-# 88 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_arithm.h"
+# 1 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_arithm.h" 1
+# 88 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_arithm.h"
 namespace hls {
-# 110 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_arithm.h"
+# 110 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_arithm.h"
 typedef ap_fixed<64,32,AP_RND> _AP_T;
 typedef unsigned long long _SUM_T;
 
@@ -27513,8 +27513,8 @@ void arithm_pro(
     KERNEL opr;
     HLS_SIZE_T rows = dst.rows;
     HLS_SIZE_T cols = dst.cols;
-    (void) ((!!(rows <= ROWS)) || (_assert("rows <= ROWS","F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_arithm.h",349),0));
-    (void) ((!!(cols <= COLS)) || (_assert("cols <= COLS","F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_arithm.h",350),0));
+    (void) ((!!(rows <= ROWS)) || (_assert("rows <= ROWS","D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_arithm.h",349),0));
+    (void) ((!!(cols <= COLS)) || (_assert("cols <= COLS","D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_arithm.h",350),0));
     Scalar<((((SRC1_T) & ((512 - 1) << 11)) >> 11) + 1), typename Type<((SRC1_T) & ((1 << 11) - 1))>::name> s1;
     Scalar<((((SRC2_T) & ((512 - 1) << 11)) >> 11) + 1), typename Type<((SRC2_T) & ((1 << 11) - 1))>::name> s2;
     Scalar<((((DST_T) & ((512 - 1) << 11)) >> 11) + 1), typename Type<((DST_T) & ((1 << 11) - 1))>::name > d;
@@ -27544,8 +27544,8 @@ void arithm_pro(
     KERNEL opr;
     HLS_SIZE_T rows = dst.rows;
     HLS_SIZE_T cols = dst.cols;
-    (void) ((!!(rows <= ROWS)) || (_assert("rows <= ROWS","F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_arithm.h",380),0));
-    (void) ((!!(cols <= COLS)) || (_assert("cols <= COLS","F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_arithm.h",381),0));
+    (void) ((!!(rows <= ROWS)) || (_assert("rows <= ROWS","D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_arithm.h",380),0));
+    (void) ((!!(cols <= COLS)) || (_assert("cols <= COLS","D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_arithm.h",381),0));
     Scalar<((((SRC1_T) & ((512 - 1) << 11)) >> 11) + 1), typename Type<((SRC1_T) & ((1 << 11) - 1))>::name> s1;
     Scalar<((((SRC2_T) & ((512 - 1) << 11)) >> 11) + 1), typename Type<((SRC2_T) & ((1 << 11) - 1))>::name> s2;
     Scalar<((((DST_T) & ((512 - 1) << 11)) >> 11) + 1), typename Type<((DST_T) & ((1 << 11) - 1))>::name> d_ref, d;
@@ -27584,8 +27584,8 @@ void arithm_pro(
     KERNEL opr;
     HLS_SIZE_T rows = dst.rows;
     HLS_SIZE_T cols = dst.cols;
-    (void) ((!!(rows <= ROWS)) || (_assert("rows <= ROWS","F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_arithm.h",420),0));
-    (void) ((!!(cols <= COLS)) || (_assert("cols <= COLS","F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_arithm.h",421),0));
+    (void) ((!!(rows <= ROWS)) || (_assert("rows <= ROWS","D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_arithm.h",420),0));
+    (void) ((!!(cols <= COLS)) || (_assert("cols <= COLS","D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_arithm.h",421),0));
     Scalar<((((SRC_T) & ((512 - 1) << 11)) >> 11) + 1), typename Type<((SRC_T) & ((1 << 11) - 1))>::name> s;
     Scalar<((((SRC_T) & ((512 - 1) << 11)) >> 11) + 1), _T> _s;
     Scalar<((((DST_T) & ((512 - 1) << 11)) >> 11) + 1), typename Type<((DST_T) & ((1 << 11) - 1))>::name> d;
@@ -27617,8 +27617,8 @@ void arithm_pro(
     KERNEL opr;
     HLS_SIZE_T rows = dst.rows;
     HLS_SIZE_T cols = dst.cols;
-    (void) ((!!(rows <= ROWS)) || (_assert("rows <= ROWS","F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_arithm.h",453),0));
-    (void) ((!!(cols <= COLS)) || (_assert("cols <= COLS","F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_arithm.h",454),0));
+    (void) ((!!(rows <= ROWS)) || (_assert("rows <= ROWS","D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_arithm.h",453),0));
+    (void) ((!!(cols <= COLS)) || (_assert("cols <= COLS","D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_arithm.h",454),0));
     Scalar<((((DST_T) & ((512 - 1) << 11)) >> 11) + 1), _T> _s;
     Scalar<((((DST_T) & ((512 - 1) << 11)) >> 11) + 1), typename Type<((DST_T) & ((1 << 11) - 1))>::name> d;
     _s = scl;
@@ -27647,8 +27647,8 @@ void arithm_pro(
     KERNEL opr;
     HLS_SIZE_T rows = dst.rows;
     HLS_SIZE_T cols = dst.cols;
-    (void) ((!!(rows <= ROWS)) || (_assert("rows <= ROWS","F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_arithm.h",483),0));
-    (void) ((!!(cols <= COLS)) || (_assert("cols <= COLS","F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_arithm.h",484),0));
+    (void) ((!!(rows <= ROWS)) || (_assert("rows <= ROWS","D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_arithm.h",483),0));
+    (void) ((!!(cols <= COLS)) || (_assert("cols <= COLS","D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_arithm.h",484),0));
     Scalar<((((SRC_T) & ((512 - 1) << 11)) >> 11) + 1), typename Type<((SRC_T) & ((1 << 11) - 1))>::name> s;
     Scalar<((((SRC_T) & ((512 - 1) << 11)) >> 11) + 1), _T> _s;
     Scalar<((((DST_T) & ((512 - 1) << 11)) >> 11) + 1), typename Type<((DST_T) & ((1 << 11) - 1))>::name> d_ref, d;
@@ -27685,8 +27685,8 @@ void arithm_pro(
     KERNEL opr;
     HLS_SIZE_T rows = src.rows;
     HLS_SIZE_T cols = src.cols;
-    (void) ((!!(rows <= ROWS)) || (_assert("rows <= ROWS","F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_arithm.h",521),0));
-    (void) ((!!(cols <= COLS)) || (_assert("cols <= COLS","F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_arithm.h",522),0));
+    (void) ((!!(rows <= ROWS)) || (_assert("rows <= ROWS","D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_arithm.h",521),0));
+    (void) ((!!(cols <= COLS)) || (_assert("cols <= COLS","D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_arithm.h",522),0));
  loop_init: for (HLS_CHANNEL_T k = 0; k < ((((SRC_T) & ((512 - 1) << 11)) >> 11) + 1); k++) {
 _ssdm_Unroll(0,0,0, "");
         sum.val[k] = 0;
@@ -27717,8 +27717,8 @@ void arithm_pro(
     KERNEL opr;
     HLS_SIZE_T rows = src.rows;
     HLS_SIZE_T cols = src.cols;
-    (void) ((!!(rows <= ROWS)) || (_assert("rows <= ROWS","F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_arithm.h",553),0));
-    (void) ((!!(cols <= COLS)) || (_assert("cols <= COLS","F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_arithm.h",554),0));
+    (void) ((!!(rows <= ROWS)) || (_assert("rows <= ROWS","D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_arithm.h",553),0));
+    (void) ((!!(cols <= COLS)) || (_assert("cols <= COLS","D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_arithm.h",554),0));
  loop_init: for (HLS_CHANNEL_T k = 0; k < ((((SRC_T) & ((512 - 1) << 11)) >> 11) + 1); k++) {
 _ssdm_Unroll(0,0,0, "");
         sum.val[k] = 0;
@@ -27756,8 +27756,8 @@ _ssdm_SpecArrayPartition( dst_buffer, 1, "COMPLETE", 0, "");
 _ssdm_SpecArrayPartition( dst_buffer, 2, "COMPLETE", 0, "");
     HLS_SIZE_T rows=src.rows;
     HLS_SIZE_T cols=src.cols;
-    (void) ((!!(rows <= ROWS)) || (_assert("rows <= ROWS","F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_arithm.h",592),0));
-    (void) ((!!(cols <= COLS)) || (_assert("cols <= COLS","F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_arithm.h",593),0));
+    (void) ((!!(rows <= ROWS)) || (_assert("rows <= ROWS","D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_arithm.h",592),0));
+    (void) ((!!(cols <= COLS)) || (_assert("cols <= COLS","D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_arithm.h",593),0));
     Scalar<((((SRC_T) & ((512 - 1) << 11)) >> 11) + 1),INTER_SUM_T> internal;
  loop_init: for(HLS_CHANNEL_T k = 0; k < ((((SRC_T) & ((512 - 1) << 11)) >> 11) + 1); k++) {
 _ssdm_Unroll(0,0,0, "");
@@ -27827,7 +27827,7 @@ void Min(
         Mat<ROWS, COLS, SRC2_T>& src2,
         Mat<ROWS, COLS, DST_T>& dst)
 {
-# 671 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_arithm.h"
+# 671 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_arithm.h"
     arithm_pro<kernel_min>(src1, src2, dst, 0, 0, 0);
 }
 
@@ -27837,7 +27837,7 @@ void Max(
         Mat<ROWS, COLS, SRC2_T>& src2,
         Mat<ROWS, COLS, DST_T>& dst)
 {
-# 688 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_arithm.h"
+# 688 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_arithm.h"
     arithm_pro<kernel_max>(src1, src2, dst, 0, 0, 0);
 }
 
@@ -27984,7 +27984,7 @@ void Mul(
         Mat<ROWS, COLS, DST_T>& dst,
         P_T scale)
 {
-# 842 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_arithm.h"
+# 842 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_arithm.h"
     arithm_pro<kernel_mul>(src1, src2, dst, scale, (typename Type<((DST_T) & ((1 << 11) - 1))>::name)0, (typename Type<((DST_T) & ((1 << 11) - 1))>::name)0);
 }
 
@@ -27994,7 +27994,7 @@ void Mul(
         Mat<ROWS, COLS, SRC2_T>& src2,
         Mat<ROWS, COLS, DST_T>& dst)
 {
-# 859 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_arithm.h"
+# 859 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_arithm.h"
     arithm_pro<kernel_mul2>(src1, src2, dst, (typename Type<((DST_T) & ((1 << 11) - 1))>::name)0, (typename Type<((DST_T) & ((1 << 11) - 1))>::name)0, (typename Type<((DST_T) & ((1 << 11) - 1))>::name)0);
 }
 
@@ -28007,7 +28007,7 @@ void AddWeighted(
         P_T gamma,
         Mat<ROWS, COLS, DST_T>& dst)
 {
-# 879 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_arithm.h"
+# 879 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_arithm.h"
     arithm_pro<kernel_addWeighted>(src1, src2, dst, alpha, beta, gamma);
 }
 
@@ -28082,7 +28082,7 @@ void AbsDiff(
         Mat<ROWS, COLS, SRC2_T>& src2,
         Mat<ROWS, COLS, DST_T>& dst)
 {
-# 961 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_arithm.h"
+# 961 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_arithm.h"
     arithm_pro<kernel_absdiff>(src1, src2, dst, 0, 0, 0);
 }
 
@@ -28108,7 +28108,7 @@ void Cmp(
         Mat<ROWS, COLS, DST_T>& dst,
         int cmp_op)
 {
-# 994 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_arithm.h"
+# 994 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_arithm.h"
     arithm_pro<kernel_cmp>(src1, src2, dst, cmp_op, 0, 0);
 }
 
@@ -28139,7 +28139,7 @@ void And(
         Mat<ROWS, COLS, SRC2_T>& src2,
         Mat<ROWS, COLS, DST_T>& dst)
 {
-# 1032 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_arithm.h"
+# 1032 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_arithm.h"
     arithm_pro<kernel_and>(src1, src2, dst, 0, 0, 0);
 }
 
@@ -28151,7 +28151,7 @@ void And(
         Mat<ROWS, COLS, (((0) & ((1 << 11) - 1)) + (((1)-1) << 11))>& mask,
         Mat<ROWS, COLS, DST_T>& dst_ref)
 {
-# 1051 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_arithm.h"
+# 1051 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_arithm.h"
     arithm_pro<kernel_and>(src1, src2, dst, mask, dst_ref);
 }
 
@@ -28172,11 +28172,11 @@ void Range(
         P_T start,
         P_T end)
 {
-# 1079 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_arithm.h"
+# 1079 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_arithm.h"
     HLS_SIZE_T rows = dst.rows;
     HLS_SIZE_T cols = dst.cols;
-    (void) ((!!(rows <= ROWS)) || (_assert("rows <= ROWS","F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_arithm.h",1081),0));
-    (void) ((!!(cols <= COLS)) || (_assert("cols <= COLS","F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_arithm.h",1082),0));
+    (void) ((!!(rows <= ROWS)) || (_assert("rows <= ROWS","D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_arithm.h",1081),0));
+    (void) ((!!(cols <= COLS)) || (_assert("cols <= COLS","D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_arithm.h",1082),0));
     Scalar<((((SRC_T) & ((512 - 1) << 11)) >> 11) + 1), typename Type<((SRC_T) & ((1 << 11) - 1))>::name> s;
     Scalar<((((DST_T) & ((512 - 1) << 11)) >> 11) + 1), typename Type<((DST_T) & ((1 << 11) - 1))>::name> d;
     _AP_T _dis = end-start;
@@ -28320,8 +28320,8 @@ _ssdm_InlineSelf(0, "");
 
     HLS_SIZE_T rows = src.rows;
     HLS_SIZE_T cols = src.cols;
-    (void) ((!!(rows <= ROWS)) || (_assert("rows <= ROWS","F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_arithm.h",1226),0));
-    (void) ((!!(cols <= COLS)) || (_assert("cols <= COLS","F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_arithm.h",1227),0));
+    (void) ((!!(rows <= ROWS)) || (_assert("rows <= ROWS","D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_arithm.h",1226),0));
+    (void) ((!!(cols <= COLS)) || (_assert("cols <= COLS","D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_arithm.h",1227),0));
     Scalar<((((SRC_T) & ((512 - 1) << 11)) >> 11) + 1), typename Type<((SRC_T) & ((1 << 11) - 1))>::name> s;
     Name<typename Type<((SRC_T) & ((1 << 11) - 1))>::name> type_val;
     typename Type<((SRC_T) & ((1 << 11) - 1))>::name _min_val = (typename Type<((SRC_T) & ((1 << 11) - 1))>::name) type_val._max;
@@ -28363,8 +28363,8 @@ _ssdm_InlineSelf(0, "");
 
     HLS_SIZE_T rows = src.rows;
     HLS_SIZE_T cols = src.cols;
-    (void) ((!!(rows <= ROWS)) || (_assert("rows <= ROWS","F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_arithm.h",1269),0));
-    (void) ((!!(cols <= COLS)) || (_assert("cols <= COLS","F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_arithm.h",1270),0));
+    (void) ((!!(rows <= ROWS)) || (_assert("rows <= ROWS","D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_arithm.h",1269),0));
+    (void) ((!!(cols <= COLS)) || (_assert("cols <= COLS","D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_arithm.h",1270),0));
     Scalar<((((SRC_T) & ((512 - 1) << 11)) >> 11) + 1), typename Type<((SRC_T) & ((1 << 11) - 1))>::name> s;
     Scalar<1, unsigned char> m;
     Name<typename Type<((SRC_T) & ((1 << 11) - 1))>::name> type_val;
@@ -28415,8 +28415,8 @@ _ssdm_InlineSelf(0, "");
 
     HLS_SIZE_T rows = src.rows;
     HLS_SIZE_T cols = src.cols;
-    (void) ((!!(rows <= ROWS)) || (_assert("rows <= ROWS","F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_arithm.h",1321),0));
-    (void) ((!!(cols <= COLS)) || (_assert("cols <= COLS","F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_arithm.h",1322),0));
+    (void) ((!!(rows <= ROWS)) || (_assert("rows <= ROWS","D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_arithm.h",1321),0));
+    (void) ((!!(cols <= COLS)) || (_assert("cols <= COLS","D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_arithm.h",1322),0));
     Scalar<((((SRC_T) & ((512 - 1) << 11)) >> 11) + 1), typename Type<((SRC_T) & ((1 << 11) - 1))>::name> s;
     Name<typename Type<((SRC_T) & ((1 << 11) - 1))>::name> type_val;
     typename Type<((SRC_T) & ((1 << 11) - 1))>::name _min_val = (typename Type<((SRC_T) & ((1 << 11) - 1))>::name) type_val._max;
@@ -28480,8 +28480,8 @@ _ssdm_InlineSelf(0, "");
 
     HLS_SIZE_T rows = src.rows;
     HLS_SIZE_T cols = src.cols;
-    (void) ((!!(rows <= ROWS)) || (_assert("rows <= ROWS","F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_arithm.h",1386),0));
-    (void) ((!!(cols <= COLS)) || (_assert("cols <= COLS","F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_arithm.h",1387),0));
+    (void) ((!!(rows <= ROWS)) || (_assert("rows <= ROWS","D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_arithm.h",1386),0));
+    (void) ((!!(cols <= COLS)) || (_assert("cols <= COLS","D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_arithm.h",1387),0));
     Scalar<((((SRC_T) & ((512 - 1) << 11)) >> 11) + 1), typename Type<((SRC_T) & ((1 << 11) - 1))>::name> s;
     Scalar<1, unsigned char> m;
     Name<typename Type<((SRC_T) & ((1 << 11) - 1))>::name> type_val;
@@ -28566,11 +28566,11 @@ void Threshold(
         typename Type<((DST_T) & ((1 << 11) - 1))>::name maxval,
         int thresh_type)
 {
-# 1480 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_arithm.h"
+# 1480 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_arithm.h"
     HLS_SIZE_T rows = dst.rows;
     HLS_SIZE_T cols = dst.cols;
-    (void) ((!!(rows <= ROWS)) || (_assert("rows <= ROWS","F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_arithm.h",1482),0));
-    (void) ((!!(cols <= COLS)) || (_assert("cols <= COLS","F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_arithm.h",1483),0));
+    (void) ((!!(rows <= ROWS)) || (_assert("rows <= ROWS","D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_arithm.h",1482),0));
+    (void) ((!!(cols <= COLS)) || (_assert("cols <= COLS","D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_arithm.h",1483),0));
     Scalar<((((SRC_T) & ((512 - 1) << 11)) >> 11) + 1), typename Type<((SRC_T) & ((1 << 11) - 1))>::name> s;
     Scalar<((((DST_T) & ((512 - 1) << 11)) >> 11) + 1), typename Type<((DST_T) & ((1 << 11) - 1))>::name> d;
     typename Type<((SRC_T) & ((1 << 11) - 1))>::name _thresh = sr_cast<typename Type<((SRC_T) & ((1 << 11) - 1))>::name>(thresh);
@@ -28614,8 +28614,8 @@ void Consume(
 {
     HLS_SIZE_T rows = src.rows;
     HLS_SIZE_T cols = src.cols;
-    (void) ((!!(rows <= ROWS)) || (_assert("rows <= ROWS","F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_arithm.h",1527),0));
-    (void) ((!!(cols <= COLS)) || (_assert("cols <= COLS","F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_arithm.h",1528),0));
+    (void) ((!!(rows <= ROWS)) || (_assert("rows <= ROWS","D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_arithm.h",1527),0));
+    (void) ((!!(cols <= COLS)) || (_assert("cols <= COLS","D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_arithm.h",1528),0));
     Scalar<((((SRC_T) & ((512 - 1) << 11)) >> 11) + 1), typename Type<((SRC_T) & ((1 << 11) - 1))>::name> s;
  loop_height: for (HLS_SIZE_T i = 0; i < rows; i++) {
     loop_width: for (HLS_SIZE_T j = 0; j < cols; j++) {
@@ -28641,8 +28641,8 @@ void Duplicate(
 
     HLS_SIZE_T rows = src.rows;
     HLS_SIZE_T cols = src.cols;
-    (void) ((!!(rows <= ROWS)) || (_assert("rows <= ROWS","F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_arithm.h",1554),0));
-    (void) ((!!(cols <= COLS)) || (_assert("cols <= COLS","F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_arithm.h",1555),0));
+    (void) ((!!(rows <= ROWS)) || (_assert("rows <= ROWS","D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_arithm.h",1554),0));
+    (void) ((!!(cols <= COLS)) || (_assert("cols <= COLS","D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_arithm.h",1555),0));
     Scalar<((((SRC_T) & ((512 - 1) << 11)) >> 11) + 1), typename Type<((SRC_T) & ((1 << 11) - 1))>::name> s;
  loop_height: for (HLS_SIZE_T i = 0; i < rows; i++) {
     loop_width: for (HLS_SIZE_T j = 0; j < cols; j++) {
@@ -28661,13 +28661,13 @@ void Split(
         Mat<ROWS, COLS, DST_T>& dst0,
         Mat<ROWS, COLS, DST_T>& dst1)
 {
-# 1582 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_arithm.h"
+# 1582 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_arithm.h"
     Scalar<((((SRC_T) & ((512 - 1) << 11)) >> 11) + 1), typename Type<((SRC_T) & ((1 << 11) - 1))>::name> s;
     Scalar<((((DST_T) & ((512 - 1) << 11)) >> 11) + 1), typename Type<((DST_T) & ((1 << 11) - 1))>::name> d;
     HLS_SIZE_T rows = src.rows;
     HLS_SIZE_T cols = src.cols;
-    (void) ((!!(rows <= ROWS)) || (_assert("rows <= ROWS","F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_arithm.h",1586),0));
-    (void) ((!!(cols <= COLS)) || (_assert("cols <= COLS","F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_arithm.h",1587),0));
+    (void) ((!!(rows <= ROWS)) || (_assert("rows <= ROWS","D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_arithm.h",1586),0));
+    (void) ((!!(cols <= COLS)) || (_assert("cols <= COLS","D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_arithm.h",1587),0));
  loop_height: for (HLS_SIZE_T i = 0; i < rows; i++) {
     loop_width: for (HLS_SIZE_T j = 0; j < cols; j++) {
 _ssdm_SpecLoopFlatten(1, "");
@@ -28686,13 +28686,13 @@ void Split(
         Mat<ROWS, COLS, DST_T>& dst1,
         Mat<ROWS, COLS, DST_T>& dst2)
 {
-# 1615 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_arithm.h"
+# 1615 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_arithm.h"
     Scalar<((((SRC_T) & ((512 - 1) << 11)) >> 11) + 1), typename Type<((SRC_T) & ((1 << 11) - 1))>::name> s;
     Scalar<((((DST_T) & ((512 - 1) << 11)) >> 11) + 1), typename Type<((DST_T) & ((1 << 11) - 1))>::name> d;
     HLS_SIZE_T rows = src.rows;
     HLS_SIZE_T cols = src.cols;
-    (void) ((!!(rows <= ROWS)) || (_assert("rows <= ROWS","F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_arithm.h",1619),0));
-    (void) ((!!(cols <= COLS)) || (_assert("cols <= COLS","F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_arithm.h",1620),0));
+    (void) ((!!(rows <= ROWS)) || (_assert("rows <= ROWS","D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_arithm.h",1619),0));
+    (void) ((!!(cols <= COLS)) || (_assert("cols <= COLS","D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_arithm.h",1620),0));
  loop_height: for (HLS_SIZE_T i = 0; i < rows; i++) {
     loop_width: for (HLS_SIZE_T j = 0; j < cols; j++) {
 _ssdm_SpecLoopFlatten(1, "");
@@ -28713,13 +28713,13 @@ void Split(
         Mat<ROWS, COLS, DST_T>& dst2,
         Mat<ROWS, COLS, DST_T>& dst3)
 {
-# 1651 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_arithm.h"
+# 1651 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_arithm.h"
     Scalar<((((SRC_T) & ((512 - 1) << 11)) >> 11) + 1), typename Type<((SRC_T) & ((1 << 11) - 1))>::name> s;
     Scalar<((((DST_T) & ((512 - 1) << 11)) >> 11) + 1), typename Type<((DST_T) & ((1 << 11) - 1))>::name> d;
     HLS_SIZE_T rows = src.rows;
     HLS_SIZE_T cols = src.cols;
-    (void) ((!!(rows <= ROWS)) || (_assert("rows <= ROWS","F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_arithm.h",1655),0));
-    (void) ((!!(cols <= COLS)) || (_assert("cols <= COLS","F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_arithm.h",1656),0));
+    (void) ((!!(rows <= ROWS)) || (_assert("rows <= ROWS","D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_arithm.h",1655),0));
+    (void) ((!!(cols <= COLS)) || (_assert("cols <= COLS","D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_arithm.h",1656),0));
  loop_height: for (HLS_SIZE_T i = 0; i < rows; i++) {
     loop_width: for (HLS_SIZE_T j = 0; j < cols; j++) {
 _ssdm_SpecLoopFlatten(1, "");
@@ -28739,13 +28739,13 @@ void Merge(
         Mat<ROWS, COLS, SRC_T>& src1,
         Mat<ROWS, COLS, DST_T>& dst)
 {
-# 1684 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_arithm.h"
+# 1684 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_arithm.h"
     Scalar<((((SRC_T) & ((512 - 1) << 11)) >> 11) + 1), typename Type<((SRC_T) & ((1 << 11) - 1))>::name> s;
     Scalar<((((DST_T) & ((512 - 1) << 11)) >> 11) + 1), typename Type<((DST_T) & ((1 << 11) - 1))>::name> d;
     HLS_SIZE_T rows = dst.rows;
     HLS_SIZE_T cols = dst.cols;
-    (void) ((!!(rows <= ROWS)) || (_assert("rows <= ROWS","F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_arithm.h",1688),0));
-    (void) ((!!(cols <= COLS)) || (_assert("cols <= COLS","F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_arithm.h",1689),0));
+    (void) ((!!(rows <= ROWS)) || (_assert("rows <= ROWS","D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_arithm.h",1688),0));
+    (void) ((!!(cols <= COLS)) || (_assert("cols <= COLS","D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_arithm.h",1689),0));
  loop_height: for (HLS_SIZE_T i = 0; i < rows; i++) {
     loop_width: for (HLS_SIZE_T j = 0; j < cols; j++) {
 _ssdm_SpecLoopFlatten(1, "");
@@ -28764,13 +28764,13 @@ void Merge(
         Mat<ROWS, COLS, SRC_T>& src2,
         Mat<ROWS, COLS, DST_T>& dst)
 {
-# 1717 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_arithm.h"
+# 1717 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_arithm.h"
     Scalar<((((SRC_T) & ((512 - 1) << 11)) >> 11) + 1), typename Type<((SRC_T) & ((1 << 11) - 1))>::name> s;
     Scalar<((((DST_T) & ((512 - 1) << 11)) >> 11) + 1), typename Type<((DST_T) & ((1 << 11) - 1))>::name> d;
     HLS_SIZE_T rows = dst.rows;
     HLS_SIZE_T cols = dst.cols;
-    (void) ((!!(rows <= ROWS)) || (_assert("rows <= ROWS","F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_arithm.h",1721),0));
-    (void) ((!!(cols <= COLS)) || (_assert("cols <= COLS","F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_arithm.h",1722),0));
+    (void) ((!!(rows <= ROWS)) || (_assert("rows <= ROWS","D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_arithm.h",1721),0));
+    (void) ((!!(cols <= COLS)) || (_assert("cols <= COLS","D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_arithm.h",1722),0));
  loop_height: for (HLS_SIZE_T i = 0; i < rows; i++) {
     loop_width: for (HLS_SIZE_T j = 0; j < cols; j++) {
 _ssdm_SpecLoopFlatten(1, "");
@@ -28791,13 +28791,13 @@ void Merge(
         Mat<ROWS, COLS, SRC_T>& src3,
         Mat<ROWS, COLS, DST_T>& dst)
 {
-# 1753 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_arithm.h"
+# 1753 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_arithm.h"
     Scalar<((((SRC_T) & ((512 - 1) << 11)) >> 11) + 1), typename Type<((SRC_T) & ((1 << 11) - 1))>::name> s;
     Scalar<((((DST_T) & ((512 - 1) << 11)) >> 11) + 1), typename Type<((DST_T) & ((1 << 11) - 1))>::name> d;
     HLS_SIZE_T rows = dst.rows;
     HLS_SIZE_T cols = dst.cols;
-    (void) ((!!(rows <= ROWS)) || (_assert("rows <= ROWS","F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_arithm.h",1757),0));
-    (void) ((!!(cols <= COLS)) || (_assert("cols <= COLS","F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_arithm.h",1758),0));
+    (void) ((!!(rows <= ROWS)) || (_assert("rows <= ROWS","D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_arithm.h",1757),0));
+    (void) ((!!(cols <= COLS)) || (_assert("cols <= COLS","D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_arithm.h",1758),0));
  loop_height: for (HLS_SIZE_T i = 0; i < rows; i++) {
     loop_width: for (HLS_SIZE_T j = 0; j < cols; j++) {
 _ssdm_SpecLoopFlatten(1, "");
@@ -28812,11 +28812,11 @@ _ssdm_op_SpecPipeline(1, 1, 1, 0, "");
 }
 
 }
-# 62 "F:/Vivado/Vivado/2019.2/common/technology/autopilot\\hls_video.h" 2
-# 1 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h" 1
-# 91 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h"
+# 62 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot\\hls_video.h" 2
+# 1 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h" 1
+# 91 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h"
 namespace hls {
-# 144 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h"
+# 144 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h"
 class erode_kernel
 {
     public:
@@ -29080,10 +29080,10 @@ _ssdm_InlineSelf(0, "");
 
     Window<K_HEIGHT,1,typename Type<((SRC_T) & ((1 << 11) - 1))>::name> col_buf[((((SRC_T) & ((512 - 1) << 11)) >> 11) + 1)];
 
-    (void) ((!!(rows >= 8)) || (_assert("rows >= 8","F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h",407),0));
-    (void) ((!!(cols >= 8)) || (_assert("cols >= 8","F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h",408),0));
-    (void) ((!!(rows <= IMG_HEIGHT)) || (_assert("rows <= IMG_HEIGHT","F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h",409),0));
-    (void) ((!!(cols <= IMG_WIDTH)) || (_assert("cols <= IMG_WIDTH","F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h",410),0));
+    (void) ((!!(rows >= 8)) || (_assert("rows >= 8","D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h",407),0));
+    (void) ((!!(cols >= 8)) || (_assert("cols >= 8","D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h",408),0));
+    (void) ((!!(rows <= IMG_HEIGHT)) || (_assert("rows <= IMG_HEIGHT","D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h",409),0));
+    (void) ((!!(cols <= IMG_WIDTH)) || (_assert("cols <= IMG_WIDTH","D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h",410),0));
 
 _ssdm_SpecArrayPartition( col_buf, 0, "COMPLETE", 0, "");
 _ssdm_SpecArrayPartition( &kernel, 0, "COMPLETE", 0, "");
@@ -29098,18 +29098,18 @@ _ssdm_SpecArrayPartition( right_border_buf, 0, "COMPLETE", 0, "");
     kernel_size.width=K_WIDTH;
     kernel_size.height=K_HEIGHT;
     normalizeAnchor(anchor,kernel_size);
-    (void) ((!!(anchor.x >= 0)) || (_assert("anchor.x >= 0","F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h",425),0));
-    (void) ((!!(anchor.x <= K_WIDTH-1)) || (_assert("anchor.x <= K_WIDTH-1","F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h",426),0));
-    (void) ((!!(anchor.y >= 0)) || (_assert("anchor.y >= 0","F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h",427),0));
-    (void) ((!!(anchor.y <= K_HEIGHT-1)) || (_assert("anchor.y <= K_HEIGHT-1","F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h",428),0));
+    (void) ((!!(anchor.x >= 0)) || (_assert("anchor.x >= 0","D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h",425),0));
+    (void) ((!!(anchor.x <= K_WIDTH-1)) || (_assert("anchor.x <= K_WIDTH-1","D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h",426),0));
+    (void) ((!!(anchor.y >= 0)) || (_assert("anchor.y >= 0","D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h",427),0));
+    (void) ((!!(anchor.y <= K_HEIGHT-1)) || (_assert("anchor.y <= K_HEIGHT-1","D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h",428),0));
 
     int start_row;
     int row_index;
     int col_index;
     int stop_row;
     get_parameters<K_HEIGHT, K_WIDTH>(rows, anchor, start_row, stop_row, row_index, col_index);
-    (void) ((!!(start_row >= 0)) || (_assert("start_row >= 0","F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h",435),0));
-    (void) ((!!(start_row <= K_HEIGHT-1)) || (_assert("start_row <= K_HEIGHT-1","F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h",436),0));
+    (void) ((!!(start_row >= 0)) || (_assert("start_row >= 0","D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h",435),0));
+    (void) ((!!(start_row <= K_HEIGHT-1)) || (_assert("start_row <= K_HEIGHT-1","D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h",436),0));
 
     int heightloop= rows+start_row+1;
     int widthloop = cols+K_WIDTH-1;
@@ -29126,7 +29126,7 @@ channelloop: for(HLS_CHANNEL_T k= 0; k < channels; k++)
                 {
                     ImagLoc.x=j-anchor.x;
                     int x = borderInterpolate(ImagLoc.x, cols, BORDERMODE::value);
-                    (void) ((!!(x < cols)) || (_assert("x < cols","F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h",453),0));
+                    (void) ((!!(x < cols)) || (_assert("x < cols","D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h",453),0));
 
 
                     for(int buf_row=0; buf_row<K_HEIGHT; buf_row++) {
@@ -29275,8 +29275,8 @@ _ssdm_SpecArrayPartition( src_kernel_win, 0, "COMPLETE", 0, "");
 _ssdm_SpecArrayPartition( k_buf, 1, "COMPLETE", 0, "");
 _ssdm_SpecArrayPartition( col_buf, 0, "COMPLETE", 0, "");
 
-    (void) ((!!(rows <= IMG_HEIGHT)) || (_assert("rows <= IMG_HEIGHT","F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h",602),0));
-    (void) ((!!(cols <= IMG_WIDTH)) || (_assert("cols <= IMG_WIDTH","F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h",603),0));
+    (void) ((!!(rows <= IMG_HEIGHT)) || (_assert("rows <= IMG_HEIGHT","D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h",602),0));
+    (void) ((!!(cols <= IMG_WIDTH)) || (_assert("cols <= IMG_WIDTH","D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h",603),0));
 
 
     Point_<POINT_T> anchor;
@@ -29286,10 +29286,10 @@ _ssdm_SpecArrayPartition( col_buf, 0, "COMPLETE", 0, "");
     kernel_size.width=K_WIDTH;
     kernel_size.height=K_HEIGHT;
     normalizeAnchor(anchor,kernel_size);
-    (void) ((!!(anchor.x >= 0)) || (_assert("anchor.x >= 0","F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h",613),0));
-    (void) ((!!(anchor.x <= K_WIDTH-1)) || (_assert("anchor.x <= K_WIDTH-1","F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h",614),0));
-    (void) ((!!(anchor.y >= 0)) || (_assert("anchor.y >= 0","F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h",615),0));
-    (void) ((!!(anchor.y <= K_HEIGHT-1)) || (_assert("anchor.y <= K_HEIGHT-1","F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h",616),0));
+    (void) ((!!(anchor.x >= 0)) || (_assert("anchor.x >= 0","D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h",613),0));
+    (void) ((!!(anchor.x <= K_WIDTH-1)) || (_assert("anchor.x <= K_WIDTH-1","D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h",614),0));
+    (void) ((!!(anchor.y >= 0)) || (_assert("anchor.y >= 0","D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h",615),0));
+    (void) ((!!(anchor.y <= K_HEIGHT-1)) || (_assert("anchor.y <= K_HEIGHT-1","D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h",616),0));
 
     int start_row=K_HEIGHT-1-anchor.y;
     int start_col=K_WIDTH-1-anchor.x;
@@ -29383,10 +29383,10 @@ static void column_filter(
 
     LineBuffer<2*K_HEIGHT,IMG_WIDTH,typename Type<((SRC_T) & ((1 << 11) - 1))>::name> k_buf[CH];
 
-    (void) ((!!(rows >= 8)) || (_assert("rows >= 8","F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h",710),0));
-    (void) ((!!(cols >= 8)) || (_assert("cols >= 8","F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h",711),0));
-    (void) ((!!(rows <= IMG_HEIGHT)) || (_assert("rows <= IMG_HEIGHT","F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h",712),0));
-    (void) ((!!(cols <= IMG_WIDTH)) || (_assert("cols <= IMG_WIDTH","F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h",713),0));
+    (void) ((!!(rows >= 8)) || (_assert("rows >= 8","D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h",710),0));
+    (void) ((!!(cols >= 8)) || (_assert("cols >= 8","D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h",711),0));
+    (void) ((!!(rows <= IMG_HEIGHT)) || (_assert("rows <= IMG_HEIGHT","D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h",712),0));
+    (void) ((!!(cols <= IMG_WIDTH)) || (_assert("cols <= IMG_WIDTH","D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h",713),0));
 
 _ssdm_SpecArrayPartition( col_buf, 0, "COMPLETE", 0, "");
 _ssdm_SpecArrayPartition( &kernelY, 0, "COMPLETE", 0, "");
@@ -29517,10 +29517,10 @@ static void row_filter(
     LineBuffer<1,K_WIDTH,SRC_T> l_border_buf[CH];
     LineBuffer<1,K_WIDTH,SRC_T> r_border_buf[CH];
 
-    (void) ((!!(rows >= 8)) || (_assert("rows >= 8","F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h",844),0));
-    (void) ((!!(cols >= 8)) || (_assert("cols >= 8","F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h",845),0));
-    (void) ((!!(rows <= IMG_HEIGHT)) || (_assert("rows <= IMG_HEIGHT","F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h",846),0));
-    (void) ((!!(cols <= IMG_WIDTH)) || (_assert("cols <= IMG_WIDTH","F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h",847),0));
+    (void) ((!!(rows >= 8)) || (_assert("rows >= 8","D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h",844),0));
+    (void) ((!!(cols >= 8)) || (_assert("cols >= 8","D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h",845),0));
+    (void) ((!!(rows <= IMG_HEIGHT)) || (_assert("rows <= IMG_HEIGHT","D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h",846),0));
+    (void) ((!!(cols <= IMG_WIDTH)) || (_assert("cols <= IMG_WIDTH","D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h",847),0));
 
 _ssdm_SpecArrayPartition( &kernelX, 0, "COMPLETE", 0, "");
 _ssdm_SpecArrayPartition( src_kernel_winX, 0, "COMPLETE", 0, "");
@@ -29713,8 +29713,8 @@ _ssdm_SpecArrayPartition( src_kernel_winX_temp, 0, "COMPLETE", 0, "");
 _ssdm_SpecArrayPartition( src_kernel_winY, 0, "COMPLETE", 0, "");
 _ssdm_SpecArrayPartition( k_buf, 1, "COMPLETE", 0, "");
 
-    (void) ((!!(rows <= IMG_HEIGHT)) || (_assert("rows <= IMG_HEIGHT","F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h",1040),0));
-    (void) ((!!(cols <= IMG_WIDTH)) || (_assert("cols <= IMG_WIDTH","F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h",1041),0));
+    (void) ((!!(rows <= IMG_HEIGHT)) || (_assert("rows <= IMG_HEIGHT","D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h",1040),0));
+    (void) ((!!(cols <= IMG_WIDTH)) || (_assert("cols <= IMG_WIDTH","D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h",1041),0));
 
 
     Point_<POINT_T> anchor;
@@ -30636,8 +30636,8 @@ void CvtColor(
     kernel_CvtColor<CONVERSION,typename Type<((SRC_T) & ((1 << 11) - 1))>::name,typename Type<((DST_T) & ((1 << 11) - 1))>::name> kernel_opr;
     int cols=_src.cols;
     int rows=_src.rows;
-    (void) ((!!(rows <= ROWS)) || (_assert("rows <= ROWS","F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h",1963),0));
-    (void) ((!!(cols <= COLS)) || (_assert("cols <= COLS","F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h",1964),0));
+    (void) ((!!(rows <= ROWS)) || (_assert("rows <= ROWS","D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h",1963),0));
+    (void) ((!!(cols <= COLS)) || (_assert("cols <= COLS","D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h",1964),0));
     Scalar<((((SRC_T) & ((512 - 1) << 11)) >> 11) + 1),typename Type<((SRC_T) & ((1 << 11) - 1))>::name> _s;
     Scalar<((((DST_T) & ((512 - 1) << 11)) >> 11) + 1),typename Type<((DST_T) & ((1 << 11) - 1))>::name> _d;
  loop_height: for(int i= 0; i < rows; i++) {
@@ -30661,8 +30661,8 @@ void Integral(
     LineBuffer<1,COLS+1,typename Type<((DST_T) & ((1 << 11) - 1))>::name> k_buf;
     int cols=_src.cols;
     int rows=_src.rows;
-    (void) ((!!(rows <= ROWS)) || (_assert("rows <= ROWS","F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h",1988),0));
-    (void) ((!!(cols <= COLS)) || (_assert("cols <= COLS","F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h",1989),0));
+    (void) ((!!(rows <= ROWS)) || (_assert("rows <= ROWS","D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h",1988),0));
+    (void) ((!!(cols <= COLS)) || (_assert("cols <= COLS","D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h",1989),0));
     Scalar<1,typename Type<((SRC_T) & ((1 << 11) - 1))>::name> _s;
     Scalar<1,typename Type<((DST_T) & ((1 << 11) - 1))>::name> _d;
     int sqsum, sum=0;
@@ -30700,8 +30700,8 @@ void Integral(
     LineBuffer<1,COLS+1,typename Type<((DSTSQ_T) & ((1 << 11) - 1))>::name> k_sqbuf;
     int cols=_src.cols;
     int rows=_src.rows;
-    (void) ((!!(rows <= ROWS)) || (_assert("rows <= ROWS","F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h",2027),0));
-    (void) ((!!(cols <= COLS)) || (_assert("cols <= COLS","F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h",2028),0));
+    (void) ((!!(rows <= ROWS)) || (_assert("rows <= ROWS","D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h",2027),0));
+    (void) ((!!(cols <= COLS)) || (_assert("cols <= COLS","D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h",2028),0));
     Scalar<1,typename Type<((SRC_T) & ((1 << 11) - 1))>::name> _s;
     Scalar<1,typename Type<((DST_T) & ((1 << 11) - 1))>::name> _d;
     Scalar<1,typename Type<((DSTSQ_T) & ((1 << 11) - 1))>::name> _sqd;
@@ -30838,8 +30838,8 @@ _ssdm_SpecArrayPartition( vcoeffs, 2, "COMPLETE", 0, "");
     int col_rate = (ap_fixed<4, 2, AP_RND>(0.5) + col_ratio * 65536);
     rows = (rows_in > rows_out) ? rows_in : rows_out;
     cols = (cols_in > cols_out) ? cols_in : cols_out;
-    (void) ((!!(rows<=ROWS || rows<=DROWS)) || (_assert("rows<=ROWS || rows<=DROWS","F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h",2165),0));
-    (void) ((!!(cols<=COLS || cols<=DCOLS)) || (_assert("cols<=COLS || cols<=DCOLS","F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h",2166),0));
+    (void) ((!!(rows<=ROWS || rows<=DROWS)) || (_assert("rows<=ROWS || rows<=DROWS","D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h",2165),0));
+    (void) ((!!(cols<=COLS || cols<=DCOLS)) || (_assert("cols<=COLS || cols<=DCOLS","D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h",2166),0));
     v_phase_acc = 0;
 
  ROW_LOOP: for (row = 0; row < rows + 3; row++) {
@@ -30977,8 +30977,8 @@ void Resize_opr_linear (
 
     short rows=srows > drows ? srows : (drows+1);
     short cols=scols > dcols ? scols : (dcols+1);
-    (void) ((!!(rows<=ROWS || rows<=DROWS+1)) || (_assert("rows<=ROWS || rows<=DROWS+1","F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h",2304),0));
-    (void) ((!!(cols<=COLS || cols<=DCOLS+1)) || (_assert("cols<=COLS || cols<=DCOLS+1","F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h",2305),0));
+    (void) ((!!(rows<=ROWS || rows<=DROWS+1)) || (_assert("rows<=ROWS || rows<=DROWS+1","D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h",2304),0));
+    (void) ((!!(cols<=COLS || cols<=DCOLS+1)) || (_assert("cols<=COLS || cols<=DCOLS+1","D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h",2305),0));
 
     short x=0;
     short pre_fy=-10;
@@ -31166,8 +31166,8 @@ void ConvertScale (
 {
     int cols=_src.cols;
     int rows=_src.rows;
-    (void) ((!!(rows <= ROWS)) || (_assert("rows <= ROWS","F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h",2493),0));
-    (void) ((!!(cols <= COLS)) || (_assert("cols <= COLS","F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h",2494),0));
+    (void) ((!!(rows <= ROWS)) || (_assert("rows <= ROWS","D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h",2493),0));
+    (void) ((!!(cols <= COLS)) || (_assert("cols <= COLS","D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h",2494),0));
     Scalar<((((SRC_T) & ((512 - 1) << 11)) >> 11) + 1),typename Type<((SRC_T) & ((1 << 11) - 1))>::name> _s;
     Scalar<((((DST_T) & ((512 - 1) << 11)) >> 11) + 1),typename Type<((DST_T) & ((1 << 11) - 1))>::name> _d;
 loop_height: for(int i= 0;i<rows;i++) {
@@ -31195,8 +31195,8 @@ void ConvertScaleAbs (
 {
     int cols=_src.cols;
     int rows=_src.rows;
-    (void) ((!!(rows <= ROWS)) || (_assert("rows <= ROWS","F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h",2522),0));
-    (void) ((!!(cols <= COLS)) || (_assert("cols <= COLS","F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h",2523),0));
+    (void) ((!!(rows <= ROWS)) || (_assert("rows <= ROWS","D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h",2522),0));
+    (void) ((!!(cols <= COLS)) || (_assert("cols <= COLS","D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h",2523),0));
     Scalar<((((SRC_T) & ((512 - 1) << 11)) >> 11) + 1),typename Type<((SRC_T) & ((1 << 11) - 1))>::name> _s;
     Scalar<((((DST_T) & ((512 - 1) << 11)) >> 11) + 1),typename Type<((DST_T) & ((1 << 11) - 1))>::name> _d;
 loop_height: for(int i= 0;i<rows;i++) {
@@ -31445,8 +31445,8 @@ void PyrUp_opr(
 {
     HLS_SIZE_T rows=_src.rows;
     HLS_SIZE_T cols=_src.cols;
-    (void) ((!!(rows <= ROWS)) || (_assert("rows <= ROWS","F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h",2772),0));
-    (void) ((!!(cols <= COLS)) || (_assert("cols <= COLS","F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h",2773),0));
+    (void) ((!!(rows <= ROWS)) || (_assert("rows <= ROWS","D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h",2772),0));
+    (void) ((!!(cols <= COLS)) || (_assert("cols <= COLS","D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h",2773),0));
 _ssdm_InlineSelf(0, "");
 
     Window<K_HEIGHT,K_WIDTH,typename Type<((SRC_T) & ((1 << 11) - 1))>::name> src_kernel_win[((((SRC_T) & ((512 - 1) << 11)) >> 11) + 1)];
@@ -31666,8 +31666,8 @@ _ssdm_SpecArrayPartition( right_border_buf, 0, "COMPLETE", 0, "");
 
     HLS_SIZE_T rows=_src.rows;
     HLS_SIZE_T cols=_src.cols;
-    (void) ((!!(rows <= ROWS)) || (_assert("rows <= ROWS","F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h",2993),0));
-    (void) ((!!(cols <= COLS)) || (_assert("cols <= COLS","F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h",2994),0));
+    (void) ((!!(rows <= ROWS)) || (_assert("rows <= ROWS","D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h",2993),0));
+    (void) ((!!(cols <= COLS)) || (_assert("cols <= COLS","D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h",2994),0));
     HLS_SIZE_T heightloop= rows+K_HEIGHT-1+K_HEIGHT;
     HLS_SIZE_T widthloop = cols+K_WIDTH-1;
     Point_< ap_int<14> > ImagLoc;
@@ -31755,7 +31755,7 @@ channelloop: for(HLS_CHANNEL_T k= 0; k < channels; k++)
                             else if( y>= rows )
                                 t=2*rows-y-2;
                             ap_int<14> locy = ref - t;
-                            (void) ((!!(t < 0 || (locy >= 0 && locy < K_HEIGHT))) || (_assert("t < 0 || (locy >= 0 && locy < K_HEIGHT)","F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h",3082),0));
+                            (void) ((!!(t < 0 || (locy >= 0 && locy < K_HEIGHT))) || (_assert("t < 0 || (locy >= 0 && locy < K_HEIGHT)","D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h",3082),0));
                             src_kernel_win[k](buf_row,0) = col_buf[k](locy,0);
                             y--;
                         }
@@ -31788,9 +31788,9 @@ void PyrDown(
 }
 
 }
-# 63 "F:/Vivado/Vivado/2019.2/common/technology/autopilot\\hls_video.h" 2
-# 1 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_histogram.h" 1
-# 39 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_histogram.h"
+# 63 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot\\hls_video.h" 2
+# 1 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_histogram.h" 1
+# 39 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_histogram.h"
 namespace hls {
 
 template<int SRC_T, int DST_T,int ROW, int COL, int N>
@@ -31826,8 +31826,8 @@ void Equalize(
 
     int cols=_src.cols;
     int rows=_src.rows;
-    (void) ((!!(rows<=ROW)) || (_assert("rows<=ROW","F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_histogram.h",74),0));
-    (void) ((!!(cols<=COL)) || (_assert("cols<=COL","F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_histogram.h",75),0));
+    (void) ((!!(rows<=ROW)) || (_assert("rows<=ROW","D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_histogram.h",74),0));
+    (void) ((!!(cols<=COL)) || (_assert("cols<=COL","D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_histogram.h",75),0));
  loop_height: for(int i=0;i<rows;i++)
     {
     loop_width: for(int j=0;j<cols;j++)
@@ -31934,9 +31934,9 @@ _ssdm_InlineSelf(0, "");
     Equalize(_src, _dst, lut);
 }
 }
-# 64 "F:/Vivado/Vivado/2019.2/common/technology/autopilot\\hls_video.h" 2
-# 1 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_fast.h" 1
-# 39 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_fast.h"
+# 64 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot\\hls_video.h" 2
+# 1 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_fast.h" 1
+# 39 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_fast.h"
 namespace hls {
 
     template<int PSize,int KERNEL_SIZE,int NUM,typename SRC_T, typename DIFF_T>
@@ -32128,8 +32128,8 @@ void FAST_t_opr(
     Scalar<(((((((0) & ((1 << 11) - 1)) + (((1)-1) << 11))) & ((512 - 1) << 11)) >> 11) + 1),typename Type<(((((0) & ((1 << 11) - 1)) + (((1)-1) << 11))) & ((1 << 11) - 1))>::name> d;
     int rows= _src.rows;
     int cols= _src.cols;
-    (void) ((!!(rows <= ROWS)) || (_assert("rows <= ROWS","F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_fast.h",230),0));
-    (void) ((!!(cols <= COLS)) || (_assert("cols <= COLS","F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_fast.h",231),0));
+    (void) ((!!(rows <= ROWS)) || (_assert("rows <= ROWS","D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_fast.h",230),0));
+    (void) ((!!(cols <= COLS)) || (_assert("cols <= COLS","D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_fast.h",231),0));
     int kernel_half=KERNEL_SIZE/2;
     ap_uint<2> flag_val[PSize+PSize/2+1];
     int flag_d[PSize+PSize/2+1];
@@ -32245,8 +32245,8 @@ void FAST_t_opr(
     Scalar<((((SRC_T) & ((512 - 1) << 11)) >> 11) + 1), typename Type<((SRC_T) & ((1 << 11) - 1))>::name> s;
     int rows= _src.rows;
     int cols= _src.cols;
-    (void) ((!!(rows <= ROWS)) || (_assert("rows <= ROWS","F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_fast.h",347),0));
-    (void) ((!!(cols <= COLS)) || (_assert("cols <= COLS","F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_fast.h",348),0));
+    (void) ((!!(rows <= ROWS)) || (_assert("rows <= ROWS","D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_fast.h",347),0));
+    (void) ((!!(cols <= COLS)) || (_assert("cols <= COLS","D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_fast.h",348),0));
     int kernel_half=KERNEL_SIZE/2;
     ap_uint<2> flag_val[PSize+PSize/2+1];
     int flag_d[PSize+PSize/2+1];
@@ -32365,8 +32365,8 @@ void PaintMask(
 
     int rows= _src.rows;
     int cols= _src.cols;
-    (void) ((!!(rows <= ROWS)) || (_assert("rows <= ROWS","F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_fast.h",467),0));
-    (void) ((!!(cols <= COLS)) || (_assert("cols <= COLS","F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_fast.h",468),0));
+    (void) ((!!(rows <= ROWS)) || (_assert("rows <= ROWS","D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_fast.h",467),0));
+    (void) ((!!(cols <= COLS)) || (_assert("cols <= COLS","D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_fast.h",468),0));
     Scalar<((((SRC_T) & ((512 - 1) << 11)) >> 11) + 1),typename Type<((SRC_T) & ((1 << 11) - 1))>::name> s;
     Scalar<((((SRC_T) & ((512 - 1) << 11)) >> 11) + 1),typename Type<((SRC_T) & ((1 << 11) - 1))>::name> d;
     Scalar<((((MASK_T) & ((512 - 1) << 11)) >> 11) + 1),typename Type<((MASK_T) & ((1 << 11) - 1))>::name> m;
@@ -32389,9 +32389,9 @@ _ssdm_op_SpecPipeline(1, 1, 1, 0, "");
     }
 }
 }
-# 65 "F:/Vivado/Vivado/2019.2/common/technology/autopilot\\hls_video.h" 2
-# 1 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_undistort.h" 1
-# 83 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_undistort.h"
+# 65 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot\\hls_video.h" 2
+# 1 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_undistort.h" 1
+# 83 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_undistort.h"
 namespace hls {
 
 template <int N, typename T,typename PT>
@@ -32531,8 +32531,8 @@ void Remap_nearest(
     Scalar<((((MAP2_T) & ((512 - 1) << 11)) >> 11) + 1),typename Type<((MAP2_T) & ((1 << 11) - 1))>::name> m2;
     int rows=src.rows;
     int cols=src.cols;
-    (void) ((!!(rows <= ROWS)) || (_assert("rows <= ROWS","F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_undistort.h",222),0));
-    (void) ((!!(cols <= COLS)) || (_assert("cols <= COLS","F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_undistort.h",223),0));
+    (void) ((!!(rows <= ROWS)) || (_assert("rows <= ROWS","D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_undistort.h",222),0));
+    (void) ((!!(cols <= COLS)) || (_assert("cols <= COLS","D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_undistort.h",223),0));
     int ishift=WIN_ROW/2;
     int r[WIN_ROW] = {};
 
@@ -32590,8 +32590,8 @@ _ssdm_SpecArrayPartition( buf, 4, "COMPLETE", 0, "");
     Scalar<((((MAP2_T) & ((512 - 1) << 11)) >> 11) + 1),typename Type<((MAP2_T) & ((1 << 11) - 1))>::name> m2;
     int rows=src.rows;
     int cols=src.cols;
-    (void) ((!!(rows <= ROWS)) || (_assert("rows <= ROWS","F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_undistort.h",281),0));
-    (void) ((!!(cols <= COLS)) || (_assert("cols <= COLS","F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_undistort.h",282),0));
+    (void) ((!!(rows <= ROWS)) || (_assert("rows <= ROWS","D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_undistort.h",281),0));
+    (void) ((!!(cols <= COLS)) || (_assert("cols <= COLS","D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_undistort.h",282),0));
     int ishift=WIN_ROW/2;
     int r1[WIN_ROW] = {};
     int r2[WIN_ROW] = {};
@@ -32633,8 +32633,8 @@ _ssdm_SpecDependence( 0, 1, 0, -1, 0, 1);
                 bool in_range = (y>=0 && y<rows && r1[y%WIN_ROW] == y && r2[ynext%WIN_ROW] == ynext && x>=0 && x<cols);
 
                 int xa0, xa1, ya0, ya1;
-# 337 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_undistort.h"
-                (void) ((!!(((WIN_ROW & (WIN_ROW-1)) == 0) && "WIN_ROW must be a power of two")) || (_assert("((WIN_ROW & (WIN_ROW-1)) == 0) && \"WIN_ROW must be a power of two\"","F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_undistort.h",337),0));
+# 337 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_undistort.h"
+                (void) ((!!(((WIN_ROW & (WIN_ROW-1)) == 0) && "WIN_ROW must be a power of two")) || (_assert("((WIN_ROW & (WIN_ROW-1)) == 0) && \"WIN_ROW must be a power of two\"","D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_undistort.h",337),0));
                 xa0 = x/2 + x%2;
                 xa1 = x/2;
                 ya0 = (y/2 + y%2)%(WIN_ROW/2);
@@ -32677,7 +32677,7 @@ _ssdm_SpecDependence( 0, 1, 0, -1, 0, 1);
                 ap_ufixed<2*5 + 1, 1> k10 = ( iv)*(1-iu);
                 ap_ufixed<2*5 + 1, 1> k11 = ( iv)*( iu);
                 ap_ufixed<2*5 + 1, 1> k00 = 1-iv-k01;
-                (void) ((!!(k00 + k01 + k10 + k11 == 1)) || (_assert("k00 + k01 + k10 + k11 == 1","F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_undistort.h",380),0));
+                (void) ((!!(k00 + k01 + k10 + k11 == 1)) || (_assert("k00 + k01 + k10 + k11 == 1","D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_undistort.h",380),0));
 
                 Scalar<((((DST_T) & ((512 - 1) << 11)) >> 11) + 1),typename Type<((DST_T) & ((1 << 11) - 1))>::name> d;
 
@@ -32721,13 +32721,13 @@ void Remap(
 template <typename T>
 class RangeAnalyzer {
 public:
-# 435 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_undistort.h"
+# 435 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_undistort.h"
     void operator ()(T x) {};
 
 
 
 };
-# 458 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_undistort.h"
+# 458 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_undistort.h"
 template<typename T>
 T one_over_x_approx(T x) {
     return T(1.0)/x;
@@ -32783,7 +32783,7 @@ void computeUndistortCoordinates(Window<3,3, CMT> cameraMatrix,
     CMT v0= cameraMatrix.val[1][2];
     CMT fx= cameraMatrix.val[0][0];
     CMT fy= cameraMatrix.val[1][1];
-# 524 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_undistort.h"
+# 524 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_undistort.h"
     FRAMET _x, _y, x, y;
     _x=i*ir.val[0][1] + j * ir.val[0][0] + ir.val[0][2];
     _y=i*ir.val[1][1] + j * ir.val[1][0] + ir.val[1][2];
@@ -32822,7 +32822,7 @@ void computeUndistortCoordinates(Window<3,3, CMT> cameraMatrix,
 
     u = fx*(FRAMET(x*kr) + FRAMET(p1*_2xy) + FRAMET(p2*(2*x2 + r2))) + u0;
     v = fy*(FRAMET(y*kr) + FRAMET(p1*(r2 + 2*y2)) + FRAMET(p2*_2xy)) + v0;
-# 575 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_undistort.h"
+# 575 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_undistort.h"
 }
 
 template <typename ROWT, typename COLT, typename ROWOUTT, typename COLOUTT, int N>
@@ -32858,9 +32858,9 @@ void computeUndistortCoordinatesRef(Window<3,3, float> cameraMatrix,
 
     if(noRotation) {
 
-        (void) ((!!(ir.val[2][0] == 0)) || (_assert("ir.val[2][0] == 0","F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_undistort.h",610),0));
-        (void) ((!!(ir.val[2][1] == 0)) || (_assert("ir.val[2][1] == 0","F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_undistort.h",611),0));
-        (void) ((!!(ir.val[2][1] == 1)) || (_assert("ir.val[2][1] == 1","F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_undistort.h",612),0));
+        (void) ((!!(ir.val[2][0] == 0)) || (_assert("ir.val[2][0] == 0","D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_undistort.h",610),0));
+        (void) ((!!(ir.val[2][1] == 0)) || (_assert("ir.val[2][1] == 0","D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_undistort.h",611),0));
+        (void) ((!!(ir.val[2][1] == 1)) || (_assert("ir.val[2][1] == 1","D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_undistort.h",612),0));
         x=_x;
         y=_y;
     } else {
@@ -32886,7 +32886,7 @@ void computeUndistortCoordinatesRef(Window<3,3, float> cameraMatrix,
 
     u = fx*(FRAMET(x*kr) + FRAMET(p1*_2xy) + FRAMET(p2*(2*x2 + r2))) + u0;
     v = fy*(FRAMET(y*kr) + FRAMET(p1*(r2 + 2*y2)) + FRAMET(p2*_2xy)) + v0;
-# 651 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_undistort.h"
+# 651 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_undistort.h"
 }
 
 template<typename T>
@@ -32915,8 +32915,8 @@ _ssdm_SpecArrayPartition( distCoeffs, 1, "COMPLETE", 0, "");
     Scalar<((((MAP1_T) & ((512 - 1) << 11)) >> 11) + 1), typename Type<((MAP1_T) & ((1 << 11) - 1))>::name> m1;
     Scalar<((((MAP2_T) & ((512 - 1) << 11)) >> 11) + 1), typename Type<((MAP2_T) & ((1 << 11) - 1))>::name> m2;
 
-    (void) ((!!(rows <= ROWS)) || (_assert("rows <= ROWS","F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_undistort.h",679),0));
-    (void) ((!!(cols <= COLS)) || (_assert("cols <= COLS","F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_undistort.h",680),0));
+    (void) ((!!(rows <= ROWS)) || (_assert("rows <= ROWS","D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_undistort.h",679),0));
+    (void) ((!!(cols <= COLS)) || (_assert("cols <= COLS","D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_undistort.h",680),0));
 
     static RangeAnalyzer<float> rau, rav;
     static RangeAnalyzer<float> rauerr, raverr;
@@ -32934,8 +32934,8 @@ _ssdm_op_SpecPipeline(1, 1, 1, 0, "");
             computeUndistortCoordinates
                 <typename InitUndistortRectifyMap_traits<CMT>::FRAMET, typename InitUndistortRectifyMap_traits<CMT>::FRAME2T>
                 (cameraMatrix, distCoeffs, ir, noRotation,ifixed,jfixed,u,v);
-# 719 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_undistort.h"
-            (void) ((!!(MAP1_T==(((3) & ((1 << 11) - 1)) + (((2)-1) << 11)))) || (_assert("MAP1_T==HLS_16SC2","F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_undistort.h",719),0));
+# 719 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_undistort.h"
+            (void) ((!!(MAP1_T==(((3) & ((1 << 11) - 1)) + (((2)-1) << 11)))) || (_assert("MAP1_T==HLS_16SC2","D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_undistort.h",719),0));
             {
                 int iu = sr_cast<int>(u*32);
                 int iv = sr_cast<int>(v*32);
@@ -32978,9 +32978,9 @@ void InitUndistortRectifyMap(
     InitUndistortRectifyMapInverse(cameraMatrix, distCoeffs,ir,map1,map2);
 }
 }
-# 66 "F:/Vivado/Vivado/2019.2/common/technology/autopilot\\hls_video.h" 2
-# 1 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_hough.h" 1
-# 83 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_hough.h"
+# 66 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot\\hls_video.h" 2
+# 1 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_hough.h" 1
+# 83 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_hough.h"
 namespace hls {
 
 typedef ap_fixed<19,2,AP_RND> angleAccuracy_T;
@@ -33202,7 +33202,7 @@ void HoughLinesStandard(
     Sort_insert<rho,ROW,COL>(_accum,lines, _threshold,theta,storenum);
     GetTopLines(_lines,lines,storenum,theta,rho,Half_rhoN);
 }
-# 312 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_hough.h"
+# 312 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_hough.h"
 template<unsigned int theta,unsigned int rho,typename AT,typename RT,int SRC_T,int ROW,int COL,unsigned int linesMax>
 void HoughLines2(
         Mat<ROW,COL,SRC_T> & _src,
@@ -33224,9 +33224,9 @@ void HoughLines2(
 }
 
 }
-# 67 "F:/Vivado/Vivado/2019.2/common/technology/autopilot\\hls_video.h" 2
-# 1 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_harris.h" 1
-# 83 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_harris.h"
+# 67 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot\\hls_video.h" 2
+# 1 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_harris.h" 1
+# 83 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_harris.h"
 namespace hls {
 
 template<int KH,int KW, typename SRC_T>
@@ -33462,9 +33462,9 @@ _ssdm_InlineSelf(0, "");
 }
 
 }
-# 68 "F:/Vivado/Vivado/2019.2/common/technology/autopilot\\hls_video.h" 2
-# 1 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_haar.h" 1
-# 41 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_haar.h"
+# 68 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot\\hls_video.h" 2
+# 1 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_haar.h" 1
+# 41 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_haar.h"
 namespace hls {
 
 typedef ap_fixed<12,6,AP_RND> VAR_T;
@@ -33699,8 +33699,8 @@ void HaarClassifierObject_opr(
 
     int rows=_src.rows;
     int cols=_src.cols;
-    (void) ((!!(rows <= ROWS)) || (_assert("rows <= ROWS","F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_haar.h",275),0));
-    (void) ((!!(cols <= COLS)) || (_assert("cols <= COLS","F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_haar.h",276),0));
+    (void) ((!!(rows <= ROWS)) || (_assert("rows <= ROWS","D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_haar.h",275),0));
+    (void) ((!!(cols <= COLS)) || (_assert("cols <= COLS","D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_haar.h",276),0));
     Scalar<1,typename Type<((DST_T) & ((1 << 11) - 1))>::name> m;
     Scalar<((((S_T) & ((512 - 1) << 11)) >> 11) + 1),typename Type<((S_T) & ((1 << 11) - 1))>::name> ss;
 
@@ -33733,7 +33733,7 @@ _ssdm_SpecExprBalance(0, "");
             col_sum_sq += ss.val[0] * ss.val[0];
             swin.val[K_H][K_W] = (j == 0 ? ap_uint<24>(0) : swin.val[K_H][K_W-1]) + col_sum;
             sqwin.val[0][K_W] = (j == 0 ? ap_uint<32>(0) : sqwin.val[0][K_W-1]) + col_sum_sq;
-# 322 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_haar.h"
+# 322 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_haar.h"
             }
 
             m.val[0]=0;
@@ -33811,7 +33811,7 @@ void HaarClassifierObject(
                 )
 {
 _ssdm_InlineSelf(0, "");
-# 409 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_haar.h"
+# 409 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_haar.h"
         HaarClassifierObject_opr<K_H,K_W>(_cascade,_src, _mask);
 }
 
@@ -33936,9 +33936,9 @@ _ssdm_InlineSelf(0, "");
 }
 
 }
-# 69 "F:/Vivado/Vivado/2019.2/common/technology/autopilot\\hls_video.h" 2
-# 1 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_stereobm.h" 1
-# 100 "F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_stereobm.h"
+# 69 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot\\hls_video.h" 2
+# 1 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_stereobm.h" 1
+# 100 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_stereobm.h"
 namespace hls {
 
 
@@ -33996,8 +33996,8 @@ void PreFilterNorm(
 {
     int rows = src.rows;
     int cols = src.cols;
-    (void) ((!!(rows <= ROWS)) || (_assert("rows <= ROWS","F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_stereobm.h",157),0));
-    (void) ((!!(cols <= COLS)) || (_assert("cols <= COLS","F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_stereobm.h",158),0));
+    (void) ((!!(rows <= ROWS)) || (_assert("rows <= ROWS","D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_stereobm.h",157),0));
+    (void) ((!!(cols <= COLS)) || (_assert("cols <= COLS","D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_stereobm.h",158),0));
 
     LineBuffer<PWSIZE, COLS+PWSIZE-1, Scalar<((((SRC_T) & ((512 - 1) << 11)) >> 11) + 1), typename Type<((SRC_T) & ((1 << 11) - 1))>::name> > buff;
     Window<PWSIZE, PWSIZE, Scalar<((((SRC_T) & ((512 - 1) << 11)) >> 11) + 1), typename Type<((SRC_T) & ((1 << 11) - 1))>::name> > win;
@@ -34062,8 +34062,8 @@ void Clip(
 {
     HLS_SIZE_T rows = src.rows;
     HLS_SIZE_T cols = src.cols;
-    (void) ((!!(rows <= ROWS)) || (_assert("rows <= ROWS","F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_stereobm.h",223),0));
-    (void) ((!!(cols <= COLS)) || (_assert("cols <= COLS","F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_stereobm.h",224),0));
+    (void) ((!!(rows <= ROWS)) || (_assert("rows <= ROWS","D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_stereobm.h",223),0));
+    (void) ((!!(cols <= COLS)) || (_assert("cols <= COLS","D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_stereobm.h",224),0));
     Scalar<((((SRC_T) & ((512 - 1) << 11)) >> 11) + 1), typename Type<((SRC_T) & ((1 << 11) - 1))>::name> s;
     Scalar<((((DST_T) & ((512 - 1) << 11)) >> 11) + 1), typename Type<((DST_T) & ((1 << 11) - 1))>::name> d;
     for (HLS_SIZE_T i = 0; i < rows; i++) {
@@ -34087,10 +34087,10 @@ _ssdm_InlineSelf(0, "");
     T r;
     if(x < 0) {
         r = y;
-        (void) ((!!(r == y)) || (_assert("r == y","F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_stereobm.h",248),0));
+        (void) ((!!(r == y)) || (_assert("r == y","D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_stereobm.h",248),0));
     } else {
         r = x;
-        (void) ((!!(r == x)) || (_assert("r == x","F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_stereobm.h",251),0));
+        (void) ((!!(r == x)) || (_assert("r == x","D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_stereobm.h",251),0));
     }
     return r;
 }
@@ -34214,8 +34214,8 @@ void SADBlockMatching(
 {
     int rows = left.rows;
     int cols = left.cols;
-    (void) ((!!(rows <= ROWS)) || (_assert("rows <= ROWS","F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_stereobm.h",375),0));
-    (void) ((!!(cols <= COLS)) || (_assert("cols <= COLS","F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_stereobm.h",376),0));
+    (void) ((!!(rows <= ROWS)) || (_assert("rows <= ROWS","D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_stereobm.h",375),0));
+    (void) ((!!(cols <= COLS)) || (_assert("cols <= COLS","D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_stereobm.h",376),0));
     LineBuffer<WSIZE, COLS+WSIZE-1, typename Type<((SRC_T) & ((1 << 11) - 1))>::name> l_buff;
     LineBuffer<WSIZE, COLS+WSIZE-1, typename Type<((SRC_T) & ((1 << 11) - 1))>::name> r_buff;
     Window<WSIZE, WSIZE, typename Type<((SRC_T) & ((1 << 11) - 1))>::name> l_window;
@@ -34397,21 +34397,21 @@ void FindStereoCorrespondenceBM(
             Mat<ROWS, COLS, DST_T>& disp,
             StereoBMState<WSIZE, NDISP, NDISP_UNIT>& state)
 {
-    (void) ((!!(left.rows == right.rows && left.cols == right.cols && "All the images must have the same size")) || (_assert("left.rows == right.rows && left.cols == right.cols && \"All the images must have the same size\"","F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_stereobm.h",558),0));
-    (void) ((!!(SRC_T == (((0) & ((1 << 11) - 1)) + (((1)-1) << 11)) && "Both input images must have HLS_8UC1 format")) || (_assert("SRC_T == HLS_8UC1 && \"Both input images must have HLS_8UC1 format\"","F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_stereobm.h",559),0));
-    (void) ((!!(DST_T == (((3) & ((1 << 11) - 1)) + (((1)-1) << 11)) && "Disparity image must have HLS_16SC1 format")) || (_assert("DST_T == HLS_16SC1 && \"Disparity image must have HLS_16SC1 format\"","F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_stereobm.h",560),0));
-    (void) ((!!(state.preFilterType == 0 || state.preFilterType == 1)) || (_assert("state.preFilterType == HLS_STEREO_BM_NORMALIZED_RESPONSE || state.preFilterType == HLS_STEREO_BM_XSOBEL","F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_stereobm.h",561),0));
-    (void) ((!!(state.preFilterSize >= 5 && state.preFilterSize <= 21 && (state.preFilterSize & 1) && "preFilterSize must be odd and be within 5..HLS_STEREO_BM_MAX_WIN_SIZE")) || (_assert("state.preFilterSize >= 5 && state.preFilterSize <= HLS_STEREO_BM_MAX_WIN_SIZE && (state.preFilterSize & 1) && \"preFilterSize must be odd and be within 5..HLS_STEREO_BM_MAX_WIN_SIZE\"","F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_stereobm.h",562),0));
-    (void) ((!!(state.preFilterCap >=1 && state.preFilterCap <= 63 && "preFilterCap must be within 1..63")) || (_assert("state.preFilterCap >=1 && state.preFilterCap <= 63 && \"preFilterCap must be within 1..63\"","F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_stereobm.h",563),0));
-    (void) ((!!(state.SADWindowSize >= 5 && state.SADWindowSize <= 21 && (state.SADWindowSize & 1) && state.SADWindowSize < hls::min<int>(left.rows, left.cols) && "SADWindowSize must be odd, be within 5..HLS_STEREO_BM_MAX_WIN_SIZE and be lesser than image width or height")) || (_assert("state.SADWindowSize >= 5 && state.SADWindowSize <= HLS_STEREO_BM_MAX_WIN_SIZE && (state.SADWindowSize & 1) && state.SADWindowSize < hls::min<int>(left.rows, left.cols) && \"SADWindowSize must be odd, be within 5..HLS_STEREO_BM_MAX_WIN_SIZE and be lesser than image width or height\"","F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_stereobm.h",564),0));
-    (void) ((!!(NDISP > 1 && "numberOfDisparities must be greater than 1")) || (_assert("NDISP > 1 && \"numberOfDisparities must be greater than 1\"","F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_stereobm.h",565),0));
-    (void) ((!!(NDISP >= NDISP_UNIT && "numberOfDisparities must be not less than ndisp_unit")) || (_assert("NDISP >= NDISP_UNIT && \"numberOfDisparities must be not less than ndisp_unit\"","F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_stereobm.h",566),0));
-    (void) ((!!(state.textureThreshold >= 0 && "texture threshold must be non-negative")) || (_assert("state.textureThreshold >= 0 && \"texture threshold must be non-negative\"","F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_stereobm.h",567),0));
-    (void) ((!!(state.uniquenessRatio >= 0 && "uniqueness ratio must be non-negative")) || (_assert("state.uniquenessRatio >= 0 && \"uniqueness ratio must be non-negative\"","F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_stereobm.h",568),0));
+    (void) ((!!(left.rows == right.rows && left.cols == right.cols && "All the images must have the same size")) || (_assert("left.rows == right.rows && left.cols == right.cols && \"All the images must have the same size\"","D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_stereobm.h",558),0));
+    (void) ((!!(SRC_T == (((0) & ((1 << 11) - 1)) + (((1)-1) << 11)) && "Both input images must have HLS_8UC1 format")) || (_assert("SRC_T == HLS_8UC1 && \"Both input images must have HLS_8UC1 format\"","D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_stereobm.h",559),0));
+    (void) ((!!(DST_T == (((3) & ((1 << 11) - 1)) + (((1)-1) << 11)) && "Disparity image must have HLS_16SC1 format")) || (_assert("DST_T == HLS_16SC1 && \"Disparity image must have HLS_16SC1 format\"","D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_stereobm.h",560),0));
+    (void) ((!!(state.preFilterType == 0 || state.preFilterType == 1)) || (_assert("state.preFilterType == HLS_STEREO_BM_NORMALIZED_RESPONSE || state.preFilterType == HLS_STEREO_BM_XSOBEL","D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_stereobm.h",561),0));
+    (void) ((!!(state.preFilterSize >= 5 && state.preFilterSize <= 21 && (state.preFilterSize & 1) && "preFilterSize must be odd and be within 5..HLS_STEREO_BM_MAX_WIN_SIZE")) || (_assert("state.preFilterSize >= 5 && state.preFilterSize <= HLS_STEREO_BM_MAX_WIN_SIZE && (state.preFilterSize & 1) && \"preFilterSize must be odd and be within 5..HLS_STEREO_BM_MAX_WIN_SIZE\"","D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_stereobm.h",562),0));
+    (void) ((!!(state.preFilterCap >=1 && state.preFilterCap <= 63 && "preFilterCap must be within 1..63")) || (_assert("state.preFilterCap >=1 && state.preFilterCap <= 63 && \"preFilterCap must be within 1..63\"","D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_stereobm.h",563),0));
+    (void) ((!!(state.SADWindowSize >= 5 && state.SADWindowSize <= 21 && (state.SADWindowSize & 1) && state.SADWindowSize < hls::min<int>(left.rows, left.cols) && "SADWindowSize must be odd, be within 5..HLS_STEREO_BM_MAX_WIN_SIZE and be lesser than image width or height")) || (_assert("state.SADWindowSize >= 5 && state.SADWindowSize <= HLS_STEREO_BM_MAX_WIN_SIZE && (state.SADWindowSize & 1) && state.SADWindowSize < hls::min<int>(left.rows, left.cols) && \"SADWindowSize must be odd, be within 5..HLS_STEREO_BM_MAX_WIN_SIZE and be lesser than image width or height\"","D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_stereobm.h",564),0));
+    (void) ((!!(NDISP > 1 && "numberOfDisparities must be greater than 1")) || (_assert("NDISP > 1 && \"numberOfDisparities must be greater than 1\"","D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_stereobm.h",565),0));
+    (void) ((!!(NDISP >= NDISP_UNIT && "numberOfDisparities must be not less than ndisp_unit")) || (_assert("NDISP >= NDISP_UNIT && \"numberOfDisparities must be not less than ndisp_unit\"","D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_stereobm.h",566),0));
+    (void) ((!!(state.textureThreshold >= 0 && "texture threshold must be non-negative")) || (_assert("state.textureThreshold >= 0 && \"texture threshold must be non-negative\"","D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_stereobm.h",567),0));
+    (void) ((!!(state.uniquenessRatio >= 0 && "uniqueness ratio must be non-negative")) || (_assert("state.uniquenessRatio >= 0 && \"uniqueness ratio must be non-negative\"","D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_stereobm.h",568),0));
     int rows = left.rows;
     int cols = left.cols;
-    (void) ((!!(rows <= ROWS)) || (_assert("rows <= ROWS","F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_stereobm.h",571),0));
-    (void) ((!!(cols <= COLS)) || (_assert("cols <= COLS","F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_stereobm.h",572),0));
+    (void) ((!!(rows <= ROWS)) || (_assert("rows <= ROWS","D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_stereobm.h",571),0));
+    (void) ((!!(cols <= COLS)) || (_assert("cols <= COLS","D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_stereobm.h",572),0));
     Mat<ROWS, COLS, SRC_T> _left_0(rows, cols);
     Mat<ROWS, COLS, SRC_T> _right_0(rows, cols);
 _ssdm_op_SpecDataflowPipeline(-1, 0, "");
@@ -34430,10 +34430,10 @@ _ssdm_op_SpecDataflowPipeline(-1, 0, "");
 }
 
 }
-# 70 "F:/Vivado/Vivado/2019.2/common/technology/autopilot\\hls_video.h" 2
+# 70 "D:/Xilinx/Vivado/2019.2/common/technology/autopilot\\hls_video.h" 2
 # 2 "Vivado_Sobel_v3/core.cpp" 2
 
-# 1 "F:/Vivado/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\stdio.h" 1 3
+# 1 "D:/Xilinx/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\stdio.h" 1 3
 
 
 
@@ -34442,19 +34442,19 @@ _ssdm_op_SpecDataflowPipeline(-1, 0, "");
 
 
 
-# 1 "F:/Vivado/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\_mingw.h" 1 3
-# 9 "F:/Vivado/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\stdio.h" 2 3
+# 1 "D:/Xilinx/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\_mingw.h" 1 3
+# 9 "D:/Xilinx/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\stdio.h" 2 3
 
 
-# 1 "F:/Vivado/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\_mingw_print_push.h" 1 3
-# 11 "F:/Vivado/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\stdio.h" 2 3
+# 1 "D:/Xilinx/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\_mingw_print_push.h" 1 3
+# 11 "D:/Xilinx/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\stdio.h" 2 3
 
 
 #pragma pack(push,_CRT_PACKING)
 
 
 extern "C" {
-# 26 "F:/Vivado/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\stdio.h" 3
+# 26 "D:/Xilinx/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\stdio.h" 3
   struct _iobuf {
     char *_ptr;
     int _cnt;
@@ -34466,7 +34466,7 @@ extern "C" {
     char *_tmpfname;
   };
   typedef struct _iobuf FILE;
-# 84 "F:/Vivado/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\stdio.h" 3
+# 84 "D:/Xilinx/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\stdio.h" 3
   typedef long _off_t;
 
   typedef long off_t;
@@ -34485,9 +34485,9 @@ extern "C" {
 
 
   __attribute__ ((__dllimport__)) FILE * __iob_func(void);
-# 120 "F:/Vivado/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\stdio.h" 3
+# 120 "D:/Xilinx/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\stdio.h" 3
   __extension__ typedef long long fpos_t;
-# 157 "F:/Vivado/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\stdio.h" 3
+# 157 "D:/Xilinx/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\stdio.h" 3
   __attribute__ ((__dllimport__)) int _filbuf(FILE *_File);
   __attribute__ ((__dllimport__)) int _flsbuf(int _Ch,FILE *_File);
 
@@ -34633,7 +34633,7 @@ extern "C" {
   int vsnprintf(char * __restrict__ _DstBuf,size_t _MaxCount,const char * __restrict__ _Format,va_list _ArgList) ;
 
   int snprintf(char * __restrict__ s, size_t n, const char * __restrict__ format, ...);
-# 312 "F:/Vivado/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\stdio.h" 3
+# 312 "D:/Xilinx/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\stdio.h" 3
   int vscanf(const char * __restrict__ Format, va_list argp);
   int vfscanf (FILE * __restrict__ fp, const char * __restrict__ Format,va_list argp);
   int vsscanf (const char * __restrict__ _Str,const char * __restrict__ Format,va_list argp);
@@ -34641,7 +34641,7 @@ extern "C" {
   __attribute__ ((__dllimport__)) int _vscprintf(const char * __restrict__ _Format,va_list _ArgList);
   __attribute__ ((__dllimport__)) int _set_printf_count_output(int _Value);
   __attribute__ ((__dllimport__)) int _get_printf_count_output(void);
-# 330 "F:/Vivado/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\stdio.h" 3
+# 330 "D:/Xilinx/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\stdio.h" 3
   __attribute__ ((__dllimport__)) FILE * _wfsopen(const wchar_t *_Filename,const wchar_t *_Mode,int _ShFlag);
 
 
@@ -34677,7 +34677,7 @@ extern "C" {
 
   int snwprintf (wchar_t * __restrict__ s, size_t n, const wchar_t * __restrict__ format, ...);
   int vsnwprintf (wchar_t * __restrict__ , size_t, const wchar_t * __restrict__ , va_list);
-# 373 "F:/Vivado/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\stdio.h" 3
+# 373 "D:/Xilinx/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\stdio.h" 3
   int vwscanf (const wchar_t * __restrict__ , va_list);
   int vfwscanf (FILE * __restrict__ ,const wchar_t * __restrict__ ,va_list);
   int vswscanf (const wchar_t * __restrict__ ,const wchar_t * __restrict__ ,va_list);
@@ -34712,7 +34712,7 @@ extern "C" {
   __attribute__ ((__dllimport__)) int __swprintf_l(wchar_t * __restrict__ _Dest,const wchar_t * __restrict__ _Format,_locale_t _Plocinfo,...) ;
   __attribute__ ((__dllimport__)) int _vswprintf_l(wchar_t * __restrict__ buffer,size_t count,const wchar_t * __restrict__ format,_locale_t locale,va_list argptr) ;
   __attribute__ ((__dllimport__)) int __vswprintf_l(wchar_t * __restrict__ _Dest,const wchar_t * __restrict__ _Format,_locale_t _Plocinfo,va_list _Args) ;
-# 417 "F:/Vivado/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\stdio.h" 3
+# 417 "D:/Xilinx/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\stdio.h" 3
   __attribute__ ((__dllimport__)) wchar_t * _wtempnam(const wchar_t *_Directory,const wchar_t *_FilePrefix);
   __attribute__ ((__dllimport__)) int _vscwprintf(const wchar_t * __restrict__ _Format,va_list _ArgList);
   __attribute__ ((__dllimport__)) int _vscwprintf_l(const wchar_t * __restrict__ _Format,_locale_t _Locale,va_list _ArgList);
@@ -34742,7 +34742,7 @@ extern "C" {
   __attribute__ ((__dllimport__)) wint_t _fgetwc_nolock(FILE *_File);
   __attribute__ ((__dllimport__)) wint_t _fputwc_nolock(wchar_t _Ch,FILE *_File);
   __attribute__ ((__dllimport__)) wint_t _ungetwc_nolock(wint_t _Ch,FILE *_File);
-# 475 "F:/Vivado/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\stdio.h" 3
+# 475 "D:/Xilinx/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\stdio.h" 3
   __attribute__ ((__dllimport__)) void _lock_file(FILE *_File);
   __attribute__ ((__dllimport__)) void _unlock_file(FILE *_File);
   __attribute__ ((__dllimport__)) int _fclose_nolock(FILE *_File);
@@ -34778,7 +34778,7 @@ extern "C" {
 #pragma pack(pop)
 
 
-# 1 "F:/Vivado/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\sec_api/stdio_s.h" 1 3
+# 1 "D:/Xilinx/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\sec_api/stdio_s.h" 1 3
 
 
 
@@ -34787,25 +34787,26 @@ extern "C" {
 
 
 
-# 1 "F:/Vivado/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\stdio.h" 1 3
-# 9 "F:/Vivado/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\sec_api/stdio_s.h" 2 3
-# 509 "F:/Vivado/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\stdio.h" 2 3
+# 1 "D:/Xilinx/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\stdio.h" 1 3
+# 9 "D:/Xilinx/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\sec_api/stdio_s.h" 2 3
+# 509 "D:/Xilinx/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\stdio.h" 2 3
 
 
-# 1 "F:/Vivado/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\_mingw_print_pop.h" 1 3
-# 511 "F:/Vivado/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\stdio.h" 2 3
+# 1 "D:/Xilinx/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\_mingw_print_pop.h" 1 3
+# 511 "D:/Xilinx/Vivado/2019.2/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\stdio.h" 2 3
 # 4 "Vivado_Sobel_v3/core.cpp" 2
 
-void Sobel(uint8_t image_in[10*10], uint8_t image_out[10*10]){_ssdm_SpecArrayDimSize(image_in, 100);_ssdm_SpecArrayDimSize(image_out, 100);
+void Sobel(unsigned char image_in[10*10], unsigned char image_out[10*10]){_ssdm_SpecArrayDimSize(image_in, 100);_ssdm_SpecArrayDimSize(image_out, 100);
 
-_ssdm_op_SpecInterface(image_out, "ap_memory", 0, 0, "", 0, 0, "", "", "", 0, 0, 0, 0, "", "");
-_ssdm_op_SpecInterface(image_in, "ap_memory", 0, 0, "", 0, 0, "", "", "", 0, 0, 0, 0, "", "");
+
+
 
 _ssdm_op_SpecDataflowPipeline(-1, 0, "");
 
 
 
-
+_ssdm_SpecArrayReshape( image_in, 1,  "CYCLIC",  4, "");
+_ssdm_SpecArrayReshape( image_out, 1,  "CYCLIC",  4, "");
 
 _ssdm_op_SpecResource(image_in, "", "RAM_1P_BRAM", "", -1, "", "", "", "", "");
 _ssdm_op_SpecResource(image_out, "", "RAM_1P_BRAM", "", -1, "", "", "", "", "");
@@ -34816,7 +34817,7 @@ _ssdm_op_SpecResource(image_out, "", "RAM_1P_BRAM", "", -1, "", "", "", "", "");
            { 0, 0, 0 },
            { 1, 2, 1 } };
 _ssdm_SpecConstant(coefficients);
-# 21 "Vivado_Sobel_v3/core.cpp"
+# 22 "Vivado_Sobel_v3/core.cpp"
 
 
 
@@ -34826,22 +34827,21 @@ _ssdm_SpecConstant(coefficients);
  hls::Mat<10,10,(((0) & ((1 << 11) - 1)) + (((1)-1) << 11))> dst;
 
 
- hls::AXIM2Mat<10,uint8_t,10,10,(((0) & ((1 << 11) - 1)) + (((1)-1) << 11))>(image_in,src);
+ hls::AXIM2Mat<10,unsigned char,10,10,(((0) & ((1 << 11) - 1)) + (((1)-1) << 11))>(image_in,src);
 
 
 
  hls::Window<3,3,char> kernel;
-_ssdm_SpecArrayReshape( &kernel, 1,  "CYCLIC",  2, "");
-
+# 49 "Vivado_Sobel_v3/core.cpp"
  for (int i=0;i<3;i++){
-  for (int j=0;j<3;j++){
-   kernel.val[i][j]=coefficients[i][j];
+   for (int j=0;j<3;j++){
+    kernel.insert(coefficients[i][j],i,j);
+   }
   }
- }
 
 
  hls::Point_<int> anchor = hls::Point_<int>(-1,-1);
 
  hls::Filter2D(src,dst,kernel,anchor);
- hls::Mat2AXIM<10,uint8_t,10,10,(((0) & ((1 << 11) - 1)) + (((1)-1) << 11))>(dst,image_out);
+ hls::Mat2AXIM<10,unsigned char,10,10,(((0) & ((1 << 11) - 1)) + (((1)-1) << 11))>(dst,image_out);
 }

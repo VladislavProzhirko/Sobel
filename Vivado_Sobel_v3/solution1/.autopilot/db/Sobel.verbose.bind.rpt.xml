@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vivado HLS Report for 'Sobel'" level="0">
-<item name = "Date">Sat Jun 20 16:50:20 2020
+<item name = "Date">Tue Jun 23 00:54:48 2020
 </item>
 <item name = "Version">2019.2 (Build 2704478 on Wed Nov 06 22:10:23 MST 2019)</item>
 <item name = "Project">Vivado_Sobel_v3</item>
@@ -15,7 +15,7 @@
 <section name = "" level="1">
 <item name = "Summary"><table name="" hasTotal="0">
 <keys size="4">Clock, Target, Estimated, Uncertainty</keys>
-<column name="ap_clk">10.00 ns, 8.295 ns, 1.25 ns</column>
+<column name="ap_clk">10.00 ns, 8.348 ns, 1.25 ns</column>
 </table>
 </item>
 </section>
@@ -24,17 +24,17 @@
 <section name = "" level="1">
 <item name = "Summary"><table name="" hasTotal="0">
 <keys size="8">, min, max, min, max, min, max, Type</keys>
-<column name="">136, 211, 1.360 us, 2.110 us, 133, 210, dataflow</column>
+<column name="">236, 236, 2.360 us, 2.360 us, 232, 232, dataflow</column>
 </table>
 </item>
 <item name = "Detail">
 <section name = "" level="1">
 <item name = "Instance"><table name="" hasTotal="0">
 <keys size="9">Instance, Module, min, max, min, max, min, max, Type</keys>
-<column name="grp_Filter2D_fu_166">Filter2D, 127, 209, 1.270 us, 2.090 us, 127, 209, none</column>
-<column name="grp_AXIM2Mat_fu_174">AXIM2Mat, 2, 132, 20.000 ns, 1.320 us, 2, 132, none</column>
-<column name="grp_Mat2AXIM_fu_185">Mat2AXIM, 132, 132, 1.320 us, 1.320 us, 132, 132, none</column>
-<column name="call_ln0_Block_proc_fu_192">Block_proc, 0, 0, 0 ns, 0 ns, 0, 0, none</column>
+<column name="grp_Filter2D_fu_80">Filter2D, 127, 209, 1.270 us, 2.090 us, 127, 209, none</column>
+<column name="grp_AXIM2Mat_fu_88">AXIM2Mat, 1, 141, 10.000 ns, 1.410 us, 1, 141, none</column>
+<column name="grp_Mat2AXIM_fu_99">Mat2AXIM, 231, 231, 2.310 us, 2.310 us, 231, 231, none</column>
+<column name="call_ln0_Block_proc_fu_106">Block_proc, 0, 0, 0 ns, 0 ns, 0, 0, none</column>
 </table>
 </item>
 <item name = "Loop"><table name="" hasTotal="0">

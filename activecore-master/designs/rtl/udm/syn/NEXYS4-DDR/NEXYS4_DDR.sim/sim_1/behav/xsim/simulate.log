@@ -2,4 +2,4 @@ Vivado Simulator 2019.2
 Time resolution is 1 ps
 ### SIMULATION STARTED ###
 ### TEST PROCEDURE FINISHED ###
-$stop called at time : 530345 ns : File "C:/Users/bladk/AppData/Roaming/Xilinx/Vivado/Sobel/activecore-master/designs/rtl/udm/tb/tb.v" Line 483
+$stop called at time : 508585 ns : File "C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v" Line 515

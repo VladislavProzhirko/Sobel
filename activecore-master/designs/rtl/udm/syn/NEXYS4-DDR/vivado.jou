@@ -1,0 +1,521 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Mon Jun 22 13:16:11 2020
+# Process ID: 6500
+# Current directory: C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/syn/NEXYS4-DDR
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent3360 C:\Users\Drus\Desktop\parni\Sobel\activecore-master\designs\rtl\udm\syn\NEXYS4-DDR\NEXYS4_DDR.xpr
+# Log file: C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/syn/NEXYS4-DDR/vivado.log
+# Journal file: C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/syn/NEXYS4-DDR\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/syn/NEXYS4-DDR/NEXYS4_DDR.xpr
+launch_simulation
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+add_files -fileset sim_1 -norecurse {C:/Users/Drus/Desktop/parni/Sobel/Vivado_Sobel_v3/solution1/syn/verilog/Sobel_mux_32_8_1_1.v C:/Users/Drus/Desktop/parni/Sobel/Vivado_Sobel_v3/solution1/syn/verilog/Filter2D.v C:/Users/Drus/Desktop/parni/Sobel/Vivado_Sobel_v3/solution1/syn/verilog/Sobel.v C:/Users/Drus/Desktop/parni/Sobel/Vivado_Sobel_v3/solution1/syn/verilog/fifo_w5_d2_A.v C:/Users/Drus/Desktop/parni/Sobel/Vivado_Sobel_v3/solution1/syn/verilog/Mat2AXIM.v C:/Users/Drus/Desktop/parni/Sobel/Vivado_Sobel_v3/solution1/syn/verilog/Array2Mat.v C:/Users/Drus/Desktop/parni/Sobel/Vivado_Sobel_v3/solution1/syn/verilog/Block_proc.v C:/Users/Drus/Desktop/parni/Sobel/Vivado_Sobel_v3/solution1/syn/verilog/start_for_Filter2eOg.v C:/Users/Drus/Desktop/parni/Sobel/Vivado_Sobel_v3/solution1/syn/verilog/start_for_Mat2AXIfYi.v C:/Users/Drus/Desktop/parni/Sobel/Vivado_Sobel_v3/solution1/syn/verilog/fifo_w8_d2_A.v C:/Users/Drus/Desktop/parni/Sobel/Vivado_Sobel_v3/solution1/syn/verilog/AXIM2Mat.v C:/Users/Drus/Desktop/parni/Sobel/Vivado_Sobel_v3/solution1/syn/verilog/Mat2Array.v C:/Users/Drus/Desktop/parni/Sobel/Vivado_Sobel_v3/solution1/syn/verilog/Filter2D_k_buf_0_bkb.v}
+export_ip_user_files -of_objects  [get_files C:/Users/Drus/Desktop/parni/Vivado_Sobel_v3/solution1/syn/verilog/AXIM2Mat.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/Drus/Desktop/parni/Vivado_Sobel_v3/solution1/syn/verilog/Array2Mat.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/Drus/Desktop/parni/Vivado_Sobel_v3/solution1/syn/verilog/Block_proc.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/Drus/Desktop/parni/Vivado_Sobel_v3/solution1/syn/verilog/Filter2D.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/Drus/Desktop/parni/Vivado_Sobel_v3/solution1/syn/verilog/Filter2D_k_buf_0_bkb.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/Drus/Desktop/parni/Vivado_Sobel_v3/solution1/syn/verilog/Mat2AXIM.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/Drus/Desktop/parni/Vivado_Sobel_v3/solution1/syn/verilog/Mat2Array.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/Drus/Desktop/parni/Vivado_Sobel_v3/solution1/syn/verilog/Sobel.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/Drus/Desktop/parni/Vivado_Sobel_v3/solution1/syn/verilog/Sobel_mux_32_8_1_1.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/Drus/Desktop/parni/Vivado_Sobel_v3/solution1/syn/verilog/fifo_w5_d2_A.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/Drus/Desktop/parni/Vivado_Sobel_v3/solution1/syn/verilog/fifo_w8_d2_A.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/Drus/Desktop/parni/Vivado_Sobel_v3/solution1/syn/verilog/start_for_Filter2eOg.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/Drus/Desktop/parni/Vivado_Sobel_v3/solution1/syn/verilog/start_for_Mat2AXIfYi.v] -no_script -reset -force -quiet
+remove_files  -fileset sim_1 {C:/Users/Drus/Desktop/parni/Vivado_Sobel_v3/solution1/syn/verilog/AXIM2Mat.v C:/Users/Drus/Desktop/parni/Vivado_Sobel_v3/solution1/syn/verilog/Array2Mat.v C:/Users/Drus/Desktop/parni/Vivado_Sobel_v3/solution1/syn/verilog/Block_proc.v C:/Users/Drus/Desktop/parni/Vivado_Sobel_v3/solution1/syn/verilog/Filter2D.v C:/Users/Drus/Desktop/parni/Vivado_Sobel_v3/solution1/syn/verilog/Filter2D_k_buf_0_bkb.v C:/Users/Drus/Desktop/parni/Vivado_Sobel_v3/solution1/syn/verilog/Mat2AXIM.v C:/Users/Drus/Desktop/parni/Vivado_Sobel_v3/solution1/syn/verilog/Mat2Array.v C:/Users/Drus/Desktop/parni/Vivado_Sobel_v3/solution1/syn/verilog/Sobel.v C:/Users/Drus/Desktop/parni/Vivado_Sobel_v3/solution1/syn/verilog/Sobel_mux_32_8_1_1.v C:/Users/Drus/Desktop/parni/Vivado_Sobel_v3/solution1/syn/verilog/fifo_w5_d2_A.v C:/Users/Drus/Desktop/parni/Vivado_Sobel_v3/solution1/syn/verilog/fifo_w8_d2_A.v C:/Users/Drus/Desktop/parni/Vivado_Sobel_v3/solution1/syn/verilog/start_for_Filter2eOg.v C:/Users/Drus/Desktop/parni/Vivado_Sobel_v3/solution1/syn/verilog/start_for_Mat2AXIfYi.v}
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+add_files -fileset sim_1 -norecurse C:/Users/Drus/Desktop/parni/Sobel/Vivado_Sobel_v3/solution1/syn/verilog/Sobel.v
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+add_files -fileset sim_1 -norecurse {C:/Users/Drus/Desktop/parni/Sobel/Vivado_Sobel_v3/solution1/syn/verilog/Sobel_mux_32_8_1_1.v C:/Users/Drus/Desktop/parni/Sobel/Vivado_Sobel_v3/solution1/syn/verilog/Filter2D.v C:/Users/Drus/Desktop/parni/Sobel/Vivado_Sobel_v3/solution1/syn/verilog/Sobel.v C:/Users/Drus/Desktop/parni/Sobel/Vivado_Sobel_v3/solution1/syn/verilog/fifo_w5_d2_A.v C:/Users/Drus/Desktop/parni/Sobel/Vivado_Sobel_v3/solution1/syn/verilog/Mat2AXIM.v C:/Users/Drus/Desktop/parni/Sobel/Vivado_Sobel_v3/solution1/syn/verilog/Array2Mat.v C:/Users/Drus/Desktop/parni/Sobel/Vivado_Sobel_v3/solution1/syn/verilog/Block_proc.v C:/Users/Drus/Desktop/parni/Sobel/Vivado_Sobel_v3/solution1/syn/verilog/start_for_Filter2eOg.v C:/Users/Drus/Desktop/parni/Sobel/Vivado_Sobel_v3/solution1/syn/verilog/start_for_Mat2AXIfYi.v C:/Users/Drus/Desktop/parni/Sobel/Vivado_Sobel_v3/solution1/syn/verilog/fifo_w8_d2_A.v C:/Users/Drus/Desktop/parni/Sobel/Vivado_Sobel_v3/solution1/syn/verilog/AXIM2Mat.v C:/Users/Drus/Desktop/parni/Sobel/Vivado_Sobel_v3/solution1/syn/verilog/Mat2Array.v C:/Users/Drus/Desktop/parni/Sobel/Vivado_Sobel_v3/solution1/syn/verilog/Filter2D_k_buf_0_bkb.v}
+launch_simulation
+open_wave_config C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/syn/NEXYS4-DDR/tb_behav.wcfg
+source tb.tcl
+run all
+save_wave_config {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/syn/NEXYS4-DDR/tb_behav.wcfg}
+save_wave_config {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/syn/NEXYS4-DDR/tb_behav.wcfg}
+close_sim
+launch_simulation
+open_wave_config C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/syn/NEXYS4-DDR/tb_behav.wcfg
+source tb.tcl
+run all
+run all
+run all
+add_bp {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/syn/NEXYS4-DDR/NEXYS4_DDR.v} 242
+remove_bps -file {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/syn/NEXYS4-DDR/NEXYS4_DDR.v} -line 242
+add_bp {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/syn/NEXYS4-DDR/NEXYS4_DDR.v} 216
+close_sim
+launch_simulation
+open_wave_config C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/syn/NEXYS4-DDR/tb_behav.wcfg
+source tb.tcl
+run all
+close_sim
+launch_simulation
+open_wave_config C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/syn/NEXYS4-DDR/tb_behav.wcfg
+source tb.tcl
+add_bp {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} 376
+add_bp {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} 274
+run all
+add_bp {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} 275
+add_bp {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} 276
+add_bp {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} 277
+add_bp {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} 278
+add_bp {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} 279
+add_bp {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} 280
+remove_bps -file {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} -line 280
+add_bp {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} 280
+add_bp {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} 281
+add_bp {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} 282
+add_bp {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} 283
+add_bp {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} 284
+add_bp {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} 285
+add_bp {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} 286
+add_bp {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} 287
+add_bp {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} 288
+add_bp {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} 289
+add_bp {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} 290
+add_bp {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} 291
+remove_bps -file {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} -line 291
+add_bp {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} 292
+add_bp {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} 291
+add_bp {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} 293
+add_bp {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} 294
+add_bp {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} 295
+add_bp {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} 296
+add_bp {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} 297
+add_bp {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} 298
+add_bp {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} 299
+add_bp {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} 300
+add_bp {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} 301
+add_bp {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} 302
+add_bp {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} 303
+add_bp {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} 304
+add_bp {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} 305
+add_bp {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} 306
+add_bp {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} 307
+add_bp {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} 308
+add_bp {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} 309
+add_bp {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} 310
+add_bp {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} 311
+add_bp {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} 312
+add_bp {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} 313
+add_bp {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} 314
+add_bp {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} 315
+add_bp {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} 316
+add_bp {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} 317
+add_bp {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} 318
+add_bp {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} 319
+add_bp {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} 320
+add_bp {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} 321
+add_bp {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} 322
+add_bp {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} 323
+add_bp {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} 324
+add_bp {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} 325
+add_bp {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} 326
+add_bp {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} 327
+add_bp {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} 328
+add_bp {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} 329
+add_bp {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} 330
+add_bp {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} 331
+add_bp {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} 332
+add_bp {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} 333
+add_bp {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} 334
+add_bp {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} 335
+add_bp {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} 336
+add_bp {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} 337
+add_bp {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} 338
+add_bp {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} 339
+add_bp {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} 340
+add_bp {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} 341
+add_bp {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} 342
+add_bp {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} 343
+add_bp {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} 344
+add_bp {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} 345
+add_bp {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} 346
+add_bp {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} 347
+add_bp {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} 348
+add_bp {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} 349
+add_bp {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} 350
+add_bp {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} 351
+add_bp {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} 352
+add_bp {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} 353
+add_bp {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} 354
+add_bp {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} 355
+add_bp {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} 356
+add_bp {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} 357
+add_bp {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} 358
+add_bp {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} 359
+add_bp {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} 360
+add_bp {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} 361
+add_bp {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} 362
+add_bp {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} 363
+add_bp {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} 364
+add_bp {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} 375
+add_bp {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} 374
+add_bp {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} 373
+add_bp {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} 372
+add_bp {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} 371
+add_bp {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} 370
+add_bp {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} 369
+add_bp {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} 368
+add_bp {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} 367
+add_bp {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} 366
+add_bp {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} 365
+run all
+run all
+run all
+relaunch_sim
+save_wave_config {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/syn/NEXYS4-DDR/tb_behav.wcfg}
+close_sim
+launch_simulation
+launch_simulation
+open_wave_config C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/syn/NEXYS4-DDR/tb_behav.wcfg
+source tb.tcl
+run all
+run all
+run all
+close_sim
+launch_simulation
+open_wave_config C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/syn/NEXYS4-DDR/tb_behav.wcfg
+source tb.tcl
+run all
+run all
+close_sim
+launch_simulation
+open_wave_config C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/syn/NEXYS4-DDR/tb_behav.wcfg
+source tb.tcl
+run all
+remove_bps -file {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} -line 274
+run all
+run all
+save_wave_config {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/syn/NEXYS4-DDR/tb_behav.wcfg}
+close_sim
+launch_simulation
+open_wave_config C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/syn/NEXYS4-DDR/tb_behav.wcfg
+source tb.tcl
+run all
+run all
+close_sim
+launch_simulation
+open_wave_config C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/syn/NEXYS4-DDR/tb_behav.wcfg
+source tb.tcl
+run all
+run all
+run all
+run all
+run all
+run all
+remove_bps -file {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/syn/NEXYS4-DDR/NEXYS4_DDR.v} -line 216
+add_bp {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/syn/NEXYS4-DDR/NEXYS4_DDR.v} 223
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+add_bp {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/syn/NEXYS4-DDR/NEXYS4_DDR.v} 225
+remove_bps -file {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/syn/NEXYS4-DDR/NEXYS4_DDR.v} -line 223
+run all
+run all
+run all
+run all
+add_bp {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} 475
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+remove_bps -file {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} -line 319
+remove_bps -file {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} -line 320
+remove_bps -file {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} -line 321
+remove_bps -file {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} -line 322
+remove_bps -file {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} -line 323
+remove_bps -file {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} -line 324
+remove_bps -file {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} -line 325
+remove_bps -file {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} -line 326
+remove_bps -file {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} -line 327
+remove_bps -file {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} -line 328
+add_bp {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} 328
+remove_bps -file {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} -line 329
+remove_bps -file {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} -line 328
+remove_bps -file {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} -line 330
+remove_bps -file {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} -line 331
+remove_bps -file {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} -line 332
+remove_bps -file {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} -line 333
+remove_bps -file {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} -line 334
+remove_bps -file {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} -line 335
+remove_bps -file {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} -line 336
+remove_bps -file {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} -line 337
+remove_bps -file {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} -line 338
+remove_bps -file {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} -line 339
+remove_bps -file {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} -line 340
+remove_bps -file {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} -line 341
+remove_bps -file {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} -line 342
+remove_bps -file {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} -line 343
+remove_bps -file {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} -line 344
+remove_bps -file {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} -line 345
+remove_bps -file {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} -line 346
+remove_bps -file {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} -line 347
+remove_bps -file {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} -line 348
+remove_bps -file {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} -line 349
+remove_bps -file {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} -line 350
+remove_bps -file {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} -line 351
+remove_bps -file {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} -line 352
+remove_bps -file {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} -line 353
+remove_bps -file {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} -line 354
+remove_bps -file {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} -line 355
+remove_bps -file {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} -line 356
+remove_bps -file {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} -line 357
+remove_bps -file {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} -line 358
+remove_bps -file {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} -line 359
+remove_bps -file {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} -line 360
+remove_bps -file {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} -line 361
+remove_bps -file {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} -line 362
+remove_bps -file {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} -line 363
+remove_bps -file {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} -line 364
+remove_bps -file {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} -line 365
+remove_bps -file {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} -line 366
+remove_bps -file {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} -line 367
+remove_bps -file {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} -line 368
+remove_bps -file {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} -line 369
+remove_bps -file {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} -line 370
+remove_bps -file {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} -line 371
+remove_bps -file {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} -line 372
+remove_bps -file {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} -line 373
+remove_bps -file {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} -line 374
+remove_bps -file {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} -line 375
+run all
+run all
+run all
+relaunch_sim
+add_bp {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} 378
+run all
+run all
+remove_bps -file {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} -line 277
+remove_bps -file {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} -line 278
+remove_bps -file {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} -line 280
+remove_bps -file {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} -line 279
+remove_bps -file {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} -line 282
+remove_bps -file {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} -line 281
+remove_bps -file {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} -line 283
+remove_bps -file {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} -line 284
+remove_bps -file {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} -line 285
+remove_bps -file {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} -line 286
+remove_bps -file {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} -line 287
+remove_bps -file {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} -line 288
+remove_bps -file {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} -line 289
+remove_bps -file {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} -line 290
+remove_bps -file {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} -line 291
+remove_bps -file {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} -line 292
+remove_bps -file {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} -line 293
+remove_bps -file {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} -line 294
+remove_bps -file {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} -line 295
+remove_bps -file {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} -line 297
+remove_bps -file {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} -line 296
+remove_bps -file {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} -line 298
+remove_bps -file {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} -line 299
+remove_bps -file {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} -line 300
+remove_bps -file {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} -line 301
+remove_bps -file {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} -line 302
+remove_bps -file {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} -line 303
+remove_bps -file {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} -line 304
+remove_bps -file {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} -line 305
+remove_bps -file {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} -line 306
+remove_bps -file {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} -line 307
+remove_bps -file {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} -line 308
+remove_bps -file {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} -line 309
+remove_bps -file {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} -line 310
+remove_bps -file {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} -line 311
+remove_bps -file {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} -line 312
+remove_bps -file {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} -line 313
+remove_bps -file {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} -line 314
+remove_bps -file {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} -line 315
+remove_bps -file {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} -line 316
+remove_bps -file {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} -line 317
+add_bp {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} 317
+remove_bps -file {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} -line 317
+remove_bps -file {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} -line 318
+run all
+run all
+run all
+run all
+relaunch_sim
+run all
+run all
+run all
+run all
+run all
+run all
+add_bp {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} 477
+relaunch_sim
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+relaunch_sim
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+relaunch_sim
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+remove_bps -file {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} -line 275
+remove_bps -file {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} -line 276
+add_bp {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} 485
+relaunch_sim
+save_wave_config {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/syn/NEXYS4-DDR/tb_behav.wcfg}
+close_sim
+launch_simulation
+export_ip_user_files -of_objects  [get_files C:/Users/Drus/Desktop/parni/Sobel/Vivado_Sobel_v3/solution1/syn/verilog/Array2Mat.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/Drus/Desktop/parni/Sobel/Vivado_Sobel_v3/solution1/syn/verilog/Mat2Array.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/Drus/Desktop/parni/Sobel/Vivado_Sobel_v3/solution1/syn/verilog/start_for_Mat2AXIfYi.v] -no_script -reset -force -quiet
+remove_files  -fileset sim_1 {C:/Users/Drus/Desktop/parni/Sobel/Vivado_Sobel_v3/solution1/syn/verilog/Array2Mat.v C:/Users/Drus/Desktop/parni/Sobel/Vivado_Sobel_v3/solution1/syn/verilog/Mat2Array.v C:/Users/Drus/Desktop/parni/Sobel/Vivado_Sobel_v3/solution1/syn/verilog/start_for_Mat2AXIfYi.v}
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+add_files -fileset sim_1 -norecurse {C:/Users/Drus/Desktop/parni/Sobel/Vivado_Sobel_v3/solution1/syn/verilog/Sobel_mux_32_8_1_1.v C:/Users/Drus/Desktop/parni/Sobel/Vivado_Sobel_v3/solution1/syn/verilog/Filter2D.v C:/Users/Drus/Desktop/parni/Sobel/Vivado_Sobel_v3/solution1/syn/verilog/Sobel.v C:/Users/Drus/Desktop/parni/Sobel/Vivado_Sobel_v3/solution1/syn/verilog/fifo_w8_d2_A.v C:/Users/Drus/Desktop/parni/Sobel/Vivado_Sobel_v3/solution1/syn/verilog/AXIM2Mat.v C:/Users/Drus/Desktop/parni/Sobel/Vivado_Sobel_v3/solution1/syn/verilog/fifo_w5_d2_A.v C:/Users/Drus/Desktop/parni/Sobel/Vivado_Sobel_v3/solution1/syn/verilog/Mat2AXIM.v C:/Users/Drus/Desktop/parni/Sobel/Vivado_Sobel_v3/solution1/syn/verilog/Block_proc.v C:/Users/Drus/Desktop/parni/Sobel/Vivado_Sobel_v3/solution1/syn/verilog/Filter2D_k_buf_0_bkb.v C:/Users/Drus/Desktop/parni/Sobel/Vivado_Sobel_v3/solution1/syn/verilog/start_for_Filter2eOg.v}
+launch_simulation
+open_wave_config C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/syn/NEXYS4-DDR/tb_behav.wcfg
+source tb.tcl
+run all
+run all
+run all
+relaunch_sim
+run all
+run all
+run all
+run all
+relaunch_sim
+run all
+run all
+relaunch_sim
+run all
+run all
+relaunch_sim
+run all
+run all
+relaunch_sim
+run all
+remove_bps -file {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} -line 485
+add_bp {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} 485
+remove_bps -file {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/tb/tb.v} -line 485
+run all
+relaunch_sim
+run all
+run all
+relaunch_sim
+run all
+run all
+relaunch_sim
+run all
+relaunch_sim
+run all
+run all
+relaunch_sim
+run all
+run all
+relaunch_sim
+run all
+run all
+relaunch_sim
+run all
+save_wave_config {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/syn/NEXYS4-DDR/tb_behav.wcfg}
+close_sim
+launch_simulation
+open_wave_config C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/syn/NEXYS4-DDR/tb_behav.wcfg
+source tb.tcl
+run all
+relaunch_sim
+run all
+relaunch_sim
+save_wave_config {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/syn/NEXYS4-DDR/tb_behav.wcfg}
+close_sim
+launch_simulation
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+add_files -fileset sim_1 -norecurse {C:/Users/Drus/Desktop/parni/Sobel/Vivado_Sobel_v3/solution1/syn/verilog/Sobel_mux_32_8_1_1.v C:/Users/Drus/Desktop/parni/Sobel/Vivado_Sobel_v3/solution1/syn/verilog/Filter2D.v C:/Users/Drus/Desktop/parni/Sobel/Vivado_Sobel_v3/solution1/syn/verilog/Sobel.v C:/Users/Drus/Desktop/parni/Sobel/Vivado_Sobel_v3/solution1/syn/verilog/fifo_w8_d2_A.v C:/Users/Drus/Desktop/parni/Sobel/Vivado_Sobel_v3/solution1/syn/verilog/AXIM2Mat.v C:/Users/Drus/Desktop/parni/Sobel/Vivado_Sobel_v3/solution1/syn/verilog/fifo_w5_d2_A.v C:/Users/Drus/Desktop/parni/Sobel/Vivado_Sobel_v3/solution1/syn/verilog/Mat2AXIM.v C:/Users/Drus/Desktop/parni/Sobel/Vivado_Sobel_v3/solution1/syn/verilog/Block_proc.v C:/Users/Drus/Desktop/parni/Sobel/Vivado_Sobel_v3/solution1/syn/verilog/Filter2D_k_buf_0_bkb.v C:/Users/Drus/Desktop/parni/Sobel/Vivado_Sobel_v3/solution1/syn/verilog/start_for_Filter2eOg.v}
+launch_simulation
+open_wave_config C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/syn/NEXYS4-DDR/tb_behav.wcfg
+source tb.tcl
+run all
+relaunch_sim
+run all
+relaunch_sim
+run all
+relaunch_sim
+run all
+run all
+relaunch_sim
+run all
+relaunch_sim
+run all
+relaunch_sim
+run all
+relaunch_sim
+run all
+relaunch_sim
+run all
+relaunch_sim
+run all
+relaunch_sim
+add_bp {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/syn/NEXYS4-DDR/NEXYS4_DDR.v} 234
+run all
+relaunch_sim
+relaunch_sim
+run all
+add_bp {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/syn/NEXYS4-DDR/NEXYS4_DDR.v} 236
+remove_bps -file {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/syn/NEXYS4-DDR/NEXYS4_DDR.v} -line 234
+run all
+run all
+relaunch_sim
+run all
+add_bp {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/syn/NEXYS4-DDR/NEXYS4_DDR.v} 111
+relaunch_sim
+remove_bps -file {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/syn/NEXYS4-DDR/NEXYS4_DDR.v} -line 111
+run all
+save_wave_config {C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/syn/NEXYS4-DDR/tb_behav.wcfg}
+close_sim

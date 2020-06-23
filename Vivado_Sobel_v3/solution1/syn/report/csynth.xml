@@ -17,32 +17,27 @@
 <PipelineType>dataflow</PipelineType>
 <SummaryOfTimingAnalysis>
 <unit>ns</unit>
-<EstimatedClockPeriod>8.295</EstimatedClockPeriod>
+<EstimatedClockPeriod>8.348</EstimatedClockPeriod>
 </SummaryOfTimingAnalysis>
 <SummaryOfOverallLatency>
 <unit>clock cycles</unit>
-<Best-caseLatency>136</Best-caseLatency>
+<Best-caseLatency>236</Best-caseLatency>
 <Average-caseLatency>undef</Average-caseLatency>
-<Worst-caseLatency>211</Worst-caseLatency>
-<Best-caseRealTimeLatency>1.360 us</Best-caseRealTimeLatency>
+<Worst-caseLatency>236</Worst-caseLatency>
+<Best-caseRealTimeLatency>2.360 us</Best-caseRealTimeLatency>
 <Average-caseRealTimeLatency>undef</Average-caseRealTimeLatency>
-<Worst-caseRealTimeLatency>2.110 us</Worst-caseRealTimeLatency>
-<DataflowPipelineThroughput>
-<range>
-<min>133</min>
-<max>210</max>
-</range>
-</DataflowPipelineThroughput>
-<Interval-min>133</Interval-min>
-<Interval-max>210</Interval-max>
+<Worst-caseRealTimeLatency>2.360 us</Worst-caseRealTimeLatency>
+<DataflowPipelineThroughput>232</DataflowPipelineThroughput>
+<Interval-min>232</Interval-min>
+<Interval-max>232</Interval-max>
 </SummaryOfOverallLatency>
 </PerformanceEstimates>
 
 <AreaEstimates>
 <Resources>
 <BRAM_18K>0</BRAM_18K>
-<FF>755</FF>
-<LUT>2049</LUT>
+<FF>792</FF>
+<LUT>2931</LUT>
 <URAM>0</URAM>
 <DSP48E>0</DSP48E>
 </Resources>
@@ -64,7 +59,7 @@
 <IOProtocol>ap_memory</IOProtocol>
 <IOConfig></IOConfig>
 <Dir>out</Dir>
-<Bits>7</Bits>
+<Bits>5</Bits>
 <Attribute>address</Attribute>
 <CType>int</CType>
 </RtlPorts>
@@ -88,7 +83,7 @@
 <IOProtocol>ap_memory</IOProtocol>
 <IOConfig></IOConfig>
 <Dir>out</Dir>
-<Bits>8</Bits>
+<Bits>32</Bits>
 <Attribute>data</Attribute>
 <CType>int</CType>
 </RtlPorts>
@@ -100,7 +95,7 @@
 <IOProtocol>ap_memory</IOProtocol>
 <IOConfig></IOConfig>
 <Dir>in</Dir>
-<Bits>8</Bits>
+<Bits>32</Bits>
 <Attribute>data</Attribute>
 <CType>int</CType>
 </RtlPorts>
@@ -124,7 +119,7 @@
 <IOProtocol>ap_memory</IOProtocol>
 <IOConfig></IOConfig>
 <Dir>out</Dir>
-<Bits>7</Bits>
+<Bits>5</Bits>
 <Attribute>address</Attribute>
 <CType>int</CType>
 </RtlPorts>
@@ -148,7 +143,7 @@
 <IOProtocol>ap_memory</IOProtocol>
 <IOConfig></IOConfig>
 <Dir>out</Dir>
-<Bits>8</Bits>
+<Bits>32</Bits>
 <Attribute>data</Attribute>
 <CType>int</CType>
 </RtlPorts>
@@ -160,7 +155,7 @@
 <IOProtocol>ap_memory</IOProtocol>
 <IOConfig></IOConfig>
 <Dir>in</Dir>
-<Bits>8</Bits>
+<Bits>32</Bits>
 <Attribute>data</Attribute>
 <CType>int</CType>
 </RtlPorts>

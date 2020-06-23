@@ -11,15 +11,15 @@ use IEEE.numeric_std.all;
 
 entity Sobel is
 port (
-    image_in_address0 : OUT STD_LOGIC_VECTOR (6 downto 0);
+    image_in_address0 : OUT STD_LOGIC_VECTOR (4 downto 0);
     image_in_ce0 : OUT STD_LOGIC;
-    image_in_d0 : OUT STD_LOGIC_VECTOR (7 downto 0);
-    image_in_q0 : IN STD_LOGIC_VECTOR (7 downto 0);
+    image_in_d0 : OUT STD_LOGIC_VECTOR (31 downto 0);
+    image_in_q0 : IN STD_LOGIC_VECTOR (31 downto 0);
     image_in_we0 : OUT STD_LOGIC;
-    image_out_address0 : OUT STD_LOGIC_VECTOR (6 downto 0);
+    image_out_address0 : OUT STD_LOGIC_VECTOR (4 downto 0);
     image_out_ce0 : OUT STD_LOGIC;
-    image_out_d0 : OUT STD_LOGIC_VECTOR (7 downto 0);
-    image_out_q0 : IN STD_LOGIC_VECTOR (7 downto 0);
+    image_out_d0 : OUT STD_LOGIC_VECTOR (31 downto 0);
+    image_out_q0 : IN STD_LOGIC_VECTOR (31 downto 0);
     image_out_we0 : OUT STD_LOGIC;
     ap_clk : IN STD_LOGIC;
     ap_rst : IN STD_LOGIC;
@@ -33,10 +33,10 @@ end;
 architecture behav of Sobel is 
     attribute CORE_GENERATION_INFO : STRING;
     attribute CORE_GENERATION_INFO of behav : architecture is
-    "Sobel,hls_ip_2019_2,{HLS_INPUT_TYPE=cxx,HLS_INPUT_FLOAT=0,HLS_INPUT_FIXED=0,HLS_INPUT_PART=xc7a100t-csg324-3,HLS_INPUT_CLOCK=10.000000,HLS_INPUT_ARCH=dataflow,HLS_SYN_CLOCK=8.295250,HLS_SYN_LAT=-1,HLS_SYN_TPT=-1,HLS_SYN_MEM=0,HLS_SYN_DSP=0,HLS_SYN_FF=755,HLS_SYN_LUT=2049,HLS_VERSION=2019_2}";
-    constant ap_const_lv7_0 : STD_LOGIC_VECTOR (6 downto 0) := "0000000";
+    "Sobel,hls_ip_2019_2,{HLS_INPUT_TYPE=cxx,HLS_INPUT_FLOAT=0,HLS_INPUT_FIXED=0,HLS_INPUT_PART=xc7a100t-csg324-3,HLS_INPUT_CLOCK=10.000000,HLS_INPUT_ARCH=dataflow,HLS_SYN_CLOCK=8.348000,HLS_SYN_LAT=-1,HLS_SYN_TPT=-1,HLS_SYN_MEM=0,HLS_SYN_DSP=0,HLS_SYN_FF=792,HLS_SYN_LUT=2931,HLS_VERSION=2019_2}";
+    constant ap_const_lv5_0 : STD_LOGIC_VECTOR (4 downto 0) := "00000";
     constant ap_const_logic_0 : STD_LOGIC := '0';
-    constant ap_const_lv8_0 : STD_LOGIC_VECTOR (7 downto 0) := "00000000";
+    constant ap_const_lv32_0 : STD_LOGIC_VECTOR (31 downto 0) := "00000000000000000000000000000000";
     constant ap_const_logic_1 : STD_LOGIC := '1';
     constant ap_const_lv2_0 : STD_LOGIC_VECTOR (1 downto 0) := "00";
     constant ap_const_lv2_1 : STD_LOGIC_VECTOR (1 downto 0) := "01";
@@ -58,7 +58,7 @@ architecture behav of Sobel is
     signal AXIM2Mat_U0_ap_ready : STD_LOGIC;
     signal AXIM2Mat_U0_start_out : STD_LOGIC;
     signal AXIM2Mat_U0_start_write : STD_LOGIC;
-    signal AXIM2Mat_U0_fb_address0 : STD_LOGIC_VECTOR (6 downto 0);
+    signal AXIM2Mat_U0_fb_address0 : STD_LOGIC_VECTOR (4 downto 0);
     signal AXIM2Mat_U0_fb_ce0 : STD_LOGIC;
     signal AXIM2Mat_U0_img_rows_V_read : STD_LOGIC;
     signal AXIM2Mat_U0_img_cols_V_read : STD_LOGIC;
@@ -73,8 +73,6 @@ architecture behav of Sobel is
     signal Filter2D_U0_ap_continue : STD_LOGIC;
     signal Filter2D_U0_ap_idle : STD_LOGIC;
     signal Filter2D_U0_ap_ready : STD_LOGIC;
-    signal Filter2D_U0_start_out : STD_LOGIC;
-    signal Filter2D_U0_start_write : STD_LOGIC;
     signal Filter2D_U0_p_src_rows_V_read : STD_LOGIC;
     signal Filter2D_U0_p_src_cols_V_read : STD_LOGIC;
     signal Filter2D_U0_p_src_data_stream_V_read : STD_LOGIC;
@@ -86,10 +84,10 @@ architecture behav of Sobel is
     signal Mat2AXIM_U0_ap_idle : STD_LOGIC;
     signal Mat2AXIM_U0_ap_ready : STD_LOGIC;
     signal Mat2AXIM_U0_img_data_stream_V_read : STD_LOGIC;
-    signal Mat2AXIM_U0_fb_address0 : STD_LOGIC_VECTOR (6 downto 0);
+    signal Mat2AXIM_U0_fb_address0 : STD_LOGIC_VECTOR (4 downto 0);
     signal Mat2AXIM_U0_fb_ce0 : STD_LOGIC;
     signal Mat2AXIM_U0_fb_we0 : STD_LOGIC;
-    signal Mat2AXIM_U0_fb_d0 : STD_LOGIC_VECTOR (7 downto 0);
+    signal Mat2AXIM_U0_fb_d0 : STD_LOGIC_VECTOR (31 downto 0);
     signal ap_sync_continue : STD_LOGIC;
     signal src_rows_V_c_full_n : STD_LOGIC;
     signal src_rows_V_c_dout : STD_LOGIC_VECTOR (4 downto 0);
@@ -100,12 +98,12 @@ architecture behav of Sobel is
     signal src_data_stream_0_V_full_n : STD_LOGIC;
     signal src_data_stream_0_V_dout : STD_LOGIC_VECTOR (7 downto 0);
     signal src_data_stream_0_V_empty_n : STD_LOGIC;
-    signal src_rows_V_c10_full_n : STD_LOGIC;
-    signal src_rows_V_c10_dout : STD_LOGIC_VECTOR (4 downto 0);
-    signal src_rows_V_c10_empty_n : STD_LOGIC;
-    signal src_cols_V_c11_full_n : STD_LOGIC;
-    signal src_cols_V_c11_dout : STD_LOGIC_VECTOR (4 downto 0);
-    signal src_cols_V_c11_empty_n : STD_LOGIC;
+    signal src_rows_V_c8_full_n : STD_LOGIC;
+    signal src_rows_V_c8_dout : STD_LOGIC_VECTOR (4 downto 0);
+    signal src_rows_V_c8_empty_n : STD_LOGIC;
+    signal src_cols_V_c9_full_n : STD_LOGIC;
+    signal src_cols_V_c9_dout : STD_LOGIC_VECTOR (4 downto 0);
+    signal src_cols_V_c9_empty_n : STD_LOGIC;
     signal dst_data_stream_0_V_full_n : STD_LOGIC;
     signal dst_data_stream_0_V_dout : STD_LOGIC_VECTOR (7 downto 0);
     signal dst_data_stream_0_V_empty_n : STD_LOGIC;
@@ -117,16 +115,17 @@ architecture behav of Sobel is
     signal ap_sync_reg_AXIM2Mat_U0_ap_ready : STD_LOGIC := '0';
     signal ap_sync_AXIM2Mat_U0_ap_ready : STD_LOGIC;
     signal AXIM2Mat_U0_ap_ready_count : STD_LOGIC_VECTOR (1 downto 0) := "00";
+    signal ap_sync_reg_Mat2AXIM_U0_ap_ready : STD_LOGIC := '0';
+    signal ap_sync_Mat2AXIM_U0_ap_ready : STD_LOGIC;
+    signal Mat2AXIM_U0_ap_ready_count : STD_LOGIC_VECTOR (1 downto 0) := "00";
     signal Block_proc_U0_start_full_n : STD_LOGIC;
     signal Block_proc_U0_start_write : STD_LOGIC;
     signal start_for_Filter2D_U0_din : STD_LOGIC_VECTOR (0 downto 0);
     signal start_for_Filter2D_U0_full_n : STD_LOGIC;
     signal start_for_Filter2D_U0_dout : STD_LOGIC_VECTOR (0 downto 0);
     signal start_for_Filter2D_U0_empty_n : STD_LOGIC;
-    signal start_for_Mat2AXIM_U0_din : STD_LOGIC_VECTOR (0 downto 0);
-    signal start_for_Mat2AXIM_U0_full_n : STD_LOGIC;
-    signal start_for_Mat2AXIM_U0_dout : STD_LOGIC_VECTOR (0 downto 0);
-    signal start_for_Mat2AXIM_U0_empty_n : STD_LOGIC;
+    signal Filter2D_U0_start_full_n : STD_LOGIC;
+    signal Filter2D_U0_start_write : STD_LOGIC;
     signal Mat2AXIM_U0_start_full_n : STD_LOGIC;
     signal Mat2AXIM_U0_start_write : STD_LOGIC;
 
@@ -160,9 +159,9 @@ architecture behav of Sobel is
         ap_ready : OUT STD_LOGIC;
         start_out : OUT STD_LOGIC;
         start_write : OUT STD_LOGIC;
-        fb_address0 : OUT STD_LOGIC_VECTOR (6 downto 0);
+        fb_address0 : OUT STD_LOGIC_VECTOR (4 downto 0);
         fb_ce0 : OUT STD_LOGIC;
-        fb_q0 : IN STD_LOGIC_VECTOR (7 downto 0);
+        fb_q0 : IN STD_LOGIC_VECTOR (31 downto 0);
         img_rows_V_dout : IN STD_LOGIC_VECTOR (4 downto 0);
         img_rows_V_empty_n : IN STD_LOGIC;
         img_rows_V_read : OUT STD_LOGIC;
@@ -186,13 +185,10 @@ architecture behav of Sobel is
         ap_clk : IN STD_LOGIC;
         ap_rst : IN STD_LOGIC;
         ap_start : IN STD_LOGIC;
-        start_full_n : IN STD_LOGIC;
         ap_done : OUT STD_LOGIC;
         ap_continue : IN STD_LOGIC;
         ap_idle : OUT STD_LOGIC;
         ap_ready : OUT STD_LOGIC;
-        start_out : OUT STD_LOGIC;
-        start_write : OUT STD_LOGIC;
         p_src_rows_V_dout : IN STD_LOGIC_VECTOR (4 downto 0);
         p_src_rows_V_empty_n : IN STD_LOGIC;
         p_src_rows_V_read : OUT STD_LOGIC;
@@ -220,10 +216,11 @@ architecture behav of Sobel is
         img_data_stream_V_dout : IN STD_LOGIC_VECTOR (7 downto 0);
         img_data_stream_V_empty_n : IN STD_LOGIC;
         img_data_stream_V_read : OUT STD_LOGIC;
-        fb_address0 : OUT STD_LOGIC_VECTOR (6 downto 0);
+        fb_address0 : OUT STD_LOGIC_VECTOR (4 downto 0);
         fb_ce0 : OUT STD_LOGIC;
         fb_we0 : OUT STD_LOGIC;
-        fb_d0 : OUT STD_LOGIC_VECTOR (7 downto 0) );
+        fb_d0 : OUT STD_LOGIC_VECTOR (31 downto 0);
+        fb_q0 : IN STD_LOGIC_VECTOR (31 downto 0) );
     end component;
 
 
@@ -258,21 +255,6 @@ architecture behav of Sobel is
 
 
     component start_for_Filter2eOg IS
-    port (
-        clk : IN STD_LOGIC;
-        reset : IN STD_LOGIC;
-        if_read_ce : IN STD_LOGIC;
-        if_write_ce : IN STD_LOGIC;
-        if_din : IN STD_LOGIC_VECTOR (0 downto 0);
-        if_full_n : OUT STD_LOGIC;
-        if_write : IN STD_LOGIC;
-        if_dout : OUT STD_LOGIC_VECTOR (0 downto 0);
-        if_empty_n : OUT STD_LOGIC;
-        if_read : IN STD_LOGIC );
-    end component;
-
-
-    component start_for_Mat2AXIfYi IS
     port (
         clk : IN STD_LOGIC;
         reset : IN STD_LOGIC;
@@ -330,10 +312,10 @@ begin
         img_data_stream_V_full_n => src_data_stream_0_V_full_n,
         img_data_stream_V_write => AXIM2Mat_U0_img_data_stream_V_write,
         img_rows_V_out_din => AXIM2Mat_U0_img_rows_V_out_din,
-        img_rows_V_out_full_n => src_rows_V_c10_full_n,
+        img_rows_V_out_full_n => src_rows_V_c8_full_n,
         img_rows_V_out_write => AXIM2Mat_U0_img_rows_V_out_write,
         img_cols_V_out_din => AXIM2Mat_U0_img_cols_V_out_din,
-        img_cols_V_out_full_n => src_cols_V_c11_full_n,
+        img_cols_V_out_full_n => src_cols_V_c9_full_n,
         img_cols_V_out_write => AXIM2Mat_U0_img_cols_V_out_write);
 
     Filter2D_U0 : component Filter2D
@@ -341,18 +323,15 @@ begin
         ap_clk => ap_clk,
         ap_rst => ap_rst,
         ap_start => Filter2D_U0_ap_start,
-        start_full_n => start_for_Mat2AXIM_U0_full_n,
         ap_done => Filter2D_U0_ap_done,
         ap_continue => Filter2D_U0_ap_continue,
         ap_idle => Filter2D_U0_ap_idle,
         ap_ready => Filter2D_U0_ap_ready,
-        start_out => Filter2D_U0_start_out,
-        start_write => Filter2D_U0_start_write,
-        p_src_rows_V_dout => src_rows_V_c10_dout,
-        p_src_rows_V_empty_n => src_rows_V_c10_empty_n,
+        p_src_rows_V_dout => src_rows_V_c8_dout,
+        p_src_rows_V_empty_n => src_rows_V_c8_empty_n,
         p_src_rows_V_read => Filter2D_U0_p_src_rows_V_read,
-        p_src_cols_V_dout => src_cols_V_c11_dout,
-        p_src_cols_V_empty_n => src_cols_V_c11_empty_n,
+        p_src_cols_V_dout => src_cols_V_c9_dout,
+        p_src_cols_V_empty_n => src_cols_V_c9_empty_n,
         p_src_cols_V_read => Filter2D_U0_p_src_cols_V_read,
         p_src_data_stream_V_dout => src_data_stream_0_V_dout,
         p_src_data_stream_V_empty_n => src_data_stream_0_V_empty_n,
@@ -376,7 +355,8 @@ begin
         fb_address0 => Mat2AXIM_U0_fb_address0,
         fb_ce0 => Mat2AXIM_U0_fb_ce0,
         fb_we0 => Mat2AXIM_U0_fb_we0,
-        fb_d0 => Mat2AXIM_U0_fb_d0);
+        fb_d0 => Mat2AXIM_U0_fb_d0,
+        fb_q0 => image_out_q0);
 
     src_rows_V_c_U : component fifo_w5_d2_A
     port map (
@@ -417,30 +397,30 @@ begin
         if_empty_n => src_data_stream_0_V_empty_n,
         if_read => Filter2D_U0_p_src_data_stream_V_read);
 
-    src_rows_V_c10_U : component fifo_w5_d2_A
+    src_rows_V_c8_U : component fifo_w5_d2_A
     port map (
         clk => ap_clk,
         reset => ap_rst,
         if_read_ce => ap_const_logic_1,
         if_write_ce => ap_const_logic_1,
         if_din => AXIM2Mat_U0_img_rows_V_out_din,
-        if_full_n => src_rows_V_c10_full_n,
+        if_full_n => src_rows_V_c8_full_n,
         if_write => AXIM2Mat_U0_img_rows_V_out_write,
-        if_dout => src_rows_V_c10_dout,
-        if_empty_n => src_rows_V_c10_empty_n,
+        if_dout => src_rows_V_c8_dout,
+        if_empty_n => src_rows_V_c8_empty_n,
         if_read => Filter2D_U0_p_src_rows_V_read);
 
-    src_cols_V_c11_U : component fifo_w5_d2_A
+    src_cols_V_c9_U : component fifo_w5_d2_A
     port map (
         clk => ap_clk,
         reset => ap_rst,
         if_read_ce => ap_const_logic_1,
         if_write_ce => ap_const_logic_1,
         if_din => AXIM2Mat_U0_img_cols_V_out_din,
-        if_full_n => src_cols_V_c11_full_n,
+        if_full_n => src_cols_V_c9_full_n,
         if_write => AXIM2Mat_U0_img_cols_V_out_write,
-        if_dout => src_cols_V_c11_dout,
-        if_empty_n => src_cols_V_c11_empty_n,
+        if_dout => src_cols_V_c9_dout,
+        if_empty_n => src_cols_V_c9_empty_n,
         if_read => Filter2D_U0_p_src_cols_V_read);
 
     dst_data_stream_0_V_U : component fifo_w8_d2_A
@@ -468,19 +448,6 @@ begin
         if_dout => start_for_Filter2D_U0_dout,
         if_empty_n => start_for_Filter2D_U0_empty_n,
         if_read => Filter2D_U0_ap_ready);
-
-    start_for_Mat2AXIfYi_U : component start_for_Mat2AXIfYi
-    port map (
-        clk => ap_clk,
-        reset => ap_rst,
-        if_read_ce => ap_const_logic_1,
-        if_write_ce => ap_const_logic_1,
-        if_din => start_for_Mat2AXIM_U0_din,
-        if_full_n => start_for_Mat2AXIM_U0_full_n,
-        if_write => Filter2D_U0_start_write,
-        if_dout => start_for_Mat2AXIM_U0_dout,
-        if_empty_n => start_for_Mat2AXIM_U0_empty_n,
-        if_read => Mat2AXIM_U0_ap_ready);
 
 
 
@@ -518,6 +485,22 @@ begin
     end process;
 
 
+    ap_sync_reg_Mat2AXIM_U0_ap_ready_assign_proc : process(ap_clk)
+    begin
+        if (ap_clk'event and ap_clk =  '1') then
+            if (ap_rst = '1') then
+                ap_sync_reg_Mat2AXIM_U0_ap_ready <= ap_const_logic_0;
+            else
+                if (((ap_sync_ready and ap_start) = ap_const_logic_1)) then 
+                    ap_sync_reg_Mat2AXIM_U0_ap_ready <= ap_const_logic_0;
+                else 
+                    ap_sync_reg_Mat2AXIM_U0_ap_ready <= ap_sync_Mat2AXIM_U0_ap_ready;
+                end if; 
+            end if;
+        end if;
+    end process;
+
+
     AXIM2Mat_U0_ap_ready_count_assign_proc : process (ap_clk)
     begin
         if (ap_clk'event and ap_clk = '1') then
@@ -539,6 +522,17 @@ begin
             end if; 
         end if;
     end process;
+
+    Mat2AXIM_U0_ap_ready_count_assign_proc : process (ap_clk)
+    begin
+        if (ap_clk'event and ap_clk = '1') then
+            if (((ap_const_logic_0 = Mat2AXIM_U0_ap_ready) and (ap_sync_ready = ap_const_logic_1))) then 
+                Mat2AXIM_U0_ap_ready_count <= std_logic_vector(unsigned(Mat2AXIM_U0_ap_ready_count) - unsigned(ap_const_lv2_1));
+            elsif (((ap_sync_ready = ap_const_logic_0) and (ap_const_logic_1 = Mat2AXIM_U0_ap_ready))) then 
+                Mat2AXIM_U0_ap_ready_count <= std_logic_vector(unsigned(Mat2AXIM_U0_ap_ready_count) + unsigned(ap_const_lv2_1));
+            end if; 
+        end if;
+    end process;
     AXIM2Mat_U0_ap_continue <= ap_const_logic_1;
     AXIM2Mat_U0_ap_start <= ((ap_sync_reg_AXIM2Mat_U0_ap_ready xor ap_const_logic_1) and ap_start);
     Block_proc_U0_ap_continue <= ap_const_logic_1;
@@ -547,8 +541,10 @@ begin
     Block_proc_U0_start_write <= ap_const_logic_0;
     Filter2D_U0_ap_continue <= ap_const_logic_1;
     Filter2D_U0_ap_start <= start_for_Filter2D_U0_empty_n;
+    Filter2D_U0_start_full_n <= ap_const_logic_1;
+    Filter2D_U0_start_write <= ap_const_logic_0;
     Mat2AXIM_U0_ap_continue <= ap_const_logic_1;
-    Mat2AXIM_U0_ap_start <= start_for_Mat2AXIM_U0_empty_n;
+    Mat2AXIM_U0_ap_start <= ((ap_sync_reg_Mat2AXIM_U0_ap_ready xor ap_const_logic_1) and ap_start);
     Mat2AXIM_U0_start_full_n <= ap_const_logic_1;
     Mat2AXIM_U0_start_write <= ap_const_logic_0;
     ap_done <= Mat2AXIM_U0_ap_done;
@@ -556,17 +552,17 @@ begin
     ap_ready <= ap_sync_ready;
     ap_sync_AXIM2Mat_U0_ap_ready <= (ap_sync_reg_AXIM2Mat_U0_ap_ready or AXIM2Mat_U0_ap_ready);
     ap_sync_Block_proc_U0_ap_ready <= (ap_sync_reg_Block_proc_U0_ap_ready or Block_proc_U0_ap_ready);
+    ap_sync_Mat2AXIM_U0_ap_ready <= (ap_sync_reg_Mat2AXIM_U0_ap_ready or Mat2AXIM_U0_ap_ready);
     ap_sync_continue <= ap_const_logic_1;
     ap_sync_done <= Mat2AXIM_U0_ap_done;
-    ap_sync_ready <= (ap_sync_Block_proc_U0_ap_ready and ap_sync_AXIM2Mat_U0_ap_ready);
+    ap_sync_ready <= (ap_sync_Mat2AXIM_U0_ap_ready and ap_sync_Block_proc_U0_ap_ready and ap_sync_AXIM2Mat_U0_ap_ready);
     image_in_address0 <= AXIM2Mat_U0_fb_address0;
     image_in_ce0 <= AXIM2Mat_U0_fb_ce0;
-    image_in_d0 <= ap_const_lv8_0;
+    image_in_d0 <= ap_const_lv32_0;
     image_in_we0 <= ap_const_logic_0;
     image_out_address0 <= Mat2AXIM_U0_fb_address0;
     image_out_ce0 <= Mat2AXIM_U0_fb_ce0;
     image_out_d0 <= Mat2AXIM_U0_fb_d0;
     image_out_we0 <= Mat2AXIM_U0_fb_we0;
     start_for_Filter2D_U0_din <= (0=>ap_const_logic_1, others=>'-');
-    start_for_Mat2AXIM_U0_din <= (0=>ap_const_logic_1, others=>'-');
 end behav;

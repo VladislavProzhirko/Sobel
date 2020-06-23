@@ -56,7 +56,7 @@
     "ClockPeriod": "10",
     "IsCombLogic": "0",
     "II": "x",
-    "Latency": "136",
+    "Latency": "236",
     "Uncertainty": "1.25"
   },
   "Xdc": {"OocClocks": ["create_clock -name ap_clk -period 10.000 [get_ports ap_clk]"]},
@@ -74,41 +74,35 @@
   "Files": {
     "CSource": ["..\/core.cpp"],
     "Vhdl": [
-      "impl\/vhdl\/Array2Mat.vhd",
       "impl\/vhdl\/AXIM2Mat.vhd",
       "impl\/vhdl\/Block_proc.vhd",
       "impl\/vhdl\/fifo_w5_d2_A.vhd",
       "impl\/vhdl\/fifo_w8_d2_A.vhd",
       "impl\/vhdl\/Filter2D.vhd",
       "impl\/vhdl\/Filter2D_k_buf_0_bkb.vhd",
-      "impl\/vhdl\/Mat2Array.vhd",
       "impl\/vhdl\/Mat2AXIM.vhd",
       "impl\/vhdl\/Sobel_mux_32_8_1_1.vhd",
       "impl\/vhdl\/start_for_Filter2eOg.vhd",
-      "impl\/vhdl\/start_for_Mat2AXIfYi.vhd",
       "impl\/vhdl\/Sobel.vhd"
     ],
     "Verilog": [
-      "impl\/verilog\/Array2Mat.v",
       "impl\/verilog\/AXIM2Mat.v",
       "impl\/verilog\/Block_proc.v",
       "impl\/verilog\/fifo_w5_d2_A.v",
       "impl\/verilog\/fifo_w8_d2_A.v",
       "impl\/verilog\/Filter2D.v",
       "impl\/verilog\/Filter2D_k_buf_0_bkb.v",
-      "impl\/verilog\/Mat2Array.v",
       "impl\/verilog\/Mat2AXIM.v",
       "impl\/verilog\/Sobel_mux_32_8_1_1.v",
       "impl\/verilog\/start_for_Filter2eOg.v",
-      "impl\/verilog\/start_for_Mat2AXIfYi.v",
       "impl\/verilog\/Sobel.v"
     ],
     "Misc": ["impl\/misc\/logo.png"],
-    "DesignXml": "C:\/Users\/bladk\/AppData\/Roaming\/Xilinx\/Vivado\/Vivado_Sobel_v3\/solution1\/.autopilot\/db\/Sobel.design.xml",
-    "DebugDir": "C:\/Users\/bladk\/AppData\/Roaming\/Xilinx\/Vivado\/Vivado_Sobel_v3\/solution1\/.debug",
+    "DesignXml": "C:\/Users\/Drus\/Desktop\/parni\/Sobel\/Vivado_Sobel_v3\/solution1\/.autopilot\/db\/Sobel.design.xml",
+    "DebugDir": "C:\/Users\/Drus\/Desktop\/parni\/Sobel\/Vivado_Sobel_v3\/solution1\/.debug",
     "ProtoInst": [
-      "C:\/Users\/bladk\/AppData\/Roaming\/Xilinx\/Vivado\/Vivado_Sobel_v3\/solution1\/.debug\/conv.protoinst",
-      "C:\/Users\/bladk\/AppData\/Roaming\/Xilinx\/Vivado\/Vivado_Sobel_v3\/solution1\/.debug\/Sobel.protoinst"
+      "C:\/Users\/Drus\/Desktop\/parni\/Sobel\/Vivado_Sobel_v3\/solution1\/.debug\/conv.protoinst",
+      "C:\/Users\/Drus\/Desktop\/parni\/Sobel\/Vivado_Sobel_v3\/solution1\/.debug\/Sobel.protoinst"
     ]
   },
   "SubcoreInfo": {
@@ -144,10 +138,10 @@
     "image_in_address0": {
       "type": "data",
       "dir": "out",
-      "width": "7",
+      "width": "5",
       "ctype": {"DATA": {
           "Type": "null",
-          "Width": "7"
+          "Width": "5"
         }},
       "bundle_name": "image_in",
       "bundle_role": "address0"
@@ -155,10 +149,11 @@
     "image_in_d0": {
       "type": "data",
       "dir": "out",
-      "width": "8",
+      "width": "32",
       "ctype": {"DATA": {
           "Type": "integer unsigned",
-          "Width": "8"
+          "Width": "8",
+          "Bits": "32"
         }},
       "bundle_name": "image_in",
       "bundle_role": "d0"
@@ -166,10 +161,11 @@
     "image_in_q0": {
       "type": "data",
       "dir": "in",
-      "width": "8",
+      "width": "32",
       "ctype": {"DATA": {
           "Type": "integer unsigned",
-          "Width": "8"
+          "Width": "8",
+          "Bits": "32"
         }},
       "bundle_name": "image_in",
       "bundle_role": "q0"
@@ -177,10 +173,10 @@
     "image_out_address0": {
       "type": "data",
       "dir": "out",
-      "width": "7",
+      "width": "5",
       "ctype": {"DATA": {
           "Type": "null",
-          "Width": "7"
+          "Width": "5"
         }},
       "bundle_name": "image_out",
       "bundle_role": "address0"
@@ -188,10 +184,11 @@
     "image_out_d0": {
       "type": "data",
       "dir": "out",
-      "width": "8",
+      "width": "32",
       "ctype": {"DATA": {
           "Type": "integer unsigned",
-          "Width": "8"
+          "Width": "8",
+          "Bits": "32"
         }},
       "bundle_name": "image_out",
       "bundle_role": "d0"
@@ -199,10 +196,11 @@
     "image_out_q0": {
       "type": "data",
       "dir": "in",
-      "width": "8",
+      "width": "32",
       "ctype": {"DATA": {
           "Type": "integer unsigned",
-          "Width": "8"
+          "Width": "8",
+          "Bits": "32"
         }},
       "bundle_name": "image_out",
       "bundle_role": "q0"
@@ -211,7 +209,7 @@
   "RtlPorts": {
     "image_in_address0": {
       "dir": "out",
-      "width": "7"
+      "width": "5"
     },
     "image_in_ce0": {
       "dir": "out",
@@ -219,11 +217,11 @@
     },
     "image_in_d0": {
       "dir": "out",
-      "width": "8"
+      "width": "32"
     },
     "image_in_q0": {
       "dir": "in",
-      "width": "8"
+      "width": "32"
     },
     "image_in_we0": {
       "dir": "out",
@@ -231,7 +229,7 @@
     },
     "image_out_address0": {
       "dir": "out",
-      "width": "7"
+      "width": "5"
     },
     "image_out_ce0": {
       "dir": "out",
@@ -239,11 +237,11 @@
     },
     "image_out_d0": {
       "dir": "out",
-      "width": "8"
+      "width": "32"
     },
     "image_out_q0": {
       "dir": "in",
-      "width": "8"
+      "width": "32"
     },
     "image_out_we0": {
       "dir": "out",
@@ -284,19 +282,11 @@
         },
         {
           "ModuleName": "AXIM2Mat",
-          "InstanceName": "AXIM2Mat_U0",
-          "Instances": [{
-              "ModuleName": "Array2Mat",
-              "InstanceName": "grp_Array2Mat_fu_120"
-            }]
+          "InstanceName": "AXIM2Mat_U0"
         },
         {
           "ModuleName": "Mat2AXIM",
-          "InstanceName": "Mat2AXIM_U0",
-          "Instances": [{
-              "ModuleName": "Mat2Array",
-              "InstanceName": "grp_Mat2Array_fu_38"
-            }]
+          "InstanceName": "Mat2AXIM_U0"
         },
         {
           "ModuleName": "Block_proc",
@@ -312,13 +302,6 @@
         "isCombinational": "0",
         "isOneStateSeq": "1"
       },
-      "Array2Mat": {
-        "FunctionProtocol": "ap_ctrl_hs",
-        "isTaskLevelControl": "1",
-        "isPipelined": "0",
-        "isCombinational": "0",
-        "isOneStateSeq": "0"
-      },
       "AXIM2Mat": {
         "FunctionProtocol": "ap_ctrl_hs",
         "isTaskLevelControl": "1",
@@ -327,13 +310,6 @@
         "isOneStateSeq": "0"
       },
       "Filter2D": {
-        "FunctionProtocol": "ap_ctrl_hs",
-        "isTaskLevelControl": "1",
-        "isPipelined": "0",
-        "isCombinational": "0",
-        "isOneStateSeq": "0"
-      },
-      "Mat2Array": {
         "FunctionProtocol": "ap_ctrl_hs",
         "isTaskLevelControl": "1",
         "isPipelined": "0",
@@ -378,69 +354,45 @@
           "URAM": "0"
         }
       },
-      "Array2Mat": {
+      "AXIM2Mat": {
         "Latency": {
           "LatencyBest": "1",
           "LatencyAvg": "",
-          "LatencyWorst": "131",
+          "LatencyWorst": "141",
           "PipelineIIMin": "1",
-          "PipelineIIMax": "131",
-          "PipelineII": "1 ~ 131",
+          "PipelineIIMax": "141",
+          "PipelineII": "1 ~ 141",
           "PipelineDepth": "",
           "PipelineType": "none"
         },
         "Timing": {
           "Target": "10.00",
           "Uncertainty": "1.25",
-          "Estimate": "5.489"
+          "Estimate": "7.366"
         },
         "Loops": [{
             "Name": "loop_pixel",
             "TripCount": "",
             "LatencyMin": "0",
-            "LatencyMax": "130",
-            "Latency": "0 ~ 130",
+            "LatencyMax": "140",
+            "Latency": "0 ~ 140",
             "PipelineII": "",
             "PipelineDepthMin": "3",
-            "PipelineDepthMax": "13",
-            "PipelineDepth": "3 ~ 13",
+            "PipelineDepthMax": "14",
+            "PipelineDepth": "3 ~ 14",
             "Loops": [{
                 "Name": "loop_pixel.1",
                 "TripCount": "",
                 "LatencyMin": "0",
-                "LatencyMax": "10",
-                "Latency": "0 ~ 10",
+                "LatencyMax": "11",
+                "Latency": "0 ~ 11",
                 "PipelineII": "1",
-                "PipelineDepth": "2"
+                "PipelineDepth": "3"
               }]
           }],
         "Area": {
-          "FF": "179",
-          "LUT": "207",
-          "BRAM_18K": "0",
-          "DSP48E": "0",
-          "URAM": "0"
-        }
-      },
-      "AXIM2Mat": {
-        "Latency": {
-          "LatencyBest": "2",
-          "LatencyAvg": "",
-          "LatencyWorst": "132",
-          "PipelineIIMin": "2",
-          "PipelineIIMax": "132",
-          "PipelineII": "2 ~ 132",
-          "PipelineDepth": "",
-          "PipelineType": "none"
-        },
-        "Timing": {
-          "Target": "10.00",
-          "Uncertainty": "1.25",
-          "Estimate": "6.140"
-        },
-        "Area": {
           "FF": "194",
-          "LUT": "287",
+          "LUT": "621",
           "BRAM_18K": "0",
           "DSP48E": "0",
           "URAM": "0"
@@ -484,65 +436,43 @@
           }],
         "Area": {
           "BRAM_18K": "0",
-          "FF": "487",
-          "LUT": "1377",
+          "FF": "486",
+          "LUT": "1368",
           "URAM": "0",
           "DSP48E": "0"
         }
       },
-      "Mat2Array": {
+      "Mat2AXIM": {
         "Latency": {
-          "LatencyBest": "131",
-          "LatencyAvg": "131",
-          "LatencyWorst": "131",
-          "PipelineII": "131",
+          "LatencyBest": "231",
+          "LatencyAvg": "231",
+          "LatencyWorst": "231",
+          "PipelineII": "231",
           "PipelineDepth": "",
           "PipelineType": "none"
         },
         "Timing": {
           "Target": "10.00",
           "Uncertainty": "1.25",
-          "Estimate": "5.489"
+          "Estimate": "8.348"
         },
         "Loops": [{
             "Name": "loop_pixel",
             "TripCount": "10",
-            "Latency": "130",
+            "Latency": "230",
             "PipelineII": "",
-            "PipelineDepth": "13",
+            "PipelineDepth": "23",
             "Loops": [{
                 "Name": "loop_pixel.1",
                 "TripCount": "10",
-                "Latency": "10",
-                "PipelineII": "1",
+                "Latency": "20",
+                "PipelineII": "2",
                 "PipelineDepth": "2"
               }]
           }],
         "Area": {
-          "FF": "32",
-          "LUT": "151",
-          "BRAM_18K": "0",
-          "DSP48E": "0",
-          "URAM": "0"
-        }
-      },
-      "Mat2AXIM": {
-        "Latency": {
-          "LatencyBest": "132",
-          "LatencyAvg": "132",
-          "LatencyWorst": "132",
-          "PipelineII": "132",
-          "PipelineDepth": "",
-          "PipelineType": "none"
-        },
-        "Timing": {
-          "Target": "10.00",
-          "Uncertainty": "1.25",
-          "Estimate": "5.489"
-        },
-        "Area": {
-          "FF": "36",
-          "LUT": "186",
+          "FF": "71",
+          "LUT": "711",
           "BRAM_18K": "0",
           "DSP48E": "0",
           "URAM": "0"
@@ -550,24 +480,22 @@
       },
       "Sobel": {
         "Latency": {
-          "LatencyBest": "136",
+          "LatencyBest": "236",
           "LatencyAvg": "",
-          "LatencyWorst": "211",
-          "PipelineIIMin": "133",
-          "PipelineIIMax": "210",
-          "PipelineII": "133 ~ 210",
+          "LatencyWorst": "236",
+          "PipelineII": "232",
           "PipelineDepth": "",
           "PipelineType": "dataflow"
         },
         "Timing": {
           "Target": "10.00",
           "Uncertainty": "1.25",
-          "Estimate": "8.295"
+          "Estimate": "8.348"
         },
         "Area": {
           "BRAM_18K": "0",
-          "FF": "755",
-          "LUT": "2049",
+          "FF": "792",
+          "LUT": "2931",
           "URAM": "0",
           "DSP48E": "0"
         }
@@ -584,7 +512,7 @@
   },
   "GenData": {
     "DataVersion": "0.2",
-    "Time": "2020-06-20 16:50:42 +0300",
+    "Time": "2020-06-23 00:54:58 +0300",
     "ToolName": "vivado_hls",
     "ToolVersion": "2019.2"
   }

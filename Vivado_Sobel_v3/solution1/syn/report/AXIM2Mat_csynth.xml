@@ -17,25 +17,63 @@
 <PipelineType>none</PipelineType>
 <SummaryOfTimingAnalysis>
 <unit>ns</unit>
-<EstimatedClockPeriod>6.140</EstimatedClockPeriod>
+<EstimatedClockPeriod>7.366</EstimatedClockPeriod>
 </SummaryOfTimingAnalysis>
 <SummaryOfOverallLatency>
 <unit>clock cycles</unit>
-<Best-caseLatency>2</Best-caseLatency>
+<Best-caseLatency>1</Best-caseLatency>
 <Average-caseLatency>undef</Average-caseLatency>
-<Worst-caseLatency>132</Worst-caseLatency>
-<Best-caseRealTimeLatency>20.000 ns</Best-caseRealTimeLatency>
+<Worst-caseLatency>141</Worst-caseLatency>
+<Best-caseRealTimeLatency>10.000 ns</Best-caseRealTimeLatency>
 <Average-caseRealTimeLatency>undef</Average-caseRealTimeLatency>
-<Worst-caseRealTimeLatency>1.320 us</Worst-caseRealTimeLatency>
-<Interval-min>2</Interval-min>
-<Interval-max>132</Interval-max>
+<Worst-caseRealTimeLatency>1.410 us</Worst-caseRealTimeLatency>
+<Interval-min>1</Interval-min>
+<Interval-max>141</Interval-max>
 </SummaryOfOverallLatency>
+<SummaryOfLoopLatency>
+<loop_pixel>
+<TripCount>
+<range>
+<min>0</min>
+<max>10</max>
+</range>
+</TripCount>
+<Latency>
+<range>
+<min>0</min>
+<max>140</max>
+</range>
+</Latency>
+<IterationLatency>
+<range>
+<min>3</min>
+<max>14</max>
+</range>
+</IterationLatency>
+<loop_pixel.1>
+<TripCount>
+<range>
+<min>0</min>
+<max>10</max>
+</range>
+</TripCount>
+<Latency>
+<range>
+<min>0</min>
+<max>11</max>
+</range>
+</Latency>
+<PipelineII>1</PipelineII>
+<PipelineDepth>3</PipelineDepth>
+</loop_pixel.1>
+</loop_pixel>
+</SummaryOfLoopLatency>
 </PerformanceEstimates>
 
 <AreaEstimates>
 <Resources>
 <FF>194</FF>
-<LUT>287</LUT>
+<LUT>621</LUT>
 <BRAM_18K>0</BRAM_18K>
 <DSP48E>0</DSP48E>
 <URAM>0</URAM>
@@ -168,7 +206,7 @@
 <IOProtocol>ap_memory</IOProtocol>
 <IOConfig></IOConfig>
 <Dir>out</Dir>
-<Bits>7</Bits>
+<Bits>5</Bits>
 <Attribute>address</Attribute>
 </RtlPorts>
 <RtlPorts>
@@ -190,7 +228,7 @@
 <IOProtocol>ap_memory</IOProtocol>
 <IOConfig></IOConfig>
 <Dir>in</Dir>
-<Bits>8</Bits>
+<Bits>32</Bits>
 <Attribute>data</Attribute>
 </RtlPorts>
 <RtlPorts>

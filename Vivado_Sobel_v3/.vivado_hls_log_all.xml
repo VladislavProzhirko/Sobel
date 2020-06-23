@@ -3,37 +3,18 @@
   <errorLogs>
     <logs>
       <synLog/>
-      <simLog/>
-      <mgLog/>
-      <packageLog/>
-      <csimLog/>
     </logs>
   </errorLogs>
   <warningLogs>
     <logs>
       <synLog>
-        <logs message="WARNING: [SYN 201-103] Legalizing function name 'Block__proc' to 'Block_proc'." projectName="Vivado_Sobel_v3" solutionName="solution1" date="2020-06-20T16:50:11.281+0300" type="Warning"/>
-        <logs message="WARNING: [ANALYSIS 214-52] Found false inter dependency for variable 'k_buf[0].val[3]' (F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h:400)." projectName="Vivado_Sobel_v3" solutionName="solution1" date="2020-06-20T16:50:09.779+0300" type="Warning"/>
-        <logs message="WARNING: [ANALYSIS 214-52] Found false inter dependency for variable 'k_buf[0].val[5]' (F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h:400)." projectName="Vivado_Sobel_v3" solutionName="solution1" date="2020-06-20T16:50:09.425+0300" type="Warning"/>
-        <logs message="WARNING: [ANALYSIS 214-52] Found false inter dependency for variable 'k_buf[0].val[4]' (F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h:400)." projectName="Vivado_Sobel_v3" solutionName="solution1" date="2020-06-20T16:50:09.383+0300" type="Warning"/>
-        <logs message="WARNING: [XFORM 203-631] Renaming function 'hls::AXIM2Mat&lt;10, unsigned char, 10, 10, 0>' to 'AXIM2Mat' (F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_io.h:203:9)" projectName="Vivado_Sobel_v3" solutionName="solution1" date="2020-06-20T16:50:09.339+0300" type="Warning"/>
-        <logs message="WARNING: [XFORM 203-631] Renaming function 'hls::Array2Mat&lt;10, unsigned char, 10, 10, 0>' to 'Array2Mat' (F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_io.h:174:46)" projectName="Vivado_Sobel_v3" solutionName="solution1" date="2020-06-20T16:50:08.921+0300" type="Warning"/>
-        <logs message="WARNING: [XFORM 203-631] Renaming function 'hls::Filter2D&lt;0, 0, char, int, 10, 10, 3, 3>' to 'Filter2D' (F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h:118:33)" projectName="Vivado_Sobel_v3" solutionName="solution1" date="2020-06-20T16:50:08.861+0300" type="Warning"/>
-        <logs message="WARNING: [XFORM 203-631] Renaming function 'hls::Mat2AXIM&lt;10, unsigned char, 10, 10, 0>' to 'Mat2AXIM' (F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_io.h:273:9)" projectName="Vivado_Sobel_v3" solutionName="solution1" date="2020-06-20T16:50:08.807+0300" type="Warning"/>
-        <logs message="WARNING: [XFORM 203-631] Renaming function 'hls::Mat2Array&lt;10, unsigned char, 10, 10, 0>' to 'Mat2Array' (F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_io.h:240:46)" projectName="Vivado_Sobel_v3" solutionName="solution1" date="2020-06-20T16:50:08.747+0300" type="Warning"/>
-        <logs message="WARNING: [XFORM 203-561] Updating loop lower bound from 0 to 10 for loop 'loop_pixel' in function 'hls::Mat2Array&lt;10, unsigned char, 10, 10, 0>'." projectName="Vivado_Sobel_v3" solutionName="solution1" date="2020-06-20T16:50:06.847+0300" type="Warning"/>
-        <logs message="WARNING: [XFORM 203-561] Updating loop lower bound from 0 to 10 for loop 'Loop-0-0' in function 'hls::Mat2Array&lt;10, unsigned char, 10, 10, 0>'." projectName="Vivado_Sobel_v3" solutionName="solution1" date="2020-06-20T16:50:06.663+0300" type="Warning"/>
-        <logs message="WARNING: [XFORM 203-713] All the elements of global array 'image_out' should be updated in process function 'hls::Mat2AXIM&lt;10, unsigned char, 10, 10, 0>', otherwise it may not be synthesized correctly." projectName="Vivado_Sobel_v3" solutionName="solution1" date="2020-06-20T16:50:05.605+0300" type="Warning"/>
-        <logs message="WARNING: [XFORM 203-180] Applying partition directive (F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h:413:1) and reshape directive (Vivado_Sobel_v3/core.cpp:35:1) on the same variable 'kernel.val'  may lead to unexpected synthesis behaviors." projectName="Vivado_Sobel_v3" solutionName="solution1" date="2020-06-20T16:50:03.669+0300" type="Warning"/>
-        <logs message="WARNING: [XFORM 203-1103] Ignored data pack directive on non-struct variable 'src.data_stream.V' (Vivado_Sobel_v3/core.cpp:26)." projectName="Vivado_Sobel_v3" solutionName="solution1" date="2020-06-20T16:50:02.368+0300" type="Warning"/>
-        <logs message="WARNING: [HLS 200-471] Dataflow form checks found 2 issue(s) in file Vivado_Sobel_v3/core.cpp" projectName="Vivado_Sobel_v3" solutionName="solution1" date="2020-06-20T16:49:52.443+0300" type="Warning"/>
-        <logs message="WARNING: [HLS 214-114] Since the only kind of statements allowed in a canonical dataflow region are variable declarations and function calls, the compiler may not be able to correctly handle the region: Vivado_Sobel_v3/core.cpp:39:2" projectName="Vivado_Sobel_v3" solutionName="solution1" date="2020-06-20T16:49:18.691+0300" type="Warning"/>
-        <logs message="WARNING: [HLS 214-113] Either use an argument of the function or declare the variable inside the dataflow loop body: Vivado_Sobel_v3/core.cpp:48:31" projectName="Vivado_Sobel_v3" solutionName="solution1" date="2020-06-20T16:49:18.632+0300" type="Warning"/>
+        <logs message="WARNING: [SCHED 204-68] The II Violation in module 'Mat2AXIM' (Loop: loop_pixel.1): Unable to enforce a carried dependence constraint (II = 1, distance = 1, offset = 1)&#xD;&#xA;   between 'store' operation ('fb_addr_write_ln253', D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_io.h:253) of variable 'or_ln253', D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_io.h:253 on array 'fb' and 'load' operation ('fb_load', D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_io.h:253) on array 'fb'." projectName="Vivado_Sobel_v3" solutionName="solution1" date="2020-06-23T00:54:46.514+0300" type="Warning"/>
+        <logs message="WARNING: [SYN 201-103] Legalizing function name 'Block__proc' to 'Block_proc'." projectName="Vivado_Sobel_v3" solutionName="solution1" date="2020-06-23T00:54:41.720+0300" type="Warning"/>
+        <logs message="WARNING: [ANALYSIS 214-52] Found false inter dependency for variable 'k_buf[0].val[5]' (D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h:400)." projectName="Vivado_Sobel_v3" solutionName="solution1" date="2020-06-23T00:54:39.637+0300" type="Warning"/>
+        <logs message="WARNING: [ANALYSIS 214-52] Found false inter dependency for variable 'k_buf[0].val[4]' (D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h:400)." projectName="Vivado_Sobel_v3" solutionName="solution1" date="2020-06-23T00:54:39.162+0300" type="Warning"/>
+        <logs message="WARNING: [ANALYSIS 214-52] Found false inter dependency for variable 'k_buf[0].val[3]' (D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_imgproc.h:400)." projectName="Vivado_Sobel_v3" solutionName="solution1" date="2020-06-23T00:54:39.069+0300" type="Warning"/>
+        <logs message="WARNING: [XFORM 203-631] Renaming function 'hls::AXIM2Mat&lt;10, unsigned char, 10, 10, 0>' to 'AXIM2Mat' (D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_io.h:174:46)" projectName="Vivado_Sobel_v3" solutionName="solution1" date="2020-06-23T00:54:38.963+0300" type="Warning"/>
       </synLog>
-      <simLog/>
-      <mgLog/>
-      <packageLog/>
-      <csimLog/>
     </logs>
   </warningLogs>
 </vivadoHLSLog:LogRoot>

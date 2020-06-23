@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vivado HLS Report for 'AXIM2Mat'" level="0">
-<item name = "Date">Sat Jun 20 16:50:22 2020
+<item name = "Date">Tue Jun 23 00:54:49 2020
 </item>
 <item name = "Version">2019.2 (Build 2704478 on Wed Nov 06 22:10:23 MST 2019)</item>
 <item name = "Project">Vivado_Sobel_v3</item>
@@ -15,7 +15,7 @@
 <section name = "" level="1">
 <item name = "Summary"><table name="" hasTotal="0">
 <keys size="4">Clock, Target, Estimated, Uncertainty</keys>
-<column name="ap_clk">10.00 ns, 6.140 ns, 1.25 ns</column>
+<column name="ap_clk">10.00 ns, 7.366 ns, 1.25 ns</column>
 </table>
 </item>
 </section>
@@ -24,18 +24,19 @@
 <section name = "" level="1">
 <item name = "Summary"><table name="" hasTotal="0">
 <keys size="8">, min, max, min, max, min, max, Type</keys>
-<column name="">2, 132, 20.000 ns, 1.320 us, 2, 132, none</column>
+<column name="">1, 141, 10.000 ns, 1.410 us, 1, 141, none</column>
 </table>
 </item>
 <item name = "Detail">
 <section name = "" level="1">
 <item name = "Instance"><table name="" hasTotal="0">
 <keys size="9">Instance, Module, min, max, min, max, min, max, Type</keys>
-<column name="grp_Array2Mat_fu_120">Array2Mat, 1, 131, 10.000 ns, 1.310 us, 1, 131, none</column>
 </table>
 </item>
 <item name = "Loop"><table name="" hasTotal="0">
 <keys size="8">Loop Name, min, max, Latency, achieved, target, Count, Pipelined</keys>
+<column name="- loop_pixel">0, 140, 3 ~ 14, -, -, 0 ~ 10, no</column>
+<column name=" + loop_pixel.1">0, 11, 3, 1, 1, 0 ~ 10, yes</column>
 </table>
 </item>
 </section>
@@ -48,12 +49,12 @@
 <item name = "Summary"><table name="" hasTotal="1">
 <keys size="6">Name, BRAM_18K, DSP48E, FF, LUT, URAM</keys>
 <column name="DSP">-, -, -, -, -</column>
-<column name="Expression">-, -, 0, 2, -</column>
+<column name="Expression">-, -, 0, 495, -</column>
 <column name="FIFO">-, -, -, -, -</column>
-<column name="Instance">-, -, 179, 207, -</column>
+<column name="Instance">-, -, -, -, -</column>
 <column name="Memory">-, -, -, -, -</column>
-<column name="Multiplexer">-, -, -, 78, -</column>
-<column name="Register">-, -, 15, -, -</column>
+<column name="Multiplexer">-, -, -, 126, -</column>
+<column name="Register">-, -, 194, -, -</column>
 <specialColumn name="Available">270, 240, 126800, 63400, 0</specialColumn>
 <specialColumn name="Utilization (%)">0, 0, ~0, ~0, 0</specialColumn>
 </table>
@@ -62,7 +63,6 @@
 <section name = "" level="1">
 <item name = "Instance"><table name="" hasTotal="1">
 <keys size="7">Instance, Module, BRAM_18K, DSP48E, FF, LUT, URAM</keys>
-<column name="grp_Array2Mat_fu_120">Array2Mat, 0, 0, 179, 207, 0</column>
 </table>
 </item>
 <item name = "DSP48E"><table name="" hasTotal="0">
@@ -79,29 +79,68 @@
 </item>
 <item name = "Expression"><table name="" hasTotal="1">
 <keys size="7">Variable Name, Operation, DSP48E, FF, LUT, Bitwidth P0, Bitwidth P1</keys>
+<column name="add_ln178_1_fu_231_p2">+, 0, 0, 8, 8, 8</column>
+<column name="add_ln178_fu_226_p2">+, 0, 0, 8, 8, 8</column>
+<column name="col_V_fu_216_p2">+, 0, 0, 39, 32, 1</column>
+<column name="row_V_fu_169_p2">+, 0, 0, 39, 32, 1</column>
+<column name="trunc_ln178_2_i1_i1_fu_255_p2">+, 0, 0, 10, 2, 2</column>
+<column name="sub_ln178_1_fu_309_p2">-, 0, 0, 15, 6, 6</column>
+<column name="sub_ln178_2_fu_339_p2">-, 0, 0, 15, 5, 6</column>
+<column name="sub_ln178_fu_297_p2">-, 0, 0, 15, 6, 6</column>
+<column name="and_ln178_fu_365_p2">and, 0, 0, 32, 32, 32</column>
+<column name="ap_block_pp0_stage0_01001">and, 0, 0, 2, 1, 1</column>
+<column name="ap_block_state5_pp0_stage0_iter2">and, 0, 0, 2, 1, 1</column>
+<column name="icmp_ln174_fu_164_p2">icmp, 0, 0, 18, 32, 32</column>
+<column name="icmp_ln175_fu_211_p2">icmp, 0, 0, 18, 32, 32</column>
+<column name="icmp_ln178_fu_273_p2">icmp, 0, 0, 11, 5, 5</column>
+<column name="lshr_ln178_1_fu_359_p2">lshr, 0, 0, 101, 2, 32</column>
+<column name="lshr_ln178_fu_353_p2">lshr, 0, 0, 101, 32, 32</column>
 <column name="ap_block_state1">or, 0, 0, 2, 1, 1</column>
+<column name="empty_79_fu_267_p2">or, 0, 0, 5, 5, 3</column>
+<column name="select_ln178_1_fu_323_p3">select, 0, 0, 32, 1, 32</column>
+<column name="select_ln178_2_fu_331_p3">select, 0, 0, 6, 1, 6</column>
+<column name="select_ln178_fu_315_p3">select, 0, 0, 6, 1, 6</column>
+<column name="ap_enable_pp0">xor, 0, 0, 2, 1, 2</column>
+<column name="ap_enable_reg_pp0_iter1">xor, 0, 0, 2, 2, 1</column>
+<column name="xor_ln178_fu_303_p2">xor, 0, 0, 6, 6, 5</column>
 </table>
 </item>
 <item name = "Multiplexer"><table name="" hasTotal="1">
 <keys size="5">Name, LUT, Input Size, Bits, Total Bits</keys>
-<column name="ap_NS_fsm">15, 3, 1, 3</column>
+<column name="ap_NS_fsm">27, 5, 1, 5</column>
 <column name="ap_done">9, 2, 1, 2</column>
+<column name="ap_enable_reg_pp0_iter1">9, 2, 1, 2</column>
+<column name="ap_enable_reg_pp0_iter2">9, 2, 1, 2</column>
 <column name="img_cols_V_blk_n">9, 2, 1, 2</column>
 <column name="img_cols_V_out_blk_n">9, 2, 1, 2</column>
-<column name="img_data_stream_V_write">9, 2, 1, 2</column>
+<column name="img_data_stream_V_blk_n">9, 2, 1, 2</column>
 <column name="img_rows_V_blk_n">9, 2, 1, 2</column>
 <column name="img_rows_V_out_blk_n">9, 2, 1, 2</column>
 <column name="real_start">9, 2, 1, 2</column>
+<column name="t_V_3_reg_145">9, 2, 32, 64</column>
+<column name="t_V_reg_134">9, 2, 32, 64</column>
 </table>
 </item>
 <item name = "Register"><table name="" hasTotal="1">
 <keys size="5">Name, FF, LUT, Bits, Const Bits</keys>
-<column name="ap_CS_fsm">2, 0, 2, 0</column>
+<column name="ap_CS_fsm">4, 0, 4, 0</column>
 <column name="ap_done_reg">1, 0, 1, 0</column>
-<column name="grp_Array2Mat_fu_120_ap_start_reg">1, 0, 1, 0</column>
-<column name="img_cols_V_read_reg_137">5, 0, 5, 0</column>
-<column name="img_rows_V_read_reg_132">5, 0, 5, 0</column>
+<column name="ap_enable_reg_pp0_iter0">1, 0, 1, 0</column>
+<column name="ap_enable_reg_pp0_iter1">1, 0, 1, 0</column>
+<column name="ap_enable_reg_pp0_iter2">1, 0, 1, 0</column>
+<column name="cols_V_reg_380">32, 0, 32, 0</column>
+<column name="fb_pix_reg_428">8, 0, 8, 0</column>
+<column name="icmp_ln175_reg_409">1, 0, 1, 0</column>
+<column name="icmp_ln175_reg_409_pp0_iter1_reg">1, 0, 1, 0</column>
+<column name="row_V_reg_389">32, 0, 32, 0</column>
+<column name="rows_V_reg_375">32, 0, 32, 0</column>
+<column name="shl_ln_reg_394">5, 0, 8, 3</column>
 <column name="start_once_reg">1, 0, 1, 0</column>
+<column name="t_V_3_reg_145">32, 0, 32, 0</column>
+<column name="t_V_reg_134">32, 0, 32, 0</column>
+<column name="tmp_s_reg_404">1, 0, 2, 1</column>
+<column name="trunc_ln1352_1_reg_399">7, 0, 8, 1</column>
+<column name="trunc_ln178_2_i1_i1_reg_423">2, 0, 2, 0</column>
 </table>
 </item>
 </section>
@@ -121,9 +160,9 @@
 <column name="ap_ready">out, 1, ap_ctrl_hs, AXIM2Mat, return value</column>
 <column name="start_out">out, 1, ap_ctrl_hs, AXIM2Mat, return value</column>
 <column name="start_write">out, 1, ap_ctrl_hs, AXIM2Mat, return value</column>
-<column name="fb_address0">out, 7, ap_memory, fb, array</column>
+<column name="fb_address0">out, 5, ap_memory, fb, array</column>
 <column name="fb_ce0">out, 1, ap_memory, fb, array</column>
-<column name="fb_q0">in, 8, ap_memory, fb, array</column>
+<column name="fb_q0">in, 32, ap_memory, fb, array</column>
 <column name="img_rows_V_dout">in, 5, ap_fifo, img_rows_V, pointer</column>
 <column name="img_rows_V_empty_n">in, 1, ap_fifo, img_rows_V, pointer</column>
 <column name="img_rows_V_read">out, 1, ap_fifo, img_rows_V, pointer</column>

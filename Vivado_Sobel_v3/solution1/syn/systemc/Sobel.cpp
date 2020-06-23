@@ -12,9 +12,9 @@ using namespace std;
 
 namespace ap_rtl {
 
-const sc_lv<7> Sobel::ap_const_lv7_0 = "0000000";
+const sc_lv<5> Sobel::ap_const_lv5_0 = "00000";
 const sc_logic Sobel::ap_const_logic_0 = sc_dt::Log_0;
-const sc_lv<8> Sobel::ap_const_lv8_0 = "00000000";
+const sc_lv<32> Sobel::ap_const_lv32_0 = "00000000000000000000000000000000";
 const sc_logic Sobel::ap_const_logic_1 = sc_dt::Log_1;
 const sc_lv<2> Sobel::ap_const_lv2_0 = "00";
 const sc_lv<2> Sobel::ap_const_lv2_1 = "1";
@@ -59,27 +59,24 @@ Sobel::Sobel(sc_module_name name) : sc_module(name), mVcdFile(0) {
     AXIM2Mat_U0->img_data_stream_V_full_n(src_data_stream_0_V_full_n);
     AXIM2Mat_U0->img_data_stream_V_write(AXIM2Mat_U0_img_data_stream_V_write);
     AXIM2Mat_U0->img_rows_V_out_din(AXIM2Mat_U0_img_rows_V_out_din);
-    AXIM2Mat_U0->img_rows_V_out_full_n(src_rows_V_c10_full_n);
+    AXIM2Mat_U0->img_rows_V_out_full_n(src_rows_V_c8_full_n);
     AXIM2Mat_U0->img_rows_V_out_write(AXIM2Mat_U0_img_rows_V_out_write);
     AXIM2Mat_U0->img_cols_V_out_din(AXIM2Mat_U0_img_cols_V_out_din);
-    AXIM2Mat_U0->img_cols_V_out_full_n(src_cols_V_c11_full_n);
+    AXIM2Mat_U0->img_cols_V_out_full_n(src_cols_V_c9_full_n);
     AXIM2Mat_U0->img_cols_V_out_write(AXIM2Mat_U0_img_cols_V_out_write);
     Filter2D_U0 = new Filter2D("Filter2D_U0");
     Filter2D_U0->ap_clk(ap_clk);
     Filter2D_U0->ap_rst(ap_rst);
     Filter2D_U0->ap_start(Filter2D_U0_ap_start);
-    Filter2D_U0->start_full_n(start_for_Mat2AXIM_U0_full_n);
     Filter2D_U0->ap_done(Filter2D_U0_ap_done);
     Filter2D_U0->ap_continue(Filter2D_U0_ap_continue);
     Filter2D_U0->ap_idle(Filter2D_U0_ap_idle);
     Filter2D_U0->ap_ready(Filter2D_U0_ap_ready);
-    Filter2D_U0->start_out(Filter2D_U0_start_out);
-    Filter2D_U0->start_write(Filter2D_U0_start_write);
-    Filter2D_U0->p_src_rows_V_dout(src_rows_V_c10_dout);
-    Filter2D_U0->p_src_rows_V_empty_n(src_rows_V_c10_empty_n);
+    Filter2D_U0->p_src_rows_V_dout(src_rows_V_c8_dout);
+    Filter2D_U0->p_src_rows_V_empty_n(src_rows_V_c8_empty_n);
     Filter2D_U0->p_src_rows_V_read(Filter2D_U0_p_src_rows_V_read);
-    Filter2D_U0->p_src_cols_V_dout(src_cols_V_c11_dout);
-    Filter2D_U0->p_src_cols_V_empty_n(src_cols_V_c11_empty_n);
+    Filter2D_U0->p_src_cols_V_dout(src_cols_V_c9_dout);
+    Filter2D_U0->p_src_cols_V_empty_n(src_cols_V_c9_empty_n);
     Filter2D_U0->p_src_cols_V_read(Filter2D_U0_p_src_cols_V_read);
     Filter2D_U0->p_src_data_stream_V_dout(src_data_stream_0_V_dout);
     Filter2D_U0->p_src_data_stream_V_empty_n(src_data_stream_0_V_empty_n);
@@ -102,6 +99,7 @@ Sobel::Sobel(sc_module_name name) : sc_module(name), mVcdFile(0) {
     Mat2AXIM_U0->fb_ce0(Mat2AXIM_U0_fb_ce0);
     Mat2AXIM_U0->fb_we0(Mat2AXIM_U0_fb_we0);
     Mat2AXIM_U0->fb_d0(Mat2AXIM_U0_fb_d0);
+    Mat2AXIM_U0->fb_q0(image_out_q0);
     src_rows_V_c_U = new fifo_w5_d2_A("src_rows_V_c_U");
     src_rows_V_c_U->clk(ap_clk);
     src_rows_V_c_U->reset(ap_rst);
@@ -135,28 +133,28 @@ Sobel::Sobel(sc_module_name name) : sc_module(name), mVcdFile(0) {
     src_data_stream_0_V_U->if_dout(src_data_stream_0_V_dout);
     src_data_stream_0_V_U->if_empty_n(src_data_stream_0_V_empty_n);
     src_data_stream_0_V_U->if_read(Filter2D_U0_p_src_data_stream_V_read);
-    src_rows_V_c10_U = new fifo_w5_d2_A("src_rows_V_c10_U");
-    src_rows_V_c10_U->clk(ap_clk);
-    src_rows_V_c10_U->reset(ap_rst);
-    src_rows_V_c10_U->if_read_ce(ap_var_for_const0);
-    src_rows_V_c10_U->if_write_ce(ap_var_for_const0);
-    src_rows_V_c10_U->if_din(AXIM2Mat_U0_img_rows_V_out_din);
-    src_rows_V_c10_U->if_full_n(src_rows_V_c10_full_n);
-    src_rows_V_c10_U->if_write(AXIM2Mat_U0_img_rows_V_out_write);
-    src_rows_V_c10_U->if_dout(src_rows_V_c10_dout);
-    src_rows_V_c10_U->if_empty_n(src_rows_V_c10_empty_n);
-    src_rows_V_c10_U->if_read(Filter2D_U0_p_src_rows_V_read);
-    src_cols_V_c11_U = new fifo_w5_d2_A("src_cols_V_c11_U");
-    src_cols_V_c11_U->clk(ap_clk);
-    src_cols_V_c11_U->reset(ap_rst);
-    src_cols_V_c11_U->if_read_ce(ap_var_for_const0);
-    src_cols_V_c11_U->if_write_ce(ap_var_for_const0);
-    src_cols_V_c11_U->if_din(AXIM2Mat_U0_img_cols_V_out_din);
-    src_cols_V_c11_U->if_full_n(src_cols_V_c11_full_n);
-    src_cols_V_c11_U->if_write(AXIM2Mat_U0_img_cols_V_out_write);
-    src_cols_V_c11_U->if_dout(src_cols_V_c11_dout);
-    src_cols_V_c11_U->if_empty_n(src_cols_V_c11_empty_n);
-    src_cols_V_c11_U->if_read(Filter2D_U0_p_src_cols_V_read);
+    src_rows_V_c8_U = new fifo_w5_d2_A("src_rows_V_c8_U");
+    src_rows_V_c8_U->clk(ap_clk);
+    src_rows_V_c8_U->reset(ap_rst);
+    src_rows_V_c8_U->if_read_ce(ap_var_for_const0);
+    src_rows_V_c8_U->if_write_ce(ap_var_for_const0);
+    src_rows_V_c8_U->if_din(AXIM2Mat_U0_img_rows_V_out_din);
+    src_rows_V_c8_U->if_full_n(src_rows_V_c8_full_n);
+    src_rows_V_c8_U->if_write(AXIM2Mat_U0_img_rows_V_out_write);
+    src_rows_V_c8_U->if_dout(src_rows_V_c8_dout);
+    src_rows_V_c8_U->if_empty_n(src_rows_V_c8_empty_n);
+    src_rows_V_c8_U->if_read(Filter2D_U0_p_src_rows_V_read);
+    src_cols_V_c9_U = new fifo_w5_d2_A("src_cols_V_c9_U");
+    src_cols_V_c9_U->clk(ap_clk);
+    src_cols_V_c9_U->reset(ap_rst);
+    src_cols_V_c9_U->if_read_ce(ap_var_for_const0);
+    src_cols_V_c9_U->if_write_ce(ap_var_for_const0);
+    src_cols_V_c9_U->if_din(AXIM2Mat_U0_img_cols_V_out_din);
+    src_cols_V_c9_U->if_full_n(src_cols_V_c9_full_n);
+    src_cols_V_c9_U->if_write(AXIM2Mat_U0_img_cols_V_out_write);
+    src_cols_V_c9_U->if_dout(src_cols_V_c9_dout);
+    src_cols_V_c9_U->if_empty_n(src_cols_V_c9_empty_n);
+    src_cols_V_c9_U->if_read(Filter2D_U0_p_src_cols_V_read);
     dst_data_stream_0_V_U = new fifo_w8_d2_A("dst_data_stream_0_V_U");
     dst_data_stream_0_V_U->clk(ap_clk);
     dst_data_stream_0_V_U->reset(ap_rst);
@@ -179,17 +177,6 @@ Sobel::Sobel(sc_module_name name) : sc_module(name), mVcdFile(0) {
     start_for_Filter2eOg_U->if_dout(start_for_Filter2D_U0_dout);
     start_for_Filter2eOg_U->if_empty_n(start_for_Filter2D_U0_empty_n);
     start_for_Filter2eOg_U->if_read(Filter2D_U0_ap_ready);
-    start_for_Mat2AXIfYi_U = new start_for_Mat2AXIfYi("start_for_Mat2AXIfYi_U");
-    start_for_Mat2AXIfYi_U->clk(ap_clk);
-    start_for_Mat2AXIfYi_U->reset(ap_rst);
-    start_for_Mat2AXIfYi_U->if_read_ce(ap_var_for_const0);
-    start_for_Mat2AXIfYi_U->if_write_ce(ap_var_for_const0);
-    start_for_Mat2AXIfYi_U->if_din(start_for_Mat2AXIM_U0_din);
-    start_for_Mat2AXIfYi_U->if_full_n(start_for_Mat2AXIM_U0_full_n);
-    start_for_Mat2AXIfYi_U->if_write(Filter2D_U0_start_write);
-    start_for_Mat2AXIfYi_U->if_dout(start_for_Mat2AXIM_U0_dout);
-    start_for_Mat2AXIfYi_U->if_empty_n(start_for_Mat2AXIM_U0_empty_n);
-    start_for_Mat2AXIfYi_U->if_read(Mat2AXIM_U0_ap_ready);
 
     SC_METHOD(thread_ap_clk_no_reset_);
     dont_initialize();
@@ -216,10 +203,15 @@ Sobel::Sobel(sc_module_name name) : sc_module(name), mVcdFile(0) {
     SC_METHOD(thread_Filter2D_U0_ap_start);
     sensitive << ( start_for_Filter2D_U0_empty_n );
 
+    SC_METHOD(thread_Filter2D_U0_start_full_n);
+
+    SC_METHOD(thread_Filter2D_U0_start_write);
+
     SC_METHOD(thread_Mat2AXIM_U0_ap_continue);
 
     SC_METHOD(thread_Mat2AXIM_U0_ap_start);
-    sensitive << ( start_for_Mat2AXIM_U0_empty_n );
+    sensitive << ( ap_start );
+    sensitive << ( ap_sync_reg_Mat2AXIM_U0_ap_ready );
 
     SC_METHOD(thread_Mat2AXIM_U0_start_full_n);
 
@@ -245,6 +237,10 @@ Sobel::Sobel(sc_module_name name) : sc_module(name), mVcdFile(0) {
     sensitive << ( Block_proc_U0_ap_ready );
     sensitive << ( ap_sync_reg_Block_proc_U0_ap_ready );
 
+    SC_METHOD(thread_ap_sync_Mat2AXIM_U0_ap_ready);
+    sensitive << ( Mat2AXIM_U0_ap_ready );
+    sensitive << ( ap_sync_reg_Mat2AXIM_U0_ap_ready );
+
     SC_METHOD(thread_ap_sync_continue);
 
     SC_METHOD(thread_ap_sync_done);
@@ -253,6 +249,7 @@ Sobel::Sobel(sc_module_name name) : sc_module(name), mVcdFile(0) {
     SC_METHOD(thread_ap_sync_ready);
     sensitive << ( ap_sync_Block_proc_U0_ap_ready );
     sensitive << ( ap_sync_AXIM2Mat_U0_ap_ready );
+    sensitive << ( ap_sync_Mat2AXIM_U0_ap_ready );
 
     SC_METHOD(thread_image_in_address0);
     sensitive << ( AXIM2Mat_U0_fb_address0 );
@@ -278,8 +275,6 @@ Sobel::Sobel(sc_module_name name) : sc_module(name), mVcdFile(0) {
 
     SC_METHOD(thread_start_for_Filter2D_U0_din);
 
-    SC_METHOD(thread_start_for_Mat2AXIM_U0_din);
-
     SC_THREAD(thread_hdltv_gen);
     sensitive << ( ap_clk.pos() );
 
@@ -289,6 +284,8 @@ Sobel::Sobel(sc_module_name name) : sc_module(name), mVcdFile(0) {
     Block_proc_U0_ap_ready_count = "00";
     ap_sync_reg_AXIM2Mat_U0_ap_ready = SC_LOGIC_0;
     AXIM2Mat_U0_ap_ready_count = "00";
+    ap_sync_reg_Mat2AXIM_U0_ap_ready = SC_LOGIC_0;
+    Mat2AXIM_U0_ap_ready_count = "00";
     static int apTFileNum = 0;
     stringstream apTFilenSS;
     apTFilenSS << "Sobel_sc_trace_" << apTFileNum ++;
@@ -346,8 +343,6 @@ Sobel::Sobel(sc_module_name name) : sc_module(name), mVcdFile(0) {
     sc_trace(mVcdFile, Filter2D_U0_ap_continue, "Filter2D_U0_ap_continue");
     sc_trace(mVcdFile, Filter2D_U0_ap_idle, "Filter2D_U0_ap_idle");
     sc_trace(mVcdFile, Filter2D_U0_ap_ready, "Filter2D_U0_ap_ready");
-    sc_trace(mVcdFile, Filter2D_U0_start_out, "Filter2D_U0_start_out");
-    sc_trace(mVcdFile, Filter2D_U0_start_write, "Filter2D_U0_start_write");
     sc_trace(mVcdFile, Filter2D_U0_p_src_rows_V_read, "Filter2D_U0_p_src_rows_V_read");
     sc_trace(mVcdFile, Filter2D_U0_p_src_cols_V_read, "Filter2D_U0_p_src_cols_V_read");
     sc_trace(mVcdFile, Filter2D_U0_p_src_data_stream_V_read, "Filter2D_U0_p_src_data_stream_V_read");
@@ -373,12 +368,12 @@ Sobel::Sobel(sc_module_name name) : sc_module(name), mVcdFile(0) {
     sc_trace(mVcdFile, src_data_stream_0_V_full_n, "src_data_stream_0_V_full_n");
     sc_trace(mVcdFile, src_data_stream_0_V_dout, "src_data_stream_0_V_dout");
     sc_trace(mVcdFile, src_data_stream_0_V_empty_n, "src_data_stream_0_V_empty_n");
-    sc_trace(mVcdFile, src_rows_V_c10_full_n, "src_rows_V_c10_full_n");
-    sc_trace(mVcdFile, src_rows_V_c10_dout, "src_rows_V_c10_dout");
-    sc_trace(mVcdFile, src_rows_V_c10_empty_n, "src_rows_V_c10_empty_n");
-    sc_trace(mVcdFile, src_cols_V_c11_full_n, "src_cols_V_c11_full_n");
-    sc_trace(mVcdFile, src_cols_V_c11_dout, "src_cols_V_c11_dout");
-    sc_trace(mVcdFile, src_cols_V_c11_empty_n, "src_cols_V_c11_empty_n");
+    sc_trace(mVcdFile, src_rows_V_c8_full_n, "src_rows_V_c8_full_n");
+    sc_trace(mVcdFile, src_rows_V_c8_dout, "src_rows_V_c8_dout");
+    sc_trace(mVcdFile, src_rows_V_c8_empty_n, "src_rows_V_c8_empty_n");
+    sc_trace(mVcdFile, src_cols_V_c9_full_n, "src_cols_V_c9_full_n");
+    sc_trace(mVcdFile, src_cols_V_c9_dout, "src_cols_V_c9_dout");
+    sc_trace(mVcdFile, src_cols_V_c9_empty_n, "src_cols_V_c9_empty_n");
     sc_trace(mVcdFile, dst_data_stream_0_V_full_n, "dst_data_stream_0_V_full_n");
     sc_trace(mVcdFile, dst_data_stream_0_V_dout, "dst_data_stream_0_V_dout");
     sc_trace(mVcdFile, dst_data_stream_0_V_empty_n, "dst_data_stream_0_V_empty_n");
@@ -390,16 +385,17 @@ Sobel::Sobel(sc_module_name name) : sc_module(name), mVcdFile(0) {
     sc_trace(mVcdFile, ap_sync_reg_AXIM2Mat_U0_ap_ready, "ap_sync_reg_AXIM2Mat_U0_ap_ready");
     sc_trace(mVcdFile, ap_sync_AXIM2Mat_U0_ap_ready, "ap_sync_AXIM2Mat_U0_ap_ready");
     sc_trace(mVcdFile, AXIM2Mat_U0_ap_ready_count, "AXIM2Mat_U0_ap_ready_count");
+    sc_trace(mVcdFile, ap_sync_reg_Mat2AXIM_U0_ap_ready, "ap_sync_reg_Mat2AXIM_U0_ap_ready");
+    sc_trace(mVcdFile, ap_sync_Mat2AXIM_U0_ap_ready, "ap_sync_Mat2AXIM_U0_ap_ready");
+    sc_trace(mVcdFile, Mat2AXIM_U0_ap_ready_count, "Mat2AXIM_U0_ap_ready_count");
     sc_trace(mVcdFile, Block_proc_U0_start_full_n, "Block_proc_U0_start_full_n");
     sc_trace(mVcdFile, Block_proc_U0_start_write, "Block_proc_U0_start_write");
     sc_trace(mVcdFile, start_for_Filter2D_U0_din, "start_for_Filter2D_U0_din");
     sc_trace(mVcdFile, start_for_Filter2D_U0_full_n, "start_for_Filter2D_U0_full_n");
     sc_trace(mVcdFile, start_for_Filter2D_U0_dout, "start_for_Filter2D_U0_dout");
     sc_trace(mVcdFile, start_for_Filter2D_U0_empty_n, "start_for_Filter2D_U0_empty_n");
-    sc_trace(mVcdFile, start_for_Mat2AXIM_U0_din, "start_for_Mat2AXIM_U0_din");
-    sc_trace(mVcdFile, start_for_Mat2AXIM_U0_full_n, "start_for_Mat2AXIM_U0_full_n");
-    sc_trace(mVcdFile, start_for_Mat2AXIM_U0_dout, "start_for_Mat2AXIM_U0_dout");
-    sc_trace(mVcdFile, start_for_Mat2AXIM_U0_empty_n, "start_for_Mat2AXIM_U0_empty_n");
+    sc_trace(mVcdFile, Filter2D_U0_start_full_n, "Filter2D_U0_start_full_n");
+    sc_trace(mVcdFile, Filter2D_U0_start_write, "Filter2D_U0_start_write");
     sc_trace(mVcdFile, Mat2AXIM_U0_start_full_n, "Mat2AXIM_U0_start_full_n");
     sc_trace(mVcdFile, Mat2AXIM_U0_start_write, "Mat2AXIM_U0_start_write");
 #endif
@@ -424,11 +420,10 @@ Sobel::~Sobel() {
     delete src_rows_V_c_U;
     delete src_cols_V_c_U;
     delete src_data_stream_0_V_U;
-    delete src_rows_V_c10_U;
-    delete src_cols_V_c11_U;
+    delete src_rows_V_c8_U;
+    delete src_cols_V_c9_U;
     delete dst_data_stream_0_V_U;
     delete start_for_Filter2eOg_U;
-    delete start_for_Mat2AXIfYi_U;
 }
 
 void Sobel::thread_ap_var_for_const0() {
@@ -450,6 +445,13 @@ void Sobel::thread_ap_clk_no_reset_() {
                 esl_seteq<1,1,1>(ap_const_logic_0, ap_sync_ready.read()))) {
         Block_proc_U0_ap_ready_count = (!Block_proc_U0_ap_ready_count.read().is_01() || !ap_const_lv2_1.is_01())? sc_lv<2>(): (sc_biguint<2>(Block_proc_U0_ap_ready_count.read()) + sc_biguint<2>(ap_const_lv2_1));
     }
+    if ((esl_seteq<1,1,1>(ap_const_logic_1, ap_sync_ready.read()) && 
+         esl_seteq<1,1,1>(ap_const_logic_0, Mat2AXIM_U0_ap_ready.read()))) {
+        Mat2AXIM_U0_ap_ready_count = (!Mat2AXIM_U0_ap_ready_count.read().is_01() || !ap_const_lv2_1.is_01())? sc_lv<2>(): (sc_biguint<2>(Mat2AXIM_U0_ap_ready_count.read()) - sc_biguint<2>(ap_const_lv2_1));
+    } else if ((esl_seteq<1,1,1>(ap_const_logic_0, ap_sync_ready.read()) && 
+                esl_seteq<1,1,1>(ap_const_logic_1, Mat2AXIM_U0_ap_ready.read()))) {
+        Mat2AXIM_U0_ap_ready_count = (!Mat2AXIM_U0_ap_ready_count.read().is_01() || !ap_const_lv2_1.is_01())? sc_lv<2>(): (sc_biguint<2>(Mat2AXIM_U0_ap_ready_count.read()) + sc_biguint<2>(ap_const_lv2_1));
+    }
     if ( ap_rst.read() == ap_const_logic_1) {
         ap_sync_reg_AXIM2Mat_U0_ap_ready = ap_const_logic_0;
     } else {
@@ -468,6 +470,16 @@ void Sobel::thread_ap_clk_no_reset_() {
             ap_sync_reg_Block_proc_U0_ap_ready = ap_const_logic_0;
         } else {
             ap_sync_reg_Block_proc_U0_ap_ready = ap_sync_Block_proc_U0_ap_ready.read();
+        }
+    }
+    if ( ap_rst.read() == ap_const_logic_1) {
+        ap_sync_reg_Mat2AXIM_U0_ap_ready = ap_const_logic_0;
+    } else {
+        if (esl_seteq<1,1,1>(ap_const_logic_1, (ap_start.read() & 
+             ap_sync_ready.read()))) {
+            ap_sync_reg_Mat2AXIM_U0_ap_ready = ap_const_logic_0;
+        } else {
+            ap_sync_reg_Mat2AXIM_U0_ap_ready = ap_sync_Mat2AXIM_U0_ap_ready.read();
         }
     }
 }
@@ -506,12 +518,21 @@ void Sobel::thread_Filter2D_U0_ap_start() {
     Filter2D_U0_ap_start = start_for_Filter2D_U0_empty_n.read();
 }
 
+void Sobel::thread_Filter2D_U0_start_full_n() {
+    Filter2D_U0_start_full_n = ap_const_logic_1;
+}
+
+void Sobel::thread_Filter2D_U0_start_write() {
+    Filter2D_U0_start_write = ap_const_logic_0;
+}
+
 void Sobel::thread_Mat2AXIM_U0_ap_continue() {
     Mat2AXIM_U0_ap_continue = ap_const_logic_1;
 }
 
 void Sobel::thread_Mat2AXIM_U0_ap_start() {
-    Mat2AXIM_U0_ap_start = start_for_Mat2AXIM_U0_empty_n.read();
+    Mat2AXIM_U0_ap_start = (ap_start.read() & (ap_sync_reg_Mat2AXIM_U0_ap_ready.read() ^ 
+  ap_const_logic_1));
 }
 
 void Sobel::thread_Mat2AXIM_U0_start_full_n() {
@@ -542,6 +563,10 @@ void Sobel::thread_ap_sync_Block_proc_U0_ap_ready() {
     ap_sync_Block_proc_U0_ap_ready = (Block_proc_U0_ap_ready.read() | ap_sync_reg_Block_proc_U0_ap_ready.read());
 }
 
+void Sobel::thread_ap_sync_Mat2AXIM_U0_ap_ready() {
+    ap_sync_Mat2AXIM_U0_ap_ready = (Mat2AXIM_U0_ap_ready.read() | ap_sync_reg_Mat2AXIM_U0_ap_ready.read());
+}
+
 void Sobel::thread_ap_sync_continue() {
     ap_sync_continue = ap_const_logic_1;
 }
@@ -551,7 +576,7 @@ void Sobel::thread_ap_sync_done() {
 }
 
 void Sobel::thread_ap_sync_ready() {
-    ap_sync_ready = (ap_sync_Block_proc_U0_ap_ready.read() & ap_sync_AXIM2Mat_U0_ap_ready.read());
+    ap_sync_ready = (ap_sync_Block_proc_U0_ap_ready.read() & ap_sync_AXIM2Mat_U0_ap_ready.read() & ap_sync_Mat2AXIM_U0_ap_ready.read());
 }
 
 void Sobel::thread_image_in_address0() {
@@ -563,7 +588,7 @@ void Sobel::thread_image_in_ce0() {
 }
 
 void Sobel::thread_image_in_d0() {
-    image_in_d0 = ap_const_lv8_0;
+    image_in_d0 = ap_const_lv32_0;
 }
 
 void Sobel::thread_image_in_we0() {
@@ -588,10 +613,6 @@ void Sobel::thread_image_out_we0() {
 
 void Sobel::thread_start_for_Filter2D_U0_din() {
     start_for_Filter2D_U0_din =  (sc_lv<1>) (ap_const_logic_1);
-}
-
-void Sobel::thread_start_for_Mat2AXIM_U0_din() {
-    start_for_Mat2AXIM_U0_din =  (sc_lv<1>) (ap_const_logic_1);
 }
 
 void Sobel::thread_hdltv_gen() {

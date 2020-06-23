@@ -14,7 +14,7 @@ set isEnableWaveformDebug 1
 set C_modelName {AXIM2Mat}
 set C_modelType { void 0 }
 set C_modelArgList {
-	{ fb int 8 regular {array 100 { 1 } 1 1 }  }
+	{ fb int 32 regular {array 25 { 1 } 1 1 }  }
 	{ img_rows_V int 5 regular {fifo 0}  }
 	{ img_cols_V int 5 regular {fifo 0}  }
 	{ img_data_stream_V int 8 regular {fifo 1 volatile }  }
@@ -22,7 +22,7 @@ set C_modelArgList {
 	{ img_cols_V_out int 5 regular {fifo 1}  }
 }
 set C_modelArgMapList {[ 
-	{ "Name" : "fb", "interface" : "memory", "bitwidth" : 8, "direction" : "READONLY"} , 
+	{ "Name" : "fb", "interface" : "memory", "bitwidth" : 32, "direction" : "READONLY"} , 
  	{ "Name" : "img_rows_V", "interface" : "fifo", "bitwidth" : 5, "direction" : "READONLY"} , 
  	{ "Name" : "img_cols_V", "interface" : "fifo", "bitwidth" : 5, "direction" : "READONLY"} , 
  	{ "Name" : "img_data_stream_V", "interface" : "fifo", "bitwidth" : 8, "direction" : "WRITEONLY"} , 
@@ -41,9 +41,9 @@ set portList {
 	{ ap_ready sc_out sc_logic 1 ready -1 } 
 	{ start_out sc_out sc_logic 1 signal -1 } 
 	{ start_write sc_out sc_logic 1 signal -1 } 
-	{ fb_address0 sc_out sc_lv 7 signal 0 } 
+	{ fb_address0 sc_out sc_lv 5 signal 0 } 
 	{ fb_ce0 sc_out sc_logic 1 signal 0 } 
-	{ fb_q0 sc_in sc_lv 8 signal 0 } 
+	{ fb_q0 sc_in sc_lv 32 signal 0 } 
 	{ img_rows_V_dout sc_in sc_lv 5 signal 1 } 
 	{ img_rows_V_empty_n sc_in sc_logic 1 signal 1 } 
 	{ img_rows_V_read sc_out sc_logic 1 signal 1 } 
@@ -71,9 +71,9 @@ set NewPortList {[
  	{ "name": "ap_ready", "direction": "out", "datatype": "sc_logic", "bitwidth":1, "type": "ready", "bundle":{"name": "ap_ready", "role": "default" }} , 
  	{ "name": "start_out", "direction": "out", "datatype": "sc_logic", "bitwidth":1, "type": "signal", "bundle":{"name": "start_out", "role": "default" }} , 
  	{ "name": "start_write", "direction": "out", "datatype": "sc_logic", "bitwidth":1, "type": "signal", "bundle":{"name": "start_write", "role": "default" }} , 
- 	{ "name": "fb_address0", "direction": "out", "datatype": "sc_lv", "bitwidth":7, "type": "signal", "bundle":{"name": "fb", "role": "address0" }} , 
+ 	{ "name": "fb_address0", "direction": "out", "datatype": "sc_lv", "bitwidth":5, "type": "signal", "bundle":{"name": "fb", "role": "address0" }} , 
  	{ "name": "fb_ce0", "direction": "out", "datatype": "sc_logic", "bitwidth":1, "type": "signal", "bundle":{"name": "fb", "role": "ce0" }} , 
- 	{ "name": "fb_q0", "direction": "in", "datatype": "sc_lv", "bitwidth":8, "type": "signal", "bundle":{"name": "fb", "role": "q0" }} , 
+ 	{ "name": "fb_q0", "direction": "in", "datatype": "sc_lv", "bitwidth":32, "type": "signal", "bundle":{"name": "fb", "role": "q0" }} , 
  	{ "name": "img_rows_V_dout", "direction": "in", "datatype": "sc_lv", "bitwidth":5, "type": "signal", "bundle":{"name": "img_rows_V", "role": "dout" }} , 
  	{ "name": "img_rows_V_empty_n", "direction": "in", "datatype": "sc_logic", "bitwidth":1, "type": "signal", "bundle":{"name": "img_rows_V", "role": "empty_n" }} , 
  	{ "name": "img_rows_V_read", "direction": "out", "datatype": "sc_logic", "bitwidth":1, "type": "signal", "bundle":{"name": "img_rows_V", "role": "read" }} , 
@@ -91,25 +91,21 @@ set NewPortList {[
  	{ "name": "img_cols_V_out_write", "direction": "out", "datatype": "sc_logic", "bitwidth":1, "type": "signal", "bundle":{"name": "img_cols_V_out", "role": "write" }}  ]}
 
 set RtlHierarchyInfo {[
-	{"ID" : "0", "Level" : "0", "Path" : "`AUTOTB_DUT_INST", "Parent" : "", "Child" : ["1"],
+	{"ID" : "0", "Level" : "0", "Path" : "`AUTOTB_DUT_INST", "Parent" : "",
 		"CDFG" : "AXIM2Mat",
 		"Protocol" : "ap_ctrl_hs",
 		"ControlExist" : "1", "ap_start" : "1", "ap_ready" : "1", "ap_done" : "1", "ap_continue" : "1", "ap_idle" : "1",
 		"Pipeline" : "None", "UnalignedPipeline" : "0", "RewindPipeline" : "0", "ProcessNetwork" : "0",
 		"II" : "0",
-		"VariableLatency" : "1", "ExactLatency" : "-1", "EstimateLatencyMin" : "2", "EstimateLatencyMax" : "132",
+		"VariableLatency" : "1", "ExactLatency" : "-1", "EstimateLatencyMin" : "1", "EstimateLatencyMax" : "141",
 		"Combinational" : "0",
 		"Datapath" : "0",
 		"ClockEnable" : "0",
 		"HasSubDataflow" : "0",
 		"InDataflowNetwork" : "1",
 		"HasNonBlockingOperation" : "0",
-		"WaitState" : [
-			{"State" : "ap_ST_fsm_state2", "FSM" : "ap_CS_fsm", "SubInstance" : "grp_Array2Mat_fu_120"}],
 		"Port" : [
-			{"Name" : "fb", "Type" : "Memory", "Direction" : "I",
-				"SubConnect" : [
-					{"ID" : "1", "SubInstance" : "grp_Array2Mat_fu_120", "Port" : "fb"}]},
+			{"Name" : "fb", "Type" : "Memory", "Direction" : "I"},
 			{"Name" : "img_rows_V", "Type" : "Fifo", "Direction" : "I", "DependentProc" : "0", "DependentChan" : "0",
 				"BlockSignal" : [
 					{"Name" : "img_rows_V_blk_n", "Type" : "RtlSignal"}]},
@@ -117,34 +113,14 @@ set RtlHierarchyInfo {[
 				"BlockSignal" : [
 					{"Name" : "img_cols_V_blk_n", "Type" : "RtlSignal"}]},
 			{"Name" : "img_data_stream_V", "Type" : "Fifo", "Direction" : "O", "DependentProc" : "0", "DependentChan" : "0",
-				"SubConnect" : [
-					{"ID" : "1", "SubInstance" : "grp_Array2Mat_fu_120", "Port" : "img_data_stream_V"}]},
+				"BlockSignal" : [
+					{"Name" : "img_data_stream_V_blk_n", "Type" : "RtlSignal"}]},
 			{"Name" : "img_rows_V_out", "Type" : "Fifo", "Direction" : "O", "DependentProc" : "0", "DependentChan" : "0",
 				"BlockSignal" : [
 					{"Name" : "img_rows_V_out_blk_n", "Type" : "RtlSignal"}]},
 			{"Name" : "img_cols_V_out", "Type" : "Fifo", "Direction" : "O", "DependentProc" : "0", "DependentChan" : "0",
 				"BlockSignal" : [
-					{"Name" : "img_cols_V_out_blk_n", "Type" : "RtlSignal"}]}]},
-	{"ID" : "1", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.grp_Array2Mat_fu_120", "Parent" : "0",
-		"CDFG" : "Array2Mat",
-		"Protocol" : "ap_ctrl_hs",
-		"ControlExist" : "1", "ap_start" : "1", "ap_ready" : "1", "ap_done" : "1", "ap_continue" : "0", "ap_idle" : "1",
-		"Pipeline" : "None", "UnalignedPipeline" : "0", "RewindPipeline" : "0", "ProcessNetwork" : "0",
-		"II" : "0",
-		"VariableLatency" : "1", "ExactLatency" : "-1", "EstimateLatencyMin" : "1", "EstimateLatencyMax" : "131",
-		"Combinational" : "0",
-		"Datapath" : "0",
-		"ClockEnable" : "0",
-		"HasSubDataflow" : "0",
-		"InDataflowNetwork" : "0",
-		"HasNonBlockingOperation" : "0",
-		"Port" : [
-			{"Name" : "fb", "Type" : "Memory", "Direction" : "I"},
-			{"Name" : "img_rows_V_read", "Type" : "None", "Direction" : "I"},
-			{"Name" : "img_cols_V_read", "Type" : "None", "Direction" : "I"},
-			{"Name" : "img_data_stream_V", "Type" : "Fifo", "Direction" : "O",
-				"BlockSignal" : [
-					{"Name" : "img_data_stream_V_blk_n", "Type" : "RtlSignal"}]}]}]}
+					{"Name" : "img_cols_V_out_blk_n", "Type" : "RtlSignal"}]}]}]}
 
 
 set ArgLastReadFirstWriteLatency {
@@ -152,27 +128,23 @@ set ArgLastReadFirstWriteLatency {
 		fb {Type I LastRead 2 FirstWrite -1}
 		img_rows_V {Type I LastRead 0 FirstWrite -1}
 		img_cols_V {Type I LastRead 0 FirstWrite -1}
-		img_data_stream_V {Type O LastRead -1 FirstWrite 3}
+		img_data_stream_V {Type O LastRead -1 FirstWrite 4}
 		img_rows_V_out {Type O LastRead -1 FirstWrite 0}
-		img_cols_V_out {Type O LastRead -1 FirstWrite 0}}
-	Array2Mat {
-		fb {Type I LastRead 2 FirstWrite -1}
-		img_rows_V_read {Type I LastRead 0 FirstWrite -1}
-		img_cols_V_read {Type I LastRead 0 FirstWrite -1}
-		img_data_stream_V {Type O LastRead -1 FirstWrite 3}}}
+		img_cols_V_out {Type O LastRead -1 FirstWrite 0}}}
 
 set hasDtUnsupportedChannel 0
 
 set PerformanceInfo {[
-	{"Name" : "Latency", "Min" : "2", "Max" : "132"}
-	, {"Name" : "Interval", "Min" : "2", "Max" : "132"}
+	{"Name" : "Latency", "Min" : "1", "Max" : "141"}
+	, {"Name" : "Interval", "Min" : "1", "Max" : "141"}
 ]}
 
 set PipelineEnableSignalInfo {[
+	{"Pipeline" : "0", "EnableSignal" : "ap_enable_pp0"}
 ]}
 
 set Spec2ImplPortList { 
-	fb { ap_memory {  { fb_address0 mem_address 1 7 }  { fb_ce0 mem_ce 1 1 }  { fb_q0 mem_dout 0 8 } } }
+	fb { ap_memory {  { fb_address0 mem_address 1 5 }  { fb_ce0 mem_ce 1 1 }  { fb_q0 mem_dout 0 32 } } }
 	img_rows_V { ap_fifo {  { img_rows_V_dout fifo_data 0 5 }  { img_rows_V_empty_n fifo_status 0 1 }  { img_rows_V_read fifo_update 1 1 } } }
 	img_cols_V { ap_fifo {  { img_cols_V_dout fifo_data 0 5 }  { img_cols_V_empty_n fifo_status 0 1 }  { img_cols_V_read fifo_update 1 1 } } }
 	img_data_stream_V { ap_fifo {  { img_data_stream_V_din fifo_data 1 8 }  { img_data_stream_V_full_n fifo_status 0 1 }  { img_data_stream_V_write fifo_update 1 1 } } }

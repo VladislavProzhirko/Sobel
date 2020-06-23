@@ -18,13 +18,13 @@
               <name>src_rows_V_out</name>
               <fileName>Vivado_Sobel_v3/core.cpp</fileName>
               <fileDirectory>..</fileDirectory>
-              <lineNumber>26</lineNumber>
+              <lineNumber>27</lineNumber>
               <contextFuncName>Sobel</contextFuncName>
               <inlineStackInfo class_id="6" tracking_level="0" version="0">
                 <count>1</count>
                 <item_version>0</item_version>
                 <item class_id="7" tracking_level="0" version="0">
-                  <first>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</first>
+                  <first>C:\Users\Drus\Desktop\parni\Sobel</first>
                   <second class_id="8" tracking_level="0" version="0">
                     <count>1</count>
                     <item_version>0</item_version>
@@ -33,7 +33,7 @@
                         <first>Vivado_Sobel_v3/core.cpp</first>
                         <second>Sobel</second>
                       </first>
-                      <second>26</second>
+                      <second>27</second>
                     </item>
                   </second>
                 </item>
@@ -60,13 +60,13 @@
               <name>src_cols_V_out</name>
               <fileName>Vivado_Sobel_v3/core.cpp</fileName>
               <fileDirectory>..</fileDirectory>
-              <lineNumber>26</lineNumber>
+              <lineNumber>27</lineNumber>
               <contextFuncName>Sobel</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</first>
+                  <first>C:\Users\Drus\Desktop\parni\Sobel</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -75,7 +75,7 @@
                         <first>Vivado_Sobel_v3/core.cpp</first>
                         <second>Sobel</second>
                       </first>
-                      <second>26</second>
+                      <second>27</second>
                     </item>
                   </second>
                 </item>
@@ -104,7 +104,7 @@
               <type>0</type>
               <id>5</id>
               <name>src_rows_V_out_write_ln656</name>
-              <fileName>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_core.h</fileName>
+              <fileName>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_core.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>656</lineNumber>
               <contextFuncName>init</contextFuncName>
@@ -112,20 +112,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</first>
+                  <first>C:\Users\Drus\Desktop\parni\Sobel</first>
                   <second>
                     <count>3</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_core.h</first>
+                        <first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_core.h</first>
                         <second>Mat</second>
                       </first>
                       <second>636</second>
                     </item>
                     <item>
                       <first>
-                        <first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_core.h</first>
+                        <first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_core.h</first>
                         <second>init</second>
                       </first>
                       <second>656</second>
@@ -135,7 +135,7 @@
                         <first>Vivado_Sobel_v3/core.cpp</first>
                         <second>Sobel</second>
                       </first>
-                      <second>26</second>
+                      <second>27</second>
                     </item>
                   </second>
                 </item>
@@ -168,7 +168,7 @@
               <type>0</type>
               <id>6</id>
               <name>src_cols_V_out_write_ln657</name>
-              <fileName>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_core.h</fileName>
+              <fileName>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_core.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>657</lineNumber>
               <contextFuncName>init</contextFuncName>
@@ -176,20 +176,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</first>
+                  <first>C:\Users\Drus\Desktop\parni\Sobel</first>
                   <second>
                     <count>3</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_core.h</first>
+                        <first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_core.h</first>
                         <second>Mat</second>
                       </first>
                       <second>636</second>
                     </item>
                     <item>
                       <first>
-                        <first>F:/Vivado/Vivado/2019.2/common/technology/autopilot/hls/hls_video_core.h</first>
+                        <first>D:/Xilinx/Vivado/2019.2/common/technology/autopilot/hls/hls_video_core.h</first>
                         <second>init</second>
                       </first>
                       <second>657</second>
@@ -199,7 +199,7 @@
                         <first>Vivado_Sobel_v3/core.cpp</first>
                         <second>Sobel</second>
                       </first>
-                      <second>26</second>
+                      <second>27</second>
                     </item>
                   </second>
                 </item>
@@ -240,7 +240,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\bladk\AppData\Roaming\Xilinx\Vivado</first>
+                  <first>C:\Users\Drus\Desktop\parni\Sobel</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -651,7 +651,7 @@
       <count>2</count>
       <item_version>0</item_version>
       <item class_id="44" tracking_level="0" version="0">
-        <first>42</first>
+        <first>20</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -659,7 +659,7 @@
         </second>
       </item>
       <item>
-        <first>50</first>
+        <first>28</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -679,7 +679,7 @@
       <count>2</count>
       <item_version>0</item_version>
       <item class_id="47" tracking_level="0" version="0">
-        <first>write_ln656_write_fu_42</first>
+        <first>write_ln656_write_fu_20</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -687,7 +687,7 @@
         </second>
       </item>
       <item>
-        <first>write_ln657_write_fu_50</first>
+        <first>write_ln657_write_fu_28</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>

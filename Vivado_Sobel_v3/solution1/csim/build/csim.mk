@@ -24,14 +24,14 @@ HLS_SOURCES = ../../../test.cpp ../../../core.cpp
 
 TARGET := csim.exe
 
-AUTOPILOT_ROOT := F:/Vivado/Vivado/2019.2
+AUTOPILOT_ROOT := D:/Xilinx/Vivado/2019.2
 AUTOPILOT_MACH := win64
 ifdef AP_GCC_M32
   AUTOPILOT_MACH := Linux_x86
   IFLAG += -m32
 endif
 ifndef AP_GCC_PATH
-  AP_GCC_PATH := F:/Vivado/Vivado/2019.2/tps/win64/msys64/mingw64/bin
+  AP_GCC_PATH := D:/Xilinx/Vivado/2019.2/tps/win64/msys64/mingw64/bin
 endif
 AUTOPILOT_TOOL := ${AUTOPILOT_ROOT}/${AUTOPILOT_MACH}/tools
 AP_CLANG_PATH := ${AUTOPILOT_ROOT}/tps/win64/msys64/mingw64/bin
