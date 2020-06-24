@@ -477,10 +477,10 @@
 					<Obj>
 						<type>0</type>
 						<id>31</id>
-						<name>_ln60</name>
+						<name>_ln63</name>
 						<fileName>Vivado_Sobel_v3/core.cpp</fileName>
 						<fileDirectory>C:\Users\Drus\Desktop\parni\Sobel</fileDirectory>
-						<lineNumber>60</lineNumber>
+						<lineNumber>63</lineNumber>
 						<contextFuncName>Sobel</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -495,7 +495,7 @@
 											<first>Vivado_Sobel_v3/core.cpp</first>
 											<second>Sobel</second>
 										</first>
-										<second>60</second>
+										<second>63</second>
 									</item>
 								</second>
 							</item>
@@ -574,7 +574,7 @@
 					<Obj>
 						<type>2</type>
 						<id>44</id>
-						<name>AXIM2Mat</name>
+						<name>Array2Mat</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -590,7 +590,7 @@
 					<bitwidth>0</bitwidth>
 				</Value>
 				<const_type>6</const_type>
-				<content>&lt;constant:AXIM2Mat&gt;</content>
+				<content>&lt;constant:Array2Mat&gt;</content>
 			</item>
 			<item class_id_reference="16" object_id="_17">
 				<Value>
@@ -620,7 +620,7 @@
 					<Obj>
 						<type>2</type>
 						<id>58</id>
-						<name>Mat2AXIM</name>
+						<name>Mat2Array</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -636,7 +636,7 @@
 					<bitwidth>0</bitwidth>
 				</Value>
 				<const_type>6</const_type>
-				<content>&lt;constant:Mat2AXIM&gt;</content>
+				<content>&lt;constant:Mat2Array&gt;</content>
 			</item>
 		</consts>
 		<blocks class_id="17" tracking_level="0" version="0">
@@ -953,7 +953,7 @@
 					</item>
 					<item class_id_reference="26" object_id="_58">
 						<type>0</type>
-						<name>AXIM2Mat_U0</name>
+						<name>Array2Mat_U0</name>
 						<ssdmobj_id>28</ssdmobj_id>
 						<pins>
 							<count>6</count>
@@ -966,7 +966,7 @@
 								</port>
 								<inst class_id_reference="30" object_id="_61">
 									<type>0</type>
-									<name>AXIM2Mat_U0</name>
+									<name>Array2Mat_U0</name>
 									<ssdmobj_id>28</ssdmobj_id>
 								</inst>
 							</item>
@@ -1059,7 +1059,7 @@
 					</item>
 					<item class_id_reference="26" object_id="_82">
 						<type>0</type>
-						<name>Mat2AXIM_U0</name>
+						<name>Mat2Array_U0</name>
 						<ssdmobj_id>30</ssdmobj_id>
 						<pins>
 							<count>2</count>
@@ -1072,7 +1072,7 @@
 								</port>
 								<inst class_id_reference="30" object_id="_85">
 									<type>0</type>
-									<name>Mat2AXIM_U0</name>
+									<name>Mat2Array_U0</name>
 									<ssdmobj_id>30</ssdmobj_id>
 								</inst>
 							</item>
@@ -1844,7 +1844,7 @@
 			</second>
 		</item>
 		<item>
-			<first>grp_AXIM2Mat_fu_88</first>
+			<first>grp_Array2Mat_fu_88</first>
 			<second>
 				<count>2</count>
 				<item_version>0</item_version>
@@ -1862,7 +1862,7 @@
 			</second>
 		</item>
 		<item>
-			<first>grp_Mat2AXIM_fu_99</first>
+			<first>grp_Mat2Array_fu_99</first>
 			<second>
 				<count>2</count>
 				<item_version>0</item_version>

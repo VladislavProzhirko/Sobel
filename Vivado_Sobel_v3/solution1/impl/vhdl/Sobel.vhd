@@ -51,23 +51,23 @@ architecture behav of Sobel is
     signal Block_proc_U0_src_rows_V_out_write : STD_LOGIC;
     signal Block_proc_U0_src_cols_V_out_din : STD_LOGIC_VECTOR (4 downto 0);
     signal Block_proc_U0_src_cols_V_out_write : STD_LOGIC;
-    signal AXIM2Mat_U0_ap_start : STD_LOGIC;
-    signal AXIM2Mat_U0_ap_done : STD_LOGIC;
-    signal AXIM2Mat_U0_ap_continue : STD_LOGIC;
-    signal AXIM2Mat_U0_ap_idle : STD_LOGIC;
-    signal AXIM2Mat_U0_ap_ready : STD_LOGIC;
-    signal AXIM2Mat_U0_start_out : STD_LOGIC;
-    signal AXIM2Mat_U0_start_write : STD_LOGIC;
-    signal AXIM2Mat_U0_fb_address0 : STD_LOGIC_VECTOR (4 downto 0);
-    signal AXIM2Mat_U0_fb_ce0 : STD_LOGIC;
-    signal AXIM2Mat_U0_img_rows_V_read : STD_LOGIC;
-    signal AXIM2Mat_U0_img_cols_V_read : STD_LOGIC;
-    signal AXIM2Mat_U0_img_data_stream_V_din : STD_LOGIC_VECTOR (7 downto 0);
-    signal AXIM2Mat_U0_img_data_stream_V_write : STD_LOGIC;
-    signal AXIM2Mat_U0_img_rows_V_out_din : STD_LOGIC_VECTOR (4 downto 0);
-    signal AXIM2Mat_U0_img_rows_V_out_write : STD_LOGIC;
-    signal AXIM2Mat_U0_img_cols_V_out_din : STD_LOGIC_VECTOR (4 downto 0);
-    signal AXIM2Mat_U0_img_cols_V_out_write : STD_LOGIC;
+    signal Array2Mat_U0_ap_start : STD_LOGIC;
+    signal Array2Mat_U0_ap_done : STD_LOGIC;
+    signal Array2Mat_U0_ap_continue : STD_LOGIC;
+    signal Array2Mat_U0_ap_idle : STD_LOGIC;
+    signal Array2Mat_U0_ap_ready : STD_LOGIC;
+    signal Array2Mat_U0_start_out : STD_LOGIC;
+    signal Array2Mat_U0_start_write : STD_LOGIC;
+    signal Array2Mat_U0_fb_address0 : STD_LOGIC_VECTOR (4 downto 0);
+    signal Array2Mat_U0_fb_ce0 : STD_LOGIC;
+    signal Array2Mat_U0_img_rows_V_read : STD_LOGIC;
+    signal Array2Mat_U0_img_cols_V_read : STD_LOGIC;
+    signal Array2Mat_U0_img_data_stream_V_din : STD_LOGIC_VECTOR (7 downto 0);
+    signal Array2Mat_U0_img_data_stream_V_write : STD_LOGIC;
+    signal Array2Mat_U0_img_rows_V_out_din : STD_LOGIC_VECTOR (4 downto 0);
+    signal Array2Mat_U0_img_rows_V_out_write : STD_LOGIC;
+    signal Array2Mat_U0_img_cols_V_out_din : STD_LOGIC_VECTOR (4 downto 0);
+    signal Array2Mat_U0_img_cols_V_out_write : STD_LOGIC;
     signal Filter2D_U0_ap_start : STD_LOGIC;
     signal Filter2D_U0_ap_done : STD_LOGIC;
     signal Filter2D_U0_ap_continue : STD_LOGIC;
@@ -78,16 +78,16 @@ architecture behav of Sobel is
     signal Filter2D_U0_p_src_data_stream_V_read : STD_LOGIC;
     signal Filter2D_U0_p_dst_data_stream_V_din : STD_LOGIC_VECTOR (7 downto 0);
     signal Filter2D_U0_p_dst_data_stream_V_write : STD_LOGIC;
-    signal Mat2AXIM_U0_ap_start : STD_LOGIC;
-    signal Mat2AXIM_U0_ap_done : STD_LOGIC;
-    signal Mat2AXIM_U0_ap_continue : STD_LOGIC;
-    signal Mat2AXIM_U0_ap_idle : STD_LOGIC;
-    signal Mat2AXIM_U0_ap_ready : STD_LOGIC;
-    signal Mat2AXIM_U0_img_data_stream_V_read : STD_LOGIC;
-    signal Mat2AXIM_U0_fb_address0 : STD_LOGIC_VECTOR (4 downto 0);
-    signal Mat2AXIM_U0_fb_ce0 : STD_LOGIC;
-    signal Mat2AXIM_U0_fb_we0 : STD_LOGIC;
-    signal Mat2AXIM_U0_fb_d0 : STD_LOGIC_VECTOR (31 downto 0);
+    signal Mat2Array_U0_ap_start : STD_LOGIC;
+    signal Mat2Array_U0_ap_done : STD_LOGIC;
+    signal Mat2Array_U0_ap_continue : STD_LOGIC;
+    signal Mat2Array_U0_ap_idle : STD_LOGIC;
+    signal Mat2Array_U0_ap_ready : STD_LOGIC;
+    signal Mat2Array_U0_img_data_stream_V_read : STD_LOGIC;
+    signal Mat2Array_U0_fb_address0 : STD_LOGIC_VECTOR (4 downto 0);
+    signal Mat2Array_U0_fb_ce0 : STD_LOGIC;
+    signal Mat2Array_U0_fb_we0 : STD_LOGIC;
+    signal Mat2Array_U0_fb_d0 : STD_LOGIC_VECTOR (31 downto 0);
     signal ap_sync_continue : STD_LOGIC;
     signal src_rows_V_c_full_n : STD_LOGIC;
     signal src_rows_V_c_dout : STD_LOGIC_VECTOR (4 downto 0);
@@ -112,12 +112,12 @@ architecture behav of Sobel is
     signal ap_sync_reg_Block_proc_U0_ap_ready : STD_LOGIC := '0';
     signal ap_sync_Block_proc_U0_ap_ready : STD_LOGIC;
     signal Block_proc_U0_ap_ready_count : STD_LOGIC_VECTOR (1 downto 0) := "00";
-    signal ap_sync_reg_AXIM2Mat_U0_ap_ready : STD_LOGIC := '0';
-    signal ap_sync_AXIM2Mat_U0_ap_ready : STD_LOGIC;
-    signal AXIM2Mat_U0_ap_ready_count : STD_LOGIC_VECTOR (1 downto 0) := "00";
-    signal ap_sync_reg_Mat2AXIM_U0_ap_ready : STD_LOGIC := '0';
-    signal ap_sync_Mat2AXIM_U0_ap_ready : STD_LOGIC;
-    signal Mat2AXIM_U0_ap_ready_count : STD_LOGIC_VECTOR (1 downto 0) := "00";
+    signal ap_sync_reg_Array2Mat_U0_ap_ready : STD_LOGIC := '0';
+    signal ap_sync_Array2Mat_U0_ap_ready : STD_LOGIC;
+    signal Array2Mat_U0_ap_ready_count : STD_LOGIC_VECTOR (1 downto 0) := "00";
+    signal ap_sync_reg_Mat2Array_U0_ap_ready : STD_LOGIC := '0';
+    signal ap_sync_Mat2Array_U0_ap_ready : STD_LOGIC;
+    signal Mat2Array_U0_ap_ready_count : STD_LOGIC_VECTOR (1 downto 0) := "00";
     signal Block_proc_U0_start_full_n : STD_LOGIC;
     signal Block_proc_U0_start_write : STD_LOGIC;
     signal start_for_Filter2D_U0_din : STD_LOGIC_VECTOR (0 downto 0);
@@ -126,8 +126,8 @@ architecture behav of Sobel is
     signal start_for_Filter2D_U0_empty_n : STD_LOGIC;
     signal Filter2D_U0_start_full_n : STD_LOGIC;
     signal Filter2D_U0_start_write : STD_LOGIC;
-    signal Mat2AXIM_U0_start_full_n : STD_LOGIC;
-    signal Mat2AXIM_U0_start_write : STD_LOGIC;
+    signal Mat2Array_U0_start_full_n : STD_LOGIC;
+    signal Mat2Array_U0_start_write : STD_LOGIC;
 
     component Block_proc IS
     port (
@@ -147,7 +147,7 @@ architecture behav of Sobel is
     end component;
 
 
-    component AXIM2Mat IS
+    component Array2Mat IS
     port (
         ap_clk : IN STD_LOGIC;
         ap_rst : IN STD_LOGIC;
@@ -204,7 +204,7 @@ architecture behav of Sobel is
     end component;
 
 
-    component Mat2AXIM IS
+    component Mat2Array IS
     port (
         ap_clk : IN STD_LOGIC;
         ap_rst : IN STD_LOGIC;
@@ -287,36 +287,36 @@ begin
         src_cols_V_out_full_n => src_cols_V_c_full_n,
         src_cols_V_out_write => Block_proc_U0_src_cols_V_out_write);
 
-    AXIM2Mat_U0 : component AXIM2Mat
+    Array2Mat_U0 : component Array2Mat
     port map (
         ap_clk => ap_clk,
         ap_rst => ap_rst,
-        ap_start => AXIM2Mat_U0_ap_start,
+        ap_start => Array2Mat_U0_ap_start,
         start_full_n => start_for_Filter2D_U0_full_n,
-        ap_done => AXIM2Mat_U0_ap_done,
-        ap_continue => AXIM2Mat_U0_ap_continue,
-        ap_idle => AXIM2Mat_U0_ap_idle,
-        ap_ready => AXIM2Mat_U0_ap_ready,
-        start_out => AXIM2Mat_U0_start_out,
-        start_write => AXIM2Mat_U0_start_write,
-        fb_address0 => AXIM2Mat_U0_fb_address0,
-        fb_ce0 => AXIM2Mat_U0_fb_ce0,
+        ap_done => Array2Mat_U0_ap_done,
+        ap_continue => Array2Mat_U0_ap_continue,
+        ap_idle => Array2Mat_U0_ap_idle,
+        ap_ready => Array2Mat_U0_ap_ready,
+        start_out => Array2Mat_U0_start_out,
+        start_write => Array2Mat_U0_start_write,
+        fb_address0 => Array2Mat_U0_fb_address0,
+        fb_ce0 => Array2Mat_U0_fb_ce0,
         fb_q0 => image_in_q0,
         img_rows_V_dout => src_rows_V_c_dout,
         img_rows_V_empty_n => src_rows_V_c_empty_n,
-        img_rows_V_read => AXIM2Mat_U0_img_rows_V_read,
+        img_rows_V_read => Array2Mat_U0_img_rows_V_read,
         img_cols_V_dout => src_cols_V_c_dout,
         img_cols_V_empty_n => src_cols_V_c_empty_n,
-        img_cols_V_read => AXIM2Mat_U0_img_cols_V_read,
-        img_data_stream_V_din => AXIM2Mat_U0_img_data_stream_V_din,
+        img_cols_V_read => Array2Mat_U0_img_cols_V_read,
+        img_data_stream_V_din => Array2Mat_U0_img_data_stream_V_din,
         img_data_stream_V_full_n => src_data_stream_0_V_full_n,
-        img_data_stream_V_write => AXIM2Mat_U0_img_data_stream_V_write,
-        img_rows_V_out_din => AXIM2Mat_U0_img_rows_V_out_din,
+        img_data_stream_V_write => Array2Mat_U0_img_data_stream_V_write,
+        img_rows_V_out_din => Array2Mat_U0_img_rows_V_out_din,
         img_rows_V_out_full_n => src_rows_V_c8_full_n,
-        img_rows_V_out_write => AXIM2Mat_U0_img_rows_V_out_write,
-        img_cols_V_out_din => AXIM2Mat_U0_img_cols_V_out_din,
+        img_rows_V_out_write => Array2Mat_U0_img_rows_V_out_write,
+        img_cols_V_out_din => Array2Mat_U0_img_cols_V_out_din,
         img_cols_V_out_full_n => src_cols_V_c9_full_n,
-        img_cols_V_out_write => AXIM2Mat_U0_img_cols_V_out_write);
+        img_cols_V_out_write => Array2Mat_U0_img_cols_V_out_write);
 
     Filter2D_U0 : component Filter2D
     port map (
@@ -340,22 +340,22 @@ begin
         p_dst_data_stream_V_full_n => dst_data_stream_0_V_full_n,
         p_dst_data_stream_V_write => Filter2D_U0_p_dst_data_stream_V_write);
 
-    Mat2AXIM_U0 : component Mat2AXIM
+    Mat2Array_U0 : component Mat2Array
     port map (
         ap_clk => ap_clk,
         ap_rst => ap_rst,
-        ap_start => Mat2AXIM_U0_ap_start,
-        ap_done => Mat2AXIM_U0_ap_done,
-        ap_continue => Mat2AXIM_U0_ap_continue,
-        ap_idle => Mat2AXIM_U0_ap_idle,
-        ap_ready => Mat2AXIM_U0_ap_ready,
+        ap_start => Mat2Array_U0_ap_start,
+        ap_done => Mat2Array_U0_ap_done,
+        ap_continue => Mat2Array_U0_ap_continue,
+        ap_idle => Mat2Array_U0_ap_idle,
+        ap_ready => Mat2Array_U0_ap_ready,
         img_data_stream_V_dout => dst_data_stream_0_V_dout,
         img_data_stream_V_empty_n => dst_data_stream_0_V_empty_n,
-        img_data_stream_V_read => Mat2AXIM_U0_img_data_stream_V_read,
-        fb_address0 => Mat2AXIM_U0_fb_address0,
-        fb_ce0 => Mat2AXIM_U0_fb_ce0,
-        fb_we0 => Mat2AXIM_U0_fb_we0,
-        fb_d0 => Mat2AXIM_U0_fb_d0,
+        img_data_stream_V_read => Mat2Array_U0_img_data_stream_V_read,
+        fb_address0 => Mat2Array_U0_fb_address0,
+        fb_ce0 => Mat2Array_U0_fb_ce0,
+        fb_we0 => Mat2Array_U0_fb_we0,
+        fb_d0 => Mat2Array_U0_fb_d0,
         fb_q0 => image_out_q0);
 
     src_rows_V_c_U : component fifo_w5_d2_A
@@ -369,7 +369,7 @@ begin
         if_write => Block_proc_U0_src_rows_V_out_write,
         if_dout => src_rows_V_c_dout,
         if_empty_n => src_rows_V_c_empty_n,
-        if_read => AXIM2Mat_U0_img_rows_V_read);
+        if_read => Array2Mat_U0_img_rows_V_read);
 
     src_cols_V_c_U : component fifo_w5_d2_A
     port map (
@@ -382,7 +382,7 @@ begin
         if_write => Block_proc_U0_src_cols_V_out_write,
         if_dout => src_cols_V_c_dout,
         if_empty_n => src_cols_V_c_empty_n,
-        if_read => AXIM2Mat_U0_img_cols_V_read);
+        if_read => Array2Mat_U0_img_cols_V_read);
 
     src_data_stream_0_V_U : component fifo_w8_d2_A
     port map (
@@ -390,9 +390,9 @@ begin
         reset => ap_rst,
         if_read_ce => ap_const_logic_1,
         if_write_ce => ap_const_logic_1,
-        if_din => AXIM2Mat_U0_img_data_stream_V_din,
+        if_din => Array2Mat_U0_img_data_stream_V_din,
         if_full_n => src_data_stream_0_V_full_n,
-        if_write => AXIM2Mat_U0_img_data_stream_V_write,
+        if_write => Array2Mat_U0_img_data_stream_V_write,
         if_dout => src_data_stream_0_V_dout,
         if_empty_n => src_data_stream_0_V_empty_n,
         if_read => Filter2D_U0_p_src_data_stream_V_read);
@@ -403,9 +403,9 @@ begin
         reset => ap_rst,
         if_read_ce => ap_const_logic_1,
         if_write_ce => ap_const_logic_1,
-        if_din => AXIM2Mat_U0_img_rows_V_out_din,
+        if_din => Array2Mat_U0_img_rows_V_out_din,
         if_full_n => src_rows_V_c8_full_n,
-        if_write => AXIM2Mat_U0_img_rows_V_out_write,
+        if_write => Array2Mat_U0_img_rows_V_out_write,
         if_dout => src_rows_V_c8_dout,
         if_empty_n => src_rows_V_c8_empty_n,
         if_read => Filter2D_U0_p_src_rows_V_read);
@@ -416,9 +416,9 @@ begin
         reset => ap_rst,
         if_read_ce => ap_const_logic_1,
         if_write_ce => ap_const_logic_1,
-        if_din => AXIM2Mat_U0_img_cols_V_out_din,
+        if_din => Array2Mat_U0_img_cols_V_out_din,
         if_full_n => src_cols_V_c9_full_n,
-        if_write => AXIM2Mat_U0_img_cols_V_out_write,
+        if_write => Array2Mat_U0_img_cols_V_out_write,
         if_dout => src_cols_V_c9_dout,
         if_empty_n => src_cols_V_c9_empty_n,
         if_read => Filter2D_U0_p_src_cols_V_read);
@@ -434,7 +434,7 @@ begin
         if_write => Filter2D_U0_p_dst_data_stream_V_write,
         if_dout => dst_data_stream_0_V_dout,
         if_empty_n => dst_data_stream_0_V_empty_n,
-        if_read => Mat2AXIM_U0_img_data_stream_V_read);
+        if_read => Mat2Array_U0_img_data_stream_V_read);
 
     start_for_Filter2eOg_U : component start_for_Filter2eOg
     port map (
@@ -444,7 +444,7 @@ begin
         if_write_ce => ap_const_logic_1,
         if_din => start_for_Filter2D_U0_din,
         if_full_n => start_for_Filter2D_U0_full_n,
-        if_write => AXIM2Mat_U0_start_write,
+        if_write => Array2Mat_U0_start_write,
         if_dout => start_for_Filter2D_U0_dout,
         if_empty_n => start_for_Filter2D_U0_empty_n,
         if_read => Filter2D_U0_ap_ready);
@@ -453,16 +453,16 @@ begin
 
 
 
-    ap_sync_reg_AXIM2Mat_U0_ap_ready_assign_proc : process(ap_clk)
+    ap_sync_reg_Array2Mat_U0_ap_ready_assign_proc : process(ap_clk)
     begin
         if (ap_clk'event and ap_clk =  '1') then
             if (ap_rst = '1') then
-                ap_sync_reg_AXIM2Mat_U0_ap_ready <= ap_const_logic_0;
+                ap_sync_reg_Array2Mat_U0_ap_ready <= ap_const_logic_0;
             else
                 if (((ap_sync_ready and ap_start) = ap_const_logic_1)) then 
-                    ap_sync_reg_AXIM2Mat_U0_ap_ready <= ap_const_logic_0;
+                    ap_sync_reg_Array2Mat_U0_ap_ready <= ap_const_logic_0;
                 else 
-                    ap_sync_reg_AXIM2Mat_U0_ap_ready <= ap_sync_AXIM2Mat_U0_ap_ready;
+                    ap_sync_reg_Array2Mat_U0_ap_ready <= ap_sync_Array2Mat_U0_ap_ready;
                 end if; 
             end if;
         end if;
@@ -485,29 +485,29 @@ begin
     end process;
 
 
-    ap_sync_reg_Mat2AXIM_U0_ap_ready_assign_proc : process(ap_clk)
+    ap_sync_reg_Mat2Array_U0_ap_ready_assign_proc : process(ap_clk)
     begin
         if (ap_clk'event and ap_clk =  '1') then
             if (ap_rst = '1') then
-                ap_sync_reg_Mat2AXIM_U0_ap_ready <= ap_const_logic_0;
+                ap_sync_reg_Mat2Array_U0_ap_ready <= ap_const_logic_0;
             else
                 if (((ap_sync_ready and ap_start) = ap_const_logic_1)) then 
-                    ap_sync_reg_Mat2AXIM_U0_ap_ready <= ap_const_logic_0;
+                    ap_sync_reg_Mat2Array_U0_ap_ready <= ap_const_logic_0;
                 else 
-                    ap_sync_reg_Mat2AXIM_U0_ap_ready <= ap_sync_Mat2AXIM_U0_ap_ready;
+                    ap_sync_reg_Mat2Array_U0_ap_ready <= ap_sync_Mat2Array_U0_ap_ready;
                 end if; 
             end if;
         end if;
     end process;
 
 
-    AXIM2Mat_U0_ap_ready_count_assign_proc : process (ap_clk)
+    Array2Mat_U0_ap_ready_count_assign_proc : process (ap_clk)
     begin
         if (ap_clk'event and ap_clk = '1') then
-            if (((ap_const_logic_0 = AXIM2Mat_U0_ap_ready) and (ap_sync_ready = ap_const_logic_1))) then 
-                AXIM2Mat_U0_ap_ready_count <= std_logic_vector(unsigned(AXIM2Mat_U0_ap_ready_count) - unsigned(ap_const_lv2_1));
-            elsif (((ap_sync_ready = ap_const_logic_0) and (ap_const_logic_1 = AXIM2Mat_U0_ap_ready))) then 
-                AXIM2Mat_U0_ap_ready_count <= std_logic_vector(unsigned(AXIM2Mat_U0_ap_ready_count) + unsigned(ap_const_lv2_1));
+            if (((ap_const_logic_0 = Array2Mat_U0_ap_ready) and (ap_sync_ready = ap_const_logic_1))) then 
+                Array2Mat_U0_ap_ready_count <= std_logic_vector(unsigned(Array2Mat_U0_ap_ready_count) - unsigned(ap_const_lv2_1));
+            elsif (((ap_sync_ready = ap_const_logic_0) and (ap_const_logic_1 = Array2Mat_U0_ap_ready))) then 
+                Array2Mat_U0_ap_ready_count <= std_logic_vector(unsigned(Array2Mat_U0_ap_ready_count) + unsigned(ap_const_lv2_1));
             end if; 
         end if;
     end process;
@@ -523,18 +523,18 @@ begin
         end if;
     end process;
 
-    Mat2AXIM_U0_ap_ready_count_assign_proc : process (ap_clk)
+    Mat2Array_U0_ap_ready_count_assign_proc : process (ap_clk)
     begin
         if (ap_clk'event and ap_clk = '1') then
-            if (((ap_const_logic_0 = Mat2AXIM_U0_ap_ready) and (ap_sync_ready = ap_const_logic_1))) then 
-                Mat2AXIM_U0_ap_ready_count <= std_logic_vector(unsigned(Mat2AXIM_U0_ap_ready_count) - unsigned(ap_const_lv2_1));
-            elsif (((ap_sync_ready = ap_const_logic_0) and (ap_const_logic_1 = Mat2AXIM_U0_ap_ready))) then 
-                Mat2AXIM_U0_ap_ready_count <= std_logic_vector(unsigned(Mat2AXIM_U0_ap_ready_count) + unsigned(ap_const_lv2_1));
+            if (((ap_const_logic_0 = Mat2Array_U0_ap_ready) and (ap_sync_ready = ap_const_logic_1))) then 
+                Mat2Array_U0_ap_ready_count <= std_logic_vector(unsigned(Mat2Array_U0_ap_ready_count) - unsigned(ap_const_lv2_1));
+            elsif (((ap_sync_ready = ap_const_logic_0) and (ap_const_logic_1 = Mat2Array_U0_ap_ready))) then 
+                Mat2Array_U0_ap_ready_count <= std_logic_vector(unsigned(Mat2Array_U0_ap_ready_count) + unsigned(ap_const_lv2_1));
             end if; 
         end if;
     end process;
-    AXIM2Mat_U0_ap_continue <= ap_const_logic_1;
-    AXIM2Mat_U0_ap_start <= ((ap_sync_reg_AXIM2Mat_U0_ap_ready xor ap_const_logic_1) and ap_start);
+    Array2Mat_U0_ap_continue <= ap_const_logic_1;
+    Array2Mat_U0_ap_start <= ((ap_sync_reg_Array2Mat_U0_ap_ready xor ap_const_logic_1) and ap_start);
     Block_proc_U0_ap_continue <= ap_const_logic_1;
     Block_proc_U0_ap_start <= ((ap_sync_reg_Block_proc_U0_ap_ready xor ap_const_logic_1) and ap_start);
     Block_proc_U0_start_full_n <= ap_const_logic_1;
@@ -543,26 +543,26 @@ begin
     Filter2D_U0_ap_start <= start_for_Filter2D_U0_empty_n;
     Filter2D_U0_start_full_n <= ap_const_logic_1;
     Filter2D_U0_start_write <= ap_const_logic_0;
-    Mat2AXIM_U0_ap_continue <= ap_const_logic_1;
-    Mat2AXIM_U0_ap_start <= ((ap_sync_reg_Mat2AXIM_U0_ap_ready xor ap_const_logic_1) and ap_start);
-    Mat2AXIM_U0_start_full_n <= ap_const_logic_1;
-    Mat2AXIM_U0_start_write <= ap_const_logic_0;
-    ap_done <= Mat2AXIM_U0_ap_done;
-    ap_idle <= (Mat2AXIM_U0_ap_idle and Filter2D_U0_ap_idle and Block_proc_U0_ap_idle and AXIM2Mat_U0_ap_idle);
+    Mat2Array_U0_ap_continue <= ap_const_logic_1;
+    Mat2Array_U0_ap_start <= ((ap_sync_reg_Mat2Array_U0_ap_ready xor ap_const_logic_1) and ap_start);
+    Mat2Array_U0_start_full_n <= ap_const_logic_1;
+    Mat2Array_U0_start_write <= ap_const_logic_0;
+    ap_done <= Mat2Array_U0_ap_done;
+    ap_idle <= (Mat2Array_U0_ap_idle and Filter2D_U0_ap_idle and Block_proc_U0_ap_idle and Array2Mat_U0_ap_idle);
     ap_ready <= ap_sync_ready;
-    ap_sync_AXIM2Mat_U0_ap_ready <= (ap_sync_reg_AXIM2Mat_U0_ap_ready or AXIM2Mat_U0_ap_ready);
+    ap_sync_Array2Mat_U0_ap_ready <= (ap_sync_reg_Array2Mat_U0_ap_ready or Array2Mat_U0_ap_ready);
     ap_sync_Block_proc_U0_ap_ready <= (ap_sync_reg_Block_proc_U0_ap_ready or Block_proc_U0_ap_ready);
-    ap_sync_Mat2AXIM_U0_ap_ready <= (ap_sync_reg_Mat2AXIM_U0_ap_ready or Mat2AXIM_U0_ap_ready);
+    ap_sync_Mat2Array_U0_ap_ready <= (ap_sync_reg_Mat2Array_U0_ap_ready or Mat2Array_U0_ap_ready);
     ap_sync_continue <= ap_const_logic_1;
-    ap_sync_done <= Mat2AXIM_U0_ap_done;
-    ap_sync_ready <= (ap_sync_Mat2AXIM_U0_ap_ready and ap_sync_Block_proc_U0_ap_ready and ap_sync_AXIM2Mat_U0_ap_ready);
-    image_in_address0 <= AXIM2Mat_U0_fb_address0;
-    image_in_ce0 <= AXIM2Mat_U0_fb_ce0;
+    ap_sync_done <= Mat2Array_U0_ap_done;
+    ap_sync_ready <= (ap_sync_Mat2Array_U0_ap_ready and ap_sync_Block_proc_U0_ap_ready and ap_sync_Array2Mat_U0_ap_ready);
+    image_in_address0 <= Array2Mat_U0_fb_address0;
+    image_in_ce0 <= Array2Mat_U0_fb_ce0;
     image_in_d0 <= ap_const_lv32_0;
     image_in_we0 <= ap_const_logic_0;
-    image_out_address0 <= Mat2AXIM_U0_fb_address0;
-    image_out_ce0 <= Mat2AXIM_U0_fb_ce0;
-    image_out_d0 <= Mat2AXIM_U0_fb_d0;
-    image_out_we0 <= Mat2AXIM_U0_fb_we0;
+    image_out_address0 <= Mat2Array_U0_fb_address0;
+    image_out_ce0 <= Mat2Array_U0_fb_ce0;
+    image_out_d0 <= Mat2Array_U0_fb_d0;
+    image_out_we0 <= Mat2Array_U0_fb_we0;
     start_for_Filter2D_U0_din <= (0=>ap_const_logic_1, others=>'-');
 end behav;

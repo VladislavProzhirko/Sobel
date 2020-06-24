@@ -8,7 +8,7 @@ fifo_w5_d2_A
 fifo_w8_d2_A
 start_for_Filter2eOg
 Block_proc
-AXIM2Mat
+Array2Mat
 Filter2D
-Mat2AXIM
+Mat2Array
 Sobel

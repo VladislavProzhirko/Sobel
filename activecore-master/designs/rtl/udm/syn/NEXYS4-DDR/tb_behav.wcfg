@@ -11,13 +11,13 @@
       </db_ref>
    </db_ref_list>
    <zoom_setting>
-      <ZoomStartTime time="0fs"></ZoomStartTime>
-      <ZoomEndTime time="142401fs"></ZoomEndTime>
-      <Cursor1Time time="11305000fs"></Cursor1Time>
+      <ZoomStartTime time="466305000fs"></ZoomStartTime>
+      <ZoomEndTime time="516705001fs"></ZoomEndTime>
+      <Cursor1Time time="508305000fs"></Cursor1Time>
    </zoom_setting>
    <column_width_setting>
       <NameColumnWidth column_width="177"></NameColumnWidth>
-      <ValueColumnWidth column_width="69"></ValueColumnWidth>
+      <ValueColumnWidth column_width="72"></ValueColumnWidth>
    </column_width_setting>
    <WVObjectSize size="14" />
    <wvobject fp_name="/tb/DUT/Sobel_my/image_in_address0" type="array">
@@ -56,9 +56,10 @@
       <obj_property name="ElementShortName">ram[0:1023][31:0]</obj_property>
       <obj_property name="ObjectShortName">ram[0:1023][31:0]</obj_property>
    </wvobject>
-   <wvobject fp_name="/tb/DUT/testmem_put/ram" type="array">
+   <wvobject fp_name="/tb/DUT/testmem_out/ram" type="array">
       <obj_property name="ElementShortName">ram[0:1023][31:0]</obj_property>
       <obj_property name="ObjectShortName">ram[0:1023][31:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
    </wvobject>
    <wvobject fp_name="/tb/DUT/testmem_udm_enb" type="logic">
       <obj_property name="ElementShortName">testmem_udm_enb</obj_property>

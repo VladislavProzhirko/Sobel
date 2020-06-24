@@ -3,7 +3,7 @@
 ================================================================
 == Vivado HLS Report for 'Sobel'
 ================================================================
-* Date:           Tue Jun 23 00:54:52 2020
+* Date:           Wed Jun 24 15:51:45 2020
 
 * Version:        2019.2 (Build 2704478 on Wed Nov 06 22:10:23 MST 2019)
 * Project:        Vivado_Sobel_v3
@@ -39,8 +39,8 @@
         |    Instance   |   Module   |   min   |   max   |    min    |    max   | min | max |   Type  |
         +---------------+------------+---------+---------+-----------+----------+-----+-----+---------+
         |Filter2D_U0    |Filter2D    |      127|      209|  1.270 us | 2.090 us |  127|  209|   none  |
-        |AXIM2Mat_U0    |AXIM2Mat    |        1|      141| 10.000 ns | 1.410 us |    1|  141|   none  |
-        |Mat2AXIM_U0    |Mat2AXIM    |      231|      231|  2.310 us | 2.310 us |  231|  231|   none  |
+        |Array2Mat_U0   |Array2Mat   |        1|      141| 10.000 ns | 1.410 us |    1|  141|   none  |
+        |Mat2Array_U0   |Mat2Array   |      231|      231|  2.310 us | 2.310 us |  231|  231|   none  |
         |Block_proc_U0  |Block_proc  |        0|        0|    0 ns   |   0 ns   |    0|    0|   none  |
         +---------------+------------+---------+---------+-----------+----------+-----+-----+---------+
 
@@ -76,10 +76,10 @@
     +---------------+------------+---------+-------+-----+------+-----+
     |    Instance   |   Module   | BRAM_18K| DSP48E|  FF |  LUT | URAM|
     +---------------+------------+---------+-------+-----+------+-----+
-    |AXIM2Mat_U0    |AXIM2Mat    |        0|      0|  194|   621|    0|
+    |Array2Mat_U0   |Array2Mat   |        0|      0|  194|   621|    0|
     |Block_proc_U0  |Block_proc  |        0|      0|    2|    29|    0|
     |Filter2D_U0    |Filter2D    |        0|      0|  486|  1368|    0|
-    |Mat2AXIM_U0    |Mat2AXIM    |        0|      0|   71|   711|    0|
+    |Mat2Array_U0   |Mat2Array   |        0|      0|   71|   711|    0|
     +---------------+------------+---------+-------+-----+------+-----+
     |Total          |            |        0|      0|  753|  2729|    0|
     +---------------+------------+---------+-------+-----+------+-----+
@@ -108,17 +108,17 @@
     +--------------------------------+----------+-------+---+----+------------+------------+
     |          Variable Name         | Operation| DSP48E| FF| LUT| Bitwidth P0| Bitwidth P1|
     +--------------------------------+----------+-------+---+----+------------+------------+
-    |AXIM2Mat_U0_ap_ready_count      |     +    |      0|  0|  10|           2|           1|
+    |Array2Mat_U0_ap_ready_count     |     +    |      0|  0|  10|           2|           1|
     |Block_proc_U0_ap_ready_count    |     +    |      0|  0|  10|           2|           1|
-    |Mat2AXIM_U0_ap_ready_count      |     +    |      0|  0|  10|           2|           1|
-    |AXIM2Mat_U0_ap_start            |    and   |      0|  0|   2|           1|           1|
+    |Mat2Array_U0_ap_ready_count     |     +    |      0|  0|  10|           2|           1|
+    |Array2Mat_U0_ap_start           |    and   |      0|  0|   2|           1|           1|
     |Block_proc_U0_ap_start          |    and   |      0|  0|   2|           1|           1|
-    |Mat2AXIM_U0_ap_start            |    and   |      0|  0|   2|           1|           1|
+    |Mat2Array_U0_ap_start           |    and   |      0|  0|   2|           1|           1|
     |ap_idle                         |    and   |      0|  0|   2|           1|           1|
     |ap_sync_ready                   |    and   |      0|  0|   2|           1|           1|
-    |ap_sync_AXIM2Mat_U0_ap_ready    |    or    |      0|  0|   2|           1|           1|
+    |ap_sync_Array2Mat_U0_ap_ready   |    or    |      0|  0|   2|           1|           1|
     |ap_sync_Block_proc_U0_ap_ready  |    or    |      0|  0|   2|           1|           1|
-    |ap_sync_Mat2AXIM_U0_ap_ready    |    or    |      0|  0|   2|           1|           1|
+    |ap_sync_Mat2Array_U0_ap_ready   |    or    |      0|  0|   2|           1|           1|
     +--------------------------------+----------+-------+---+----+------------+------------+
     |Total                           |          |      0|  0|  46|          14|          11|
     +--------------------------------+----------+-------+---+----+------------+------------+
@@ -127,12 +127,12 @@
     +------------------------------------+----+-----------+-----+-----------+
     |                Name                | LUT| Input Size| Bits| Total Bits|
     +------------------------------------+----+-----------+-----+-----------+
-    |AXIM2Mat_U0_ap_ready_count          |   9|          2|    2|          4|
+    |Array2Mat_U0_ap_ready_count         |   9|          2|    2|          4|
     |Block_proc_U0_ap_ready_count        |   9|          2|    2|          4|
-    |Mat2AXIM_U0_ap_ready_count          |   9|          2|    2|          4|
-    |ap_sync_reg_AXIM2Mat_U0_ap_ready    |   9|          2|    1|          2|
+    |Mat2Array_U0_ap_ready_count         |   9|          2|    2|          4|
+    |ap_sync_reg_Array2Mat_U0_ap_ready   |   9|          2|    1|          2|
     |ap_sync_reg_Block_proc_U0_ap_ready  |   9|          2|    1|          2|
-    |ap_sync_reg_Mat2AXIM_U0_ap_ready    |   9|          2|    1|          2|
+    |ap_sync_reg_Mat2Array_U0_ap_ready   |   9|          2|    1|          2|
     +------------------------------------+----+-----------+-----+-----------+
     |Total                               |  54|         12|    9|         18|
     +------------------------------------+----+-----------+-----+-----------+
@@ -141,12 +141,12 @@
     +------------------------------------+---+----+-----+-----------+
     |                Name                | FF| LUT| Bits| Const Bits|
     +------------------------------------+---+----+-----+-----------+
-    |AXIM2Mat_U0_ap_ready_count          |  2|   0|    2|          0|
+    |Array2Mat_U0_ap_ready_count         |  2|   0|    2|          0|
     |Block_proc_U0_ap_ready_count        |  2|   0|    2|          0|
-    |Mat2AXIM_U0_ap_ready_count          |  2|   0|    2|          0|
-    |ap_sync_reg_AXIM2Mat_U0_ap_ready    |  1|   0|    1|          0|
+    |Mat2Array_U0_ap_ready_count         |  2|   0|    2|          0|
+    |ap_sync_reg_Array2Mat_U0_ap_ready   |  1|   0|    1|          0|
     |ap_sync_reg_Block_proc_U0_ap_ready  |  1|   0|    1|          0|
-    |ap_sync_reg_Mat2AXIM_U0_ap_ready    |  1|   0|    1|          0|
+    |ap_sync_reg_Mat2Array_U0_ap_ready   |  1|   0|    1|          0|
     +------------------------------------+---+----+-----+-----------+
     |Total                               |  9|   0|    9|          0|
     +------------------------------------+---+----+-----+-----------+
@@ -230,10 +230,10 @@ ST_1 : Operation 13 [1/1] (0.00ns)   --->   "%dst_data_stream_0_V = alloca i8, a
 ST_1 : Operation 14 [1/1] (0.00ns)   --->   "call fastcc void @Block__proc(i5* %src_rows_V_c, i5* %src_cols_V_c)"   --->   Operation 14 'call' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
 
 State 2 <SV = 1> <Delay = 0.00>
-ST_2 : Operation 15 [2/2] (0.00ns)   --->   "call fastcc void @AXIM2Mat([25 x i32]* %image_in, i5* nocapture %src_rows_V_c, i5* nocapture %src_cols_V_c, i8* %src_data_stream_0_V, i5* %src_rows_V_c8, i5* %src_cols_V_c9)"   --->   Operation 15 'call' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+ST_2 : Operation 15 [2/2] (0.00ns)   --->   "call fastcc void @Array2Mat([25 x i32]* %image_in, i5* nocapture %src_rows_V_c, i5* nocapture %src_cols_V_c, i8* %src_data_stream_0_V, i5* %src_rows_V_c8, i5* %src_cols_V_c9)"   --->   Operation 15 'call' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
 
 State 3 <SV = 2> <Delay = 0.00>
-ST_3 : Operation 16 [1/2] (0.00ns)   --->   "call fastcc void @AXIM2Mat([25 x i32]* %image_in, i5* nocapture %src_rows_V_c, i5* nocapture %src_cols_V_c, i8* %src_data_stream_0_V, i5* %src_rows_V_c8, i5* %src_cols_V_c9)"   --->   Operation 16 'call' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+ST_3 : Operation 16 [1/2] (0.00ns)   --->   "call fastcc void @Array2Mat([25 x i32]* %image_in, i5* nocapture %src_rows_V_c, i5* nocapture %src_cols_V_c, i8* %src_data_stream_0_V, i5* %src_rows_V_c8, i5* %src_cols_V_c9)"   --->   Operation 16 'call' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
 
 State 4 <SV = 3> <Delay = 0.00>
 ST_4 : Operation 17 [2/2] (0.00ns)   --->   "call fastcc void @Filter2D(i5* nocapture %src_rows_V_c8, i5* nocapture %src_cols_V_c9, i8* %src_data_stream_0_V, i8* %dst_data_stream_0_V)" [Vivado_Sobel_v3/core.cpp:58]   --->   Operation 17 'call' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
@@ -242,10 +242,10 @@ State 5 <SV = 4> <Delay = 0.00>
 ST_5 : Operation 18 [1/2] (0.00ns)   --->   "call fastcc void @Filter2D(i5* nocapture %src_rows_V_c8, i5* nocapture %src_cols_V_c9, i8* %src_data_stream_0_V, i8* %dst_data_stream_0_V)" [Vivado_Sobel_v3/core.cpp:58]   --->   Operation 18 'call' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
 
 State 6 <SV = 5> <Delay = 0.00>
-ST_6 : Operation 19 [2/2] (0.00ns)   --->   "call fastcc void @Mat2AXIM(i8* %dst_data_stream_0_V, [25 x i32]* %image_out)"   --->   Operation 19 'call' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+ST_6 : Operation 19 [2/2] (0.00ns)   --->   "call fastcc void @Mat2Array(i8* %dst_data_stream_0_V, [25 x i32]* %image_out)"   --->   Operation 19 'call' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
 
 State 7 <SV = 6> <Delay = 0.00>
-ST_7 : Operation 20 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecDataflowPipeline(i32 -1, i32 0, [1 x i8]* @p_str) nounwind" [Vivado_Sobel_v3/core.cpp:10]   --->   Operation 20 'specdataflowpipeline' <Predicate = true> <Delay = 0.00>
+ST_7 : Operation 20 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecDataflowPipeline(i32 -1, i32 0, [1 x i8]* @p_str) nounwind" [Vivado_Sobel_v3/core.cpp:12]   --->   Operation 20 'specdataflowpipeline' <Predicate = true> <Delay = 0.00>
 ST_7 : Operation 21 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecBitsMap([25 x i32]* %image_out), !map !216"   --->   Operation 21 'specbitsmap' <Predicate = true> <Delay = 0.00>
 ST_7 : Operation 22 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecBitsMap([25 x i32]* %image_in), !map !237"   --->   Operation 22 'specbitsmap' <Predicate = true> <Delay = 0.00>
 ST_7 : Operation 23 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecTopModule([6 x i8]* @Sobel_str) nounwind"   --->   Operation 23 'spectopmodule' <Predicate = true> <Delay = 0.00>
@@ -263,8 +263,8 @@ ST_7 : Operation 34 [1/1] (0.00ns)   --->   "%empty_53 = call i32 (...)* @_ssdm_
 ST_7 : Operation 35 [1/1] (0.00ns)   --->   "%empty_54 = call i32 (...)* @_ssdm_op_SpecInterface(i5* %src_rows_V_c8, [8 x i8]* @ap_fifo_str, i32 0, i32 0, [1 x i8]* @p_str, i32 0, i32 0, [1 x i8]* @p_str, [1 x i8]* @p_str, [1 x i8]* @p_str, i32 2, i32 2, i32 16, i32 16, [1 x i8]* @p_str, [1 x i8]* @p_str)"   --->   Operation 35 'specinterface' 'empty_54' <Predicate = true> <Delay = 0.00>
 ST_7 : Operation 36 [1/1] (0.00ns)   --->   "%empty_55 = call i32 (...)* @_ssdm_op_SpecChannel([14 x i8]* @src_OC_cols_OC_V_c9_s, i32 1, [1 x i8]* @p_str, [1 x i8]* @p_str, i32 2, i32 0, i5* %src_cols_V_c9, i5* %src_cols_V_c9)"   --->   Operation 36 'specchannel' 'empty_55' <Predicate = true> <Delay = 0.00>
 ST_7 : Operation 37 [1/1] (0.00ns)   --->   "%empty_56 = call i32 (...)* @_ssdm_op_SpecInterface(i5* %src_cols_V_c9, [8 x i8]* @ap_fifo_str, i32 0, i32 0, [1 x i8]* @p_str, i32 0, i32 0, [1 x i8]* @p_str, [1 x i8]* @p_str, [1 x i8]* @p_str, i32 2, i32 2, i32 16, i32 16, [1 x i8]* @p_str, [1 x i8]* @p_str)"   --->   Operation 37 'specinterface' 'empty_56' <Predicate = true> <Delay = 0.00>
-ST_7 : Operation 38 [1/2] (0.00ns)   --->   "call fastcc void @Mat2AXIM(i8* %dst_data_stream_0_V, [25 x i32]* %image_out)"   --->   Operation 38 'call' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
-ST_7 : Operation 39 [1/1] (0.00ns)   --->   "ret void" [Vivado_Sobel_v3/core.cpp:60]   --->   Operation 39 'ret' <Predicate = true> <Delay = 0.00>
+ST_7 : Operation 38 [1/2] (0.00ns)   --->   "call fastcc void @Mat2Array(i8* %dst_data_stream_0_V, [25 x i32]* %image_out)"   --->   Operation 38 'call' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+ST_7 : Operation 39 [1/1] (0.00ns)   --->   "ret void" [Vivado_Sobel_v3/core.cpp:63]   --->   Operation 39 'ret' <Predicate = true> <Delay = 0.00>
 
 
 ============================================================
@@ -295,7 +295,7 @@ dst_data_stream_0_V       (alloca              ) [ 00111111]
 call_ln0                  (call                ) [ 00000000]
 call_ln0                  (call                ) [ 00000000]
 call_ln58                 (call                ) [ 00000000]
-specdataflowpipeline_ln10 (specdataflowpipeline) [ 00000000]
+specdataflowpipeline_ln12 (specdataflowpipeline) [ 00000000]
 specbitsmap_ln0           (specbitsmap         ) [ 00000000]
 specbitsmap_ln0           (specbitsmap         ) [ 00000000]
 spectopmodule_ln0         (spectopmodule       ) [ 00000000]
@@ -314,7 +314,7 @@ empty_54                  (specinterface       ) [ 00000000]
 empty_55                  (specchannel         ) [ 00000000]
 empty_56                  (specinterface       ) [ 00000000]
 call_ln0                  (call                ) [ 00000000]
-ret_ln60                  (ret                 ) [ 00000000]
+ret_ln63                  (ret                 ) [ 00000000]
 </LifeTime>
 
 <model>
@@ -363,7 +363,7 @@ ret_ln60                  (ret                 ) [ 00000000]
 <pin id="9" dir="1" index="0" bw="1" slack="0"/>
 </pin_list>
 <bind>
-<StgValue><ssdm name="AXIM2Mat"/></StgValue>
+<StgValue><ssdm name="Array2Mat"/></StgValue>
 </bind>
 </comp>
 
@@ -381,7 +381,7 @@ ret_ln60                  (ret                 ) [ 00000000]
 <pin id="13" dir="1" index="0" bw="1" slack="0"/>
 </pin_list>
 <bind>
-<StgValue><ssdm name="Mat2AXIM"/></StgValue>
+<StgValue><ssdm name="Mat2Array"/></StgValue>
 </bind>
 </comp>
 
@@ -655,7 +655,7 @@ ret_ln60                  (ret                 ) [ 00000000]
 </bind>
 </comp>
 
-<comp id="88" class="1004" name="grp_AXIM2Mat_fu_88">
+<comp id="88" class="1004" name="grp_Array2Mat_fu_88">
 <pin_list>
 <pin id="89" dir="0" index="0" bw="0" slack="0"/>
 <pin id="90" dir="0" index="1" bw="32" slack="0"/>
@@ -672,7 +672,7 @@ ret_ln60                  (ret                 ) [ 00000000]
 </bind>
 </comp>
 
-<comp id="99" class="1004" name="grp_Mat2AXIM_fu_99">
+<comp id="99" class="1004" name="grp_Mat2Array_fu_99">
 <pin_list>
 <pin id="100" dir="0" index="0" bw="0" slack="0"/>
 <pin id="101" dir="0" index="1" bw="8" slack="5"/>
@@ -852,8 +852,8 @@ ret_ln60                  (ret                 ) [ 00000000]
 | Operation|       Functional Unit      |   BRAM  |  Delay  |    FF   |   LUT   |   URAM  |
 |----------|----------------------------|---------|---------|---------|---------|---------|
 |          |     grp_Filter2D_fu_80     |    0    |   6.24  |   511   |   1240  |    0    |
-|   call   |     grp_AXIM2Mat_fu_88     |    0    |  1.248  |   227   |   401   |    0    |
-|          |     grp_Mat2AXIM_fu_99     |    0    |  1.248  |    76   |   370   |    0    |
+|   call   |     grp_Array2Mat_fu_88    |    0    |  1.248  |   227   |   401   |    0    |
+|          |     grp_Mat2Array_fu_99    |    0    |  1.248  |    76   |   370   |    0    |
 |          | call_ln0_Block_proc_fu_106 |    0    |    0    |    0    |    0    |    0    |
 |----------|----------------------------|---------|---------|---------|---------|---------|
 |   Total  |                            |    0    |  8.736  |   814   |   2011  |    0    |

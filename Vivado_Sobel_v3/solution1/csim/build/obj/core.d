@@ -1,4 +1,5 @@
-obj/core.o: ../../../core.cpp D:/Xilinx/Vivado/2019.2/include/hls_video.h \
+obj/core.o: ../../../core.cpp ../../../core.h \
+ D:/Xilinx/Vivado/2019.2/include/hls_video.h \
  D:/Xilinx/Vivado/2019.2/include/hls/hls_axi_io.h \
  D:/Xilinx/Vivado/2019.2/include/ap_axi_sdata.h \
  D:/Xilinx/Vivado/2019.2/include/ap_int.h \

@@ -12,9 +12,9 @@
 #include "AESL_pkg.h"
 
 #include "Block_proc.h"
-#include "AXIM2Mat.h"
+#include "Array2Mat.h"
 #include "Filter2D.h"
-#include "Mat2AXIM.h"
+#include "Mat2Array.h"
 #include "fifo_w5_d2_A.h"
 #include "fifo_w8_d2_A.h"
 #include "start_for_Filter2eOg.h"
@@ -53,9 +53,9 @@ struct Sobel : public sc_module {
     ofstream mHdltvinHandle;
     ofstream mHdltvoutHandle;
     Block_proc* Block_proc_U0;
-    AXIM2Mat* AXIM2Mat_U0;
+    Array2Mat* Array2Mat_U0;
     Filter2D* Filter2D_U0;
-    Mat2AXIM* Mat2AXIM_U0;
+    Mat2Array* Mat2Array_U0;
     fifo_w5_d2_A* src_rows_V_c_U;
     fifo_w5_d2_A* src_cols_V_c_U;
     fifo_w8_d2_A* src_data_stream_0_V_U;
@@ -72,23 +72,23 @@ struct Sobel : public sc_module {
     sc_signal< sc_logic > Block_proc_U0_src_rows_V_out_write;
     sc_signal< sc_lv<5> > Block_proc_U0_src_cols_V_out_din;
     sc_signal< sc_logic > Block_proc_U0_src_cols_V_out_write;
-    sc_signal< sc_logic > AXIM2Mat_U0_ap_start;
-    sc_signal< sc_logic > AXIM2Mat_U0_ap_done;
-    sc_signal< sc_logic > AXIM2Mat_U0_ap_continue;
-    sc_signal< sc_logic > AXIM2Mat_U0_ap_idle;
-    sc_signal< sc_logic > AXIM2Mat_U0_ap_ready;
-    sc_signal< sc_logic > AXIM2Mat_U0_start_out;
-    sc_signal< sc_logic > AXIM2Mat_U0_start_write;
-    sc_signal< sc_lv<5> > AXIM2Mat_U0_fb_address0;
-    sc_signal< sc_logic > AXIM2Mat_U0_fb_ce0;
-    sc_signal< sc_logic > AXIM2Mat_U0_img_rows_V_read;
-    sc_signal< sc_logic > AXIM2Mat_U0_img_cols_V_read;
-    sc_signal< sc_lv<8> > AXIM2Mat_U0_img_data_stream_V_din;
-    sc_signal< sc_logic > AXIM2Mat_U0_img_data_stream_V_write;
-    sc_signal< sc_lv<5> > AXIM2Mat_U0_img_rows_V_out_din;
-    sc_signal< sc_logic > AXIM2Mat_U0_img_rows_V_out_write;
-    sc_signal< sc_lv<5> > AXIM2Mat_U0_img_cols_V_out_din;
-    sc_signal< sc_logic > AXIM2Mat_U0_img_cols_V_out_write;
+    sc_signal< sc_logic > Array2Mat_U0_ap_start;
+    sc_signal< sc_logic > Array2Mat_U0_ap_done;
+    sc_signal< sc_logic > Array2Mat_U0_ap_continue;
+    sc_signal< sc_logic > Array2Mat_U0_ap_idle;
+    sc_signal< sc_logic > Array2Mat_U0_ap_ready;
+    sc_signal< sc_logic > Array2Mat_U0_start_out;
+    sc_signal< sc_logic > Array2Mat_U0_start_write;
+    sc_signal< sc_lv<5> > Array2Mat_U0_fb_address0;
+    sc_signal< sc_logic > Array2Mat_U0_fb_ce0;
+    sc_signal< sc_logic > Array2Mat_U0_img_rows_V_read;
+    sc_signal< sc_logic > Array2Mat_U0_img_cols_V_read;
+    sc_signal< sc_lv<8> > Array2Mat_U0_img_data_stream_V_din;
+    sc_signal< sc_logic > Array2Mat_U0_img_data_stream_V_write;
+    sc_signal< sc_lv<5> > Array2Mat_U0_img_rows_V_out_din;
+    sc_signal< sc_logic > Array2Mat_U0_img_rows_V_out_write;
+    sc_signal< sc_lv<5> > Array2Mat_U0_img_cols_V_out_din;
+    sc_signal< sc_logic > Array2Mat_U0_img_cols_V_out_write;
     sc_signal< sc_logic > Filter2D_U0_ap_start;
     sc_signal< sc_logic > Filter2D_U0_ap_done;
     sc_signal< sc_logic > Filter2D_U0_ap_continue;
@@ -99,16 +99,16 @@ struct Sobel : public sc_module {
     sc_signal< sc_logic > Filter2D_U0_p_src_data_stream_V_read;
     sc_signal< sc_lv<8> > Filter2D_U0_p_dst_data_stream_V_din;
     sc_signal< sc_logic > Filter2D_U0_p_dst_data_stream_V_write;
-    sc_signal< sc_logic > Mat2AXIM_U0_ap_start;
-    sc_signal< sc_logic > Mat2AXIM_U0_ap_done;
-    sc_signal< sc_logic > Mat2AXIM_U0_ap_continue;
-    sc_signal< sc_logic > Mat2AXIM_U0_ap_idle;
-    sc_signal< sc_logic > Mat2AXIM_U0_ap_ready;
-    sc_signal< sc_logic > Mat2AXIM_U0_img_data_stream_V_read;
-    sc_signal< sc_lv<5> > Mat2AXIM_U0_fb_address0;
-    sc_signal< sc_logic > Mat2AXIM_U0_fb_ce0;
-    sc_signal< sc_logic > Mat2AXIM_U0_fb_we0;
-    sc_signal< sc_lv<32> > Mat2AXIM_U0_fb_d0;
+    sc_signal< sc_logic > Mat2Array_U0_ap_start;
+    sc_signal< sc_logic > Mat2Array_U0_ap_done;
+    sc_signal< sc_logic > Mat2Array_U0_ap_continue;
+    sc_signal< sc_logic > Mat2Array_U0_ap_idle;
+    sc_signal< sc_logic > Mat2Array_U0_ap_ready;
+    sc_signal< sc_logic > Mat2Array_U0_img_data_stream_V_read;
+    sc_signal< sc_lv<5> > Mat2Array_U0_fb_address0;
+    sc_signal< sc_logic > Mat2Array_U0_fb_ce0;
+    sc_signal< sc_logic > Mat2Array_U0_fb_we0;
+    sc_signal< sc_lv<32> > Mat2Array_U0_fb_d0;
     sc_signal< sc_logic > ap_sync_continue;
     sc_signal< sc_logic > src_rows_V_c_full_n;
     sc_signal< sc_lv<5> > src_rows_V_c_dout;
@@ -133,12 +133,12 @@ struct Sobel : public sc_module {
     sc_signal< sc_logic > ap_sync_reg_Block_proc_U0_ap_ready;
     sc_signal< sc_logic > ap_sync_Block_proc_U0_ap_ready;
     sc_signal< sc_lv<2> > Block_proc_U0_ap_ready_count;
-    sc_signal< sc_logic > ap_sync_reg_AXIM2Mat_U0_ap_ready;
-    sc_signal< sc_logic > ap_sync_AXIM2Mat_U0_ap_ready;
-    sc_signal< sc_lv<2> > AXIM2Mat_U0_ap_ready_count;
-    sc_signal< sc_logic > ap_sync_reg_Mat2AXIM_U0_ap_ready;
-    sc_signal< sc_logic > ap_sync_Mat2AXIM_U0_ap_ready;
-    sc_signal< sc_lv<2> > Mat2AXIM_U0_ap_ready_count;
+    sc_signal< sc_logic > ap_sync_reg_Array2Mat_U0_ap_ready;
+    sc_signal< sc_logic > ap_sync_Array2Mat_U0_ap_ready;
+    sc_signal< sc_lv<2> > Array2Mat_U0_ap_ready_count;
+    sc_signal< sc_logic > ap_sync_reg_Mat2Array_U0_ap_ready;
+    sc_signal< sc_logic > ap_sync_Mat2Array_U0_ap_ready;
+    sc_signal< sc_lv<2> > Mat2Array_U0_ap_ready_count;
     sc_signal< sc_logic > Block_proc_U0_start_full_n;
     sc_signal< sc_logic > Block_proc_U0_start_write;
     sc_signal< sc_lv<1> > start_for_Filter2D_U0_din;
@@ -147,8 +147,8 @@ struct Sobel : public sc_module {
     sc_signal< sc_logic > start_for_Filter2D_U0_empty_n;
     sc_signal< sc_logic > Filter2D_U0_start_full_n;
     sc_signal< sc_logic > Filter2D_U0_start_write;
-    sc_signal< sc_logic > Mat2AXIM_U0_start_full_n;
-    sc_signal< sc_logic > Mat2AXIM_U0_start_write;
+    sc_signal< sc_logic > Mat2Array_U0_start_full_n;
+    sc_signal< sc_logic > Mat2Array_U0_start_write;
     static const sc_lv<5> ap_const_lv5_0;
     static const sc_logic ap_const_logic_0;
     static const sc_lv<32> ap_const_lv32_0;
@@ -159,8 +159,8 @@ struct Sobel : public sc_module {
     // Thread declarations
     void thread_ap_var_for_const0();
     void thread_ap_clk_no_reset_();
-    void thread_AXIM2Mat_U0_ap_continue();
-    void thread_AXIM2Mat_U0_ap_start();
+    void thread_Array2Mat_U0_ap_continue();
+    void thread_Array2Mat_U0_ap_start();
     void thread_Block_proc_U0_ap_continue();
     void thread_Block_proc_U0_ap_start();
     void thread_Block_proc_U0_start_full_n();
@@ -169,16 +169,16 @@ struct Sobel : public sc_module {
     void thread_Filter2D_U0_ap_start();
     void thread_Filter2D_U0_start_full_n();
     void thread_Filter2D_U0_start_write();
-    void thread_Mat2AXIM_U0_ap_continue();
-    void thread_Mat2AXIM_U0_ap_start();
-    void thread_Mat2AXIM_U0_start_full_n();
-    void thread_Mat2AXIM_U0_start_write();
+    void thread_Mat2Array_U0_ap_continue();
+    void thread_Mat2Array_U0_ap_start();
+    void thread_Mat2Array_U0_start_full_n();
+    void thread_Mat2Array_U0_start_write();
     void thread_ap_done();
     void thread_ap_idle();
     void thread_ap_ready();
-    void thread_ap_sync_AXIM2Mat_U0_ap_ready();
+    void thread_ap_sync_Array2Mat_U0_ap_ready();
     void thread_ap_sync_Block_proc_U0_ap_ready();
-    void thread_ap_sync_Mat2AXIM_U0_ap_ready();
+    void thread_ap_sync_Mat2Array_U0_ap_ready();
     void thread_ap_sync_continue();
     void thread_ap_sync_done();
     void thread_ap_sync_ready();

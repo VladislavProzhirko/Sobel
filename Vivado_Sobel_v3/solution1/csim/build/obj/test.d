@@ -95,4 +95,5 @@ obj/test.o: ../../../test.cpp \
  D:/Xilinx/Vivado/2019.2/include/hls/hls_video_hough.h \
  D:/Xilinx/Vivado/2019.2/include/hls/hls_video_harris.h \
  D:/Xilinx/Vivado/2019.2/include/hls/hls_video_haar.h \
- D:/Xilinx/Vivado/2019.2/include/hls/hls_video_stereobm.h
+ D:/Xilinx/Vivado/2019.2/include/hls/hls_video_stereobm.h ../../../core.h \
+ D:/Xilinx/Vivado/2019.2/include/hls_video.h

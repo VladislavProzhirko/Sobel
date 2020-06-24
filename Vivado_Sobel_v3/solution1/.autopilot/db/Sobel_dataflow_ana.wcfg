@@ -53,21 +53,21 @@
             <obj_property name="Value_Data">/apatb_Sobel_top/AESL_inst_Sobel/Block_proc_U0/Block_proc_U0_activity.dataflowTxWaveData.OutStanding</obj_property>
             <obj_property name="Detail_Data">/apatb_Sobel_top/AESL_inst_Sobel/Block_proc_U0/Block_proc_U0_activity.dataflowTxTooltipData</obj_property>
          </wvobject>
-         <wvobject type="group" fp_name="/apatb_Sobel_top/AESL_inst_Sobel/AXIM2Mat_U0/AXIM2Mat_U0_activity">
-            <obj_property name="label">AXIM2Mat_U0_activity</obj_property>
+         <wvobject type="group" fp_name="/apatb_Sobel_top/AESL_inst_Sobel/Array2Mat_U0/Array2Mat_U0_activity">
+            <obj_property name="label">Array2Mat_U0_activity</obj_property>
             <obj_property name="DisplayName">label</obj_property>
             <obj_property name="UseFullPath">true</obj_property>
-            <obj_property name="ElementShortName">AXIM2Mat_U0_activity</obj_property>
-            <obj_property name="ObjectShortName">AXIM2Mat_U0_activity</obj_property>
+            <obj_property name="ElementShortName">Array2Mat_U0_activity</obj_property>
+            <obj_property name="ObjectShortName">Array2Mat_U0_activity</obj_property>
             <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
             <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
             <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
             <obj_property name="UseCustomSignalColor">true</obj_property>
             <obj_property name="CustomSignalColor">turquoise</obj_property>
             <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
-            <obj_property name="Render_Data">/apatb_Sobel_top/AESL_inst_Sobel/AXIM2Mat_U0/AXIM2Mat_U0_activity.dataflowTxWaveData.Cycles</obj_property>
-            <obj_property name="Value_Data">/apatb_Sobel_top/AESL_inst_Sobel/AXIM2Mat_U0/AXIM2Mat_U0_activity.dataflowTxWaveData.OutStanding</obj_property>
-            <obj_property name="Detail_Data">/apatb_Sobel_top/AESL_inst_Sobel/AXIM2Mat_U0/AXIM2Mat_U0_activity.dataflowTxTooltipData</obj_property>
+            <obj_property name="Render_Data">/apatb_Sobel_top/AESL_inst_Sobel/Array2Mat_U0/Array2Mat_U0_activity.dataflowTxWaveData.Cycles</obj_property>
+            <obj_property name="Value_Data">/apatb_Sobel_top/AESL_inst_Sobel/Array2Mat_U0/Array2Mat_U0_activity.dataflowTxWaveData.OutStanding</obj_property>
+            <obj_property name="Detail_Data">/apatb_Sobel_top/AESL_inst_Sobel/Array2Mat_U0/Array2Mat_U0_activity.dataflowTxTooltipData</obj_property>
          </wvobject>
          <wvobject type="group" fp_name="/apatb_Sobel_top/AESL_inst_Sobel/Filter2D_U0/Filter2D_U0_activity">
             <obj_property name="label">Filter2D_U0_activity</obj_property>
@@ -85,21 +85,21 @@
             <obj_property name="Value_Data">/apatb_Sobel_top/AESL_inst_Sobel/Filter2D_U0/Filter2D_U0_activity.dataflowTxWaveData.OutStanding</obj_property>
             <obj_property name="Detail_Data">/apatb_Sobel_top/AESL_inst_Sobel/Filter2D_U0/Filter2D_U0_activity.dataflowTxTooltipData</obj_property>
          </wvobject>
-         <wvobject type="group" fp_name="/apatb_Sobel_top/AESL_inst_Sobel/Mat2AXIM_U0/Mat2AXIM_U0_activity">
-            <obj_property name="label">Mat2AXIM_U0_activity</obj_property>
+         <wvobject type="group" fp_name="/apatb_Sobel_top/AESL_inst_Sobel/Mat2Array_U0/Mat2Array_U0_activity">
+            <obj_property name="label">Mat2Array_U0_activity</obj_property>
             <obj_property name="DisplayName">label</obj_property>
             <obj_property name="UseFullPath">true</obj_property>
-            <obj_property name="ElementShortName">Mat2AXIM_U0_activity</obj_property>
-            <obj_property name="ObjectShortName">Mat2AXIM_U0_activity</obj_property>
+            <obj_property name="ElementShortName">Mat2Array_U0_activity</obj_property>
+            <obj_property name="ObjectShortName">Mat2Array_U0_activity</obj_property>
             <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
             <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
             <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
             <obj_property name="UseCustomSignalColor">true</obj_property>
             <obj_property name="CustomSignalColor">turquoise</obj_property>
             <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
-            <obj_property name="Render_Data">/apatb_Sobel_top/AESL_inst_Sobel/Mat2AXIM_U0/Mat2AXIM_U0_activity.dataflowTxWaveData.Cycles</obj_property>
-            <obj_property name="Value_Data">/apatb_Sobel_top/AESL_inst_Sobel/Mat2AXIM_U0/Mat2AXIM_U0_activity.dataflowTxWaveData.OutStanding</obj_property>
-            <obj_property name="Detail_Data">/apatb_Sobel_top/AESL_inst_Sobel/Mat2AXIM_U0/Mat2AXIM_U0_activity.dataflowTxTooltipData</obj_property>
+            <obj_property name="Render_Data">/apatb_Sobel_top/AESL_inst_Sobel/Mat2Array_U0/Mat2Array_U0_activity.dataflowTxWaveData.Cycles</obj_property>
+            <obj_property name="Value_Data">/apatb_Sobel_top/AESL_inst_Sobel/Mat2Array_U0/Mat2Array_U0_activity.dataflowTxWaveData.OutStanding</obj_property>
+            <obj_property name="Detail_Data">/apatb_Sobel_top/AESL_inst_Sobel/Mat2Array_U0/Mat2Array_U0_activity.dataflowTxTooltipData</obj_property>
          </wvobject>
       </wvobject>
    </wvobject>
@@ -114,17 +114,17 @@
          <obj_property name="ElementShortName">Block_proc_U0_activity</obj_property>
          <obj_property name="ObjectShortName">Block_proc_U0_activity</obj_property>
       </wvobject>
-      <wvobject type="protoinst" fp_name="/apatb_Sobel_top/AESL_inst_Sobel/AXIM2Mat_U0/AXIM2Mat_U0_activity">
-         <obj_property name="ElementShortName">AXIM2Mat_U0_activity</obj_property>
-         <obj_property name="ObjectShortName">AXIM2Mat_U0_activity</obj_property>
+      <wvobject type="protoinst" fp_name="/apatb_Sobel_top/AESL_inst_Sobel/Array2Mat_U0/Array2Mat_U0_activity">
+         <obj_property name="ElementShortName">Array2Mat_U0_activity</obj_property>
+         <obj_property name="ObjectShortName">Array2Mat_U0_activity</obj_property>
       </wvobject>
       <wvobject type="protoinst" fp_name="/apatb_Sobel_top/AESL_inst_Sobel/Filter2D_U0/Filter2D_U0_activity">
          <obj_property name="ElementShortName">Filter2D_U0_activity</obj_property>
          <obj_property name="ObjectShortName">Filter2D_U0_activity</obj_property>
       </wvobject>
-      <wvobject type="protoinst" fp_name="/apatb_Sobel_top/AESL_inst_Sobel/Mat2AXIM_U0/Mat2AXIM_U0_activity">
-         <obj_property name="ElementShortName">Mat2AXIM_U0_activity</obj_property>
-         <obj_property name="ObjectShortName">Mat2AXIM_U0_activity</obj_property>
+      <wvobject type="protoinst" fp_name="/apatb_Sobel_top/AESL_inst_Sobel/Mat2Array_U0/Mat2Array_U0_activity">
+         <obj_property name="ElementShortName">Mat2Array_U0_activity</obj_property>
+         <obj_property name="ObjectShortName">Mat2Array_U0_activity</obj_property>
       </wvobject>
       <wvobject type="group" fp_name="AESL_inst_Sobel_Handshake_group">
          <obj_property name="label">Block-level handshake</obj_property>
@@ -210,24 +210,24 @@
             </wvobject>
          </wvobject>
       </wvobject>
-      <wvobject type="group" fp_name="AXIM2Mat_U0_group">
-         <obj_property name="label">AXIM2Mat_U0</obj_property>
+      <wvobject type="group" fp_name="Array2Mat_U0_group">
+         <obj_property name="label">Array2Mat_U0</obj_property>
          <obj_property name="DisplayName">label</obj_property>
-         <wvobject type="group" fp_name="AXIM2Mat_U0_Input_group">
+         <wvobject type="group" fp_name="Array2Mat_U0_Input_group">
             <obj_property name="label">Input Channels</obj_property>
             <obj_property name="DisplayName">label</obj_property>
             <wvobject type="group" fp_name="fb_group">
                <obj_property name="label">fb(PIPO)</obj_property>
                <obj_property name="DisplayName">label</obj_property>
-               <wvobject type="logic" fp_name="/apatb_Sobel_top/AESL_inst_Sobel/AXIM2Mat_U0/fb_address0">
+               <wvobject type="logic" fp_name="/apatb_Sobel_top/AESL_inst_Sobel/Array2Mat_U0/fb_address0">
                </wvobject>
-               <wvobject type="logic" fp_name="/apatb_Sobel_top/AESL_inst_Sobel/AXIM2Mat_U0/fb_q0">
+               <wvobject type="logic" fp_name="/apatb_Sobel_top/AESL_inst_Sobel/Array2Mat_U0/fb_q0">
                </wvobject>
-               <wvobject type="logic" fp_name="/apatb_Sobel_top/AESL_inst_Sobel/AXIM2Mat_U0/fb_ce0">
+               <wvobject type="logic" fp_name="/apatb_Sobel_top/AESL_inst_Sobel/Array2Mat_U0/fb_ce0">
                   <obj_property name="ElementShortName">fb_ce0</obj_property>
                   <obj_property name="ObjectShortName">fb_ce0</obj_property>
                </wvobject>
-               <wvobject type="logic" fp_name="/apatb_Sobel_top/AESL_inst_Sobel/AXIM2Mat_U0/ap_ready">
+               <wvobject type="logic" fp_name="/apatb_Sobel_top/AESL_inst_Sobel/Array2Mat_U0/ap_ready">
                   <obj_property name="ElementShortName">ap_ready</obj_property>
                   <obj_property name="ObjectShortName">ap_ready</obj_property>
                   <obj_property name="label">ap_ready(t_read)</obj_property>
@@ -237,19 +237,19 @@
             <wvobject type="group" fp_name="img_rows_V_group">
                <obj_property name="label">img_rows_V(src_rows_V_c_U, FIFO)</obj_property>
                <obj_property name="DisplayName">label</obj_property>
-               <wvobject type="logic" fp_name="/apatb_Sobel_top/AESL_inst_Sobel/AXIM2Mat_U0/img_rows_V_blk_n">
+               <wvobject type="logic" fp_name="/apatb_Sobel_top/AESL_inst_Sobel/Array2Mat_U0/img_rows_V_blk_n">
                   <obj_property name="ElementShortName">img_rows_V_blk_n</obj_property>
                   <obj_property name="ObjectShortName">img_rows_V_blk_n</obj_property>
                </wvobject>
-               <wvobject type="logic" fp_name="/apatb_Sobel_top/AESL_inst_Sobel/AXIM2Mat_U0/img_rows_V_dout">
+               <wvobject type="logic" fp_name="/apatb_Sobel_top/AESL_inst_Sobel/Array2Mat_U0/img_rows_V_dout">
                   <obj_property name="ElementShortName">img_rows_V_dout[4:0]</obj_property>
                   <obj_property name="ObjectShortName">img_rows_V_dout[4:0]</obj_property>
                </wvobject>
-               <wvobject type="logic" fp_name="/apatb_Sobel_top/AESL_inst_Sobel/AXIM2Mat_U0/img_rows_V_empty_n">
+               <wvobject type="logic" fp_name="/apatb_Sobel_top/AESL_inst_Sobel/Array2Mat_U0/img_rows_V_empty_n">
                   <obj_property name="ElementShortName">img_rows_V_empty_n</obj_property>
                   <obj_property name="ObjectShortName">img_rows_V_empty_n</obj_property>
                </wvobject>
-               <wvobject type="logic" fp_name="/apatb_Sobel_top/AESL_inst_Sobel/AXIM2Mat_U0/img_rows_V_read">
+               <wvobject type="logic" fp_name="/apatb_Sobel_top/AESL_inst_Sobel/Array2Mat_U0/img_rows_V_read">
                   <obj_property name="ElementShortName">img_rows_V_read</obj_property>
                   <obj_property name="ObjectShortName">img_rows_V_read</obj_property>
                </wvobject>
@@ -257,65 +257,65 @@
             <wvobject type="group" fp_name="img_cols_V_group">
                <obj_property name="label">img_cols_V(src_cols_V_c_U, FIFO)</obj_property>
                <obj_property name="DisplayName">label</obj_property>
-               <wvobject type="logic" fp_name="/apatb_Sobel_top/AESL_inst_Sobel/AXIM2Mat_U0/img_cols_V_blk_n">
+               <wvobject type="logic" fp_name="/apatb_Sobel_top/AESL_inst_Sobel/Array2Mat_U0/img_cols_V_blk_n">
                   <obj_property name="ElementShortName">img_cols_V_blk_n</obj_property>
                   <obj_property name="ObjectShortName">img_cols_V_blk_n</obj_property>
                </wvobject>
-               <wvobject type="logic" fp_name="/apatb_Sobel_top/AESL_inst_Sobel/AXIM2Mat_U0/img_cols_V_dout">
+               <wvobject type="logic" fp_name="/apatb_Sobel_top/AESL_inst_Sobel/Array2Mat_U0/img_cols_V_dout">
                   <obj_property name="ElementShortName">img_cols_V_dout[4:0]</obj_property>
                   <obj_property name="ObjectShortName">img_cols_V_dout[4:0]</obj_property>
                </wvobject>
-               <wvobject type="logic" fp_name="/apatb_Sobel_top/AESL_inst_Sobel/AXIM2Mat_U0/img_cols_V_empty_n">
+               <wvobject type="logic" fp_name="/apatb_Sobel_top/AESL_inst_Sobel/Array2Mat_U0/img_cols_V_empty_n">
                   <obj_property name="ElementShortName">img_cols_V_empty_n</obj_property>
                   <obj_property name="ObjectShortName">img_cols_V_empty_n</obj_property>
                </wvobject>
-               <wvobject type="logic" fp_name="/apatb_Sobel_top/AESL_inst_Sobel/AXIM2Mat_U0/img_cols_V_read">
+               <wvobject type="logic" fp_name="/apatb_Sobel_top/AESL_inst_Sobel/Array2Mat_U0/img_cols_V_read">
                   <obj_property name="ElementShortName">img_cols_V_read</obj_property>
                   <obj_property name="ObjectShortName">img_cols_V_read</obj_property>
                </wvobject>
             </wvobject>
          </wvobject>
-         <wvobject type="group" fp_name="AXIM2Mat_U0_Handshake_group">
+         <wvobject type="group" fp_name="Array2Mat_U0_Handshake_group">
             <obj_property name="label">Block-level handshake</obj_property>
             <obj_property name="DisplayName">label</obj_property>
-            <wvobject type="logic" fp_name="/apatb_Sobel_top/AESL_inst_Sobel/AXIM2Mat_U0/ap_start">
+            <wvobject type="logic" fp_name="/apatb_Sobel_top/AESL_inst_Sobel/Array2Mat_U0/ap_start">
                <obj_property name="ElementShortName">ap_start</obj_property>
                <obj_property name="ObjectShortName">ap_start</obj_property>
             </wvobject>
-            <wvobject type="logic" fp_name="/apatb_Sobel_top/AESL_inst_Sobel/AXIM2Mat_U0/real_start">
+            <wvobject type="logic" fp_name="/apatb_Sobel_top/AESL_inst_Sobel/Array2Mat_U0/real_start">
                <obj_property name="ElementShortName">real_start</obj_property>
                <obj_property name="ObjectShortName">real_start</obj_property>
             </wvobject>
-            <wvobject type="logic" fp_name="/apatb_Sobel_top/AESL_inst_Sobel/AXIM2Mat_U0/ap_ready">
+            <wvobject type="logic" fp_name="/apatb_Sobel_top/AESL_inst_Sobel/Array2Mat_U0/ap_ready">
                <obj_property name="ElementShortName">ap_ready</obj_property>
                <obj_property name="ObjectShortName">ap_ready</obj_property>
             </wvobject>
-            <wvobject type="logic" fp_name="/apatb_Sobel_top/AESL_inst_Sobel/AXIM2Mat_U0/ap_done">
+            <wvobject type="logic" fp_name="/apatb_Sobel_top/AESL_inst_Sobel/Array2Mat_U0/ap_done">
                <obj_property name="ElementShortName">ap_done</obj_property>
                <obj_property name="ObjectShortName">ap_done</obj_property>
             </wvobject>
-            <wvobject type="logic" fp_name="/apatb_Sobel_top/AESL_inst_Sobel/AXIM2Mat_U0/ap_continue">
+            <wvobject type="logic" fp_name="/apatb_Sobel_top/AESL_inst_Sobel/Array2Mat_U0/ap_continue">
                <obj_property name="ElementShortName">ap_continue</obj_property>
                <obj_property name="ObjectShortName">ap_continue</obj_property>
             </wvobject>
          </wvobject>
-         <wvobject type="group" fp_name="AXIM2Mat_U0_Output_group">
+         <wvobject type="group" fp_name="Array2Mat_U0_Output_group">
             <obj_property name="label">Output Channels</obj_property>
             <obj_property name="DisplayName">label</obj_property>
             <wvobject type="group" fp_name="img_data_stream_V_group">
                <obj_property name="label">img_data_stream_V(src_data_stream_0_V_U, FIFO)</obj_property>
                <obj_property name="DisplayName">label</obj_property>
-               <wvobject type="logic" fp_name="/apatb_Sobel_top/AESL_inst_Sobel/AXIM2Mat_U0/img_data_stream_V_blk_n">
+               <wvobject type="logic" fp_name="/apatb_Sobel_top/AESL_inst_Sobel/Array2Mat_U0/img_data_stream_V_blk_n">
                   <obj_property name="ElementShortName">img_data_stream_V_blk_n</obj_property>
                   <obj_property name="ObjectShortName">img_data_stream_V_blk_n</obj_property>
                </wvobject>
-               <wvobject type="logic" fp_name="/apatb_Sobel_top/AESL_inst_Sobel/AXIM2Mat_U0/img_data_stream_V_din">
+               <wvobject type="logic" fp_name="/apatb_Sobel_top/AESL_inst_Sobel/Array2Mat_U0/img_data_stream_V_din">
                </wvobject>
-               <wvobject type="logic" fp_name="/apatb_Sobel_top/AESL_inst_Sobel/AXIM2Mat_U0/img_data_stream_V_full_n">
+               <wvobject type="logic" fp_name="/apatb_Sobel_top/AESL_inst_Sobel/Array2Mat_U0/img_data_stream_V_full_n">
                   <obj_property name="ElementShortName">img_data_stream_V_full_n</obj_property>
                   <obj_property name="ObjectShortName">img_data_stream_V_full_n</obj_property>
                </wvobject>
-               <wvobject type="logic" fp_name="/apatb_Sobel_top/AESL_inst_Sobel/AXIM2Mat_U0/img_data_stream_V_write">
+               <wvobject type="logic" fp_name="/apatb_Sobel_top/AESL_inst_Sobel/Array2Mat_U0/img_data_stream_V_write">
                   <obj_property name="ElementShortName">img_data_stream_V_write</obj_property>
                   <obj_property name="ObjectShortName">img_data_stream_V_write</obj_property>
                </wvobject>
@@ -323,17 +323,17 @@
             <wvobject type="group" fp_name="img_rows_V_out_group">
                <obj_property name="label">img_rows_V_out(src_rows_V_c8_U, FIFO)</obj_property>
                <obj_property name="DisplayName">label</obj_property>
-               <wvobject type="logic" fp_name="/apatb_Sobel_top/AESL_inst_Sobel/AXIM2Mat_U0/img_rows_V_out_blk_n">
+               <wvobject type="logic" fp_name="/apatb_Sobel_top/AESL_inst_Sobel/Array2Mat_U0/img_rows_V_out_blk_n">
                   <obj_property name="ElementShortName">img_rows_V_out_blk_n</obj_property>
                   <obj_property name="ObjectShortName">img_rows_V_out_blk_n</obj_property>
                </wvobject>
-               <wvobject type="logic" fp_name="/apatb_Sobel_top/AESL_inst_Sobel/AXIM2Mat_U0/img_rows_V_out_din">
+               <wvobject type="logic" fp_name="/apatb_Sobel_top/AESL_inst_Sobel/Array2Mat_U0/img_rows_V_out_din">
                </wvobject>
-               <wvobject type="logic" fp_name="/apatb_Sobel_top/AESL_inst_Sobel/AXIM2Mat_U0/img_rows_V_out_full_n">
+               <wvobject type="logic" fp_name="/apatb_Sobel_top/AESL_inst_Sobel/Array2Mat_U0/img_rows_V_out_full_n">
                   <obj_property name="ElementShortName">img_rows_V_out_full_n</obj_property>
                   <obj_property name="ObjectShortName">img_rows_V_out_full_n</obj_property>
                </wvobject>
-               <wvobject type="logic" fp_name="/apatb_Sobel_top/AESL_inst_Sobel/AXIM2Mat_U0/img_rows_V_out_write">
+               <wvobject type="logic" fp_name="/apatb_Sobel_top/AESL_inst_Sobel/Array2Mat_U0/img_rows_V_out_write">
                   <obj_property name="ElementShortName">img_rows_V_out_write</obj_property>
                   <obj_property name="ObjectShortName">img_rows_V_out_write</obj_property>
                </wvobject>
@@ -341,17 +341,17 @@
             <wvobject type="group" fp_name="img_cols_V_out_group">
                <obj_property name="label">img_cols_V_out(src_cols_V_c9_U, FIFO)</obj_property>
                <obj_property name="DisplayName">label</obj_property>
-               <wvobject type="logic" fp_name="/apatb_Sobel_top/AESL_inst_Sobel/AXIM2Mat_U0/img_cols_V_out_blk_n">
+               <wvobject type="logic" fp_name="/apatb_Sobel_top/AESL_inst_Sobel/Array2Mat_U0/img_cols_V_out_blk_n">
                   <obj_property name="ElementShortName">img_cols_V_out_blk_n</obj_property>
                   <obj_property name="ObjectShortName">img_cols_V_out_blk_n</obj_property>
                </wvobject>
-               <wvobject type="logic" fp_name="/apatb_Sobel_top/AESL_inst_Sobel/AXIM2Mat_U0/img_cols_V_out_din">
+               <wvobject type="logic" fp_name="/apatb_Sobel_top/AESL_inst_Sobel/Array2Mat_U0/img_cols_V_out_din">
                </wvobject>
-               <wvobject type="logic" fp_name="/apatb_Sobel_top/AESL_inst_Sobel/AXIM2Mat_U0/img_cols_V_out_full_n">
+               <wvobject type="logic" fp_name="/apatb_Sobel_top/AESL_inst_Sobel/Array2Mat_U0/img_cols_V_out_full_n">
                   <obj_property name="ElementShortName">img_cols_V_out_full_n</obj_property>
                   <obj_property name="ObjectShortName">img_cols_V_out_full_n</obj_property>
                </wvobject>
-               <wvobject type="logic" fp_name="/apatb_Sobel_top/AESL_inst_Sobel/AXIM2Mat_U0/img_cols_V_out_write">
+               <wvobject type="logic" fp_name="/apatb_Sobel_top/AESL_inst_Sobel/Array2Mat_U0/img_cols_V_out_write">
                   <obj_property name="ElementShortName">img_cols_V_out_write</obj_property>
                   <obj_property name="ObjectShortName">img_cols_V_out_write</obj_property>
                </wvobject>
@@ -468,54 +468,54 @@
             </wvobject>
          </wvobject>
       </wvobject>
-      <wvobject type="group" fp_name="Mat2AXIM_U0_group">
-         <obj_property name="label">Mat2AXIM_U0</obj_property>
+      <wvobject type="group" fp_name="Mat2Array_U0_group">
+         <obj_property name="label">Mat2Array_U0</obj_property>
          <obj_property name="DisplayName">label</obj_property>
-         <wvobject type="group" fp_name="Mat2AXIM_U0_Input_group">
+         <wvobject type="group" fp_name="Mat2Array_U0_Input_group">
             <obj_property name="label">Input Channels</obj_property>
             <obj_property name="DisplayName">label</obj_property>
             <wvobject type="group" fp_name="img_data_stream_V_group">
                <obj_property name="label">img_data_stream_V(dst_data_stream_0_V_U, FIFO)</obj_property>
                <obj_property name="DisplayName">label</obj_property>
-               <wvobject type="logic" fp_name="/apatb_Sobel_top/AESL_inst_Sobel/Mat2AXIM_U0/img_data_stream_V_blk_n">
+               <wvobject type="logic" fp_name="/apatb_Sobel_top/AESL_inst_Sobel/Mat2Array_U0/img_data_stream_V_blk_n">
                   <obj_property name="ElementShortName">img_data_stream_V_blk_n</obj_property>
                   <obj_property name="ObjectShortName">img_data_stream_V_blk_n</obj_property>
                </wvobject>
-               <wvobject type="logic" fp_name="/apatb_Sobel_top/AESL_inst_Sobel/Mat2AXIM_U0/img_data_stream_V_dout">
+               <wvobject type="logic" fp_name="/apatb_Sobel_top/AESL_inst_Sobel/Mat2Array_U0/img_data_stream_V_dout">
                   <obj_property name="ElementShortName">img_data_stream_V_dout[7:0]</obj_property>
                   <obj_property name="ObjectShortName">img_data_stream_V_dout[7:0]</obj_property>
                </wvobject>
-               <wvobject type="logic" fp_name="/apatb_Sobel_top/AESL_inst_Sobel/Mat2AXIM_U0/img_data_stream_V_empty_n">
+               <wvobject type="logic" fp_name="/apatb_Sobel_top/AESL_inst_Sobel/Mat2Array_U0/img_data_stream_V_empty_n">
                   <obj_property name="ElementShortName">img_data_stream_V_empty_n</obj_property>
                   <obj_property name="ObjectShortName">img_data_stream_V_empty_n</obj_property>
                </wvobject>
-               <wvobject type="logic" fp_name="/apatb_Sobel_top/AESL_inst_Sobel/Mat2AXIM_U0/img_data_stream_V_read">
+               <wvobject type="logic" fp_name="/apatb_Sobel_top/AESL_inst_Sobel/Mat2Array_U0/img_data_stream_V_read">
                   <obj_property name="ElementShortName">img_data_stream_V_read</obj_property>
                   <obj_property name="ObjectShortName">img_data_stream_V_read</obj_property>
                </wvobject>
             </wvobject>
          </wvobject>
-         <wvobject type="group" fp_name="Mat2AXIM_U0_Handshake_group">
+         <wvobject type="group" fp_name="Mat2Array_U0_Handshake_group">
             <obj_property name="label">Block-level handshake</obj_property>
             <obj_property name="DisplayName">label</obj_property>
-            <wvobject type="logic" fp_name="/apatb_Sobel_top/AESL_inst_Sobel/Mat2AXIM_U0/ap_start">
+            <wvobject type="logic" fp_name="/apatb_Sobel_top/AESL_inst_Sobel/Mat2Array_U0/ap_start">
                <obj_property name="ElementShortName">ap_start</obj_property>
                <obj_property name="ObjectShortName">ap_start</obj_property>
             </wvobject>
-            <wvobject type="logic" fp_name="/apatb_Sobel_top/AESL_inst_Sobel/Mat2AXIM_U0/ap_ready">
+            <wvobject type="logic" fp_name="/apatb_Sobel_top/AESL_inst_Sobel/Mat2Array_U0/ap_ready">
                <obj_property name="ElementShortName">ap_ready</obj_property>
                <obj_property name="ObjectShortName">ap_ready</obj_property>
             </wvobject>
-            <wvobject type="logic" fp_name="/apatb_Sobel_top/AESL_inst_Sobel/Mat2AXIM_U0/ap_done">
+            <wvobject type="logic" fp_name="/apatb_Sobel_top/AESL_inst_Sobel/Mat2Array_U0/ap_done">
                <obj_property name="ElementShortName">ap_done</obj_property>
                <obj_property name="ObjectShortName">ap_done</obj_property>
             </wvobject>
-            <wvobject type="logic" fp_name="/apatb_Sobel_top/AESL_inst_Sobel/Mat2AXIM_U0/ap_continue">
+            <wvobject type="logic" fp_name="/apatb_Sobel_top/AESL_inst_Sobel/Mat2Array_U0/ap_continue">
                <obj_property name="ElementShortName">ap_continue</obj_property>
                <obj_property name="ObjectShortName">ap_continue</obj_property>
             </wvobject>
          </wvobject>
-         <wvobject type="group" fp_name="Mat2AXIM_U0_Output_group">
+         <wvobject type="group" fp_name="Mat2Array_U0_Output_group">
             <obj_property name="label">Output Channels</obj_property>
             <obj_property name="DisplayName">label</obj_property>
          </wvobject>

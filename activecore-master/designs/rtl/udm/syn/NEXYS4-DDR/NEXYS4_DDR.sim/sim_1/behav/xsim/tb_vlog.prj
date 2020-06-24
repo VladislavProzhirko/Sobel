@@ -12,16 +12,16 @@ verilog xil_defaultlib  --include "../../../../NEXYS4_DDR.srcs/sources_1/ip/sys_
 "../../../../../../../ram/ram_dual_memsplit.v" \
 "../../../../../../../ram/ram.v" \
 "../../../../../../../ram/ram_dual.v" \
-"../../../../../../../../../../Vivado_Sobel_v3/solution1/syn/verilog/Sobel_mux_32_8_1_1.v" \
 "../../../../../../../../../../Vivado_Sobel_v3/solution1/syn/verilog/Filter2D.v" \
 "../../../../../../../../../../Vivado_Sobel_v3/solution1/syn/verilog/Sobel.v" \
+"../../../../../../../../../../Vivado_Sobel_v3/solution1/syn/verilog/Filter2D_k_buf_0_bkb.v" \
+"../../../../../../../../../../Vivado_Sobel_v3/solution1/syn/verilog/Sobel_mux_32_8_1_1.v" \
+"../../../../../../../../../../Vivado_Sobel_v3/solution1/syn/verilog/fifo_w8_d2_A.v" \
 "../../../../../../../../../../Vivado_Sobel_v3/solution1/syn/verilog/fifo_w5_d2_A.v" \
-"../../../../../../../../../../Vivado_Sobel_v3/solution1/syn/verilog/Mat2AXIM.v" \
+"../../../../../../../../../../Vivado_Sobel_v3/solution1/syn/verilog/Array2Mat.v" \
+"../../../../../../../../../../Vivado_Sobel_v3/solution1/syn/verilog/Mat2Array.v" \
 "../../../../../../../../../../Vivado_Sobel_v3/solution1/syn/verilog/Block_proc.v" \
 "../../../../../../../../../../Vivado_Sobel_v3/solution1/syn/verilog/start_for_Filter2eOg.v" \
-"../../../../../../../../../../Vivado_Sobel_v3/solution1/syn/verilog/fifo_w8_d2_A.v" \
-"../../../../../../../../../../Vivado_Sobel_v3/solution1/syn/verilog/AXIM2Mat.v" \
-"../../../../../../../../../../Vivado_Sobel_v3/solution1/syn/verilog/Filter2D_k_buf_0_bkb.v" \
 
 # compile glbl module
 verilog xil_defaultlib "glbl.v"

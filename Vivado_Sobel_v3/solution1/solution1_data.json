@@ -74,25 +74,25 @@
   "Files": {
     "CSource": ["..\/core.cpp"],
     "Vhdl": [
-      "impl\/vhdl\/AXIM2Mat.vhd",
+      "impl\/vhdl\/Array2Mat.vhd",
       "impl\/vhdl\/Block_proc.vhd",
       "impl\/vhdl\/fifo_w5_d2_A.vhd",
       "impl\/vhdl\/fifo_w8_d2_A.vhd",
       "impl\/vhdl\/Filter2D.vhd",
       "impl\/vhdl\/Filter2D_k_buf_0_bkb.vhd",
-      "impl\/vhdl\/Mat2AXIM.vhd",
+      "impl\/vhdl\/Mat2Array.vhd",
       "impl\/vhdl\/Sobel_mux_32_8_1_1.vhd",
       "impl\/vhdl\/start_for_Filter2eOg.vhd",
       "impl\/vhdl\/Sobel.vhd"
     ],
     "Verilog": [
-      "impl\/verilog\/AXIM2Mat.v",
+      "impl\/verilog\/Array2Mat.v",
       "impl\/verilog\/Block_proc.v",
       "impl\/verilog\/fifo_w5_d2_A.v",
       "impl\/verilog\/fifo_w8_d2_A.v",
       "impl\/verilog\/Filter2D.v",
       "impl\/verilog\/Filter2D_k_buf_0_bkb.v",
-      "impl\/verilog\/Mat2AXIM.v",
+      "impl\/verilog\/Mat2Array.v",
       "impl\/verilog\/Sobel_mux_32_8_1_1.v",
       "impl\/verilog\/start_for_Filter2eOg.v",
       "impl\/verilog\/Sobel.v"
@@ -281,12 +281,12 @@
           "InstanceName": "Filter2D_U0"
         },
         {
-          "ModuleName": "AXIM2Mat",
-          "InstanceName": "AXIM2Mat_U0"
+          "ModuleName": "Array2Mat",
+          "InstanceName": "Array2Mat_U0"
         },
         {
-          "ModuleName": "Mat2AXIM",
-          "InstanceName": "Mat2AXIM_U0"
+          "ModuleName": "Mat2Array",
+          "InstanceName": "Mat2Array_U0"
         },
         {
           "ModuleName": "Block_proc",
@@ -302,7 +302,7 @@
         "isCombinational": "0",
         "isOneStateSeq": "1"
       },
-      "AXIM2Mat": {
+      "Array2Mat": {
         "FunctionProtocol": "ap_ctrl_hs",
         "isTaskLevelControl": "1",
         "isPipelined": "0",
@@ -316,7 +316,7 @@
         "isCombinational": "0",
         "isOneStateSeq": "0"
       },
-      "Mat2AXIM": {
+      "Mat2Array": {
         "FunctionProtocol": "ap_ctrl_hs",
         "isTaskLevelControl": "1",
         "isPipelined": "0",
@@ -354,7 +354,7 @@
           "URAM": "0"
         }
       },
-      "AXIM2Mat": {
+      "Array2Mat": {
         "Latency": {
           "LatencyBest": "1",
           "LatencyAvg": "",
@@ -442,7 +442,7 @@
           "DSP48E": "0"
         }
       },
-      "Mat2AXIM": {
+      "Mat2Array": {
         "Latency": {
           "LatencyBest": "231",
           "LatencyAvg": "231",
@@ -512,7 +512,7 @@
   },
   "GenData": {
     "DataVersion": "0.2",
-    "Time": "2020-06-23 00:54:58 +0300",
+    "Time": "2020-06-24 15:51:51 +0300",
     "ToolName": "vivado_hls",
     "ToolVersion": "2019.2"
   }

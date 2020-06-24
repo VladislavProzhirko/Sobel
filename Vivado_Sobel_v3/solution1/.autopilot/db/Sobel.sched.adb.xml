@@ -163,7 +163,7 @@ codeRepl:20  call fastcc void @Block__proc(i5* %src_rows_V_c, i5* %src_cols_V_c)
 
 <Node id="28" bw="0" op_0_bw="0" op_1_bw="32" op_2_bw="5" op_3_bw="5" op_4_bw="8" op_5_bw="5" op_6_bw="5" op_7_bw="0" op_8_bw="0">
 <![CDATA[
-codeRepl:25  call fastcc void @AXIM2Mat([25 x i32]* %image_in, i5* nocapture %src_rows_V_c, i5* nocapture %src_cols_V_c, i8* %src_data_stream_0_V, i5* %src_rows_V_c8, i5* %src_cols_V_c9)
+codeRepl:25  call fastcc void @Array2Mat([25 x i32]* %image_in, i5* nocapture %src_rows_V_c, i5* nocapture %src_cols_V_c, i8* %src_data_stream_0_V, i5* %src_rows_V_c8, i5* %src_cols_V_c9)
 
 ]]></Node>
 <StgValue><ssdm name="call_ln0"/></StgValue>
@@ -181,7 +181,7 @@ codeRepl:25  call fastcc void @AXIM2Mat([25 x i32]* %image_in, i5* nocapture %sr
 
 <Node id="28" bw="0" op_0_bw="0" op_1_bw="32" op_2_bw="5" op_3_bw="5" op_4_bw="8" op_5_bw="5" op_6_bw="5" op_7_bw="0" op_8_bw="0">
 <![CDATA[
-codeRepl:25  call fastcc void @AXIM2Mat([25 x i32]* %image_in, i5* nocapture %src_rows_V_c, i5* nocapture %src_cols_V_c, i8* %src_data_stream_0_V, i5* %src_rows_V_c8, i5* %src_cols_V_c9)
+codeRepl:25  call fastcc void @Array2Mat([25 x i32]* %image_in, i5* nocapture %src_rows_V_c, i5* nocapture %src_cols_V_c, i8* %src_data_stream_0_V, i5* %src_rows_V_c8, i5* %src_cols_V_c9)
 
 ]]></Node>
 <StgValue><ssdm name="call_ln0"/></StgValue>
@@ -235,7 +235,7 @@ codeRepl:26  call fastcc void @Filter2D(i5* nocapture %src_rows_V_c8, i5* nocapt
 
 <Node id="30" bw="0" op_0_bw="0" op_1_bw="8" op_2_bw="32" op_3_bw="0" op_4_bw="0">
 <![CDATA[
-codeRepl:27  call fastcc void @Mat2AXIM(i8* %dst_data_stream_0_V, [25 x i32]* %image_out)
+codeRepl:27  call fastcc void @Mat2Array(i8* %dst_data_stream_0_V, [25 x i32]* %image_out)
 
 ]]></Node>
 <StgValue><ssdm name="call_ln0"/></StgValue>
@@ -256,7 +256,7 @@ codeRepl:27  call fastcc void @Mat2AXIM(i8* %dst_data_stream_0_V, [25 x i32]* %i
 codeRepl:4  call void (...)* @_ssdm_op_SpecDataflowPipeline(i32 -1, i32 0, [1 x i8]* @p_str) nounwind
 
 ]]></Node>
-<StgValue><ssdm name="specdataflowpipeline_ln10"/></StgValue>
+<StgValue><ssdm name="specdataflowpipeline_ln12"/></StgValue>
 </operation>
 
 <operation id="21" st_id="7" stage="1" lat="1">
@@ -523,7 +523,7 @@ codeRepl:24  %empty_56 = call i32 (...)* @_ssdm_op_SpecInterface(i5* %src_cols_V
 
 <Node id="30" bw="0" op_0_bw="0" op_1_bw="8" op_2_bw="32" op_3_bw="0" op_4_bw="0">
 <![CDATA[
-codeRepl:27  call fastcc void @Mat2AXIM(i8* %dst_data_stream_0_V, [25 x i32]* %image_out)
+codeRepl:27  call fastcc void @Mat2Array(i8* %dst_data_stream_0_V, [25 x i32]* %image_out)
 
 ]]></Node>
 <StgValue><ssdm name="call_ln0"/></StgValue>
@@ -541,7 +541,7 @@ codeRepl:27  call fastcc void @Mat2AXIM(i8* %dst_data_stream_0_V, [25 x i32]* %i
 codeRepl:28  ret void
 
 ]]></Node>
-<StgValue><ssdm name="ret_ln60"/></StgValue>
+<StgValue><ssdm name="ret_ln63"/></StgValue>
 </operation>
 </state>
 </state_list>

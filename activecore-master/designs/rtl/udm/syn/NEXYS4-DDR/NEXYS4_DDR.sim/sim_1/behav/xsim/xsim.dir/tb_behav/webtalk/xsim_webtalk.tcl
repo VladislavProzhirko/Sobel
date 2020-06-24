@@ -1,6 +1,6 @@
 webtalk_init -webtalk_dir C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/syn/NEXYS4-DDR/NEXYS4_DDR.sim/sim_1/behav/xsim/xsim.dir/tb_behav/webtalk/
 webtalk_register_client -client project
-webtalk_add_data -client project -key date_generated -value "Tue Jun 23 15:20:58 2020" -context "software_version_and_target_device"
+webtalk_add_data -client project -key date_generated -value "Wed Jun 24 15:54:42 2020" -context "software_version_and_target_device"
 webtalk_add_data -client project -key product_version -value "XSIM v2019.2 (64-bit)" -context "software_version_and_target_device"
 webtalk_add_data -client project -key build_version -value "2708876" -context "software_version_and_target_device"
 webtalk_add_data -client project -key os_platform -value "WIN64" -context "software_version_and_target_device"
@@ -14,7 +14,7 @@ webtalk_add_data -client project -key target_package -value "not_applicable" -co
 webtalk_add_data -client project -key target_speed -value "not_applicable" -context "software_version_and_target_device"
 webtalk_add_data -client project -key random_id -value "429b72ce-2449-440f-9864-cbda365cc949" -context "software_version_and_target_device"
 webtalk_add_data -client project -key project_id -value "dbe4f722851248e3976cc912f1a3ff99" -context "software_version_and_target_device"
-webtalk_add_data -client project -key project_iteration -value "238" -context "software_version_and_target_device"
+webtalk_add_data -client project -key project_iteration -value "264" -context "software_version_and_target_device"
 webtalk_add_data -client project -key os_name -value "Windows Server 2008 R2 or Windows 7" -context "user_environment"
 webtalk_add_data -client project -key os_release -value "Service Pack 1  (build 7601)" -context "user_environment"
 webtalk_add_data -client project -key cpu_name -value "Pentium(R) Dual-Core CPU       T4500  @ 2.30GHz" -context "user_environment"
@@ -23,11 +23,12 @@ webtalk_add_data -client project -key total_processors -value "1" -context "user
 webtalk_add_data -client project -key system_ram -value "6.000 GB" -context "user_environment"
 webtalk_register_client -client xsim
 webtalk_add_data -client xsim -key runall -value "true" -context "xsim\\command_line_options"
+webtalk_add_data -client xsim -key runall -value "true" -context "xsim\\command_line_options"
 webtalk_add_data -client xsim -key Command -value "xsim" -context "xsim\\command_line_options"
 webtalk_add_data -client xsim -key trace_waveform -value "true" -context "xsim\\usage"
-webtalk_add_data -client xsim -key runtime -value "508585 ns" -context "xsim\\usage"
+webtalk_add_data -client xsim -key runtime -value "508305 ns" -context "xsim\\usage"
 webtalk_add_data -client xsim -key iteration -value "0" -context "xsim\\usage"
-webtalk_add_data -client xsim -key Simulation_Time -value "14.10_sec" -context "xsim\\usage"
-webtalk_add_data -client xsim -key Simulation_Memory -value "8288_KB" -context "xsim\\usage"
-webtalk_transmit -clientid 4062126062 -regid "" -xml C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/syn/NEXYS4-DDR/NEXYS4_DDR.sim/sim_1/behav/xsim/xsim.dir/tb_behav/webtalk/usage_statistics_ext_xsim.xml -html C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/syn/NEXYS4-DDR/NEXYS4_DDR.sim/sim_1/behav/xsim/xsim.dir/tb_behav/webtalk/usage_statistics_ext_xsim.html -wdm C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/syn/NEXYS4-DDR/NEXYS4_DDR.sim/sim_1/behav/xsim/xsim.dir/tb_behav/webtalk/usage_statistics_ext_xsim.wdm -intro "<H3>XSIM Usage Report</H3><BR>"
+webtalk_add_data -client xsim -key Simulation_Time -value "28.00_sec" -context "xsim\\usage"
+webtalk_add_data -client xsim -key Simulation_Memory -value "8152_KB" -context "xsim\\usage"
+webtalk_transmit -clientid 2112019966 -regid "" -xml C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/syn/NEXYS4-DDR/NEXYS4_DDR.sim/sim_1/behav/xsim/xsim.dir/tb_behav/webtalk/usage_statistics_ext_xsim.xml -html C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/syn/NEXYS4-DDR/NEXYS4_DDR.sim/sim_1/behav/xsim/xsim.dir/tb_behav/webtalk/usage_statistics_ext_xsim.html -wdm C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/syn/NEXYS4-DDR/NEXYS4_DDR.sim/sim_1/behav/xsim/xsim.dir/tb_behav/webtalk/usage_statistics_ext_xsim.wdm -intro "<H3>XSIM Usage Report</H3><BR>"
 webtalk_terminate

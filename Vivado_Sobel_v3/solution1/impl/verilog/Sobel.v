@@ -55,23 +55,23 @@ wire   [4:0] Block_proc_U0_src_rows_V_out_din;
 wire    Block_proc_U0_src_rows_V_out_write;
 wire   [4:0] Block_proc_U0_src_cols_V_out_din;
 wire    Block_proc_U0_src_cols_V_out_write;
-wire    AXIM2Mat_U0_ap_start;
-wire    AXIM2Mat_U0_ap_done;
-wire    AXIM2Mat_U0_ap_continue;
-wire    AXIM2Mat_U0_ap_idle;
-wire    AXIM2Mat_U0_ap_ready;
-wire    AXIM2Mat_U0_start_out;
-wire    AXIM2Mat_U0_start_write;
-wire   [4:0] AXIM2Mat_U0_fb_address0;
-wire    AXIM2Mat_U0_fb_ce0;
-wire    AXIM2Mat_U0_img_rows_V_read;
-wire    AXIM2Mat_U0_img_cols_V_read;
-wire   [7:0] AXIM2Mat_U0_img_data_stream_V_din;
-wire    AXIM2Mat_U0_img_data_stream_V_write;
-wire   [4:0] AXIM2Mat_U0_img_rows_V_out_din;
-wire    AXIM2Mat_U0_img_rows_V_out_write;
-wire   [4:0] AXIM2Mat_U0_img_cols_V_out_din;
-wire    AXIM2Mat_U0_img_cols_V_out_write;
+wire    Array2Mat_U0_ap_start;
+wire    Array2Mat_U0_ap_done;
+wire    Array2Mat_U0_ap_continue;
+wire    Array2Mat_U0_ap_idle;
+wire    Array2Mat_U0_ap_ready;
+wire    Array2Mat_U0_start_out;
+wire    Array2Mat_U0_start_write;
+wire   [4:0] Array2Mat_U0_fb_address0;
+wire    Array2Mat_U0_fb_ce0;
+wire    Array2Mat_U0_img_rows_V_read;
+wire    Array2Mat_U0_img_cols_V_read;
+wire   [7:0] Array2Mat_U0_img_data_stream_V_din;
+wire    Array2Mat_U0_img_data_stream_V_write;
+wire   [4:0] Array2Mat_U0_img_rows_V_out_din;
+wire    Array2Mat_U0_img_rows_V_out_write;
+wire   [4:0] Array2Mat_U0_img_cols_V_out_din;
+wire    Array2Mat_U0_img_cols_V_out_write;
 wire    Filter2D_U0_ap_start;
 wire    Filter2D_U0_ap_done;
 wire    Filter2D_U0_ap_continue;
@@ -82,16 +82,16 @@ wire    Filter2D_U0_p_src_cols_V_read;
 wire    Filter2D_U0_p_src_data_stream_V_read;
 wire   [7:0] Filter2D_U0_p_dst_data_stream_V_din;
 wire    Filter2D_U0_p_dst_data_stream_V_write;
-wire    Mat2AXIM_U0_ap_start;
-wire    Mat2AXIM_U0_ap_done;
-wire    Mat2AXIM_U0_ap_continue;
-wire    Mat2AXIM_U0_ap_idle;
-wire    Mat2AXIM_U0_ap_ready;
-wire    Mat2AXIM_U0_img_data_stream_V_read;
-wire   [4:0] Mat2AXIM_U0_fb_address0;
-wire    Mat2AXIM_U0_fb_ce0;
-wire    Mat2AXIM_U0_fb_we0;
-wire   [31:0] Mat2AXIM_U0_fb_d0;
+wire    Mat2Array_U0_ap_start;
+wire    Mat2Array_U0_ap_done;
+wire    Mat2Array_U0_ap_continue;
+wire    Mat2Array_U0_ap_idle;
+wire    Mat2Array_U0_ap_ready;
+wire    Mat2Array_U0_img_data_stream_V_read;
+wire   [4:0] Mat2Array_U0_fb_address0;
+wire    Mat2Array_U0_fb_ce0;
+wire    Mat2Array_U0_fb_we0;
+wire   [31:0] Mat2Array_U0_fb_d0;
 wire    ap_sync_continue;
 wire    src_rows_V_c_full_n;
 wire   [4:0] src_rows_V_c_dout;
@@ -116,12 +116,12 @@ wire    ap_sync_ready;
 reg    ap_sync_reg_Block_proc_U0_ap_ready;
 wire    ap_sync_Block_proc_U0_ap_ready;
 reg   [1:0] Block_proc_U0_ap_ready_count;
-reg    ap_sync_reg_AXIM2Mat_U0_ap_ready;
-wire    ap_sync_AXIM2Mat_U0_ap_ready;
-reg   [1:0] AXIM2Mat_U0_ap_ready_count;
-reg    ap_sync_reg_Mat2AXIM_U0_ap_ready;
-wire    ap_sync_Mat2AXIM_U0_ap_ready;
-reg   [1:0] Mat2AXIM_U0_ap_ready_count;
+reg    ap_sync_reg_Array2Mat_U0_ap_ready;
+wire    ap_sync_Array2Mat_U0_ap_ready;
+reg   [1:0] Array2Mat_U0_ap_ready_count;
+reg    ap_sync_reg_Mat2Array_U0_ap_ready;
+wire    ap_sync_Mat2Array_U0_ap_ready;
+reg   [1:0] Mat2Array_U0_ap_ready_count;
 wire    Block_proc_U0_start_full_n;
 wire    Block_proc_U0_start_write;
 wire   [0:0] start_for_Filter2D_U0_din;
@@ -130,17 +130,17 @@ wire   [0:0] start_for_Filter2D_U0_dout;
 wire    start_for_Filter2D_U0_empty_n;
 wire    Filter2D_U0_start_full_n;
 wire    Filter2D_U0_start_write;
-wire    Mat2AXIM_U0_start_full_n;
-wire    Mat2AXIM_U0_start_write;
+wire    Mat2Array_U0_start_full_n;
+wire    Mat2Array_U0_start_write;
 
 // power-on initialization
 initial begin
 #0 ap_sync_reg_Block_proc_U0_ap_ready = 1'b0;
 #0 Block_proc_U0_ap_ready_count = 2'd0;
-#0 ap_sync_reg_AXIM2Mat_U0_ap_ready = 1'b0;
-#0 AXIM2Mat_U0_ap_ready_count = 2'd0;
-#0 ap_sync_reg_Mat2AXIM_U0_ap_ready = 1'b0;
-#0 Mat2AXIM_U0_ap_ready_count = 2'd0;
+#0 ap_sync_reg_Array2Mat_U0_ap_ready = 1'b0;
+#0 Array2Mat_U0_ap_ready_count = 2'd0;
+#0 ap_sync_reg_Mat2Array_U0_ap_ready = 1'b0;
+#0 Mat2Array_U0_ap_ready_count = 2'd0;
 end
 
 Block_proc Block_proc_U0(
@@ -159,35 +159,35 @@ Block_proc Block_proc_U0(
     .src_cols_V_out_write(Block_proc_U0_src_cols_V_out_write)
 );
 
-AXIM2Mat AXIM2Mat_U0(
+Array2Mat Array2Mat_U0(
     .ap_clk(ap_clk),
     .ap_rst(ap_rst),
-    .ap_start(AXIM2Mat_U0_ap_start),
+    .ap_start(Array2Mat_U0_ap_start),
     .start_full_n(start_for_Filter2D_U0_full_n),
-    .ap_done(AXIM2Mat_U0_ap_done),
-    .ap_continue(AXIM2Mat_U0_ap_continue),
-    .ap_idle(AXIM2Mat_U0_ap_idle),
-    .ap_ready(AXIM2Mat_U0_ap_ready),
-    .start_out(AXIM2Mat_U0_start_out),
-    .start_write(AXIM2Mat_U0_start_write),
-    .fb_address0(AXIM2Mat_U0_fb_address0),
-    .fb_ce0(AXIM2Mat_U0_fb_ce0),
+    .ap_done(Array2Mat_U0_ap_done),
+    .ap_continue(Array2Mat_U0_ap_continue),
+    .ap_idle(Array2Mat_U0_ap_idle),
+    .ap_ready(Array2Mat_U0_ap_ready),
+    .start_out(Array2Mat_U0_start_out),
+    .start_write(Array2Mat_U0_start_write),
+    .fb_address0(Array2Mat_U0_fb_address0),
+    .fb_ce0(Array2Mat_U0_fb_ce0),
     .fb_q0(image_in_q0),
     .img_rows_V_dout(src_rows_V_c_dout),
     .img_rows_V_empty_n(src_rows_V_c_empty_n),
-    .img_rows_V_read(AXIM2Mat_U0_img_rows_V_read),
+    .img_rows_V_read(Array2Mat_U0_img_rows_V_read),
     .img_cols_V_dout(src_cols_V_c_dout),
     .img_cols_V_empty_n(src_cols_V_c_empty_n),
-    .img_cols_V_read(AXIM2Mat_U0_img_cols_V_read),
-    .img_data_stream_V_din(AXIM2Mat_U0_img_data_stream_V_din),
+    .img_cols_V_read(Array2Mat_U0_img_cols_V_read),
+    .img_data_stream_V_din(Array2Mat_U0_img_data_stream_V_din),
     .img_data_stream_V_full_n(src_data_stream_0_V_full_n),
-    .img_data_stream_V_write(AXIM2Mat_U0_img_data_stream_V_write),
-    .img_rows_V_out_din(AXIM2Mat_U0_img_rows_V_out_din),
+    .img_data_stream_V_write(Array2Mat_U0_img_data_stream_V_write),
+    .img_rows_V_out_din(Array2Mat_U0_img_rows_V_out_din),
     .img_rows_V_out_full_n(src_rows_V_c8_full_n),
-    .img_rows_V_out_write(AXIM2Mat_U0_img_rows_V_out_write),
-    .img_cols_V_out_din(AXIM2Mat_U0_img_cols_V_out_din),
+    .img_rows_V_out_write(Array2Mat_U0_img_rows_V_out_write),
+    .img_cols_V_out_din(Array2Mat_U0_img_cols_V_out_din),
     .img_cols_V_out_full_n(src_cols_V_c9_full_n),
-    .img_cols_V_out_write(AXIM2Mat_U0_img_cols_V_out_write)
+    .img_cols_V_out_write(Array2Mat_U0_img_cols_V_out_write)
 );
 
 Filter2D Filter2D_U0(
@@ -212,21 +212,21 @@ Filter2D Filter2D_U0(
     .p_dst_data_stream_V_write(Filter2D_U0_p_dst_data_stream_V_write)
 );
 
-Mat2AXIM Mat2AXIM_U0(
+Mat2Array Mat2Array_U0(
     .ap_clk(ap_clk),
     .ap_rst(ap_rst),
-    .ap_start(Mat2AXIM_U0_ap_start),
-    .ap_done(Mat2AXIM_U0_ap_done),
-    .ap_continue(Mat2AXIM_U0_ap_continue),
-    .ap_idle(Mat2AXIM_U0_ap_idle),
-    .ap_ready(Mat2AXIM_U0_ap_ready),
+    .ap_start(Mat2Array_U0_ap_start),
+    .ap_done(Mat2Array_U0_ap_done),
+    .ap_continue(Mat2Array_U0_ap_continue),
+    .ap_idle(Mat2Array_U0_ap_idle),
+    .ap_ready(Mat2Array_U0_ap_ready),
     .img_data_stream_V_dout(dst_data_stream_0_V_dout),
     .img_data_stream_V_empty_n(dst_data_stream_0_V_empty_n),
-    .img_data_stream_V_read(Mat2AXIM_U0_img_data_stream_V_read),
-    .fb_address0(Mat2AXIM_U0_fb_address0),
-    .fb_ce0(Mat2AXIM_U0_fb_ce0),
-    .fb_we0(Mat2AXIM_U0_fb_we0),
-    .fb_d0(Mat2AXIM_U0_fb_d0),
+    .img_data_stream_V_read(Mat2Array_U0_img_data_stream_V_read),
+    .fb_address0(Mat2Array_U0_fb_address0),
+    .fb_ce0(Mat2Array_U0_fb_ce0),
+    .fb_we0(Mat2Array_U0_fb_we0),
+    .fb_d0(Mat2Array_U0_fb_d0),
     .fb_q0(image_out_q0)
 );
 
@@ -240,7 +240,7 @@ fifo_w5_d2_A src_rows_V_c_U(
     .if_write(Block_proc_U0_src_rows_V_out_write),
     .if_dout(src_rows_V_c_dout),
     .if_empty_n(src_rows_V_c_empty_n),
-    .if_read(AXIM2Mat_U0_img_rows_V_read)
+    .if_read(Array2Mat_U0_img_rows_V_read)
 );
 
 fifo_w5_d2_A src_cols_V_c_U(
@@ -253,7 +253,7 @@ fifo_w5_d2_A src_cols_V_c_U(
     .if_write(Block_proc_U0_src_cols_V_out_write),
     .if_dout(src_cols_V_c_dout),
     .if_empty_n(src_cols_V_c_empty_n),
-    .if_read(AXIM2Mat_U0_img_cols_V_read)
+    .if_read(Array2Mat_U0_img_cols_V_read)
 );
 
 fifo_w8_d2_A src_data_stream_0_V_U(
@@ -261,9 +261,9 @@ fifo_w8_d2_A src_data_stream_0_V_U(
     .reset(ap_rst),
     .if_read_ce(1'b1),
     .if_write_ce(1'b1),
-    .if_din(AXIM2Mat_U0_img_data_stream_V_din),
+    .if_din(Array2Mat_U0_img_data_stream_V_din),
     .if_full_n(src_data_stream_0_V_full_n),
-    .if_write(AXIM2Mat_U0_img_data_stream_V_write),
+    .if_write(Array2Mat_U0_img_data_stream_V_write),
     .if_dout(src_data_stream_0_V_dout),
     .if_empty_n(src_data_stream_0_V_empty_n),
     .if_read(Filter2D_U0_p_src_data_stream_V_read)
@@ -274,9 +274,9 @@ fifo_w5_d2_A src_rows_V_c8_U(
     .reset(ap_rst),
     .if_read_ce(1'b1),
     .if_write_ce(1'b1),
-    .if_din(AXIM2Mat_U0_img_rows_V_out_din),
+    .if_din(Array2Mat_U0_img_rows_V_out_din),
     .if_full_n(src_rows_V_c8_full_n),
-    .if_write(AXIM2Mat_U0_img_rows_V_out_write),
+    .if_write(Array2Mat_U0_img_rows_V_out_write),
     .if_dout(src_rows_V_c8_dout),
     .if_empty_n(src_rows_V_c8_empty_n),
     .if_read(Filter2D_U0_p_src_rows_V_read)
@@ -287,9 +287,9 @@ fifo_w5_d2_A src_cols_V_c9_U(
     .reset(ap_rst),
     .if_read_ce(1'b1),
     .if_write_ce(1'b1),
-    .if_din(AXIM2Mat_U0_img_cols_V_out_din),
+    .if_din(Array2Mat_U0_img_cols_V_out_din),
     .if_full_n(src_cols_V_c9_full_n),
-    .if_write(AXIM2Mat_U0_img_cols_V_out_write),
+    .if_write(Array2Mat_U0_img_cols_V_out_write),
     .if_dout(src_cols_V_c9_dout),
     .if_empty_n(src_cols_V_c9_empty_n),
     .if_read(Filter2D_U0_p_src_cols_V_read)
@@ -305,7 +305,7 @@ fifo_w8_d2_A dst_data_stream_0_V_U(
     .if_write(Filter2D_U0_p_dst_data_stream_V_write),
     .if_dout(dst_data_stream_0_V_dout),
     .if_empty_n(dst_data_stream_0_V_empty_n),
-    .if_read(Mat2AXIM_U0_img_data_stream_V_read)
+    .if_read(Mat2Array_U0_img_data_stream_V_read)
 );
 
 start_for_Filter2eOg start_for_Filter2eOg_U(
@@ -315,7 +315,7 @@ start_for_Filter2eOg start_for_Filter2eOg_U(
     .if_write_ce(1'b1),
     .if_din(start_for_Filter2D_U0_din),
     .if_full_n(start_for_Filter2D_U0_full_n),
-    .if_write(AXIM2Mat_U0_start_write),
+    .if_write(Array2Mat_U0_start_write),
     .if_dout(start_for_Filter2D_U0_dout),
     .if_empty_n(start_for_Filter2D_U0_empty_n),
     .if_read(Filter2D_U0_ap_ready)
@@ -323,12 +323,12 @@ start_for_Filter2eOg start_for_Filter2eOg_U(
 
 always @ (posedge ap_clk) begin
     if (ap_rst == 1'b1) begin
-        ap_sync_reg_AXIM2Mat_U0_ap_ready <= 1'b0;
+        ap_sync_reg_Array2Mat_U0_ap_ready <= 1'b0;
     end else begin
         if (((ap_sync_ready & ap_start) == 1'b1)) begin
-            ap_sync_reg_AXIM2Mat_U0_ap_ready <= 1'b0;
+            ap_sync_reg_Array2Mat_U0_ap_ready <= 1'b0;
         end else begin
-            ap_sync_reg_AXIM2Mat_U0_ap_ready <= ap_sync_AXIM2Mat_U0_ap_ready;
+            ap_sync_reg_Array2Mat_U0_ap_ready <= ap_sync_Array2Mat_U0_ap_ready;
         end
     end
 end
@@ -347,21 +347,21 @@ end
 
 always @ (posedge ap_clk) begin
     if (ap_rst == 1'b1) begin
-        ap_sync_reg_Mat2AXIM_U0_ap_ready <= 1'b0;
+        ap_sync_reg_Mat2Array_U0_ap_ready <= 1'b0;
     end else begin
         if (((ap_sync_ready & ap_start) == 1'b1)) begin
-            ap_sync_reg_Mat2AXIM_U0_ap_ready <= 1'b0;
+            ap_sync_reg_Mat2Array_U0_ap_ready <= 1'b0;
         end else begin
-            ap_sync_reg_Mat2AXIM_U0_ap_ready <= ap_sync_Mat2AXIM_U0_ap_ready;
+            ap_sync_reg_Mat2Array_U0_ap_ready <= ap_sync_Mat2Array_U0_ap_ready;
         end
     end
 end
 
 always @ (posedge ap_clk) begin
-    if (((1'b0 == AXIM2Mat_U0_ap_ready) & (ap_sync_ready == 1'b1))) begin
-        AXIM2Mat_U0_ap_ready_count <= (AXIM2Mat_U0_ap_ready_count - 2'd1);
-    end else if (((ap_sync_ready == 1'b0) & (1'b1 == AXIM2Mat_U0_ap_ready))) begin
-        AXIM2Mat_U0_ap_ready_count <= (AXIM2Mat_U0_ap_ready_count + 2'd1);
+    if (((1'b0 == Array2Mat_U0_ap_ready) & (ap_sync_ready == 1'b1))) begin
+        Array2Mat_U0_ap_ready_count <= (Array2Mat_U0_ap_ready_count - 2'd1);
+    end else if (((ap_sync_ready == 1'b0) & (1'b1 == Array2Mat_U0_ap_ready))) begin
+        Array2Mat_U0_ap_ready_count <= (Array2Mat_U0_ap_ready_count + 2'd1);
     end
 end
 
@@ -374,16 +374,16 @@ always @ (posedge ap_clk) begin
 end
 
 always @ (posedge ap_clk) begin
-    if (((1'b0 == Mat2AXIM_U0_ap_ready) & (ap_sync_ready == 1'b1))) begin
-        Mat2AXIM_U0_ap_ready_count <= (Mat2AXIM_U0_ap_ready_count - 2'd1);
-    end else if (((ap_sync_ready == 1'b0) & (1'b1 == Mat2AXIM_U0_ap_ready))) begin
-        Mat2AXIM_U0_ap_ready_count <= (Mat2AXIM_U0_ap_ready_count + 2'd1);
+    if (((1'b0 == Mat2Array_U0_ap_ready) & (ap_sync_ready == 1'b1))) begin
+        Mat2Array_U0_ap_ready_count <= (Mat2Array_U0_ap_ready_count - 2'd1);
+    end else if (((ap_sync_ready == 1'b0) & (1'b1 == Mat2Array_U0_ap_ready))) begin
+        Mat2Array_U0_ap_ready_count <= (Mat2Array_U0_ap_ready_count + 2'd1);
     end
 end
 
-assign AXIM2Mat_U0_ap_continue = 1'b1;
+assign Array2Mat_U0_ap_continue = 1'b1;
 
-assign AXIM2Mat_U0_ap_start = ((ap_sync_reg_AXIM2Mat_U0_ap_ready ^ 1'b1) & ap_start);
+assign Array2Mat_U0_ap_start = ((ap_sync_reg_Array2Mat_U0_ap_ready ^ 1'b1) & ap_start);
 
 assign Block_proc_U0_ap_continue = 1'b1;
 
@@ -401,47 +401,47 @@ assign Filter2D_U0_start_full_n = 1'b1;
 
 assign Filter2D_U0_start_write = 1'b0;
 
-assign Mat2AXIM_U0_ap_continue = 1'b1;
+assign Mat2Array_U0_ap_continue = 1'b1;
 
-assign Mat2AXIM_U0_ap_start = ((ap_sync_reg_Mat2AXIM_U0_ap_ready ^ 1'b1) & ap_start);
+assign Mat2Array_U0_ap_start = ((ap_sync_reg_Mat2Array_U0_ap_ready ^ 1'b1) & ap_start);
 
-assign Mat2AXIM_U0_start_full_n = 1'b1;
+assign Mat2Array_U0_start_full_n = 1'b1;
 
-assign Mat2AXIM_U0_start_write = 1'b0;
+assign Mat2Array_U0_start_write = 1'b0;
 
-assign ap_done = Mat2AXIM_U0_ap_done;
+assign ap_done = Mat2Array_U0_ap_done;
 
-assign ap_idle = (Mat2AXIM_U0_ap_idle & Filter2D_U0_ap_idle & Block_proc_U0_ap_idle & AXIM2Mat_U0_ap_idle);
+assign ap_idle = (Mat2Array_U0_ap_idle & Filter2D_U0_ap_idle & Block_proc_U0_ap_idle & Array2Mat_U0_ap_idle);
 
 assign ap_ready = ap_sync_ready;
 
-assign ap_sync_AXIM2Mat_U0_ap_ready = (ap_sync_reg_AXIM2Mat_U0_ap_ready | AXIM2Mat_U0_ap_ready);
+assign ap_sync_Array2Mat_U0_ap_ready = (ap_sync_reg_Array2Mat_U0_ap_ready | Array2Mat_U0_ap_ready);
 
 assign ap_sync_Block_proc_U0_ap_ready = (ap_sync_reg_Block_proc_U0_ap_ready | Block_proc_U0_ap_ready);
 
-assign ap_sync_Mat2AXIM_U0_ap_ready = (ap_sync_reg_Mat2AXIM_U0_ap_ready | Mat2AXIM_U0_ap_ready);
+assign ap_sync_Mat2Array_U0_ap_ready = (ap_sync_reg_Mat2Array_U0_ap_ready | Mat2Array_U0_ap_ready);
 
 assign ap_sync_continue = 1'b1;
 
-assign ap_sync_done = Mat2AXIM_U0_ap_done;
+assign ap_sync_done = Mat2Array_U0_ap_done;
 
-assign ap_sync_ready = (ap_sync_Mat2AXIM_U0_ap_ready & ap_sync_Block_proc_U0_ap_ready & ap_sync_AXIM2Mat_U0_ap_ready);
+assign ap_sync_ready = (ap_sync_Mat2Array_U0_ap_ready & ap_sync_Block_proc_U0_ap_ready & ap_sync_Array2Mat_U0_ap_ready);
 
-assign image_in_address0 = AXIM2Mat_U0_fb_address0;
+assign image_in_address0 = Array2Mat_U0_fb_address0;
 
-assign image_in_ce0 = AXIM2Mat_U0_fb_ce0;
+assign image_in_ce0 = Array2Mat_U0_fb_ce0;
 
 assign image_in_d0 = 32'd0;
 
 assign image_in_we0 = 1'b0;
 
-assign image_out_address0 = Mat2AXIM_U0_fb_address0;
+assign image_out_address0 = Mat2Array_U0_fb_address0;
 
-assign image_out_ce0 = Mat2AXIM_U0_fb_ce0;
+assign image_out_ce0 = Mat2Array_U0_fb_ce0;
 
-assign image_out_d0 = Mat2AXIM_U0_fb_d0;
+assign image_out_d0 = Mat2Array_U0_fb_d0;
 
-assign image_out_we0 = Mat2AXIM_U0_fb_we0;
+assign image_out_we0 = Mat2Array_U0_fb_we0;
 
 assign start_for_Filter2D_U0_din = 1'b1;
 

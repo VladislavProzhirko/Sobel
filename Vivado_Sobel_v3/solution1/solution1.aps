@@ -11,7 +11,7 @@
         <config_export format="" rtl="" use_netlist="" vivado_optimization_level="2" vivado_phys_opt="place" vivado_report_level="0"/>
     </config>
     <UIConfigurations>
-        <UIAutosynConf boardInfo="Artix-7 AC701 Evaluation Platform (xc7a200tfbg676-2) " hideTrivialOp="true" isBasedOnBoard="false" isSolutionDirty="false" isStopAskAgain="false" showDetailDesignViewer="false">
+        <UIAutosynConf boardInfo="Artix-7 AC701 Evaluation Platform (xc7a200tfbg676-2) " hideTrivialOp="true" isBasedOnBoard="false" isSolutionDirty="true" isStopAskAgain="false" showDetailDesignViewer="false">
             <Platform>xilinx/artix7/artix7</Platform>
             <Platform>xilinx/artix7/artix7_fpv6</Platform>
             <customLibs/>

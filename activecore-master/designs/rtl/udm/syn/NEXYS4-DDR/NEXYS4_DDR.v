@@ -138,11 +138,11 @@ wire [31:0] testmem_p1_rdata_out;
 
 // testmem's port1 is inactive
 assign testmem_p1_we = 1'b0;
-assign testmem_p1_we_out = 1'b0;
+//assign testmem_p1_we_out = 1'b0;
 //assign testmem_p1_addr = 0;
-assign testmem_p1_addr_out = 0;
+//assign testmem_p1_addr_out = 0;
 assign testmem_p1_wdata = 0;
-assign testmem_p1_wdata_out = 0;
+//assign testmem_p1_wdata_out = 0;
 
 /////////////////////////IN////////////////////////////
 ram_dual #(
@@ -174,7 +174,7 @@ ram_dual #(
     , .dat_width(32)
     , .adr_width(20)
     , .mem_size(TESTMEM_WSIZE)
-) testmem_put (
+) testmem_out (
     .clk(clk_gen)
 
     , .dat0_i(testmem_udm_wdata_out)
@@ -315,10 +315,10 @@ Sobel Sobel_my (
         //.image_in_d0(testmem_p1_rdata),
         .image_in_q0(testmem_p1_rdata),
         //.image_in_we0(testmem_p1_we),
-        .image_out_address0(testmem_p2_addr_out),
+        .image_out_address0(testmem_p1_addr_out),
         //.image_out_ce0,
         .image_out_d0(testmem_p1_wdata_out),
-        //.image_out_q0(testmem_p1_wdata_out),
+        .image_out_q0(testmem_p1_rdata_out),
         .image_out_we0(testmem_p1_we_out),
         .ap_clk(clk_gen),
         .ap_rst(srst),

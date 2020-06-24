@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vivado HLS Report for 'Block_proc'" level="0">
-<item name = "Date">Tue Jun 23 00:54:48 2020
+<item name = "Date">Wed Jun 24 15:51:41 2020
 </item>
 <item name = "Version">2019.2 (Build 2704478 on Wed Nov 06 22:10:23 MST 2019)</item>
 <item name = "Project">Vivado_Sobel_v3</item>

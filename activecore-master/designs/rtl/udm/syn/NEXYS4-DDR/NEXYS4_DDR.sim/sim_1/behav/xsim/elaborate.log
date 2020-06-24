@@ -8,8 +8,6 @@ WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 20 f
 WARNING: [VRFC 10-3091] actual bit length 37 differs from formal bit length 20 for port 'adr1_i' [C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/syn/NEXYS4-DDR/NEXYS4_DDR.v:163]
 WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 20 for port 'adr0_i' [C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/syn/NEXYS4-DDR/NEXYS4_DDR.v:181]
 WARNING: [VRFC 10-3091] actual bit length 37 differs from formal bit length 20 for port 'adr1_i' [C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/syn/NEXYS4-DDR/NEXYS4_DDR.v:186]
-WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 5 for port 'image_out_address0' [C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/syn/NEXYS4-DDR/NEXYS4_DDR.v:318]
-WARNING: [VRFC 10-5021] port 'image_out_q0' is not connected on this instance [C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/syn/NEXYS4-DDR/NEXYS4_DDR.v:312]
 Completed static elaboration
 Starting simulation data flow analysis
 Completed simulation data flow analysis
@@ -27,12 +25,12 @@ Compiling module xil_defaultlib.udm(BUS_TIMEOUT=100,RX_EXTERNAL_...
 Compiling module xil_defaultlib.ram_dual(mem_init="NO",mem_data=...
 Compiling module xil_defaultlib.ram_dual(mem_init="NO",mem_data=...
 Compiling module xil_defaultlib.Block_proc
-Compiling module xil_defaultlib.AXIM2Mat
+Compiling module xil_defaultlib.Array2Mat
 Compiling module xil_defaultlib.Filter2D_k_buf_0_bkb_ram
 Compiling module xil_defaultlib.Filter2D_k_buf_0_bkb(DataWidth=8...
 Compiling module xil_defaultlib.Sobel_mux_32_8_1_1(ID=1,din0_WID...
 Compiling module xil_defaultlib.Filter2D
-Compiling module xil_defaultlib.Mat2AXIM
+Compiling module xil_defaultlib.Mat2Array
 Compiling module xil_defaultlib.fifo_w5_d2_A_shiftReg
 Compiling module xil_defaultlib.fifo_w5_d2_A
 Compiling module xil_defaultlib.fifo_w8_d2_A_shiftReg

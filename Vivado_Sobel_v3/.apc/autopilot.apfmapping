@@ -2,6 +2,7 @@
 <autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
   <source>
     <originFiles name="core.cpp" path="C:\Users\Drus\Desktop\parni\Sobel\Vivado_Sobel_v3\core.cpp"/>
+    <originFiles name="core.h" path="C:\Users\Drus\Desktop\parni\Sobel\Vivado_Sobel_v3\core.h"/>
   </source>
   <testbench>
     <originFiles name="test.cpp" path="C:\Users\Drus\Desktop\parni\Sobel\Vivado_Sobel_v3\test.cpp"/>

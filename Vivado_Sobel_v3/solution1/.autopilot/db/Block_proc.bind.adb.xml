@@ -82,7 +82,7 @@ entry:3  call void @_ssdm_op_Write.ap_fifo.i5P(i5* %src_cols_V_out, i5 10)
 entry:4  ret void
 
 ]]></Node>
-<StgValue><ssdm name="ret_ln10"/></StgValue>
+<StgValue><ssdm name="ret_ln12"/></StgValue>
 </operation>
 </state>
 </state_list>

@@ -74,17 +74,17 @@ set RtlHierarchyInfo {[
 		"HasNonBlockingOperation" : "0",
 		"InputProcess" : [
 			{"ID" : "1", "Name" : "Block_proc_U0", "ReadyCount" : "Block_proc_U0_ap_ready_count"},
-			{"ID" : "2", "Name" : "AXIM2Mat_U0", "ReadyCount" : "AXIM2Mat_U0_ap_ready_count"},
-			{"ID" : "12", "Name" : "Mat2AXIM_U0", "ReadyCount" : "Mat2AXIM_U0_ap_ready_count"}],
+			{"ID" : "2", "Name" : "Array2Mat_U0", "ReadyCount" : "Array2Mat_U0_ap_ready_count"},
+			{"ID" : "12", "Name" : "Mat2Array_U0", "ReadyCount" : "Mat2Array_U0_ap_ready_count"}],
 		"OutputProcess" : [
-			{"ID" : "12", "Name" : "Mat2AXIM_U0"}],
+			{"ID" : "12", "Name" : "Mat2Array_U0"}],
 		"Port" : [
 			{"Name" : "image_in", "Type" : "Memory", "Direction" : "I",
 				"SubConnect" : [
-					{"ID" : "2", "SubInstance" : "AXIM2Mat_U0", "Port" : "fb"}]},
+					{"ID" : "2", "SubInstance" : "Array2Mat_U0", "Port" : "fb"}]},
 			{"Name" : "image_out", "Type" : "Memory", "Direction" : "IO",
 				"SubConnect" : [
-					{"ID" : "12", "SubInstance" : "Mat2AXIM_U0", "Port" : "fb"}]}]},
+					{"ID" : "12", "SubInstance" : "Mat2Array_U0", "Port" : "fb"}]}]},
 	{"ID" : "1", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.Block_proc_U0", "Parent" : "0",
 		"CDFG" : "Block_proc",
 		"Protocol" : "ap_ctrl_hs",
@@ -105,8 +105,8 @@ set RtlHierarchyInfo {[
 			{"Name" : "src_cols_V_out", "Type" : "Fifo", "Direction" : "O", "DependentProc" : "2", "DependentChan" : "14",
 				"BlockSignal" : [
 					{"Name" : "src_cols_V_out_blk_n", "Type" : "RtlSignal"}]}]},
-	{"ID" : "2", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.AXIM2Mat_U0", "Parent" : "0",
-		"CDFG" : "AXIM2Mat",
+	{"ID" : "2", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.Array2Mat_U0", "Parent" : "0",
+		"CDFG" : "Array2Mat",
 		"Protocol" : "ap_ctrl_hs",
 		"ControlExist" : "1", "ap_start" : "1", "ap_ready" : "1", "ap_done" : "1", "ap_continue" : "1", "ap_idle" : "1",
 		"Pipeline" : "None", "UnalignedPipeline" : "0", "RewindPipeline" : "0", "ProcessNetwork" : "0",
@@ -190,8 +190,8 @@ set RtlHierarchyInfo {[
 	{"ID" : "9", "Level" : "2", "Path" : "`AUTOTB_DUT_INST.Filter2D_U0.Sobel_mux_32_8_1_1_U11", "Parent" : "3"},
 	{"ID" : "10", "Level" : "2", "Path" : "`AUTOTB_DUT_INST.Filter2D_U0.Sobel_mux_32_8_1_1_U12", "Parent" : "3"},
 	{"ID" : "11", "Level" : "2", "Path" : "`AUTOTB_DUT_INST.Filter2D_U0.Sobel_mux_32_8_1_1_U13", "Parent" : "3"},
-	{"ID" : "12", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.Mat2AXIM_U0", "Parent" : "0",
-		"CDFG" : "Mat2AXIM",
+	{"ID" : "12", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.Mat2Array_U0", "Parent" : "0",
+		"CDFG" : "Mat2Array",
 		"Protocol" : "ap_ctrl_hs",
 		"ControlExist" : "1", "ap_start" : "1", "ap_ready" : "1", "ap_done" : "1", "ap_continue" : "1", "ap_idle" : "1",
 		"Pipeline" : "None", "UnalignedPipeline" : "0", "RewindPipeline" : "0", "ProcessNetwork" : "0",
@@ -224,7 +224,7 @@ set ArgLastReadFirstWriteLatency {
 	Block_proc {
 		src_rows_V_out {Type O LastRead -1 FirstWrite 0}
 		src_cols_V_out {Type O LastRead -1 FirstWrite 0}}
-	AXIM2Mat {
+	Array2Mat {
 		fb {Type I LastRead 2 FirstWrite -1}
 		img_rows_V {Type I LastRead 0 FirstWrite -1}
 		img_cols_V {Type I LastRead 0 FirstWrite -1}
@@ -236,7 +236,7 @@ set ArgLastReadFirstWriteLatency {
 		p_src_cols_V {Type I LastRead 0 FirstWrite -1}
 		p_src_data_stream_V {Type I LastRead 3 FirstWrite -1}
 		p_dst_data_stream_V {Type O LastRead -1 FirstWrite 4}}
-	Mat2AXIM {
+	Mat2Array {
 		img_data_stream_V {Type I LastRead 3 FirstWrite -1}
 		fb {Type IO LastRead 2 FirstWrite 3}}}
 

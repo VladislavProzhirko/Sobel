@@ -6,6 +6,7 @@
 open_project Vivado_Sobel_v3
 set_top Sobel
 add_files Vivado_Sobel_v3/core.cpp
+add_files Vivado_Sobel_v3/core.h
 add_files -tb Vivado_Sobel_v3/test.cpp -cflags "-Wno-unknown-pragmas" -csimflags "-Wno-unknown-pragmas"
 open_solution "solution1"
 set_part {xc7a100t-csg324-3}

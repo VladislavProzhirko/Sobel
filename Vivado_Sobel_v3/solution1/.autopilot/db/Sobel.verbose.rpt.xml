@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vivado HLS Report for 'Sobel'" level="0">
-<item name = "Date">Tue Jun 23 00:54:52 2020
+<item name = "Date">Wed Jun 24 15:51:45 2020
 </item>
 <item name = "Version">2019.2 (Build 2704478 on Wed Nov 06 22:10:23 MST 2019)</item>
 <item name = "Project">Vivado_Sobel_v3</item>
@@ -32,8 +32,8 @@
 <item name = "Instance"><table name="" hasTotal="0">
 <keys size="9">Instance, Module, min, max, min, max, min, max, Type</keys>
 <column name="Filter2D_U0">Filter2D, 127, 209, 1.270 us, 2.090 us, 127, 209, none</column>
-<column name="AXIM2Mat_U0">AXIM2Mat, 1, 141, 10.000 ns, 1.410 us, 1, 141, none</column>
-<column name="Mat2AXIM_U0">Mat2AXIM, 231, 231, 2.310 us, 2.310 us, 231, 231, none</column>
+<column name="Array2Mat_U0">Array2Mat, 1, 141, 10.000 ns, 1.410 us, 1, 141, none</column>
+<column name="Mat2Array_U0">Mat2Array, 231, 231, 2.310 us, 2.310 us, 231, 231, none</column>
 <column name="Block_proc_U0">Block_proc, 0, 0, 0 ns, 0 ns, 0, 0, none</column>
 </table>
 </item>
@@ -65,10 +65,10 @@
 <section name = "" level="1">
 <item name = "Instance"><table name="" hasTotal="1">
 <keys size="7">Instance, Module, BRAM_18K, DSP48E, FF, LUT, URAM</keys>
-<column name="AXIM2Mat_U0">AXIM2Mat, 0, 0, 194, 621, 0</column>
+<column name="Array2Mat_U0">Array2Mat, 0, 0, 194, 621, 0</column>
 <column name="Block_proc_U0">Block_proc, 0, 0, 2, 29, 0</column>
 <column name="Filter2D_U0">Filter2D, 0, 0, 486, 1368, 0</column>
-<column name="Mat2AXIM_U0">Mat2AXIM, 0, 0, 71, 711, 0</column>
+<column name="Mat2Array_U0">Mat2Array, 0, 0, 71, 711, 0</column>
 </table>
 </item>
 <item name = "DSP48E"><table name="" hasTotal="0">
@@ -91,37 +91,37 @@
 </item>
 <item name = "Expression"><table name="" hasTotal="1">
 <keys size="7">Variable Name, Operation, DSP48E, FF, LUT, Bitwidth P0, Bitwidth P1</keys>
-<column name="AXIM2Mat_U0_ap_ready_count">+, 0, 0, 10, 2, 1</column>
+<column name="Array2Mat_U0_ap_ready_count">+, 0, 0, 10, 2, 1</column>
 <column name="Block_proc_U0_ap_ready_count">+, 0, 0, 10, 2, 1</column>
-<column name="Mat2AXIM_U0_ap_ready_count">+, 0, 0, 10, 2, 1</column>
-<column name="AXIM2Mat_U0_ap_start">and, 0, 0, 2, 1, 1</column>
+<column name="Mat2Array_U0_ap_ready_count">+, 0, 0, 10, 2, 1</column>
+<column name="Array2Mat_U0_ap_start">and, 0, 0, 2, 1, 1</column>
 <column name="Block_proc_U0_ap_start">and, 0, 0, 2, 1, 1</column>
-<column name="Mat2AXIM_U0_ap_start">and, 0, 0, 2, 1, 1</column>
+<column name="Mat2Array_U0_ap_start">and, 0, 0, 2, 1, 1</column>
 <column name="ap_idle">and, 0, 0, 2, 1, 1</column>
 <column name="ap_sync_ready">and, 0, 0, 2, 1, 1</column>
-<column name="ap_sync_AXIM2Mat_U0_ap_ready">or, 0, 0, 2, 1, 1</column>
+<column name="ap_sync_Array2Mat_U0_ap_ready">or, 0, 0, 2, 1, 1</column>
 <column name="ap_sync_Block_proc_U0_ap_ready">or, 0, 0, 2, 1, 1</column>
-<column name="ap_sync_Mat2AXIM_U0_ap_ready">or, 0, 0, 2, 1, 1</column>
+<column name="ap_sync_Mat2Array_U0_ap_ready">or, 0, 0, 2, 1, 1</column>
 </table>
 </item>
 <item name = "Multiplexer"><table name="" hasTotal="1">
 <keys size="5">Name, LUT, Input Size, Bits, Total Bits</keys>
-<column name="AXIM2Mat_U0_ap_ready_count">9, 2, 2, 4</column>
+<column name="Array2Mat_U0_ap_ready_count">9, 2, 2, 4</column>
 <column name="Block_proc_U0_ap_ready_count">9, 2, 2, 4</column>
-<column name="Mat2AXIM_U0_ap_ready_count">9, 2, 2, 4</column>
-<column name="ap_sync_reg_AXIM2Mat_U0_ap_ready">9, 2, 1, 2</column>
+<column name="Mat2Array_U0_ap_ready_count">9, 2, 2, 4</column>
+<column name="ap_sync_reg_Array2Mat_U0_ap_ready">9, 2, 1, 2</column>
 <column name="ap_sync_reg_Block_proc_U0_ap_ready">9, 2, 1, 2</column>
-<column name="ap_sync_reg_Mat2AXIM_U0_ap_ready">9, 2, 1, 2</column>
+<column name="ap_sync_reg_Mat2Array_U0_ap_ready">9, 2, 1, 2</column>
 </table>
 </item>
 <item name = "Register"><table name="" hasTotal="1">
 <keys size="5">Name, FF, LUT, Bits, Const Bits</keys>
-<column name="AXIM2Mat_U0_ap_ready_count">2, 0, 2, 0</column>
+<column name="Array2Mat_U0_ap_ready_count">2, 0, 2, 0</column>
 <column name="Block_proc_U0_ap_ready_count">2, 0, 2, 0</column>
-<column name="Mat2AXIM_U0_ap_ready_count">2, 0, 2, 0</column>
-<column name="ap_sync_reg_AXIM2Mat_U0_ap_ready">1, 0, 1, 0</column>
+<column name="Mat2Array_U0_ap_ready_count">2, 0, 2, 0</column>
+<column name="ap_sync_reg_Array2Mat_U0_ap_ready">1, 0, 1, 0</column>
 <column name="ap_sync_reg_Block_proc_U0_ap_ready">1, 0, 1, 0</column>
-<column name="ap_sync_reg_Mat2AXIM_U0_ap_ready">1, 0, 1, 0</column>
+<column name="ap_sync_reg_Mat2Array_U0_ap_ready">1, 0, 1, 0</column>
 </table>
 </item>
 </section>

@@ -83,6 +83,6 @@ $(ObjDir)/test.o: ../../../test.cpp $(ObjDir)/.dir
 
 $(ObjDir)/core.o: ../../../core.cpp $(ObjDir)/.dir
 	$(Echo) "   Compiling ../../../core.cpp in $(BuildMode) mode" $(AVE_DIR_DLOG)
-	$(Verb)  $(CC) ${CCFLAG} -c -MMD  $(IFLAG) $(DFLAG) $< -o $@ ; \
+	$(Verb)  $(CC) ${CCFLAG} -c -MMD -Wno-unknown-pragmas  $(IFLAG) $(DFLAG) $< -o $@ ; \
 
 -include $(ObjDir)/core.d

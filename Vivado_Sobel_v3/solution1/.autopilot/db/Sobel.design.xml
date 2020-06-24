@@ -11,14 +11,14 @@
 <ID>80</ID>
 </Instance>
 <Instance>
-<InstName>AXIM2Mat_U0</InstName>
-<ModuleName>AXIM2Mat</ModuleName>
+<InstName>Array2Mat_U0</InstName>
+<ModuleName>Array2Mat</ModuleName>
 <IsCompInst>true</IsCompInst>
 <ID>88</ID>
 </Instance>
 <Instance>
-<InstName>Mat2AXIM_U0</InstName>
-<ModuleName>Mat2AXIM</ModuleName>
+<InstName>Mat2Array_U0</InstName>
+<ModuleName>Mat2Array</ModuleName>
 <IsCompInst>true</IsCompInst>
 <ID>99</ID>
 </Instance>
@@ -208,7 +208,7 @@
 </InterfaceSummary>
 </Module>
 <Module>
-<Name>AXIM2Mat</Name>
+<Name>Array2Mat</Name>
 <PerformanceEstimates>
 <SummaryOfTimingAnalysis>
 <TargetClockPeriod>10.00</TargetClockPeriod>
@@ -269,7 +269,7 @@
 <InterfaceSummary>
 <RtlPorts>
 <name>ap_clk</name>
-<Object>AXIM2Mat</Object>
+<Object>Array2Mat</Object>
 <Type>return value</Type>
 <Scope></Scope>
 <IOProtocol>ap_ctrl_hs</IOProtocol>
@@ -280,7 +280,7 @@
 </RtlPorts>
 <RtlPorts>
 <name>ap_rst</name>
-<Object>AXIM2Mat</Object>
+<Object>Array2Mat</Object>
 <Type>return value</Type>
 <Scope></Scope>
 <IOProtocol>ap_ctrl_hs</IOProtocol>
@@ -291,7 +291,7 @@
 </RtlPorts>
 <RtlPorts>
 <name>ap_start</name>
-<Object>AXIM2Mat</Object>
+<Object>Array2Mat</Object>
 <Type>return value</Type>
 <Scope></Scope>
 <IOProtocol>ap_ctrl_hs</IOProtocol>
@@ -302,7 +302,7 @@
 </RtlPorts>
 <RtlPorts>
 <name>start_full_n</name>
-<Object>AXIM2Mat</Object>
+<Object>Array2Mat</Object>
 <Type>return value</Type>
 <Scope></Scope>
 <IOProtocol>ap_ctrl_hs</IOProtocol>
@@ -313,7 +313,7 @@
 </RtlPorts>
 <RtlPorts>
 <name>ap_done</name>
-<Object>AXIM2Mat</Object>
+<Object>Array2Mat</Object>
 <Type>return value</Type>
 <Scope></Scope>
 <IOProtocol>ap_ctrl_hs</IOProtocol>
@@ -324,7 +324,7 @@
 </RtlPorts>
 <RtlPorts>
 <name>ap_continue</name>
-<Object>AXIM2Mat</Object>
+<Object>Array2Mat</Object>
 <Type>return value</Type>
 <Scope></Scope>
 <IOProtocol>ap_ctrl_hs</IOProtocol>
@@ -335,7 +335,7 @@
 </RtlPorts>
 <RtlPorts>
 <name>ap_idle</name>
-<Object>AXIM2Mat</Object>
+<Object>Array2Mat</Object>
 <Type>return value</Type>
 <Scope></Scope>
 <IOProtocol>ap_ctrl_hs</IOProtocol>
@@ -346,7 +346,7 @@
 </RtlPorts>
 <RtlPorts>
 <name>ap_ready</name>
-<Object>AXIM2Mat</Object>
+<Object>Array2Mat</Object>
 <Type>return value</Type>
 <Scope></Scope>
 <IOProtocol>ap_ctrl_hs</IOProtocol>
@@ -357,7 +357,7 @@
 </RtlPorts>
 <RtlPorts>
 <name>start_out</name>
-<Object>AXIM2Mat</Object>
+<Object>Array2Mat</Object>
 <Type>return value</Type>
 <Scope></Scope>
 <IOProtocol>ap_ctrl_hs</IOProtocol>
@@ -368,7 +368,7 @@
 </RtlPorts>
 <RtlPorts>
 <name>start_write</name>
-<Object>AXIM2Mat</Object>
+<Object>Array2Mat</Object>
 <Type>return value</Type>
 <Scope></Scope>
 <IOProtocol>ap_ctrl_hs</IOProtocol>
@@ -849,7 +849,7 @@
 </InterfaceSummary>
 </Module>
 <Module>
-<Name>Mat2AXIM</Name>
+<Name>Mat2Array</Name>
 <PerformanceEstimates>
 <SummaryOfTimingAnalysis>
 <TargetClockPeriod>10.00</TargetClockPeriod>
@@ -895,7 +895,7 @@
 <InterfaceSummary>
 <RtlPorts>
 <name>ap_clk</name>
-<Object>Mat2AXIM</Object>
+<Object>Mat2Array</Object>
 <Type>return value</Type>
 <Scope></Scope>
 <IOProtocol>ap_ctrl_hs</IOProtocol>
@@ -906,7 +906,7 @@
 </RtlPorts>
 <RtlPorts>
 <name>ap_rst</name>
-<Object>Mat2AXIM</Object>
+<Object>Mat2Array</Object>
 <Type>return value</Type>
 <Scope></Scope>
 <IOProtocol>ap_ctrl_hs</IOProtocol>
@@ -917,7 +917,7 @@
 </RtlPorts>
 <RtlPorts>
 <name>ap_start</name>
-<Object>Mat2AXIM</Object>
+<Object>Mat2Array</Object>
 <Type>return value</Type>
 <Scope></Scope>
 <IOProtocol>ap_ctrl_hs</IOProtocol>
@@ -928,7 +928,7 @@
 </RtlPorts>
 <RtlPorts>
 <name>ap_done</name>
-<Object>Mat2AXIM</Object>
+<Object>Mat2Array</Object>
 <Type>return value</Type>
 <Scope></Scope>
 <IOProtocol>ap_ctrl_hs</IOProtocol>
@@ -939,7 +939,7 @@
 </RtlPorts>
 <RtlPorts>
 <name>ap_continue</name>
-<Object>Mat2AXIM</Object>
+<Object>Mat2Array</Object>
 <Type>return value</Type>
 <Scope></Scope>
 <IOProtocol>ap_ctrl_hs</IOProtocol>
@@ -950,7 +950,7 @@
 </RtlPorts>
 <RtlPorts>
 <name>ap_idle</name>
-<Object>Mat2AXIM</Object>
+<Object>Mat2Array</Object>
 <Type>return value</Type>
 <Scope></Scope>
 <IOProtocol>ap_ctrl_hs</IOProtocol>
@@ -961,7 +961,7 @@
 </RtlPorts>
 <RtlPorts>
 <name>ap_ready</name>
-<Object>Mat2AXIM</Object>
+<Object>Mat2Array</Object>
 <Type>return value</Type>
 <Scope></Scope>
 <IOProtocol>ap_ctrl_hs</IOProtocol>

@@ -3,7 +3,7 @@
 ================================================================
 == Vivado HLS Report for 'Sobel'
 ================================================================
-* Date:           Tue Jun 23 00:54:47 2020
+* Date:           Wed Jun 24 15:51:40 2020
 
 * Version:        2019.2 (Build 2704478 on Wed Nov 06 22:10:23 MST 2019)
 * Project:        Vivado_Sobel_v3
@@ -91,10 +91,10 @@ ST_1 : Operation 13 [1/1] (0.00ns)   --->   "%dst_data_stream_0_V = alloca i8, a
 ST_1 : Operation 14 [1/1] (0.00ns)   --->   "call fastcc void @Block__proc(i5* %src_rows_V_c, i5* %src_cols_V_c)"   --->   Operation 14 'call' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
 
 State 2 <SV = 1> <Delay = 0.00>
-ST_2 : Operation 15 [2/2] (0.00ns)   --->   "call fastcc void @AXIM2Mat([25 x i32]* %image_in, i5* nocapture %src_rows_V_c, i5* nocapture %src_cols_V_c, i8* %src_data_stream_0_V, i5* %src_rows_V_c8, i5* %src_cols_V_c9)"   --->   Operation 15 'call' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+ST_2 : Operation 15 [2/2] (0.00ns)   --->   "call fastcc void @Array2Mat([25 x i32]* %image_in, i5* nocapture %src_rows_V_c, i5* nocapture %src_cols_V_c, i8* %src_data_stream_0_V, i5* %src_rows_V_c8, i5* %src_cols_V_c9)"   --->   Operation 15 'call' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
 
 State 3 <SV = 2> <Delay = 0.00>
-ST_3 : Operation 16 [1/2] (0.00ns)   --->   "call fastcc void @AXIM2Mat([25 x i32]* %image_in, i5* nocapture %src_rows_V_c, i5* nocapture %src_cols_V_c, i8* %src_data_stream_0_V, i5* %src_rows_V_c8, i5* %src_cols_V_c9)"   --->   Operation 16 'call' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+ST_3 : Operation 16 [1/2] (0.00ns)   --->   "call fastcc void @Array2Mat([25 x i32]* %image_in, i5* nocapture %src_rows_V_c, i5* nocapture %src_cols_V_c, i8* %src_data_stream_0_V, i5* %src_rows_V_c8, i5* %src_cols_V_c9)"   --->   Operation 16 'call' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
 
 State 4 <SV = 3> <Delay = 0.00>
 ST_4 : Operation 17 [2/2] (0.00ns)   --->   "call fastcc void @Filter2D(i5* nocapture %src_rows_V_c8, i5* nocapture %src_cols_V_c9, i8* %src_data_stream_0_V, i8* %dst_data_stream_0_V)" [Vivado_Sobel_v3/core.cpp:58]   --->   Operation 17 'call' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
@@ -103,10 +103,10 @@ State 5 <SV = 4> <Delay = 0.00>
 ST_5 : Operation 18 [1/2] (0.00ns)   --->   "call fastcc void @Filter2D(i5* nocapture %src_rows_V_c8, i5* nocapture %src_cols_V_c9, i8* %src_data_stream_0_V, i8* %dst_data_stream_0_V)" [Vivado_Sobel_v3/core.cpp:58]   --->   Operation 18 'call' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
 
 State 6 <SV = 5> <Delay = 0.00>
-ST_6 : Operation 19 [2/2] (0.00ns)   --->   "call fastcc void @Mat2AXIM(i8* %dst_data_stream_0_V, [25 x i32]* %image_out)"   --->   Operation 19 'call' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+ST_6 : Operation 19 [2/2] (0.00ns)   --->   "call fastcc void @Mat2Array(i8* %dst_data_stream_0_V, [25 x i32]* %image_out)"   --->   Operation 19 'call' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
 
 State 7 <SV = 6> <Delay = 0.00>
-ST_7 : Operation 20 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecDataflowPipeline(i32 -1, i32 0, [1 x i8]* @p_str) nounwind" [Vivado_Sobel_v3/core.cpp:10]   --->   Operation 20 'specdataflowpipeline' <Predicate = true> <Delay = 0.00>
+ST_7 : Operation 20 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecDataflowPipeline(i32 -1, i32 0, [1 x i8]* @p_str) nounwind" [Vivado_Sobel_v3/core.cpp:12]   --->   Operation 20 'specdataflowpipeline' <Predicate = true> <Delay = 0.00>
 ST_7 : Operation 21 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecBitsMap([25 x i32]* %image_out), !map !216"   --->   Operation 21 'specbitsmap' <Predicate = true> <Delay = 0.00>
 ST_7 : Operation 22 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecBitsMap([25 x i32]* %image_in), !map !237"   --->   Operation 22 'specbitsmap' <Predicate = true> <Delay = 0.00>
 ST_7 : Operation 23 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecTopModule([6 x i8]* @Sobel_str) nounwind"   --->   Operation 23 'spectopmodule' <Predicate = true> <Delay = 0.00>
@@ -124,8 +124,8 @@ ST_7 : Operation 34 [1/1] (0.00ns)   --->   "%empty_53 = call i32 (...)* @_ssdm_
 ST_7 : Operation 35 [1/1] (0.00ns)   --->   "%empty_54 = call i32 (...)* @_ssdm_op_SpecInterface(i5* %src_rows_V_c8, [8 x i8]* @ap_fifo_str, i32 0, i32 0, [1 x i8]* @p_str, i32 0, i32 0, [1 x i8]* @p_str, [1 x i8]* @p_str, [1 x i8]* @p_str, i32 2, i32 2, i32 16, i32 16, [1 x i8]* @p_str, [1 x i8]* @p_str)"   --->   Operation 35 'specinterface' 'empty_54' <Predicate = true> <Delay = 0.00>
 ST_7 : Operation 36 [1/1] (0.00ns)   --->   "%empty_55 = call i32 (...)* @_ssdm_op_SpecChannel([14 x i8]* @src_OC_cols_OC_V_c9_s, i32 1, [1 x i8]* @p_str, [1 x i8]* @p_str, i32 2, i32 0, i5* %src_cols_V_c9, i5* %src_cols_V_c9)"   --->   Operation 36 'specchannel' 'empty_55' <Predicate = true> <Delay = 0.00>
 ST_7 : Operation 37 [1/1] (0.00ns)   --->   "%empty_56 = call i32 (...)* @_ssdm_op_SpecInterface(i5* %src_cols_V_c9, [8 x i8]* @ap_fifo_str, i32 0, i32 0, [1 x i8]* @p_str, i32 0, i32 0, [1 x i8]* @p_str, [1 x i8]* @p_str, [1 x i8]* @p_str, i32 2, i32 2, i32 16, i32 16, [1 x i8]* @p_str, [1 x i8]* @p_str)"   --->   Operation 37 'specinterface' 'empty_56' <Predicate = true> <Delay = 0.00>
-ST_7 : Operation 38 [1/2] (0.00ns)   --->   "call fastcc void @Mat2AXIM(i8* %dst_data_stream_0_V, [25 x i32]* %image_out)"   --->   Operation 38 'call' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
-ST_7 : Operation 39 [1/1] (0.00ns)   --->   "ret void" [Vivado_Sobel_v3/core.cpp:60]   --->   Operation 39 'ret' <Predicate = true> <Delay = 0.00>
+ST_7 : Operation 38 [1/2] (0.00ns)   --->   "call fastcc void @Mat2Array(i8* %dst_data_stream_0_V, [25 x i32]* %image_out)"   --->   Operation 38 'call' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+ST_7 : Operation 39 [1/1] (0.00ns)   --->   "ret void" [Vivado_Sobel_v3/core.cpp:63]   --->   Operation 39 'ret' <Predicate = true> <Delay = 0.00>
 
 
 ============================================================

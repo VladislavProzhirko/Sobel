@@ -6,8 +6,7 @@ INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Drus/Desktop/parni/Sobel/a
 INFO: [VRFC 10-311] analyzing module tb
 INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/syn/NEXYS4-DDR/NEXYS4_DDR.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module NEXYS4_DDR
-INFO: [VRFC 10-2458] undeclared symbol testmem_p1_we_out, assumed default net type wire [C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/syn/NEXYS4-DDR/NEXYS4_DDR.v:141]
-INFO: [VRFC 10-2458] undeclared symbol testmem_p2_addr_out, assumed default net type wire [C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/syn/NEXYS4-DDR/NEXYS4_DDR.v:318]
+INFO: [VRFC 10-2458] undeclared symbol testmem_p1_we_out, assumed default net type wire [C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/syn/NEXYS4-DDR/NEXYS4_DDR.v:187]
 INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/hdl/udm.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module udm
 INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/udm/hdl/uart_rx.v" into library xil_defaultlib
@@ -24,27 +23,27 @@ INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Drus/Desktop/parni/Sobel/a
 INFO: [VRFC 10-311] analyzing module ram
 INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Drus/Desktop/parni/Sobel/activecore-master/designs/rtl/ram/ram_dual.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module ram_dual
-INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Drus/Desktop/parni/Sobel/Vivado_Sobel_v3/solution1/syn/verilog/Sobel_mux_32_8_1_1.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module Sobel_mux_32_8_1_1
 INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Drus/Desktop/parni/Sobel/Vivado_Sobel_v3/solution1/syn/verilog/Filter2D.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module Filter2D
 INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Drus/Desktop/parni/Sobel/Vivado_Sobel_v3/solution1/syn/verilog/Sobel.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module Sobel
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Drus/Desktop/parni/Sobel/Vivado_Sobel_v3/solution1/syn/verilog/Filter2D_k_buf_0_bkb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Filter2D_k_buf_0_bkb_ram
+INFO: [VRFC 10-311] analyzing module Filter2D_k_buf_0_bkb
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Drus/Desktop/parni/Sobel/Vivado_Sobel_v3/solution1/syn/verilog/Sobel_mux_32_8_1_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Sobel_mux_32_8_1_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Drus/Desktop/parni/Sobel/Vivado_Sobel_v3/solution1/syn/verilog/fifo_w8_d2_A.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fifo_w8_d2_A_shiftReg
+INFO: [VRFC 10-311] analyzing module fifo_w8_d2_A
 INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Drus/Desktop/parni/Sobel/Vivado_Sobel_v3/solution1/syn/verilog/fifo_w5_d2_A.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module fifo_w5_d2_A_shiftReg
 INFO: [VRFC 10-311] analyzing module fifo_w5_d2_A
-INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Drus/Desktop/parni/Sobel/Vivado_Sobel_v3/solution1/syn/verilog/Mat2AXIM.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module Mat2AXIM
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Drus/Desktop/parni/Sobel/Vivado_Sobel_v3/solution1/syn/verilog/Array2Mat.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Array2Mat
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Drus/Desktop/parni/Sobel/Vivado_Sobel_v3/solution1/syn/verilog/Mat2Array.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mat2Array
 INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Drus/Desktop/parni/Sobel/Vivado_Sobel_v3/solution1/syn/verilog/Block_proc.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module Block_proc
 INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Drus/Desktop/parni/Sobel/Vivado_Sobel_v3/solution1/syn/verilog/start_for_Filter2eOg.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module start_for_Filter2eOg_shiftReg
 INFO: [VRFC 10-311] analyzing module start_for_Filter2eOg
-INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Drus/Desktop/parni/Sobel/Vivado_Sobel_v3/solution1/syn/verilog/fifo_w8_d2_A.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module fifo_w8_d2_A_shiftReg
-INFO: [VRFC 10-311] analyzing module fifo_w8_d2_A
-INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Drus/Desktop/parni/Sobel/Vivado_Sobel_v3/solution1/syn/verilog/AXIM2Mat.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module AXIM2Mat
-INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Drus/Desktop/parni/Sobel/Vivado_Sobel_v3/solution1/syn/verilog/Filter2D_k_buf_0_bkb.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module Filter2D_k_buf_0_bkb_ram
-INFO: [VRFC 10-311] analyzing module Filter2D_k_buf_0_bkb

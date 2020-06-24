@@ -231,10 +231,10 @@
 					<Obj>
 						<type>0</type>
 						<id>7</id>
-						<name>_ln10</name>
+						<name>_ln12</name>
 						<fileName>Vivado_Sobel_v3/core.cpp</fileName>
 						<fileDirectory>C:\Users\Drus\Desktop\parni\Sobel</fileDirectory>
-						<lineNumber>10</lineNumber>
+						<lineNumber>12</lineNumber>
 						<contextFuncName>Sobel</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -249,7 +249,7 @@
 											<first>Vivado_Sobel_v3/core.cpp</first>
 											<second>Sobel</second>
 										</first>
-										<second>10</second>
+										<second>12</second>
 									</item>
 								</second>
 							</item>
