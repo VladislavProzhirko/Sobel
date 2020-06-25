@@ -1,8 +1,8 @@
 Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
-| Date         : Sat Jun 20 03:20:38 2020
-| Host         : Drus-PC running 64-bit Service Pack 1  (build 7601)
+| Date         : Thu Jun 25 16:01:17 2020
+| Host         : DESKTOP-OK8EIFJ running 64-bit major release  (build 9200)
 | Command      : report_methodology -file NEXYS4_DDR_methodology_drc_routed.rpt -pb NEXYS4_DDR_methodology_drc_routed.pb -rpx NEXYS4_DDR_methodology_drc_routed.rpx
 | Design       : NEXYS4_DDR
 | Device       : xc7a100tcsg324-3

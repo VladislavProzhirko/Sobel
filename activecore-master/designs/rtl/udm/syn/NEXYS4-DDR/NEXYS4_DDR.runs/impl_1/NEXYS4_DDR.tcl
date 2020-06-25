@@ -67,16 +67,17 @@ start_step init_design
 set ACTIVE_STEP init_design
 set rc [catch {
   create_msg_db init_design.pb
+  set_param chipscope.maxJobs 1
   create_project -in_memory -part xc7a100tcsg324-3
   set_property design_mode GateLvl [current_fileset]
   set_param project.singleFileAddWarning.threshold 0
-  set_property webtalk.parent_dir C:/Users/Drus/Desktop/activecore-master/designs/rtl/udm/syn/NEXYS4-DDR/NEXYS4_DDR.cache/wt [current_project]
-  set_property parent.project_path C:/Users/Drus/Desktop/activecore-master/designs/rtl/udm/syn/NEXYS4-DDR/NEXYS4_DDR.xpr [current_project]
+  set_property webtalk.parent_dir C:/Users/bladk/AppData/Roaming/Xilinx/Sobel/activecore-master/designs/rtl/udm/syn/NEXYS4-DDR/NEXYS4_DDR.cache/wt [current_project]
+  set_property parent.project_path C:/Users/bladk/AppData/Roaming/Xilinx/Sobel/activecore-master/designs/rtl/udm/syn/NEXYS4-DDR/NEXYS4_DDR.xpr [current_project]
   set_property ip_cache_permissions disable [current_project]
   set_property XPM_LIBRARIES XPM_CDC [current_project]
-  add_files -quiet C:/Users/Drus/Desktop/activecore-master/designs/rtl/udm/syn/NEXYS4-DDR/NEXYS4_DDR.runs/synth_1/NEXYS4_DDR.dcp
-  read_ip -quiet C:/Users/Drus/Desktop/activecore-master/designs/rtl/udm/syn/NEXYS4-DDR/NEXYS4_DDR.srcs/sources_1/ip/sys_clk/sys_clk.xci
-  read_xdc C:/Users/Drus/Desktop/activecore-master/designs/rtl/udm/syn/NEXYS4-DDR/NEXYS4_DDR.xdc
+  add_files -quiet C:/Users/bladk/AppData/Roaming/Xilinx/Sobel/activecore-master/designs/rtl/udm/syn/NEXYS4-DDR/NEXYS4_DDR.runs/synth_1/NEXYS4_DDR.dcp
+  read_ip -quiet C:/Users/bladk/AppData/Roaming/Xilinx/Sobel/activecore-master/designs/rtl/udm/syn/NEXYS4-DDR/NEXYS4_DDR.srcs/sources_1/ip/sys_clk/sys_clk.xci
+  read_xdc C:/Users/bladk/AppData/Roaming/Xilinx/Sobel/activecore-master/designs/rtl/udm/syn/NEXYS4-DDR/NEXYS4_DDR.xdc
   link_design -top NEXYS4_DDR -part xc7a100tcsg324-3
   close_msg_db -file init_design.pb
 } RESULT]

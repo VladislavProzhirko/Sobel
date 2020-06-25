@@ -1,14 +1,13 @@
-#-----------------------------------------------------------
-# Vivado v2019.2 (64-bit)
-# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
-# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
-# Start of session at: Thu Jun 25 15:59:28 2020
-# Process ID: 17312
-# Current directory: C:/Users/bladk/AppData/Roaming/Xilinx/Sobel/activecore-master/designs/rtl/udm/syn/NEXYS4-DDR/NEXYS4_DDR.runs/impl_1
-# Command line: vivado.exe -log NEXYS4_DDR.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source NEXYS4_DDR.tcl -notrace
-# Log file: C:/Users/bladk/AppData/Roaming/Xilinx/Sobel/activecore-master/designs/rtl/udm/syn/NEXYS4-DDR/NEXYS4_DDR.runs/impl_1/NEXYS4_DDR.vdi
-# Journal file: C:/Users/bladk/AppData/Roaming/Xilinx/Sobel/activecore-master/designs/rtl/udm/syn/NEXYS4-DDR/NEXYS4_DDR.runs/impl_1\vivado.jou
-#-----------------------------------------------------------
+
+*** Running vivado
+    with args -log NEXYS4_DDR.vdi -applog -m64 -product Vivado -messageDb vivado.pb -mode batch -source NEXYS4_DDR.tcl -notrace
+
+
+****** Vivado v2019.2 (64-bit)
+  **** SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+  **** IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+    ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
 source NEXYS4_DDR.tcl -notrace
 Command: link_design -top NEXYS4_DDR -part xc7a100tcsg324-3
 Design is defaulting to srcset: sources_1

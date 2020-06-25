@@ -17,6 +17,7 @@ proc create_report { reportName command } {
     send_msg_id runtcl-5 warning "$msg"
   }
 }
+set_param chipscope.maxJobs 1
 set_msg_config -id {HDL 9-1061} -limit 100000
 set_msg_config -id {HDL 9-1654} -limit 100000
 create_project -in_memory -part xc7a100tcsg324-3
@@ -25,28 +26,37 @@ set_param project.singleFileAddWarning.threshold 0
 set_param project.compositeFile.enableAutoGeneration 0
 set_param synth.vivado.isSynthRun true
 set_msg_config -source 4 -id {IP_Flow 19-2162} -severity warning -new_severity info
-set_property webtalk.parent_dir C:/Users/Drus/Desktop/activecore-master/designs/rtl/udm/syn/NEXYS4-DDR/NEXYS4_DDR.cache/wt [current_project]
-set_property parent.project_path C:/Users/Drus/Desktop/activecore-master/designs/rtl/udm/syn/NEXYS4-DDR/NEXYS4_DDR.xpr [current_project]
+set_property webtalk.parent_dir C:/Users/bladk/AppData/Roaming/Xilinx/Sobel/activecore-master/designs/rtl/udm/syn/NEXYS4-DDR/NEXYS4_DDR.cache/wt [current_project]
+set_property parent.project_path C:/Users/bladk/AppData/Roaming/Xilinx/Sobel/activecore-master/designs/rtl/udm/syn/NEXYS4-DDR/NEXYS4_DDR.xpr [current_project]
 set_property XPM_LIBRARIES XPM_CDC [current_project]
 set_property default_lib xil_defaultlib [current_project]
 set_property target_language Verilog [current_project]
 set_property ip_cache_permissions disable [current_project]
 read_verilog -library xil_defaultlib {
-  C:/Users/Drus/Desktop/activecore-master/designs/rtl/udm/syn/NEXYS4-DDR/NEXYS4_DDR.v
-  C:/Users/Drus/Desktop/activecore-master/designs/rtl/udm/hdl/udm.v
-  C:/Users/Drus/Desktop/activecore-master/designs/rtl/udm/hdl/uart_rx.v
-  C:/Users/Drus/Desktop/activecore-master/designs/rtl/udm/hdl/udm_controller.v
-  C:/Users/Drus/Desktop/activecore-master/designs/rtl/udm/hdl/uart_tx.v
-  C:/Users/Drus/Desktop/activecore-master/designs/rtl/reset_cntrl/reset_cntrl.v
-  C:/Users/Drus/Desktop/activecore-master/designs/rtl/ram/ram_dual_memsplit.v
-  C:/Users/Drus/Desktop/activecore-master/designs/rtl/ram/ram.v
-  C:/Users/Drus/Desktop/activecore-master/designs/rtl/ram/ram_dual.v
-  C:/Users/Drus/Desktop/crc32/crc32/syn/verilog/make_hash.v
+  C:/Users/bladk/AppData/Roaming/Xilinx/Sobel/activecore-master/designs/rtl/udm/syn/NEXYS4-DDR/NEXYS4_DDR.v
+  C:/Users/bladk/AppData/Roaming/Xilinx/Sobel/activecore-master/designs/rtl/udm/hdl/udm.v
+  C:/Users/bladk/AppData/Roaming/Xilinx/Sobel/activecore-master/designs/rtl/udm/hdl/uart_rx.v
+  C:/Users/bladk/AppData/Roaming/Xilinx/Sobel/activecore-master/designs/rtl/udm/hdl/udm_controller.v
+  C:/Users/bladk/AppData/Roaming/Xilinx/Sobel/activecore-master/designs/rtl/udm/hdl/uart_tx.v
+  C:/Users/bladk/AppData/Roaming/Xilinx/Sobel/activecore-master/designs/rtl/reset_cntrl/reset_cntrl.v
+  C:/Users/bladk/AppData/Roaming/Xilinx/Sobel/activecore-master/designs/rtl/ram/ram_dual_memsplit.v
+  C:/Users/bladk/AppData/Roaming/Xilinx/Sobel/activecore-master/designs/rtl/ram/ram.v
+  C:/Users/bladk/AppData/Roaming/Xilinx/Sobel/activecore-master/designs/rtl/ram/ram_dual.v
+  C:/Users/bladk/AppData/Roaming/Xilinx/Sobel/Vivado_Sobel_v3/solution1/syn/verilog/Sobel.v
+  C:/Users/bladk/AppData/Roaming/Xilinx/Sobel/Vivado_Sobel_v3/solution1/syn/verilog/Array2Mat.v
+  C:/Users/bladk/AppData/Roaming/Xilinx/Sobel/Vivado_Sobel_v3/solution1/syn/verilog/Mat2Array.v
+  C:/Users/bladk/AppData/Roaming/Xilinx/Sobel/Vivado_Sobel_v3/solution1/syn/verilog/fifo_w5_d2_A.v
+  C:/Users/bladk/AppData/Roaming/Xilinx/Sobel/Vivado_Sobel_v3/solution1/syn/verilog/fifo_w8_d2_A.v
+  C:/Users/bladk/AppData/Roaming/Xilinx/Sobel/Vivado_Sobel_v3/solution1/syn/verilog/Filter2D_k_buf_0_bkb.v
+  C:/Users/bladk/AppData/Roaming/Xilinx/Sobel/Vivado_Sobel_v3/solution1/syn/verilog/start_for_Filter2eOg.v
+  C:/Users/bladk/AppData/Roaming/Xilinx/Sobel/Vivado_Sobel_v3/solution1/syn/verilog/Block_proc.v
+  C:/Users/bladk/AppData/Roaming/Xilinx/Sobel/Vivado_Sobel_v3/solution1/syn/verilog/Sobel_mux_32_8_1_1.v
+  C:/Users/bladk/AppData/Roaming/Xilinx/Sobel/Vivado_Sobel_v3/solution1/syn/verilog/Filter2D.v
 }
-read_ip -quiet C:/Users/Drus/Desktop/activecore-master/designs/rtl/udm/syn/NEXYS4-DDR/NEXYS4_DDR.srcs/sources_1/ip/sys_clk/sys_clk.xci
-set_property used_in_implementation false [get_files -all c:/Users/Drus/Desktop/activecore-master/designs/rtl/udm/syn/NEXYS4-DDR/NEXYS4_DDR.srcs/sources_1/ip/sys_clk/sys_clk_board.xdc]
-set_property used_in_implementation false [get_files -all c:/Users/Drus/Desktop/activecore-master/designs/rtl/udm/syn/NEXYS4-DDR/NEXYS4_DDR.srcs/sources_1/ip/sys_clk/sys_clk.xdc]
-set_property used_in_implementation false [get_files -all c:/Users/Drus/Desktop/activecore-master/designs/rtl/udm/syn/NEXYS4-DDR/NEXYS4_DDR.srcs/sources_1/ip/sys_clk/sys_clk_ooc.xdc]
+read_ip -quiet C:/Users/bladk/AppData/Roaming/Xilinx/Sobel/activecore-master/designs/rtl/udm/syn/NEXYS4-DDR/NEXYS4_DDR.srcs/sources_1/ip/sys_clk/sys_clk.xci
+set_property used_in_implementation false [get_files -all c:/Users/bladk/AppData/Roaming/Xilinx/Sobel/activecore-master/designs/rtl/udm/syn/NEXYS4-DDR/NEXYS4_DDR.srcs/sources_1/ip/sys_clk/sys_clk_board.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/bladk/AppData/Roaming/Xilinx/Sobel/activecore-master/designs/rtl/udm/syn/NEXYS4-DDR/NEXYS4_DDR.srcs/sources_1/ip/sys_clk/sys_clk.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/bladk/AppData/Roaming/Xilinx/Sobel/activecore-master/designs/rtl/udm/syn/NEXYS4-DDR/NEXYS4_DDR.srcs/sources_1/ip/sys_clk/sys_clk_ooc.xdc]
 
 # Mark all dcp files as not used in implementation to prevent them from being
 # stitched into the results of this synthesis run. Any black boxes in the
@@ -56,8 +66,8 @@ set_property used_in_implementation false [get_files -all c:/Users/Drus/Desktop/
 foreach dcp [get_files -quiet -all -filter file_type=="Design\ Checkpoint"] {
   set_property used_in_implementation false $dcp
 }
-read_xdc C:/Users/Drus/Desktop/activecore-master/designs/rtl/udm/syn/NEXYS4-DDR/NEXYS4_DDR.xdc
-set_property used_in_implementation false [get_files C:/Users/Drus/Desktop/activecore-master/designs/rtl/udm/syn/NEXYS4-DDR/NEXYS4_DDR.xdc]
+read_xdc C:/Users/bladk/AppData/Roaming/Xilinx/Sobel/activecore-master/designs/rtl/udm/syn/NEXYS4-DDR/NEXYS4_DDR.xdc
+set_property used_in_implementation false [get_files C:/Users/bladk/AppData/Roaming/Xilinx/Sobel/activecore-master/designs/rtl/udm/syn/NEXYS4-DDR/NEXYS4_DDR.xdc]
 
 set_param ips.enableIPCacheLiteLoad 1
 close [open __synthesis_is_running__ w]
